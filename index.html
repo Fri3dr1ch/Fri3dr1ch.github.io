@@ -1,9 +1,59 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
-    <title>This is the title of the webpage!</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KdV on the Torus — Draw &amp; Solve</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- KaTeX for rendering the equation -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+            onload="renderMathInElement(document.body, {delimiters: [{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}]});"></script>
   </head>
   <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
+    <div class="container">
+      <header>
+        <h1>KdV on the Torus</h1>
+        <p class="subtitle">Draw an initial profile $u(x,0)$ on $[-2,2]\times[-1,1]$, then watch it evolve under the Korteweg–de Vries equation (periodic boundary conditions).</p>
+        <div class="equation">$$u_t \;-\; 6\,u\,u_x \;+\; u_{xxx} \;=\; 0$$</div>
+      </header>
+
+      <div class="canvas-grid">
+        <div class="canvas-card">
+          <h2>Draw initial data</h2>
+          <canvas id="drawCanvas"></canvas>
+          <p class="hint">Click &amp; drag (or touch) to draw. The curve is treated as periodic on $[-2,2)$.</p>
+        </div>
+        <div class="canvas-card">
+          <h2>Solution $u(x,t)$</h2>
+          <canvas id="plotCanvas"></canvas>
+          <p class="hint">Faint line shows the initial profile; bright line is the current solution.</p>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button id="btnSolve" class="btn btn-primary" type="button">Solve</button>
+        <button id="btnPlay" class="btn" type="button">Play</button>
+        <button id="btnReset" class="btn" type="button">Reset</button>
+        <button id="btnClear" class="btn btn-danger" type="button">Clear</button>
+        <span class="preset-label">Presets:</span>
+        <span id="presetGroup" class="controls" style="gap:6px; margin:0;"></span>
+      </div>
+
+      <div id="status" class="status-bar">Loading…</div>
+
+      <footer>
+        Periodic on $[-2,2)$ &middot; solved with a Fourier pseudo-spectral method
+        (integrating factor + RK4, 2/3 dealiasing) &middot; $N=256$.
+      </footer>
+    </div>
+
+    <!-- Scripts: order matters (fft -> kdv -> draw -> plot -> main) -->
+    <script src="js/fft.js"></script>
+    <script src="js/kdv.js"></script>
+    <script src="js/draw.js"></script>
+    <script src="js/plot.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
