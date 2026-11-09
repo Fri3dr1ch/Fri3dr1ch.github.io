@@ -1,0 +1,1165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fafafa">
+  <meta name="description" content="Draw a planar domain and compute approximate Laplacian eigenfunctions with Dirichlet, Neumann, or Robin boundary conditions.">
+  <title>Eigenfunctions of the planar Laplacian</title>
+  <style>
+:root {
+  color-scheme: light;
+  --paper: #fafafa;
+  --surface: #ffffff;
+  --ink: #242d31;
+  --muted: #59666d;
+  --line: #d5dcdf;
+  --accent: #245b64;
+  --accent-light: #eaf2f3;
+  --math: "STIX Two Math", "Cambria Math", "Latin Modern Math", "Times New Roman", serif;
+  --sans: Arial, Helvetica, sans-serif;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { scroll-padding-top: 16px; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 15px/1.55 var(--sans); }
+button, select, input { font: inherit; }
+button, select, input, a { touch-action: manipulation; }
+button { cursor: pointer; }
+button:disabled { opacity: .48; cursor: default; }
+button, select, input[type=number] { border: 1px solid #aebbc1; border-radius: 3px; background: #fff; color: var(--ink); }
+button { padding: 7px 11px; font-size: 14px; line-height: 1.4; }
+button:hover:enabled { background: var(--accent-light); border-color: #78969e; }
+button:focus-visible, a:focus-visible, select:focus-visible, input:focus-visible, canvas:focus-visible, summary:focus-visible { outline: 2px solid #2c7484; outline-offset: 3px; }
+select { display: block; width: 100%; min-height: 38px; padding: 6px 30px 6px 10px; }
+input[type=range] { accent-color: var(--accent); width: 100%; min-width: 0; cursor: pointer; }
+input[type=number] { padding: 6px 8px; }
+a { color: #1b5f76; text-underline-offset: 3px; }
+a:hover { color: #113c4b; }
+p { margin: 0 0 12px; }
+h1, h2, h3 { font-family: var(--sans); line-height: 1.3; letter-spacing: normal; }
+h1 { font-size: clamp(26px, 3vw, 34px); font-weight: 600; margin: 0 0 16px; }
+h2 { font-size: 21px; font-weight: 600; margin: 0 0 16px; }
+h3 { font-size: 17px; font-weight: 600; margin: 0 0 12px; }
+label { display: block; margin-bottom: 6px; font-weight: 600; font-size: 14px; }
+.math, math { font-family: var(--math); font-size: 1.08em; }
+.math { white-space: normal; }
+.math sub, .math sup { font-size: .75em; }
+.secondary-text { color: var(--muted); font-size: 13px; }
+.page-shell { max-width: 1400px; margin: 0 auto; padding: 0 24px; }
+.site-header { display: flex; align-items: center; justify-content: flex-start; gap: 16px; padding: 16px 0; border-bottom: 1px solid var(--line); font-size: 13px; color: var(--muted); }
+.site-header nav { display: flex; flex-wrap: wrap; gap: 16px; }
+.site-header a { color: var(--muted); }
+.skip-link { position: absolute; top: -100px; left: 16px; background: #fff; padding: 8px 12px; z-index: 10; }
+.skip-link:focus { top: 8px; }
+.intro { padding: 24px 0 16px; }
+.intro p { max-width: 112ch; margin-bottom: 12px; }
+.workspace { display: grid; grid-template-columns: minmax(300px, 360px) minmax(0, 1fr); gap: 24px; margin: 8px 0 24px; align-items: start; }
+.domain-panel, .result-panel { min-width: 0; }
+.result-panel { border-left: 1px solid var(--line); padding-left: 24px; }
+.section-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+.section-heading h2 { margin: 0; }
+.control-group { margin: 0 0 16px; }
+.control-note, .plot-note, .shape-story { color: var(--muted); font-size: 13px; line-height: 1.5; }
+.control-note { margin: 7px 0 0; }
+.shape-story { padding: 0; margin: 10px 0 16px; }
+.shape-parameter { display: grid; grid-template-columns: 1fr auto; gap: 6px 12px; margin-bottom: 16px; align-items: center; }
+.shape-parameter label { margin: 0; }
+.shape-parameter input { grid-column: 1 / -1; margin: 2px 0; }
+.shape-parameter output { color: var(--accent); font-variant-numeric: tabular-nums; }
+.drawing-shell { position: relative; width: 100%; aspect-ratio: 1; border: 1px solid #bdc9cd; background: #f3f5ec; border-radius: 2px; overflow: hidden; }
+#drawing { display: block; width: 100%; height: 100%; touch-action: none; cursor: crosshair; }
+.drawing-topline { position: absolute; display: flex; justify-content: space-between; align-items: center; gap: 8px; top: 8px; left: 10px; right: 8px; pointer-events: none; font-size: 12px; color: #4d6457; }
+.drawing-topline > span { background: #f3f5ecee; padding: 2px 4px; }
+.drawing-topline button { pointer-events: auto; background: #f3f5ecee; padding: 3px 6px; font-size: 12px; }
+.axis-label { position: absolute; color: #596c61; font: italic 13px var(--math); pointer-events: none; }
+.axis-y { top: 42px; left: calc(50% + 7px); }
+.axis-x { right: 9px; top: calc(50% + 5px); }
+.drawing-scale { position: absolute; bottom: 6px; left: 8px; color: #637366; font-size: 12px; pointer-events: none; }
+.scale-right { left: auto; right: 8px; }
+.robin-controls { margin: -4px 0 16px; }
+.robin-alpha-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.robin-alpha-row label { margin: 0; }
+.robin-alpha-row input { width: 100px; }
+.robin-presets { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.robin-presets button { font-size: 12px; padding: 5px 7px; }
+.advanced-settings { margin: 0 0 16px; }
+.advanced-settings > summary { cursor: pointer; font-size: 14px; color: #3f5661; padding: 4px 0; }
+.advanced-content { padding: 12px 0 0 12px; margin-top: 4px; border-left: 2px solid var(--line); }
+.advanced-content .control-group { margin-bottom: 12px; }
+.advanced-content .control-group:last-child { margin-bottom: 0; }
+.primary-button { display: block; width: 100%; min-height: 40px; background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+.primary-button:hover:enabled { background: #1a4650; border-color: #1a4650; }
+.quiet-button { display: inline-flex; align-items: center; justify-content: center; gap: 6px; background: transparent; border-color: transparent; font-size: 13px; padding: 5px 7px; }
+.feedback { font-size: 13px; margin-top: 9px; min-height: 38px; color: #455c50; line-height: 1.5; }
+.feedback.error { color: #9b342a; }
+.feedback.stale { color: #7d5c20; }
+svg { width: 18px; height: 18px; stroke: currentColor; stroke-width: 1.6; fill: none; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
+.icon-library { position: absolute; width: 0; height: 0; overflow: hidden; }
+.visualization { position: relative; width: 100%; height: 500px; background: #0e2325; color: #e6eddc; border: 1px solid #19383b; border-radius: 2px; overflow: hidden; }
+#field { position: absolute; inset: 0; display: block; width: 100%; height: 100%; }
+.viz-topline { position: absolute; top: 18px; left: 18px; right: 18px; display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; pointer-events: none; }
+.viz-domain { font-size: 13px; color: #c3d5c6; }
+.mode-title { font-size: 19px; margin-top: 5px; }
+.mode-title span { font: italic 24px var(--math); margin-left: 6px; color: #d6e2be; }
+.eigenvalue { text-align: right; display: flex; flex-direction: column; align-items: flex-end; gap: 3px; }
+.eigenvalue > span { font: italic 19px var(--math); color: #c3d5c6; }
+.eigenvalue strong { font: 25px var(--math); color: #eef0da; font-variant-numeric: tabular-nums; }
+.viz-bottomline { position: absolute; bottom: 14px; left: 18px; right: 18px; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.viz-bottomline > span { font-size: 12px; color: #c3d5c6; }
+.animate-button { display: flex; align-items: center; gap: 6px; font-size: 13px; border: 1px solid #819d90; color: #e3eadb; background: #173537; padding: 5px 8px; }
+.animate-button:hover:enabled { background: #294b48; }
+.animate-button svg { width: 12px; height: 12px; }
+.plot-legend { display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap; gap: 8px 12px; margin-top: 9px; color: var(--muted); font-size: 12px; }
+.color-key { display: flex; align-items: center; gap: 7px; width: 175px; color: var(--muted); font-size: 12px; }
+.color-key div { height: 5px; flex: 1; background: linear-gradient(90deg, #5198bc, #244e55); }
+.color-key div:nth-of-type(2) { background: linear-gradient(90deg, #244e55, #e9d86c); }
+.viz-overlay { position: absolute; inset: 0; z-index: 2; background: #0e2325ed; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; color: #cfddcd; font-size: 14px; padding: 24px; text-align: center; }
+.loader { width: 26px; height: 26px; border: 2px solid #527269; border-top-color: #d5d995; border-radius: 50%; animation: spin 1.2s linear infinite; }
+.progress-track { width: 160px; height: 3px; background: #324e45; overflow: hidden; }
+.progress-track span { display: block; width: 0; height: 100%; background: #d1d98f; transition: width .2s; }
+.viz-overlay.idle .loader, .viz-overlay.idle .progress-track, .viz-overlay.error .loader, .viz-overlay.error .progress-track { display: none; }
+.mode-picker-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 14px 0 9px; font-size: 14px; }
+#mode-count { white-space: nowrap; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.mode-strip { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 6px; }
+.mode-button { display: flex; flex-direction: column; align-items: center; gap: 3px; min-width: 0; background: #fff; padding: 4px 3px; color: #53646a; border-color: #cbd4d7; }
+.mode-button canvas { width: 100%; height: auto; aspect-ratio: 1; display: block; }
+.mode-button span { font-size: 12px; font-variant-numeric: tabular-nums; }
+.mode-button.active { color: #193c45; border: 2px solid #477a87; background: var(--accent-light); padding: 3px 2px; }
+.result-bottom { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 14px; margin: 12px 0 7px; }
+.checkbox-label { display: inline-flex; align-items: center; gap: 7px; font-size: 13px; font-weight: 400; margin: 0; cursor: pointer; }
+.checkbox-label input { width: 16px; height: 16px; margin: 0; accent-color: var(--accent); }
+#solver-info { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.plot-note { margin: 0; }
+.boundary-note { margin: 0 0 24px; padding-top: 16px; border-top: 1px solid var(--line); }
+.equation { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 12px; font-size: 21px; margin-bottom: 8px; }
+.equation-separator { font: 14px var(--sans); color: var(--muted); }
+.boundary-note p { max-width: 100ch; font-size: 14px; color: var(--muted); margin: 0; }
+.experiments { margin: 0 0 24px; }
+.experiment-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.experiment-section { min-width: 0; }
+.experiment-section p { max-width: 78ch; font-size: 14px; }
+.experiment-section .control-note { font-size: 13px; }
+.sound-buttons { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 10px; }
+.sound-buttons button:not(.quiet-button) { background: #fff; color: var(--accent); }
+.sound-buttons button:hover:enabled { background: var(--accent-light); }
+.experiment-section .advanced-settings { margin: 12px 0; }
+.volume-control { display: flex; align-items: center; gap: 16px; }
+.volume-control label { margin: 0; }
+.volume-control input { max-width: 200px; }
+.sum-equation { font-family: var(--math); font-size: 21px; margin: 12px 0 16px; text-align: left; }
+.sum-equation math { margin: 0; text-align: left; display: block; }
+.sum-control { display: flex; align-items: center; gap: 12px; margin: 12px 0; }
+.sum-control label { margin: 0; white-space: nowrap; font-size: 13px; }
+.sum-control input { flex: 1; max-width: 220px; }
+.sum-control output { min-width: 22px; font-variant-numeric: tabular-nums; }
+.sum-values { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 12px 0; }
+.sum-values > div > span { display: block; font-size: 13px; color: var(--muted); }
+.sum-values strong { display: block; font: 25px var(--math); margin: 4px 0 8px; font-variant-numeric: tabular-nums; }
+.sum-bar { height: 5px; background: #e2e8eb; overflow: hidden; }
+.sum-bar span { display: block; height: 100%; width: 0; background: #8da6b2; }
+.sum-bar.actual span { background: #3d7585; }
+.sum-muted .sum-values { opacity: .55; }
+.related-reading { margin-top: 24px; max-width: 112ch; }
+.related-reading p { font-size: 14px; }
+.method-section { margin: 24px 0; padding-top: 20px; border-top: 1px solid var(--line); }
+.method-section p { max-width: 112ch; font-size: 14px; }
+footer { border-top: 1px solid var(--line); padding: 16px 0 24px; display: flex; justify-content: space-between; gap: 12px; font-size: 12px; color: var(--muted); }
+dialog { max-width: 680px; width: calc(100% - 32px); max-height: 85vh; overflow: auto; padding: 20px; background: #fff; color: var(--ink); border: 1px solid #a9b7be; border-radius: 3px; font: 14px/1.6 var(--sans); }
+dialog::backdrop { background: #172c3855; }
+dialog p:last-child { margin-bottom: 0; }
+.noscript { padding: 16px; color: #9b342a; }
+@keyframes spin { to { transform: rotate(360deg); } }
+@media (max-width: 1100px) {
+  .workspace { grid-template-columns: minmax(280px, 330px) minmax(0, 1fr); gap: 20px; }
+  .result-panel { padding-left: 20px; }
+  .visualization { height: 450px; }
+  .mode-strip { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .mode-button { flex-direction: row; justify-content: center; gap: 6px; }
+  .mode-button canvas { width: 30px; height: 30px; }
+  .mode-picker-heading .secondary-text { display: block; font-size: 12px; margin-top: 2px; }
+}
+@media (max-width: 800px) {
+  .page-shell { padding: 0 16px; }
+  .site-header { align-items: flex-start; flex-wrap: wrap; padding: 12px 0; gap: 10px; }
+  .site-header nav { gap: 12px; }
+  .workspace { grid-template-columns: 1fr; gap: 20px; }
+  .domain-panel { display: block; }
+  .drawing-shell { max-width: 420px; }
+  .result-panel { padding: 20px 0 0; border-left: 0; border-top: 1px solid var(--line); }
+  .visualization { height: 470px; }
+  .mode-strip { grid-template-columns: repeat(12, minmax(0, 1fr)); }
+  .mode-button { flex-direction: column; gap: 3px; }
+  .mode-button canvas { width: 100%; height: auto; }
+  .mode-picker-heading .secondary-text { display: inline; }
+  .experiment-grid { gap: 20px; }
+  .sum-control { flex-wrap: wrap; }
+  .sum-control input { max-width: none; }
+}
+@media (max-width: 560px) {
+  .page-shell { padding: 0 14px; }
+  body { font-size: 14px; }
+  .site-header { font-size: 12px; }
+  .site-header nav { gap: 12px; }
+  .intro { padding-top: 20px; }
+  h1 { font-size: 27px; }
+  h2 { font-size: 20px; }
+  .domain-panel { display: block; }
+  .drawing-shell { max-width: 430px; margin: 0 auto; }
+  .shape-story { margin-bottom: 16px; }
+  .visualization { height: 390px; }
+  .viz-topline { left: 13px; right: 13px; top: 14px; }
+  .viz-domain { font-size: 12px; }
+  .mode-title { font-size: 17px; }
+  .mode-title span { font-size: 22px; }
+  .eigenvalue strong { font-size: 23px; }
+  .viz-bottomline { left: 13px; right: 13px; bottom: 12px; }
+  .viz-bottomline > span { font-size: 11px; max-width: 180px; }
+  .mode-strip { grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 7px; }
+  .mode-button canvas { max-width: 42px; }
+  .section-heading { align-items: flex-start; }
+  .section-heading .quiet-button { font-size: 12px; }
+  .mode-picker-heading .secondary-text { display: block; font-size: 12px; }
+  .experiment-grid { grid-template-columns: 1fr; gap: 24px; }
+  .related-reading { margin-top: 24px; }
+  .sum-control { flex-wrap: nowrap; }
+  footer { display: block; }
+  footer span { display: block; margin-bottom: 6px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition: none !important; }
+}
+
+/* Directly accessible domain examples, as requested for this page. */
+.control-label { display: block; margin-bottom: 6px; font-weight: 600; font-size: 14px; }
+.shape-buttons { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 6px; }
+.shape-button { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; min-width: 0; min-height: 73px; padding: 7px 2px; color: #52626a; border-color: #c3ced3; }
+.shape-button svg { width: 25px; height: 25px; stroke-width: 1.4; }
+.shape-button span { font-size: 11px; line-height: 1.25; text-align: center; }
+.shape-button.active { background: var(--accent-light); border-color: var(--accent); color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.audio-section { max-width: 85ch; }
+.audio-section p { font-size: 14px; }
+.audio-section .control-note { font-size: 13px; }
+.audio-section .advanced-settings { margin: 12px 0; }
+.mathematical-facts { margin: 24px 0; }
+.fact-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; }
+.fact-grid .related-reading { margin-top: 0; }
+.existing-facts { margin-top: 24px; max-width: 112ch; font-size: 14px; }
+@media (max-width: 800px) { .fact-grid { grid-template-columns: 1fr; gap: 24px; } }
+@media (max-width: 360px) { .shape-buttons { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+/* Lecture-style mathematical statements and proof references. */
+.lecture-notes { max-width: 112ch; }
+.facts-contents { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px 20px; padding: 12px 0 12px 14px; margin: 16px 0 24px; border-left: 2px solid var(--line); font-size: 14px; }
+.facts-setup { margin: 20px 0 28px; }
+.theory-table-scroll { max-width: 100%; overflow-x: auto; margin: 16px 0; }
+.theory-table { border-collapse: collapse; width: 100%; min-width: 520px; font-size: 14px; text-align: left; }
+.theory-table caption { text-align: left; font-weight: 600; margin-bottom: 8px; }
+.theory-table th, .theory-table td { padding: 9px 12px; vertical-align: top; border-bottom: 1px solid var(--line); }
+.theory-table thead { background: #edf2f4; }
+.theory-table tbody th { font-weight: 400; }
+.theorem-entry { padding-top: 20px; margin: 28px 0; border-top: 1px solid var(--line); scroll-margin-top: 18px; }
+.theorem-entry h3 { font-size: 19px; margin-bottom: 10px; }
+.theorem-intuition { color: var(--muted); font-size: 14px; }
+.theorem-statement { border-left: 3px solid #bdced5; padding-left: 14px; margin: 14px 0; }
+.theorem-statement p:last-child { margin-bottom: 0; }
+.math-display { max-width: 100%; overflow-x: auto; padding: 5px 0; margin: 12px 0; }
+.math-display math { font-family: var(--math); font-size: 1.12em; }
+.math-display annotation { display: none; }
+.proof-reference { color: #4c5e66; font-size: 13px; line-height: 1.6; margin-top: 12px; }
+.numerical-illustration { margin: 18px 0 0; padding: 14px; border: 1px solid var(--line); max-width: 650px; }
+.numerical-illustration h4 { margin: 0 0 10px; font-size: 15px; }
+.numerical-illustration .control-note { font-size: 13px; }
+.proof-bibliography { margin: 30px 0 20px; border-top: 1px solid var(--line); padding-top: 20px; }
+.proof-bibliography > p { font-size: 13px; color: var(--muted); }
+.proof-bibliography ol { padding-left: 26px; margin: 14px 0; }
+.proof-bibliography li { margin-bottom: 12px; padding-left: 5px; font-size: 13px; line-height: 1.65; overflow-wrap: anywhere; scroll-margin-top: 18px; }
+.status-review { border-left: 3px solid #bdced5; padding-left: 14px; color: #4c5e66; font-size: 14px; }
+.conjecture-status, .research-update { font-size: 14px; }
+.conjecture-status strong { color: #214b5b; }
+.research-update { padding-left: 14px; border-left: 2px solid var(--line); }
+.proof-bibliography .open-reference-list { list-style: none; padding-left: 0; }
+.open-reference-list li { padding-left: 0; }
+.reference-label { font-weight: 600; }
+@media (max-width: 560px) {
+  .facts-contents { grid-template-columns: 1fr; gap: 8px; }
+  .theorem-entry h3 { font-size: 18px; }
+  .theorem-statement { padding-left: 10px; }
+  .numerical-illustration { padding: 12px; }
+  .math-display math { font-size: 1.03em; }
+}
+
+</style>
+</head>
+<body>
+  <a class="skip-link" href="#tool">Skip to the eigenfunction tool</a>
+  <svg class="icon-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs>
+    <symbol id="i-clear" viewBox="0 0 24 24"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13M10 11v5M14 11v5"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="m8 5 11 7-11 7V5Z"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14"/></symbol>
+    <symbol id="i-circle" viewBox="0 0 32 32"><circle cx="16" cy="16" r="11"/></symbol>
+    <symbol id="i-triangle" viewBox="0 0 32 32"><path d="m16 4 13 23H3L16 4Z"/></symbol>
+    <symbol id="i-square" viewBox="0 0 32 32"><rect x="5" y="5" width="22" height="22" rx="1"/></symbol>
+    <symbol id="i-hexagon" viewBox="0 0 32 32"><path d="m9 4 14 0 7 12-7 12H9L2 16 9 4Z"/></symbol>
+    <symbol id="i-duck" viewBox="0 0 32 32"><path d="M3 15c3 2 5 3 9 1l3-2c-4-6 0-11 5-10 4 0 6 3 6 6l4 2-5 3c0 8-6 13-14 12C5 26 3 21 3 15Z"/></symbol>
+    <symbol id="i-eight" viewBox="0 0 32 32"><path d="M16 3c-8 0-10 7-5 13-5 6-3 13 5 13s10-7 5-13c5-6 3-13-5-13Z"/></symbol>
+    <symbol id="i-pacman" viewBox="0 0 32 32"><path d="M27 10a13 13 0 1 0 0 12L16 16l11-6Z"/></symbol>
+    <symbol id="i-lshape" viewBox="0 0 32 32"><path d="M5 4h10v13h13v11H5V4Z"/></symbol>
+    <symbol id="i-rectangle" viewBox="0 0 32 32"><rect x="3" y="9" width="26" height="14" rx=".5"/></symbol>
+    <symbol id="i-righttriangle" viewBox="0 0 32 32"><path d="M5 4v24h23L5 4Z"/><path d="M5 23h5v5"/></symbol>
+  </defs></svg>
+  <div class="page-shell">
+    <header class="site-header">
+      <nav aria-label="Page sections"><a href="#tool">Eigenfunctions</a><a href="#experiments">Sound</a><a href="#mathematical-facts">Mathematical facts</a><a href="#open-problems">Open problems</a><a href="#method">Numerical method</a></nav>
+    </header>
+    <main>
+      <section class="intro" aria-labelledby="page-title">
+        <h1 id="page-title">Eigenfunctions of the planar Laplacian</h1>
+        <p>For a bounded, connected domain <span class="math">Ω ⊂ ℝ²</span>, consider the eigenvalue problem <span class="math">−Δu = λu</span> in <span class="math">Ω</span>. Choose either the Dirichlet condition <span class="math">u = 0</span> on <span class="math">∂Ω</span>, or the Robin condition <span class="math">∂<sub>n</sub>u + αu = 0</span>, where <span class="math">n</span> is the outward unit normal. The choice <span class="math">α = 0</span> gives Neumann conditions.</p>
+        <p>Choose an example or draw a simple closed curve to approximate the first 12 eigenpairs. The drawing area represents <span class="math">[−1, 1]²</span>. The plots show signed eigenfunctions, each scaled to <span class="math">max |u| = 1</span>; repeated eigenvalues may give different orthogonal mixtures of modes. The computation uses a square grid, so compare resolutions when a boundary has corners or narrow passages.</p>
+      </section>
+
+      <div class="workspace" id="tool">
+        <section class="domain-panel" aria-labelledby="domain-heading">
+          <h2 id="domain-heading">Domain and boundary conditions</h2>
+          <div class="control-group">
+            <span class="control-label" id="example-domains-label">Example domains</span>
+            <div class="shape-buttons" role="group" aria-labelledby="example-domains-label" aria-describedby="domain-help">
+              <button type="button" class="shape-button active" data-shape="circle" aria-pressed="true"><svg aria-hidden="true"><use href="#i-circle"/></svg><span>Circle</span></button>
+              <button type="button" class="shape-button" data-shape="triangle" aria-pressed="false"><svg aria-hidden="true"><use href="#i-triangle"/></svg><span>Triangle</span></button>
+              <button type="button" class="shape-button" data-shape="square" aria-pressed="false"><svg aria-hidden="true"><use href="#i-square"/></svg><span>Square</span></button>
+              <button type="button" class="shape-button" data-shape="hexagon" aria-pressed="false"><svg aria-hidden="true"><use href="#i-hexagon"/></svg><span>Hexagon</span></button>
+              <button type="button" class="shape-button" data-shape="duck" aria-pressed="false"><svg aria-hidden="true"><use href="#i-duck"/></svg><span>Duck</span></button>
+              <button type="button" class="shape-button" data-shape="eight" aria-pressed="false"><svg aria-hidden="true"><use href="#i-eight"/></svg><span>Smooth 8</span></button>
+              <button type="button" class="shape-button" data-shape="pacman" aria-pressed="false"><svg aria-hidden="true"><use href="#i-pacman"/></svg><span>Pac-Man</span></button>
+              <button type="button" class="shape-button" data-shape="lshape" aria-pressed="false"><svg aria-hidden="true"><use href="#i-lshape"/></svg><span>L-shape</span></button>
+              <button type="button" class="shape-button" data-shape="rectangle" aria-pressed="false"><svg aria-hidden="true"><use href="#i-rectangle"/></svg><span>Rectangle</span></button>
+              <button type="button" class="shape-button" data-shape="righttriangle" aria-pressed="false"><svg aria-hidden="true"><use href="#i-righttriangle"/></svg><span>Right triangle</span></button>
+            </div>
+            <p class="control-note" id="domain-help">You can also draw a single outline with a mouse, pen, or finger. Holes and self-intersections are not supported.</p>
+          </div>
+          <div class="shape-parameter" id="shape-parameter" hidden>
+            <label for="shape-control" id="shape-control-label">Waist-to-tip radius ratio</label>
+            <output id="shape-control-value" for="shape-control">0.16</output>
+            <input id="shape-control" type="range" min="0.06" max="0.7" step="0.01" value="0.16">
+          </div>
+          <div class="drawing-shell">
+            <canvas id="drawing" width="640" height="640" tabindex="0" aria-label="Draw a simple closed curve with your mouse, pen, or finger. Alternatively, choose an example domain above."></canvas>
+            <div class="drawing-topline"><span>Draw a closed curve</span><button id="clear" class="quiet-button" aria-label="Clear drawing"><svg><use href="#i-clear"/></svg><span>Clear</span></button></div>
+            <span class="axis-label axis-y">y</span><span class="axis-label axis-x">x</span><span class="drawing-scale">−1</span><span class="drawing-scale scale-right">1</span>
+          </div>
+          <p class="control-note" id="draw-hint">Click and drag to draw. The outline closes when you release.</p>
+          <p id="shape-story" class="shape-story">Rotational symmetry produces repeated eigenvalues.</p>
+
+          <div class="control-group">
+            <label for="boundary">Boundary condition</label>
+            <select id="boundary"><option value="dirichlet">Dirichlet: u = 0</option><option value="robin">Robin: ∂ₙu + αu = 0</option></select>
+            <p class="control-note">Dirichlet fixes the boundary value to zero. Robin relates the outward normal derivative to the boundary value.</p>
+          </div>
+          <div class="robin-controls" id="robin-controls" hidden>
+            <div class="robin-alpha-row"><label for="robin-alpha">Robin parameter <span class="math">α</span></label><input id="robin-alpha" type="number" value="1" min="-6" max="200" step="0.1" aria-describedby="robin-hint"></div>
+            <p id="robin-hint" class="control-note">Positive α penalizes boundary values. At α = 0 the condition is Neumann.</p>
+          </div>
+          <details class="advanced-settings">
+            <summary>Advanced settings</summary>
+            <div class="advanced-content">
+              <div class="control-group"><label for="resolution">Grid resolution</label><select id="resolution"><option value="64">64 × 64 intervals</option><option value="96" selected>96 × 96 intervals</option><option value="144">144 × 144 intervals</option></select><p class="control-note">Finer grids usually improve the boundary approximation and take longer to compute. The default is 96 intervals in each direction.</p></div>
+              <div id="robin-extra" hidden>
+                <label for="robin-range">Adjust <span class="math">α</span> with a slider</label><input id="robin-range" type="range" min="-6" max="50" step="0.1" value="1">
+                <div class="robin-presets" role="group" aria-label="Robin parameter examples"><button data-alpha="-2">α = −2</button><button data-alpha="0">α = 0 (Neumann)</button><button data-alpha="1">α = 1</button><button data-alpha="20">α = 20</button></div>
+                <p class="control-note">The slider covers −6 to 50. The numeric field accepts values up to 200; <span class="math">α</span> has units of inverse length.</p>
+              </div>
+            </div>
+          </details>
+          <button id="compute" class="primary-button"><span id="compute-label">Compute eigenfunctions</span></button>
+          <div id="feedback" class="feedback" role="status" aria-live="polite">Choose an example or draw a closed curve.</div>
+        </section>
+
+        <section class="result-panel" aria-labelledby="result-heading">
+          <div class="section-heading"><h2 id="result-heading">Computed eigenfunctions</h2><button class="quiet-button" id="download" aria-label="Download eigenfunction as PNG" disabled><svg><use href="#i-download"/></svg><span>Download PNG</span></button></div>
+          <div class="visualization" id="visualization">
+            <canvas id="field" width="1000" height="760" role="img" aria-label="Laplacian eigenfunction visualization"></canvas>
+            <div class="viz-topline"><div><span class="viz-domain" id="shape-name">Circle · Dirichlet</span><div class="mode-title">Eigenfunction <span id="mode-symbol">u₁</span></div></div><div class="eigenvalue"><span id="lambda-symbol">λ₁</span><strong id="eigenvalue">—</strong></div></div>
+            <div class="viz-overlay" id="viz-overlay"><span class="loader"></span><span id="viz-message">Computing the first 12 eigenpairs…</span><div class="progress-track"><span id="progress-bar"></span></div></div>
+            <div class="viz-bottomline"><span id="viz-caption">Dirichlet boundary conditions</span><button id="animate" class="animate-button" disabled><svg><use href="#i-play"/></svg><span>Animate</span></button></div>
+          </div>
+          <div class="plot-legend"><span>Normalized amplitude</span><div class="color-key" aria-label="Colour scale from minus one to plus one"><span>−1</span><div></div><span>0</span><div></div><span>+1</span></div></div>
+          <p class="plot-note">The animation shows a standing-wave solution of the wave equation; colours represent signed displacement, with time rescaled for display.</p>
+          <div class="mode-picker-heading"><span id="mode-label">Select a mode <span class="secondary-text">(increasing eigenvalue)</span></span><span id="mode-count">1 of 12</span></div>
+          <div class="mode-strip" id="modes" role="group" aria-label="Select eigenfunction mode"></div>
+          <div class="result-bottom"><label class="checkbox-label"><input id="nodal" type="checkbox" checked> Show nodal lines</label><span id="solver-info">Computed in your browser</span></div>
+          <p class="plot-note">Blue and yellow represent opposite signs of <span class="math">u</span>. Nodal lines are interior curves on which <span class="math">u = 0</span>. Each mode is normalized separately, so colour does not compare amplitudes between modes.</p>
+        </section>
+      </div>
+
+      <section class="boundary-note" aria-label="Current boundary condition">
+        <div class="equation"><span class="math">−Δu = λu</span><span class="equation-separator">with</span><span class="math" id="boundary-equation">u|<sub>∂Ω</sub> = 0</span></div>
+        <p id="membrane-note">For a membrane with its boundary fixed, positive eigenvalues determine the squared angular frequencies of its standing waves, with unit wave speed.</p>
+      </section>
+
+      <section class="experiments" id="experiments" aria-labelledby="lab-title">
+        <h2 id="lab-title">Listen to the computed modes</h2>
+        <div class="audio-section">
+          <p>Play the selected mode or a blend of the first 12. The common frequency scale is <span class="math">f<sub>j</sub> = 35√λ<sub>j</sub></span> Hz, so changing the shape does not automatically retune its fundamental frequency.</p>
+            <div class="sound-buttons"><button id="hear-mode" disabled>Play selected mode</button><button id="hear-blend" disabled>Play mode blend</button><button id="stop-sound" class="quiet-button" disabled>Stop</button></div>
+            <p id="sound-info" class="control-note" role="status" aria-live="polite">Sound starts only when you press a play button.</p>
+            <details class="advanced-settings"><summary>Advanced settings</summary><div class="advanced-content volume-control"><label for="volume">Volume</label><input id="volume" type="range" min="0" max="0.25" value="0.10" step="0.01"></div></details>
+            <p class="control-note">The blend uses illustrative modal weights and damping, rather than a simulated point strike. Only positive, audible modes are included. A zero or negative eigenvalue has no oscillatory tone in this model.</p>
+        </div>
+      </section>
+
+      <section class="mathematical-facts lecture-notes" id="mathematical-facts" aria-labelledby="facts-heading">
+<h2 id="facts-heading">Mathematical facts about Laplacian eigenvalues</h2>
+<p>These statements concern the continuum operators. Each entry gives an interpretation, a formal statement, and references to proofs. The discrete eigenpairs plotted above approximate this theory; a small matrix residual is not a proof of a continuum statement.</p>
+<nav class="facts-contents" aria-label="Mathematical results">
+<a href="#facts-setup">Set-up and notation</a><a href="#thm-spectrum">1. Spectral existence</a><a href="#thm-regularity">2. Regularity</a><a href="#thm-minmax">3. Variational principles</a><a href="#thm-ground">4. The first eigenpair</a><a href="#thm-robin-order">5. Robin comparison and limits</a><a href="#thm-parameter">6. Dependence on α</a><a href="#thm-scaling">7. Scaling</a><a href="#thm-inclusion">8. Domain inclusion</a><a href="#thm-weyl">9. Weyl’s law</a><a href="#thm-li-yau">10. The Li–Yau bound</a><a href="#thm-faber-krahn">11. Faber–Krahn inequalities</a><a href="#thm-courant">12. Nodal domains</a><a href="#thm-isospectral">13. Isospectral domains</a><a href="#proof-references">Proof references</a>
+</nav>
+<section id="facts-setup" class="facts-setup" aria-labelledby="facts-setup-title">
+<h3 id="facts-setup-title">Set-up and notation</h3>
+<p>A domain is a nonempty, connected, open subset of ℝ². Write <span class="math">A = |Ω|</span> for area, <span class="math">P = |∂Ω|</span> for perimeter, <span class="math">ν</span> for the outward unit normal, and <span class="math">dσ</span> for boundary arclength. Unless a statement explicitly uses weaker hypotheses, the domain is bounded with <span class="math">C<sup>∞</sup></span> boundary. A smooth boundary need not be connected.</p>
+<p>The real Sobolev space <span class="math">H¹(Ω)</span> consists of square-integrable functions with square-integrable weak first derivatives; <span class="math">H¹₀(Ω)</span> is the closure of <span class="math">C<sub>c</sub><sup>∞</sup>(Ω)</span> in <span class="math">H¹(Ω)</span>. The trace operator is denoted by <span class="math">γ</span>. Define the forms</p>
+<div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mtable columnalign="left" rowspacing=".55em"><mtr><mtd><mrow><msubsup><mi>q</mi><mi>D</mi><mi>Ω</mi></msubsup><mrow><mo>(</mo><mrow><mi>u</mi><mo>,</mo><mi>v</mi></mrow><mo>)</mo></mrow><mo>=</mo><mrow><msub><mo>∫</mo><mi>Ω</mi></msub><mrow><mo>∇</mo><mi>u</mi><mo>·</mo><mo>∇</mo><mi>v</mi><mrow><mspace width="0.25em"/><mi>d</mi><mi>x</mi></mrow></mrow></mrow></mrow></mtd></mtr><mtr><mtd><mrow><msubsup><mi>q</mi><mi>α</mi><mi>Ω</mi></msubsup><mrow><mo>(</mo><mrow><mi>u</mi><mo>,</mo><mi>v</mi></mrow><mo>)</mo></mrow><mo>=</mo><mrow><msub><mo>∫</mo><mi>Ω</mi></msub><mrow><mo>∇</mo><mi>u</mi><mo>·</mo><mo>∇</mo><mi>v</mi><mrow><mspace width="0.25em"/><mi>d</mi><mi>x</mi></mrow></mrow></mrow><mo>+</mo><mi>α</mi><mrow><msub><mo>∫</mo><mrow><mo>∂</mo><mi>Ω</mi></mrow></msub><mrow><mi>γ</mi><mi>u</mi><mi>γ</mi><mi>v</mi><mrow><mspace width="0.25em"/><mi>d</mi><mi>σ</mi></mrow></mrow></mrow></mrow></mtd></mtr></mtable><annotation encoding="application/x-tex">q_D^\Omega(u,v)=\int_\Omega\nabla u\cdot\nabla v\,dx,\quad q_\alpha^\Omega(u,v)=\int_\Omega\nabla u\cdot\nabla v\,dx+\alpha\int_{\partial\Omega}\gamma u\,\gamma v\,d\sigma.</annotation></semantics></math></div>
+<div class="theory-table-scroll"><table class="theory-table"><caption>Boundary conditions, form domains, and operators</caption><thead><tr><th scope="col">Condition</th><th scope="col">Form domain V<sub>B</sub></th><th scope="col">Form q<sub>B</sub> / operator</th></tr></thead><tbody><tr><th scope="row">Dirichlet: <span class="math">u = 0</span></th><td><span class="math">H¹₀(Ω)</span></td><td><span class="math">q<sub>D</sub> / A<sub>D</sub></span></td></tr><tr><th scope="row">Neumann: <span class="math">∂<sub>ν</sub>u = 0</span></th><td><span class="math">H¹(Ω)</span></td><td><span class="math">q₀ / A₀ = A<sub>N</sub></span></td></tr><tr><th scope="row">Robin: <span class="math">∂<sub>ν</sub>u + αu = 0</span>, <span class="math">α ∈ ℝ</span></th><td><span class="math">H¹(Ω)</span></td><td><span class="math">q<sub>α</sub> / A<sub>α</sub></span></td></tr></tbody></table></div>
+<p>The operators are the self-adjoint operators associated with these closed, lower-semibounded forms. We write <span class="math">λ<sub>j</sub><sup>D</sup></span>, <span class="math">λ<sub>j</sub><sup>N</sup></span>, and <span class="math">λ<sub>j</sub>(α) = λ<sub>j</sub><sup>R<sub>α</sub></sup></span>, always in nondecreasing order and repeated according to multiplicity, starting at <span class="math">j = 1</span>. A superscript <span class="math">B</span> means one fixed choice among these conditions. Inner products and norms without a boundary subscript are in <span class="math">L²(Ω)</span>.</p>
+<p>Here eigenfunctions are normalized in <span class="math">L²</span>. The plot instead rescales each function to <span class="math">max |u| = 1</span>. Polygonal examples have Lipschitz boundaries but fail the smooth-boundary hypothesis at their vertices; the qualifications in Theorem 2 are therefore relevant.</p>
+</section>
+
+<article class="theorem-entry" id="thm-spectrum">
+<h3>Theorem 1. Existence of an orthonormal eigenfunction basis</h3>
+<p class="theorem-intuition">Each fixed boundary-value problem has a complete collection of normal modes, rather than just the first few modes computed above.</p>
+<div class="theorem-statement"><p>Let <span class="math">Ω ⊂ ℝ²</span> be a bounded domain with <span class="math">C<sup>∞</sup></span> boundary. Fix <span class="math">B = D</span>, <span class="math">B = N</span>, or <span class="math">B = R<sub>α</sub></span> with a fixed real constant <span class="math">α</span>. Then <span class="math">A<sub>B</sub></span> has compact resolvent. Its spectrum consists of real eigenvalues of finite multiplicity, bounded from below, with no finite accumulation point. There is a real orthonormal basis <span class="math">(u<sub>j</sub>)<sub>j≥1</sub></span> of <span class="math">L²(Ω)</span>, with each <span class="math">u<sub>j</sub> ∈ C<sup>∞</sup>(Ω̄)</span>, such that</p>
+<div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mtable columnalign="left" rowspacing=".55em"><mtr><mtd><mrow><mo>−</mo><mo>Δ</mo><msub><mi>u</mi><mi>j</mi></msub><mo>=</mo><msubsup><mi>λ</mi><mi>j</mi><mi>B</mi></msubsup><msub><mi>u</mi><mi>j</mi></msub><mspace width="0.25em"/><mtext>in </mtext><mi>Ω</mi></mrow></mtd></mtr><mtr><mtd><mrow><mrow><msub><mo>∫</mo><mi>Ω</mi></msub><mrow><msub><mi>u</mi><mi>i</mi></msub><msub><mi>u</mi><mi>j</mi></msub><mrow><mspace width="0.25em"/><mi>d</mi><mi>x</mi></mrow></mrow></mrow><mo>=</mo><msub><mi>δ</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub></mrow></mtd></mtr><mtr><mtd><mrow><mo>−</mo><mo>∞</mo><mo>&lt;</mo><msubsup><mi>λ</mi><mn>1</mn><mi>B</mi></msubsup><mo>≤</mo><msubsup><mi>λ</mi><mn>2</mn><mi>B</mi></msubsup><mo>≤</mo><mo>⋯</mo><mo>→</mo><mo>+</mo><mo>∞</mo></mrow></mtd></mtr></mtable><annotation encoding="application/x-tex">-\Delta u_j=\lambda_j^B u_j,\quad \int_\Omega u_i u_j\,dx=\delta_{ij},\quad -\infty&lt;\lambda_1^B\le\lambda_2^B\le\cdots\to+\infty.</annotation></semantics></math></div>
+<p>Each <span class="math">u<sub>j</sub></span> satisfies the chosen boundary condition and the weak identity <span class="math">q<sub>B</sub>(u<sub>j</sub>, v) = λ<sub>j</sub><sup>B</sup>⟨u<sub>j</sub>, v⟩</span> for every <span class="math">v ∈ V<sub>B</sub></span>. In particular, for every <span class="math">f ∈ L²(Ω)</span>,</p>
+<div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>f</mi><mo>=</mo><mrow><munderover><mo>∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><mo>∞</mo></munderover><mrow><mrow><mo>⟨</mo><mi>f</mi><mo>,</mo><msub><mi>u</mi><mi>j</mi></msub><mo>⟩</mo></mrow><msub><mi>u</mi><mi>j</mi></msub></mrow></mrow><mspace width="0.25em"/><mtext>in </mtext><msup><mi>L</mi><mn>2</mn></msup><mrow><mo>(</mo><mi>Ω</mi><mo>)</mo></mrow></mrow><annotation encoding="application/x-tex">f=\sum_{j=1}^\infty\langle f,u_j\rangle_{L^2(\Omega)}u_j\quad\text{in }L^2(\Omega).</annotation></semantics></math></div>
+<p>The same compact-resolvent and basis conclusions hold on a bounded Lipschitz domain, with the boundary conditions interpreted weakly through the forms.</p></div>
+<p class="proof-reference"><strong>Proof references.</strong> <a href="#proof-ref-1">[1]</a>; <a href="#proof-ref-2">[2]</a>, Theorems 3.1 and 3.3. The argument uses the trace inequality, a sufficiently positive shift of the form when needed, and the compact embedding <span class="math">H¹(Ω) ↪ L²(Ω)</span>.</p>
+</article>
+
+<article class="theorem-entry" id="thm-regularity">
+<h3>Theorem 2. Interior and boundary regularity</h3>
+<p class="theorem-intuition">Spatial smoothness belongs to the eigenfunctions. Smoothness at the boundary requires stronger hypotheses than smoothness inside the domain.</p>
+<div class="theorem-statement"><p>Let <span class="math">Ω ⊂ ℝ²</span> be a bounded domain with <span class="math">C<sup>∞</sup></span> boundary and let <span class="math">B ∈ {D, N, R<sub>α</sub>}</span>, with <span class="math">α ∈ ℝ</span> constant. Every eigenfunction of <span class="math">A<sub>B</sub></span> is smooth up to the boundary:</p>
+<div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>u</mi><mi>j</mi></msub><mo>∈</mo><msup><mi>C</mi><mo>∞</mo></msup><mrow><mo>(</mo><mover><mi>Ω</mi><mo>¯</mo></mover><mo>)</mo></mrow><mspace width="0.25em"/><mtext>for every </mtext><mi>j</mi><mo>≥</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">u_j\in C^\infty(\overline\Omega)\qquad(j\ge1).</annotation></semantics></math></div>
+<p>Thus its equation and boundary condition hold classically. The strong operator domains are</p>
+<div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mtable columnalign="left" rowspacing=".55em"><mtr><mtd><mrow><mi>D</mi><mrow><mo>(</mo><msub><mi>A</mi><mi>D</mi></msub><mo>)</mo></mrow><mo>=</mo><msup><mi>H</mi><mn>2</mn></msup><mrow><mo>(</mo><mi>Ω</mi><mo>)</mo></mrow><mo>∩</mo><msubsup><mi>H</mi><mn>0</mn><mn>1</mn></msubsup><mrow><mo>(</mo><mi>Ω</mi><mo>)</mo></mrow></mrow></mtd></mtr><mtr><mtd><mrow><mi>D</mi><mrow><mo>(</mo><msub><mi>A</mi><mi>α</mi></msub><mo>)</mo></mrow><mo>=</mo><mo>{</mo><mi>u</mi><mo>∈</mo><msup><mi>H</mi><mn>2</mn></msup><mrow><mo>(</mo><mi>Ω</mi><mo>)</mo></mrow><mo>:</mo><msub><mo>∂</mo><mi>ν</mi></msub><mi>u</mi><mo>+</mo><mi>α</mi><mi>u</mi><mo>=</mo><mn>0</mn><mspace width="0.25em"/><mtext>on </mtext><mrow><mo>∂</mo><mi>Ω</mi></mrow><mo>}</mo></mrow></mtd></mtr></mtable><annotation encoding="application/x-tex">D(A_D)=H^2(\Omega)\cap H_0^1(\Omega),\quad D(A_\alpha)=\{u\in H^2(\Omega):\partial_\nu u+\alpha u=0\text{ on }\partial\Omega\}.</annotation></semantics></math></div>
+<p>where the Robin equality is initially an equality of Sobolev traces; Neumann is obtained by setting <span class="math">α = 0</span>. On a bounded Lipschitz domain, eigenfunctions still belong to the form domain and to <span class="math">C<sup>∞</sup>(Ω)</span>. Global <span class="math">H²(Ω)</span> or <span class="math">C<sup>∞</sup>(Ω̄)</span> regularity is not asserted for general polygonal domains; re-entrant corners can cause singular terms.</p></div>
+<p class="proof-reference"><strong>Proof references.</strong> <a href="#proof-ref-3">[3]</a>, boundary elliptic estimates followed by bootstrapping; <a href="#proof-ref-4">[4]</a>, Corollary 4.2, for interior regularity on Lipschitz domains. See also <a href="#proof-ref-1">[1]</a>, Chapter 5, for passage from weak to classical eigenfunctions.</p>
+</article>
+
+<article class="theorem-entry" id="thm-minmax">
+<h3>Theorem 3. Rayleigh and min–max principles</h3>
+<p class="theorem-intuition">Eigenvalues are extremal energies. This gives a common proof mechanism for comparisons between shapes and boundary parameters.</p>
+<div class="theorem-statement"><p>Let <span class="math">Ω ⊂ ℝ²</span> be a bounded Lipschitz domain and fix <span class="math">B ∈ {D, N, R<sub>α</sub>}</span>, <span class="math">α ∈ ℝ</span>. For every integer <span class="math">k ≥ 1</span>,</p>
+<div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mtable columnalign="left" rowspacing=".55em"><mtr><mtd><mrow><msubsup><mi>λ</mi><mi>k</mi><mi>B</mi></msubsup><mo>=</mo><munder><mo>min</mo><mrow><mi>E</mi><mo>⊂</mo><msub><mi>V</mi><mi>B</mi></msub><mo>,</mo><mi>dim</mi><mi>E</mi><mo>=</mo><mi>k</mi></mrow></munder><munder><mo>max</mo><mrow><mn>0</mn><mo>≠</mo><mi>u</mi><mo>∈</mo><mi>E</mi></mrow></munder><mfrac><mrow><msub><mi>q</mi><mi>B</mi></msub><mrow><mo>(</mo><mrow><mi>u</mi><mo>,</mo><mi>u</mi></mrow><mo>)</mo></mrow></mrow><msubsup><mrow><mo>‖</mo><mi>u</mi><mo>‖</mo></mrow><mn>2</mn><mn>2</mn></msubsup></mfrac></mrow></mtd></mtr><mtr><mtd><mrow><msubsup><mi>λ</mi><mn>1</mn><mi>B</mi></msubsup><mo>=</mo><munder><mo>min</mo><mrow><mn>0</mn><mo>≠</mo><mi>u</mi><mo>∈</mo><msub><mi>V</mi><mi>B</mi></msub></mrow></munder><mfrac><mrow><msub><mi>q</mi><mi>B</mi></msub><mrow><mo>(</mo><mrow><mi>u</mi><mo>,</mo><mi>u</mi></mrow><mo>)</mo></mrow></mrow><msubsup><mrow><mo>‖</mo><mi>u</mi><mo>‖</mo></mrow><mn>2</mn><mn>2</mn></msubsup></mfrac></mrow></mtd></mtr></mtable><annotation encoding="application/x-tex">\lambda_k^B=\min_{E\subset V_B,\dim E=k}\max_{0\ne u\in E}\frac{q_B(u,u)}{\|u\|_2^2},\qquad\lambda_1^B=\min_{0\ne u\in V_B}\frac{q_B(u,u)}{\|u\|_2^2}.</annotation></semantics></math></div>
+<p>The minimum over <span class="math">k</span>-dimensional subspaces is attained by the span of the first <span class="math">k</span> eigenfunctions. A nonzero function attains the first Rayleigh minimum if and only if it lies in the first eigenspace. These statements also apply when some Robin eigenvalues are negative.</p></div>
+<p class="proof-reference"><strong>Proof reference.</strong> <a href="#proof-ref-1">[1]</a>, Chapter 10. For a lower-semibounded form, add <span class="math">c‖u‖²</span> to make the form positive, apply the variational principle, and subtract <span class="math">c</span> from the eigenvalues.</p>
+</article>
+
+<article class="theorem-entry" id="thm-ground">
+<h3>Theorem 4. Simplicity, positivity, and signs of the first eigenvalue</h3>
+<p class="theorem-intuition">Connectedness makes the ground-state eigenspace one-dimensional. It does not force all higher eigenvalues to be simple.</p>
+<div class="theorem-statement"><p>Let <span class="math">Ω ⊂ ℝ²</span> be a bounded connected domain with <span class="math">C<sup>∞</sup></span> boundary. For Dirichlet, Neumann, and Robin conditions with any real constant <span class="math">α</span>, the first eigenvalue is simple, and its real eigenfunction can be chosen strictly positive in <span class="math">Ω</span>. Positivity together with <span class="math">‖u₁‖₂ = 1</span> determines this eigenfunction uniquely. Moreover,</p>
+<div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mtable columnalign="left" rowspacing=".55em"><mtr><mtd><mrow><msubsup><mi>λ</mi><mn>1</mn><mi>D</mi></msubsup><mo>&gt;</mo><mn>0</mn><mo>,</mo><mspace width="0.25em"/><msubsup><mi>λ</mi><mn>1</mn><mi>N</mi></msubsup><mo>=</mo><mn>0</mn><mo>,</mo><mspace width="0.25em"/><msup><msub><mi>u</mi><mi>1</mi></msub><mi>N</mi></msup><mo>=</mo><msup><mi>A</mi><mrow><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></msup></mrow></mtd></mtr><mtr><mtd><mrow><msub><mi>λ</mi><mn>1</mn></msub><mrow><mo>(</mo><mi>α</mi><mo>)</mo></mrow><mo>&lt;</mo><mn>0</mn><mspace width="0.25em"/><mtext>if </mtext><mi>α</mi><mo>&lt;</mo><mn>0</mn><mo>;</mo><mspace width="0.25em"/><msub><mi>λ</mi><mn>1</mn></msub><mrow><mo>(</mo><mi>α</mi><mo>)</mo></mrow><mo>&gt;</mo><mn>0</mn><mspace width="0.25em"/><mtext>if </mtext><mi>α</mi><mo>&gt;</mo><mn>0</mn></mrow></mtd></mtr></mtable><annotation encoding="application/x-tex">\lambda_1^D&gt;0,\quad\lambda_1^N=0,\quad u_1^N=A^{-1/2};\qquad\lambda_1(\alpha)&lt;0\ (\alpha&lt;0),\quad\lambda_1(\alpha)&gt;0\ (\alpha&gt;0).</annotation></semantics></math></div>
+<p>For Neumann conditions the zero eigenspace consists exactly of the constant functions. The simplicity and interior-positivity conclusions also hold for bounded connected Lipschitz domains. Higher eigenspaces may have dimension greater than one.</p></div>
+<p class="proof-reference"><strong>Proof references.</strong> <a href="#proof-ref-14">[14]</a>, Proposition 2.4 and Theorems 4.1 and 4.5, for simplicity and positivity; see also <a href="#proof-ref-5">[5]</a>, Lemma 6(ii). The Neumann kernel is described in <a href="#proof-ref-1">[1]</a>, Chapter 5. The sign statements follow from Theorem 3; for <span class="math">α &lt; 0</span>, the constant trial function gives <span class="math">λ₁(α) ≤ αP/A &lt; 0</span>.</p>
+</article>
+
+<article class="theorem-entry" id="thm-robin-order">
+<h3>Theorem 5. Monotonicity in the Robin parameter and the Dirichlet limit</h3>
+<p class="theorem-intuition">Increasing the boundary penalty moves the eigenvalues upward. An arbitrarily large positive penalty imposes the Dirichlet constraint in the limit.</p>
+<div class="theorem-statement"><p>Let <span class="math">Ω ⊂ ℝ²</span> be a bounded domain with <span class="math">C<sup>∞</sup></span> boundary. For every <span class="math">j ≥ 1</span> and all real <span class="math">α ≤ β</span>,</p>
+<div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mtable columnalign="left" rowspacing=".55em"><mtr><mtd><mrow><msub><mi>λ</mi><mi>j</mi></msub><mrow><mo>(</mo><mi>α</mi><mo>)</mo></mrow><mo>≤</mo><msub><mi>λ</mi><mi>j</mi></msub><mrow><mo>(</mo><mi>β</mi><mo>)</mo></mrow><mo>≤</mo><msubsup><mi>λ</mi><mi>j</mi><mi>D</mi></msubsup><mspace width="0.25em"/><mtext>whenever </mtext><mi>α</mi><mo>≤</mo><mi>β</mi></mrow></mtd></mtr><mtr><mtd><mrow><msub><mi>λ</mi><mi>j</mi></msub><mrow><mo>(</mo><mn>0</mn><mo>)</mo></mrow><mo>=</mo><msubsup><mi>λ</mi><mi>j</mi><mi>N</mi></msubsup><mo>,</mo><mspace width="0.25em"/><munder><mo>lim</mo><mrow><mi>α</mi><mo>→</mo><mo>+</mo><mo>∞</mo></mrow></munder><msub><mi>λ</mi><mi>j</mi></msub><mrow><mo>(</mo><mi>α</mi><mo>)</mo></mrow><mo>=</mo><msubsup><mi>λ</mi><mi>j</mi><mi>D</mi></msubsup></mrow></mtd></mtr></mtable><annotation encoding="application/x-tex">\alpha\le\beta\Longrightarrow\lambda_j(\alpha)\le\lambda_j(\beta)\le\lambda_j^D,\qquad\lambda_j(0)=\lambda_j^N,\quad\lim_{\alpha\to+\infty}\lambda_j(\alpha)=\lambda_j^D.</annotation></semantics></math></div>
+<p>Consequently, for <span class="math">α ≥ 0</span> one has <span class="math">λ<sub>j</sub><sup>N</sup> ≤ λ<sub>j</sub>(α) ≤ λ<sub>j</sub><sup>D</sup></span>. The index <span class="math">j</span> is fixed in the Dirichlet limit, and the parameter convention is <span class="math">∂<sub>ν</sub>u + αu = 0</span>.</p></div>
+<p class="proof-reference"><strong>Proof references.</strong> The inequalities follow from Theorem 3 and the nested form domains; see <a href="#proof-ref-1">[1]</a>, Chapter 11. For the limit see <a href="#proof-ref-2">[2]</a>, §7. The compactness argument uses the bound <span class="math">α∫<sub>∂Ω</sub>|γu|² dσ ≤ C</span> on low-energy eigenfunctions to force zero trace as <span class="math">α → +∞</span>.</p>
+</article>
+
+<article class="theorem-entry" id="thm-parameter">
+<h3>Theorem 6. Analytic dependence and the boundary-mass derivative</h3>
+<p class="theorem-intuition">A simple eigenvalue varies analytically with the Robin parameter. Ordered higher eigenvalues can change branches at a crossing.</p>
+<div class="theorem-statement"><p>Let <span class="math">Ω ⊂ ℝ²</span> be a bounded domain with <span class="math">C<sup>∞</sup></span> boundary. Suppose <span class="math">λ₀</span> is a simple eigenvalue of <span class="math">A<sub>α₀</sub></span>, where <span class="math">α₀ ∈ ℝ</span>, with a real normalized eigenfunction <span class="math">u₀</span>. There is an open interval <span class="math">I</span> containing <span class="math">α₀</span> and real-analytic maps <span class="math">λ : I → ℝ</span> and <span class="math">u : I → H¹(Ω)</span> such that <span class="math">λ(α₀) = λ₀</span>, <span class="math">u<sub>α₀</sub> = u₀</span>, <span class="math">A<sub>α</sub>u<sub>α</sub> = λ(α)u<sub>α</sub></span>, <span class="math">‖u<sub>α</sub>‖₂ = 1</span>, and</p>
+<div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mfrac><mrow><mi>d</mi><mi>λ</mi></mrow><mrow><mi>d</mi><mi>α</mi></mrow></mfrac><mrow><mo>(</mo><mi>α</mi><mo>)</mo></mrow><mo>=</mo><mrow><msub><mo>∫</mo><mrow><mo>∂</mo><mi>Ω</mi></mrow></msub><mrow><msup><mrow><mo>|</mo><mrow><mi>γ</mi><msub><mi>u</mi><mi>α</mi></msub></mrow><mo>|</mo></mrow><mn>2</mn></msup><mrow><mspace width="0.25em"/><mi>d</mi><mi>σ</mi></mrow></mrow></mrow><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">\lambda\prime(\alpha)=\int_{\partial\Omega}|\gamma u_\alpha|^2\,d\sigma&gt;0,\qquad\|u_\alpha\|_2=1.</annotation></semantics></math></div>
+<p>For the first eigenvalue, simplicity holds for every real <span class="math">α</span>; hence <span class="math">α ↦ λ₁(α)</span> is real analytic and strictly increasing on ℝ. Analytic eigenvalue branches can be chosen locally through multiple eigenvalues, but their nondecreasing reordering need not be differentiable at crossings.</p></div>
+<p class="proof-reference"><strong>Proof references.</strong> <a href="#proof-ref-2">[2]</a>, Theorems 4.1 and 4.8; <a href="#proof-ref-6">[6]</a>, Corollary 7.2, for analytic eigenvectors in the form domain. The strict derivative follows because zero boundary trace together with the Robin condition would give zero Cauchy data and hence the zero eigenfunction.</p>
+</article>
+
+<article class="theorem-entry" id="thm-scaling">
+<h3>Theorem 7. Scaling of domains and boundary parameters</h3>
+<p class="theorem-intuition">A change of size rescales the spectrum, but a Robin parameter has its own inverse-length scale.</p>
+<div class="theorem-statement"><p>Let <span class="math">Ω ⊂ ℝ²</span> be a bounded Lipschitz domain and let <span class="math">s &gt; 0</span>. For every <span class="math">j ≥ 1</span> and every real constant <span class="math">α</span>,</p>
+<div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mtable columnalign="left" rowspacing=".55em"><mtr><mtd><mrow><msubsup><mi>λ</mi><mi>j</mi><mi>B</mi></msubsup><mrow><mo>(</mo><mrow><mi>s</mi><mi>Ω</mi></mrow><mo>)</mo></mrow><mo>=</mo><msup><mi>s</mi><mrow><mo>−</mo><mn>2</mn></mrow></msup><msubsup><mi>λ</mi><mi>j</mi><mi>B</mi></msubsup><mrow><mo>(</mo><mi>Ω</mi><mo>)</mo></mrow><mspace width="0.25em"/><mtext>for B = D or N</mtext></mrow></mtd></mtr><mtr><mtd><mrow><msub><mi>λ</mi><mi>j</mi></msub><mrow><mo>(</mo><mrow><mi>s</mi><mi>Ω</mi><mo>,</mo><mi>α</mi></mrow><mo>)</mo></mrow><mo>=</mo><msup><mi>s</mi><mrow><mo>−</mo><mn>2</mn></mrow></msup><msub><mi>λ</mi><mi>j</mi></msub><mrow><mo>(</mo><mrow><mi>Ω</mi><mo>,</mo><mi>s</mi><mi>α</mi></mrow><mo>)</mo></mrow></mrow></mtd></mtr></mtable><annotation encoding="application/x-tex">\lambda_j^B(s\Omega)=s^{-2}\lambda_j^B(\Omega)\ (B=D,N),\qquad\lambda_j(s\Omega,\alpha)=s^{-2}\lambda_j(\Omega,s\alpha).</annotation></semantics></math></div>
+<p>Here <span class="math">sΩ = {sx : x ∈ Ω}</span>. The change of variables <span class="math">U<sub>s</sub>f(x) = s⁻¹f(x/s)</span> is unitary from <span class="math">L²(Ω)</span> to <span class="math">L²(sΩ)</span>. Thus keeping the numerical value of <span class="math">α</span> fixed while changing the size is not a pure <span class="math">s⁻²</span> spectral rescaling.</p></div>
+<p class="proof-reference"><strong>Proof reference.</strong> <a href="#proof-ref-5">[5]</a>, Lemma 6(i), or apply this change of variables directly to the forms and Theorem 3.</p>
+</article>
+
+<article class="theorem-entry" id="thm-inclusion">
+<h3>Theorem 8. Domain monotonicity for Dirichlet eigenvalues</h3>
+<p class="theorem-intuition">Enlarging a Dirichlet domain lowers each ordered eigenvalue. This comparison is specific to the Dirichlet form-domain inclusion.</p>
+<div class="theorem-statement"><p>Let <span class="math">Ω₁ ⊂ Ω₂ ⊂ ℝ²</span> be bounded domains. Then</p>
+<div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>Ω</mi><mn>1</mn></msub><mo>⊂</mo><msub><mi>Ω</mi><mn>2</mn></msub><mo>⇒</mo><msubsup><mi>λ</mi><mi>j</mi><mi>D</mi></msubsup><mrow><mo>(</mo><msub><mi>Ω</mi><mn>2</mn></msub><mo>)</mo></mrow><mo>≤</mo><msubsup><mi>λ</mi><mi>j</mi><mi>D</mi></msubsup><mrow><mo>(</mo><msub><mi>Ω</mi><mn>1</mn></msub><mo>)</mo></mrow><mspace width="0.25em"/><mrow><mo>(</mo><mrow><mi>j</mi><mo>≥</mo><mn>1</mn></mrow><mo>)</mo></mrow></mrow><annotation encoding="application/x-tex">\Omega_1\subset\Omega_2\quad\Longrightarrow\quad\lambda_j^D(\Omega_2)\le\lambda_j^D(\Omega_1)\quad(j\ge1).</annotation></semantics></math></div>
+<p>For this statement, Dirichlet eigenvalues are defined by the form on <span class="math">H¹₀</span>, so boundary smoothness is unnecessary. No corresponding general domain-inclusion inequality for the Neumann or fixed-parameter Robin spectrum is claimed here.</p></div>
+<p class="proof-reference"><strong>Proof reference.</strong> <a href="#proof-ref-1">[1]</a>, Theorem 11.2. Extension by zero embeds <span class="math">H¹₀(Ω₁)</span> into <span class="math">H¹₀(Ω₂)</span> without changing the Rayleigh quotient; then apply min–max.</p>
+</article>
+
+<article class="theorem-entry" id="thm-weyl">
+<h3>Theorem 9. Weyl’s law in two dimensions</h3>
+<p class="theorem-intuition">The leading growth of the high-energy spectrum determines the area. The leading term is the same for the three boundary conditions.</p>
+<div class="theorem-statement"><p>Let <span class="math">Ω ⊂ ℝ²</span> be a bounded domain with <span class="math">C<sup>∞</sup></span> boundary and area <span class="math">A</span>. Fix <span class="math">B = D</span>, <span class="math">B = N</span>, or <span class="math">B = R<sub>α</sub></span> with <span class="math">α ∈ ℝ</span> fixed independently of the energy. If <span class="math">N<sub>B</sub>(Λ) = #{j ≥ 1 : λ<sub>j</sub><sup>B</sup> ≤ Λ}</span>, then</p>
+<div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mtable columnalign="left" rowspacing=".55em"><mtr><mtd><mrow><msub><mi>N</mi><mi>B</mi></msub><mrow><mo>(</mo><mi>Λ</mi><mo>)</mo></mrow><mo>=</mo><mfrac><mi>A</mi><mrow><mn>4</mn><mi>π</mi></mrow></mfrac><mi>Λ</mi><mo>+</mo><mi>o</mi><mrow><mo>(</mo><mi>Λ</mi><mo>)</mo></mrow><mspace width="0.25em"/><mrow><mo>(</mo><mrow><mi>Λ</mi><mo>→</mo><mo>+</mo><mo>∞</mo></mrow><mo>)</mo></mrow></mrow></mtd></mtr><mtr><mtd><mrow><munder><mo>lim</mo><mrow><mi>j</mi><mo>→</mo><mo>∞</mo></mrow></munder><mfrac><msubsup><mi>λ</mi><mi>j</mi><mi>B</mi></msubsup><mi>j</mi></mfrac><mo>=</mo><mfrac><mrow><mn>4</mn><mi>π</mi></mrow><mi>A</mi></mfrac></mrow></mtd></mtr></mtable><annotation encoding="application/x-tex">N_B(\Lambda)=\frac{A}{4\pi}\Lambda+o(\Lambda),\qquad\lim_{j\to\infty}\frac{\lambda_j^B}{j}=\frac{4\pi}{A}.</annotation></semantics></math></div>
+<p>Finite low-energy or negative Robin eigenvalues do not change this leading asymptotic. The statement alone gives no error estimate for the first 12 numerical modes.</p></div>
+<p class="proof-reference"><strong>Proof references.</strong> <a href="#proof-ref-1">[1]</a>, Chapter 12, for Dirichlet and Neumann. For arbitrary real Robin parameters, combine their asymptotics with the trace/min–max comparison in <a href="#proof-ref-13">[13]</a>, Proposition 4.1, and the upper bound in Theorem 5.</p>
+</article>
+
+<article class="theorem-entry" id="thm-li-yau">
+<h3>Theorem 10. The Berezin–Li–Yau eigenvalue-sum inequality</h3>
+<p class="theorem-intuition">Area alone gives a universal lower bound for sums of Dirichlet eigenvalues. Its sharpness is asymptotic rather than an equality attained by one bounded shape at a finite index.</p>
+<div class="theorem-statement"><p>Let <span class="math">Ω ⊂ ℝ²</span> be a nonempty bounded open set of area <span class="math">A</span>, and let its Dirichlet eigenvalues be ordered with multiplicity. For every integer <span class="math">k ≥ 1</span>,</p>
+<div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mrow><munderover><mo>∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><mi>k</mi></munderover><msubsup><mi>λ</mi><mi>j</mi><mi>D</mi></msubsup></mrow><mo>≥</mo><mfrac><mrow><mn>2</mn><mi>π</mi></mrow><mi>A</mi></mfrac><msup><mi>k</mi><mn>2</mn></msup><mspace width="0.25em"/><mrow><mo>(</mo><mrow><mi>k</mi><mo>≥</mo><mn>1</mn></mrow><mo>)</mo></mrow></mrow><annotation encoding="application/x-tex">\sum_{j=1}^k\lambda_j^D\ge\frac{2\pi}{A}k^2\qquad(k\ge1).</annotation></semantics></math></div>
+<p>For a bounded domain the inequality is strict for every finite <span class="math">k</span>. For each fixed bounded smooth domain,</p>
+<div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><munder><mo>lim</mo><mrow><mi>k</mi><mo>→</mo><mo>∞</mo></mrow></munder><mfrac><mrow><munderover><mo>∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><mi>k</mi></munderover><msubsup><mi>λ</mi><mi>j</mi><mi>D</mi></msubsup></mrow><mrow><mfrac><mrow><mn>2</mn><mi>π</mi></mrow><mi>A</mi></mfrac><msup><mi>k</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">\lim_{k\to\infty}\frac{\sum_{j=1}^k\lambda_j^D}{(2\pi/A)k^2}=1.</annotation></semantics></math></div>
+<p>The inequality and strictness do not assert the same bound for Neumann or Robin eigenvalues.</p></div>
+<p class="proof-reference"><strong>Proof references.</strong> <a href="#proof-ref-7">[7]</a>, the Dirichlet eigenvalue-sum estimate; <a href="#proof-ref-8">[8]</a>, the positive moment-of-inertia remainder, which implies finite-index strictness. The limiting ratio follows from Theorem 9 by summation.</p>
+<section id="sum-card" class="numerical-illustration" aria-labelledby="sum-heading"><h4 id="sum-heading">Numerical illustration</h4>
+<div class="sum-control"><label for="sum-k">Number of modes <span class="math">k</span></label><input id="sum-k" type="range" min="1" max="12" value="12"><output id="sum-k-value" for="sum-k">12</output></div>
+            <div class="sum-values"><div><span>Computed sum</span><strong id="sum-actual">—</strong><div class="sum-bar actual"><span id="sum-actual-bar"></span></div></div><div><span>Continuum lower bound</span><strong id="sum-bound">—</strong><div class="sum-bar"><span id="sum-bound-bar"></span></div></div></div>
+            <p id="sum-note" class="control-note">Compute a Dirichlet spectrum to compare these quantities.</p>
+            <p class="control-note">This theorem applies to the continuum Dirichlet operator, not the Robin spectrum. The comparison uses approximate eigenvalues; a grid discrepancy would not disprove the inequality. <a href="https://arxiv.org/abs/0711.4925" target="_blank" rel="noopener noreferrer">Further discussion of Berezin–Li–Yau inequalities</a>.</p>
+</section>
+</article>
+
+<article class="theorem-entry" id="thm-faber-krahn">
+<h3>Theorem 11. Faber–Krahn inequalities and equality cases</h3>
+<p class="theorem-intuition">For the lowest eigenvalue, the disk gives an attained equality case in the Dirichlet and positive-Robin area comparisons.</p>
+<div class="theorem-statement"><p>Let <span class="math">Ω ⊂ ℝ²</span> be a bounded domain with <span class="math">C<sup>∞</sup></span> boundary, and let <span class="math">B<sub>R</sub></span> be the disk centred at the origin with <span class="math">πR² = |Ω|</span>. Then</p>
+<div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mtable columnalign="left" rowspacing=".55em"><mtr><mtd><mrow><msubsup><mi>λ</mi><mn>1</mn><mi>D</mi></msubsup><mrow><mo>(</mo><mi>Ω</mi><mo>)</mo></mrow><mo>≥</mo><msubsup><mi>λ</mi><mn>1</mn><mi>D</mi></msubsup><mrow><mo>(</mo><msub><mi>B</mi><mi>R</mi></msub><mo>)</mo></mrow><mo>=</mo><mfrac><msup><msub><mi>j</mi><mrow><mn>0</mn><mo>,</mo><mn>1</mn></mrow></msub><mn>2</mn></msup><msup><mi>R</mi><mn>2</mn></msup></mfrac></mrow></mtd></mtr><mtr><mtd><mrow><msub><mi>λ</mi><mn>1</mn></msub><mrow><mo>(</mo><mrow><mi>Ω</mi><mo>,</mo><mi>α</mi></mrow><mo>)</mo></mrow><mo>≥</mo><msub><mi>λ</mi><mn>1</mn></msub><mrow><mo>(</mo><mrow><msub><mi>B</mi><mi>R</mi></msub><mo>,</mo><mi>α</mi></mrow><mo>)</mo></mrow><mspace width="0.25em"/><mtext>for each fixed </mtext><mi>α</mi><mo>&gt;</mo><mn>0</mn></mrow></mtd></mtr></mtable><annotation encoding="application/x-tex">\lambda_1^D(\Omega)\ge\lambda_1^D(B_R)=j_{0,1}^2/R^2,\qquad\lambda_1(\Omega,\alpha)\ge\lambda_1(B_R,\alpha)\quad(\alpha&gt;0).</annotation></semantics></math></div>
+<p>In each of these inequalities, equality holds if and only if <span class="math">Ω</span> is a translate of <span class="math">B<sub>R</sub></span>. Here <span class="math">j<sub>0,1</sub></span> is the first positive zero of the Bessel function <span class="math">J₀</span>. The Robin comparison uses the same positive value of <span class="math">α</span> on both domains. At <span class="math">α = 0</span> all connected domains have first eigenvalue zero, so disk rigidity disappears. The Robin assertion above is restricted to <span class="math">α &gt; 0</span>.</p></div>
+<p class="proof-reference"><strong>Proof references.</strong> <a href="#proof-ref-9">[9]</a>, for the Robin inequality; <a href="#proof-ref-10">[10]</a>, for equality and the Dirichlet case. The Dirichlet disk eigenvalue also follows by separation in polar coordinates; see <a href="#proof-ref-1">[1]</a>, Chapter 2.</p>
+</article>
+
+<article class="theorem-entry" id="thm-courant">
+<h3>Theorem 12. Courant’s nodal-domain bound</h3>
+<p class="theorem-intuition">The position of an eigenvalue in the ordered spectrum bounds the number of sign regions of each corresponding eigenfunction.</p>
+<div class="theorem-statement"><p>Let <span class="math">Ω ⊂ ℝ²</span> be a bounded domain with <span class="math">C<sup>∞</sup></span> boundary and fix Dirichlet, Neumann, or Robin conditions with <span class="math">α ∈ ℝ</span>. If <span class="math">u</span> is a nonzero real eigenfunction associated with <span class="math">λ<sub>k</sub><sup>B</sup></span>, let <span class="math">n(u)</span> be the number of connected components of the open set <span class="math">{x ∈ Ω : u(x) ≠ 0}</span>. Then</p>
+<div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>n</mi><mrow><mo>(</mo><mi>u</mi><mo>)</mo></mrow><mo>≤</mo><mi>k</mi><mspace width="0.25em"/><mtext>if </mtext><mo>−</mo><mo>Δ</mo><mi>u</mi><mo>=</mo><msubsup><mi>λ</mi><mi>k</mi><mi>B</mi></msubsup><mi>u</mi></mrow><annotation encoding="application/x-tex">n(u)\le k\quad\text{if }-\Delta u=\lambda_k^B u\text{ and }u\ne0.</annotation></semantics></math></div>
+<p>Eigenvalues are counted with multiplicity. The bound applies to negative Robin eigenvalues as well. It is an upper bound, not a claim that every <span class="math">k</span>-th mode has exactly <span class="math">k</span> nodal domains; pixel-level colour regions are not a rigorous nodal-domain count.</p></div>
+<p class="proof-reference"><strong>Proof references.</strong> <a href="#proof-ref-11">[11]</a>, the general variational nodal-domain theorem; <a href="#proof-ref-13">[13]</a>, §1, for the Robin formulation including real, sign-changing boundary parameters. The proof combines nodal truncation with min–max and unique continuation.</p>
+</article>
+
+<article class="theorem-entry" id="thm-isospectral">
+<h3>Theorem 13. Noncongruent isospectral planar domains exist</h3>
+<p class="theorem-intuition">A complete list of Dirichlet frequencies need not determine the geometry of a planar drum.</p>
+<div class="theorem-statement"><p>There exist bounded, simply connected polygonal domains <span class="math">Ω₁, Ω₂ ⊂ ℝ²</span> that are not related by any Euclidean isometry and nevertheless satisfy</p>
+<div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msubsup><mi>λ</mi><mi>j</mi><mi>D</mi></msubsup><mrow><mo>(</mo><msub><mi>Ω</mi><mn>1</mn></msub><mo>)</mo></mrow><mo>=</mo><msubsup><mi>λ</mi><mi>j</mi><mi>D</mi></msubsup><mrow><mo>(</mo><msub><mi>Ω</mi><mn>2</mn></msub><mo>)</mo></mrow><mspace width="0.25em"/><mtext>for every </mtext><mi>j</mi><mo>≥</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">\lambda_j^D(\Omega_1)=\lambda_j^D(\Omega_2)\qquad\text{for every }j\ge1.</annotation></semantics></math></div>
+<p>The equality includes all multiplicities and the entire infinite spectrum. This existence statement uses polygonal, hence Lipschitz, domains; it does not assert an example with <span class="math">C<sup>∞</sup></span> boundary or an example for arbitrary Robin parameters. A finite set of approximately matching eigenvalues does not establish this property.</p></div>
+<p class="proof-reference"><strong>Proof reference.</strong> <a href="#proof-ref-12">[12]</a>, the construction and proof by Gordon, Webb, and Wolpert. No exact isospectral pair is currently implemented in the drawing tool.</p>
+</article>
+
+<section id="proof-references" class="proof-bibliography" aria-labelledby="proof-references-title"><h3 id="proof-references-title">References to proofs</h3>
+<p>Chapter and theorem numbers refer to the linked versions. DOI links identify the published work when a freely accessible proof is not available at that link.</p>
+<ol>
+<li id="proof-ref-1">Richard S. Laugesen, <em>Spectral Theory of Partial Differential Equations</em>, lecture notes (2021). <a href="https://publish.illinois.edu/rlaugesen/files/2023/07/595Lectures.pdf" target="_blank" rel="noopener noreferrer">Open notes</a>. Chapters 4–5: spectral construction; Chapter 10: variational principles; Theorem 11.2: Dirichlet domain monotonicity; Chapter 12: Weyl’s law.</li>
+<li id="proof-ref-2">Sabine Bögli, James B. Kennedy, and Robin Lang, <em>On the eigenvalues of the Robin Laplacian with a complex parameter</em>. <a href="https://arxiv.org/pdf/1908.06041" target="_blank" rel="noopener noreferrer">Open paper</a>. Theorems 3.1 and 3.3 treat the discrete spectrum and self-adjoint real case; Theorems 4.1 and 4.8 treat analytic dependence and derivatives; §7 treats Dirichlet limits.</li>
+<li id="proof-ref-3">Shmuel Agmon, Avron Douglis, and Louis Nirenberg, <em>Estimates near the boundary for solutions of elliptic partial differential equations satisfying general boundary conditions. I</em>, Comm. Pure Appl. Math. 12 (1959), 623–727. <a href="https://doi.org/10.1002/cpa.3160120405" target="_blank" rel="noopener noreferrer">Published paper</a>. Boundary regularity estimates for elliptic boundary problems, used iteratively to obtain smoothness.</li>
+<li id="proof-ref-4">Daniel Daners, <em>Inverse positivity for general Robin problems on Lipschitz domains</em>, Archiv der Mathematik 92 (2009), 57–69. <a href="https://talus.maths.usyd.edu.au/u/daners/publ/abstracts/invpos/ebvp.pdf" target="_blank" rel="noopener noreferrer">Open proof</a>. Corollary 4.2 gives interior smoothness for Laplacian eigenfunctions, including negative Robin coefficients.</li>
+<li id="proof-ref-5">Konstantin Pankrashkin, Firoj Sk, and Marco Vogel, <em>Laplacian eigenvalues for large negative Robin parameters on domains with outward peaks</em>, NoDEA 32 (2025), article 129. <a href="https://link.springer.com/article/10.1007/s00030-025-01136-5" target="_blank" rel="noopener noreferrer">Open paper</a>. Lemma 6(i)–(ii) records scaling and simplicity for bounded Lipschitz domains. Their convention is <span class="math">∂<sub>ν</sub>u = αu</span>, so their parameter is the negative of ours.</li>
+<li id="proof-ref-6">Daniel Daners, <em>Principal eigenvalues for generalised indefinite Robin problems</em>, Potential Analysis (2013), DOI 10.1007/s11118-012-9306-9. <a href="https://www.maths.usyd.edu.au/u/daners/publ/abstracts/indef/indef.pdf" target="_blank" rel="noopener noreferrer">Open proof</a>. Theorem 7.1 and Corollary 7.2 establish analytic dependence and the form-derivative formula for simple eigenvalues.</li>
+<li id="proof-ref-7">Peter Li and Shing-Tung Yau, <em>On the Schrödinger equation and the eigenvalue problem</em>, Comm. Math. Phys. 88 (1983), 309–318. <a href="https://doi.org/10.1007/BF01213210" target="_blank" rel="noopener noreferrer">Published paper</a>. The Dirichlet eigenvalue-sum estimate.</li>
+<li id="proof-ref-8">Antonios D. Melas, <em>A lower bound for sums of eigenvalues of the Laplacian</em>, Proc. Amer. Math. Soc. 131 (2003), 631–636. <a href="https://doi.org/10.1090/S0002-9939-02-06834-X" target="_blank" rel="noopener noreferrer">Published paper</a>. The positive moment-of-inertia correction implies strictness of the classical bound at every finite index on bounded domains.</li>
+<li id="proof-ref-9">Daniel Daners, <em>A Faber–Krahn inequality for Robin problems in any space dimension</em>, Math. Ann. 335 (2006), 767–785. <a href="https://www.maths.usyd.edu.au/u/daners/publ/abstracts/faber-krahn/" target="_blank" rel="noopener noreferrer">Author’s page and open preprint</a>. The positive-Robin Faber–Krahn inequality.</li>
+<li id="proof-ref-10">Daniel Daners and James Kennedy, <em>Uniqueness in the Faber–Krahn inequality for Robin problems</em>, SIAM J. Math. Anal. 39 (2007), 1191–1207. <a href="https://doi.org/10.1137/060675629" target="_blank" rel="noopener noreferrer">Published paper</a> · <a href="https://www.maths.usyd.edu.au/u/daners/publ/abstracts/unique/" target="_blank" rel="noopener noreferrer">Author’s summary</a>. Equality cases for sufficiently smooth domains, also covering the Dirichlet problem.</li>
+<li id="proof-ref-11">Jaak Peetre, <em>A generalization of Courant’s nodal domain theorem</em>, Math. Scand. 5 (1957), 15–20. <a href="https://tidsskrift.dk/math/article/view/10484" target="_blank" rel="noopener noreferrer">Article and PDF access</a>. A general proof of the nodal-domain bound.</li>
+<li id="proof-ref-12">Carolyn Gordon, David L. Webb, and Scott Wolpert, <em>One cannot hear the shape of a drum</em>, Bull. Amer. Math. Soc. 27 (1992), 134–138. <a href="https://arxiv.org/abs/math/9207215" target="_blank" rel="noopener noreferrer">Original paper</a>. Construction of nonisometric, simply connected isospectral planar domains.</li>
+<li id="proof-ref-13">Katie Gittins, Asma Hassannezhad, Corentin Léna, and David Sher, <em>Nodal counts for the Robin problem on Lipschitz domains</em>, arXiv:2411.11427. <a href="https://arxiv.org/html/2411.11427v2" target="_blank" rel="noopener noreferrer">Open paper</a>. §1 gives the general real-Robin Courant formulation; Proposition 4.1 proves a comparison with Neumann eigenvalues that also handles negative boundary parameters.</li>
+<li id="proof-ref-14">Wolfgang Arendt, A. F. M. ter Elst, and Jochen Glück, <em>Strict positivity for the principal eigenfunction of elliptic operators with various boundary conditions</em>, Adv. Nonlinear Stud. 20 (2020), 633–650. <a href="https://arxiv.org/pdf/1909.12194" target="_blank" rel="noopener noreferrer">Open proof</a>. Proposition 2.4 gives simplicity from irreducibility; Theorems 4.1 and 4.5 treat Dirichlet and Robin principal eigenfunctions.</li>
+</ol>
+</section>
+</section>
+
+
+      <section class="mathematical-facts lecture-notes" id="open-problems" aria-labelledby="open-problems-heading">
+<h2 id="open-problems-heading">Open problems and conjectures about Laplacian eigenvalues</h2>
+<p>These questions concern the continuum operators defined above. Eigenvalues are ordered with multiplicity, starting at <span class="math">j = 1</span>; <span class="math">λ<sub>j</sub><sup>D</sup></span> denotes the Dirichlet spectrum. Each entry gives an interpretation, a precise question, a dated status, and references to the known results and recent claims.</p>
+<p class="status-review"><strong>Literature checked <time datetime="2026-11-05">5 November 2026</time>.</strong> The statuses below reflect the cited literature and a search for subsequent developments through this date. Recent preprint claims are distinguished from established partial results; a listed claim is not treated as a proved theorem here.</p>
+<nav class="facts-contents" aria-label="Open mathematical questions">
+<a href="#question-triangle-formulas">Explicit triangle formulas</a><a href="#open-hearing">1. Hearing smooth or convex drums</a><a href="#open-triangles">2. Three tones of a triangle</a><a href="#open-third">3. The third Dirichlet eigenvalue</a><a href="#open-polygons">4. Polygonal Faber–Krahn</a><a href="#open-robin">5. Attractive Robin optimization</a><a href="#open-ivrii">6. Ivrii and two-term Weyl asymptotics</a><a href="#open-polya">7. Pólya’s pointwise inequality</a><a href="#open-references">References and status sources</a>
+</nav>
+
+<section class="facts-setup" id="question-triangle-formulas" aria-labelledby="triangle-formulas-heading">
+<h3 id="triangle-formulas-heading">A preliminary question: explicit formulas for general triangles</h3>
+<p>Explicit Dirichlet spectra are classical for equilateral, right isosceles, and <span class="math">30°–60°–90°</span> triangles. No comparable general explicit formula is known for arbitrary triangles. However, “closed formula” does not specify a class of permitted functions or operations, so it is a research goal rather than a single precise conjecture. Problem 2 below is a sharply formulated triangle question. See <a href="#open-ref-1">[O1]</a>, §1.</p>
+</section>
+
+<article class="theorem-entry conjecture-entry" id="open-hearing">
+<h3>Open problem 1. Hearing smooth or convex drums</h3>
+<p class="theorem-intuition">The complete list of vibration frequencies need not determine a polygonal drum. Whether smoothness or convexity restores uniqueness is unknown.</p>
+<div class="theorem-statement"><p><strong>Smooth-domain question.</strong> Let <span class="math">Ω₁, Ω₂ ⊂ ℝ²</span> be bounded connected domains with <span class="math">C<sup>∞</sup></span> boundaries. Is the following implication true?</p>
+<div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mtable columnalign="left" rowspacing=".6em"><mtr><mtd><mrow><mrow><msubsup><mi>λ</mi><mi>j</mi><mi>D</mi></msubsup><mrow><mo>(</mo><msub><mi>Ω</mi><mn>1</mn></msub><mo>)</mo></mrow></mrow><mo>=</mo><mrow><msubsup><mi>λ</mi><mi>j</mi><mi>D</mi></msubsup><mrow><mo>(</mo><msub><mi>Ω</mi><mn>2</mn></msub><mo>)</mo></mrow></mrow><mspace width="0.3em"/><mtext>for every </mtext><mi>j</mi><mo>≥</mo><mn>1</mn></mrow></mtd></mtr><mtr><mtd><mrow><mo>⟹</mo><msub><mi>Ω</mi><mn>2</mn></msub><mo>=</mo><mi>Q</mi><msub><mi>Ω</mi><mn>1</mn></msub><mo>+</mo><mi>a</mi><mspace width="0.3em"/><mtext>for some </mtext><mi>Q</mi><mo>∈</mo><mi>O</mi><mrow><mo>(</mo><mn>2</mn><mo>)</mo></mrow><mo>,</mo><mi>a</mi><mo>∈</mo><msup><mi>ℝ</mi><mn>2</mn></msup></mrow></mtd></mtr></mtable><annotation encoding="application/x-tex">\lambda_j^D(\Omega_1)=\lambda_j^D(\Omega_2)\ (j\ge1)\quad\Longrightarrow\quad\Omega_2=Q\Omega_1+a\text{ for some }Q\in O(2),\ a\in\mathbb R^2?</annotation></semantics></math></div>
+<p>Here <span class="math">O(2)</span> is the group of orthogonal matrices; rotations, reflections, and translations are allowed. <strong>Convex-domain question.</strong> Is the same implication true if both domains are bounded and convex, without requiring smooth boundaries? The smooth strictly convex case is already an unresolved special case.</p></div>
+<p class="conjecture-status"><strong>Status: open in both forms.</strong> The known polygonal Dirichlet-isospectral counterexamples do not resolve these restrictions. Spectral uniqueness is known for certain special families, including sufficiently small-eccentricity ellipses. Results for Steklov spectra concern a different boundary-value problem.</p>
+<p class="proof-reference"><strong>References and status.</strong> <a href="#open-ref-2">[O2]</a>, Open Problem 6.2.26; <a href="#open-ref-3">[O3]</a>, §6, Outlook. No subsequent general resolution was located in the literature check.</p>
+</article>
+
+<article class="theorem-entry conjecture-entry" id="open-triangles">
+<h3>Conjecture 2. Hearing a triangle from its first three tones</h3>
+<p class="theorem-intuition">A triangle has only three geometric parameters up to rigid motions. Can just three eigenvalues determine all of them?</p>
+<div class="theorem-statement"><p>Let <span class="math">T₁, T₂ ⊂ ℝ²</span> be nondegenerate Euclidean triangular domains. Does equality of their first three Dirichlet eigenvalues imply congruence?</p>
+<div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mtable columnalign="left" rowspacing=".6em"><mtr><mtd><mrow><mrow><msubsup><mi>λ</mi><mi>j</mi><mi>D</mi></msubsup><mrow><mo>(</mo><msub><mi>T</mi><mn>1</mn></msub><mo>)</mo></mrow></mrow><mo>=</mo><mrow><msubsup><mi>λ</mi><mi>j</mi><mi>D</mi></msubsup><mrow><mo>(</mo><msub><mi>T</mi><mn>2</mn></msub><mo>)</mo></mrow></mrow><mspace width="0.3em"/><mrow><mo>(</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn></mrow><mo>)</mo></mrow></mrow></mtd></mtr><mtr><mtd><mrow><mo>⟹</mo><msub><mi>T</mi><mn>2</mn></msub><mo>=</mo><mi>Q</mi><msub><mi>T</mi><mn>1</mn></msub><mo>+</mo><mi>a</mi><mspace width="0.3em"/><mtext>for some </mtext><mi>Q</mi><mo>∈</mo><mi>O</mi><mrow><mo>(</mo><mn>2</mn><mo>)</mo></mrow><mo>,</mo><mi>a</mi><mo>∈</mo><msup><mi>ℝ</mi><mn>2</mn></msup></mrow></mtd></mtr></mtable><annotation encoding="application/x-tex">\lambda_j^D(T_1)=\lambda_j^D(T_2)\ (j=1,2,3)\quad\Longrightarrow\quad T_2=QT_1+a\text{ for some }Q\in O(2),\ a\in\mathbb R^2?</annotation></semantics></math></div>
+<p>No equal-area assumption is imposed: scale is part of the geometry to be recovered. Repeated eigenvalues are included in the ordering.</p></div>
+<p class="conjecture-status"><strong>Status: open.</strong> The full Dirichlet spectrum determines a triangle within the class of triangles. Gómez-Serrano and Orriols proved the existence of noncongruent triangles with identical <span class="math">λ₁, λ₂, λ₄</span>; their result does not concern the triple <span class="math">λ₁, λ₂, λ₃</span>. Recent triangle shape inequalities do not settle this inverse problem.</p>
+<p class="proof-reference"><strong>References and status.</strong> <a href="#open-ref-4">[O4]</a>, §1; <a href="#open-ref-5">[O5]</a>, Introduction and Theorem 1.1. No proof or counterexample for the first-three conjecture was located in the literature check.</p>
+</article>
+
+<article class="theorem-entry conjecture-entry" id="open-third">
+<h3>Conjecture 3. The disk and the third Dirichlet eigenvalue</h3>
+<p class="theorem-intuition">Faber–Krahn identifies the optimal shape for the first eigenvalue. Global optimization is already unresolved for the third.</p>
+<div class="theorem-statement"><p>Let <span class="math">Ω ⊂ ℝ²</span> be a nonempty bounded open set of area <span class="math">A</span>, and let <span class="math">B</span> be a disk of area <span class="math">A</span>. Is</p>
+<div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mrow><msubsup><mi>λ</mi><mn>3</mn><mi>D</mi></msubsup><mrow><mo>(</mo><mi>Ω</mi><mo>)</mo></mrow></mrow><mo>≥</mo><mrow><msubsup><mi>λ</mi><mn>3</mn><mi>D</mi></msubsup><mrow><mo>(</mo><mi>B</mi><mo>)</mo></mrow></mrow><mo>=</mo><mfrac><mrow><mi>π</mi><msup><msub><mi>j</mi><mrow><mn>1</mn><mo>,</mo><mn>1</mn></mrow></msub><mn>2</mn></msup></mrow><mi>A</mi></mfrac></mrow><annotation encoding="application/x-tex">\lambda_3^D(\Omega)\ge\lambda_3^D(B)=\frac{\pi j_{1,1}^2}{A}?</annotation></semantics></math></div>
+<p>always true? Here <span class="math">j<sub>1,1</sub></span> is the first positive zero of the Bessel function <span class="math">J₁</span>. Multiplicity matters: the disk has <span class="math">λ₂<sup>D</sup>(B) = λ₃<sup>D</sup>(B)</span>. No uniqueness claim for an optimizer is included in this question.</p></div>
+<p class="conjecture-status"><strong>Status: open as a global inequality.</strong> A March 2026 research article still identifies this optimization as conjectural. Numerical optimization and perturbative statements near a disk do not establish the inequality for every domain.</p>
+<p class="proof-reference"><strong>Reference and status.</strong> <a href="#open-ref-6">[O6]</a>, §1.1, which points to Henrot’s Open Problem 8. No subsequent global proof or counterexample was located.</p>
+</article>
+
+<article class="theorem-entry conjecture-entry" id="open-polygons">
+<h3>Conjecture 4. The polygonal Pólya–Szegő inequality</h3>
+<p class="theorem-intuition">If the number of sides is prescribed, the natural candidate for the lowest fundamental frequency is the regular polygon.</p>
+<div class="theorem-statement"><p>Fix an integer <span class="math">n ≥ 5</span> and an area <span class="math">A &gt; 0</span>. Let <span class="math">R<sub>n</sub></span> be a regular <span class="math">n</span>-gon of area <span class="math">A</span>. For every simple planar <span class="math">n</span>-gon <span class="math">P</span> of area <span class="math">A</span>, is</p>
+<div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mrow><msubsup><mi>λ</mi><mn>1</mn><mi>D</mi></msubsup><mrow><mo>(</mo><mi>P</mi><mo>)</mo></mrow></mrow><mo>≥</mo><mrow><msubsup><mi>λ</mi><mn>1</mn><mi>D</mi></msubsup><mrow><mo>(</mo><msub><mi>R</mi><mi>n</mi></msub><mo>)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\lambda_1^D(P)\ge\lambda_1^D(R_n)?</annotation></semantics></math></div>
+<p>true, with equality only when <span class="math">P</span> is congruent to <span class="math">R<sub>n</sub></span>? Convexity is not imposed on <span class="math">P</span>. The analogous assertions for <span class="math">n = 3, 4</span> are established.</p></div>
+<p class="conjecture-status"><strong>Status: open in this full form; global pentagon and hexagon cases remain open.</strong> Bogosel and Bucur established local minimality for regular pentagons and hexagons using interval arithmetic to control roundoff. Their earlier computations for more side counts should not be mistaken for fully validated global proofs.</p>
+<p class="research-update"><strong>Recent preprint claim.</strong> Cheng, Gui, Hu, and Li (September 2026), Theorem 1.1, assert the global inequality and uniqueness for convex polygons with at most <span class="math">N</span> sides whenever <span class="math">N ≥ N₀</span> for some sufficiently large <span class="math">N₀</span>. This restricted large-<span class="math">N</span> statement does not resolve the global <span class="math">n = 5, 6</span> questions or the full nonconvex conjecture.</p>
+<p class="proof-reference"><strong>References and status.</strong> <a href="#open-ref-7">[O7]</a>, reduction to finitely many certified computations; <a href="#open-ref-8">[O8]</a>, validated local minimality; <a href="#open-ref-9">[O9]</a>, Theorem 1.1 (preprint). No full resolution was located.</p>
+</article>
+
+<article class="theorem-entry conjecture-entry" id="open-robin">
+<h3>Conjecture 5. Bareket’s question for simply connected planar domains</h3>
+<p class="theorem-intuition">An attractive Robin boundary can concentrate a ground state near the edge. The optimal shape depends on the geometric constraint and the allowed topology.</p>
+<div class="theorem-statement"><p>Let <span class="math">Ω ⊂ ℝ²</span> be a bounded simply connected domain with <span class="math">C<sup>∞</sup></span> boundary, let <span class="math">α &lt; 0</span> be fixed, and let <span class="math">B</span> be a disk with <span class="math">|B| = |Ω|</span>. With the convention <span class="math">∂<sub>ν</sub>u + αu = 0</span>, is</p>
+<div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>λ</mi><mn>1</mn></msub><mrow><mo>(</mo><mrow><mi>Ω</mi><mo>,</mo><mi>α</mi></mrow><mo>)</mo></mrow><mo>≤</mo><msub><mi>λ</mi><mn>1</mn></msub><mrow><mo>(</mo><mrow><mi>B</mi><mo>,</mo><mi>α</mi></mrow><mo>)</mo></mrow><mspace width="0.3em"/><mrow><mo>(</mo><mrow><mi>α</mi><mo>&lt;</mo><mn>0</mn></mrow><mo>)</mo></mrow></mrow><annotation encoding="application/x-tex">\lambda_1(\Omega,\alpha)\le\lambda_1(B,\alpha)\qquad(\alpha&lt;0)?</annotation></semantics></math></div>
+<p>always true? Both domains use the same value of <span class="math">α</span>. The area is fixed; the perimeter is not.</p></div>
+<p class="conjecture-status"><strong>Status: open for all negative parameters in this class.</strong> Removing simple connectedness makes the fixed-area assertion false: annuli can exceed the disk for sufficiently negative <span class="math">α</span>. The fixed-perimeter comparison in the plane is an established theorem and is a different constraint.</p>
+<p class="research-update"><strong>Recent partial progress.</strong> Gavitone, Krejčiřík, and Paoli’s June 2026 preprint, Theorem 1, treats bounded convex domains for <span class="math">α ∈ [α₀, 0]</span>, where <span class="math">α₀ &lt; 0</span> depends only on area and dimension. It does not cover every negative <span class="math">α</span> or every simply connected domain.</p>
+<p class="proof-reference"><strong>References and status.</strong> <a href="#open-ref-10">[O10]</a>, §5.3, Conjecture 2; <a href="#open-ref-11">[O11]</a>, §1.2; <a href="#open-ref-12">[O12]</a>, Theorem 1 (preprint). No full resolution was located.</p>
+</article>
+
+<article class="theorem-entry conjecture-entry" id="open-ivrii">
+<h3>Conjecture 6. Ivrii’s periodic-billiard conjecture</h3>
+<p class="theorem-intuition">High-frequency waves are related to rays reflecting inside the domain. An unresolved question about periodic rays controls a finer version of Weyl’s law.</p>
+<div class="theorem-statement"><p>Consider a bounded planar domain <span class="math">Ω</span> with <span class="math">C<sup>∞</sup></span> boundary, strictly convex with positive boundary curvature. Let <span class="math">Σ = ∂Ω × (−π/2, π/2)</span> be the billiard phase space: <span class="math">s</span> is boundary arclength and <span class="math">θ</span> the outgoing angle measured from the inward normal. Let <span class="math">T : Σ → Σ</span> take a ray to its next reflected boundary state, and give <span class="math">Σ</span> the invariant measure <span class="math">dμ = cos θ ds dθ</span>. Is the set of periodic states of measure zero?</p>
+<div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>μ</mi><mrow><mo>(</mo><mrow><munderover><mo>⋃</mo><mrow><mi>q</mi><mo>=</mo><mn>1</mn></mrow><mo>∞</mo></munderover><mrow><mo>{</mo><mi>z</mi><mo>∈</mo><mi>Σ</mi><mo>:</mo><msup><mi>T</mi><mi>q</mi></msup><mi>z</mi><mo>=</mo><mi>z</mi><mo>}</mo></mrow></mrow><mo>)</mo></mrow><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">\mu\!\left(\bigcup_{q=1}^{\infty}\{z\in\Sigma:T^qz=z\}\right)=0?</annotation></semantics></math></div>
+<p>This is an already-open special case of the conjecture for general smooth bounded Euclidean domains, with grazing trajectories excluded.</p></div>
+<p><strong>Related spectral question.</strong> For any bounded smooth planar domain, write <span class="math">A = |Ω|</span>, <span class="math">P = |∂Ω|</span>, and <span class="math">N<sub>D</sub>(Λ) = #{j : λ<sub>j</sub><sup>D</sup>(Ω) &lt; Λ}</span>. Is the unsmoothed expansion</p>
+<div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>N</mi><mi>D</mi></msub><mrow><mo>(</mo><mi>Λ</mi><mo>)</mo></mrow><mo>=</mo><mfrac><mi>A</mi><mrow><mn>4</mn><mi>π</mi></mrow></mfrac><mi>Λ</mi><mo>−</mo><mfrac><mi>P</mi><mrow><mn>4</mn><mi>π</mi></mrow></mfrac><msqrt><mi>Λ</mi></msqrt><mo>+</mo><mi>o</mi><mrow><mo>(</mo><msqrt><mi>Λ</mi></msqrt><mo>)</mo></mrow></mrow><annotation encoding="application/x-tex">N_D(\Lambda)=\frac{A}{4\pi}\Lambda-\frac{P}{4\pi}\sqrt\Lambda+o(\sqrt\Lambda)\qquad(\Lambda\to+\infty).</annotation></semantics></math></div>
+<p>valid as <span class="math">Λ → +∞</span> without any extra dynamical hypothesis?</p>
+<p class="conjecture-status"><strong>Status: open in general.</strong> Ivrii proved the two-term expansion under the periodic-set measure-zero assumption; that assumption is sufficient, and no equivalence is asserted here. Frank and Larson’s unconditional two-term results for positive-order Riesz means concern an averaged spectrum, rather than this counting function.</p>
+<p class="proof-reference"><strong>References and status.</strong> <a href="#open-ref-13">[O13]</a>, §1, formula (4) and its discussion; <a href="#open-ref-14">[O14]</a>, p.19, for the conventional billiard conjecture and period-specific progress. No general resolution was located.</p>
+</article>
+
+<article class="theorem-entry conjecture-entry" id="open-polya">
+<h3>Conjecture 7. Pólya’s pointwise Dirichlet inequality</h3>
+<p class="theorem-intuition">Weyl’s law gives the leading behavior at high energy. Pólya asks whether its coefficient already bounds every individual Dirichlet eigenvalue.</p>
+<div class="theorem-statement"><p>Let <span class="math">Ω ⊂ ℝ²</span> be a nonempty bounded open set of area <span class="math">A</span>, with Dirichlet eigenvalues defined on <span class="math">H¹₀(Ω)</span>. Is</p>
+<div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>A</mi><mrow><msubsup><mi>λ</mi><mi>j</mi><mi>D</mi></msubsup><mrow><mo>(</mo><mi>Ω</mi><mo>)</mo></mrow></mrow><mo>≥</mo><mn>4</mn><mi>π</mi><mi>j</mi><mspace width="0.3em"/><mtext>for every </mtext><mi>j</mi><mo>≥</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">A\lambda_j^D(\Omega)\ge4\pi j\qquad(j\ge1)?</annotation></semantics></math></div>
+<p>always true? No simple-connectedness or boundary-smoothness assumption is imposed. This pointwise assertion is stronger than the eigenvalue-sum estimate in Theorem 10: it would imply <span class="math">∑<sub>j=1</sub><sup>k</sup>λ<sub>j</sub><sup>D</sup> ≥ (2π/A)k(k + 1)</span>.</p></div>
+<p class="conjecture-status"><strong>Status: open in full generality; a simply connected case has a recent claimed proof.</strong> Established special cases include tiling domains, disks and sectors, and Dirichlet annuli. The general-domain statement above is not resolved by those results.</p>
+<p class="research-update"><strong>Recent preprint claim, 9 October 2026.</strong> Tang and Wang, Theorem 1.2, assert the strict inequality <span class="math">|Ω|λ<sub>j</sub><sup>D</sup>(Ω) &gt; 4πj</span> for every bounded nonempty simply connected planar domain. Their Remark 1.4 gives some additional domains with small holes, rather than arbitrary multiply connected domains. The cited version is a preprint; no independent specialist assessment or refereed publication was located in this check. Its Neumann companion is described there as in preparation. The claim is therefore recorded separately from the established theorems above.</p>
+<p class="proof-reference"><strong>References and status.</strong> <a href="#open-ref-15">[O15]</a>, introduction and annulus theorem; <a href="#open-ref-16">[O16]</a>, Conjecture 1.1, Theorem 1.2, and Remarks 1.3–1.4 (preprint). The unresolved statement here permits arbitrary topology.</p>
+</article>
+
+<section class="proof-bibliography" id="open-references" aria-labelledby="open-references-heading">
+<h3 id="open-references-heading">References and status sources</h3>
+<p>These sources formulate the questions, establish partial results, or report the recent claims identified above. They are not proofs of the unresolved assertions. The reference labels [O1]–[O16] are separate from the proof references for the theorems.</p>
+<ol class="open-reference-list">
+<li id="open-ref-1"><span class="reference-label">[O1]</span> S. Seto, G. Wei, and X. Zhu, <em>Fundamental gaps of spherical triangles</em>, §1, discussion of explicit Euclidean triangle spectra. <a href="https://web.math.ucsb.edu/~wei/paper/Seto-Wei-Zhu2021.pdf" target="_blank" rel="noopener noreferrer">Author PDF</a>.</li>
+<li id="open-ref-2"><span class="reference-label">[O2]</span> M. Levitin, D. Mangoubi, and I. Polterovich, <em>Topics in Spectral Geometry</em> (2023), §6.2.6, Open Problem 6.2.26. <a href="https://michaellevitin.net/Book/TSG230529.pdf" target="_blank" rel="noopener noreferrer">Author edition</a>.</li>
+<li id="open-ref-3"><span class="reference-label">[O3]</span> E. B. Dryden, C. Gordon, J. Moreno, J. Rowlett, and C. Villegas-Blas, <em>The Steklov Spectrum of Convex Polygonal Domains I: Spectral Finiteness</em>, J. Geom. Anal. 35 (2025), article 91, §6, Outlook: smooth and convex Laplace inverse problems. <a href="https://link.springer.com/article/10.1007/s12220-025-01922-8" target="_blank" rel="noopener noreferrer">Open article</a>.</li>
+<li id="open-ref-4"><span class="reference-label">[O4]</span> W. Gong, X. Liu, and J. Wang, <em>Hearing the Triangles: A Numerical Perspective</em>, CSIAM Trans. Appl. Math. 5 (2024), 58–72, §1: the first-three conjecture. <a href="https://www.global-sci.com/csiam-am/article/view/7850" target="_blank" rel="noopener noreferrer">Article and PDF</a>.</li>
+<li id="open-ref-5"><span class="reference-label">[O5]</span> J. Gómez-Serrano and G. Orriols, <em>Any three eigenvalues do not determine a triangle</em>, J. Differential Equations 275 (2021), 920–938, Introduction and Theorem 1.1: matching the first, second, and fourth eigenvalues. <a href="https://arxiv.org/pdf/1911.06758" target="_blank" rel="noopener noreferrer">Open PDF</a>.</li>
+<li id="open-ref-6"><span class="reference-label">[O6]</span> V. Lotoreichik and L. Morin, <em>On Shape Optimization with Large Magnetic Fields in Two Dimensions</em>, J. Geom. Anal. 36 (2026), article 120, §1.1: status of the nonmagnetic third-eigenvalue problem. <a href="https://link.springer.com/article/10.1007/s12220-026-02363-7" target="_blank" rel="noopener noreferrer">Open article</a>.</li>
+<li id="open-ref-7"><span class="reference-label">[O7]</span> B. Bogosel and D. Bucur, <em>On the polygonal Faber–Krahn inequality</em>, J. Éc. polytech. Math. 11 (2024), 19–105: finite-computation reduction. <a href="https://www.numdam.org/articles/10.5802/jep.250/" target="_blank" rel="noopener noreferrer">Open article</a>.</li>
+<li id="open-ref-8"><span class="reference-label">[O8]</span> B. Bogosel and D. Bucur, <em>Polygonal Faber–Krahn inequality: local minimality via validated computing</em>, Commun. Contemp. Math., doi:10.1142/S0219199726500744: rigorously validated local pentagon and hexagon results. <a href="https://arxiv.org/html/2406.11575v1" target="_blank" rel="noopener noreferrer">Open version</a>; <a href="https://doi.org/10.1142/S0219199726500744" target="_blank" rel="noopener noreferrer">Journal</a>.</li>
+<li id="open-ref-9"><span class="reference-label">[O9]</span> Z. Cheng, C. Gui, Y. Hu, and Q. Li, <em>The Pólya–Szegő conjecture for convex polygons with many sides</em>, arXiv:2609.18500v1 (September 2026), Theorem 1.1. <strong>Preprint claim.</strong> <a href="https://arxiv.org/html/2609.18500v1" target="_blank" rel="noopener noreferrer">Text</a>.</li>
+<li id="open-ref-10"><span class="reference-label">[O10]</span> P. R. S. Antunes, P. Freitas, and D. Krejčiřík, <em>Bounds and extremal domains for Robin eigenvalues with negative boundary parameter</em>, Adv. Calc. Var. 10 (2017), 357–379, §5.3, Conjecture 2; also the fixed-perimeter theorem. <a href="https://arxiv.org/pdf/1605.08161" target="_blank" rel="noopener noreferrer">Open PDF</a>.</li>
+<li id="open-ref-11"><span class="reference-label">[O11]</span> D. Krejčiřík and V. Lotoreichik, <em>Optimisation and monotonicity of the second Robin eigenvalue on a planar exterior domain</em>, Calc. Var. Partial Differential Equations 63 (2024), article 223, §1.2: discussion of the bounded-domain Bareket problem. <a href="https://link.springer.com/article/10.1007/s00526-024-02824-3" target="_blank" rel="noopener noreferrer">Open article</a>.</li>
+<li id="open-ref-12"><span class="reference-label">[O12]</span> N. Gavitone, D. Krejčiřík, and G. Paoli, <em>A reverse Faber–Krahn inequality for the Robin Laplacian with negative boundary parameter: small coupling in all dimensions</em>, arXiv:2606.24341 (June 2026), Theorem 1. <strong>Preprint, restricted parameter range.</strong> <a href="https://arxiv.org/pdf/2606.24341" target="_blank" rel="noopener noreferrer">PDF</a>.</li>
+<li id="open-ref-13"><span class="reference-label">[O13]</span> R. L. Frank and S. Larson, <em>Riesz means asymptotics for Dirichlet and Neumann Laplacians on Lipschitz domains</em>, arXiv:2407.11808, version 3 (2025), §1, formula (4): the counting asymptotic, the open dynamical assumption, and results for averaged spectra. <a href="https://arxiv.org/pdf/2407.11808" target="_blank" rel="noopener noreferrer">Open PDF</a>.</li>
+<li id="open-ref-14"><span class="reference-label">[O14]</span> B. Albach et al., <em>Open problems in billiards and quantitative symplectic geometry</em>, arXiv:2602.12896 (2026), p.19, discussion of Ivrii’s conjecture for conventional billiards. <a href="https://www.math.toronto.edu/khesin/papers/OpenBilliardProblems2602.12896.pdf" target="_blank" rel="noopener noreferrer">Author PDF</a>.</li>
+<li id="open-ref-15"><span class="reference-label">[O15]</span> N. Filonov, M. Levitin, I. Polterovich, and D. A. Sher, <em>Pólya’s conjecture for Dirichlet eigenvalues of annuli</em>, J. London Math. Soc. 113 (2026), e70425, Introduction and main results. <a href="https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/jlms.70425" target="_blank" rel="noopener noreferrer">Article</a>.</li>
+<li id="open-ref-16"><span class="reference-label">[O16]</span> Q. Tang and Z. Wang, <em>Strict Dirichlet Pólya Inequality for Simply Connected Planar Domains</em>, arXiv:2610.13139v1, submitted 9 October 2026, Conjecture 1.1, Theorem 1.2, and Remarks 1.3–1.4. <strong>Recent preprint claim, not independently verified here.</strong> <a href="https://arxiv.org/html/2610.13139v1" target="_blank" rel="noopener noreferrer">Text</a>.</li>
+</ol>
+</section>
+</section>
+
+
+      <section class="method-section" id="method" aria-labelledby="method-heading">
+        <div class="section-heading"><h2 id="method-heading">Numerical method and conventions</h2><button class="quiet-button" id="about-button">Solver details</button></div>
+        <p>The Dirichlet operator uses the five-point finite-difference stencil on strictly interior grid points. The Robin approximation uses a symmetric grid energy with polygon-arclength quadrature and boundary-trace elimination. This is an educational approximation rather than a fitted-boundary finite-element method. Corners, narrow necks, and strongly negative <span class="math">α</span> can produce substantial boundary error, even when the discrete eigenpair residual is small.</p>
+        <p>The displayed residual measures <span class="math">‖Au − λu‖₂ / (max(|λ|, 1) ‖u‖₂)</span> for the discrete matrix. It indicates solver convergence, not accuracy of the continuous boundary approximation. Increase the grid resolution under <strong>Advanced settings</strong> to compare results. Negative Robin eigenvalues are retained; their time dependence in the wave equation is non-oscillatory, so their animation and individual sound controls are disabled.</p>
+      </section>
+    </main>
+    <footer><span>Calculations stay in your browser. The page also works offline.</span></footer>
+  </div>
+  <dialog id="about-dialog" aria-labelledby="about-title">
+    <div class="section-heading"><h2 id="about-title">Numerical eigensolver</h2><button id="close-about" class="quiet-button" aria-label="Close solver details">Close</button></div>
+    <p>The first 12 eigenpairs are computed by block inverse iteration with two-pass modified Gram–Schmidt orthogonalization, Rayleigh–Ritz extraction, and a Jacobi eigensolver for the projected matrix. Each inverse application uses conjugate gradients with an incomplete-Cholesky preconditioner.</p>
+    <p>A Gershgorin lower bound supplies a shift for the Robin problem so that inverse solves remain positive definite. The shift is removed from the reported eigenvalues, including the zero Neumann eigenvalue and negative attractive-Robin eigenvalues.</p>
+    <p>The iteration stops when the maximum scaled residual is below <span class="math">2 × 10⁻⁵</span>, or after 80 steps (140 for negative Robin parameters). An unconverged result is explicitly labelled. See the visible numerical-method section for the distinction between this residual and boundary approximation error.</p>
+    <p><a href="https://arxiv.org/abs/2008.07400" target="_blank" rel="noopener noreferrer">Rudnick, Wigman, and Yesha on Robin and Neumann spectra</a>.</p>
+  </dialog>
+  <noscript><p class="noscript">JavaScript is required to draw domains and compute eigenfunctions.</p></noscript>
+  <script id="solver-source" type="text/plain">/* Dependency-free Dirichlet / Robin Laplacian solver. Runs in a Worker or Node. */
+(function (root) {
+  'use strict';
+  function inside(x, y, p) {
+    let yes = false;
+    for (let i = 0, j = p.length - 1; i < p.length; j = i++) {
+      const a = p[j], b = p[i];
+      const cross = (x-a[0])*(b[1]-a[1])-(y-a[1])*(b[0]-a[0]);
+      if (Math.abs(cross) < 1e-12 && x >= Math.min(a[0], b[0])-1e-12 && x <= Math.max(a[0], b[0])+1e-12 && y >= Math.min(a[1], b[1])-1e-12 && y <= Math.max(a[1], b[1])+1e-12) return false;
+      if ((a[1]>y)!==(b[1]>y) && x < (b[0]-a[0])*(y-a[1])/(b[1]-a[1])+a[0]) yes=!yes;
+    }
+    return yes;
+  }
+  function area(p) {
+    let a=0; for(let i=0,j=p.length-1;i<p.length;j=i++) a+=p[j][0]*p[i][1]-p[i][0]*p[j][1];
+    return Math.abs(a)/2;
+  }
+  function intersects(p) {
+    function orient(a,b,c){return (b[0]-a[0])*(c[1]-a[1])-(b[1]-a[1])*(c[0]-a[0]);}
+    function on(a,b,c){return Math.min(a[0],b[0])-1e-10<=c[0]&&c[0]<=Math.max(a[0],b[0])+1e-10&&Math.min(a[1],b[1])-1e-10<=c[1]&&c[1]<=Math.max(a[1],b[1])+1e-10;}
+    for(let i=0;i<p.length;i++) for(let j=i+1;j<p.length;j++) {
+      if(j===i+1 || (i===0&&j===p.length-1)) continue;
+      const a=p[i],b=p[(i+1)%p.length],c=p[j],d=p[(j+1)%p.length];
+      const ab=orient(a,b,c),ac=orient(a,b,d),cd=orient(c,d,a),ce=orient(c,d,b);
+      if((ab*ac<0&&cd*ce<0)||(Math.abs(ab)<1e-10&&on(a,b,c))||(Math.abs(ac)<1e-10&&on(a,b,d))||(Math.abs(cd)<1e-10&&on(c,d,a))||(Math.abs(ce)<1e-10&&on(c,d,b))) return true;
+    }
+    return false;
+  }
+  function makeDomain(points, resolution, options = {}) {
+    const boundary=options.boundary || 'dirichlet', alpha=options.alpha ?? 1;
+    if(!['dirichlet','robin'].includes(boundary)||!Number.isFinite(alpha)||alpha < -6 || alpha > 200)throw Error('Choose a valid boundary and a Robin parameter between −6 and 200.');
+    if(!Array.isArray(points)||points.length<3||points.length>2000||points.some(p=>!Array.isArray(p)||p.length!==2||p.some(v=>!Number.isFinite(v)||v<0||v>1))) throw Error('Draw a closed shape inside the drawing area.');
+    if(![48,64,96,128,144].includes(resolution)) throw Error('Unsupported grid resolution.');
+    if(intersects(points)) throw Error('The curve crosses itself. Please draw one simple, closed outline.');
+    if(area(points)<0.008) throw Error('This shape is too small. Draw a larger outline.');
+    const size=resolution+1, map=new Int32Array(size*size).fill(-1), cells=[];
+    for(let y=1;y<resolution;y++)for(let x=1;x<resolution;x++)if(inside(x/resolution,y/resolution,points)){map[y*size+x]=cells.length;cells.push(y*size+x);}
+    const n=cells.length;
+    if(n<40)throw Error('Too few grid points fit inside this shape. Enlarge it or choose a finer grid.');
+    const left=new Int32Array(n),right=new Int32Array(n),up=new Int32Array(n),down=new Int32Array(n),diag=new Float64Array(n),diagonal=new Float64Array(n),lengths=new Float64Array(n),missing=new Uint8Array(n);
+    const h=2/resolution;let perimeter=0;
+    for(let i=0;i<n;i++){
+      const c=cells[i];left[i]=map[c-1];right[i]=map[c+1];up[i]=map[c-size];down[i]=map[c+size];
+      missing[i]=+(left[i]<0)+ +(right[i]<0)+ +(up[i]<0)+ +(down[i]<0);
+    }
+    // A connected continuous outline can lose a narrow neck on a coarse grid.
+    const seen=new Uint8Array(n), stack=[0];seen[0]=1;let count=0;
+    while(stack.length){const i=stack.pop();count++;for(const j of [left[i],right[i],up[i],down[i]])if(j>=0&&!seen[j]){seen[j]=1;stack.push(j);}}
+    if(count!==n)throw Error('The grid splits this shape into separate pieces. Widen narrow connections or choose a finer grid.');
+    // Integrate the actual polygon perimeter, not the axis-aligned pixel perimeter.
+    // Each short boundary segment contributes its arclength to the nearest exposed node.
+    const edgeNodes=[];for(let i=0;i<n;i++)if(missing[i])edgeNodes.push(i);
+    for(let j=0;j<points.length;j++){
+      const a=points[j],b=points[(j+1)%points.length],dx=b[0]-a[0],dy=b[1]-a[1],length=2*Math.hypot(dx,dy);perimeter+=length;
+      if(boundary!=='robin')continue;
+      const pieces=Math.max(1,Math.ceil(length/h*6));
+      for(let t=0;t<pieces;t++){
+        const x=(a[0]+dx*(t+.5)/pieces)*resolution,y=(a[1]+dy*(t+.5)/pieces)*resolution;
+        let best=-1,distance=Infinity;
+        for(const i of edgeNodes){const c=cells[i],d=(c%size-x)**2+(Math.floor(c/size)-y)**2;if(d<distance){distance=d;best=i;}}
+        lengths[best]+=length/pieces;
+      }
+    }
+    let minPenalty=0;
+    if(boundary==='robin'){
+      // A tiny positive floor handles boundary nodes shielded in the sampling Voronoi diagram.
+      const floor=h*1e-8,normalizer=perimeter/(perimeter+floor*edgeNodes.length);
+      for(const i of edgeNodes)lengths[i]=(lengths[i]+floor)*normalizer;
+    }
+    for(let i=0;i<n;i++){
+      const m=missing[i],q=alpha*lengths[i];
+      // Eliminate a boundary trace v from m(u-v)^2 + alpha*length*v^2.
+      // This is symmetric, is Neumann at alpha=0, and tends to the original
+      // Dirichlet stencil as alpha -> +infinity. Polygon quadrature avoids
+      // the persistent Manhattan-perimeter bias of uncorrected raster Robin terms.
+      const penalty=boundary==='dirichlet'?m:(m?q/(1+q/m):0);
+      if(boundary==='robin'&&m&&1+q/m<=.05)throw Error('Boundary attraction is too strong for this grid. Use a finer grid or a less negative α.');
+      diagonal[i]=4-m+penalty;minPenalty=Math.min(minPenalty,penalty);
+    }
+    // A Gershgorin lower bound makes the inverse solve positive definite,
+    // including Neumann's zero mode and attractive Robin's negative modes.
+    const shift=boundary==='dirichlet'?0:-minPenalty+h*h*.5;
+    for(let i=0;i<n;i++){
+      diagonal[i]+=shift;
+      diag[i]=Math.sqrt(diagonal[i]-(left[i]>=0?1/(diag[left[i]]**2):0)-(up[i]>=0?1/(diag[up[i]]**2):0));
+      if(!(diag[i]>0))throw Error('Could not factor this boundary discretization. Try a finer grid.');
+    }
+    function multiply(v,out){for(let i=0;i<n;i++)out[i]=diagonal[i]*v[i]-(left[i]>=0?v[left[i]]:0)-(right[i]>=0?v[right[i]]:0)-(up[i]>=0?v[up[i]]:0)-(down[i]>=0?v[down[i]]:0);}
+    const temp=new Float64Array(n);
+    function precondition(r,z){
+      for(let i=0;i<n;i++)temp[i]=(r[i]+(left[i]>=0?temp[left[i]]/diag[left[i]]:0)+(up[i]>=0?temp[up[i]]/diag[up[i]]:0))/diag[i];
+      for(let i=n-1;i>=0;i--)z[i]=(temp[i]+(right[i]>=0?z[right[i]]/diag[i]:0)+(down[i]>=0?z[down[i]]/diag[i]:0))/diag[i];
+    }
+    return {n,size,map,cells:Int32Array.from(cells),multiply,precondition,h,area:area(points)*4,gridArea:n*h*h,perimeter,boundary,alpha,shift,lengths};
+  }
+  function dot(a,b){let s=0;for(let i=0;i<a.length;i++)s+=a[i]*b[i];return s;}
+  function orthogonalize(v,basis){
+    for(let pass=0;pass<2;pass++)for(const q of basis){const a=dot(v,q);for(let i=0;i<v.length;i++)v[i]-=a*q[i];}
+    const length=Math.sqrt(dot(v,v));if(length<1e-13)throw Error('Numerical basis lost rank. Please try a different resolution.');
+    for(let i=0;i<v.length;i++)v[i]/=length;
+  }
+  function diagonalize(input,n){
+    const a=Float64Array.from(input),v=new Float64Array(n*n);for(let i=0;i<n;i++)v[i*n+i]=1;
+    for(let sweep=0;sweep<60;sweep++){
+      let off=0;
+      for(let p=0;p<n-1;p++)for(let q=p+1;q<n;q++){
+        const apq=a[p*n+q];off=Math.max(off,Math.abs(apq));if(Math.abs(apq)<1e-13)continue;
+        const tau=(a[q*n+q]-a[p*n+p])/(2*apq),t=(tau>=0?1:-1)/(Math.abs(tau)+Math.sqrt(1+tau*tau)),c=1/Math.sqrt(1+t*t),s=t*c;
+        a[p*n+p]-=t*apq;a[q*n+q]+=t*apq;a[p*n+q]=a[q*n+p]=0;
+        for(let k=0;k<n;k++){
+          if(k!==p&&k!==q){const kp=a[k*n+p],kq=a[k*n+q];a[k*n+p]=a[p*n+k]=c*kp-s*kq;a[k*n+q]=a[q*n+k]=s*kp+c*kq;}
+          const vp=v[k*n+p],vq=v[k*n+q];v[k*n+p]=c*vp-s*vq;v[k*n+q]=s*vp+c*vq;
+        }
+      }
+      if(off<1e-12)break;
+    }
+    const order=Array.from({length:n},(_,i)=>i).sort((i,j)=>a[i*n+i]-a[j*n+j]);
+    return {values:order.map(i=>a[i*n+i]),vectors:order.map(i=>Float64Array.from({length:n},(_,j)=>v[j*n+i]))};
+  }
+  function solve(points,resolution=96,requested=12,progress=()=>{},options={}){
+    const start=Date.now(),domain=makeDomain(points,resolution,options),{n,multiply,precondition}=domain;
+    const k=Math.min(requested,n-2),block=Math.min(k+(domain.alpha<0&&domain.boundary==='robin'?14:8),n-1);
+    let seed=984319;function random(){seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed/4294967296-.5;}
+    let q=[];for(let j=0;j<block;j++){let v=Float64Array.from({length:n},random);orthogonalize(v,q);q.push(v);}
+    const r=new Float64Array(n),z=new Float64Array(n),p=new Float64Array(n),ap=new Float64Array(n);
+    function inverse(b,estimate){
+      const x=new Float64Array(n);
+      if(estimate>0){for(let i=0;i<n;i++)x[i]=b[i]/estimate;multiply(x,ap);for(let i=0;i<n;i++)r[i]=b[i]-ap[i];}else r.set(b);
+      let rr=dot(r,r);if(rr<1e-18)return x;
+      precondition(r,z);p.set(z);let rz=dot(r,z);
+      for(let it=0;it<Math.max(120,resolution*2);it++){
+        multiply(p,ap);const alpha=rz/dot(p,ap);
+        for(let i=0;i<n;i++){x[i]+=alpha*p[i];r[i]-=alpha*ap[i];}
+        rr=dot(r,r);if(rr<1e-17)break;
+        precondition(r,z);const next=dot(r,z),beta=next/rz;
+        for(let i=0;i<n;i++)p[i]=z[i]+beta*p[i];rz=next;
+      }
+      return x;
+    }
+    let eig=null,residuals=[],iteration=0;
+    const maxIterations=domain.boundary==='robin'&&domain.alpha<0?140:80;
+    for(;iteration<maxIterations;iteration++){
+      const next=[];
+      for(let j=0;j<block;j++){const v=inverse(q[j],eig?eig.values[j]:0);orthogonalize(v,next);next.push(v);}
+      const aq=next.map(v=>{const a=new Float64Array(n);multiply(v,a);return a;}),small=new Float64Array(block*block);
+      for(let i=0;i<block;i++)for(let j=i;j<block;j++)small[i*block+j]=small[j*block+i]=dot(next[i],aq[j]);
+      eig=diagonalize(small,block);
+      q=eig.vectors.map(coeff=>{const v=new Float64Array(n);for(let j=0;j<block;j++)for(let i=0;i<n;i++)v[i]+=coeff[j]*next[j][i];return v;});
+      residuals=q.slice(0,k).map((v,j)=>{multiply(v,ap);let a=0;for(let i=0;i<n;i++)a+=(ap[i]-eig.values[j]*v[i])**2;return Math.sqrt(a)/Math.max(Math.abs(eig.values[j]-domain.shift),domain.h*domain.h);});
+      const worst=Math.max(...residuals);
+      progress({iteration:iteration+1,residual:worst,percent:Math.min(97,Math.round(12+85*Math.min(1,Math.log(1/Math.max(worst,1e-7))/Math.log(1/2e-5))))});
+      if(worst<2e-5&&iteration>=5)break;
+    }
+    const values=eig.values.slice(0,k).map(v=>(v-domain.shift)/(domain.h*domain.h));
+    if(domain.boundary==='robin'&&domain.alpha===0&&Math.abs(values[0])<1e-7)values[0]=0;
+    const vectors=q.slice(0,k).map(v=>{
+      let peak=0,sign=1;for(let i=0;i<n;i++)if(Math.abs(v[i])>peak){peak=Math.abs(v[i]);sign=v[i]>=0?1:-1;}
+      return Float32Array.from(v,x=>sign*x/peak);
+    });
+    if(values.some(v=>!Number.isFinite(v)))throw Error('The eigensolver could not resolve this shape. Try a smoother outline.');
+    return {values,vectors,residuals,cells:domain.cells,resolution,size:domain.size,n,area:domain.area,gridArea:domain.gridArea,perimeter:domain.perimeter,boundary:domain.boundary,alpha:domain.alpha,iterations:Math.min(iteration+1,maxIterations),milliseconds:Date.now()-start,converged:Math.max(...residuals)<2e-5};
+  }
+  const api={solve,makeDomain,inside,area,intersects};
+  if(typeof module!=='undefined'&&module.exports)module.exports=api;
+  else if(typeof WorkerGlobalScope!=='undefined'&&root instanceof WorkerGlobalScope){root.onmessage=e=>{try{const result=solve(e.data.points,e.data.resolution,12,p=>root.postMessage({type:'progress',...p}),e.data.options||{});root.postMessage({type:'result',result},[...result.vectors.map(v=>v.buffer),result.cells.buffer]);}catch(error){root.postMessage({type:'error',message:error.message});}};}
+  else root.EigenSolver=api;
+})(typeof self!=='undefined'?self:globalThis);
+</script>
+  <script>/* Example domains. Coordinates are normalized to the drawing canvas. */
+(function(root){
+  function polygon(n,r=.36,offset=-Math.PI/2){return Array.from({length:n},(_,i)=>[.5+r*Math.cos(offset+2*Math.PI*i/n),.5+r*Math.sin(offset+2*Math.PI*i/n)]);}
+  function duck(){
+    const p=[[.12,.45]];let from=p[0];
+    function curve(c1,c2,end){for(let i=1;i<=12;i++){let t=i/12,s=1-t;p.push([s*s*s*from[0]+3*s*s*t*c1[0]+3*s*t*t*c2[0]+t*t*t*end[0],s*s*s*from[1]+3*s*s*t*c1[1]+3*s*t*t*c2[1]+t*t*t*end[1]]);}from=end;}
+    function line(end){p.push(end);from=end;}
+    curve([.23,.58],[.36,.56],[.46,.48]);curve([.49,.46],[.54,.45],[.57,.43]);curve([.51,.39],[.50,.33],[.52,.27]);curve([.54,.16],[.63,.13],[.70,.16]);curve([.77,.18],[.80,.24],[.78,.29]);line([.91,.34]);line([.78,.39]);curve([.78,.59],[.68,.75],[.50,.78]);curve([.31,.82],[.16,.73],[.13,.58]);line([.10,.43]);return p;
+  }
+  function eight(neck=.16){
+    // Smooth connected Cassini oval; neck is the waist/tip radius ratio.
+    const a2=(1-neck*neck)/2,b2=(1+neck*neck)/2;
+    return Array.from({length:192},(_,i)=>{const t=2*Math.PI*i/192,r=.385*Math.sqrt(a2*Math.cos(2*t)+Math.sqrt(b2*b2-a2*a2*Math.sin(2*t)**2));return [.5-r*Math.sin(t),.5+r*Math.cos(t)];});
+  }
+  function pacman(mouth=60){const angle=mouth*Math.PI/360;return [[.5,.5],...Array.from({length:128},(_,i)=>{const t=angle+(2*Math.PI-2*angle)*i/127;return [.5+.37*Math.cos(t),.5+.37*Math.sin(t)];})];}
+  function rectangle(aspect=2){const w=.77,h=w/aspect;return [[.5-w/2,.5-h/2],[.5+w/2,.5-h/2],[.5+w/2,.5+h/2],[.5-w/2,.5+h/2]];}
+  const stories={
+    circle:{name:'Circle',note:'Rotational symmetry produces repeated eigenvalues. Modes in a repeated eigenspace can rotate or mix.'},
+    triangle:{name:'Triangle',note:'A regular triangle has symmetry-related modes. Corners become especially visible with attractive Robin boundaries.'},
+    square:{name:'Square',note:'Separation of variables makes a square a useful benchmark. Repeated eigenvalues allow different orthogonal mode mixtures.'},
+    hexagon:{name:'Hexagon',note:'Sixfold symmetry organizes families of modes. Compare its nodal patterns with the disk.'},
+    duck:{name:'Duck',note:'An asymmetric domain breaks many degeneracies. The narrow neck can concentrate some modes in the body or head.'},
+    eight:{name:'Smooth 8',note:'The slider is the waist radius divided by the centre-to-tip distance. A narrow waist weakly couples the lobes, producing nearby mode pairs; the first nonconstant Neumann eigenvalue becomes small.'},
+    pacman:{name:'Pac-Man',note:'The mouth breaks rotational symmetry and creates a re-entrant corner. Watch formerly repeated disk modes split as the mouth opens.'},
+    lshape:{name:'L-shape',note:'The 270° corner reduces eigenfunction regularity. Refine the grid to see how a re-entrant corner affects convergence.'},
+    rectangle:{name:'Rectangle',note:'Changing the aspect ratio moves the separable mode families past one another. Look for eigenvalue crossings.'},
+    righttriangle:{name:'Right triangle',note:'This right isosceles triangle has angles of 90°, 45°, and 45°. Compare its nodal patterns with those of the square and the equilateral triangle.'}
+  };
+  const shapes={circle:()=>polygon(128,.355),triangle:()=>[[.5,.135],[.88,.793],[.12,.793]],square:()=>[[.18,.18],[.82,.18],[.82,.82],[.18,.82]],hexagon:()=>polygon(6,.365,0),duck,eight,pacman,lshape:()=>[[.14,.14],[.86,.14],[.86,.44],[.44,.44],[.44,.86],[.14,.86]],rectangle,righttriangle:()=>[[.18,.18],[.82,.82],[.18,.82]]};
+
+ const api={shapes,stories};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.EigenGeometry=api;
+})(typeof self!=='undefined'?self:globalThis);
+
+(function(){
+  'use strict';
+  const $=id=>document.getElementById(id),drawing=$('drawing'),field=$('field');
+  const state={points:[],name:'Circle',key:'circle',drawing:false,result:null,mode:0,worker:null,animation:false,phase:0,lastFrame:0,raf:0};
+  const shapeParameters={eight:.16,pacman:60,rectangle:2};
+  const subs=n=>String(n).split('').map(x=>'₀₁₂₃₄₅₆₇₈₉'[+x]).join('');
+  const icon=name=>'<svg><use href="#i-'+name+'"/></svg>';
+  const workerURL=URL.createObjectURL(new Blob([$ ('solver-source').textContent],{type:'text/javascript'}));
+  const gridCanvas=document.createElement('canvas');
+  let fieldGrid=null,fieldMask=null;
+  const {shapes,stories}=EigenGeometry;
+  function path(ctx,points,x=0,y=0,scale=1){ctx.beginPath();points.forEach((p,i)=>ctx[i?'lineTo':'moveTo'](x+p[0]*scale,y+p[1]*scale));ctx.closePath();}
+  function drawingSize(){const r=drawing.getBoundingClientRect(),dpr=Math.min(window.devicePixelRatio||1,2);drawing.width=Math.round(r.width*dpr);drawing.height=Math.round(r.height*dpr);return {w:drawing.width,h:drawing.height};}
+  function drawDomain(){
+    const ctx=drawing.getContext('2d'),w=drawing.width,h=drawing.height,s=w/640;ctx.clearRect(0,0,w,h);ctx.fillStyle='#f3f5ec';ctx.fillRect(0,0,w,h);
+    ctx.fillStyle='#d3dcc6';for(let y=32*s;y<h;y+=32*s)for(let x=32*s;x<w;x+=32*s){ctx.beginPath();ctx.arc(x,y,1.05*s,0,Math.PI*2);ctx.fill();}
+    ctx.strokeStyle='#d6decc';ctx.lineWidth=1*s;ctx.beginPath();ctx.moveTo(w/2,0);ctx.lineTo(w/2,h);ctx.moveTo(0,h/2);ctx.lineTo(w,h/2);ctx.stroke();
+    if(!state.points.length)return;
+    ctx.save();ctx.scale(w,h);path(ctx,state.points);if(state.drawing){ctx.fillStyle='#d3dfbf45';ctx.fill();ctx.beginPath();state.points.forEach((p,i)=>ctx[i?'lineTo':'moveTo'](...p));}else{ctx.fillStyle='#c5d3af66';ctx.fill();}
+    ctx.lineWidth=2.2/w;ctx.strokeStyle='#42624b';ctx.lineJoin='round';ctx.lineCap='round';ctx.stroke();
+    if(!state.drawing){const p=state.points[0];ctx.beginPath();ctx.arc(p[0],p[1],3.5/w,0,2*Math.PI);ctx.fillStyle='#42624b';ctx.fill();}ctx.restore();
+  }
+  const palette=Array.from({length:511},(_,i)=>{
+    const t=(i-255)/255,stops=t>=0?[[24,61,61],[57,108,86],[124,162,105],[196,207,126],[241,215,117]]:[[24,61,61],[31,78,91],[48,107,132],[78,147,175],[129,190,204]];
+    const v=Math.abs(t)*4,a=Math.min(3,Math.floor(v)),f=v-a;return stops[a].map((x,j)=>Math.round(x*(1-f)+stops[a+1][j]*f));
+  });
+  function makeFieldGrid(){
+    if(!state.result){fieldGrid=null;return;}
+    const r=state.result;fieldGrid=new Float32Array(r.size*r.size);fieldMask=new Uint8Array(fieldGrid.length);const v=r.vectors[state.mode];for(let i=0;i<r.n;i++){fieldGrid[r.cells[i]]=v[i];fieldMask[r.cells[i]]=1;}
+    if(r.boundary==='robin'){
+      // Extrapolate only for display, then clip to the actual outline. Robin
+      // boundary amplitude is not forced to zero by the color interpolation.
+      const known=Uint8Array.from(fieldMask);
+      for(let pass=0;pass<3;pass++){
+        const additions=[];
+        for(let y=1;y<r.size-1;y++)for(let x=1;x<r.size-1;x++){
+          const id=y*r.size+x;if(known[id])continue;let sum=0,count=0;
+          for(const j of [id-1,id+1,id-r.size,id+r.size])if(known[j]){sum+=fieldGrid[j];count++;}
+          if(count)additions.push([id,sum/count]);
+        }
+        for(const [id,value] of additions){fieldGrid[id]=value;known[id]=1;}
+      }
+    }
+    gridCanvas.width=gridCanvas.height=r.size;
+  }
+  function paintGrid(factor=1){
+    const r=state.result,ctx=gridCanvas.getContext('2d'),data=ctx.createImageData(r.size,r.size);
+    for(let i=0;i<fieldGrid.length;i++){const color=palette[Math.max(0,Math.min(510,Math.round(fieldGrid[i]*factor*255)+255))];data.data[i*4]=color[0];data.data[i*4+1]=color[1];data.data[i*4+2]=color[2];data.data[i*4+3]=255;}
+    ctx.putImageData(data,0,0);
+  }
+  function contour(ctx,ox,oy,side,level,nodal=false){
+    const r=state.result,N=r.resolution,stride=r.size,step=side/N,mask=fieldGrid;
+    ctx.beginPath();
+    for(let y=1;y<N-1;y++)for(let x=1;x<N-1;x++){
+      const idx=y*stride+x,ids=[idx,idx+1,idx+stride+1,idx+stride];
+      // Do not mistake the fixed exterior for interior nodal curves.
+      if(ids.some(i=>!fieldMask[i]))continue;
+      const vals=ids.map(i=>mask[i]),pts=[[x,y],[x+1,y],[x+1,y+1],[x,y+1]],hits=[];
+      for(let e=0;e<4;e++){let j=(e+1)%4;if((vals[e]>level)!==(vals[j]>level)){const t=(level-vals[e])/(vals[j]-vals[e]);hits.push([ox+(pts[e][0]+t*(pts[j][0]-pts[e][0]))*step,oy+(pts[e][1]+t*(pts[j][1]-pts[e][1]))*step]);}}
+      if(hits.length===2){ctx.moveTo(...hits[0]);ctx.lineTo(...hits[1]);}else if(hits.length===4){
+        // The bilinear center resolves saddle cells consistently.
+        if((vals.reduce((a,b)=>a+b,0)/4>level)===(vals[0]>level)){ctx.moveTo(...hits[0]);ctx.lineTo(...hits[1]);ctx.moveTo(...hits[2]);ctx.lineTo(...hits[3]);}else{ctx.moveTo(...hits[0]);ctx.lineTo(...hits[3]);ctx.moveTo(...hits[1]);ctx.lineTo(...hits[2]);}
+      }
+    }
+    ctx.strokeStyle=nodal?'#deead1b3':'#d9eccb24';ctx.lineWidth=(nodal?1.1:.65)*Math.min(window.devicePixelRatio||1,1.5);ctx.stroke();
+  }
+  function renderField(factor=1){
+    const ctx=field.getContext('2d'),w=field.width,h=field.height,dpr=Math.min(window.devicePixelRatio||1,1.5);
+    ctx.fillStyle='#0e2325';ctx.fillRect(0,0,w,h);
+    ctx.fillStyle='#6a928925';const gap=22*dpr;for(let y=gap/2;y<h;y+=gap)for(let x=gap/2;x<w;x+=gap){ctx.beginPath();ctx.arc(x,y,.65*dpr,0,Math.PI*2);ctx.fill();}
+    if(!state.result||!fieldGrid)return;
+    const side=Math.min(w-24*dpr,h-76*dpr),ox=(w-side)/2,oy=(h-side)/2+12*dpr;
+    paintGrid(factor);ctx.save();path(ctx,state.points,ox,oy,side);ctx.clip();ctx.imageSmoothingEnabled=true;ctx.imageSmoothingQuality='high';
+    // Samples lie at integer grid coordinates. Half a texel aligns the image.
+    const step=side/state.result.resolution;
+    ctx.drawImage(gridCanvas,ox-step/2,oy-step/2,side+step,side+step);
+    if(!state.animation){for(const level of [-.8,-.6,-.4,-.2,.2,.4,.6,.8])contour(ctx,ox,oy,side,level);}
+    if($('nodal').checked&&state.mode>0)contour(ctx,ox,oy,side,0,true);
+    ctx.restore();path(ctx,state.points,ox,oy,side);ctx.strokeStyle='#b9d09a80';ctx.lineWidth=1*dpr;ctx.stroke();
+  }
+  const modeButtons=[];
+  for(let i=0;i<12;i++){
+    const b=document.createElement('button');b.className='mode-button'+(i===0?' active':'');b.disabled=true;b.setAttribute('aria-label','Eigenfunction '+(i+1));b.setAttribute('aria-pressed',i===0?'true':'false');
+    const c=document.createElement('canvas');c.width=c.height=76;c.setAttribute('aria-hidden','true');b.append(c);const label=document.createElement('span');label.textContent=String(i+1).padStart(2,'0');b.append(label);b.addEventListener('click',()=>selectMode(i));$('modes').append(b);modeButtons.push(b);
+  }
+  function thumbnails(){
+    if(!state.result)return;
+    const r=state.result,small=document.createElement('canvas');small.width=small.height=r.size;const sc=small.getContext('2d');
+    modeButtons.forEach((b,i)=>{
+      const data=sc.createImageData(r.size,r.size),v=r.vectors[i];for(let j=0;j<r.n;j++){const id=r.cells[j],c=palette[Math.round(v[j]*255)+255];for(let k=0;k<3;k++)data.data[id*4+k]=c[k];data.data[id*4+3]=255;}sc.putImageData(data,0,0);
+      const ctx=b.firstChild.getContext('2d');ctx.clearRect(0,0,76,76);ctx.drawImage(small,2,2,72,72);b.disabled=false;b.title='Mode '+(i+1)+' · λ = '+r.values[i].toFixed(4);b.setAttribute('aria-label','Mode '+(i+1)+', eigenvalue '+r.values[i].toFixed(4));
+    });
+  }
+  function selectMode(i){
+    if(!state.result)return;stopAudio();stopAnimation();state.mode=i;state.phase=0;
+    modeButtons.forEach((b,j)=>{b.classList.toggle('active',j===i);b.setAttribute('aria-pressed',j===i?'true':'false');});
+    $('mode-symbol').textContent='u'+subs(i+1);$('lambda-symbol').textContent='λ'+subs(i+1);$('eigenvalue').textContent=state.result.values[i].toFixed(3);$('mode-count').textContent=(i+1)+' of 12';
+    const lambda=state.result.values[i];
+    $('viz-caption').textContent=lambda< -1e-7?'Negative eigenvalue; non-oscillatory':Math.abs(lambda)<1e-7?'Constant Neumann eigenfunction':i===0?'Fundamental eigenfunction':'Eigenfunction '+(i+1);
+    $('animate').disabled=lambda<=1e-7;
+    $('hear-mode').disabled=lambda<=1e-7 || 35*Math.sqrt(lambda)<20;
+    $('hear-blend').disabled=!state.result.values.some(v=>v>0&&35*Math.sqrt(v)>=20);
+    $('sound-info').textContent=lambda<=1e-7?'This mode is non-oscillatory. Zero and negative modes have no tone.':'Mode '+(i+1)+' · '+(35*Math.sqrt(lambda)).toFixed(1)+' Hz at the shared frequency scale.';
+    field.setAttribute('aria-label',state.name+' domain, Laplacian eigenfunction '+(i+1)+', eigenvalue '+state.result.values[i].toFixed(3));
+    makeFieldGrid();renderField();
+  }
+  function status(message,kind=''){const el=$('feedback');el.textContent=message;el.className='feedback '+kind;}
+  function overlay(message,kind=''){$('viz-overlay').hidden=false;$('viz-overlay').className='viz-overlay '+kind;$('viz-message').textContent=message;}
+  function stopAnimation(){state.animation=false;cancelAnimationFrame(state.raf);state.phase=0;$('animate').innerHTML=icon('play')+'<span>Animate</span>';$('animate').setAttribute('aria-pressed','false');}
+  function invalidate(message){
+    if(state.worker){state.worker.terminate();state.worker=null;}stopAnimation();stopAudio();state.result=null;fieldGrid=null;$('compute').disabled=false;$('compute-label').textContent='Compute eigenfunctions';$('download').disabled=$('animate').disabled=$('hear-mode').disabled=$('hear-blend').disabled=true;updateSum();
+    modeButtons.forEach(b=>{b.disabled=true;b.firstChild.getContext('2d').clearRect(0,0,76,76);});$('eigenvalue').textContent='—';$('solver-info').textContent='Computed in your browser';
+    overlay('Compute the eigenfunctions for this domain.','idle');status(message,'stale');renderField();
+  }
+  function compute(){
+    if(state.drawing)return;
+    if(state.points.length<3){status('Choose an example or draw a closed outline first.','error');overlay('Draw a shape to begin.','idle');return;}
+    const alpha=+$('robin-alpha').value;
+    if($('boundary').value==='robin'&&(!$('robin-alpha').value.trim()||!Number.isFinite(alpha)||alpha< -6||alpha>200)){status('Enter a Robin parameter between −6 and 200.','error');return;}
+    if(state.worker)state.worker.terminate();stopAnimation();stopAudio();state.result=null;fieldGrid=null;updateSum();
+    $('hear-mode').disabled=$('hear-blend').disabled=true;
+    $('compute').disabled=true;$('compute-label').textContent='Solving…';$('download').disabled=$('animate').disabled=true;modeButtons.forEach(b=>b.disabled=true);
+    $('eigenvalue').textContent='—';$('progress-bar').style.width='2%';overlay('Computing the first 12 eigenpairs…');status('Building the grid and solving for the first 12 modes.');renderField();
+    let worker;
+    try{worker=new Worker(workerURL);}catch(e){$('compute').disabled=false;$('compute-label').textContent='Compute eigenfunctions';overlay('This browser could not start the numerical worker.','error');status('Use a modern browser with JavaScript and Web Workers enabled.','error');return;}
+    state.worker=worker;
+    worker.onmessage=event=>{
+      if(state.worker!==worker)return;const d=event.data;
+      if(d.type==='progress'){$('progress-bar').style.width=d.percent+'%';$('viz-message').textContent='Computing eigenpairs; iteration '+d.iteration;return;}
+      worker.terminate();state.worker=null;$('compute').disabled=false;$('compute-label').textContent='Compute eigenfunctions';
+      if(d.type==='error'){overlay(d.message,'error');status(d.message,'error');return;}
+      state.result=d.result;$('viz-overlay').hidden=true;$('download').disabled=$('animate').disabled=false;
+      $('shape-name').textContent=state.name+' · '+(d.result.boundary==='robin'?'Robin, α = '+d.result.alpha:'Dirichlet');thumbnails();selectMode(Math.min(state.mode,11));updateSum();
+      const seconds=(d.result.milliseconds/1000).toFixed(1),res=Math.max(...d.result.residuals);
+      $('solver-info').textContent=d.result.n.toLocaleString()+' grid points · '+seconds+' s · residual '+res.toExponential(1);$('solver-info').title='Maximum scaled eigenpair residual: '+res.toExponential(2)+'. Denominator: max(|λ|, 1) × ||u||. This measures discrete solver convergence, not boundary approximation error.';
+      status(d.result.converged?'Computed 12 eigenpairs. Select a mode to display.':'Approximate modes found; some have not fully converged. Try a different grid.',d.result.converged?'':'stale');
+    };
+    worker.onerror=()=>{if(state.worker!==worker)return;worker.terminate();state.worker=null;$('compute').disabled=false;$('compute-label').textContent='Compute eigenfunctions';overlay('The calculation stopped. Try a coarser grid or a simpler outline.','error');status('The calculation stopped. Try a coarser grid or a simpler outline.','error');};
+    worker.postMessage({points:state.points,resolution:+$('resolution').value,options:{boundary:$('boundary').value,alpha:$('boundary').value==='robin'?alpha:1}});
+  }
+  function chooseShape(key){
+    state.key=key;state.points=shapes[key](shapeParameters[key]);state.name=stories[key].name;state.mode=0;updateShapeParameter();$('shape-story').textContent=stories[key].note;
+    $('draw-hint').textContent='Click and drag to draw. The outline closes when you release.';drawDomain();compute();
+  }
+  function updateShapeParameter(){
+    document.querySelectorAll('.shape-button').forEach(button=>{const selected=button.dataset.shape===state.key;button.classList.toggle('active',selected);button.setAttribute('aria-pressed',selected?'true':'false');});
+    const options={eight:{label:'Waist-to-tip radius ratio',min:.06,max:.7,step:.01},pacman:{label:'Mouth opening',min:15,max:150,step:5},rectangle:{label:'Aspect ratio',min:1,max:4,step:.05}};
+    const p=options[state.key];$('shape-parameter').hidden=!p;if(!p)return;
+    const input=$('shape-control');input.min=p.min;input.max=p.max;input.step=p.step;input.value=shapeParameters[state.key];$('shape-control-label').textContent=p.label;
+    $('shape-control-value').textContent=state.key==='pacman'?shapeParameters[state.key]+'°':shapeParameters[state.key].toFixed(2);
+  }
+  function syncBoundary(){
+    const robin=$('boundary').value==='robin',alpha=+$('robin-alpha').value;
+    $('robin-controls').hidden=!robin;$('robin-extra').hidden=!robin;
+    $('boundary-equation').textContent=robin?'∂ₙu + αu = 0':'u|∂Ω = 0';
+    $('membrane-note').textContent=!robin?'For a membrane with its boundary fixed, positive eigenvalues determine the squared angular frequencies of its standing waves, with unit wave speed.':alpha===0?'For Neumann conditions, the constant eigenfunction has eigenvalue zero. The remaining eigenfunctions have positive eigenvalues and give oscillatory membrane modes.':alpha<0?'For negative α, Robin conditions can produce negative eigenvalues and eigenfunctions concentrated near the boundary. Their wave-equation time dependence is non-oscillatory.':'For positive α, Robin conditions penalize boundary amplitude. The spectrum approaches Dirichlet as α increases; α = 0 gives the Neumann problem.';
+    $('robin-hint').textContent=alpha<0?'Attractive boundary: negative eigenvalues may appear. Use a fine grid to inspect boundary localization.':alpha===0?'Neumann limit: free edge, a constant first eigenfunction, and λ₁ = 0.':'Positive α penalizes boundary amplitude. Larger α approaches Dirichlet; units are inverse length.';
+  }
+  function updateSum(){
+    const r=state.result,k=+$('sum-k').value;$('sum-k-value').textContent=k;
+    $('sum-card').classList.toggle('sum-muted',!r||r.boundary!=='dirichlet');
+    if(!r||r.boundary!=='dirichlet'){
+      $('sum-actual').textContent=$('sum-bound').textContent='—';$('sum-actual-bar').style.width=$('sum-bound-bar').style.width='0%';
+      $('sum-note').textContent=r?'This Li–Yau bound applies to Dirichlet spectra. Switch to a fixed edge to compare.':'Available for Dirichlet boundaries after a solve.';return;
+    }
+    const sum=r.values.slice(0,k).reduce((a,b)=>a+b,0),bound=2*Math.PI*k*k/r.area,max=Math.max(sum,bound);
+    $('sum-actual').textContent=sum.toFixed(2);$('sum-bound').textContent=bound.toFixed(2);$('sum-actual-bar').style.width=100*sum/max+'%';$('sum-bound-bar').style.width=100*bound/max+'%';
+    $('sum-note').textContent='A = '+r.area.toFixed(3)+' · sum / bound = '+(sum/bound).toFixed(3)+(r.converged?' · numerical illustration.':' · solver not fully converged.');
+  }
+  $('shape-control').addEventListener('input',()=>{if(!state.key)return;shapeParameters[state.key]=+$('shape-control').value;invalidate('Shape parameter changed. Release the slider to solve.');state.points=shapes[state.key](shapeParameters[state.key]);updateShapeParameter();drawDomain();});
+  $('shape-control').addEventListener('change',compute);
+  $('boundary').addEventListener('change',()=>{syncBoundary();if(state.points.length>2&&!state.drawing)compute();else updateSum();});
+  function changeAlpha(value,source){
+    if(source!=='number')$('robin-alpha').value=value;
+    if(source!=='range')$('robin-range').value=value;
+    syncBoundary();invalidate('Boundary parameter changed. Release the control or press “Compute eigenfunctions”.');
+  }
+  $('robin-range').addEventListener('input',()=>changeAlpha($('robin-range').value,'range'));
+  $('robin-range').addEventListener('change',compute);
+  $('robin-alpha').addEventListener('input',()=>changeAlpha($('robin-alpha').value,'number'));
+  $('robin-alpha').addEventListener('change',compute);
+  document.querySelectorAll('[data-alpha]').forEach(b=>b.addEventListener('click',()=>{changeAlpha(b.dataset.alpha,'preset');compute();}));
+  $('sum-k').addEventListener('input',updateSum);
+  document.querySelectorAll('.shape-button').forEach(button=>button.addEventListener('click',()=>chooseShape(button.dataset.shape)));
+  function position(e){const r=drawing.getBoundingClientRect();return [Math.max(.025,Math.min(.975,(e.clientX-r.left)/r.width)),Math.max(.025,Math.min(.975,(e.clientY-r.top)/r.height))];}
+  drawing.addEventListener('pointerdown',e=>{
+    if(e.button!==0)return;e.preventDefault();drawing.setPointerCapture(e.pointerId);invalidate('Drawing a new domain…');state.drawing=true;state.points=[position(e)];state.name='Custom shape';state.key=null;updateShapeParameter();$('shape-story').textContent='Your own domain. Look for symmetry, narrow passages, and corners as you explore its modes.';
+    $('draw-hint').textContent='Keep drawing. Release to close the curve.';drawDomain();
+  });
+  drawing.addEventListener('pointermove',e=>{
+    if(!state.drawing)return;const p=position(e),last=state.points[state.points.length-1];if(Math.hypot(p[0]-last[0],p[1]-last[1])>.003){state.points.push(p);drawDomain();}
+  });
+  function simplify(p){
+    if(p.length<3)return p;let max=0,index=0;const a=p[0],b=p[p.length-1],dx=b[0]-a[0],dy=b[1]-a[1],len=dx*dx+dy*dy;
+    for(let i=1;i<p.length-1;i++){const t=len?Math.max(0,Math.min(1,((p[i][0]-a[0])*dx+(p[i][1]-a[1])*dy)/len)):0,d=(p[i][0]-a[0]-t*dx)**2+(p[i][1]-a[1]-t*dy)**2;if(d>max){max=d;index=i;}}
+    if(max>0.00000225)return simplify(p.slice(0,index+1)).slice(0,-1).concat(simplify(p.slice(index)));
+    return [a,b];
+  }
+  drawing.addEventListener('pointerup',e=>{
+    if(!state.drawing)return;state.drawing=false;
+    if(state.points.length>3&&Math.hypot(state.points[0][0]-state.points.at(-1)[0],state.points[0][1]-state.points.at(-1)[1])<.012)state.points.pop();
+    state.points=simplify(state.points);drawDomain();$('draw-hint').textContent='The outline is closed. Compute its eigenfunctions.';status('New outline ready. Press “Compute eigenfunctions”.','stale');overlay('Compute the spectrum of your new shape.','idle');
+    if(drawing.hasPointerCapture(e.pointerId))drawing.releasePointerCapture(e.pointerId);
+  });
+  drawing.addEventListener('pointercancel',()=>{if(!state.drawing)return;state.drawing=false;state.points=[];drawDomain();status('Drawing interrupted. Please draw the outline again.','stale');overlay('Draw a shape to begin.','idle');});
+  $('clear').addEventListener('click',()=>{invalidate('Canvas cleared. Draw a closed outline to begin.');state.drawing=false;state.points=[];state.name='Custom shape';state.key=null;updateShapeParameter();$('shape-story').textContent='Draw one simple closed outline, without crossings or holes.';drawDomain();overlay('Draw a closed curve or choose an example domain.','idle');$('draw-hint').textContent='Click and drag to draw. The outline closes when you release.';});
+  $('compute').addEventListener('click',compute);
+  $('resolution').addEventListener('change',()=>{if(state.points.length>2&&!state.drawing)compute();});
+  $('nodal').addEventListener('change',()=>{if(!state.animation)renderField();});
+  function tick(time){
+    if(!state.animation||!state.result)return;
+    if(!state.lastFrame)state.lastFrame=time;const dt=Math.min((time-state.lastFrame)/1000,.05);state.lastFrame=time;state.phase+=dt;
+    const factor=Math.cos(Math.sqrt(Math.max(0,state.result.values[state.mode]))*state.phase*.65);renderField(factor);state.raf=requestAnimationFrame(tick);
+  }
+  $('animate').setAttribute('aria-pressed','false');
+  $('animate').addEventListener('click',()=>{if(state.animation){stopAnimation();renderField();}else{state.animation=true;state.phase=0;state.lastFrame=0;$('animate').innerHTML=icon('pause')+'<span>Pause</span>';$('animate').setAttribute('aria-pressed','true');state.raf=requestAnimationFrame(tick);}});
+  document.addEventListener('visibilitychange',()=>{if(document.hidden&&state.animation){stopAnimation();renderField();}});
+  $('download').addEventListener('click',()=>{
+    if(!state.result)return;stopAnimation();renderField();const out=document.createElement('canvas');out.width=1400;out.height=1200;const ctx=out.getContext('2d');ctx.fillStyle='#0e2325';ctx.fillRect(0,0,1400,1200);
+    ctx.fillStyle='#e4ead4';ctx.font='36px Arial, Helvetica, sans-serif';ctx.fillText('Laplacian eigenfunction: '+state.name,65,80);ctx.font='28px Cambria Math, Times New Roman, serif';ctx.fillStyle='#a8bea7';ctx.fillText('−Δu = λu    ·    '+(state.result.boundary==='robin'?'Robin: ∂ₙu + '+state.result.alpha+'u = 0':'Dirichlet: u = 0 on ∂Ω'),65,130);
+    const scale=Math.min(1250/field.width,850/field.height),dw=field.width*scale,dh=field.height*scale;ctx.drawImage(field,(1400-dw)/2,165,dw,dh);
+    ctx.fillStyle='#e1e7cb';ctx.font='30px Arial, Helvetica, sans-serif';ctx.fillText('Mode '+(state.mode+1)+'    ·    λ = '+state.result.values[state.mode].toFixed(6),65,1100);ctx.fillStyle='#8da68e';ctx.font='18px sans-serif';ctx.fillText('Grid '+state.result.resolution+' × '+state.result.resolution+'  ·  Domain coordinates [−1, 1]²  ·  Peak |u| = 1',65,1143);
+    out.toBlob(blob=>{if(!blob){status('The image could not be exported. Please try again.','error');return;}const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='laplacian-'+state.name.toLowerCase().replaceAll(' ','-')+'-mode-'+(state.mode+1)+'.png';a.click();setTimeout(()=>URL.revokeObjectURL(url),3000);},'image/png');
+  });
+  let audioContext=null,voices=[],audioEpoch=0;
+  function stopAudio(){
+    audioEpoch++;for(const voice of voices){try{voice.oscillator.stop();}catch(e){}voice.oscillator.disconnect();voice.gain.disconnect();}voices=[];$('stop-sound').disabled=true;
+  }
+  async function playSound(blend){
+    if(!state.result)return;stopAudio();const epoch=audioEpoch,result=state.result,selected=state.mode;
+    const Audio=window.AudioContext||window.webkitAudioContext;
+    if(!Audio){$('sound-info').textContent='Web Audio is not available in this browser.';return;}
+    try{
+      if(!audioContext)audioContext=new Audio();if(audioContext.state==='suspended')await audioContext.resume();
+      if(epoch!==audioEpoch||result!==state.result)return;
+      const modes=(blend?result.values.map((value,i)=>({value,i})):[{value:result.values[selected],i:selected}]).filter(m=>m.value>0&&35*Math.sqrt(m.value)>=20&&35*Math.sqrt(m.value)<8000);
+      if(!modes.length){$('sound-info').textContent='No oscillatory mode is audible at the shared frequency scale.';return;}
+      const weights=modes.map((m,j)=>blend?1/(1+j*.35):1),total=weights.reduce((a,b)=>a+b,0),now=audioContext.currentTime,volume=+$('volume').value;
+      modes.forEach((mode,j)=>{
+        const oscillator=audioContext.createOscillator(),gain=audioContext.createGain();oscillator.type='sine';oscillator.frequency.value=35*Math.sqrt(mode.value);
+        const amplitude=volume*weights[j]/total;gain.gain.setValueAtTime(0,now);gain.gain.linearRampToValueAtTime(amplitude,now+.008);gain.gain.exponentialRampToValueAtTime(.000001,now+2.4);
+        oscillator.connect(gain);gain.connect(audioContext.destination);const voice={oscillator,gain};voices.push(voice);
+        oscillator.onended=()=>{oscillator.disconnect();gain.disconnect();voices=voices.filter(v=>v!==voice);if(epoch===audioEpoch&&!voices.length)$('stop-sound').disabled=true;};oscillator.start(now);oscillator.stop(now+2.5);
+      });
+      $('stop-sound').disabled=false;$('sound-info').textContent=blend?modes.length+' positive, audible modes · illustrative amplitudes and decay.':'Mode '+(selected+1)+' · '+(35*Math.sqrt(result.values[selected])).toFixed(1)+' Hz.';
+    }catch(error){stopAudio();$('sound-info').textContent='Audio could not start. Check this browser’s sound settings.';}
+  }
+  $('hear-mode').addEventListener('click',()=>playSound(false));$('hear-blend').addEventListener('click',()=>playSound(true));$('stop-sound').addEventListener('click',stopAudio);
+  $('volume').addEventListener('input',stopAudio);
+  document.addEventListener('visibilitychange',()=>{if(document.hidden)stopAudio();});
+  $('about-button').addEventListener('click',()=>$('about-dialog').showModal());$('close-about').addEventListener('click',()=>$('about-dialog').close());$('about-dialog').addEventListener('click',e=>{if(e.target===$('about-dialog')){const r=e.target.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.target.close();}});
+  const resize=()=>{drawingSize();drawDomain();const r=field.getBoundingClientRect(),dpr=Math.min(window.devicePixelRatio||1,1.5);field.width=Math.round(r.width*dpr);field.height=Math.round(r.height*dpr);renderField();};
+  new ResizeObserver(resize).observe($('visualization'));window.addEventListener('resize',resize);drawingSize();resize();syncBoundary();chooseShape('circle');
+})();
+</script>
+</body>
+</html>

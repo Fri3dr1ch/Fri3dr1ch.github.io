@@ -1,0 +1,793 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Draw an initial profile and watch the Korteweg–de Vries equation evolve. Explore dispersion, solitons, conservation laws, and open questions.">
+  <meta name="theme-color" content="#f8f9fb">
+  <title>Solutions of the KdV equation</title>
+  <style>
+:root{--ink:#202d3c;--muted:#627080;--line:#d9e0e7;--blue:#286487;--blue-dark:#1b4d6d;--paper:#fff;--soft:#f4f7fa;--warm:#b66a35;--math:'Cambria Math','STIX Two Math','Times New Roman',serif;font-family:Arial,Helvetica,sans-serif;color:var(--ink);font-size:15px;line-height:1.62;background:#f8f9fb;scroll-behavior:smooth}
+*{box-sizing:border-box}body{margin:0}button,select,input{font:inherit}button,select{min-height:39px}button,select,summary,a{touch-action:manipulation}a{color:var(--blue);text-underline-offset:3px}a:hover{color:var(--blue-dark)}button{cursor:pointer;border:1px solid #cbd5df;background:white;color:var(--ink);border-radius:4px;padding:7px 15px;font-size:14px;font-weight:500;transition:background .15s,border-color .15s}button:hover{background:#edf3f7;border-color:#8fa9bb}button:disabled{opacity:.5;cursor:default}button:focus-visible,select:focus-visible,summary:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #79b7db;outline-offset:3px}button.primary{background:var(--blue);border-color:var(--blue);color:white;min-width:98px}button.primary:hover{background:var(--blue-dark)}[hidden]{display:none!important}.skip{position:fixed;top:-70px;left:20px;z-index:10;background:white;padding:12px}.skip:focus{top:10px}.page-header,main,footer{width:min(1136px,calc(100% - 48px));margin:0 auto}.page-header{padding:20px 0 15px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:16px;font-size:13px}.header-label{color:var(--muted)}nav{display:flex;gap:24px}nav a{text-decoration:none;color:#526577}h1,h2,h3,p{margin:0}h1{font-size:38px;line-height:1.2;letter-spacing:-1.1px;font-weight:600;margin:27px 0 16px}h2{font-size:23px;line-height:1.3;font-weight:600;letter-spacing:-.35px}h3{font-size:17px;font-weight:600;line-height:1.4}p+p{margin-top:12px}.introduction>p{max-width:970px;color:#465466;margin-top:10px}.introduction strong{color:var(--ink);font-weight:600}.math{font-family:var(--math);font-size:1.08em}.opening-equation{margin:22px 0;background:#edf3f7;border-left:3px solid #739bb4;padding:16px 24px;display:flex;align-items:center;justify-content:space-between;gap:20px}.equation{font-family:var(--math);font-size:23px;line-height:1.7;letter-spacing:.1px}.opening-equation .equation{display:flex;flex-wrap:wrap;gap:28px}.equation-note{font-size:12px;color:#64798a;white-space:nowrap}sub,sup{font-size:.72em;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.22em}sup{top:-.48em}.experiment{background:white;border:1px solid #cfd9e2;border-radius:5px;padding:20px 22px 15px;scroll-margin-top:18px}.experiment-heading{display:flex;align-items:center;gap:12px;margin-bottom:18px}.experiment-heading h2{font-size:21px}.equation-tag{padding:1px 9px;background:#edf3f7;border:1px solid #dce6ed;color:#527184;font-size:12px;border-radius:3px}.main-controls{display:grid;grid-template-columns:1.12fr 1.23fr .65fr;gap:18px}.main-controls label,.advanced-grid>label{display:flex;flex-direction:column;gap:6px;font-size:13px;font-weight:600}select{border:1px solid #ccd6df;border-radius:4px;background:#fff;color:#27394a;font-size:14px;padding:7px 30px 7px 10px;width:100%;font-weight:400}.control-note{font-size:12px;color:var(--muted);line-height:1.6}.main-controls+.control-note{margin-top:10px;min-height:20px}.plot-heading{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:18px 0 8px}.plot-heading>.math{font-size:17px;min-width:62px}.legend{display:flex;align-items:center;flex-wrap:wrap;justify-content:center;gap:18px;font-size:12px;color:var(--muted)}.legend>span{display:flex;align-items:center;gap:7px}.key{width:22px;height:0;border-top:2px solid var(--blue);display:inline-block}.key.initial{border-color:#98a2ad;border-top-style:dashed}.key.linear{border-color:#b57832;border-top-style:dashed}#clock{font-size:14px;font-variant-numeric:tabular-nums;white-space:nowrap;color:#3c5263;min-width:76px;text-align:right}.plot-wrap{position:relative}#wave{display:block;width:100%;height:300px;touch-action:pan-y}#wave.drawing{cursor:crosshair;touch-action:none}#draw-badge{position:absolute;right:18px;top:12px;background:#fff9eb;border:1px solid #e5cf9f;padding:3px 9px;font-size:11px;color:#886122;border-radius:3px;pointer-events:none}.playback{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:12px}.button-group{display:flex;gap:8px;flex-wrap:wrap}.status{font-size:12px;margin-top:9px;color:#667585;min-height:20px}.status.warning{color:#9b5426}.boundary-note{margin-top:7px!important;padding:9px 12px;background:#f5f7f9;border-left:2px solid #cedce6}.diagnostics{display:grid;grid-template-columns:repeat(3,1fr);margin-top:17px;border-top:1px solid #e4e9ed;border-bottom:1px solid #e4e9ed;padding:13px 0}.diagnostics>div{padding:0 20px;border-left:1px solid #e4e9ed}.diagnostics>div:first-child{padding-left:0;border-left:0}.metric-label{display:block;font-size:12px;color:#5c6d7e}.diagnostics output{font-size:20px;font-variant-numeric:tabular-nums;display:inline-block;margin-top:2px;letter-spacing:-.3px}.diagnostics small{font-size:11px;color:#73838e;margin-left:12px;white-space:nowrap}.advanced{margin-top:13px}.advanced summary{font-size:13px;color:#4c6273;cursor:pointer;width:fit-content}.advanced[open] summary{margin-bottom:14px}.advanced-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;padding:0 0 12px}.advanced fieldset{border:0;margin:0;padding:0}.advanced legend{font-size:13px;font-weight:600;padding:0;margin-bottom:5px}.check{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:400;margin:5px 0}.check input{accent-color:var(--blue);width:15px;height:15px}.advanced>p{font-size:12px;color:var(--muted);padding-bottom:12px}.history-section{margin-top:15px;padding-top:14px;border-top:1px solid #e4e9ed}.history-heading{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-bottom:9px}.history-heading h3{font-size:13px;color:#4f6272;font-weight:500}.history-heading>span{font-size:10px;display:flex;align-items:center;gap:7px;color:#687c89}.colorbar{width:70px;height:7px;display:inline-block;background:linear-gradient(90deg,#bf6d3c,#f8f8f5,#38749b)}.history-grid{display:flex;gap:8px}.history-axis{display:flex;flex-direction:column;justify-content:space-between;width:42px;font-size:10px;color:#768490;text-align:right;padding:0 2px}.history-grid canvas{display:block;flex:1;min-width:0;height:132px;border:1px solid #e1e7eb;border-radius:2px}.history-section .control-note{margin-top:6px;padding-left:50px}.simulation-caption{font-size:12px;color:#6d7b88;padding-top:12px;border-top:1px solid #e8edf0;margin-top:14px}.reading-section{margin:30px 0 0;scroll-margin-top:24px}.reading-section>h2{margin-bottom:17px}.try-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:27px;margin-top:18px}.try-grid article{display:flex;gap:12px}.item-number{font-size:12px;color:#7992a5;line-height:25px}.try-grid h3{font-size:15px;margin-bottom:5px}.try-grid p{font-size:13px;color:#596979}.text-button{border:0;background:none;padding:0;font:inherit;color:var(--blue);text-decoration:underline;text-underline-offset:2px;min-height:0;display:inline}.text-button:hover{background:none}.section-heading{display:flex;justify-content:space-between;align-items:baseline;gap:20px;margin-bottom:18px;padding-top:23px;border-top:1px solid var(--line)}.section-heading>span{font-size:12px;color:#6f7e8b}.fact-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px 40px}.fact{padding-top:4px}.fact-kind{font-size:11px;color:#607f94;display:block;margin-bottom:6px}.fact h3{margin-bottom:10px}.fact .equation{font-size:22px;margin:11px 0 13px}.eq-gap{margin-left:12px;white-space:nowrap}.soliton-equation{white-space:nowrap;font-size:21px!important;letter-spacing:-.2px}.fraction{display:inline-flex;flex-direction:column;vertical-align:middle;text-align:center;font-size:.85em;line-height:1.15;padding:0 4px}.fraction>span:first-child{border-bottom:1px solid #405263;padding-bottom:2px}.fraction>span:last-child{padding-top:2px}.paren{font-size:1.6em;vertical-align:middle}.conservation{display:flex;flex-wrap:wrap;gap:0 18px}.conservation span{white-space:nowrap}.reference-link{font-size:12px;display:block;margin-top:12px;text-decoration:none}.reference-link:hover{text-decoration:underline}.wide-fact{margin-top:27px;display:grid;grid-template-columns:.7fr 1.3fr;gap:40px;background:#eef3f6;padding:20px 22px;border-left:3px solid #91acbd}.wide-fact h3{font-size:18px}.section-intro{max-width:965px;font-size:14px;color:#536273;margin-bottom:20px}.question-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px}.question{padding:18px 20px;border:1px solid #e1d9cb;background:#fffdfa;border-radius:3px}.question-label{font-size:11px;color:#98703e;display:block;margin-bottom:7px}.question h3{font-size:18px}.question .equation{font-size:23px;margin:10px 0}.numerical-section{padding-top:22px;border-top:1px solid var(--line)}.numerical-section>h2{font-size:20px}.numerics-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}.numerics-grid h3{font-size:14px;margin-bottom:8px}.numerics-grid p{font-size:12px}footer{margin-top:30px;padding:18px 0 24px;border-top:1px solid var(--line);display:flex;justify-content:space-between;font-size:11px;color:#84909b}footer a{text-decoration:none}
+
+.lecture-notes{font-size:14px;color:#455567}.lecture-notes>p{max-width:990px}.facts-contents{display:flex;flex-wrap:wrap;gap:7px 18px;padding:15px 0;margin:4px 0 20px;border-bottom:1px solid var(--line);font-size:12px}.facts-contents a{line-height:1.7;white-space:normal}.theory-setup{padding:16px 20px;background:#eff4f7;border-left:3px solid #91acbd}.theory-setup h3{margin-bottom:10px}.math-display{font-family:var(--math);font-size:21px;line-height:1.95;margin:14px 0;overflow-x:auto;max-width:100%;padding:3px 1px 6px;white-space:nowrap;letter-spacing:.05px}.math-display .eq-gap{display:inline-block;margin-left:22px}.theory-table-scroll{overflow-x:auto;margin-top:20px}.theory-table{width:100%;border-collapse:collapse;font-size:12px;line-height:1.6;text-align:left}.theory-table caption{text-align:left;font-weight:600;color:var(--ink);padding-bottom:8px}.theory-table th,.theory-table td{border-bottom:1px solid #d8e2e9;padding:9px 12px;vertical-align:top}.theory-table th:first-child{padding-left:0}.theory-table thead th{color:#456377;font-weight:600}.theory-table tbody th{font-weight:500;width:25%}.theorem-entry{padding:25px 0 22px;border-bottom:1px solid var(--line);scroll-margin-top:20px}.theorem-entry h3{font-size:19px;color:var(--ink);line-height:1.5}.geometry{display:inline-block;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:400;color:#607f94;margin-left:9px;vertical-align:middle}.theorem-intuition{margin:8px 0 15px!important;color:#677788;font-size:14px}.theorem-statement{border-left:2px solid #a5bdcd;padding:2px 0 2px 18px;max-width:100%}.theorem-statement p{max-width:1030px}.proof-reference{font-size:12px;line-height:1.7;color:#647585;margin-top:14px!important}.proof-references{padding-top:23px;scroll-margin-top:20px}.proof-references>p{margin-top:10px;font-size:13px}.references{padding-left:23px;font-size:12px;line-height:1.8}.references li{padding-left:5px;margin:9px 0;scroll-margin-top:20px}.advanced-grid{grid-template-columns:1fr 1fr;gap:18px 30px}.advanced-grid>label{min-width:0}
+.fact p,.wide-fact p,.question p,.numerics-grid p{font-size:14px;color:#536273}
+@media(min-width:1500px){.page-header,main,footer{width:min(1180px,calc(100% - 48px))}#wave{height:325px}}
+@media(max-width:850px){.equation-note{display:none}.main-controls{grid-template-columns:1fr 1.1fr .6fr;gap:12px}.diagnostics small{display:block;margin:1px 0 0}.fact-grid{gap:25px}.soliton-equation{font-size:18px!important}.eq-gap{margin-left:0;display:block}.section-heading{align-items:flex-start;flex-direction:column;gap:5px}.try-grid{gap:17px}.legend{gap:10px}.legend>span{gap:5px}.opening-equation .equation{gap:16px}.wide-fact{grid-template-columns:1fr;gap:13px}}
+@media(max-width:620px){:root{font-size:14px}.page-header,main,footer{width:calc(100% - 28px)}.page-header{padding-top:14px;align-items:flex-start;gap:9px;flex-direction:column}nav{gap:20px;font-size:12px}h1{font-size:29px;letter-spacing:-.6px;margin-top:23px}h2{font-size:21px}.introduction>p{font-size:14px}.opening-equation{padding:12px 16px;margin:18px 0}.opening-equation .equation{font-size:22px;gap:2px;flex-direction:column}.experiment{padding:15px 12px}.experiment-heading{margin-bottom:14px}.experiment-heading h2{font-size:19px}.main-controls{grid-template-columns:1fr 1fr;gap:12px}.main-controls label:first-child{grid-column:1/-1}.main-controls label{font-size:12px}select{font-size:12px;padding-left:8px}.plot-heading{flex-wrap:wrap;gap:5px;padding-top:14px}.legend{font-size:10px;order:3;width:100%;justify-content:flex-start;margin-top:5px;min-height:18px}.plot-heading>.math{font-size:16px}#clock{margin-left:auto}#wave{height:270px}.playback{align-items:flex-start;flex-direction:column;gap:9px}.playback button{padding:7px 11px;font-size:12px}.button-group{gap:7px}.status{margin-top:9px}.diagnostics{gap:8px}.diagnostics>div{padding:0 8px}.diagnostics>div:first-child{padding-left:0}.metric-label{font-size:10px;line-height:1.45;min-height:29px}.diagnostics output{font-size:18px}.diagnostics small{font-size:9px}.advanced-grid{grid-template-columns:1fr;gap:14px}.history-grid canvas{height:116px}.history-axis{width:34px;font-size:9px}.history-section .control-note{padding-left:42px}.try-grid,.fact-grid,.try-grid article{gap:13px}.try-grid p{font-size:13px}.reading-section{margin-top:26px}.fact-grid{gap:25px}.fact .equation{font-size:23px}.soliton-equation{font-size:20px!important}.eq-gap{display:inline;margin-left:10px}.wide-fact{padding:16px}.question{padding:16px}.question-grid{gap:14px}.section-heading{padding-top:20px}.numerics-grid{gap:18px}footer{gap:12px;align-items:flex-start}footer a{white-space:nowrap}}
+@media(prefers-reduced-motion:reduce){:root{scroll-behavior:auto}*{transition:none!important}}
+
+@media(max-width:620px){.theory-setup{padding:13px 12px}.theorem-entry{padding:21px 0}.theorem-entry h3{font-size:17px}.geometry{display:block;margin:4px 0 0}.theorem-statement{padding-left:12px}.math-display{font-size:19px}.math-display .eq-gap{display:block;margin-left:0}.theory-table{min-width:570px}.facts-contents{gap:7px 14px}.advanced-grid{grid-template-columns:1fr}.references{padding-left:19px}.references li{overflow-wrap:anywhere}}
+
+.research-section>p{max-width:1030px}.research-scope{font-size:12px;color:#6a7885;margin-top:10px!important}.research-entry .theorem-statement{border-color:#c8ac81}.research-entry .question-label{font-size:11px;margin-bottom:6px;color:#94703e}.research-entry .theorem-intuition{margin-bottom:14px!important}.research-status{margin-top:14px!important;color:#5c6d7b;font-size:13px}.research-family-intro{padding:22px 0 19px;border-bottom:1px solid var(--line)}.research-family-intro h3{margin-bottom:10px}.research-family-intro p{font-size:14px}.resolved-questions{padding:23px 20px 18px;margin-top:24px;background:#eff4f7;border-left:3px solid #91acbd;scroll-margin-top:20px}.resolved-questions>p{font-size:13px;margin-top:9px}.resolved-questions .theory-table tbody th{width:34%}.research-references{list-style:none;padding-left:0}.research-references li{padding-left:0}.research-references strong{color:#47667a}
+@media(max-width:620px){.resolved-questions{padding:16px 12px}.research-entry .math-display{font-size:18px}.research-entry .theorem-intuition{font-size:13px}.research-status{font-size:12px}}
+
+</style>
+  
+  
+</head>
+<body>
+  <a class="skip" href="#experiment">Skip to the simulation</a>
+  <header class="page-header">
+    <span class="header-label">The Korteweg–de Vries equation</span>
+    <nav aria-label="On this page"><a href="#experiment">Simulation</a><a href="#mathematics">Theorems</a><a href="#questions">Open questions</a></nav>
+  </header>
+  <main>
+    <section class="introduction" aria-labelledby="title">
+      <h1 id="title">Solutions of the KdV equation</h1>
+      <p>Different frequencies travel at different speeds. This dispersion can spread a wave out, while a nonlinear term can steepen it. Their interaction produces oscillatory wave trains and, in special cases, solitary waves that retain their shape.</p>
+      <p>The <strong>Korteweg–de Vries equation (KdV)</strong> describes this balance for a real-valued function <span class="math">u(t,x)</span>. Choose an initial profile or draw your own, then watch the initial-value problem evolve.</p>
+      <div class="opening-equation">
+        <div class="equation" aria-label="u sub t plus six u u sub x plus u sub xxx equals zero; u at time zero equals u zero">
+          <span><i>u</i><sub>t</sub> + 6<i>u</i><i>u</i><sub>x</sub> + <i>u</i><sub>xxx</sub> = 0,</span>
+          <span><i>u</i>(0, <i>x</i>) = <i>u</i><sub>0</sub>(<i>x</i>).</span>
+        </div>
+        <span class="equation-note">Normalized coefficients · one spatial dimension</span>
+      </div>
+    </section>
+
+    <section id="experiment" class="experiment" aria-labelledby="experiment-title">
+      <div class="experiment-heading"><h2 id="experiment-title">Evolve an initial profile</h2><span class="equation-tag">KdV</span></div>
+      <div class="main-controls">
+        <label>Initial profile<select id="preset"><option value="two">Two solitons · collision</option><option value="single">Single soliton</option><option value="gaussian">Positive Gaussian</option><option value="negative">Negative Gaussian</option><option value="packet">Oscillatory wave packet</option><option value="cosine">Periodic cosine</option><option value="custom" hidden>Drawn profile</option></select></label>
+        <label>Domain<select id="domain"><option value="periodic">Periodic · circle of length 80</option><option value="line">Real line · padded approximation</option></select></label>
+        <label>Playback speed<select id="speed"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option><option value="4">4×</option></select></label>
+      </div>
+      <p id="preset-note" class="control-note">Two exact solitons: the taller, faster wave overtakes the smaller one. Watch their shapes during the collision.</p>
+      <div class="plot-heading"><span class="math">u(t,x)</span><div class="legend"><span><i class="key solution"></i>KdV solution</span><span id="initial-key"><i class="key initial"></i>Initial profile</span><span id="linear-key" hidden><i class="key linear"></i>Linear Airy solution</span></div><output id="clock" aria-label="Simulation time">t = 0.00</output></div>
+      <div class="plot-wrap"><canvas id="wave" role="img" aria-label="Graph of the current KdV solution on x from minus 40 to 40. Use Draw initial data to edit the initial profile with a pointer."></canvas><span id="draw-badge" hidden>Draw on the plot</span></div>
+      <div class="playback">
+        <div class="button-group"><button id="play" class="primary" aria-label="Play simulation"><span id="play-icon" aria-hidden="true">▶</span> <span id="play-label">Play</span></button><button id="step">Step +0.1</button><button id="reset">Reset</button></div>
+        <div class="button-group"><button id="draw">Draw initial data</button><button id="clear" hidden>Clear to zero</button></div>
+      </div>
+      <p id="status" class="status" role="status">Ready. Press Play to evolve the selected profile.</p>
+      <p id="domain-note" class="control-note boundary-note">The endpoints x = −40 and x = 40 are identified. A wave leaving one side returns on the other; the solitary-wave examples are periodized on this domain.</p>
+      <div class="diagnostics" aria-label="Numerical conservation diagnostics">
+        <div><span class="metric-label">Integral <span class="math">∫u dx</span></span><output id="mass">—</output><small id="mass-drift">—</small></div>
+        <div><span class="metric-label">Squared L² norm <span class="math">∫u² dx</span></span><output id="l2">—</output><small id="l2-drift">—</small></div>
+        <div><span class="metric-label">Hamiltonian <span class="math">H(u)</span></span><output id="energy">—</output><small id="energy-drift">—</small></div>
+      </div>
+      <details class="advanced"><summary>Advanced settings</summary><div class="advanced-grid"><label>Spatial resolution<select id="resolution"><option value="512">Standard · 512 points per visible window</option><option value="1024">High · 1,024 points per visible window</option></select></label><label>Real-line box length<select id="box-length"><option value="640">640 · faster</option><option value="1280" selected>1,280 · default</option><option value="2560">2,560 · extra padding</option><option value="5120">5,120 · largest box</option></select></label><label>Time limit<select id="end-time"><option value="20">t = 20</option><option value="60" selected>t = 60</option><option value="100">t = 100</option></select></label><fieldset><legend>Display</legend><label class="check"><input id="initial" type="checkbox" checked>Show the initial profile</label><label class="check"><input id="linear" type="checkbox">Compare with linear Airy evolution</label><label class="check"><input id="show-history" type="checkbox" checked>Show the space–time diagram</label></fieldset></div><p>The Airy comparison solves <span class="math">v<sub>t</sub> + v<sub>xxx</sub> = 0</span> with the same smoothed initial profile. Changing the domain, resolution, box length, or time limit restarts the simulation. The box-length control applies only to the real-line approximation. Larger boxes use proportionally more grid points and take longer to compute. Playback speed changes only the animation rate.</p></details>
+      <div id="history-section" class="history-section"><div class="history-heading"><h3>Space–time diagram</h3><span>positive <i class="colorbar" aria-hidden="true"></i> negative</span></div><div class="history-grid"><div class="history-axis"><span>t = 0</span><span id="history-middle">t = 30</span><span id="history-end">t = 60</span></div><canvas id="history" role="img" aria-label="Space–time diagram with x from minus 40 to 40 horizontally and time from zero to sixty increasing downwards; orange is positive and blue is negative."></canvas></div><p class="control-note">Each horizontal row is a profile at one time. Time increases downwards; blank rows have not been computed. Slanted tracks show traveling waves.</p></div>
+      <p id="simulation-caption" class="simulation-caption">The animation shows a numerical solution of KdV, not the motion of individual water particles. Drawn profiles are smoothed before evolution. The default time limit is t = 60; Advanced settings offers t = 100.</p>
+    </section>
+
+    <section class="reading-section" aria-labelledby="try-title"><h2 id="try-title">Things to try</h2><div class="try-grid">
+      <article><span class="item-number">01</span><div><h3>A shape that survives</h3><p>Select <button class="text-button" data-example="single">Single soliton</button>. Its height stays nearly constant as it travels right. Turn on the Airy comparison to see what dispersion alone does to the same profile.</p></div></article>
+      <article><span class="item-number">02</span><div><h3>A nonlinear collision</h3><p>Select <button class="text-button" data-example="two">Two solitons</button> and run past t ≈ 5. After interacting, both recover their original speeds and shapes, but their positions acquire a phase shift.</p></div></article>
+      <article><span class="item-number">03</span><div><h3>From a bump to a wave train</h3><p>Select <button class="text-button" data-example="gaussian">Positive Gaussian</button>, then try a negative bump or draw an uneven profile. Compare coherent right-moving pulses with oscillations moving left.</p></div></article>
+    </div></section>
+
+    <section id="mathematics" class="reading-section lecture-notes" aria-labelledby="math-title">
+      <div class="section-heading"><h2 id="math-title">Theorems about the KdV equation</h2><span>On ℝ and on the circle</span></div>
+      <p>Each entry gives an interpretation, a precise statement, and a proof or proof references. The results concern the continuum equation; the finite Fourier computation above illustrates them.</p>
+      <nav class="facts-contents" aria-label="KdV theorems"><a href="#theory-setup">Set-up</a><a href="#thm-airy">1. Linear group</a><a href="#thm-dispersion">2. Dispersion and recurrence</a><a href="#thm-existence">3. Global existence</a><a href="#thm-uniqueness">4. Unconditional uniqueness</a><a href="#thm-conservation">5. Conservation</a><a href="#thm-waves">6. Traveling waves</a><a href="#thm-lax">7. Lax pair</a><a href="#thm-scattering">8. Inverse scattering</a><a href="#thm-resolution">9. Soliton resolution</a><a href="#thm-birkhoff">10. Birkhoff coordinates</a><a href="#thm-recurrence">11. Periodic long-time dynamics</a><a href="#proof-references">Proof references</a></nav>
+      <section id="theory-setup" class="theory-setup" aria-labelledby="setup-title">
+        <h3 id="setup-title">Set-up and notation</h3>
+        <p>Let <span class="math">X = ℝ</span> or <span class="math">𝕋<sub>L</sub> = ℝ/Lℤ</span>, where <span class="math">L &gt; 0</span>. We study real-valued solutions of <span class="math">u<sub>t</sub> + u<sub>xxx</sub> + 3∂<sub>x</sub>(u²) = 0</span>. On the circle, functions and their derivatives are periodic. On ℝ there is no endpoint boundary condition; the function space specifies behavior at infinity.</p>
+        <p>Write <span class="math">H<sup>s</sup>(X)</span> for the L² Sobolev space, defined by the Fourier weight <span class="math">(1 + |ξ|²)<sup>s/2</sup></span>. Here <span class="math">ξ ∈ ℝ</span> on the line and <span class="math">ξ = 2πn/L</span> on the circle. The Schwartz class <span class="math">𝒮(ℝ)</span> consists of smooth functions whose derivatives decay faster than every power of <span class="math">|x|</span>. The subscript zero in <span class="math">H<sup>s</sup><sub>0</sub>(𝕋<sub>L</sub>)</span> means zero spatial mean.</p>
+        <p>For sufficiently regular solutions, the integral form is</p>
+        <div class="math-display">u(t) = S(t)u<sub>0</sub> − 3∫<sub>0</sub><sup>t</sup> S(t − r)∂<sub>x</sub>(u(r)²) dr, <span class="eq-gap">S(t) = e<sup>−t∂<sub>x</sub>³</sup>.</span></div>
+        <p>The zero-mean periodic theory also describes arbitrary mean <span class="math">m</span>: if <span class="math">v</span> solves KdV with mean zero, then <span class="math">u(t,x) = m + v(t,x − 6mt)</span> solves KdV with mean <span class="math">m</span>. Several references use <span class="math">q<sub>t</sub> = 6qq<sub>x</sub> − q<sub>xxx</sub></span>; their convention becomes ours under <span class="math">q = −u</span>.</p>
+        <div class="theory-table-scroll"><table class="theory-table"><caption>How the two geometries differ</caption><thead><tr><th scope="col">Result</th><th scope="col">Real line ℝ</th><th scope="col">Circle 𝕋<sub>L</sub></th></tr></thead><tbody><tr><th scope="row">Linear dynamics</th><td>Unitary; L¹ → L∞ decay</td><td>Unitary; exact linear revivals</td></tr><tr><th scope="row">Nonlinear existence</th><td>Global canonical H<sup>−1</sup> flow</td><td>Global canonical H<sup>−1</sup> flow</td></tr><tr><th scope="row">Unconditional uniqueness stated here</th><td>C<sub>t</sub>L²<sub>x</sub></td><td>C<sub>t</sub>L²<sub>x</sub></td></tr><tr><th scope="row">Integrability</th><td>Scattering data</td><td>Global Birkhoff coordinates</td></tr><tr><th scope="row">Long-time behavior stated here</th><td>Soliton asymptotics for Schwartz data</td><td>Almost-periodic dynamics for H<sup>s</sup> data, s ≥ 0</td></tr></tbody></table></div>
+      </section>
+
+      <article class="theorem-entry" id="thm-airy">
+        <h3>Theorem 1. The Airy equation defines a unitary group <span class="geometry">ℝ and 𝕋<sub>L</sub></span></h3>
+        <p class="theorem-intuition">Dispersion changes Fourier phases while preserving every Sobolev norm.</p>
+        <div class="theorem-statement"><p>For every <span class="math">s ∈ ℝ</span>, the operators <span class="math">S(t)</span> form a strongly continuous unitary group on <span class="math">H<sup>s</sup>(X)</span>. With Fourier convention <span class="math">f̂(ξ) = ∫ e<sup>−ixξ</sup>f(x) dx</span> on ℝ,</p>
+        <div class="math-display">(S(t)f)̂(ξ) = e<sup>itξ³</sup>f̂(ξ), <span class="eq-gap">‖S(t)f‖<sub>H<sup>s</sup></sub> = ‖f‖<sub>H<sup>s</sup></sub>,</span><br>S(t + r) = S(t)S(r), <span class="eq-gap">S(0) = Id.</span></div>
+        <p>The function <span class="math">v(t) = S(t)f</span> is the unique distributional solution of <span class="math">v<sub>t</sub> + v<sub>xxx</sub> = 0</span> in <span class="math">C(ℝ;H<sup>s</sup>(X))</span> with initial value <span class="math">f</span>. Its dispersion relation is <span class="math">ω(ξ) = −ξ³</span>, so the group velocity is <span class="math">−3ξ²</span>.</p></div>
+        <p class="proof-reference"><strong>Proof.</strong> Fourier transformation gives a scalar ODE for each frequency. The multiplier has modulus one; Plancherel and dominated convergence give unitarity and strong continuity. The same calculation uses Fourier series on the circle.</p>
+      </article>
+
+      <article class="theorem-entry" id="thm-dispersion">
+        <h3>Theorem 2. Linear decay on the line, revivals on the circle <span class="geometry">Geometry matters</span></h3>
+        <p class="theorem-intuition">A wave can spread to infinity on ℝ. Periodic linear waves eventually return exactly.</p>
+        <div class="theorem-statement"><p><strong>On ℝ.</strong> For <span class="math">t &gt; 0</span>, the Airy kernel is</p>
+        <div class="math-display">K<sub>t</sub>(x) = (3t)<sup>−1/3</sup> Ai(x/(3t)<sup>1/3</sup>), <span class="eq-gap">S(t)f = K<sub>t</sub> ∗ f.</span></div>
+        <p>For <span class="math">f ∈ L¹(ℝ) ∩ L²(ℝ)</span> and <span class="math">t ≠ 0</span>, with an absolute constant <span class="math">C</span>,</p>
+        <div class="math-display">‖S(t)f‖<sub>L∞(ℝ)</sub> ≤ C|t|<sup>−1/3</sup> ‖f‖<sub>L¹(ℝ)</sub>.</div>
+        <p><strong>On 𝕋<sub>L</sub>.</strong> For every <span class="math">f ∈ H<sup>s</sup>(𝕋<sub>L</sub>)</span>,</p>
+        <div class="math-display">S(T<sub>L</sub>)f = f, <span class="eq-gap">T<sub>L</sub> = L³/(4π²).</span></div>
+        <p>Consequently, there is no corresponding global-in-time L¹ → L∞ estimate with a factor tending to zero on the circle, even after removing the constant mode.</p></div>
+        <p class="proof-reference"><strong>Proof.</strong> Rescale the Fourier integral and use boundedness of Ai on ℝ for the line estimate. At <span class="math">T<sub>L</sub></span>, every periodic multiplier is <span class="math">exp(2πin³) = 1</span>. A nonzero smooth zero-mean function contradicts a decaying estimate at successive revivals. Airy estimates and smoothing are developed in <a href="#proof-ref-1">[1]</a>.</p>
+      </article>
+
+      <article class="theorem-entry" id="thm-existence">
+        <h3>Theorem 3. Global well-posedness down to H<sup>−1</sup> <span class="geometry">ℝ and 𝕋<sub>L</sub></span></h3>
+        <p class="theorem-intuition">The nonlinear flow continues for all times, including for initial data much rougher than a drawn curve.</p>
+        <div class="theorem-statement"><p>The classical KdV flow extends uniquely to a jointly continuous group</p>
+        <div class="math-display">Φ : ℝ × H<sup>−1</sup>(X) → H<sup>−1</sup>(X).</div>
+        <p>For every <span class="math">u<sub>0</sub> ∈ H<sup>−1</sup>(X)</span> and every smooth approximating sequence <span class="math">u<sub>0,n</sub> → u<sub>0</sub></span> in <span class="math">H<sup>−1</sup></span> (Schwartz on ℝ), its classical solutions satisfy, for every finite <span class="math">T</span>,</p>
+        <div class="math-display">u<sub>n</sub> → Φ(·,u<sub>0</sub>) <span class="eq-gap">in C([−T,T];H<sup>−1</sup>(X)).</span></div>
+        <p>The limit is independent of the approximation. This is uniqueness of the continuous extension of the classical flow; it does not assert uniqueness among every conceivable H<sup>−1</sup> weak solution. At this regularity the expression <span class="math">u²</span> requires care.</p></div>
+        <p class="proof-reference"><strong>Proof references.</strong> Killip–Vişan <a href="#proof-ref-2">[2]</a>, Theorem 1.1 and the discussion of the solution concept. The periodic result was first proved by Kappeler–Topalov <a href="#proof-ref-3">[3]</a>. The simulation’s time limit is unrelated to any breakdown of this flow.</p>
+      </article>
+
+      <article class="theorem-entry" id="thm-uniqueness">
+        <h3>Theorem 4. Unconditional uniqueness in L² <span class="geometry">ℝ and 𝕋<sub>L</sub></span></h3>
+        <p class="theorem-intuition">At L² regularity, the solution is determined without imposing an auxiliary Fourier restriction norm.</p>
+        <div class="theorem-statement"><p>For every real <span class="math">u<sub>0</sub> ∈ L²(X)</span>, KdV has a global solution <span class="math">u ∈ C(ℝ;L²(X))</span>. If <span class="math">u,v ∈ C([−T,T];L²(X))</span> are distributional solutions with the same initial data, then</p>
+        <div class="math-display">u(t) = v(t) <span class="eq-gap">for every t ∈ [−T,T].</span></div>
+        <p>Here <span class="math">u² ∈ C([−T,T];L¹(X))</span>, so its spatial derivative is a distribution. “Unconditional” refers to uniqueness in the full stated solution class, with no extra space-time assumption. It is a stronger uniqueness statement than the approximation-based assertion in Theorem 3.</p></div>
+        <p class="proof-reference"><strong>Proof references.</strong> On ℝ: Zhou <a href="#proof-ref-4">[4]</a>. On the circle: Babin–Ilyin–Titi <a href="#proof-ref-5">[5]</a>, Theorem 6.4 and the normal-form equations preceding it. Arbitrary periodic mean is handled by the change of variables in the set-up.</p>
+      </article>
+
+      <article class="theorem-entry" id="thm-conservation">
+        <h3>Theorem 5. Three conservation laws and Hamiltonian form <span class="geometry">ℝ and 𝕋<sub>L</sub></span></h3>
+        <p class="theorem-intuition">The dispersive term redistributes a profile without dissipating its conserved quantities.</p>
+        <div class="theorem-statement"><p>Let <span class="math">u</span> be a smooth periodic solution, or a solution in <span class="math">C(ℝ;𝒮(ℝ))</span>. Then</p>
+        <div class="math-display">M(u) = ∫<sub>X</sub> u dx, <span class="eq-gap">P(u) = ∫<sub>X</sub> u² dx,</span><br>H(u) = ∫<sub>X</sub> (½u<sub>x</sub>² − u³) dx</div>
+        <p>are independent of time, and KdV is the Hamiltonian evolution</p>
+        <div class="math-display">u<sub>t</sub> = ∂<sub>x</sub>(δH/δu), <span class="eq-gap">δH/δu = −u<sub>xx</sub> − 3u².</span></div>
+        <p>Conservation of <span class="math">P</span> also holds for the global L² flow by smooth approximation. The integral <span class="math">M</span> need not exist for general L² data on ℝ, and <span class="math">H</span> is not defined for arbitrary H<sup>−1</sup> data.</p></div>
+        <p class="proof-reference"><strong>Proof.</strong> Differentiate the integrals, substitute KdV, and integrate by parts. For H, use <span class="math">dH/dt = ∫ (δH/δu)∂<sub>x</sub>(δH/δu) dx = 0</span>. The displayed diagnostics approximate exactly these three functionals.</p>
+      </article>
+
+      <article class="theorem-entry" id="thm-waves">
+        <h3>Theorem 6. Solitary and cnoidal traveling waves <span class="geometry">ℝ and 𝕋<sub>L</sub></span></h3>
+        <p class="theorem-intuition">The circle has exact periodic traveling waves of its own.</p>
+        <div class="theorem-statement"><p><strong>On ℝ.</strong> For <span class="math">c &gt; 0</span>, the profile</p>
+        <div class="math-display">Q<sub>c</sub>(x) = (c/2) sech²(√c x/2)</div>
+        <p>gives the exact solution <span class="math">u(t,x) = Q<sub>c</sub>(x − ct − x<sub>0</sub>)</span>. Its height is <span class="math">c/2</span> and width is proportional to <span class="math">c<sup>−1/2</sup></span>.</p>
+        <p><strong>On the circle.</strong> Let <span class="math">0 &lt; m &lt; 1</span>, <span class="math">κ &gt; 0</span>, and <span class="math">a ∈ ℝ</span>. With Jacobi’s elliptic cosine cn and complete elliptic integral K,</p>
+        <div class="math-display">u(t,x) = a + 2κ²m cn²(κ(x − ct − x<sub>0</sub>);m),<br>c = 6a + 4κ²(2m − 1), <span class="eq-gap">L = 2K(m)/κ,</span></div>
+        <p>is an exact <span class="math">L</span>-periodic solution. For fixed <span class="math">κ</span> and <span class="math">a = 0</span>, the limit <span class="math">m ↑ 1</span> yields the real-line soliton of speed <span class="math">4κ²</span>, while its period tends to infinity. The simulator’s soliton presets on the circle are periodized real-line profiles, rather than exact cnoidal profiles.</p></div>
+        <p class="proof-reference"><strong>Proof.</strong> Set <span class="math">u(t,x) = F(x − ct)</span> and integrate once: <span class="math">F″ − cF + 3F² = constant</span>. Substitute the stated formulas, using <span class="math">(cn²)″ = 2(1 − m) + 4(2m − 1)cn² − 6m cn⁴</span>.</p>
+      </article>
+
+      <article class="theorem-entry" id="thm-lax">
+        <h3>Theorem 7. The Lax equation preserves the spectrum <span class="geometry">ℝ and 𝕋<sub>L</sub></span></h3>
+        <p class="theorem-intuition">A nonlinear PDE becomes an isospectral deformation of a one-dimensional Schrödinger operator.</p>
+        <div class="theorem-statement"><p>For a smooth periodic or Schwartz solution, define</p>
+        <div class="math-display">L<sub>u</sub> = −∂<sub>x</sub>² − u, <span class="eq-gap">B<sub>u</sub> = −4∂<sub>x</sub>³ − 6u∂<sub>x</sub> − 3u<sub>x</sub>.</span></div>
+        <p>Then KdV is equivalent to</p>
+        <div class="math-display">∂<sub>t</sub>L<sub>u</sub> = [B<sub>u</sub>,L<sub>u</sub>], <span class="eq-gap">[B,L] = BL − LB.</span></div>
+        <p>The associated Schrödinger operators are unitarily conjugate along the flow. On ℝ, the negative eigenvalues stay fixed. For periodic potentials, the Floquet discriminant, hence every spectral band edge and gap, stays fixed. Isospectrality is one part of integrability; Theorems 8 and 10 give the corresponding coordinates for the evolution.</p></div>
+        <p class="proof-reference"><strong>Proof references.</strong> Lax <a href="#proof-ref-6">[6]</a>. Directly expanding the commutator verifies the equation; the skew-adjoint evolution generated by B gives the conjugacy. The signs above correspond to <span class="math">q = −u</span>.</p>
+      </article>
+
+      <article class="theorem-entry" id="thm-scattering">
+        <h3>Theorem 8. Inverse scattering solves the decaying-data problem <span class="geometry">ℝ</span></h3>
+        <p class="theorem-intuition">Scattering coordinates evolve explicitly, although u itself does not.</p>
+        <div class="theorem-statement"><p>For real <span class="math">u<sub>0</sub> ∈ 𝒮(ℝ)</span>, the scattering data of <span class="math">−∂<sub>x</sub>² − u</span> determine the solution uniquely by inverse scattering. With right reflection coefficient R, eigenvalues <span class="math">−κ<sub>j</sub>²</span>, and positive norming constants <span class="math">γ<sub>j</sub></span>,</p>
+        <div class="math-display">R(k,t) = e<sup>8ik³t</sup>R(k,0), <span class="eq-gap">κ<sub>j</sub>(t) = κ<sub>j</sub>(0),</span><br>γ<sub>j</sub>(t) = e<sup>4κ<sub>j</sub>³t</sup>γ<sub>j</sub>(0).</div>
+        <p>Zero reflection coefficient gives pure multi-soliton solutions; nonzero reflection carries radiation.</p></div>
+        <p class="proof-reference"><strong>Proof references.</strong> Gardner–Greene–Kruskal–Miura <a href="#proof-ref-7">[7]</a>; the scattering convention and time evolution above are recorded in <a href="#proof-ref-8">[8]</a>, §2, Lemma 2.2.</p>
+      </article>
+
+      <article class="theorem-entry" id="thm-resolution">
+        <h3>Theorem 9. Soliton resolution in the right-moving region <span class="geometry">ℝ · Schwartz data</span></h3>
+        <p class="theorem-intuition">The persistent right-moving pulses are selected by the discrete spectrum.</p>
+        <div class="theorem-statement"><p>Let <span class="math">u<sub>0</sub> ∈ 𝒮(ℝ)</span> be real. Write the finitely many negative eigenvalues of <span class="math">−∂<sub>x</sub>² − u<sub>0</sub></span> as <span class="math">−κ<sub>j</sub>²</span>. There are phases <span class="math">x<sub>j</sub><sup>+</sup></span> such that, for every <span class="math">ε &gt; 0</span>,</p>
+        <div class="math-display">lim<sub>t→∞</sub> sup<sub>x≥εt</sub> |u(t,x) − ∑<sub>j=1</sub><sup>N</sup> Q<sub>4κ<sub>j</sub>²</sub>(x − 4κ<sub>j</sub>²t − x<sub>j</sub><sup>+</sup>)| = 0.</div>
+        <p>Thus each eigenvalue produces a soliton of speed <span class="math">4κ<sub>j</sub>²</span>. Radiation has separate asymptotics in the left-moving and transition regions. This is a statement in a specified spatial region and norm, not global L² convergence to solitons alone.</p></div>
+        <p class="proof-reference"><strong>Proof reference.</strong> Grunert–Teschl <a href="#proof-ref-8">[8]</a>, Theorem 4.4, specialized to Schwartz data and translated by <span class="math">q = −u</span>. Classical KdV soliton asymptotics under these hypotheses are established; the periodic counterpart is Theorem 11.</p>
+      </article>
+
+      <article class="theorem-entry" id="thm-birkhoff">
+        <h3>Theorem 10. Global Birkhoff coordinates <span class="geometry">𝕋<sub>L</sub></span></h3>
+        <p class="theorem-intuition">A nonlinear Fourier transform turns periodic KdV into independent rotations with frequencies depending on the conserved actions.</p>
+        <div class="theorem-statement"><p>For every <span class="math">s ≥ 0</span>, there is a compatible real-analytic canonical diffeomorphism</p>
+        <div class="math-display">Ω : H<sup>s</sup><sub>0</sub>(𝕋<sub>L</sub>) → h<sup>s+1/2</sup>,<br>h<sup>α</sup> = {z = (x<sub>n</sub>,y<sub>n</sub>)<sub>n≥1</sub> : ∑<sub>n≥1</sub> n<sup>2α</sup>(x<sub>n</sub>² + y<sub>n</sub>²) &lt; ∞}.</div>
+        <p>In these coordinates, with an orientation chosen for the angles,</p>
+        <div class="math-display">I<sub>n</sub> = ½(x<sub>n</sub>² + y<sub>n</sub>²), <span class="eq-gap">İ<sub>n</sub> = 0,</span><br>z<sub>n</sub>(t) = e<sup>iω<sub>n</sub>(I)t</sup>z<sub>n</sub>(0), <span class="eq-gap">z<sub>n</sub> = x<sub>n</sub> + iy<sub>n</sub>.</span></div>
+        <p>For <span class="math">s ≥ 1</span>, the Hamiltonian in these coordinates depends only on I. This gives a precise global meaning of complete integrability on the circle.</p></div>
+        <p class="proof-reference"><strong>Proof references.</strong> <a href="#proof-ref-9">[9]</a>, Theorem 1.1 and the flow in Birkhoff coordinates. The distribution-space extension and interpolation are in <a href="#proof-ref-10">[10]</a>. These formulas are stated in the smooth-enough range needed here.</p>
+      </article>
+
+      <article class="theorem-entry" id="thm-recurrence">
+        <h3>Corollary 11. Almost-periodic dynamics and finite-gap approximation <span class="geometry">𝕋<sub>L</sub></span></h3>
+        <p class="theorem-intuition">On the circle, the long-time description is recurrent motion on invariant tori.</p>
+        <div class="theorem-statement"><p>For real <span class="math">u<sub>0</sub> ∈ H<sup>s</sup><sub>0</sub>(𝕋<sub>L</sub>)</span>, <span class="math">s ≥ 0</span>, the orbit is relatively compact in H<sup>s</sup>, and <span class="math">t ↦ u(t)</span> is Bohr almost periodic: for every <span class="math">ε &gt; 0</span>, there is <span class="math">R &gt; 0</span> such that every interval of length R contains a time shift τ with</p>
+        <div class="math-display">sup<sub>t∈ℝ</sub> ‖u(t + τ) − u(t)‖<sub>H<sup>s</sup></sub> &lt; ε.</div>
+        <p>Truncating the Birkhoff coordinates of the initial data gives finite-gap initial profiles converging in H<sup>s</sup>. Their solutions have finitely many active angles and are quasi-periodic in time (possibly periodic). This approximation holds on each bounded time interval; it need not be uniform for all time because frequencies change.</p></div>
+        <p class="proof-reference"><strong>Proof from Theorem 10.</strong> Fixed actions give uniformly small tails and rotations on compact tori. Approximate the original orbit by finitely many rotations at its own frequencies and apply continuity of Ω<sup>−1</sup>. This proves almost periodicity. Continuity of the KdV flow gives the stated finite-gap approximation. Positive-time returns preclude a general decay-to-zero statement on the circle.</p>
+      </article>
+
+      <section id="proof-references" class="proof-references" aria-labelledby="references-title"><h3 id="references-title">Proof references</h3><p>The sources below use several normalizations. The formulas here use <span class="math">u<sub>t</sub> + 6uu<sub>x</sub> + u<sub>xxx</sub> = 0</span> throughout.</p>
+      <ol class="references">
+        <li id="proof-ref-1">S. Kwon and T. Roy, <em>Bilinear local smoothing estimate for Airy equation</em>, linear Airy estimates and references to Kenig–Ponce–Vega. <a href="https://www.math.nagoya-u.ac.jp/~tristanroy/Bilinear.pdf" target="_blank" rel="noreferrer">PDF</a>.</li>
+        <li id="proof-ref-2">R. Killip and M. Vişan, <em>KdV is well-posed in H<sup>−1</sup></em>, Ann. Math. 190 (2019), 249–305, Theorem 1.1. <a href="https://annals.math.princeton.edu/2019/190-1/p04" target="_blank" rel="noreferrer">Article and PDF</a>.</li>
+        <li id="proof-ref-3">T. Kappeler and P. Topalov, <em>Global wellposedness of KdV in H<sup>−1</sup>(𝕋,ℝ)</em>, Duke Math. J. 135 (2006), 327–360. <a href="https://doi.org/10.1215/S0012-7094-06-13524-X" target="_blank" rel="noreferrer">Journal</a>.</li>
+        <li id="proof-ref-4">Y. Zhou, <em>Uniqueness of weak solution of the KdV equation</em>, IMRN 1997, no. 6, 271–283. <a href="https://doi.org/10.1155/S1073792897000202" target="_blank" rel="noreferrer">Journal</a>.</li>
+        <li id="proof-ref-5">A. V. Babin, A. A. Ilyin, and E. S. Titi, <em>On the regularization mechanism for the periodic Korteweg–de Vries equation</em>, CPAM 64 (2011), 591–648, Theorem 6.4. <a href="https://arxiv.org/pdf/0910.1389" target="_blank" rel="noreferrer">PDF</a>.</li>
+        <li id="proof-ref-6">P. D. Lax, <em>Integrals of nonlinear equations of evolution and solitary waves</em>, CPAM 21 (1968), 467–490. <a href="https://doi.org/10.1002/cpa.3160210503" target="_blank" rel="noreferrer">Journal</a>.</li>
+        <li id="proof-ref-7">C. S. Gardner, J. M. Greene, M. D. Kruskal, and R. M. Miura, <em>Method for solving the Korteweg–deVries equation</em>, Phys. Rev. Lett. 19 (1967), 1095–1097. <a href="https://doi.org/10.1103/PhysRevLett.19.1095" target="_blank" rel="noreferrer">Article</a>.</li>
+        <li id="proof-ref-8">K. Grunert and G. Teschl, <em>Long-time asymptotics for the Korteweg–de Vries equation via nonlinear steepest descent</em>, Math. Phys. Anal. Geom. 12 (2009), 287–324, Lemma 2.2 and Theorem 4.4. <a href="https://www.mat.univie.ac.at/~gerald/ftp/articles/KdVRHP.pdf" target="_blank" rel="noreferrer">PDF</a>.</li>
+        <li id="proof-ref-9">T. Kappeler and J.-C. Molnar, <em>On the wellposedness of the KdV/KdV2 equations and their frequency maps</em>, Ann. IHP AN 35 (2018), 101–160, Theorem 1.1. <a href="https://www.numdam.org/item/10.1016/j.anihpc.2017.03.003.pdf" target="_blank" rel="noreferrer">PDF</a>.</li>
+        <li id="proof-ref-10">T. Kappeler, F. Serier, and P. Topalov, <em>On the symplectic phase space of KdV</em>, Proc. AMS 136 (2008), 1691–1698, Theorem 1. <a href="https://arxiv.org/pdf/0710.1381" target="_blank" rel="noreferrer">PDF</a>.</li>
+      </ol></section>
+    </section>
+
+    <section id="questions" class="reading-section lecture-notes research-section" aria-labelledby="questions-title">
+      <div class="section-heading"><h2 id="questions-title">Open questions about KdV and its relatives</h2><span>Literature checked 7 November 2026</span></div>
+      <p>Complete integrability leaves substantial questions about rough solutions, spectral coordinates, and long-time statistics. Other problems arise when the coefficients or the nonlinearity change. The first six entries concern classical KdV itself; the remaining five concern related equations.</p>
+      <p class="research-scope">These are conjectures or research problems, not theorems. Each entry specifies its scope and the progress found in the literature check. “No resolution located” records the outcome of that check; recent preprint claims are identified separately. None of the generalized equations below is simulated above.</p>
+      <nav class="facts-contents" aria-label="Open KdV questions"><a href="#open-airy">1. Sharp periodic Airy estimate</a><a href="#open-green">2. Intrinsic H⁻¹ uniqueness</a><a href="#open-spectral">3. General spectral coordinates</a><a href="#open-quasiperiodic">4. Large quasiperiodic data</a><a href="#open-mixing">5. Temporal mixing</a><a href="#open-hessian">6. Global action nondegeneracy</a><a href="#open-perturbations">7. Variable coefficients at H⁻¹</a><a href="#open-focusing">8. Scattering below the ground state</a><a href="#open-resolution">9. Quartic soliton resolution</a><a href="#open-collisions">10. Quartic collision inelasticity</a><a href="#open-blowup">11. Critical blow-up dynamics</a><a href="#resolved-questions">Questions already settled</a><a href="#research-references">Sources and status checks</a></nav>
+
+      <article id="open-airy" class="theorem-entry research-entry">
+        <span class="question-label">Classical KdV · circle · conjecture</span><h3>1. The sharp L⁸ estimate for periodic Airy evolution</h3>
+        <p class="theorem-intuition">Even the linear group has an unresolved arithmetic estimate.</p>
+        <div class="theorem-statement"><p>Let <span class="math">𝕋 = ℝ/ℤ</span>. For every <span class="math">ε &gt; 0</span>, does a constant <span class="math">C<sub>ε</sub></span> exist such that, for all integers <span class="math">N ≥ 1</span> and all complex coefficients <span class="math">a<sub>n</sub></span>,</p>
+        <div class="math-display">‖∑<sub>|n|≤N</sub> a<sub>n</sub> e<sup>2πi(nx+n³t)</sup>‖<sub>L⁸(𝕋²)</sub> ≤ C<sub>ε</sub>N<sup>ε</sup>(∑<sub>|n|≤N</sub>|a<sub>n</sub>|²)<sup>1/2</sup>?</div>
+        <p>Time is rescaled here to one linear revival period. The estimate asks for almost no derivative loss. It concerns arbitrary coefficients, not just an unweighted exponential sum.</p></div>
+        <p class="research-status"><strong>Known and remaining.</strong> Bourgain proved the analogous L⁶ bound with an ε-loss. Hughes–Wooley established the conjectured scale at L¹⁰. The critical L⁸ estimate remains a stated conjecture in the literature checked, including a June 2026 preprint.</p>
+        <p class="proof-reference"><strong>Sources.</strong> <a href="#research-ref-1">[R1]</a>, Introduction, Conjecture 1.1 and Theorem 1.2; <a href="#research-ref-2">[R2]</a>, Introduction, Conjecture 1.2. No L⁸ resolution was located.</p>
+      </article>
+
+      <article id="open-green" class="theorem-entry research-entry">
+        <span class="question-label">Classical KdV · ℝ and circle · open uniqueness problem</span><h3>2. Intrinsic uniqueness at H⁻¹ regularity</h3>
+        <p class="theorem-intuition">The unique continuous extension of a smooth flow need not settle uniqueness for an intrinsic notion of rough solution.</p>
+        <div class="theorem-statement"><p>Are <em>green solutions</em> in <span class="math">C([−T,T];H<sup>−1</sup>(X))</span> uniquely determined by their initial value? This solution concept replaces the undefined square of a general H⁻¹ distribution with a resolvent identity.</p>
+        <p>In the convention <span class="math">q = −u</span>, let <span class="math">g<sub>κ</sub></span> be the diagonal Green’s function of <span class="math">(−∂<sub>x</sub>² + q + κ²)<sup>−1</sup></span>. The defining identity, for every sufficiently large κ, is</p>
+        <div class="math-display">1/(2g<sub>κ</sub>(t)) − 1/(2g<sub>κ</sub>(0)) = ∂<sub>x</sub>∫<sub>0</sub><sup>t</sup> (q(r) − 2κ²)/g<sub>κ</sub>(r) dr.</div>
+        <p>It is meaningful in <span class="math">C<sub>t</sub>H<sup>−2</sup><sub>x</sub></span>. The question fixes this solution concept rather than leaving “weak solution” unspecified.</p></div>
+        <p class="research-status"><strong>Known and remaining.</strong> Uniqueness holds in C<sub>t</sub>L²<sub>x</sub>. The H⁻¹ green-solution question is explicitly left open by Killip–Murphy–Vişan and reiterated by Chapouto–Killip–Vişan. The May 2026 Klaus–Koch–Liu revision proves further weak uniqueness results under additional L², smoothing, and tail hypotheses; it does not settle this question.</p>
+        <p class="proof-reference"><strong>Sources.</strong> <a href="#proof-ref-2">[2]</a>, Proposition 3.1, for the resolvent identity; <a href="#research-ref-3">[R3]</a>, Definition 7.3; <a href="#research-ref-4">[R4]</a>, Introduction; <a href="#research-ref-5">[R5]</a>, Theorems 1.1, 2.7, and 2.24. No resolution for the stated class was located.</p>
+      </article>
+
+      <article id="open-spectral" class="theorem-entry research-entry">
+        <span class="question-label">Classical KdV · ℝ · research program</span><h3>3. Spectral coordinates for general Sobolev data</h3>
+        <p class="theorem-intuition">The circle has a global nonlinear Fourier transform. An equally complete transform on the line is missing outside special decay classes.</p>
+        <div class="theorem-statement"><p>Construct an invertible nonlinear spectral transform for general real data in <span class="math">H<sup>s</sup>(ℝ)</span>, for a fixed <span class="math">s ≥ −1</span> and without additional spatial decay, that conjugates KdV to explicit spectral evolution:</p>
+        <div class="math-display">𝒯(Φ<sub>t</sub>u<sub>0</sub>) = R<sub>t</sub>𝒯(u<sub>0</sub>).</div>
+        <p>Here <span class="math">R<sub>t</sub></span> should be a simple evolution in the new coordinates, as in inverse scattering for rapidly decaying data. A complete theory must account for slow decay and exceptional spectral components, including threshold or embedded eigenvalues and singular continuous spectrum where they occur.</p></div>
+        <p class="research-status"><strong>Known and remaining.</strong> Killip–Vişan’s ICM 2026 account explicitly identifies this missing coordinate system for general Sobolev data. The issue already appears for smooth potentials with only algebraic decay. This is a program for extending integrability theory, not a claim that the Sobolev Cauchy problem is unsolved.</p>
+        <p class="proof-reference"><strong>Source.</strong> <a href="#research-ref-6">[R6]</a>, §3, discussion of inverse scattering and general H<sup>s</sup>(ℝ) data.</p>
+      </article>
+
+      <article id="open-quasiperiodic" class="theorem-entry research-entry">
+        <span class="question-label">Classical KdV · ℝ with spatially quasiperiodic data · open existence problem</span><h3>4. Global existence for large analytic quasiperiodic data</h3>
+        <p class="theorem-intuition">Replacing one spatial period by several incommensurate frequencies changes the existence problem.</p>
+        <div class="theorem-statement"><p>Let <span class="math">u<sub>0</sub>(x) = F(ωx)</span>, with F real analytic on a d-dimensional torus, <span class="math">d ≥ 2</span>, and a Diophantine frequency vector:</p>
+        <div class="math-display">|n · ω| ≥ γ|n|<sup>−τ</sup> <span class="eq-gap">for every 0 ≠ n ∈ ℤ<sup>d</sup>,</span></div>
+        <p>for some <span class="math">γ,τ &gt; 0</span>. Without a smallness assumption on F, does the classical KdV solution exist for all time and remain bounded in x on each bounded time interval?</p></div>
+        <p class="research-status"><strong>Known and remaining.</strong> Damanik–Goldstein prove local analytic theory for arbitrary size and global theory for sufficiently small analytic coefficients. Spencer’s 2024 lecture explicitly identifies the large-data question as open. No later general resolution was located. This concerns quasiperiodicity in <em>space</em>; periodic solutions that are quasiperiodic in time do not answer it.</p>
+        <p class="proof-reference"><strong>Sources.</strong> <a href="#research-ref-7">[R7]</a>, Abstract and main results; <a href="#research-ref-8">[R8]</a>, introductory slides and slide 13.</p>
+      </article>
+
+      <article id="open-mixing" class="theorem-entry research-entry">
+        <span class="question-label">Classical KdV · ℝ · Conjecture 7.6 of Killip–Murphy–Vişan</span><h3>5. Does the white-noise KdV flow mix in time?</h3>
+        <p class="theorem-intuition">An invariant distribution need not forget correlations between the initial state and its later evolution.</p>
+        <div class="theorem-statement"><p>Let μ be spatial white-noise measure on ℝ and <span class="math">Φ<sub>t</sub></span> its almost-sure deterministic KdV flow. For real <span class="math">F,G ∈ L²(μ)</span>, is</p>
+        <div class="math-display">lim<sub>t→∞</sub> ∫ F(Φ<sub>t</sub>q)G(q) dμ(q) = (∫ F dμ)(∫ G dμ)?</div>
+        <p>White noise here is a random distribution with covariance <span class="math">𝔼[⟨q,f⟩⟨q,g⟩] = ∫ fg dx</span> for real test functions. The conjecture asks for mixing under <em>time evolution</em>.</p></div>
+        <p class="research-status"><strong>Known and remaining.</strong> Existence of the flow and invariance of μ are proved. Temporal mixing is the authors’ explicit conjecture. Mixing under spatial translations, or for a forced and damped KdV equation, is a different assertion. No temporal-mixing resolution for this deterministic whole-line flow was located.</p>
+        <p class="proof-reference"><strong>Source.</strong> <a href="#research-ref-3">[R3]</a>, Introduction and Conjecture 7.6.</p>
+      </article>
+
+      <article id="open-hessian" class="theorem-entry research-entry">
+        <span class="question-label">Classical KdV · circle · global nondegeneracy problem</span><h3>6. Can the action-frequency map degenerate at an infinite-gap action?</h3>
+        <p class="theorem-intuition">Global Birkhoff coordinates exist, but the dependence of their frequencies on the actions is not completely understood.</p>
+        <div class="theorem-statement"><p>On the unit circle, subtract the linear part of the KdV Hamiltonian in action coordinates:</p>
+        <div class="math-display">H*(I) = H<sub>KdV</sub>(I) − ∑<sub>n≥1</sub>(2πn)³I<sub>n</sub>.</div>
+        <p>This renormalized function extends analytically to <span class="math">ℓ²<sub>+</sub> = {I ∈ ℓ² : I<sub>n</sub> ≥ 0}</span>. Does every such I admit <span class="math">c(I) &gt; 0</span> with</p>
+        <div class="math-display">−D²H*(I)[J,J] ≥ c(I)‖J‖<sub>ℓ²</sub>² <span class="eq-gap">for all J ∈ ℓ²?</span></div>
+        <p>This asks for a coercive Hessian, a precise nondegeneracy property stronger than some uses of the phrase “strict concavity.”</p></div>
+        <p class="research-status"><strong>Known and remaining.</strong> Kappeler–Molnar prove this on an open dense set containing the origin. A <strong>25 October 2026 preprint</strong> reports coercivity at every finite-gap action, meaning only finitely many nonzero actions. That recent claim does not cover arbitrary infinite-gap actions; no full resolution was located.</p>
+        <p class="proof-reference"><strong>Sources.</strong> <a href="#research-ref-9">[R9]</a>, Introduction, Theorem 1.3 and §3.2; <a href="#research-ref-10">[R10]</a>, abstract. The latter is recorded as recent preprint progress.</p>
+      </article>
+
+      <article id="open-perturbations" class="theorem-entry research-entry">
+        <span class="question-label">KdV with variable coefficients · ℝ · research problem</span><h3>7. Does sharp H⁻¹ well-posedness survive localized perturbations?</h3>
+        <p class="theorem-intuition">A small imperfection can remove exact conservation without changing the leading dispersive term.</p>
+        <div class="theorem-statement"><p>Consider real smooth coefficients and</p>
+        <div class="math-display">u<sub>t</sub> + u<sub>xxx</sub> + 6uu<sub>x</sub> = ∂<sub>x</sub>(a<sub>1</sub>u<sub>x</sub>) + a<sub>2</sub>u² + a<sub>3</sub>u<sub>x</sub> + a<sub>4</sub>u.</div>
+        <p>Assume <span class="math">|a<sub>j</sub>| + |∂<sub>x</sub>a<sub>j</sub>| ≤ ε/(1+x²)</span> for <span class="math">j = 1,2,3</span>, with small ε, and the analogous bound with an arbitrary fixed constant for <span class="math">a<sub>4</sub></span>, uniformly on a time interval. Can one construct a locally well-posed solution map for all real <span class="math">H<sup>−1</sup>(ℝ)</span> data, as a unique continuous extension of the smooth solution map?</p></div>
+        <p class="research-status"><strong>Known and remaining.</strong> Ifrim–Laurens (2026) prove H⁻¹ a priori bounds for this localized coefficient class. Such bounds control existing smooth solutions; they do not by themselves provide existence, uniqueness, and continuous dependence at H⁻¹. Upgrading this estimate to the stated solution map is a research target; no general theorem for this class was located.</p>
+        <p class="proof-reference"><strong>Source.</strong> <a href="#research-ref-11">[R11]</a>, Introduction, Theorem 1.1 and the comparison with existing well-posedness results. The sign of a<sub>2</sub> is relabelled when changing from q to u.</p>
+      </article>
+
+      <section class="research-family-intro" aria-labelledby="gkdv-questions-title"><h3 id="gkdv-questions-title">Changing the power: generalized KdV</h3><p>The next four entries concern <span class="math">u<sub>t</sub> + ∂<sub>x</sub>(u<sub>xx</sub> + u<sup>p</sup>) = 0</span> on ℝ, with <span class="math">p = 4</span> or <span class="math">p = 5</span>. They are non-integrable relatives of the quadratic equation simulated above. Their thresholds and solitary waves use this normalization.</p></section>
+
+      <article id="open-focusing" class="theorem-entry research-entry">
+        <span class="question-label">Focusing quintic gKdV · ℝ · scattering conjecture</span><h3>8. Does every solution below the ground-state mass scatter?</h3>
+        <p class="theorem-intuition">The solitary wave supplies a natural threshold, but the full below-threshold scattering theorem is still missing.</p>
+        <div class="theorem-statement"><p>For <span class="math">p = 5</span>, let Q be the positive decaying solution of <span class="math">Q″ + Q⁵ = Q</span>. Does every real <span class="math">u<sub>0</sub> ∈ L²(ℝ)</span> satisfying <span class="math">‖u<sub>0</sub>‖<sub>2</sub> &lt; ‖Q‖<sub>2</sub></span> generate a global solution with some <span class="math">u<sub>±</sub> ∈ L²(ℝ)</span> such that</p>
+        <div class="math-display">lim<sub>t→±∞</sub> ‖u(t) − S(t)u<sub>±</sub>‖<sub>2</sub> = 0?</div>
+        <p>This is scattering to the linear Airy group. The strict mass inequality excludes the solitary wave itself.</p></div>
+        <p class="research-status"><strong>Known and remaining.</strong> This is an explicit conjecture in Killip–Kwon–Shao–Vişan and Dodson–Gavrus. The latter prove a specific instability result near Q, not the full conjecture. Defocusing quintic scattering is solved; it does not settle the focusing equation. No general focusing resolution was located.</p>
+        <p class="proof-reference"><strong>Sources.</strong> <a href="#research-ref-12">[R12]</a>, Introduction, Conjecture 1.4; <a href="#research-ref-13">[R13]</a>, Introduction, Conjecture 1.2.</p>
+      </article>
+
+      <article id="open-resolution" class="theorem-entry research-entry">
+        <span class="question-label">Quartic gKdV · ℝ · general soliton-resolution problem</span><h3>9. Soliton resolution for general localized initial data</h3>
+        <p class="theorem-intuition">Can a general profile be understood asymptotically without assuming it starts near a solitary wave?</p>
+        <div class="theorem-statement"><p>For <span class="math">p = 4</span> and arbitrary real Schwartz initial data, establish a complete description of <span class="math">u(t)</span> as <span class="math">t → +∞</span> in terms of separated solitary waves and dispersive radiation. With Q now the positive decaying solution of the quartic profile equation, the solitary waves are</p>
+        <div class="math-display">Q<sub>c</sub>(x) = c<sup>1/3</sup>Q(√c x), <span class="eq-gap">Q″ + Q⁴ = Q, c &gt; 0.</span></div>
+        <p>A full theorem must specify the convergence regions and norms and address the possibility of arbitrarily small outgoing solitons. It should not assume in advance that the solution remains close to a soliton train.</p></div>
+        <p class="research-status"><strong>Known and remaining.</strong> Small-data scattering and perturbative stability near a solitary wave are established, including work of Tao and Koch–Marzuola. These results do not give a resolution theorem for arbitrary localized profiles. No general theorem was located. Classical quadratic KdV with rapidly decaying data is already treated by inverse scattering, as in Theorem 9 above.</p>
+        <p class="proof-reference"><strong>Sources and partial results.</strong> <a href="#research-ref-14">[R14]</a>, Introduction and scattering theorem; <a href="#research-ref-15">[R15]</a>, Introduction and stability theorem; <a href="#research-ref-16">[R16]</a>, discussion of non-integrable soliton dynamics.</p>
+      </article>
+
+      <article id="open-collisions" class="theorem-entry research-entry">
+        <span class="question-label">Quartic gKdV · ℝ · collision conjecture</span><h3>10. Must every two-soliton collision be inelastic?</h3>
+        <p class="theorem-intuition">KdV’s elastic collisions are special. Proving their complete absence for quartic gKdV is still a separate problem.</p>
+        <div class="theorem-statement"><p>For <span class="math">p = 4</span>, prove that no solution is a pure two-soliton in both time directions, for <em>every</em> incoming speed ratio <span class="math">0 &lt; c<sub>2</sub>/c<sub>1</sub> &lt; 1</span>. “Pure” means that, for appropriate speeds and shifts at each end,</p>
+        <div class="math-display">‖u(t) − ∑<sub>j=1</sub><sup>2</sup> Q<sub>c<sub>j</sub><sup>±</sup></sub>(· − c<sub>j</sub><sup>±</sup>t − x<sub>j</sub><sup>±</sup>)‖<sub>H¹</sub> → 0 <span class="eq-gap">as t → ±∞.</span></div>
+        <p>Thus there would be no nonzero radiation remainder at either end. The question is whether such a collision is impossible.</p></div>
+        <p class="research-status"><strong>Known and remaining.</strong> Martel–Merle prove inelasticity for very unequal speeds. Later work proves nonexistence of pure two-solitons for the explicit range <span class="math">3c<sub>1</sub>/4 &lt; c<sub>2</sub> &lt; c<sub>1</sub></span>. The all-ratios assertion is stated as a conjecture in their introduction; no complete later resolution was located.</p>
+        <p class="proof-reference"><strong>Sources.</strong> <a href="#research-ref-16">[R16]</a>, main collision theorem; <a href="#research-ref-17">[R17]</a>, Introduction, conjecture before §1.2 and the main nonexistence theorem.</p>
+      </article>
+
+      <article id="open-blowup" class="theorem-entry research-entry">
+        <span class="question-label">Focusing quintic gKdV · ℝ · explicit 2026 open problems</span><h3>11. Which finite-point blow-up dynamics can occur?</h3>
+        <p class="theorem-intuition">Constructing new concentration rates raises a sharper classification and stability problem.</p>
+        <div class="theorem-statement"><p>For <span class="math">p = 5</span>, consider <span class="math">H¹(ℝ)</span> solutions that concentrate at a finite spatial point at time T, with</p>
+        <div class="math-display">‖u<sub>x</sub>(t)‖<sub>2</sub> ∼ C(T − t)<sup>−ν</sup>, <span class="eq-gap">C &gt; 0.</span></div>
+        <p>Which power exponents ν are possible? In particular, do finite-energy examples exist in <span class="math">(1/3,2/5)</span> or <span class="math">(2/5,3/7]</span>? Do the newly constructed finite-point regimes have any stability? Can non-power-law rates oscillate between two admissible finite-point powers?</p></div>
+        <p class="research-status"><strong>Known and remaining.</strong> Martel–Pilod’s January 2026 preprint constructs all finite-point exponents <span class="math">3/7 &lt; ν &lt; 1/2</span>, supplementing the earlier <span class="math">ν = 2/5</span> example. Its §1.3 explicitly leaves the missing exponents, stability, and more complicated rates open. This statement does not claim that the endpoint <span class="math">ν = 1/2</span> is settled, or conflate finite-point blow-up with concentration escaping to infinity.</p>
+        <p class="proof-reference"><strong>Source.</strong> <a href="#research-ref-18">[R18]</a>, Theorem 1.1 and §1.3(2)–(4). No subsequent resolution of these listed questions was located.</p>
+      </article>
+
+      <section id="resolved-questions" class="resolved-questions" aria-labelledby="resolved-title"><h3 id="resolved-title">Questions excluded because they are already settled</h3><p>Older introductions and problem lists remain useful guides, but their status labels need updating.</p>
+      <div class="theory-table-scroll"><table class="theory-table"><caption>Selected status checks</caption><thead><tr><th scope="col">Candidate from older literature</th><th scope="col">Current conclusion used here</th></tr></thead><tbody>
+      <tr><th scope="row">KdV global well-posedness in H⁻¹</th><td>Proved on the circle by Kappeler–Topalov and on the line by Killip–Vişan. See Theorem 3. This does not settle Question 2’s intrinsic uniqueness problem.</td></tr>
+      <tr><th scope="row">Unrestricted Deift almost-periodicity conjecture</th><td>False in its unrestricted formulation: Chapouto–Killip–Vişan construct almost-periodic initial data whose bounded KdV evolution loses spatial almost periodicity. Published in 2024. <a href="#research-ref-4">[R4]</a></td></tr>
+      <tr><th scope="row">Classical KdV soliton asymptotics for rapidly decaying data</th><td>Established under decay hypotheses; see Theorem 9. Question 9 concerns quartic gKdV.</td></tr>
+      <tr><th scope="row">Defocusing mass-critical gKdV scattering for all L² data</th><td>Proved by Dodson. Question 8 instead concerns the focusing sign below the ground-state threshold. <a href="#research-ref-19">[R19]</a></td></tr>
+      <tr><th scope="row">KdV multisolitons as global constrained minimizers</th><td>For constraint values attained by multisolitons, Laurens proves that multisolitons are the unique global constrained minimizers. This resolves the corresponding earlier question. <a href="#research-ref-20">[R20]</a></td></tr>
+      </tbody></table></div></section>
+
+      <section id="research-references" class="proof-references" aria-labelledby="research-sources-title"><h3 id="research-sources-title">Sources and status checks</h3><p>References point to the original question, a precise partial theorem, or a later result used to check its status. The literature check includes later papers and revisions through <time datetime="2026-11-07">7 November 2026</time>. Research-program formulations above are distinguished from numbered conjectures in the sources.</p>
+      <ol class="references research-references">
+      <li id="research-ref-1"><strong>[R1]</strong> K. Hughes and T. D. Wooley, <em>Discrete restriction for (x,x³) and related topics</em>, IMRN (2022), 15612–15631, Introduction. <a href="https://www.math.purdue.edu/~twooley/publ/20210304kdv.pdf" target="_blank" rel="noreferrer">Author PDF</a>.</li>
+      <li id="research-ref-2"><strong>[R2]</strong> Y. Chen, <em>Decoupling and discrete Strichartz estimates for dispersive equations on the torus</em>, June 2026 preprint, Conjecture 1.2 and the comparison with weighted restriction bounds. <a href="https://arxiv.org/abs/2606.16174" target="_blank" rel="noreferrer">Preprint</a>.</li>
+      <li id="research-ref-3"><strong>[R3]</strong> R. Killip, J. Murphy, and M. Vişan, <em>Invariance of white noise for KdV on the line</em>, Invent. Math. 222 (2020), 203–282, Definition 7.3 and Conjecture 7.6. <a href="https://arxiv.org/pdf/1904.11910" target="_blank" rel="noreferrer">PDF</a>.</li>
+      <li id="research-ref-4"><strong>[R4]</strong> A. Chapouto, R. Killip, and M. Vişan, <em>Bounded solutions of KdV: uniqueness and the loss of almost periodicity</em>, Duke Math. J. 173 (2024), 1227–1267, Introduction and Theorems 1.2–1.3. <a href="https://arxiv.org/pdf/2209.07501" target="_blank" rel="noreferrer">PDF</a>.</li>
+      <li id="research-ref-5"><strong>[R5]</strong> F. Klaus, H. Koch, and B. Liu, <em>Wellposedness for the KdV hierarchy</em>, arXiv:2309.12773v2, revised 5 May 2026, Theorems 1.1, 2.7, and 2.24. <a href="https://arxiv.org/abs/2309.12773" target="_blank" rel="noreferrer">Current preprint</a>.</li>
+      <li id="research-ref-6"><strong>[R6]</strong> R. Killip and M. Vişan, <em>The method of commuting flows</em>, ICM 2026, pp.328–347, §3. <a href="https://epubs.siam.org/doi/10.1137/25M1807149" target="_blank" rel="noreferrer">Open article</a>.</li>
+      <li id="research-ref-7"><strong>[R7]</strong> D. Damanik and M. Goldstein, <em>On the existence and uniqueness of global solutions for the KdV equation with quasi-periodic initial data</em>, JAMS 29 (2016), 825–856, main results. <a href="https://arxiv.org/pdf/1212.2674" target="_blank" rel="noreferrer">PDF</a>.</li>
+      <li id="research-ref-8"><strong>[R8]</strong> T. Spencer, Helsinki <em>Path Integrals and Friends</em> lecture (2024), slides 2 and 13: large quasiperiodic KdV data. <a href="https://www.helsinki.fi/assets/drupal/2024-09/PIF_Spencer.pdf" target="_blank" rel="noreferrer">Lecture slides</a>.</li>
+      <li id="research-ref-9"><strong>[R9]</strong> T. Kappeler and J.-C. Molnar, <em>On the wellposedness of the KdV/KdV2 equations and their frequency maps</em>, Ann. IHP AN 35 (2018), 101–160, Theorem 1.3. <a href="https://www.numdam.org/item/10.1016/j.anihpc.2017.03.003.pdf" target="_blank" rel="noreferrer">PDF</a>.</li>
+      <li id="research-ref-10"><strong>[R10]</strong> G. Huang, <em>Long-time action stability for perturbed KdV near finite-gap tori</em>, submitted 25 October 2026. <strong>Recent preprint claim:</strong> the abstract reports Hessian coercivity at every finite-gap action. <a href="https://arxiv.org/abs/2610.34601" target="_blank" rel="noreferrer">Abstract and preprint</a>.</li>
+      <li id="research-ref-11"><strong>[R11]</strong> M. Ifrim and T. Laurens, <em>A-priori estimates for generalized Korteweg–de Vries equations in H⁻¹(ℝ)</em>, Nonlinearity 39 (2026), 035004, Theorem 1.1 and Introduction. <a href="https://arxiv.org/pdf/2502.04614" target="_blank" rel="noreferrer">Revised PDF</a>; <a href="https://doi.org/10.1088/1361-6544/ae456a" target="_blank" rel="noreferrer">Journal</a>.</li>
+      <li id="research-ref-12"><strong>[R12]</strong> R. Killip, S. Kwon, S. Shao, and M. Vişan, <em>On the mass-critical generalized KdV equation</em>, DCDS 32 (2012), 191–221, Introduction, Conjecture 1.4. <a href="https://arxiv.org/pdf/0907.5412" target="_blank" rel="noreferrer">PDF</a>.</li>
+      <li id="research-ref-13"><strong>[R13]</strong> B. Dodson and C. Gavrus, <em>Instability of the soliton for the focusing, mass-critical generalized KdV equation</em>, Introduction, Conjecture 1.2. <a href="https://arxiv.org/pdf/2012.00929" target="_blank" rel="noreferrer">PDF</a>.</li>
+      <li id="research-ref-14"><strong>[R14]</strong> T. Tao, <em>Scattering for the quartic generalised Korteweg–de Vries equation</em>, J. Differential Equations 232 (2007), 623–651, Introduction and main results. <a href="https://arxiv.org/abs/math/0605357" target="_blank" rel="noreferrer">Article</a>.</li>
+      <li id="research-ref-15"><strong>[R15]</strong> H. Koch and J. L. Marzuola, <em>Small data scattering and soliton stability in Ḣ<sup>−1/6</sup> for the quartic KdV equation</em>, Introduction and main results. <a href="https://arxiv.org/abs/1001.4747" target="_blank" rel="noreferrer">Article</a>.</li>
+      <li id="research-ref-16"><strong>[R16]</strong> Y. Martel and F. Merle, <em>Description of two soliton collision for the quartic gKdV equation</em>, Ann. Math. 174 (2011), 757–857. <a href="https://annals.math.princeton.edu/2011/174-2/p02" target="_blank" rel="noreferrer">Article</a>.</li>
+      <li id="research-ref-17"><strong>[R17]</strong> Y. Martel and F. Merle, <em>On the nonexistence of pure multi-solitons for the quartic gKdV equation</em>, IMRN (2015), 688–739, Introduction. <a href="https://arxiv.org/pdf/1409.7876" target="_blank" rel="noreferrer">PDF</a>.</li>
+      <li id="research-ref-18"><strong>[R18]</strong> Y. Martel and D. Pilod, <em>Continuum of finite point blowup rates for the critical generalized Korteweg-de Vries equation</em>, January 2026 preprint, Theorem 1.1 and §1.3. <a href="https://arxiv.org/pdf/2601.20801" target="_blank" rel="noreferrer">PDF</a>.</li>
+      <li id="research-ref-19"><strong>[R19]</strong> B. Dodson, <em>Global well-posedness and scattering for the defocusing, mass-critical generalized KdV equation</em>, Ann. PDE 3 (2017), article 5. <a href="https://arxiv.org/abs/1304.8025" target="_blank" rel="noreferrer">Article</a>.</li>
+      <li id="research-ref-20"><strong>[R20]</strong> T. Laurens, <em>Multisolitons are the unique constrained minimizers of the KdV conserved quantities</em>, Calc. Var. PDE 62 (2023), article 192. <a href="https://arxiv.org/abs/2206.09050" target="_blank" rel="noreferrer">Article</a>.</li>
+      </ol></section>
+    </section>
+
+    <section id="numerics" class="reading-section numerical-section" aria-labelledby="numerics-title"><h2 id="numerics-title">What the computation does</h2><div class="numerics-grid"><div><h3>Fourier evolution</h3><p>The solver uses a Fourier pseudospectral discretization and fourth-order exponential time differencing (ETDRK4). The linear dispersive part is integrated through its exact Fourier multiplier; the quadratic term uses the two-thirds dealiasing rule. The default step is Δt = 0.004, halved at high resolution.</p><p>Drawing is projected onto the retained Fourier modes. Additional smoothing suppresses unresolved corners. The evolved initial profile is the smoothed curve shown in gray.</p><a class="reference-link" href="https://people.maths.ox.ac.uk/trefethen/fourth-order.pdf" target="_blank" rel="noreferrer">Kassam &amp; Trefethen (2005): ETDRK4 ↗</a></div><div><h3>Domains and accuracy</h3><p>Periodic mode computes on [−40, 40). By default, real-line mode embeds a tapered profile in [−640, 640), with sixteen times as many grid points; only [−40, 40] is shown. Advanced settings offers box lengths 640, 1,280, 2,560, and 5,120 and time limits 20, 60, and 100. Grid spacing and time step are preserved when enlarging the box. This is a periodic-box approximation to a non-periodic problem, without absorbing boundaries.</p><p>The simulation pauses if appreciable L² mass reaches the outer buffer. This check cannot rule out all finite-box errors. Compare resolutions and conservation drift when judging a picture. Drift is reported as <span class="math">|I(t) − I(0)| / max(1, |I(0)|)</span>; conservation alone does not establish convergence.</p></div></div></section>
+  </main>
+  <footer><span>A personal mathematical visualization project.</span><a href="#title">Back to the top ↑</a></footer>
+<script>
+/* Fourier pseudospectral KdV solver; ETDRK4 with complex contour coefficients.
+   No external dependencies. The same module runs in the browser and Node. */
+(function (root) {
+  'use strict';
+  const TAU = 2 * Math.PI;
+  class FFT {
+    constructor(n) {
+      this.n = n;
+      this.rev = new Uint32Array(n);
+      const bits = Math.log2(n);
+      for (let i = 0; i < n; i++) {
+        let x = i, r = 0;
+        for (let j = 0; j < bits; j++) { r = (r << 1) | (x & 1); x >>>= 1; }
+        this.rev[i] = r;
+      }
+      this.cos = Float64Array.from({length: n / 2}, (_, j) => Math.cos(TAU * j / n));
+      this.sin = Float64Array.from({length: n / 2}, (_, j) => Math.sin(TAU * j / n));
+    }
+    transform(re, im, inverse = false) {
+      const n = this.n;
+      for (let i = 0; i < n; i++) {
+        const j = this.rev[i];
+        if (j > i) { [re[i], re[j]] = [re[j], re[i]]; [im[i], im[j]] = [im[j], im[i]]; }
+      }
+      for (let len = 2; len <= n; len *= 2) {
+        const half = len / 2, stride = n / len;
+        for (let start = 0; start < n; start += len) {
+          for (let j = 0; j < half; j++) {
+            const c = this.cos[j * stride], s = this.sin[j * stride] * (inverse ? 1 : -1);
+            const a = start + j, b = a + half;
+            const br = re[b] * c - im[b] * s, bi = re[b] * s + im[b] * c;
+            re[b] = re[a] - br; im[b] = im[a] - bi;
+            re[a] += br; im[a] += bi;
+          }
+        }
+      }
+      if (inverse) for (let i = 0; i < n; i++) { re[i] /= n; im[i] /= n; }
+      return re;
+    }
+  }
+  const mul = (a, b) => [a[0] * b[0] - a[1] * b[1], a[0] * b[1] + a[1] * b[0]];
+  const add = (a, b) => [a[0] + b[0], a[1] + b[1]];
+  const scale = (a, s) => [a[0] * s, a[1] * s];
+  const div = (a, b) => { const d = b[0] ** 2 + b[1] ** 2; return [(a[0] * b[0] + a[1] * b[1]) / d, (a[1] * b[0] - a[0] * b[1]) / d]; };
+  const exp = z => [Math.exp(z[0]) * Math.cos(z[1]), Math.exp(z[0]) * Math.sin(z[1])];
+  function coefficients(omega, h) {
+    const result = Array.from({length: 4}, () => [0, 0]);
+    for (let j = 0; j < 32; j++) {
+      const theta = TAU * (j + .5) / 32, z = [Math.cos(theta), h * omega + Math.sin(theta)];
+      const z2 = mul(z, z), z3 = mul(z2, z), ez = exp(z);
+      const q = div(add(exp(scale(z, .5)), [-1, 0]), z);
+      const f1 = div(add(add([-4, 0], scale(z, -1)), mul(ez, add(add([4, 0], scale(z, -3)), z2))), z3);
+      const f2 = div(add(add([2, 0], z), mul(ez, add([-2, 0], z))), z3);
+      const f3 = div(add(add(add([-4, 0], scale(z, -3)), scale(z2, -1)), mul(ez, add([4, 0], scale(z, -1)))), z3);
+      [q, f1, f2, f3].forEach((v, k) => { result[k][0] += h * v[0] / 32; result[k][1] += h * v[1] / 32; });
+    }
+    return result;
+  }
+  class KdVSolver {
+    constructor({n = 512, length = 80, dt = .004, initial}) {
+      this.n = n; this.length = length; this.dt = dt; this.time = 0;
+      this.fft = new FFT(n); this.k = new Float64Array(n);
+      this.r = new Float64Array(n); this.i = new Float64Array(n);
+      this.initialR = null; this.initialI = null;
+      this.e = new Float64Array(2 * n); this.e2 = new Float64Array(2 * n);
+      this.coef = Array.from({length: 4}, () => new Float64Array(2 * n));
+      this.work = Array.from({length: 8}, () => [new Float64Array(n), new Float64Array(n)]);
+      for (let j = 0; j < n; j++) {
+        const m = j <= n / 2 ? j : j - n;
+        this.k[j] = TAU * m / length;
+        const phase = dt * this.k[j] ** 3;
+        this.e[2*j] = Math.cos(phase); this.e[2*j+1] = Math.sin(phase);
+        this.e2[2*j] = Math.cos(phase/2); this.e2[2*j+1] = Math.sin(phase/2);
+        if (Math.abs(m) < n / 3) {
+          coefficients(this.k[j] ** 3, dt).forEach((v, p) => { this.coef[p][2*j] = v[0]; this.coef[p][2*j+1] = v[1]; });
+        }
+        this.r[j] = initial(-length / 2 + j * length / n);
+      }
+      this.fft.transform(this.r, this.i);
+      this.filter(this.r, this.i);
+      this.initialR = this.r.slice(); this.initialI = this.i.slice();
+    }
+    filter(r, i) {
+      for (let j = Math.ceil(this.n / 3); j <= this.n - Math.ceil(this.n / 3); j++) { r[j] = 0; i[j] = 0; }
+    }
+    nonlinear(r, i, out) {
+      const [a, b] = this.work[7]; a.set(r); b.set(i);
+      this.fft.transform(a, b, true);
+      for (let j = 0; j < this.n; j++) { a[j] *= a[j]; b[j] = 0; }
+      this.fft.transform(a, b);
+      for (let j = 0; j < this.n; j++) { out[0][j] = 3 * this.k[j] * b[j]; out[1][j] = -3 * this.k[j] * a[j]; }
+      this.filter(...out);
+    }
+    step(count = 1) {
+      const n = this.n, [nv, a, na, b, nb, c, nc] = this.work;
+      const [q, f1, f2, f3] = this.coef;
+      for (let s = 0; s < count; s++) {
+        this.nonlinear(this.r, this.i, nv);
+        for (let j = 0; j < n; j++) {
+          const p = 2*j, eR = this.e2[p], eI = this.e2[p+1];
+          a[0][j] = eR*this.r[j]-eI*this.i[j]+q[p]*nv[0][j]-q[p+1]*nv[1][j];
+          a[1][j] = eR*this.i[j]+eI*this.r[j]+q[p]*nv[1][j]+q[p+1]*nv[0][j];
+        }
+        this.nonlinear(...a, na);
+        for (let j = 0; j < n; j++) {
+          const p = 2*j, eR = this.e2[p], eI = this.e2[p+1];
+          b[0][j] = eR*this.r[j]-eI*this.i[j]+q[p]*na[0][j]-q[p+1]*na[1][j];
+          b[1][j] = eR*this.i[j]+eI*this.r[j]+q[p]*na[1][j]+q[p+1]*na[0][j];
+        }
+        this.nonlinear(...b, nb);
+        for (let j = 0; j < n; j++) {
+          const p = 2*j, eR = this.e2[p], eI = this.e2[p+1];
+          const vR = 2*nb[0][j]-nv[0][j], vI = 2*nb[1][j]-nv[1][j];
+          c[0][j] = eR*a[0][j]-eI*a[1][j]+q[p]*vR-q[p+1]*vI;
+          c[1][j] = eR*a[1][j]+eI*a[0][j]+q[p]*vI+q[p+1]*vR;
+        }
+        this.nonlinear(...c, nc);
+        for (let j = 0; j < n; j++) {
+          const p = 2*j, sumR = na[0][j]+nb[0][j], sumI = na[1][j]+nb[1][j];
+          const newR = this.e[p]*this.r[j]-this.e[p+1]*this.i[j] + f1[p]*nv[0][j]-f1[p+1]*nv[1][j] + 2*(f2[p]*sumR-f2[p+1]*sumI) + f3[p]*nc[0][j]-f3[p+1]*nc[1][j];
+          this.i[j] = this.e[p]*this.i[j]+this.e[p+1]*this.r[j] + f1[p]*nv[1][j]+f1[p+1]*nv[0][j] + 2*(f2[p]*sumI+f2[p+1]*sumR) + f3[p]*nc[1][j]+f3[p+1]*nc[0][j];
+          this.r[j] = newR;
+        }
+        this.time += this.dt;
+      }
+    }
+    values(linear = false) {
+      const r = (linear ? this.initialR : this.r).slice(), i = (linear ? this.initialI : this.i).slice();
+      if (linear) for (let j = 0; j < this.n; j++) {
+        const phase = this.time * this.k[j] ** 3, c = Math.cos(phase), s = Math.sin(phase), old = r[j];
+        r[j] = c * old - s * i[j]; i[j] = c * i[j] + s * old;
+      }
+      this.fft.transform(r, i, true); return r;
+    }
+    invariants() {
+      const u = this.values(), dr = new Float64Array(this.n), di = new Float64Array(this.n);
+      for (let j = 0; j < this.n; j++) { dr[j] = -this.k[j] * this.i[j]; di[j] = this.k[j] * this.r[j]; }
+      this.fft.transform(dr, di, true);
+      let mass = 0, l2 = 0, energy = 0, outer = 0, peak = 0;
+      for (let j = 0; j < this.n; j++) {
+        mass += u[j]; l2 += u[j] ** 2; energy += .5 * dr[j] ** 2 - u[j] ** 3;
+        peak = Math.max(peak, Math.abs(u[j]));
+        if (j < this.n / 16 || j > 15*this.n/16) outer += u[j] ** 2;
+      }
+      const dx = this.length / this.n;
+      return {mass: mass*dx, l2: l2*dx, energy: energy*dx, outerRatio: outer / Math.max(1e-20, l2), peak};
+    }
+  }
+  const sech2 = x => 1 / Math.cosh(x) ** 2;
+  function soliton(x, t = 0, c = 4, x0 = -18) { return c / 2 * sech2(Math.sqrt(c) / 2 * (x - c*t - x0)); }
+  function twoSoliton(x, t = 0) {
+    const a = 2*(x + 20 - 4*t), b = x + 7 - t;
+    const logs = [0, a, b, a+b+Math.log(1/9)], rates = [0, 2, 1, 3];
+    const max = Math.max(...logs), weights = logs.map(v => Math.exp(v-max)), total = weights.reduce((p,v) => p+v, 0);
+    let mean = 0, second = 0;
+    for (let j = 0; j < 4; j++) { mean += weights[j]*rates[j]/total; second += weights[j]*rates[j]**2/total; }
+    return Math.max(0, 2*(second-mean**2));
+  }
+  const api = {FFT, KdVSolver, soliton, twoSoliton};
+  if (typeof module !== 'undefined' && module.exports) module.exports = api;
+  else root.KdV = api;
+})(typeof globalThis !== 'undefined' ? globalThis : this);
+
+</script>
+<script>
+(function () {
+  'use strict';
+  const $ = id => document.getElementById(id);
+  const {KdVSolver, FFT, soliton, twoSoliton} = window.KdV;
+  const canvas = $('wave'), ctx = canvas.getContext('2d');
+  const history = $('history'), hctx = history.getContext('2d');
+  const VIEW = 80, ROWS = 360;
+  let endTime = 60;
+  const custom = new Float64Array(512);
+  let solver, initialValues, values, invariants, baseline;
+  let running = false, editing = false, stroking = false, lastPoint = null;
+  let debt = 0, previousFrame = 0, nextDiagnostic = .1, nextRow = 0;
+  let lastHistoryRow = -1, size = {width: 900, height: 300}, yMin = -2, yMax = 3;
+  const plot = () => ({left: 43, right: size.width-14, top: 14, bottom: size.height-31});
+  const notes = {
+    two:'Two exact solitons: the taller, faster wave overtakes the smaller one. Watch their shapes during the collision.',
+    single:'An exact real-line soliton with height 2 and speed 4, initially centered at x = −18.',
+    gaussian:'A broad positive bump, 2 exp(−((x + 12)/5)²). It steepens and develops a train of pulses and oscillations.',
+    negative:'A negative bump, −exp(−((x + 10)/4)²). Its dispersive oscillations spread predominantly to the left.',
+    packet:'An oscillatory packet, 0.7 cos(0.8x) exp(−((x + 5)/10)²). Compare it with linear Airy evolution.',
+    cosine:'A periodic profile, 0.6 cos(2πx/20). Four wavelengths fit into the circle of length 80.',
+    custom:'Your drawn profile. Strokes are smoothed to remove unresolved corners; the gray curve is the initial data actually evolved.'
+  };
+  function status(text, warning = false) { $('status').textContent = text; $('status').classList.toggle('warning', warning); }
+  function setRunning(value) {
+    running = value; debt = 0;
+    $('play-label').textContent = value ? 'Pause' : 'Play';
+    $('play-icon').textContent = value ? 'Ⅱ' : '▶';
+    $('play').setAttribute('aria-label', value ? 'Pause simulation' : 'Play simulation');
+  }
+  function taper(x) {
+    const a = Math.abs(x);
+    if (a <= 32) return 1;
+    if (a >= 40) return 0;
+    const z = (a-32)/8;
+    return 1-10*z**3+15*z**4-6*z**5;
+  }
+  function customAt(x) {
+    const f = (x+40)/80*custom.length;
+    const a = Math.floor(f), w = f-a;
+    return custom[((a % custom.length)+custom.length)%custom.length]*(1-w) + custom[((a+1)%custom.length+custom.length)%custom.length]*w;
+  }
+  function rawInitial(x) {
+    switch ($('preset').value) {
+      case 'two': return twoSoliton(x);
+      case 'single': return soliton(x);
+      case 'gaussian': return 2*Math.exp(-(((x+12)/5)**2));
+      case 'negative': return -Math.exp(-(((x+10)/4)**2));
+      case 'packet': return .7*Math.cos(.8*x)*Math.exp(-(((x+5)/10)**2));
+      case 'cosine': return .6*Math.cos(2*Math.PI*x/20);
+      case 'custom': return customAt(x);
+      default: return 0;
+    }
+  }
+  function initialAt(x) {
+    if ($('domain').value === 'line') return Math.abs(x) >= 40 ? 0 : rawInitial(x)*taper(x);
+    return rawInitial(x);
+  }
+  function rebuild(message) {
+    setRunning(false);
+    const line = $('domain').value === 'line', n = Number($('resolution').value);
+    const length = line ? Number($('box-length').value) : VIEW;
+    endTime = Number($('end-time').value);
+    $('box-length').disabled = !line;
+    if (line && $('preset').value === 'cosine') $('preset').value = 'packet';
+    $('preset').querySelector('[value="cosine"]').disabled = line;
+    solver = new KdVSolver({n: n*length/VIEW, length, dt: .004*512/n, initial:initialAt});
+    initialValues = solver.values(); values = initialValues.slice();
+    baseline = solver.invariants(); invariants = baseline;
+    nextDiagnostic = .1; nextRow = 0; lastHistoryRow = -1; yMin = -2; yMax = 3;
+    hctx.fillStyle = '#fbfcfd'; hctx.fillRect(0,0,history.width,history.height);
+    recordHistory();
+    $('preset-note').textContent = notes[$('preset').value];
+    $('domain-note').textContent = line
+      ? `Real-line approximation: the visible profile is tapered to zero near x = ±40 and embedded in a periodic box [−${length/2}, ${length/2}). Waves can leave this view. A larger box postpones boundary effects; the grid spacing stays the same. The outer buffer is monitored for wrap-around contamination.`
+      : 'The endpoints x = −40 and x = 40 are identified. A wave leaving one side returns on the other; the solitary-wave examples are periodized on this domain.';
+    $('history-middle').textContent = `t = ${endTime/2}`;
+    $('history-end').textContent = `t = ${endTime}`;
+    history.setAttribute('aria-label', `Space–time diagram with x from minus 40 to 40 horizontally and time from zero to ${endTime} increasing downwards; orange is positive and blue is negative.`);
+    $('simulation-caption').textContent = `The animation shows a numerical solution of KdV. Drawn profiles are smoothed before evolution. The selected time limit is t = ${endTime}; accuracy or outer-buffer checks may pause the simulation earlier. Waves can leave the displayed interval in real-line mode.`;
+    status(message || (editing ? 'Draw with a mouse or touch. Each stroke updates the initial profile. Press Play when ready.' : 'Ready. Press Play to evolve the selected profile.'));
+    updateDiagnostics(); render();
+  }
+  function visibleSamples(data, count = 512) {
+    const result = new Float64Array(count);
+    for (let j = 0; j < count; j++) {
+      const x = -40+j*80/(count-1), pos = (x+solver.length/2)/solver.length*solver.n;
+      const a = Math.floor(pos), w = pos-a;
+      result[j] = data[(a+solver.n)%solver.n]*(1-w) + data[(a+1+solver.n)%solver.n]*w;
+    }
+    return result;
+  }
+  function color(value) {
+    const base = [249,249,247], positive = [186,100,48], negative = [44,109,151];
+    const target = value >= 0 ? positive : negative, amount = Math.min(1, Math.abs(value)/2.2)**.7;
+    return base.map((c,j)=>Math.round(c+(target[j]-c)*amount));
+  }
+  function recordHistory() {
+    if (solver.time + 1e-9 < nextRow && solver.time < endTime-1e-8) return;
+    const row = Math.min(ROWS-1, Math.round(solver.time/endTime*(ROWS-1)));
+    const sample = visibleSamples(values, history.width), pixels = hctx.createImageData(history.width,1);
+    for (let j = 0; j < sample.length; j++) {
+      const rgb = color(sample[j]);
+      for (let k = 0; k < 3; k++) pixels.data[4*j+k] = rgb[k];
+      pixels.data[4*j+3] = 255;
+    }
+    for (let y = lastHistoryRow+1; y <= row; y++) hctx.putImageData(pixels,0,y);
+    lastHistoryRow = row; nextRow = solver.time + endTime/(ROWS-1);
+  }
+  function drift(v, start) { return Math.abs(v-start)/Math.max(1, Math.abs(start)); }
+  function updateDiagnostics() {
+    for (const key of ['mass','l2','energy']) {
+      $(key).textContent = Math.abs(invariants[key]) < 1e-9 ? '0.0000' : invariants[key].toFixed(4);
+      const d = drift(invariants[key],baseline[key])*100;
+      $(key+'-drift').textContent = `drift ${d < .0001 ? '< 0.0001' : d.toFixed(4)}%`;
+    }
+    $('clock').textContent = `t = ${solver.time.toFixed(2)}`;
+  }
+  function checkNumerics() {
+    invariants = solver.invariants(); updateDiagnostics();
+    if (!Number.isFinite(invariants.l2) || invariants.peak > 20 || drift(invariants.l2,baseline.l2) > .01) {
+      setRunning(false); status('Accuracy check: the profile is not sufficiently resolved. Use High resolution or draw a smoother, smaller profile, then reset.',true);
+      return false;
+    }
+    if ($('domain').value === 'line' && invariants.outerRatio > 1e-5) {
+      setRunning(false); status('Paused: a signal has reached the outer buffer. Choose a larger real-line box in Advanced settings, then restart. Later times in this box may have finite-box contamination.',true);
+      return false;
+    }
+    return true;
+  }
+  function advance(count) {
+    const allowed = Math.max(0,Math.round((endTime-solver.time)/solver.dt));
+    count = Math.min(count,allowed);
+    if (count <= 0) { setRunning(false); status(`Reached t = ${endTime}. Increase the time limit in Advanced settings, or Reset to run again.`); return; }
+    solver.step(count); values = solver.values(); recordHistory();
+    if (solver.time >= nextDiagnostic-1e-9) { checkNumerics(); nextDiagnostic = solver.time+.1; }
+    if (solver.time >= endTime-1e-8) { setRunning(false); if(checkNumerics()) status(`Reached t = ${endTime}. Increase the time limit in Advanced settings, or Reset to run again.`); }
+  }
+  function resize() {
+    const box = canvas.getBoundingClientRect(), dpr = Math.min(window.devicePixelRatio||1,2);
+    size = {width:box.width,height:box.height};
+    canvas.width = Math.round(box.width*dpr); canvas.height = Math.round(box.height*dpr);
+    ctx.setTransform(dpr,0,0,dpr,0,0); if (solver) render();
+  }
+  function render() {
+    if (!solver) return;
+    const {left,right,top,bottom} = plot(), width = right-left, height = bottom-top;
+    const raw = stroking ? Float64Array.from({length:512},(_,j)=>customAt(-40+j*80/511)*($('domain').value==='line'?taper(-40+j*80/511):1)) : visibleSamples(values,Math.max(512,Math.floor(width)));
+    if(!editing) for(const y of raw){if(y>yMax-.05)yMax=Math.ceil(y+.3);if(y<yMin+.05)yMin=Math.floor(y-.3);}
+    const xTo = x => left+(x+40)/80*width, yTo = y => bottom-(y-yMin)/(yMax-yMin)*height;
+    ctx.clearRect(0,0,size.width,size.height);
+    ctx.fillStyle = '#fff'; ctx.fillRect(left,top,width,height);
+    ctx.lineWidth = 1; ctx.strokeStyle = '#edf1f4'; ctx.font = '11px Arial';
+    ctx.fillStyle = '#7d8b96'; ctx.textAlign = 'right'; ctx.textBaseline = 'middle';
+    const tickStep = Math.max(1,Math.ceil((yMax-yMin)/7));
+    for (let y = Math.ceil(yMin/tickStep)*tickStep; y <= yMax; y+=tickStep) {
+      ctx.beginPath(); ctx.moveTo(left,yTo(y)); ctx.lineTo(right,yTo(y)); ctx.stroke();
+      ctx.fillText(String(y),left-10,yTo(y));
+    }
+    ctx.textAlign = 'center';
+    for (let x = -40; x <= 40; x+=10) {
+      ctx.beginPath(); ctx.moveTo(xTo(x),top); ctx.lineTo(xTo(x),bottom); ctx.stroke();
+      if (size.width > 430 || x%20 === 0) ctx.fillText(String(x),xTo(x),bottom+17);
+    }
+    ctx.strokeStyle = '#c1ccd5';ctx.beginPath();ctx.moveTo(left,yTo(0));ctx.lineTo(right,yTo(0));ctx.stroke();
+    ctx.fillStyle = '#788995'; ctx.textAlign = 'right'; ctx.fillText('x',right+10,bottom+17);
+    ctx.strokeStyle = '#d5dee5';ctx.strokeRect(left,top,width,height);
+    ctx.save();ctx.beginPath();ctx.rect(left,top,width,height);ctx.clip();
+    function path(sample) {
+      ctx.beginPath();
+      for (let j=0;j<sample.length;j++) { const x=left+j/(sample.length-1)*width,y=yTo(sample[j]); j===0?ctx.moveTo(x,y):ctx.lineTo(x,y); }
+    }
+    path(raw);ctx.lineTo(right,yTo(0));ctx.lineTo(left,yTo(0));ctx.closePath();ctx.fillStyle='rgba(49,112,149,.075)';ctx.fill();
+    if ($('initial').checked && !stroking) { path(visibleSamples(initialValues,Math.max(512,Math.floor(width))));ctx.setLineDash([5,5]);ctx.lineWidth=1.4;ctx.strokeStyle='#99a5b0';ctx.stroke();ctx.setLineDash([]); }
+    if ($('linear').checked && !stroking) { path(visibleSamples(solver.values(true),Math.max(512,Math.floor(width))));ctx.setLineDash([7,4]);ctx.lineWidth=1.6;ctx.strokeStyle='#b57832';ctx.stroke();ctx.setLineDash([]); }
+    path(raw);ctx.strokeStyle=editing?'#3c7e9c':'#286b91';ctx.lineWidth=2.35;ctx.lineJoin='round';ctx.stroke();ctx.restore();
+  }
+  function finishEditing() {
+    editing=false;stroking=false;lastPoint=null;
+    canvas.classList.remove('drawing');$('draw-badge').hidden=true;$('clear').hidden=true;
+    $('draw').textContent='Draw initial data';$('draw').setAttribute('aria-pressed','false');
+  }
+  function smoothCustom() {
+    const fft=new FFT(custom.length),r=custom.slice(),i=new Float64Array(custom.length);
+    fft.transform(r,i);
+    for(let j=0;j<r.length;j++){const m=Math.min(j,r.length-j),filter=Math.exp(-((m/65)**8));r[j]*=filter;i[j]*=filter;}
+    fft.transform(r,i,true);custom.set(r);
+  }
+  function point(event) {
+    const b=canvas.getBoundingClientRect(),p=plot(),px=event.clientX-b.left,py=event.clientY-b.top;
+    return {x:Math.max(-40,Math.min(40,-40+(px-p.left)/(p.right-p.left)*80)),y:Math.max(yMin,Math.min(yMax,yMin+(p.bottom-py)/(p.bottom-p.top)*(yMax-yMin))),inside:px>=p.left&&px<=p.right&&py>=p.top&&py<=p.bottom};
+  }
+  function applyStroke(p) {
+    const last=lastPoint||p,a=Math.max(0,Math.min(511,Math.round((last.x+40)/80*511))),b=Math.max(0,Math.min(511,Math.round((p.x+40)/80*511)));
+    for(let j=Math.min(a,b);j<=Math.max(a,b);j++){const f=a===b?1:(j-a)/(b-a);custom[j]=last.y+(p.y-last.y)*f;}
+    lastPoint=p;render();
+  }
+  canvas.addEventListener('pointerdown',event=>{if(!editing)return;const p=point(event);if(!p.inside)return;event.preventDefault();stroking=true;lastPoint=null;canvas.setPointerCapture(event.pointerId);applyStroke(p);});
+  canvas.addEventListener('pointermove',event=>{if(stroking){event.preventDefault();applyStroke(point(event));}});
+  function endStroke(){if(!stroking)return;stroking=false;lastPoint=null;smoothCustom();rebuild('Stroke applied and smoothed. Add another stroke, or press Play to evolve your profile.');}
+  canvas.addEventListener('pointerup',endStroke);canvas.addEventListener('pointercancel',endStroke);
+  $('play').addEventListener('click',()=>{
+    if(running){setRunning(false);status('Paused. Press Play to continue, Step to advance, or Reset to return to t = 0.');return;}
+    if(solver.time>=endTime-1e-8)rebuild();
+    finishEditing();if(!checkNumerics())return;
+    setRunning(true);status('Running. The curve is the evolving solution u(t,x); the gray profile stays at t = 0.');
+  });
+  $('step').addEventListener('click',()=>{setRunning(false);finishEditing();if(!checkNumerics())return;advance(Math.round(.1/solver.dt));if(solver.time<endTime-1e-8&&!$('status').classList.contains('warning'))status('Advanced by 0.1 time units. Press Play to continue.');updateDiagnostics();render();});
+  $('reset').addEventListener('click',()=>{rebuild();});
+  $('draw').setAttribute('aria-pressed','false');
+  $('draw').addEventListener('click',()=>{
+    if(editing){finishEditing();status('Initial profile ready. Press Play to evolve it.');render();return;}
+    setRunning(false);
+    if($('preset').value!=='custom')for(let j=0;j<custom.length;j++)custom[j]=rawInitial(-40+j*80/custom.length);
+    $('preset').querySelector('[value="custom"]').hidden=false;$('preset').value='custom';editing=true;
+    canvas.classList.add('drawing');$('draw-badge').hidden=false;$('clear').hidden=false;
+    $('draw').textContent='Finish drawing';$('draw').setAttribute('aria-pressed','true');rebuild();
+  });
+  $('clear').addEventListener('click',()=>{custom.fill(0);rebuild('Cleared to zero. Draw a new profile on the plot.');});
+  for(const id of ['preset','domain','resolution','box-length','end-time'])$(id).addEventListener('change',()=>{finishEditing();rebuild();});
+  $('initial').addEventListener('change',()=>{$('initial-key').hidden=!$('initial').checked;render();});
+  $('linear').addEventListener('change',()=>{$('linear-key').hidden=!$('linear').checked;render();});
+  $('show-history').addEventListener('change',()=>{$('history-section').hidden=!$('show-history').checked;});
+  document.querySelectorAll('[data-example]').forEach(button=>button.addEventListener('click',()=>{finishEditing();$('preset').value=button.dataset.example;rebuild();$('experiment').scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});}));
+  document.addEventListener('visibilitychange',()=>{previousFrame=0;debt=0;});
+  history.width=768;history.height=ROWS;
+  resize();rebuild();
+  new ResizeObserver(resize).observe(canvas);
+  function frame(now){
+    const elapsed=previousFrame?Math.min((now-previousFrame)/1000,.08):0;previousFrame=now;
+    if(running&&!document.hidden){
+      debt+=elapsed*Number($('speed').value)*.8;
+      const start=performance.now();
+      while(running&&debt>=solver.dt&&performance.now()-start<12){
+        const batch=Math.min(8,Math.floor(debt/solver.dt));debt-=batch*solver.dt;advance(batch);
+      }
+      debt=Math.min(debt,.3);$('clock').textContent=`t = ${solver.time.toFixed(2)}`;render();
+    }
+    requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+})();
+
+</script>
+</body>
+</html>
