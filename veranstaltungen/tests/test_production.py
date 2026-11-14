@@ -18,7 +18,7 @@ import karlsruhe
 import pdf_checks
 import update_calendar
 from prepare_pages import stage
-from build_github_bundle import build
+from build_github_bundle import build, workflow_path
 from sync_github_issues import BOT, contents, synchronize
 
 
@@ -300,7 +300,7 @@ class DeliveryTests(unittest.TestCase):
 
     def test_workflow_deploys_only_uploaded_validated_pages_with_minimal_permissions(self):
         import yaml
-        workflow = yaml.load((ROOT / '.github/workflows/calendar.yml').read_text(), Loader=yaml.BaseLoader)
+        workflow = yaml.load(workflow_path(ROOT).read_text(), Loader=yaml.BaseLoader)
         self.assertIn('schedule', workflow['on'])
         self.assertNotIn('paths', workflow['on']['push'])
         update = workflow['jobs']['update']
@@ -314,6 +314,33 @@ class DeliveryTests(unittest.TestCase):
         import re
         for step in update['steps'] + workflow['jobs']['deploy']['steps']:
             if 'uses' in step: self.assertRegex(step['uses'], r'@' + '[a-f0-9]{40}$')
+
+    def test_installed_github_layout_can_resolve_and_rebuild_its_bundle(self):
+        with tempfile.TemporaryDirectory() as folder:
+            folder = Path(folder)
+            initial = build(ROOT, folder / 'initial.zip')
+            repo = folder / 'repository'
+            with ZipFile(initial) as archive:
+                archive.extractall(repo)  # Archive just built from this trusted source.
+            project = repo / 'veranstaltungen'
+            self.assertEqual(workflow_path(project), repo / '.github/workflows/calendar.yml')
+            self.assertFalse((project / '.github').exists())
+            rebuilt = build(project, folder / 'rebuilt.zip')
+            with ZipFile(initial) as a, ZipFile(rebuilt) as b:
+                self.assertEqual(set(a.namelist()), set(b.namelist()))
+                for name in a.namelist(): self.assertEqual(a.read(name), b.read(name), name)
+
+    def test_missing_or_ambiguous_workflow_does_not_silently_package_wrong_file(self):
+        with tempfile.TemporaryDirectory() as folder:
+            project = Path(folder) / 'veranstaltungen'
+            project.mkdir()
+            with self.assertRaises(ValueError): workflow_path(project)
+            parent = project.parent / '.github/workflows/calendar.yml'
+            child = project / '.github/workflows/calendar.yml'
+            for path in (parent, child):
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text('name: calendar')
+            with self.assertRaises(ValueError): workflow_path(project)
 
 
 if __name__ == '__main__': unittest.main()
