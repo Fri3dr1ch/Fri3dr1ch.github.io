@@ -21,7 +21,9 @@ const dom=new JSDOM(html,{runScripts:'dangerously',url:'https://calendar.example
 const {document:d,Event}=dom.window,$=id=>d.getElementById(id);
 let checks=0;
 const test=(name,fn)=>{fn();checks++;console.log('OK',name);};
-const set=(id,value)=>{$(id).value=value;$(id).dispatchEvent(new Event(id==='search'?'input':'change'));};
+const inputs=id=>[...$(id).querySelectorAll('input[data-filter-option]')];
+const selectMany=(id,values)=>{for(const input of inputs(id))input.checked=values.includes(input.value);$(id).dispatchEvent(new Event('change',{bubbles:true}));};
+const set=(id,value)=>{if(id==='category'||id==='source-filter'){selectMany(id,inputs(id).filter(i=>!value||i.value===value||(value==='groetzingen'&&i.value.startsWith('groetzingen'))).map(i=>i.value));}else{$(id).value=value;$(id).dispatchEvent(new Event(id==='search'?'input':'change'));}};
 const dataset=JSON.parse($('event-data').textContent);
 const firstEvent=()=>d.querySelector('#agenda-events [data-event]');
 test('current embedded production data loads and renders independently of fixtures',()=>{
@@ -36,7 +38,8 @@ test('current embedded production data loads and renders independently of fixtur
 });
 test('all sources load and calendar renders',()=>{
  assert.equal(errors.length,0);assert.equal($('source-count').textContent,`${dataset.events.length} Termine · ${dataset.sources.length} Quellen`);
- assert.equal($('source-filter').options.length,dataset.sources.length+2);assert.ok(d.querySelectorAll('.day').length>=28);
+ assert.equal(inputs('source-filter').length,dataset.sources.length);assert.ok(inputs('source-filter').every(i=>i.checked));assert.ok(d.querySelectorAll('.day').length>=28);
+ assert.doesNotMatch(d.body.textContent,/Privater Entwurf|private Vorschau/);
 });
 test('combined Grötzingen filter includes merged RSS/PDF events',()=>{
  set('source-filter','groetzingen');
@@ -68,11 +71,10 @@ test('conflicting times are visible with both provenance links',()=>{
  assert.equal($('detail-note').hidden,false);assert.equal($('detail-source-links').children.length,2);
  assert.equal($('detail-ical').hidden,false);$('close-dialog').click();
 });
-test('unknown dates remain separate and have PDF links',()=>{
+test('obsolete undated candidates and past month hints are no longer shown',()=>{
  set('search','');set('category','');set('source-filter','groetzingen-jahresprogramm');
- assert.match($('undated-summary').textContent,/\(2\)/);assert.equal($('undated-list').children.length,2);
- assert.match($('undated-list').textContent,/18. Juni oder 4. Juli 2026/);
- assert.equal($('undated-list').querySelectorAll('a[href*=".pdf#page="]').length,2);
+ assert.equal($('undated-section').hidden,true);assert.equal($('undated-list').children.length,0);
+ assert.doesNotMatch($('undated-list').textContent,/Brennballturnier|Gleiszellen/);
 });
 test('half-year review date and source scope are displayed correctly',()=>{
  set('source-filter','');
@@ -136,13 +138,15 @@ test('organizer correction and new original domains work in details',()=>{
 });
 test('Pfinztal ambiguous rows have their own attribution and PDF page links',()=>{
  set('search','');set('source-filter','pfinztal-vereine');
- assert.equal($('undated-list').children.length,9);assert.match($('undated-list').textContent,/Pfinztal/);
- assert.match($('undated-list').textContent,/28.06.2025/);
- assert.equal($('undated-list').querySelectorAll('a[href*="pfinztal.de/"][href*="#page="]').length,9);
+ assert.equal($('undated-list').children.length,4);assert.match($('undated-list').textContent,/Pfinztal/);
+ assert.match($('undated-list').textContent,/15. November 2026 oder 22. November 2026/);
+ assert.match($('undated-list').textContent,/Termin offen · Kalenderausgabe 2026/);
+ assert.doesNotMatch($('undated-list').textContent,/28.06.2025|Zirkusprojekt|Unbenannter Eintrag/);
+ assert.equal($('undated-list').querySelectorAll('a[href*="pfinztal.de/"][href*="#page="]').length,4);
 });
 test('list view, search reset, and month navigation still work',()=>{
  set('source-filter','');set('search','zzzzzz-no-matching-event');
- d.querySelector('.empty-reset').click();assert.equal($('source-filter').value,'');
+ d.querySelector('.empty-reset').click();assert.ok(inputs('source-filter').every(i=>i.checked));assert.ok(inputs('category').every(i=>i.checked));
  $('list-view-button').click();assert.equal($('list-view').hidden,false);assert.equal($('month-view').hidden,true);
  assert.ok($('list-view').querySelectorAll('.event-row').length>0);
  $('month-view-button').click();const before=$('month-title').textContent;$('next-month').click();$('previous-month').click();assert.equal($('month-title').textContent,before);
@@ -182,5 +186,57 @@ test('BauSteinWelten remains an unchanged ongoing exhibition',()=>{
 });
 test('source HTML does not create executable event markup',()=>{
  assert.equal(d.querySelectorAll('script').length,2);assert.equal(d.querySelectorAll('[onclick],[onerror]').length,0);assert.equal(errors.length,0);
+});
+test('multiple sources and categories form unions within each filter and intersect across filters',()=>{
+ set('search','');selectMany('source-filter',['durlach','eki-groetzingen']);selectMany('category',['musik','stadtleben']);$('list-view-button').click();
+ const shown=[...d.querySelectorAll('#list-view [data-event]')].map(n=>dataset.events.find(e=>e.id===n.dataset.event));
+ const expected=dataset.events.filter(e=>!e.longRunning&&e.startDate<='2026-11-30'&&e.endDate>='2026-11-01'&&['musik','stadtleben'].includes(e.categoryKey)&&e.sources.some(s=>['durlach','eki-groetzingen'].includes(s.sourceId)));
+ assert.deepEqual(new Set(shown.map(e=>e.id)),new Set(expected.map(e=>e.id)));assert.ok(shown.length>0);
+ assert.equal($('source-summary').textContent,'2 Quellen ausgewählt');assert.equal($('category-summary').textContent,'2 Kategorien ausgewählt');
+ $('month-view-button').click();
+});
+test('no checked sources produces no events and reset restores all choices',()=>{
+ set('category','');selectMany('source-filter',[]);
+ assert.equal(d.querySelectorAll('#agenda-events [data-event],#ongoing-grid [data-event]').length,0);assert.equal($('undated-section').hidden,true);
+ assert.match($('coverage-note').textContent,/Keine Datenquellen ausgewählt/);
+ d.querySelector('.empty-reset').click();assert.ok(inputs('source-filter').every(i=>i.checked));assert.ok(inputs('category').every(i=>i.checked));
+ selectMany('category',[]);assert.equal(d.querySelectorAll('#agenda-events [data-event],#ongoing-grid [data-event]').length,0);d.querySelector('.empty-reset').click();
+});
+test('all/none buttons and Grötzingen group keep checkbox state synchronized',()=>{
+ $('source-options').querySelector('[data-selection="none"]').click();assert.equal(inputs('source-filter').filter(i=>i.checked).length,0);
+ const group=$('source-filter').querySelector('[data-source-group]');group.click();assert.equal(inputs('source-filter').filter(i=>i.checked).length,2);assert.equal(group.checked,true);
+ const one=inputs('source-filter').find(i=>i.value==='groetzingen-jahresprogramm');one.click();assert.equal(group.indeterminate,true);
+ $('source-options').querySelector('[data-selection="all"]').click();assert.ok(inputs('source-filter').every(i=>i.checked));assert.equal(group.indeterminate,false);
+ $('category-filter').querySelector('[data-selection="none"]').click();assert.equal(inputs('category').filter(i=>i.checked).length,0);
+ $('category-filter').querySelector('[data-selection="all"]').click();assert.ok(inputs('category').every(i=>i.checked));
+});
+test('a merged event is not duplicated when two of its sources are selected',()=>{
+ set('search','HWK');selectMany('source-filter',['karlsruhe','durlach']);set('category','');d.querySelector('[data-day="2026-11-14"]').click();
+ assert.equal(d.querySelectorAll('#agenda-events [data-event]').length,1);
+});
+test('filter panel closes with Escape and retains selected options',()=>{
+ const panel=$('source-options');panel.open=true;const choice=inputs('source-filter').find(i=>i.value==='karlsruhe');choice.focus();
+ choice.dispatchEvent(new dom.window.KeyboardEvent('keydown',{key:'Escape',bubbles:true}));
+ assert.equal(panel.open,false);assert.equal(d.activeElement,$('source-summary'));assert.equal(choice.checked,true);
+});
+test('uncertain periods expire after their final day in Berlin and retain unknown dates without a bound',()=>{
+ function loadAt(when,open=false){
+  const data=JSON.parse(JSON.stringify(scenario)),original=data.undatedEvents.find(e=>e.monthHint);
+  data.undatedEvents.push({...original,id:'future-month-hint',title:'Ausflug im Dezember',dateCandidates:[],monthHint:'2026-12',dateText:'Dezember'});
+  if(open)data.undatedEvents.push({...original,id:'unbounded-undated',title:'Termin ohne Zeitraum',dateCandidates:[],monthHint:null,dateText:'noch offen',sources:original.sources.map(({edition,...source})=>source)});
+  const documentHtml=liveHtml.replace(/(<script id="event-data" type="application\/json">)[\s\S]*?(<\/script><!-- \/event-data -->)/,(_,a,b)=>a+JSON.stringify(data).replace(/</g,'\\u003c')+b);
+  return new JSDOM(documentHtml,{runScripts:'dangerously',url:'file:///calendar/index.html',beforeParse(w){
+   dialogSupport(w);const Native=w.Date,fixed=Native.parse(when);w.Date=class extends Native{constructor(...args){super(...(args.length?args:[fixed]));}static now(){return fixed;}};
+  }});
+ }
+ const onLast=loadAt('2026-11-22T12:00:00Z');try{
+  const list=onLast.window.document.getElementById('undated-list');assert.match(list.textContent,/Herbstkonzert/);assert.match(list.textContent,/Zeitraum: Dezember 2026 · genauer Tag offen/);
+ }finally{onLast.window.close();}
+ const afterLast=loadAt('2026-11-23T12:00:00Z');try{
+  assert.doesNotMatch(afterLast.window.document.getElementById('undated-list').textContent,/Herbstkonzert|Schlachtfest/);
+ }finally{afterLast.window.close();}
+ const yearEnd=loadAt('2026-12-31T12:00:00Z');try{assert.match(yearEnd.window.document.getElementById('undated-list').textContent,/Blutspende|Ausflug im Dezember/);}finally{yearEnd.window.close();}
+ const nextYear=loadAt('2026-12-31T23:30:00Z');try{assert.equal(nextYear.window.document.getElementById('undated-section').hidden,true);}finally{nextYear.window.close();}
+ const unknown=loadAt('2026-12-31T23:30:00Z',true);try{assert.equal(unknown.window.document.getElementById('undated-list').children.length,1);assert.match(unknown.window.document.getElementById('undated-list').textContent,/Termin ohne Zeitraum/);}finally{unknown.window.close();}
 });
 dom.window.close();console.log(`${checks} DOM checks passed; native browser layout remains unverified.`);
