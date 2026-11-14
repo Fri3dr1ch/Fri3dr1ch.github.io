@@ -143,6 +143,17 @@ Die Pfinztaler Tabelle enthält auch widersprüchliche bzw. unbestimmte Angaben.
 Diese stehen getrennt mit Originalangabe, Grund und PDF-Seitenlink. Jahreszahlen
 und unklare Daten werden nicht stillschweigend korrigiert.
 
+Quellen und Kategorien lassen sich über Checkboxen mehrfach auswählen. Innerhalb
+einer Gruppe werden passende Termine gemeinsam angezeigt; zwischen Quellen,
+Kategorien und Suche müssen alle Bedingungen erfüllt sein. „Alle“ und „Keine“
+steuern die ganze Gruppe, der Grötzingen-Schalter die beiden PDF-Programme.
+
+Bei unbestimmten Terminen zeigt die Oberfläche belegte Alternativtage,
+Monatsangaben oder den Kontext der Kalenderausgabe. Ist der letzte mögliche Tag,
+Monat oder das betreffende Ausgabejahr abgelaufen, verschwindet der Eintrag aus
+dieser Liste. Unbekannte Zeiträume ohne solche Belege bleiben offen. Das gilt
+auch für die Offline-Kopie; die ursprünglichen Quelldaten bleiben nachvollziehbar.
+
 ## GitHub-Paket und Prüfungen
 
 ```sh
