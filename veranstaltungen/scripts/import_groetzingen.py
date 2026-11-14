@@ -30,6 +30,12 @@ RSS_IDENTITIES={
  'karlsruhe-83a0e947559c0fbc':'wolfgang-rempfer',
  'karlsruhe-ff8b300436144abe':'wolfgang-rempfer',
 }
+REVIEWED_RSS_IDENTITIES={
+ 'karlsruhe-155ac6eca1525f72':{
+   'identity':'mit-schwarzen-segeln-segelt-mein-schiff-claus-temps-und-heike-bleckmann',
+   'startDate':'2026-11-27','startTime':'20:00','title':'Mit schwarzen Segeln segelt mein Schiff',
+   'location':'Rathaus Grötzingen, Bürgersaal','reviewedOn':'2026-11-14'},
+}
 CATEGORIES={'stadtleben':'Stadtleben','musik':'Musik','literatur':'Literatur & Vorträge','ausstellungen':'Kunst & Ausstellungen','sportveranstaltung':'Sport'}
 
 def normalize(text):
@@ -124,7 +130,7 @@ def make_event(source,record,stamp,priority):
         'start':start_iso,'end':end_iso,'startDate':start,'endDate':end,
         'startTime':clock,'endTime':record.get('endTime'),'allDay':bool(record.get('allDay')),
         'timeKnown':bool(clock),'longRunning':bool(long_running),'scheduleNote':note,
-        'status':'scheduled','dataQuality':'reviewed-pdf','detailCheckedAt':stamp,
+        'status':'scheduled','dataQuality':'reviewed-pdf','detailCheckedAt':stamp,'organizer':record.get('organizer',''),
         'sources':[prov],'conflicts':[],'_identity':record['identity'],'_priority':priority,
     }
 
@@ -172,6 +178,9 @@ def build_dataset(base,snapshots,stamp,today):
             'recordId':original['id'],'reportedTitle':original['title'],'startDate':original['startDate'],'endDate':original['endDate'],
             'startTime':original.get('startTime'),'endTime':original.get('endTime'),'checkedAt':original.get('detailCheckedAt'),'priority':3}]
         event['_identity']=RSS_IDENTITIES.get(original['id'])
+        reviewed=REVIEWED_RSS_IDENTITIES.get(original['id'])
+        if reviewed and all((normalize(original.get(field,''))==normalize(reviewed[field]) if field in ('title','location') else original.get(field)==reviewed[field]) for field in ('startDate','startTime','title','location')):
+            event['_identity']=reviewed['identity']
         event['_priority']=3;event['conflicts']=[]
         events.append(event)
     for priority,source in enumerate(snapshots,1):

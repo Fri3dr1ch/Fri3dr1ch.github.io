@@ -30,6 +30,8 @@ SOURCES={
             'url':'https://www.kulturhalle-remchingen.de/events/'},
  'eki-groetzingen':{'id':'eki-groetzingen','name':'Evangelische Kirche Grötzingen','region':'Grötzingen',
             'url':'https://eki-groetzingen.de/terminkalender/'},
+ 'walzbachtal':{'id':'walzbachtal','name':'Walzbachtal · Jöhlingen und Wössingen','region':'Walzbachtal',
+            'url':'https://www.walzbachtal.de/veranstaltung'},
  'pfinztal-haus-begegnungen':{'id':'pfinztal-haus-begegnungen','name':'Pfinztal · Haus der Begegnungen','region':'Pfinztal-Söllingen',
             'url':'https://pfinztal.de/familie-soziales/familien/haus-der-begegnungen/'},
  'naturfreunde-berghausen':{'id':'naturfreunde-berghausen','name':'NaturFreunde Berghausen','region':'Pfinztal-Berghausen',
@@ -190,6 +192,9 @@ def fetch_source(source_id,stamp,fetch=download,root=ROOT):
             records,extra=fetch_kulturhalle(fetch)
         elif source_id=='eki-groetzingen':
             from eki_calendar import fetch_records
+            records,extra=fetch_records(fetch)
+        elif source_id=='walzbachtal':
+            from walzbachtal import fetch_records
             records,extra=fetch_records(fetch)
         elif source_id=='pfinztal-vereine':
             from pfinztal_pdf import fetch_records

@@ -9,11 +9,50 @@ from zoneinfo import ZoneInfo
 
 LOCAL_SOURCE_IDS=('durlach','weingarten','pfinztal','pfinztal-vereine','remchingen',
                   'kulturhalle-remchingen','eki-groetzingen','pfinztal-haus-begegnungen',
-                  'naturfreunde-berghausen','naturfreunde-soellingen','naturfreunde-groetzingen')
+                  'naturfreunde-berghausen','naturfreunde-soellingen','naturfreunde-groetzingen','walzbachtal')
 
 def normalized(text):
-    text=unicodedata.normalize('NFKD',text or '').encode('ascii','ignore').decode().lower()
+    text=unicodedata.normalize('NFKD',(text or '').replace('ß','ss')).encode('ascii','ignore').decode().lower()
     return re.sub(r'[^a-z0-9]+',' ',text).strip()
+
+
+GENERIC_VENUES={'hasenheim','gemeindehaus','evang gemeindehaus','evangelisches gemeindehaus','naturfreundehaus',
+                'clubhaus','kirche','sporthalle','turnhalle','kulturhalle','friedhof','friedhofskapelle','pfarrsaal','sangerheim','burgersaal'}
+
+
+def is_duplicate(a,b):
+    """Automatic matches require positive evidence; similarity alone never merges."""
+    if {s['sourceId'] for s in a['sources']} & {s['sourceId'] for s in b['sources']}:return False
+    if not a.get('startTime') or a.get('startTime')!=b.get('startTime'):return False
+    if a['startDate']!=b['startDate'] or a['endDate']!=b['endDate']:return False
+    if a.get('endTime') and b.get('endTime') and a['endTime']!=b['endTime']:return False
+    if normalized(a['title'].replace('&',' und '))!=normalized(b['title'].replace('&',' und ')):return False
+    aliases={'karlsburg stadtbibliothek pfinztalstrasse 9 76227 karlsruhe':'bibliothek durlach',
+             'stadtbibliothek karlsruhe stadtteilbibliothek durlach':'bibliothek durlach'}
+    va=aliases.get(normalized(a.get('location')),normalized(a.get('location')))
+    vb=aliases.get(normalized(b.get('location')),normalized(b.get('location')))
+    if not va or sorted(va.split())!=sorted(vb.split()):return False
+    if va in GENERIC_VENUES or vb in GENERIC_VENUES:
+        scope=lambda e:normalized(e.get('region')).removesuffix(' und umgebung')
+        if not scope(a) or scope(a)!=scope(b):return False
+    oa,ob=normalized(a.get('organizer')),normalized(b.get('organizer'))
+    if oa and ob and oa!=ob:return False
+    if any(s['sourceId']=='pfinztal-vereine' for e in (a,b) for s in e['sources']) and (not oa or oa!=ob):return False
+    return True
+
+
+def reviewed_match_valid(rule,target,incoming):
+    if target['startDate']!=incoming['startDate'] or target['endDate']!=incoming['endDate']:return False
+    titles={normalized(s.get('reportedTitle') or s.get('title')) for s in target['sources']}|{normalized(target['title'])}
+    if rule.get('targetTitle') and normalized(rule['targetTitle']) not in titles:return False
+    if rule.get('reportedTitle') and normalized(rule['reportedTitle'])!=normalized(incoming['title']):return False
+    for prefix,event in (('target',target),('reported',incoming)):
+        for field in ('StartTime','Location'):
+            key=prefix+field
+            if key in rule:
+                actual=event.get(field[0].lower()+field[1:])
+                if (normalized(actual) if field=='Location' else actual)!=(normalized(rule[key]) if field=='Location' else rule[key]):return False
+    return True
 
 def saved_sources(root):
     rules_path=root/'data/reviewed-overlaps.json'
@@ -37,21 +76,6 @@ def combine_local_sources(data,snapshots):
     # publishers disagree on its start time. Preserve both reported times.
     reviewed_matches={('durlach','12042','2026-11-12'):'karlsruhe-36a6e4e681588441',
                       ('durlach','12041','2026-11-18'):'karlsruhe-26f1d703c8e58795'}
-    venue_aliases={
-        'karlsburg stadtbibliothek pfinztalstrae 9 76227 karlsruhe':'bibliothek durlach',
-        'stadtbibliothek karlsruhe stadtteilbibliothek durlach':'bibliothek durlach',
-    }
-    def venue(e):
-        v=normalized(e.get('location'))
-        return venue_aliases.get(v,v)
-    def duplicate(a,b):
-        if {s['sourceId'] for s in a['sources']} & {s['sourceId'] for s in b['sources']}:return False
-        if any(e.get('sourceId')=='pfinztal-vereine' for e in (a,b)):
-            if not a.get('organizer') or normalized(a.get('organizer'))!=normalized(b.get('organizer')):return False
-        return (normalized(a['title'])==normalized(b['title']) and
-                a['startDate']==b['startDate'] and a['endDate']==b['endDate'] and
-                a.get('startTime')==b.get('startTime') and
-                bool(venue(a)) and venue(a)==venue(b))
     for snapshot in snapshots:
         result['sources'].append(deepcopy(snapshot['source']))
         if snapshot['source']['id']=='naturfreunde-groetzingen':
@@ -74,10 +98,13 @@ def combine_local_sources(data,snapshots):
             reviewed=reviewed_matches.get((prov['sourceId'],prov['recordId'],event['startDate']))
             rule=next((r for r in snapshot.get('reviewedMatches',[]) if r['recordId']==prov['recordId'] and r['startDate']==event['startDate']),None)
             if rule:reviewed=rule['targetId']
+            if rule and reviewed in by_id and not reviewed_match_valid(rule,by_id[reviewed],event):
+                rule=None;reviewed=None
+            if reviewed in by_id and not rule and by_id[reviewed]['startDate']!=event['startDate']:reviewed=None
             if daily_pair and prov['recordId'] in ('12081','12082'):
                 reviewed='karlsruhe-8e0b2415d47b375e'
                 prov['coverageRelation']='daily-opening'
-            candidates=([by_id[reviewed]] if reviewed in by_id else []) if reviewed else [e for e in by_day[event['startDate']] if duplicate(e,event)]
+            candidates=([by_id[reviewed]] if reviewed in by_id else []) if reviewed else [e for e in by_day[event['startDate']] if is_duplicate(e,event)]
             if len(candidates)!=1:
                 events.append(event);by_id[event['id']]=event;by_day[event['startDate']].append(event);continue
             winner=candidates[0]
