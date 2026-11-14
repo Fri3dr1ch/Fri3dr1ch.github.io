@@ -5,8 +5,8 @@
     "region": "Pfinztal-Söllingen",
     "url": "https://www.naturfreunde-soellingen.de/kalender/",
     "status": "ok",
-    "lastAttemptAt": "2026-11-14T19:50:29+00:00",
-    "lastSuccessAt": "2026-11-14T19:50:29+00:00",
+    "lastAttemptAt": "2026-11-14T22:30:01+00:00",
+    "lastSuccessAt": "2026-11-14T22:30:01+00:00",
     "refreshHours": 24,
     "recordCount": 55,
     "eventCount": 55,
@@ -53,7 +53,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -68,7 +68,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -103,7 +103,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -118,7 +118,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -153,7 +153,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -168,7 +168,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -203,7 +203,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -218,7 +218,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -253,7 +253,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -268,7 +268,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -303,7 +303,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -318,7 +318,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -353,7 +353,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -368,7 +368,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -403,7 +403,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -418,7 +418,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -453,7 +453,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -468,7 +468,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -503,7 +503,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -518,7 +518,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -553,7 +553,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -568,7 +568,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -603,7 +603,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -618,7 +618,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -653,7 +653,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -668,7 +668,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -703,7 +703,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -718,7 +718,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -753,7 +753,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -768,7 +768,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -803,7 +803,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -818,7 +818,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -853,7 +853,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -868,7 +868,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -903,7 +903,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -918,7 +918,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -953,7 +953,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -968,7 +968,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -1003,7 +1003,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -1018,7 +1018,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -1053,7 +1053,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -1068,7 +1068,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -1103,7 +1103,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -1118,7 +1118,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -1153,7 +1153,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -1168,7 +1168,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -1203,7 +1203,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -1218,7 +1218,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -1253,7 +1253,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -1268,7 +1268,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -1303,7 +1303,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -1318,7 +1318,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -1353,7 +1353,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -1368,7 +1368,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -1403,7 +1403,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -1418,7 +1418,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -1453,7 +1453,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -1468,7 +1468,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -1503,7 +1503,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -1518,7 +1518,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -1553,7 +1553,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -1568,7 +1568,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -1603,7 +1603,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -1618,7 +1618,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -1653,7 +1653,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -1668,7 +1668,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -1703,7 +1703,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -1718,7 +1718,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -1753,7 +1753,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -1768,7 +1768,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -1803,7 +1803,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -1818,7 +1818,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -1853,7 +1853,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -1868,7 +1868,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -1903,7 +1903,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -1918,7 +1918,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -1953,7 +1953,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -1968,7 +1968,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -2003,7 +2003,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -2018,7 +2018,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -2053,7 +2053,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -2068,7 +2068,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -2103,7 +2103,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -2118,7 +2118,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -2153,7 +2153,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -2168,7 +2168,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -2203,7 +2203,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -2218,7 +2218,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -2253,7 +2253,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -2268,7 +2268,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -2303,7 +2303,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -2318,7 +2318,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -2353,7 +2353,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -2368,7 +2368,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -2403,7 +2403,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -2418,7 +2418,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -2453,7 +2453,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -2468,7 +2468,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -2503,7 +2503,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -2518,7 +2518,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -2553,7 +2553,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -2568,7 +2568,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -2603,7 +2603,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -2618,57 +2618,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Nordic Walking",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
-          "priority": 2
-        }
-      ],
-      "conflicts": []
-    },
-    {
-      "id": "naturfreunde-soellingen-d9a690cc188dd73f5e93bf2a-2026-12-09-1400",
-      "sourceId": "naturfreunde-soellingen",
-      "sourceName": "NaturFreunde Söllingen",
-      "title": "Wander- und Rentnertreff",
-      "url": "https://www.naturfreunde-soellingen.de/kalender/",
-      "icalUrl": "https://calendar.google.com/calendar/ical/natureloverssoellingen%40gmail.com/public/basic.ics",
-      "region": "Pfinztal-Söllingen",
-      "city": null,
-      "categoryKey": "sportveranstaltung",
-      "category": "Sport",
-      "description": "Veranstalter: NaturFreunde Söllingen",
-      "organizer": "NaturFreunde Söllingen",
-      "location": "",
-      "start": "2026-12-09T14:00:00+01:00",
-      "end": "2026-12-09T18:00:00+01:00",
-      "startDate": "2026-12-09",
-      "endDate": "2026-12-09",
-      "startTime": "14:00",
-      "endTime": "18:00",
-      "timeKnown": true,
-      "allDay": false,
-      "longRunning": false,
-      "scheduleNote": "",
-      "openingSchedule": null,
-      "openingOccurrences": null,
-      "status": "scheduled",
-      "dataQuality": "ical-calendar",
-      "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
-      "sources": [
-        {
-          "url": "https://www.naturfreunde-soellingen.de/kalender/",
-          "recordId": "d9a690cc188dd73f5e93bf2a",
-          "title": "Wander- und Rentnertreff",
-          "startDate": "2026-12-09",
-          "endDate": "2026-12-09",
-          "startTime": "14:00",
-          "endTime": "18:00",
-          "dateText": null,
-          "timeText": null,
-          "sourceId": "naturfreunde-soellingen",
-          "sourceName": "NaturFreunde Söllingen",
-          "reportedTitle": "Wander- und Rentnertreff",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -2703,7 +2653,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -2718,7 +2668,57 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Wander- und Rentnertreff",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
+          "priority": 2
+        }
+      ],
+      "conflicts": []
+    },
+    {
+      "id": "naturfreunde-soellingen-d9a690cc188dd73f5e93bf2a-2026-12-09-1400",
+      "sourceId": "naturfreunde-soellingen",
+      "sourceName": "NaturFreunde Söllingen",
+      "title": "Wander- und Rentnertreff",
+      "url": "https://www.naturfreunde-soellingen.de/kalender/",
+      "icalUrl": "https://calendar.google.com/calendar/ical/natureloverssoellingen%40gmail.com/public/basic.ics",
+      "region": "Pfinztal-Söllingen",
+      "city": null,
+      "categoryKey": "sportveranstaltung",
+      "category": "Sport",
+      "description": "Veranstalter: NaturFreunde Söllingen",
+      "organizer": "NaturFreunde Söllingen",
+      "location": "",
+      "start": "2026-12-09T14:00:00+01:00",
+      "end": "2026-12-09T18:00:00+01:00",
+      "startDate": "2026-12-09",
+      "endDate": "2026-12-09",
+      "startTime": "14:00",
+      "endTime": "18:00",
+      "timeKnown": true,
+      "allDay": false,
+      "longRunning": false,
+      "scheduleNote": "",
+      "openingSchedule": null,
+      "openingOccurrences": null,
+      "status": "scheduled",
+      "dataQuality": "ical-calendar",
+      "availability": null,
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
+      "sources": [
+        {
+          "url": "https://www.naturfreunde-soellingen.de/kalender/",
+          "recordId": "d9a690cc188dd73f5e93bf2a",
+          "title": "Wander- und Rentnertreff",
+          "startDate": "2026-12-09",
+          "endDate": "2026-12-09",
+          "startTime": "14:00",
+          "endTime": "18:00",
+          "dateText": null,
+          "timeText": null,
+          "sourceId": "naturfreunde-soellingen",
+          "sourceName": "NaturFreunde Söllingen",
+          "reportedTitle": "Wander- und Rentnertreff",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
@@ -2994,7 +2994,7 @@
       "status": "scheduled",
       "dataQuality": "ical-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T19:50:29+00:00",
+      "detailCheckedAt": "2026-11-14T22:30:01+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-soellingen.de/kalender/",
@@ -3009,7 +3009,7 @@
           "sourceId": "naturfreunde-soellingen",
           "sourceName": "NaturFreunde Söllingen",
           "reportedTitle": "Naturfreundehaus Söllingen · Hausöffnung",
-          "checkedAt": "2026-11-14T19:50:29+00:00",
+          "checkedAt": "2026-11-14T22:30:01+00:00",
           "priority": 2
         }
       ],
