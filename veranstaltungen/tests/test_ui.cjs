@@ -112,7 +112,7 @@ test('checked two-day market shows both daily opening hours',()=>{
 });
 test('all added source filters retain merged provenance and correct scope',()=>{
  set('search','');set('category','');
- for(const sourceId of ['pfinztal','pfinztal-vereine','remchingen','kulturhalle-remchingen','eki-groetzingen','pfinztal-haus-begegnungen']){
+ for(const sourceId of ['pfinztal','pfinztal-vereine','remchingen','kulturhalle-remchingen','eki-groetzingen','walzbachtal','pfinztal-haus-begegnungen']){
   set('source-filter',sourceId);
   for(const node of d.querySelectorAll('[data-event]')){
    const e=dataset.events.find(e=>e.id===node.dataset.event);
@@ -186,6 +186,23 @@ test('BauSteinWelten remains an unchanged ongoing exhibition',()=>{
 });
 test('source HTML does not create executable event markup',()=>{
  assert.equal(d.querySelectorAll('script').length,2);assert.equal(d.querySelectorAll('[onclick],[onerror]').length,0);assert.equal(errors.length,0);
+});
+test('Walzbachtal includes Jöhlingen and exposes its original calendar link',()=>{
+ set('search','');set('category','');set('source-filter','walzbachtal');d.querySelector('[data-day="2026-11-15"]').click();firstEvent().click();
+ assert.match($('detail-title').textContent,/Gemeinschaftskonzert/);assert.match($('detail-location').textContent,/Jöhlingen/);
+ assert.equal(new URL($('detail-original').href).hostname,'www.walzbachtal.de');assert.equal($('detail-original').hidden,false);assert.match($('detail-time').textContent,/17:00–19:00/);$('close-dialog').click();
+});
+test('generic venues in different towns remain distinguishable on the same day',()=>{
+ set('search','Lokalschau');set('category','');selectMany('source-filter',['groetzingen-jahresprogramm','pfinztal-vereine']);d.querySelector('[data-day="2026-11-15"]').click();
+ const rows=[...d.querySelectorAll('#agenda-events [data-event]')];assert.equal(rows.length,2);
+ assert.ok(rows.some(r=>r.querySelector('.event-meta').textContent.includes('Hasenheim · Grötzingen')));
+ assert.ok(rows.some(r=>r.querySelector('.event-meta').textContent.includes('Hasenheim · Pfinztal-Wöschbach')));
+});
+test('performances with different source start times stay distinct and show their times',()=>{
+ set('source-filter','karlsruhe');set('category','');set('search','Elternabend');$('more-ongoing').hidden||$('more-ongoing').click();
+ const cards=[...d.querySelectorAll('#ongoing-grid [data-event]')];assert.equal(cards.length,2);
+ assert.ok(cards.some(c=>c.textContent.includes('14:30')));assert.ok(cards.some(c=>c.textContent.includes('19:00')));
+ cards[0].click();assert.match($('detail-time').textContent,/Beginn laut Quelle/);$('close-dialog').click();set('search','');
 });
 test('multiple sources and categories form unions within each filter and intersect across filters',()=>{
  set('search','');selectMany('source-filter',['durlach','eki-groetzingen']);selectMany('category',['musik','stadtleben']);$('list-view-button').click();

@@ -1,6 +1,6 @@
 # Veranstaltungskalender Karlsruhe und Umgebung
 
-Statischer Kalender aus 14 getrennt nachvollziehbaren Quellen. Der gemeinsame
+Statischer Kalender aus 15 getrennt nachvollziehbaren Quellen. Der gemeinsame
 Produktionsaufruf aktualisiert RSS/iCalendar, regionale Kalender und die
 Änderungsprüfungen der manuell kontrollierten Grötzinger Quellen. Die
 GitHub-Übernahme und Aktivierung sind in [DEPLOYMENT.md](DEPLOYMENT.md) beschrieben.
@@ -36,7 +36,7 @@ python scripts/sync_github_issues.py --repo Fri3dr1ch/Fri3dr1ch.github.io --dry-
 
 `--source` akzeptiert alle IDs in `scripts/import_local_calendars.py` sowie
 `karlsruhe`, `pdfs` und `regional`. Ohne Option laufen alle Quellen.
-`--source regional` aktualisiert die elf regionalen Quellen und die beiden
+`--source regional` aktualisiert die zwölf regionalen Quellen und die beiden
 PDF-Änderungsprüfungen, falls Karlsruhe bereits separat aktualisiert wurde.
 Der bisherige Aufruf `import_local_calendars.py` delegiert an denselben Produktionsablauf.
 `--offline` setzt gespeicherte Daten zusammen und validiert sie; es bestätigt
@@ -56,6 +56,7 @@ keinen neuen Abruf und verschiebt keine Sichtprüfung.
 | Gemeinde Remchingen | Vollständige veröffentlichte Ergebnisliste einschließlich öffentlicher Ratstermine. |
 | Kulturhalle Remchingen | Programmliste mit Detailseiten. |
 | Evangelische Kirche Grötzingen | Alle ausdrücklich veröffentlichten Termine. |
+| Walzbachtal · Jöhlingen und Wössingen | Öffentlicher Kalenderabruf ab Monatsanfang mit vollständiger Seitenfolge und Ergebniszahl; alle ausdrücklich veröffentlichten Vorkommen. Der Ortsteil wird nur aus einer ausdrücklichen Ortsangabe übernommen. |
 | Pfinztal Haus der Begegnungen | Eigene EventON-Kategorie; bestätigte leere Antworten sind zulässig. |
 | NaturFreunde Berghausen | Aktuelle und nächste HTML-Jahresprogramme, Detailseiten und Verschiebungen. |
 | NaturFreunde Söllingen | Öffentlicher iCalendar-Export mit Wiederholungen, Ausnahmen und Einzeländerungen; zwölf Monate ab Monatsanfang. |
@@ -131,6 +132,23 @@ werden nur anhand dokumentierter Einzelentscheidungen verknüpft. Die geprüften
 Zuordnungen stehen in `data/reviewed-overlaps.json`; alle Belege und Zeitkonflikte
 bleiben sichtbar. Zwei Vorkommen derselben Quelle werden nicht allein wegen
 ähnlicher Metadaten verschmolzen.
+
+Die automatische Prüfung vereinheitlicht Schreibweise, Satzzeichen, „&/und“ und
+die Wortreihenfolge vollständig benannter Räume. Bekannte abweichende Uhrzeiten,
+Zeiträume oder Veranstalter verhindern eine automatische Zusammenführung.
+Bei allgemeinen Ortsnamen wie „Hasenheim“ muss auch der Ortskontext passen.
+Mehrere passende Kandidaten bleiben getrennt. Eine unscharfe Titelähnlichkeit
+allein entfernt niemals einen Termin.
+
+Die am 14.11.2026 zusätzlich geprüften Paare betreffen „Warum ein Papst die
+Rockmusik ersann“, „Wölfle, Wurst & Wein“, „Vorlesezeit mit Basteln in Durlach“,
+„Mit schwarzen Segeln segelt mein Schiff“ und „Nacht der Gitarren“. Für die
+zusätzlichen Verknüpfungen sind Titel, Datum, Beginn und Ort abgesichert; ändern
+sich die geprüften Angaben, werden die Meldungen wieder getrennt übernommen.
+Die zwei Lokalschauen am 15.11. in Grötzingen und Wöschbach sowie verschiedene
+Vorstellungszeiten von „Elternabend“ und „ABBA Waterloo im Bällebad“ bleiben
+ausdrücklich getrennt. Allgemeine Ortsnamen erhalten einen sichtbaren Ortskontext,
+laufende Angebote mit bekannter Uhrzeit zeigen ihren Quellenbeginn auf der Karte.
 
 Söllingens Hausöffnungen erscheinen als ein laufendes Angebot mit konkreten
 Öffnungstagen im ausgewählten Monat. Augustpause und bekannte Schließsonntage

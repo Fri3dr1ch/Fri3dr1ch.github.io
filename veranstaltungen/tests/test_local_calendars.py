@@ -119,6 +119,7 @@ class LocalCalendarTests(unittest.TestCase):
         self.assertEqual(len(combine_local_sources(empty,snapshots)['events']),2)
         # Positive control: otherwise identical reports at the same venue merge.
         b['location']=a['location']
+        b['region']=a['region']
         self.assertEqual(len(combine_local_sources(empty,snapshots)['events']),1)
 
     def test_unknown_time_is_not_claimed_to_be_all_day(self):

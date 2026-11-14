@@ -477,5 +477,77 @@
     "startDate": "2026-11-07",
     "targetId": "groetzingen-jahresprogramm-annual-2026-123",
     "reviewNote": "Gleicher Titel, Tag und Naturfreundehaus im Monatsprogramm und kommunalen Jahresplan. Die neue Quelle nennt keine Uhrzeit; vorhandene Zeit bleibt als Angabe des Jahresplans erhalten."
+  },
+  {
+    "sourceId": "durlach",
+    "recordId": "12092",
+    "startDate": "2026-11-19",
+    "targetId": "karlsruhe-13adfd4c93b2aadc",
+    "reportedTitle": "Donnerstagsreihe: Warum ein Papst die Rockmusik ersann (KonzertLesung)",
+    "targetTitle": "Warum ein Papst die Rockmusik ersann",
+    "reportedStartTime": "19:30",
+    "targetStartTime": "19:30",
+    "reportedLocation": "Orgelfabrik (OrgelFabrikSalon)",
+    "targetLocation": "OrgelFabrikSalon",
+    "reviewedOn": "2026-11-14",
+    "evidenceUrls": [
+      "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12092&tx_events2_events%5Btimestamp%5D=1795113000&cHash=5335169784daf835f3597b9396585d7d",
+      "https://kalender.karlsruhe.de/db/termine/musik/warum_ein_papst_die_rockmusik_ersann"
+    ],
+    "note": "Gleicher Besuchstermin, Beginn und konkreter Veranstaltungsort; Titel enthält abweichende Reihen-/Programmzusätze. Änderungen an den geprüften Angaben verhindern die Verknüpfung."
+  },
+  {
+    "sourceId": "durlach",
+    "recordId": "12040",
+    "startDate": "2026-11-26",
+    "targetId": "karlsruhe-5d63411234a1e4c2",
+    "reportedTitle": "Vorlesezeit mit Basteln",
+    "targetTitle": "VORLESEZEIT mit Basteln in Durlach",
+    "reportedStartTime": "16:00",
+    "targetStartTime": "16:00",
+    "reportedLocation": "Karlsburg (Stadtbibliothek) Pfinztalstraße 9 76227 Karlsruhe",
+    "targetLocation": "Stadtbibliothek Karlsruhe - Stadtteilbibliothek Durlach",
+    "reviewedOn": "2026-11-14",
+    "evidenceUrls": [
+      "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12040&tx_events2_events%5Btimestamp%5D=1795705200&cHash=a2bdb491427a8f8d3cc02d1c5135261c",
+      "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_mit_basteln_in_durlach"
+    ],
+    "note": "Gleicher Besuchstermin, Beginn und konkreter Veranstaltungsort; Titel enthält abweichende Reihen-/Programmzusätze. Änderungen an den geprüften Angaben verhindern die Verknüpfung."
+  },
+  {
+    "sourceId": "durlach",
+    "recordId": "12093",
+    "startDate": "2026-11-21",
+    "targetId": "karlsruhe-d659bb57ca404eb8",
+    "reportedTitle": "Benefizfest: „Wölfle, Wurst und Wein“",
+    "targetTitle": "Wölfle, Wurst & Wein",
+    "reportedStartTime": "16:00",
+    "targetStartTime": "16:00",
+    "reportedLocation": "Freibad Wolfartsweier (Wölfle)",
+    "targetLocation": "Freibad Wolfartsweier",
+    "reviewedOn": "2026-11-14",
+    "evidenceUrls": [
+      "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12093&tx_events2_events%5Btimestamp%5D=1795273200&cHash=0fb37030950d9226b8c683fd22105e9e",
+      "https://kalender.karlsruhe.de/db/termine/stadtleben/wolfle_wurst_wein"
+    ],
+    "note": "Gleicher Besuchstermin, Beginn und konkreter Veranstaltungsort; Titel enthält abweichende Reihen-/Programmzusätze. Änderungen an den geprüften Angaben verhindern die Verknüpfung."
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "ndg-2027",
+    "startDate": "2027-10-21",
+    "targetId": "remchingen-3413-2027-10-21-2000",
+    "reportedTitle": "NACHT DER GITARREN",
+    "targetTitle": "NACHT DER GITARREN - feat. Alexandr Misko, Matheus Donato, Pedro Jóia, Kaki King",
+    "reportedStartTime": "20:00",
+    "targetStartTime": "20:00",
+    "reportedLocation": "Kulturhalle Remchingen",
+    "targetLocation": "Kulturhalle Remchingen",
+    "reviewedOn": "2026-11-14",
+    "evidenceUrls": [
+      "https://www.kulturhalle-remchingen.de/events/konzerte/ndg-2027",
+      "https://www.remchingen.de/veranstaltungen/nacht-der-gitarren-feat-alexandr-misko-matheus-donato-pedro-joia-kaki-king-id_3413/"
+    ],
+    "note": "Gleicher Besuchstermin, Beginn und konkreter Veranstaltungsort; Titel enthält abweichende Reihen-/Programmzusätze. Änderungen an den geprüften Angaben verhindern die Verknüpfung."
   }
 ]
