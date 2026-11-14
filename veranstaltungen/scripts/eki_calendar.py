@@ -1,11 +1,11 @@
 """Read explicitly dated events from the public EKI Grötzingen HTML calendar.
 
-The current page contains the complete published upcoming list. Recurrences are
-never expanded by this importer: each imported record has an actual source row.
+Follow the source's advertised pages and verify their complete result ranges.
+Recurrences are never expanded: each imported record has an actual source row.
 """
 from datetime import datetime
 import re
-from urllib.parse import urljoin,urlsplit
+from urllib.parse import parse_qsl,urljoin,urlsplit,urlunsplit
 
 from lxml import html
 
@@ -22,7 +22,7 @@ def one(nodes,label):
     if len(nodes)!=1:raise ValueError('EKI '+label+': erwartete Kalenderstruktur fehlt oder ist mehrdeutig')
     return nodes[0]
 
-def parse_listing(raw):
+def parse_listing(raw, *, allow_pagination=False):
     tree=html.fromstring(raw.decode('utf-8') if isinstance(raw,bytes) else raw)
     boxes=tree.xpath('//div['+has_class('v-listefe-item')+']')
     if not boxes:raise ValueError('EKI: keine ausdrücklich datierten Termine gefunden')
@@ -55,19 +55,87 @@ def parse_listing(raw):
             'location':venue,'organizer':ORGANIZER,'dateText':date_text,
             'timeText':('–'.join(c for c in (match[2],match[3]) if c)+' Uhr') if match[2] else '',
             'scheduleNote':note})
-    # Empty pager is expected today. A future paginated version needs an adapter
-    # update rather than silently claiming that its first page is complete.
-    if tree.xpath('//*['+has_class('termine-pager')+']//a[@href]'):
+    # A caller reading a single page must not mistake it for a complete feed.
+    if not allow_pagination and tree.xpath('//*['+has_class('termine-pager')+']//a[@href]'):
         raise ValueError('EKI: Kalender besitzt neue Paginierung; Import bitte anpassen')
     ids=[(r['recordId'],r['startDate'],r['startTime']) for r in records]
     if len(ids)!=len(set(ids)):raise ValueError('EKI: mehrdeutige doppelte Termine')
     return records
 
+
+def pagination(raw):
+    tree=html.fromstring(raw.decode('utf-8') if isinstance(raw,bytes) else raw)
+    pagers=tree.xpath('//*['+has_class('termine-pager')+']')
+    if not pagers:return None
+    pager=one(pagers,'Paginierung')
+    links=pager.xpath('.//a[@href]')
+    info=pager.xpath('.//*['+has_class('inner-content-pager-info')+']')
+    if not links and not info:return None
+    label=text(one(info,'Paginierungsumfang'))
+    match=re.fullmatch(r'Ergebnisse (\d+)\s*[-–]\s*(\d+) von (\d+)',label)
+    if not match:raise ValueError('EKI: unbekannter Paginierungsumfang')
+    start,end,total=map(int,match.groups())
+    if not 1 <= start <= end <= total <= 10_000:
+        raise ValueError('EKI: ungültiger Paginierungsumfang')
+    pages={};keys=set();active=[]
+    origin=urlsplit(URL)
+    for link in links:
+        target=urlsplit(urljoin(URL,link.get('href')))
+        if (target.scheme,target.netloc,target.path)!=(origin.scheme,origin.netloc,origin.path):
+            raise ValueError('EKI: unerwartetes Paginierungsziel')
+        query=parse_qsl(target.query,keep_blank_values=True)
+        if len(query)!=1 or not re.fullmatch(r'pagerPage_[A-Za-z0-9]+',query[0][0]) or not re.fullmatch(r'[1-9]\d*',query[0][1]):
+            raise ValueError('EKI: unbekannte Paginierungsparameter')
+        key,value=query[0];number=int(value)
+        if number>100:raise ValueError('EKI: zu viele Ergebnisseiten')
+        keys.add(key)
+        pages[number]=urlunsplit((target.scheme,target.netloc,target.path,target.query,''))
+        if link.get('aria-current')=='page':active.append(number)
+    if links and (len(keys)!=1 or len(active)!=1):
+        raise ValueError('EKI: Paginierungskennung oder aktive Seite ist mehrdeutig')
+    if not links and (start!=1 or end!=total):
+        raise ValueError('EKI: unvollständige Liste ohne verlinkte Ergebnisseiten')
+    return {'start':start,'end':end,'total':total,'pages':pages,
+            'key':next(iter(keys),None),'current':active[0] if active else 1}
+
+
 def fetch_records(fetch):
-    records=parse_listing(fetch(URL))
-    metadata={'coverageKind':'html-list','pagesFetched':1,'refreshHours':24,
+    first=fetch(URL)
+    info=pagination(first)
+    first_records=parse_listing(first,allow_pagination=True)
+    pages={1:first_records}
+    if info:
+        size=info['end']
+        total=info['total']
+        count=(total+size-1)//size
+        if info['start']!=1 or info['current']!=1 or count>100:
+            raise ValueError('EKI: erste Ergebnisseite oder Seitenzahl ist ungültig')
+        pending={}
+        def inspect(page,number,records):
+            if (not page or page['total']!=total or page['key']!=info['key'] or page['current']!=number
+                    or page['start']!=(number-1)*size+1 or page['end']!=min(number*size,total)
+                    or len(records)!=page['end']-page['start']+1):
+                raise ValueError('EKI: Ergebnisumfang verändert oder Paginierung ignoriert')
+            for n,url in page['pages'].items():
+                if not 1<=n<=count:raise ValueError('EKI: verlinkte Seite liegt außerhalb des Ergebnisumfangs')
+                if n not in pages:pending[n]=url
+        inspect(info,1,first_records)
+        while pending:
+            number=min(pending)
+            raw=fetch(pending.pop(number))
+            records=parse_listing(raw,allow_pagination=True)
+            page=pagination(raw)
+            pages[number]=records
+            inspect(page,number,records)
+        if set(pages)!=set(range(1,count+1)):
+            raise ValueError('EKI: nicht alle Ergebnisseiten sind verlinkt oder erreichbar')
+    records=[record for number in sorted(pages) for record in pages[number]]
+    identities=[(r['recordId'],r['startDate'],r['startTime']) for r in records]
+    if len(identities)!=len(set(identities)):
+        raise ValueError('EKI: doppelte Termine über mehrere Ergebnisseiten')
+    metadata={'coverageKind':'html-list','pagesFetched':len(pages),'refreshHours':24,
         'coverageStart':min(r['startDate'] for r in records),
         'coverageEnd':max(r['endDate'] for r in records),
-        'coverageNote':'Alle ausdrücklich datierten Einträge der veröffentlichten Terminliste. Keine selbst erzeugten Wiederholungen; Orte nur soweit ausdrücklich erkennbar.',
+        'coverageNote':f'Alle {len(records)} ausdrücklich datierten Einträge von {len(pages)} veröffentlichten Ergebnisseiten. Keine selbst erzeugten Wiederholungen; Orte nur soweit ausdrücklich erkennbar.',
         'extractionMethod':'deterministic-html','llmRequired':False}
     return records,metadata
