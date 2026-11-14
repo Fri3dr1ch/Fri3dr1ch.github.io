@@ -1,8 +1,10 @@
 """Production failures, source-specific date semantics and GitHub hand-off."""
 from copy import deepcopy
+from contextlib import redirect_stderr
 from datetime import date
-from io import BytesIO
+from io import BytesIO, StringIO
 import json
+import os
 from pathlib import Path
 import sys
 import tempfile
@@ -258,11 +260,19 @@ class PDFAndPipelineTests(unittest.TestCase):
             (root / 'dist').mkdir()
             target = root / 'dist/events.json'
             target.write_text('{"seed":true}')
-            with patch.object(update_calendar, 'build_current', side_effect=ValueError('broken source')):
+            # Tests inherit the runner's GITHUB_STEP_SUMMARY. Route the expected
+            # failure into a private test file, never the real run summary.
+            summary = root / 'test-summary.md'
+            errors = StringIO()
+            with patch.object(update_calendar, 'build_current', side_effect=ValueError('broken source')), \
+                    patch.dict(os.environ, {'GITHUB_STEP_SUMMARY': str(summary)}), \
+                    redirect_stderr(errors):
                 code = update_calendar.main(['--root', str(root), '--offline'])
             self.assertEqual(code, 2)
             self.assertFalse(json.loads((root / '.etl/report.json').read_text())['validationPassed'])
             self.assertEqual(target.read_text(), '{"seed":true}')
+            self.assertIn('ValueError: broken source', summary.read_text())
+            self.assertIn('ValueError: broken source', errors.getvalue())
 
 
 class DeliveryTests(unittest.TestCase):
