@@ -5,8 +5,10 @@ copied; a missing venue or clock is never inferred from the publisher's name.
 """
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date,datetime
+import json
 import re
-from urllib.parse import urljoin,urlsplit,parse_qs
+from urllib.parse import urljoin,urlsplit,parse_qs,urlencode
+from uuid import uuid4
 from lxml import html
 
 REMCHINGEN='https://www.remchingen.de/veranstaltungen/'
@@ -58,18 +60,74 @@ def remchingen_listing(raw):
         pages.extend(int(n) for n in numbers if n.isdigit())
     return records,max(pages,default=1)
 
-def fetch_remchingen(fetch):
-    records,pages=remchingen_listing(fetch(REMCHINGEN))
+class RemchingenPaginationError(ValueError):
+    """The source's separately cached result pages do not form one complete list."""
+
+
+def remchingen_page_state(raw):
+    # Nuxt embeds the public result count and the request's page/size in its
+    # reference table. Read only those scalars, never execute source scripts.
+    scripts=doc(raw).xpath('//script[@id="__NUXT_DATA__"]/text()')
+    if not scripts:return None  # Older HTML exports have no hydration metadata.
+    try:
+        table=json.loads(one(scripts,'Remchingen: Seitenmetadaten'))
+        def resolve(index):
+            if type(index) is not int or not 0<=index<len(table):raise ValueError()
+            return table[index]
+        result=resolve(one([v['veranstaltungen'] for v in table if isinstance(v,dict)
+            and 'veranstaltungen' in v and 'filterVeranstaltungen' in v],'Remchingen: Ergebniszahl'))
+        request=one([v for v in table if isinstance(v,dict) and 'endpoint' in v
+            and resolve(v['endpoint'])=='/api/cms/veranstaltungen'],'Remchingen: Seitenabruf')
+        params=resolve(request['params'])
+        state={key:resolve(value) for key,value in {
+            'total':result['anzahl'],'pages':result['seiten'],
+            'page':params['seite'],'size':params['pro_seite']}.items()}
+        if any(type(v) not in (int,str) or not str(v).isdigit() for v in state.values()):raise ValueError()
+        state={k:int(v) for k,v in state.items()}
+        if min(state.values())<1 or state['pages']!=(state['total']+state['size']-1)//state['size']:raise ValueError()
+        return state
+    except (ValueError,KeyError,TypeError,IndexError) as exc:
+        raise ValueError('Remchingen: Ergebniszahl oder Seitenmetadaten nicht eindeutig') from exc
+
+
+def remchingen_snapshot(fetch,refresh_token=None):
+    def page_url(number):
+        if refresh_token is None:return REMCHINGEN if number==1 else REMCHINGEN+'?seite='+str(number)
+        return REMCHINGEN+'?'+urlencode({'seite':number,'_calendar_refresh':refresh_token})
+    raw=fetch(page_url(1));records,pages=remchingen_listing(raw)
+    state=remchingen_page_state(raw)
+    if state:pages=state['pages']
     if pages>100:raise ValueError('Remchingen: unerwartete Seitenzahl')
+    def checked_page(raw,number):
+        rows,_=remchingen_listing(raw);current=remchingen_page_state(raw)
+        if state:
+            if not current or current!={**state,'page':number}:
+                raise RemchingenPaginationError('Remchingen: Ergebniszahl oder Seitennummer während des Abrufs geändert')
+            expected=min(state['size'],state['total']-(number-1)*state['size'])
+            if len(rows)!=expected:
+                raise RemchingenPaginationError('Remchingen: unvollständige Ergebnisseite')
+        return rows
+    records=checked_page(raw,1)
     with ThreadPoolExecutor(max_workers=3) as pool:
-        rest=list(pool.map(fetch,[REMCHINGEN+'?seite='+str(n) for n in range(2,pages+1)]))
-    for raw in rest:records.extend(remchingen_listing(raw)[0])
+        rest=list(pool.map(fetch,[page_url(n) for n in range(2,pages+1)]))
+    for number,raw in enumerate(rest,2):records.extend(checked_page(raw,number))
     identities=[(r['recordId'],r['startDate'],r['startTime']) for r in records]
     if len(identities)!=len(set(identities)):
-        raise ValueError('Remchingen: Ergebnisseiten wiederholen dieselben Termine')
+        raise RemchingenPaginationError('Remchingen: Ergebnisseiten wiederholen dieselben Termine')
+    if state and len(records)!=state['total']:
+        raise RemchingenPaginationError('Remchingen: veröffentlichte Ergebniszahl nicht vollständig abgerufen')
     return records,{'coverageKind':'html-list','pagesFetched':pages,'refreshHours':24,
         'coverageNote':'Alle '+str(pages)+' veröffentlichten Ergebnisseiten des Gemeindekalenders, einschließlich öffentlicher Ratstermine.',
         'extractionMethod':'deterministic-html','llmRequired':False}
+
+
+def fetch_remchingen(fetch):
+    try:return remchingen_snapshot(fetch)
+    except RemchingenPaginationError:
+        # An event expiring can shift page boundaries while the CDN still
+        # serves older neighbouring pages. Retry the WHOLE list once with a
+        # shared fresh cache key; never repair it by dropping duplicate rows.
+        return remchingen_snapshot(fetch,uuid4().hex)
 
 def kulturhalle_listing(raw):
     tree=doc(raw);records=[]
