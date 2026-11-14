@@ -74,6 +74,12 @@ Zeit- und Größenlimits, begrenzte Parallelität und höchstens drei Versuche b
 vorübergehenden Netzwerkfehlern. Wiederholt ausfallende Hosts werden für den
 laufenden Prozess ausgesetzt. Es werden keine Zugangsdaten an Quellen gesendet.
 
+Bei Remchingen werden die veröffentlichte Ergebniszahl, Seitennummer und
+Seitengröße abgeglichen. Überschneidende oder unvollständige zwischengespeicherte
+Seiten lösen genau einen erneuten Abruf der gesamten Liste mit einem gemeinsamen
+frischen Cache-Schlüssel aus. Bleibt die Liste widersprüchlich, gilt weiterhin
+der letzte bestätigte Stand; doppelte Zeilen werden nicht einfach entfernt.
+
 Jede Quelle hat einen getrennten gespeicherten Stand. Ein Abruffehler erhält die
 zuletzt bestätigten Termine und deren erfolgreichen Abrufzeitpunkt; die Quelle
 wird als fehlerhaft markiert. Karlsruhe kann bei einzelnen fehlenden Details

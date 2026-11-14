@@ -1,4 +1,5 @@
 import json
+from copy import deepcopy
 from pathlib import Path
 import sys
 import unittest
@@ -7,9 +8,31 @@ ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
 import regional_calendars as regional
 import import_local_calendars as imp
+from urllib.parse import parse_qs,urlsplit
+from lxml import etree,html
 
 class RegionalTests(unittest.TestCase):
     def fixture(self,name):return (ROOT/'tests/fixtures'/name).read_bytes()
+
+    def remchingen_page(self,number,shifted=False,total=10,missing=False):
+        pages=[regional.doc(self.fixture(name)).xpath('//section') for name in
+               ('regional-remchingen.html','regional-remchingen-2.html')]
+        if shifted:
+            # An expired first event shifts every page boundary by one row.
+            extra=deepcopy(pages[1][-1]);anchor=extra.xpath('./a[h2]')[0]
+            anchor.set('href',anchor.get('href').replace('-id_3294/','-id_9999/'))
+            pages=[pages[0][1:]+pages[1][:1],pages[1][1:]+[extra]]
+        tree=html.Element('main')
+        for node in pages[number-1][:-1] if missing else pages[number-1]:tree.append(node)
+        anchor=etree.SubElement(tree,'a',href='/veranstaltungen/?seite=2');anchor.text='2'
+        # The same reference-table shape as the live public Nuxt metadata.
+        table=[{'veranstaltungen':1,'filterVeranstaltungen':2},
+               {'data':2,'anzahl':3,'seiten':4},[],total,2,
+               {'endpoint':6,'params':7},'/api/cms/veranstaltungen',
+               {'seite':8,'pro_seite':9},number,5]
+        script=etree.SubElement(tree,'script',id='__NUXT_DATA__',type='application/json')
+        script.text=json.dumps(table)
+        return html.tostring(tree,encoding='utf-8')
 
     def test_remchingen_uses_utf8_date_fields_and_preserves_sold_out(self):
         records,pages=regional.remchingen_listing(self.fixture('regional-remchingen.html'))
@@ -30,6 +53,55 @@ class RegionalTests(unittest.TestCase):
         self.assertEqual(len(records),10);self.assertEqual(metadata['pagesFetched'],2);self.assertEqual(len(seen),2)
         with self.assertRaisesRegex(ValueError,'wiederholen'):
             regional.fetch_remchingen(lambda url:self.fixture('regional-remchingen.html'))
+
+    def test_remchingen_retries_the_whole_list_when_cached_page_boundaries_overlap(self):
+        seen=[]
+        def fetch(url):
+            query=parse_qs(urlsplit(url).query);number=int(query.get('seite',['1'])[0])
+            seen.append(query)
+            # The first page has expired an event, while page 2 is still cached.
+            return self.remchingen_page(number,shifted=number==1 or '_calendar_refresh' in query)
+        records,metadata=regional.fetch_remchingen(fetch)
+        self.assertEqual(len(records),10);self.assertEqual(metadata['pagesFetched'],2)
+        self.assertEqual(len({r['recordId'] for r in records}),10)
+        self.assertIn('9999',{r['recordId'] for r in records})
+        self.assertEqual(len(seen),4)
+        self.assertNotIn('_calendar_refresh',seen[0]);self.assertNotIn('_calendar_refresh',seen[1])
+        self.assertEqual(seen[2]['_calendar_refresh'],seen[3]['_calendar_refresh'])
+        self.assertEqual([q['seite'] for q in seen[2:]],[['1'],['2']])
+
+    def test_remchingen_retries_changed_totals_even_without_duplicate_rows(self):
+        seen=[]
+        def fetch(url):
+            query=parse_qs(urlsplit(url).query);number=int(query.get('seite',['1'])[0]);seen.append(query)
+            return self.remchingen_page(number,total=9 if number==2 and '_calendar_refresh' not in query else 10)
+        records,_=regional.fetch_remchingen(fetch)
+        self.assertEqual(len(records),10);self.assertEqual(len(seen),4)
+
+    def test_remchingen_persistent_gaps_keep_the_last_valid_snapshot(self):
+        records=regional.remchingen_listing(self.remchingen_page(1))[0]+regional.remchingen_listing(self.remchingen_page(2))[0]
+        previous=imp.snapshot_from_records(imp.SOURCES['remchingen'],records,'2026-11-14T15:00:00Z')
+        seen=[]
+        def fetch(url):
+            query=parse_qs(urlsplit(url).query);number=int(query.get('seite',['1'])[0]);seen.append(query)
+            return self.remchingen_page(number,missing=number==2)
+        retained,error=imp.refresh('remchingen','2026-11-14T20:00:00Z',previous,fetch)
+        self.assertIn('unvollständige Ergebnisseite',error);self.assertEqual(len(seen),4)
+        self.assertEqual(retained['source']['status'],'error')
+        self.assertEqual(retained['source']['lastSuccessAt'],previous['source']['lastSuccessAt'])
+        self.assertEqual(retained['events'],previous['events'])
+
+    def test_remchingen_ignored_pagination_still_fails_after_one_fresh_retry(self):
+        seen=[]
+        def fetch(url):seen.append(url);return self.remchingen_page(1)
+        with self.assertRaisesRegex(ValueError,'Seitennummer'):
+            regional.fetch_remchingen(fetch)
+        self.assertEqual(len(seen),4)
+
+    def test_remchingen_malformed_public_counts_are_not_silently_ignored(self):
+        raw=self.remchingen_page(1).replace(b'"anzahl": 3',b'"anzahl": -1')
+        with self.assertRaisesRegex(ValueError,'Seitenmetadaten'):
+            regional.fetch_remchingen(lambda url:raw)
 
     def test_kulturhalle_respects_structured_year_and_separate_performances(self):
         records=regional.kulturhalle_listing(self.fixture('kulturhalle-list.html'))
