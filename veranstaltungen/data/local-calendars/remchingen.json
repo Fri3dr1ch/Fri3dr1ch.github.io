@@ -4,8 +4,8 @@
     "name": "Gemeinde Remchingen",
     "region": "Remchingen",
     "url": "https://www.remchingen.de/veranstaltungen/",
-    "status": "ok",
-    "lastAttemptAt": "2026-11-14T15:10:15+00:00",
+    "status": "error",
+    "lastAttemptAt": "2026-11-14T19:33:56+00:00",
     "lastSuccessAt": "2026-11-14T15:10:15+00:00",
     "refreshHours": 24,
     "recordCount": 78,
@@ -18,7 +18,8 @@
     "extractionMethod": "deterministic-html",
     "llmRequired": false,
     "coverageStart": "2026-11-14",
-    "coverageEnd": "2028-02-18"
+    "coverageEnd": "2028-02-18",
+    "lastError": "ValueError: Remchingen: Ergebnisseiten wiederholen dieselben Termine"
   },
   "events": [
     {

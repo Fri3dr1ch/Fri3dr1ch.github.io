@@ -5,8 +5,8 @@
     "region": "Grötzingen",
     "url": "https://www.naturfreunde-groetzingen.de/",
     "status": "ok",
-    "lastAttemptAt": "2026-11-14T15:10:44+00:00",
-    "lastSuccessAt": "2026-11-14T15:10:44+00:00",
+    "lastAttemptAt": "2026-11-14T19:34:27+00:00",
+    "lastSuccessAt": "2026-11-14T19:34:27+00:00",
     "refreshHours": 24,
     "recordCount": 11,
     "eventCount": 11,
@@ -94,7 +94,7 @@
       "status": "cancelled",
       "dataQuality": "reviewed-manual",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T15:10:44+00:00",
+      "detailCheckedAt": "2026-11-14T19:34:27+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-groetzingen.de/",
@@ -109,7 +109,7 @@
           "sourceId": "naturfreunde-groetzingen",
           "sourceName": "NaturFreunde Grötzingen",
           "reportedTitle": "Tageswanderung Natura-Trail",
-          "checkedAt": "2026-11-14T15:10:44+00:00",
+          "checkedAt": "2026-11-14T19:34:27+00:00",
           "priority": 2
         }
       ],
@@ -144,7 +144,7 @@
       "status": "scheduled",
       "dataQuality": "reviewed-manual",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T15:10:44+00:00",
+      "detailCheckedAt": "2026-11-14T19:34:27+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-groetzingen.de/",
@@ -159,7 +159,7 @@
           "sourceId": "naturfreunde-groetzingen",
           "sourceName": "NaturFreunde Grötzingen",
           "reportedTitle": "Besprechung Jahresprogramm 2027",
-          "checkedAt": "2026-11-14T15:10:44+00:00",
+          "checkedAt": "2026-11-14T19:34:27+00:00",
           "priority": 2
         }
       ],
@@ -194,7 +194,7 @@
       "status": "scheduled",
       "dataQuality": "reviewed-manual",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T15:10:44+00:00",
+      "detailCheckedAt": "2026-11-14T19:34:27+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-groetzingen.de/",
@@ -209,7 +209,7 @@
           "sourceId": "naturfreunde-groetzingen",
           "sourceName": "NaturFreunde Grötzingen",
           "reportedTitle": "Kürbisschnitzen für Kinder",
-          "checkedAt": "2026-11-14T15:10:44+00:00",
+          "checkedAt": "2026-11-14T19:34:27+00:00",
           "priority": 2
         }
       ],
@@ -244,7 +244,7 @@
       "status": "scheduled",
       "dataQuality": "reviewed-manual",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T15:10:44+00:00",
+      "detailCheckedAt": "2026-11-14T19:34:27+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-groetzingen.de/",
@@ -259,7 +259,7 @@
           "sourceId": "naturfreunde-groetzingen",
           "sourceName": "NaturFreunde Grötzingen",
           "reportedTitle": "Natura-Trail Pfinzgau West",
-          "checkedAt": "2026-11-14T15:10:44+00:00",
+          "checkedAt": "2026-11-14T19:34:27+00:00",
           "priority": 2
         }
       ],
@@ -294,7 +294,7 @@
       "status": "scheduled",
       "dataQuality": "reviewed-manual",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T15:10:44+00:00",
+      "detailCheckedAt": "2026-11-14T19:34:27+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-groetzingen.de/",
@@ -309,7 +309,7 @@
           "sourceId": "naturfreunde-groetzingen",
           "sourceName": "NaturFreunde Grötzingen",
           "reportedTitle": "Ü60-Gruppe · Spaziergang und Einkehr in Knielingen",
-          "checkedAt": "2026-11-14T15:10:44+00:00",
+          "checkedAt": "2026-11-14T19:34:27+00:00",
           "priority": 2
         }
       ],
@@ -344,7 +344,7 @@
       "status": "scheduled",
       "dataQuality": "reviewed-manual",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T15:10:44+00:00",
+      "detailCheckedAt": "2026-11-14T19:34:27+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-groetzingen.de/images/1a_Nov-Dez26.jpg",
@@ -359,7 +359,7 @@
           "sourceId": "naturfreunde-groetzingen",
           "sourceName": "NaturFreunde Grötzingen",
           "reportedTitle": "Herbstfest FC Körble",
-          "checkedAt": "2026-11-14T15:10:44+00:00",
+          "checkedAt": "2026-11-14T19:34:27+00:00",
           "priority": 2
         }
       ],
@@ -394,7 +394,7 @@
       "status": "scheduled",
       "dataQuality": "reviewed-manual",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T15:10:44+00:00",
+      "detailCheckedAt": "2026-11-14T19:34:27+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-groetzingen.de/images/1A_korble.png",
@@ -409,7 +409,7 @@
           "sourceId": "naturfreunde-groetzingen",
           "sourceName": "NaturFreunde Grötzingen",
           "reportedTitle": "Eintopf-Nachmittag · FC Körble",
-          "checkedAt": "2026-11-14T15:10:44+00:00",
+          "checkedAt": "2026-11-14T19:34:27+00:00",
           "priority": 2
         }
       ],
@@ -444,7 +444,7 @@
       "status": "scheduled",
       "dataQuality": "reviewed-manual",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T15:10:44+00:00",
+      "detailCheckedAt": "2026-11-14T19:34:27+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-groetzingen.de/images/1a_Nov-Dez26.jpg",
@@ -459,7 +459,7 @@
           "sourceId": "naturfreunde-groetzingen",
           "sourceName": "NaturFreunde Grötzingen",
           "reportedTitle": "Arbeitseinsatz rund ums Naturfreundehaus",
-          "checkedAt": "2026-11-14T15:10:44+00:00",
+          "checkedAt": "2026-11-14T19:34:27+00:00",
           "priority": 2
         }
       ],
@@ -494,7 +494,7 @@
       "status": "scheduled",
       "dataQuality": "reviewed-manual",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T15:10:44+00:00",
+      "detailCheckedAt": "2026-11-14T19:34:27+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-groetzingen.de/images/1a_Nov-Dez26.jpg",
@@ -509,7 +509,7 @@
           "sourceId": "naturfreunde-groetzingen",
           "sourceName": "NaturFreunde Grötzingen",
           "reportedTitle": "Ü60-Gruppe",
-          "checkedAt": "2026-11-14T15:10:44+00:00",
+          "checkedAt": "2026-11-14T19:34:27+00:00",
           "priority": 2
         }
       ],
@@ -544,7 +544,7 @@
       "status": "scheduled",
       "dataQuality": "reviewed-manual",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T15:10:44+00:00",
+      "detailCheckedAt": "2026-11-14T19:34:27+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-groetzingen.de/images/1a_Nov-Dez26.jpg",
@@ -559,7 +559,7 @@
           "sourceId": "naturfreunde-groetzingen",
           "sourceName": "NaturFreunde Grötzingen",
           "reportedTitle": "Weihnachtliches Basteln mit kulinarischer Begleitung",
-          "checkedAt": "2026-11-14T15:10:44+00:00",
+          "checkedAt": "2026-11-14T19:34:27+00:00",
           "priority": 2
         }
       ],
@@ -594,7 +594,7 @@
       "status": "scheduled",
       "dataQuality": "reviewed-manual",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T15:10:44+00:00",
+      "detailCheckedAt": "2026-11-14T19:34:27+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-groetzingen.de/images/1a_Nov-Dez26.jpg",
@@ -609,7 +609,7 @@
           "sourceId": "naturfreunde-groetzingen",
           "sourceName": "NaturFreunde Grötzingen",
           "reportedTitle": "Weihnachtlicher Jahresabschluss",
-          "checkedAt": "2026-11-14T15:10:44+00:00",
+          "checkedAt": "2026-11-14T19:34:27+00:00",
           "priority": 2
         }
       ],
