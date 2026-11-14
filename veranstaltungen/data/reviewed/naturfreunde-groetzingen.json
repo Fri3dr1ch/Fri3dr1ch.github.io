@@ -1,0 +1,214 @@
+{
+  "sourceId": "naturfreunde-groetzingen",
+  "reviewedOn": "2026-11-13",
+  "reviewNote": "Aktuelle Startseite, November-/Dezember-Bildaushang und Eintopf-Plakat visuell geprüft. Nur belegte Zeiten und Orte übernommen; vergangene Oktober-Ankündigungen zur Vollständigkeit der geprüften Startseite erhalten.",
+  "records": [
+    {
+      "recordId": "reviewed-2026-10-11-01",
+      "title": "Tageswanderung Natura-Trail",
+      "startDate": "2026-10-11",
+      "endDate": "2026-10-11",
+      "startTime": null,
+      "endTime": null,
+      "location": "",
+      "url": "https://www.naturfreunde-groetzingen.de/",
+      "organizer": "NaturFreunde Grötzingen",
+      "status": "cancelled",
+      "scheduleNote": "Die angekündigte Wanderung entfällt.",
+      "dataQuality": "reviewed-manual",
+      "categoryKey": "sportveranstaltung"
+    },
+    {
+      "recordId": "reviewed-2026-10-19-02",
+      "title": "Besprechung Jahresprogramm 2027",
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-19",
+      "startTime": "19:00",
+      "endTime": null,
+      "location": "Naturfreundehaus Grötzingen",
+      "url": "https://www.naturfreunde-groetzingen.de/",
+      "organizer": "NaturFreunde Grötzingen",
+      "status": "scheduled",
+      "scheduleNote": "",
+      "dataQuality": "reviewed-manual",
+      "categoryKey": "stadtleben"
+    },
+    {
+      "recordId": "reviewed-2026-10-25-03",
+      "title": "Kürbisschnitzen für Kinder",
+      "startDate": "2026-10-25",
+      "endDate": "2026-10-25",
+      "startTime": "11:00",
+      "endTime": null,
+      "location": "Naturfreundehaus Grötzingen",
+      "url": "https://www.naturfreunde-groetzingen.de/",
+      "organizer": "NaturFreunde Grötzingen",
+      "status": "scheduled",
+      "scheduleNote": "",
+      "dataQuality": "reviewed-manual",
+      "categoryKey": "stadtleben"
+    },
+    {
+      "recordId": "reviewed-2026-10-25-04",
+      "title": "Natura-Trail Pfinzgau West",
+      "startDate": "2026-10-25",
+      "endDate": "2026-10-25",
+      "startTime": "10:00",
+      "endTime": null,
+      "location": "Niddaplatz Grötzingen",
+      "url": "https://www.naturfreunde-groetzingen.de/",
+      "organizer": "NaturFreunde Grötzingen",
+      "status": "scheduled",
+      "scheduleNote": "Gemeinsame Wanderung der NaturFreunde Berghausen und Grötzingen zum Naturfreundehaus Berghausen; Gehzeit etwa drei Stunden.",
+      "dataQuality": "reviewed-manual",
+      "categoryKey": "sportveranstaltung"
+    },
+    {
+      "recordId": "reviewed-2026-10-28-05",
+      "title": "Ü60-Gruppe · Spaziergang und Einkehr in Knielingen",
+      "startDate": "2026-10-28",
+      "endDate": "2026-10-28",
+      "startTime": "11:00",
+      "endTime": null,
+      "location": "Bahnhof Grötzingen",
+      "url": "https://www.naturfreunde-groetzingen.de/",
+      "organizer": "NaturFreunde Grötzingen",
+      "status": "scheduled",
+      "scheduleNote": "Treffpunkt zur gemeinsamen Fahrt nach Knielingen; dort Spaziergang und Einkehr beim VfB.",
+      "dataQuality": "reviewed-manual",
+      "categoryKey": "stadtleben"
+    },
+    {
+      "recordId": "reviewed-2026-11-07-06",
+      "title": "Herbstfest FC Körble",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "startTime": null,
+      "endTime": null,
+      "location": "Naturfreundehaus Grötzingen",
+      "url": "https://www.naturfreunde-groetzingen.de/images/1a_Nov-Dez26.jpg",
+      "organizer": "NaturFreunde Grötzingen",
+      "status": "scheduled",
+      "scheduleNote": "",
+      "dataQuality": "reviewed-manual",
+      "categoryKey": "stadtleben"
+    },
+    {
+      "recordId": "reviewed-2026-11-08-07",
+      "title": "Eintopf-Nachmittag · FC Körble",
+      "startDate": "2026-11-08",
+      "endDate": "2026-11-08",
+      "startTime": null,
+      "endTime": null,
+      "location": "Naturfreundehaus Grötzingen",
+      "url": "https://www.naturfreunde-groetzingen.de/images/1A_korble.png",
+      "organizer": "NaturFreunde Grötzingen",
+      "status": "scheduled",
+      "scheduleNote": "Datum nach Bildaushang: 8. November. Die Meldungsüberschrift nennt abweichend „8.10.26“; der 8. Oktober 2026 war kein Sonntag. Der Aushang nennt keine Uhrzeit. Kein bestätigter Termin für den 15. November.",
+      "dataQuality": "reviewed-manual",
+      "categoryKey": "stadtleben"
+    },
+    {
+      "recordId": "reviewed-2026-11-14-08",
+      "title": "Arbeitseinsatz rund ums Naturfreundehaus",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-14",
+      "startTime": "10:00",
+      "endTime": null,
+      "location": "Naturfreundehaus Grötzingen",
+      "url": "https://www.naturfreunde-groetzingen.de/images/1a_Nov-Dez26.jpg",
+      "organizer": "NaturFreunde Grötzingen",
+      "status": "scheduled",
+      "scheduleNote": "",
+      "dataQuality": "reviewed-manual",
+      "categoryKey": "stadtleben"
+    },
+    {
+      "recordId": "reviewed-2026-11-25-09",
+      "title": "Ü60-Gruppe",
+      "startDate": "2026-11-25",
+      "endDate": "2026-11-25",
+      "startTime": null,
+      "endTime": null,
+      "location": "",
+      "url": "https://www.naturfreunde-groetzingen.de/images/1a_Nov-Dez26.jpg",
+      "organizer": "NaturFreunde Grötzingen",
+      "status": "scheduled",
+      "scheduleNote": "Uhrzeit und Treffpunkt sind im Monatsprogramm nicht angegeben.",
+      "dataQuality": "reviewed-manual",
+      "categoryKey": "stadtleben"
+    },
+    {
+      "recordId": "reviewed-2026-11-27-10",
+      "title": "Weihnachtliches Basteln mit kulinarischer Begleitung",
+      "startDate": "2026-11-27",
+      "endDate": "2026-11-27",
+      "startTime": "18:00",
+      "endTime": null,
+      "location": "Naturfreundehaus Grötzingen",
+      "url": "https://www.naturfreunde-groetzingen.de/images/1a_Nov-Dez26.jpg",
+      "organizer": "NaturFreunde Grötzingen",
+      "status": "scheduled",
+      "scheduleNote": "Anmeldung bei der im Originalaushang genannten Ansprechpartnerin erforderlich.",
+      "dataQuality": "reviewed-manual",
+      "categoryKey": "stadtleben"
+    },
+    {
+      "recordId": "reviewed-2026-12-12-11",
+      "title": "Weihnachtlicher Jahresabschluss",
+      "startDate": "2026-12-12",
+      "endDate": "2026-12-12",
+      "startTime": "17:00",
+      "endTime": null,
+      "location": "Naturfreundehaus Grötzingen",
+      "url": "https://www.naturfreunde-groetzingen.de/images/1a_Nov-Dez26.jpg",
+      "organizer": "NaturFreunde Grötzingen",
+      "status": "scheduled",
+      "scheduleNote": "Anmeldung erforderlich. Gemeinsame Wanderung zum Haus: Treffpunkt um 16 Uhr am Laubplatz (Feuerwehr).",
+      "dataQuality": "reviewed-manual",
+      "categoryKey": "stadtleben"
+    }
+  ],
+  "evidence": [
+    {
+      "title": "So. 8.10.26 Eintopf Nachmittag",
+      "textSha256": "f8b02a2a474bfead5d734d9e13bf64a93da72c86f2df68158fbae892daf0b00c",
+      "images": [
+        {
+          "url": "https://www.naturfreunde-groetzingen.de/images/1A_korble.png",
+          "sha256": "63d2bbdb087b7aee406b81b6f89e3441e35d8746883bb7db2c9e0882d5a25898"
+        }
+      ]
+    },
+    {
+      "title": "Unser Programm im November und Dezember",
+      "textSha256": "f8b02a2a474bfead5d734d9e13bf64a93da72c86f2df68158fbae892daf0b00c",
+      "images": [
+        {
+          "url": "https://www.naturfreunde-groetzingen.de/images/1a_Nov-Dez26.jpg",
+          "sha256": "155e0d903328cd19655cb721aac32b45afebd53b9df89edc9d5199aa36f991d2"
+        }
+      ]
+    },
+    {
+      "title": "Ü60 Gruppe am 28.10.2026",
+      "textSha256": "14fcab994b0531e955cd30a4bdb43f488bc5f0c06703ee12531518d72b85e465",
+      "images": []
+    },
+    {
+      "title": "Unser Programm im Oktober",
+      "textSha256": "914380ab8adfa7e6e10f4a5812f6c6e4759f40ed2e283d98a6497c1db3fa3aa2",
+      "images": []
+    },
+    {
+      "title": "Kürbisschnitzen 25.10.2026",
+      "textSha256": "f8b02a2a474bfead5d734d9e13bf64a93da72c86f2df68158fbae892daf0b00c",
+      "images": [
+        {
+          "url": "https://www.naturfreunde-groetzingen.de/images/1-kuerbis26-2.jpeg",
+          "sha256": "5507df9162343ea04363c8bbfe2a7ff5b02b92d79cb98abf4bbab9c79694d502"
+        }
+      ]
+    }
+  ]
+}

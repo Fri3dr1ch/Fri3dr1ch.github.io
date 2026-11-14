@@ -1,0 +1,2 @@
+# PDF extraction uses the same pinned dependencies as the production importer.
+-r requirements-import.lock

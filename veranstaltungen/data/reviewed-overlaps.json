@@ -1,0 +1,481 @@
+[
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "schockvember-festival-2026",
+    "startDate": "2026-11-14",
+    "targetId": "remchingen-3178-2026-11-14-1815",
+    "preferIncoming": true,
+    "reportedTitle": "Schockvember Festival 2026",
+    "targetTitle": "Schockvember Festival 2026 - Nachtblut, Stahlmann, Gefrierbrand",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "sing-a-song-2025",
+    "startDate": "2026-11-20",
+    "targetId": "remchingen-3172-2026-11-20-2000",
+    "preferIncoming": true,
+    "reportedTitle": "Sing A Song",
+    "targetTitle": "Sing A Song - Live-Karaoke mit Chessy !Ausverkauft !",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "remchinger-adventsmarkt-2026",
+    "startDate": "2026-11-21",
+    "targetId": "remchingen-3407-2026-11-21-1300",
+    "preferIncoming": true,
+    "reportedTitle": "Remchinger Adventsmarkt",
+    "targetTitle": "Remchinger Adventsmarkt Hobby- und Kunsthandwerk rund um die Kulturhalle",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "remchinger-adventsmarkt-2026-so",
+    "startDate": "2026-11-22",
+    "targetId": "remchingen-3408-2026-11-22-1100",
+    "preferIncoming": true,
+    "reportedTitle": "Remchinger Adventsmarkt",
+    "targetTitle": "Remchinger Adventsmarkt Hobby- und Kunsthandwerk rund um die Kulturhalle",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "suedtirol-dolomiten-stephan-schulz-2026",
+    "startDate": "2026-11-25",
+    "targetId": "remchingen-3128-2026-11-25-2000",
+    "preferIncoming": true,
+    "reportedTitle": "Südtirol & Dolomiten (3D - Show)",
+    "targetTitle": "Südtirol & Dolomiten - im Zauberreich der leuchtenden Berge - 3D!",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "fisch-sucht-fahrrad-2026",
+    "startDate": "2026-11-26",
+    "targetId": "remchingen-3294-2026-11-26-2000",
+    "preferIncoming": true,
+    "reportedTitle": "Fisch sucht Fahrrad",
+    "targetTitle": "Fisch sucht Fahrrad - Komödie von Peter Quilter / Aboveranstaltung AUSVERKAUFT!",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "remchinger-weihnachtsdorf-2026",
+    "startDate": "2026-11-27",
+    "targetId": "remchingen-3409-2026-11-27-1600",
+    "preferIncoming": true,
+    "reportedTitle": "Remchinger Weihnachtsdorf",
+    "targetTitle": "Remchinger Weihnachtsdorf Ein stimmungsvoller Treffpunkt für Familien, Freunde und alle, die Weihnachten lieben.",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "remchinger-weihnachtsdorf-2026-2",
+    "startDate": "2026-11-28",
+    "targetId": "remchingen-3410-2026-11-28-1600",
+    "preferIncoming": true,
+    "reportedTitle": "Remchinger Weihnachtsdorf",
+    "targetTitle": "Remchinger Weihnachtsdorf Ein stimmungsvoller Treffpunkt für Familien, Freunde und alle, die Weihnachten lieben.",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "remchinger-weihnachtsdorf-2026-3",
+    "startDate": "2026-11-29",
+    "targetId": "remchingen-3411-2026-11-29-1200",
+    "preferIncoming": true,
+    "reportedTitle": "Remchinger Weihnachtsdorf",
+    "targetTitle": "Remchinger Weihnachtsdorf Ein stimmungsvoller Treffpunkt für Familien, Freunde und alle, die Weihnachten lieben.",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "goss-kinsella-2026",
+    "startDate": "2026-12-11",
+    "targetId": "remchingen-3237-2026-12-11-2000",
+    "preferIncoming": true,
+    "reportedTitle": "Kieran Goss and Annie Kinsella",
+    "targetTitle": "Kieran Goss and Annie Kinsella - The Song Your Heart Is Singing",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "drei-haselnuesse-fuer-aschenbroedel-2026",
+    "startDate": "2026-12-16",
+    "targetId": "remchingen-3295-2026-12-16-2000",
+    "preferIncoming": true,
+    "reportedTitle": "Drei Haselnüsse für Aschenbrödel",
+    "targetTitle": "Drei Haselnüsse für Aschenbrödel - Familienmusical in drei Akten",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "springmaus",
+    "startDate": "2026-12-19",
+    "targetId": "remchingen-3196-2026-12-19-2000",
+    "preferIncoming": true,
+    "reportedTitle": "Merry Christmaus",
+    "targetTitle": "Improvisationstheater Springmaus - Merry Christmaus",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "neujahrskonzert-2027",
+    "startDate": "2027-01-08",
+    "targetId": "remchingen-3200-2027-01-08-2000",
+    "preferIncoming": true,
+    "reportedTitle": "Neujahrskonzert",
+    "targetTitle": "Neujahrskonzert - Thomas Hoffmann & seine BRASS BAND BERLIN",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "physik-event-2",
+    "startDate": "2027-01-10",
+    "targetId": "remchingen-3194-2027-01-10-1100",
+    "preferIncoming": true,
+    "reportedTitle": "Physik-Event",
+    "targetTitle": "Physik-Event - Die einzige Physikshow in 4 D",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "physik-event",
+    "startDate": "2027-01-10",
+    "targetId": "remchingen-3195-2027-01-10-1600",
+    "preferIncoming": true,
+    "reportedTitle": "Physik-Event",
+    "targetTitle": "Physik-Event - Die einzige Physikshow in 4 D",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "robert-neu-2027",
+    "startDate": "2027-01-12",
+    "targetId": "remchingen-3236-2027-01-12-2000",
+    "preferIncoming": true,
+    "reportedTitle": "Kanada und Alaska",
+    "targetTitle": "Kanada und Alaska - 3000 km Wildnis und Freiheit am Yukon",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "moby-dick-2027",
+    "startDate": "2027-01-19",
+    "targetId": "remchingen-3296-2027-01-19-2000",
+    "preferIncoming": true,
+    "reportedTitle": "Moby Dick",
+    "targetTitle": "Moby Dick - Schauspiel in einer Dramatisierung des Weltromans von Herman Melville / Aboveranstaltung",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "gwennyn-2027",
+    "startDate": "2027-01-22",
+    "targetId": "remchingen-3240-2027-01-22-2000",
+    "preferIncoming": true,
+    "reportedTitle": "GWENNYN & Band",
+    "targetTitle": "GWENNYN & Band - Musique de la Bretagne",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "arthur-senkrecht-2027",
+    "startDate": "2027-02-05",
+    "targetId": "remchingen-3275-2027-02-05-2000",
+    "preferIncoming": true,
+    "reportedTitle": "LACHEN MACHEN!!!",
+    "targetTitle": "LACHEN MACHEN!!! - Arthur Senkrecht erklärt Komik",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "my-fair-lady-2027",
+    "startDate": "2027-02-18",
+    "targetId": "remchingen-3297-2027-02-18-2000",
+    "preferIncoming": true,
+    "reportedTitle": "My Fair Lady",
+    "targetTitle": "My Fair Lady - Der Musical-Klassiker von F. Loewe / Aboveranstaltung",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "cossu-2027",
+    "startDate": "2027-02-19",
+    "targetId": "remchingen-3166-2027-02-19-2000",
+    "preferIncoming": true,
+    "reportedTitle": "COSSU",
+    "targetTitle": "COSSU - WE ARE THE GERMANS – Stand-Up Comedy",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "norwegen-2027",
+    "startDate": "2027-02-24",
+    "targetId": "remchingen-3201-2027-02-24-2000",
+    "preferIncoming": true,
+    "reportedTitle": "Norwegen",
+    "targetTitle": "Norwegen - Live-Show von und mit Petra und Gerhard Zwerger-Schoner",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "noah-leonne-2027",
+    "startDate": "2027-02-27",
+    "targetId": "remchingen-3276-2027-02-27-2000",
+    "preferIncoming": true,
+    "reportedTitle": "NOAH LEONNE",
+    "targetTitle": "NOAH LEONNE - Symphonic Rock",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "magier-ralf-gagel-2027",
+    "startDate": "2027-03-04",
+    "targetId": "remchingen-3229-2027-03-04-1430",
+    "preferIncoming": true,
+    "reportedTitle": "Magier Ralf Gagel",
+    "targetTitle": "Magier Ralf Gagel - Kinder-Zauber-Theater",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "marianne-schaetzle-2027",
+    "startDate": "2027-03-05",
+    "targetId": "remchingen-3292-2027-03-05-2000",
+    "preferIncoming": true,
+    "reportedTitle": "Marianne Schätzle",
+    "targetTitle": "Marianne Schätzle - s‘ SCHÄTZLE PACKT AUS",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "der-zerbrochne-krug",
+    "startDate": "2027-03-10",
+    "targetId": "remchingen-3234-2027-03-10-1900",
+    "preferIncoming": true,
+    "reportedTitle": "DER ZERBROCHNE KRUG",
+    "targetTitle": "DER ZERBROCHNE KRUG - Lustspiel von Heinrich von Kleist",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "3-remchinger-lachnacht",
+    "startDate": "2027-03-13",
+    "targetId": "remchingen-3177-2027-03-13-2000",
+    "preferIncoming": true,
+    "reportedTitle": "3. Remchinger Lachnacht",
+    "targetTitle": "3. Remchinger Lachnacht - Ole Lehmann, Jens Heinrich Claassen, Kerim Pamuk, Marie Diot & Serhat Dogan",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "in-80-tagen-um-die-welt-2027",
+    "startDate": "2027-03-16",
+    "targetId": "remchingen-3298-2027-03-16-2000",
+    "preferIncoming": true,
+    "reportedTitle": "In 80 Tagen um die Welt",
+    "targetTitle": "In 80 Tagen um die Welt - Schauspiel-Spektakel von Soeren Voima nach Jules Verne / Aboveranstaltung",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "calling-mr-vain-nosie-katzmann-daniel-helfrich-2027",
+    "startDate": "2027-03-19",
+    "targetId": "remchingen-3170-2027-03-19-2000",
+    "preferIncoming": true,
+    "reportedTitle": "Calling Mr. Vain",
+    "targetTitle": "Calling Mr. Vain - Nosie Katzmann & Daniel Helfrich",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "opportunity-2027",
+    "startDate": "2027-04-09",
+    "targetId": "remchingen-3215-2027-04-09-unknown",
+    "preferIncoming": true,
+    "reportedTitle": "Opportunity",
+    "targetTitle": "Opportunity - Acoustic Groove Trio",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "italien-multivision-2027",
+    "startDate": "2027-04-21",
+    "targetId": "remchingen-3403-2027-04-21-2000",
+    "preferIncoming": true,
+    "reportedTitle": "Auf der Suche nach ITALIEN",
+    "targetTitle": "Auf der Such nach ITALIEN - Highlights aus 15 Jahren ITALIEN-REISEN",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "freundschaft-2027",
+    "startDate": "2027-04-27",
+    "targetId": "remchingen-3299-2027-04-27-2000",
+    "preferIncoming": true,
+    "reportedTitle": "#Freundschaft",
+    "targetTitle": "#Freundschaft - Von Gilla Cremer / Aboveranstaltung",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "bernd-stelter-2027",
+    "startDate": "2027-04-29",
+    "targetId": "remchingen-3217-2027-04-29-2000",
+    "preferIncoming": true,
+    "reportedTitle": "Bernd Stelter",
+    "targetTitle": "Bernd Stelter - \"Sonne im Herzen, Blödsinn im Kopp!“ Tour 2027",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "dance-2027",
+    "startDate": "2027-06-05",
+    "targetId": "remchingen-3404-2027-06-05-1000",
+    "preferIncoming": true,
+    "reportedTitle": "Aufführung der Ballettschule Remchingen",
+    "targetTitle": "Aufführung der Ballettschule Remchingen 10 Uhr",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "dance-2028",
+    "startDate": "2027-06-05",
+    "targetId": "remchingen-3405-2027-06-05-1500",
+    "preferIncoming": true,
+    "reportedTitle": "Aufführung der Ballettschule Remchingen",
+    "targetTitle": "Aufführung der Ballettschule Remchingen 15 Uhr",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "harald-schmidt-2027",
+    "startDate": "2027-09-30",
+    "targetId": "remchingen-3214-2027-09-30-2000",
+    "preferIncoming": true,
+    "reportedTitle": "Harald Schmidt schwätzt mit Bernd Gnann",
+    "targetTitle": "Harald Schmidt schwätzt mit Bernd Gnann - Ein unvorbereiteter Abend",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "ass-dur-2027",
+    "startDate": "2027-10-13",
+    "targetId": "remchingen-3351-2027-10-13-2000",
+    "preferIncoming": true,
+    "reportedTitle": "Ass-Dur",
+    "targetTitle": "ASS-DUR - Bruderliebe",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "starbugs-comedy-2027",
+    "startDate": "2027-10-22",
+    "targetId": "remchingen-3350-2027-10-22-2000",
+    "preferIncoming": true,
+    "reportedTitle": "STARBUGS COMEDY",
+    "targetTitle": "STARBUGS COMEDY - CRASH BOOM BANG",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "phil-2026",
+    "startDate": "2027-10-23",
+    "targetId": "remchingen-3228-2027-10-23-2000",
+    "preferIncoming": true,
+    "reportedTitle": "Phil",
+    "targetTitle": "Phil - THE GENESIS & PHIL COLLINS TRIBUTE SHOW",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "gunzi-heil-2027",
+    "startDate": "2027-10-29",
+    "targetId": "remchingen-3354-2027-10-29-2000",
+    "preferIncoming": true,
+    "reportedTitle": "Gunzi Heil",
+    "targetTitle": "Gunzi Heil - Solo",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "doris-reichenauer-2027",
+    "startDate": "2027-11-25",
+    "targetId": "remchingen-3239-2027-11-25-2000",
+    "preferIncoming": true,
+    "reportedTitle": "Doris Reichenauer",
+    "targetTitle": "Doris Reichenauer - Jetzt isst er sogar Brokkoli",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "andreas-langsch-2027",
+    "startDate": "2027-11-28",
+    "targetId": "remchingen-3349-2027-11-28-1900",
+    "preferIncoming": true,
+    "reportedTitle": "Andreas Langsch",
+    "targetTitle": "Andreas Langsch - Schöne Bescherung!",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "eine-magische-elfenmission-2027",
+    "startDate": "2027-11-30",
+    "targetId": "remchingen-3238-2027-11-30-1600",
+    "preferIncoming": true,
+    "reportedTitle": "Eine magische Elfenmission",
+    "targetTitle": "Eine magische Elfenmission - Familien-Zaubershow mit Linus Faber",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "cinderella-2026",
+    "startDate": "2027-12-17",
+    "targetId": "remchingen-3291-2027-12-17-1900",
+    "preferIncoming": true,
+    "reportedTitle": "CINDERELLA",
+    "targetTitle": "CINDERELLA - Ballett in 2 Akten, Musik von Sergej Prokofiew",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "kulturhalle-remchingen",
+    "recordId": "michael-krebs-2028",
+    "startDate": "2028-02-18",
+    "targetId": "remchingen-3383-2028-02-18-2000",
+    "preferIncoming": true,
+    "reportedTitle": "Michael Krebs",
+    "targetTitle": "Michael Krebs - Ein sehr emotionales Gefühl",
+    "reviewedOn": "2026-11-12"
+  },
+  {
+    "sourceId": "eki-groetzingen",
+    "recordId": "1103214",
+    "startDate": "2026-11-15",
+    "targetId": "groetzingen-jahresprogramm-annual-2026-130",
+    "preferIncoming": true,
+    "reportedTitle": "Gedenken zum Volkstrauertag (Beginn korrigiert um 11.30, nicht wie zuvor veröffentlicht um 11.15)",
+    "targetTitle": "Volkstrauertag",
+    "reviewedOn": "2026-11-12",
+    "note": "Aktuelle Veranstalterangabe 11:30, alter Jahresplan 11:00; Abweichung sichtbar erhalten."
+  },
+  {
+    "sourceId": "pfinztal-vereine",
+    "recordId": "pdf-2026-berghausen-p03-r012",
+    "startDate": "2026-11-28",
+    "targetId": "pfinztal-14277-0r-2026-11-28-1500",
+    "preferIncoming": false,
+    "reportedTitle": "Weihnachtsmarkt",
+    "targetTitle": "Pfinztaler Weihnachtsmarkt",
+    "reviewedOn": "2026-11-12",
+    "note": "Identischer Zeitraum und Bildungszentrum Berghausen; aktuelle Onlinezeiten bleiben vorrangig."
+  },
+  {
+    "sourceId": "naturfreunde-groetzingen",
+    "recordId": "reviewed-2026-11-07-06",
+    "startDate": "2026-11-07",
+    "targetId": "groetzingen-jahresprogramm-annual-2026-123",
+    "reviewNote": "Gleicher Titel, Tag und Naturfreundehaus im Monatsprogramm und kommunalen Jahresplan. Die neue Quelle nennt keine Uhrzeit; vorhandene Zeit bleibt als Angabe des Jahresplans erhalten."
+  }
+]

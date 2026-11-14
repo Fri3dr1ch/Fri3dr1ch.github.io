@@ -1,0 +1,28 @@
+{
+  "groetzingen-jahresprogramm": {
+    "lastAttemptAt": "2026-11-13T11:39:12+00:00",
+    "lastCheckedAt": "2026-11-13T11:39:26+00:00",
+    "lastSuccessAt": "2026-11-13T11:39:26+00:00",
+    "lastReviewedAt": "2026-11-12",
+    "refreshHours": 24,
+    "status": "ok",
+    "reviewRequired": false,
+    "reviewReason": "",
+    "candidateUrls": [
+      "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/017_Stadtteile_und_Umgebung/Groetzingen/Jahresprogramm_Groetzingen_2026_im_CD_sem.pdf"
+    ]
+  },
+  "groetzingen-kultur-natur": {
+    "lastAttemptAt": "2026-11-13T11:39:12+00:00",
+    "lastCheckedAt": "2026-11-13T11:39:34+00:00",
+    "lastSuccessAt": "2026-11-13T11:39:34+00:00",
+    "lastReviewedAt": "2026-11-12",
+    "refreshHours": 24,
+    "status": "ok",
+    "reviewRequired": false,
+    "reviewReason": "",
+    "candidateUrls": [
+      "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/017_Stadtteile_und_Umgebung/Groetzingen/Programm_Kulturbroschuere_2_HJ_2026_26-0485_Digitalversion.end.pdf"
+    ]
+  }
+}

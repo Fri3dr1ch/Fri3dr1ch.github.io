@@ -1,0 +1,43 @@
+{
+  "cals": {
+    "evcal_calendar_503": {
+      "sc": {
+        "focus_start_date_range": "1793487600",
+        "focus_end_date_range": "1809122399"
+      },
+      "json": [
+        {
+          "event_id": 15564,
+          "ri": "0",
+          "unix_start": 1794492000,
+          "unix_end": 1794502800
+        },
+        {
+          "event_id": 18154,
+          "ri": "0",
+          "unix_start": 1794738600,
+          "unix_end": 1794742200
+        },
+        {
+          "event_id": 17588,
+          "ri": "0",
+          "unix_start": 1795111200,
+          "unix_end": 1795118400
+        },
+        {
+          "event_id": 18129,
+          "ri": "0",
+          "unix_start": 1795707000,
+          "unix_end": 1795712400
+        },
+        {
+          "event_id": 14277,
+          "ri": "0",
+          "unix_start": 1795874400,
+          "unix_end": 1795975200
+        }
+      ],
+      "html": "<main><div id=\"event_15564_0\" class=\"eventon_list_event evo_eventtop scheduled  event clrW event_15564_0\" data-event_id=\"15564\" data-ri=\"0r\" data-time=\"1794492000-1794502800\"><a itemprop=\"url\" href=\"https://pfinztal.de/events/seniorennachmittag-2/\"></a><meta itemprop=\"eventStatus\" content=\"https://schema.org/EventScheduled\"><span class=\"evoet_title evcal_desc2 evcal_event_title \" itemprop=\"name\">Seniorennachmittag</span><em class=\"evcal_time evo_tz_time\">15:00 - 18:00(GMT+01:00)</em><em class=\"evcal_location\">Hagwaldhalle Kleinsteinbach, Industriestr. 4</em></div><div id=\"event_18154_0\" class=\"eventon_list_event evo_eventtop scheduled  event clrW event_18154_0\" data-event_id=\"18154\" data-ri=\"0r\" data-time=\"1794738600-1794742200\"><a itemprop=\"url\" href=\"https://pfinztal.de/events/volkstrauertag-2026/\"></a><meta itemprop=\"eventStatus\" content=\"https://schema.org/EventScheduled\"><span class=\"evoet_title evcal_desc2 evcal_event_title \" itemprop=\"name\">Volkstrauertag 2026</span><em class=\"evcal_time evo_tz_time\">11:30 - 12:30(GMT+01:00)</em><em class=\"evcal_location\">Friedhof Söllingen</em></div><div id=\"event_17588_0\" class=\"eventon_list_event evo_eventtop scheduled  event clrW event_17588_0\" data-event_id=\"17588\" data-ri=\"0r\" data-time=\"1795111200-1795118400\"><a itemprop=\"url\" href=\"https://pfinztal.de/events/wintergeheimnis-mit-maerchenerzaehlerin-jutta-scherzinger/\"></a><meta itemprop=\"eventStatus\" content=\"https://schema.org/EventScheduled\"><span class=\"evoet_title evcal_desc2 evcal_event_title \" itemprop=\"name\">Wintergeheimnis mit Märchenerzählerin Jutta Scherzinger</span><em class=\"evcal_time evo_tz_time\">19:00 - 21:00(GMT+01:00)</em><em class=\"evcal_location\">Bürgerhaus Söllingen, Hauptstr. 57</em></div><div id=\"event_18129_0\" class=\"eventon_list_event evo_eventtop scheduled  event clrW event_18129_0\" data-event_id=\"18129\" data-ri=\"0r\" data-time=\"1795707000-1795712400\"><a itemprop=\"url\" href=\"https://pfinztal.de/events/digital-unterwegs-und-sicher-im-alltag-informationsveranstaltung-fuer-seniorinnen-und-senioren/\"></a><meta itemprop=\"eventStatus\" content=\"https://schema.org/EventScheduled\"><span class=\"evoet_title evcal_desc2 evcal_event_title \" itemprop=\"name\">Digital unterwegs und sicher im Alltag - Informationsveranstaltung für Seniorinnen und Senioren</span><em class=\"evcal_time evo_tz_time\">16:30 - 18:00(GMT+01:00)</em><em class=\"evcal_location\">Pfarrsaal der Kath. Kirchengemeinde Wöschbach, Saldingerstr. 7</em></div><div id=\"event_14277_0\" class=\"eventon_list_event evo_eventtop scheduled  event clrW event_14277_0\" data-event_id=\"14277\" data-ri=\"0r\" data-time=\"1795874400-1795975200\"><a itemprop=\"url\" href=\"https://pfinztal.de/events/pfinztaler-weihnachtsmarkt/\"></a><meta itemprop=\"eventStatus\" content=\"https://schema.org/EventScheduled\"><span class=\"evoet_title evcal_desc2 evcal_event_title \" itemprop=\"name\">Pfinztaler Weihnachtsmarkt</span><em class=\"evcal_time evo_tz_time\">15:00 - 19:00 (29)(GMT+01:00)</em><em class=\"evcal_location\">Bildungszentrum Berghausen, Schlossgartenstr. 11, 76327 Pfinztal</em></div></main>"
+    }
+  }
+}

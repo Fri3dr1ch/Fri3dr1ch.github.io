@@ -1,0 +1,145 @@
+name: Veranstaltungskalender aktualisieren
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
+  push:
+    branches: [main]
+
+concurrency:
+  group: calendar-production
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  update:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    permissions:
+      contents: write
+      issues: write
+    defaults:
+      run:
+        shell: bash
+        working-directory: veranstaltungen
+    env:
+      CALENDAR_ISSUE_ASSIGNEE: ${{ vars.CALENDAR_ISSUE_ASSIGNEE || github.repository_owner }}
+    outputs:
+      pages_ready: ${{ steps.pages-upload.outcome == 'success' }}
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: |
+            veranstaltungen/requirements-import.lock
+            veranstaltungen/requirements-dev.txt
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: veranstaltungen/package-lock.json
+      - name: Abhängigkeiten installieren
+        id: dependencies
+        run: |
+          python -m pip install --disable-pip-version-check -r requirements-dev.txt
+          npm ci --ignore-scripts --no-audit --no-fund
+      - name: Alle Quellen aktualisieren
+        id: etl
+        continue-on-error: true
+        run: python -u scripts/update_calendar.py
+      - name: Daten und Anwendung prüfen
+        id: checks
+        if: always() && steps.dependencies.outcome == 'success'
+        continue-on-error: true
+        run: |
+          python -m unittest discover -s tests -v
+          python scripts/validate_calendar.py
+          npm test
+      - name: Ergebnis für Veröffentlichung und Issues festhalten
+        id: report
+        if: always()
+        env:
+          ETL_OUTCOME: ${{ steps.etl.outcome }}
+          CHECK_OUTCOME: ${{ steps.checks.outcome }}
+        run: |
+          python3 - <<'PY'
+          import json, os
+          from pathlib import Path
+          folder=Path('.etl');folder.mkdir(exist_ok=True)
+          path=folder/'report.json'
+          report=json.loads(path.read_text()) if path.exists() else {'schemaVersion':1,'issues':[],'resolvedKeys':[],'errors':[],'validationPassed':False}
+          if os.environ['ETL_OUTCOME']=='skipped' or os.environ['CHECK_OUTCOME']!='success':
+              report['validationPassed']=False
+              report['errors'].append({'reason':'Installation, ETL oder anschließende Prüfungen wurden nicht erfolgreich abgeschlossen.'})
+          path.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+          with open(os.environ['GITHUB_OUTPUT'],'a') as output:
+              output.write('valid='+str(bool(report.get('validationPassed'))).lower()+'\n')
+          PY
+      - name: Prüfhinweise und Abruffehler als Issues abgleichen
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/sync_github_issues.py --assignee "$CALENDAR_ISSUE_ASSIGNEE"
+      - name: Bericht sichern
+        if: always()
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
+        with:
+          name: calendar-etl-report
+          path: veranstaltungen/.etl/
+          include-hidden-files: true
+          if-no-files-found: warn
+          retention-days: 14
+      - name: Validierte Daten im Repository sichern
+        id: persist
+        if: always() && steps.report.outputs.valid == 'true' && steps.checks.outcome == 'success'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data dist
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update regional calendar data'
+            git push
+          fi
+          echo 'publish_ready=true' >> "$GITHUB_OUTPUT"
+      - name: Gesamte Website für GitHub Pages vorbereiten
+        id: stage
+        if: always() && steps.persist.outputs.publish_ready == 'true' && vars.CALENDAR_DEPLOY_ENABLED == 'true'
+        run: >-
+          python scripts/prepare_pages.py
+          --repo-root "$GITHUB_WORKSPACE"
+          --calendar-root "$GITHUB_WORKSPACE/veranstaltungen"
+          --output "$RUNNER_TEMP/calendar-pages"
+      - name: Pages-Ausgabe hochladen
+        id: pages-upload
+        if: always() && steps.stage.outcome == 'success'
+        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
+        with:
+          path: ${{ runner.temp }}/calendar-pages
+      - name: Unvollständige Quellen als fehlgeschlagenen Lauf kennzeichnen
+        if: always() && steps.etl.outcome != 'success'
+        run: exit 1
+
+  deploy:
+    needs: update
+    if: always() && needs.update.outputs.pages_ready == 'true' && vars.CALENDAR_DEPLOY_ENABLED == 'true'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Pages-Konfiguration prüfen
+        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
+      - name: Website veröffentlichen
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4

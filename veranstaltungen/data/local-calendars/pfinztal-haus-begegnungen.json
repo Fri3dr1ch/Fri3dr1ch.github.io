@@ -1,0 +1,24 @@
+{
+  "source": {
+    "id": "pfinztal-haus-begegnungen",
+    "name": "Pfinztal · Haus der Begegnungen",
+    "region": "Pfinztal-Söllingen",
+    "url": "https://pfinztal.de/familie-soziales/familien/haus-der-begegnungen/",
+    "status": "ok",
+    "lastAttemptAt": "2026-11-13T11:36:44+00:00",
+    "lastSuccessAt": "2026-11-13T11:36:44+00:00",
+    "refreshHours": 24,
+    "recordCount": 0,
+    "eventCount": 0,
+    "undatedCount": 0,
+    "coverageKind": "eventon-json",
+    "license": null,
+    "coverageStart": "2026-11-01",
+    "coverageEnd": "2027-04-30",
+    "coverageNote": "Öffentlicher Onlinekalender; abgefragtes Fenster 2026-11-01 bis 2027-04-30. Keine veröffentlichten Termine im abgerufenen Fenster.",
+    "allowEmpty": true,
+    "pagesFetched": 1
+  },
+  "events": [],
+  "undatedEvents": []
+}
