@@ -1,6 +1,7 @@
 from copy import deepcopy
 from datetime import date
 import json
+import os
 from pathlib import Path
 import sys
 import tempfile
@@ -170,7 +171,8 @@ class VenueTests(unittest.TestCase):
     def test_offline_pipeline_preserves_all_events_and_adds_review_to_existing_issue_flow(self):
         original=json.loads((ROOT/'dist/events.json').read_text());(self.root/'dist/index.html').write_text((ROOT/'dist/index.html').read_text())
         write(self.root/'dist/events.json',original)
-        with patch.object(update_calendar,'build_current',return_value=deepcopy(original)):
+        with patch.object(update_calendar,'build_current',return_value=deepcopy(original)), \
+             patch.dict(os.environ,{'GITHUB_STEP_SUMMARY':str(self.root/'test-summary.md')}):
             report=update_calendar.run(self.root,offline=True)
         actual=read(self.root/'dist/events.json',{})
         self.assertEqual([e['id'] for e in actual['events']],[e['id'] for e in original['events']])

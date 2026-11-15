@@ -10,6 +10,7 @@ from urllib.parse import parse_qsl,urljoin,urlsplit,urlunsplit
 from lxml import html
 
 URL='https://eki-groetzingen.de/terminkalender/'
+CMS_ALIAS='eki-groetzingen.eki-musterhausen.de'
 ORGANIZER='Evangelische Kirche in Grötzingen'
 
 def has_class(token):
@@ -38,11 +39,16 @@ def parse_listing(raw, *, allow_pagination=False):
             if clock:datetime.strptime(clock,'%H:%M')
         heading=one(box.xpath('.//div['+has_class('titel')+']//h5'),'Titel')
         link=one(heading.xpath('ancestor::a[1]'),'Terminlink')
-        url=urljoin(URL,link.get('href',''))
-        if urlsplit(url).scheme!='https' or urlsplit(url).netloc!=urlsplit(URL).netloc:
+        target=urlsplit(urljoin(URL,link.get('href','')))
+        origin=urlsplit(URL)
+        if target.scheme!='https' or target.netloc not in {origin.netloc,CMS_ALIAS}:
             raise ValueError('EKI: unerwartetes Terminlinkziel')
-        id_match=re.search(r'/terminkalender/detail/termin/id/(\d+)-',url)
+        id_match=re.fullmatch(r'/terminkalender/detail/termin/id/(\d+)-[^/]+/?',target.path)
         if not id_match:raise ValueError('EKI: Veranstaltungs-ID fehlt')
+        # The official listing sometimes emits its exact CMS tenant hostname.
+        # Publish the equivalent official event route; never fetch that alias or
+        # accept arbitrary tenant hosts. Event identity and CMS query stay intact.
+        url=urlunsplit((origin.scheme,origin.netloc,target.path,target.query,''))
         subtitle_nodes=box.xpath('.//div['+has_class('untertitel')+']')
         subtitle=text(one(subtitle_nodes,'Untertitel')) if subtitle_nodes else ''
         # This is a generic subtitle field, not a location field. Only explicit
@@ -81,7 +87,10 @@ def pagination(raw):
     origin=urlsplit(URL)
     for link in links:
         target=urlsplit(urljoin(URL,link.get('href')))
-        if (target.scheme,target.netloc,target.path)!=(origin.scheme,origin.netloc,origin.path):
+        # The CMS advertises the same calendar both with and without its final
+        # slash. Accept those exact two paths, never prefixes or other routes.
+        if ((target.scheme,target.netloc)!=(origin.scheme,origin.netloc)
+                or target.path not in {origin.path,origin.path.rstrip('/')}):
             raise ValueError('EKI: unerwartetes Paginierungsziel')
         query=parse_qsl(target.query,keep_blank_values=True)
         if len(query)!=1 or not re.fullmatch(r'pagerPage_[A-Za-z0-9]+',query[0][0]) or not re.fullmatch(r'[1-9]\d*',query[0][1]):
@@ -89,7 +98,7 @@ def pagination(raw):
         key,value=query[0];number=int(value)
         if number>100:raise ValueError('EKI: zu viele Ergebnisseiten')
         keys.add(key)
-        pages[number]=urlunsplit((target.scheme,target.netloc,target.path,target.query,''))
+        pages[number]=urlunsplit((origin.scheme,origin.netloc,origin.path,target.query,''))
         if link.get('aria-current')=='page':active.append(number)
     if links and (len(keys)!=1 or len(active)!=1):
         raise ValueError('EKI: Paginierungskennung oder aktive Seite ist mehrdeutig')

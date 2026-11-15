@@ -123,8 +123,10 @@ class LocalCalendarTests(unittest.TestCase):
         self.assertEqual(len(combine_local_sources(empty,snapshots)['events']),1)
 
     def test_unknown_time_is_not_claimed_to_be_all_day(self):
-        data=json.loads((ROOT/'data/local-calendars/durlach.json').read_text())
-        unknown=[e for e in data['events'] if not e['startTime']]
-        self.assertTrue(unknown);self.assertTrue(all(not e['timeKnown'] and not e['allDay'] for e in unknown))
+        record={'recordId':'unknown-time','title':'Termin ohne Uhrzeit','startDate':'2026-11-15',
+                'location':'Karlsburg','url':'https://www.durlacher.de/durlacher-kalender'}
+        event=imp.event(imp.SOURCES['durlach'],record,STAMP)
+        self.assertIsNone(event['startTime'])
+        self.assertFalse(event['timeKnown']);self.assertFalse(event['allDay'])
 
 if __name__=='__main__':unittest.main()

@@ -8,6 +8,7 @@ ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
 import regional_calendars as regional
 import import_local_calendars as imp
+from fixture_sources import historical_dataset
 from urllib.parse import parse_qs,urlsplit
 from lxml import etree,html
 
@@ -122,13 +123,20 @@ class RegionalTests(unittest.TestCase):
             with self.assertRaises(ValueError):parser(b'<main>Unexpected markup</main>')
 
     def test_merged_groetzingen_memorial_uses_corrected_organizer_time(self):
-        data=imp.build_current(ROOT,'2026-11-12T15:00:00+00:00')
+        data=historical_dataset()
         event=next(e for e in data['events'] if e['id']=='groetzingen-jahresprogramm-annual-2026-130')
         self.assertEqual(event['startTime'],'11:30');self.assertEqual(event['sourceId'],'eki-groetzingen')
         self.assertEqual({r['value'] for r in event['conflicts'][0]['alternatives']},{'11:00','11:30'})
 
+    def test_expired_organizer_report_is_not_required_in_a_rolling_source(self):
+        data=historical_dataset(exclude=('eki-groetzingen',))
+        event=next(e for e in data['events'] if e['id']=='groetzingen-jahresprogramm-annual-2026-130')
+        self.assertEqual(event['startTime'],'11:00')
+        self.assertEqual(event['sourceId'],'groetzingen-jahresprogramm')
+        self.assertFalse(any(s['sourceId']=='eki-groetzingen' for s in event['sources']))
+
     def test_culturehall_duplicates_merge_without_merging_simultaneous_council(self):
-        data=imp.build_current(ROOT,'2026-11-12T15:00:00+00:00')
+        data=historical_dataset()
         sing=[e for e in data['events'] if 'Sing A Song' in e['title'] and e['startDate']=='2026-11-20']
         self.assertEqual(len(sing),1);self.assertEqual(len(sing[0]['sources']),2)
         self.assertEqual(sing[0]['availability'],'sold-out')
@@ -137,7 +145,7 @@ class RegionalTests(unittest.TestCase):
         self.assertEqual(len(gospel),1);self.assertEqual(len(council),1);self.assertNotEqual(gospel[0]['id'],council[0]['id'])
 
     def test_confirmed_empty_source_is_retained_and_pdf_ambiguity_stays_separate(self):
-        data=imp.build_current(ROOT,'2026-11-12T15:00:00+00:00')
+        data=historical_dataset()
         source=next(s for s in data['sources'] if s['id']=='pfinztal-haus-begegnungen')
         self.assertEqual(source['status'],'ok');self.assertEqual(source['recordCount'],0)
         unknown=[e for e in data['undatedEvents'] if e['sourceId']=='pfinztal-vereine']
