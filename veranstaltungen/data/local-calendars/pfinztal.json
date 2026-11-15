@@ -5,11 +5,11 @@
     "region": "Pfinztal",
     "url": "https://pfinztal.de/aktuelles-blog/termine-und-veranstaltungen/",
     "status": "ok",
-    "lastAttemptAt": "2026-11-15T06:46:29+00:00",
-    "lastSuccessAt": "2026-11-15T06:46:29+00:00",
+    "lastAttemptAt": "2026-11-15T18:07:41+00:00",
+    "lastSuccessAt": "2026-11-15T18:07:41+00:00",
     "refreshHours": 24,
-    "recordCount": 4,
-    "eventCount": 4,
+    "recordCount": 3,
+    "eventCount": 3,
     "undatedCount": 0,
     "coverageKind": "eventon-json",
     "license": null,
@@ -20,56 +20,6 @@
     "pagesFetched": 1
   },
   "events": [
-    {
-      "id": "pfinztal-18154-0r-2026-11-15-1130",
-      "sourceId": "pfinztal",
-      "sourceName": "Pfinztal · Gemeindetermine",
-      "title": "Volkstrauertag 2026",
-      "url": "https://pfinztal.de/events/volkstrauertag-2026/",
-      "icalUrl": null,
-      "region": "Pfinztal",
-      "city": null,
-      "categoryKey": "stadtleben",
-      "category": "Stadtleben",
-      "description": "",
-      "organizer": "",
-      "location": "Friedhof Söllingen",
-      "start": "2026-11-15T11:30:00+01:00",
-      "end": "2026-11-15T12:30:00+01:00",
-      "startDate": "2026-11-15",
-      "endDate": "2026-11-15",
-      "startTime": "11:30",
-      "endTime": "12:30",
-      "timeKnown": true,
-      "allDay": false,
-      "longRunning": false,
-      "scheduleNote": "",
-      "openingSchedule": null,
-      "openingOccurrences": null,
-      "status": "scheduled",
-      "dataQuality": "html-calendar",
-      "availability": null,
-      "detailCheckedAt": "2026-11-15T06:46:29+00:00",
-      "sources": [
-        {
-          "url": "https://pfinztal.de/events/volkstrauertag-2026/",
-          "recordId": "18154-0r",
-          "title": "Volkstrauertag 2026",
-          "startDate": "2026-11-15",
-          "endDate": "2026-11-15",
-          "startTime": "11:30",
-          "endTime": "12:30",
-          "dateText": "15.11.2026",
-          "timeText": "11:30 - 12:30(GMT+01:00)",
-          "sourceId": "pfinztal",
-          "sourceName": "Pfinztal · Gemeindetermine",
-          "reportedTitle": "Volkstrauertag 2026",
-          "checkedAt": "2026-11-15T06:46:29+00:00",
-          "priority": 2
-        }
-      ],
-      "conflicts": []
-    },
     {
       "id": "pfinztal-17588-0r-2026-11-19-1900",
       "sourceId": "pfinztal",
@@ -99,7 +49,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-15T06:46:29+00:00",
+      "detailCheckedAt": "2026-11-15T18:07:41+00:00",
       "sources": [
         {
           "url": "https://pfinztal.de/events/wintergeheimnis-mit-maerchenerzaehlerin-jutta-scherzinger/",
@@ -114,7 +64,7 @@
           "sourceId": "pfinztal",
           "sourceName": "Pfinztal · Gemeindetermine",
           "reportedTitle": "Wintergeheimnis mit Märchenerzählerin Jutta Scherzinger",
-          "checkedAt": "2026-11-15T06:46:29+00:00",
+          "checkedAt": "2026-11-15T18:07:41+00:00",
           "priority": 2
         }
       ],
@@ -149,7 +99,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-15T06:46:29+00:00",
+      "detailCheckedAt": "2026-11-15T18:07:41+00:00",
       "sources": [
         {
           "url": "https://pfinztal.de/events/digital-unterwegs-und-sicher-im-alltag-informationsveranstaltung-fuer-seniorinnen-und-senioren/",
@@ -164,7 +114,7 @@
           "sourceId": "pfinztal",
           "sourceName": "Pfinztal · Gemeindetermine",
           "reportedTitle": "Digital unterwegs und sicher im Alltag - Informationsveranstaltung für Seniorinnen und Senioren",
-          "checkedAt": "2026-11-15T06:46:29+00:00",
+          "checkedAt": "2026-11-15T18:07:41+00:00",
           "priority": 2
         }
       ],
@@ -199,7 +149,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-15T06:46:29+00:00",
+      "detailCheckedAt": "2026-11-15T18:07:41+00:00",
       "sources": [
         {
           "url": "https://pfinztal.de/events/pfinztaler-weihnachtsmarkt/",
@@ -214,7 +164,7 @@
           "sourceId": "pfinztal",
           "sourceName": "Pfinztal · Gemeindetermine",
           "reportedTitle": "Pfinztaler Weihnachtsmarkt",
-          "checkedAt": "2026-11-15T06:46:29+00:00",
+          "checkedAt": "2026-11-15T18:07:41+00:00",
           "priority": 2
         }
       ],

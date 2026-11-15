@@ -9171,6 +9171,292 @@
     "Badischer Kunstverein, Karlsruhe": {
       "checkedAt": "2026-11-15T09:17:28+00:00",
       "error": "URLError: <urlopen error timed out>"
+    },
+    "Stadtbibliothek karlsruhe - Stadtteilbibliothek Mühlburg, Karlsruhe": {
+      "checkedAt": "2026-11-15T18:08:58+00:00",
+      "places": [
+        {
+          "id": "osm-node-348003957",
+          "name": "Stadtteilbibliothek Mühlburg",
+          "latitude": 49.010018,
+          "longitude": 8.3603485,
+          "address": "Weinbrennerstraße 79a, 76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/348003957",
+          "category": "amenity",
+          "type": "library",
+          "street": "Weinbrennerstraße",
+          "houseNumber": "79a"
+        }
+      ]
+    },
+    "Stadtbibliothek Karlsruhe - Kinder- und Jugendbibliothek im Prinz-Max-Palais, Karlsruhe": {
+      "checkedAt": "2026-11-15T18:08:58+00:00",
+      "places": [
+        {
+          "id": "osm-node-375691054",
+          "name": "Kinder- und Jugendbibliothek im Prinz-Max-Palais",
+          "latitude": 49.0112378,
+          "longitude": 8.3948222,
+          "address": "Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/375691054",
+          "category": "amenity",
+          "type": "library",
+          "street": "Karlstraße",
+          "houseNumber": "10"
+        }
+      ]
+    },
+    "Kinemathek Karlsruhe, Kaiserpassage 6,76133 Karlsruhe, Karlsruhe": {
+      "checkedAt": "2026-11-15T18:08:58+00:00",
+      "places": [
+        {
+          "id": "osm-node-30969701",
+          "name": "Kinemathek",
+          "latitude": 49.010561,
+          "longitude": 8.3968591,
+          "address": "Kaiserpassage 6, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/30969701",
+          "category": "amenity",
+          "type": "cinema",
+          "street": "Kaiserpassage",
+          "houseNumber": "6"
+        }
+      ]
+    },
+    "Saumarkt Durlach, Durlach": {
+      "checkedAt": "2026-11-15T18:08:58+00:00",
+      "places": [
+        {
+          "id": "osm-node-2733473647",
+          "name": "Bauernmarkt Durlach",
+          "latitude": 48.9988247,
+          "longitude": 8.4708768,
+          "address": "Saumarkt, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/2733473647",
+          "category": "amenity",
+          "type": "marketplace",
+          "street": "Saumarkt",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-4333375",
+          "name": "Saumarkt",
+          "latitude": 48.9987769,
+          "longitude": 8.4708623,
+          "address": "76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/4333375",
+          "category": "highway",
+          "type": "pedestrian",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Treffpunkt: Eingang Trimm-dich-Pfad im Freizeitgebiet Breitheide, Weingarten (Baden)": {
+      "checkedAt": "2026-11-15T18:08:58+00:00",
+      "places": []
+    },
+    "Kirchplatz St. Stephan, Karlsruhe": {
+      "checkedAt": "2026-11-15T18:08:58+00:00",
+      "places": [
+        {
+          "id": "osm-way-160611127",
+          "name": "Kirchplatz St. Stephan",
+          "latitude": 49.0087829,
+          "longitude": 8.3986347,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/160611127",
+          "category": "place",
+          "type": "square",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Karlsburg, Durlach": {
+      "checkedAt": "2026-11-15T18:08:58+00:00",
+      "places": [
+        {
+          "id": "osm-way-23229362",
+          "name": "Karlsburg",
+          "latitude": 48.998476,
+          "longitude": 8.4738226,
+          "address": "Pfinztalstraße 9, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/23229362",
+          "category": "building",
+          "type": "public",
+          "street": "Pfinztalstraße",
+          "houseNumber": "9"
+        },
+        {
+          "id": "osm-node-5782635777",
+          "name": "Karlsburg",
+          "latitude": 48.998607,
+          "longitude": 8.4744796,
+          "address": "Karlsburgstraße, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/5782635777",
+          "category": "highway",
+          "type": "bus_stop",
+          "street": "Karlsburgstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-764051158",
+          "name": "Karlsburg",
+          "latitude": 48.9988286,
+          "longitude": 8.4740299,
+          "address": "Pfinztalstraße 9, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/764051158",
+          "category": "amenity",
+          "type": "toilets",
+          "street": "Pfinztalstraße",
+          "houseNumber": "9"
+        },
+        {
+          "id": "osm-node-10294884305",
+          "name": "Trausaal Karlsburg Standesamt Durlach",
+          "latitude": 48.9988361,
+          "longitude": 8.4739368,
+          "address": "Pfinztalstraße 9, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/10294884305",
+          "category": "office",
+          "type": "government",
+          "street": "Pfinztalstraße",
+          "houseNumber": "9"
+        },
+        {
+          "id": "osm-node-1673731922",
+          "name": "Karlsburg Cafe",
+          "latitude": 48.9992282,
+          "longitude": 8.4739474,
+          "address": "Pfinztalstraße 22, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1673731922",
+          "category": "amenity",
+          "type": "cafe",
+          "street": "Pfinztalstraße",
+          "houseNumber": "22"
+        }
+      ]
+    },
+    "LUIS LEU - experimentelle Kunstplattform, Karlsruhe": {
+      "checkedAt": "2026-11-15T18:08:58+00:00",
+      "places": []
+    },
+    "Römermuseum Remchingen, Remchingen": {
+      "checkedAt": "2026-11-15T18:08:58+00:00",
+      "places": [
+        {
+          "id": "osm-way-267676211",
+          "name": "Römermuseum",
+          "latitude": 48.9403782,
+          "longitude": 8.5704938,
+          "address": "Niemandsberg 4, 75196 Wilferdingen",
+          "url": "https://www.openstreetmap.org/way/267676211",
+          "category": "tourism",
+          "type": "museum",
+          "street": "Niemandsberg",
+          "houseNumber": "4"
+        },
+        {
+          "id": "osm-node-2161577105",
+          "name": "Wilferdingen Römermuseum",
+          "latitude": 48.9405146,
+          "longitude": 8.5716272,
+          "address": "Nöttinger Straße, 75196 Wilferdingen",
+          "url": "https://www.openstreetmap.org/node/2161577105",
+          "category": "highway",
+          "type": "bus_stop",
+          "street": "Nöttinger Straße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Kronenplatz, Karlsruhe": {
+      "checkedAt": "2026-11-15T18:08:58+00:00",
+      "places": [
+        {
+          "id": "osm-relation-1823563",
+          "name": "Kronenplatz",
+          "latitude": 49.0085838,
+          "longitude": 8.4091911,
+          "address": "76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/1823563",
+          "category": "place",
+          "type": "square",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-1134647418",
+          "name": "Kronenplatz",
+          "latitude": 49.0092328,
+          "longitude": 8.4093468,
+          "address": "76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1134647418",
+          "category": "highway",
+          "type": "pedestrian",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-543209198",
+          "name": "Kronenplatz",
+          "latitude": 49.008833,
+          "longitude": 8.4091067,
+          "address": "76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/543209198",
+          "category": "highway",
+          "type": "footway",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-486790595",
+          "name": "Kronenplatz",
+          "latitude": 49.0082277,
+          "longitude": 8.4107831,
+          "address": "Zähringerstraße, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/486790595",
+          "category": "amenity",
+          "type": "parking",
+          "street": "Zähringerstraße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Zentrum für Kunst und Medien (ZKM) | Vortragssaal, Karlsruhe": {
+      "checkedAt": "2026-11-15T18:08:58+00:00",
+      "places": [
+        {
+          "id": "osm-way-224089410",
+          "name": "ZKM | Zentrum für Kunst und Medien",
+          "latitude": 49.0012852,
+          "longitude": 8.3836005,
+          "address": "Lorenzstraße 19, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/224089410",
+          "category": "amenity",
+          "type": "arts_centre",
+          "street": "Lorenzstraße",
+          "houseNumber": "19"
+        }
+      ]
+    },
+    "Friedhofskapelle, Weingarten (Baden)": {
+      "checkedAt": "2026-11-15T18:08:58+00:00",
+      "places": [
+        {
+          "id": "osm-way-194113441",
+          "name": "Friedhofskapelle",
+          "latitude": 49.053982,
+          "longitude": 8.535501,
+          "address": "Steigweg, 76356 Weingarten",
+          "url": "https://www.openstreetmap.org/way/194113441",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Steigweg",
+          "houseNumber": ""
+        }
+      ]
     }
   },
   "attribution": {
