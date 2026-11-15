@@ -1,10 +1,39 @@
-# Ortszuordnung vor der Kartenansicht
+# Ortszuordnung und Kartenansicht
 
 Der Import ordnet Spielorte automatisch zu, ohne Termindaten zu entfernen oder
-die veröffentlichte Ortsangabe zu ersetzen. Eine Karte ist noch nicht eingebaut.
+die veröffentlichte Ortsangabe zu ersetzen. Die Ansicht „Karte“ verwendet die
+bereits zugeordneten Orte und ist unabhängig von noch offenen Prüfungen nutzbar.
 Nur `venue.status = resolved` enthält einen Kartenpunkt. Fehlende Angaben,
 ähnliche Namen und mehrere mögliche Orte werden ohne Koordinate veröffentlicht.
 Es gibt keinen Ersatzpunkt am Rathaus oder in der Ortsmitte.
+
+## Karte benutzen
+
+„Monat“, „Liste“ und „Karte“ teilen dieselben Quellen-, Kategorie- und Suchfilter.
+Die Karte zeigt den gewählten Monat oder einen ausgewählten Tag. Explizite
+Hausöffnungstage werden berücksichtigt; die Laufzeit einer Ausstellung bedeutet
+weiterhin keine tägliche Öffnung. Ein Kartenpunkt bündelt die Termine desselben
+Orts, bewahrt aber unterschiedliche Uhrzeiten und sämtliche Veranstaltungsdetails.
+Jeder Ort lässt sich auch über die begleitende Liste auswählen.
+
+Der Hinweis über der Karte nennt die Zahl der zugeordneten und der noch nicht
+zugeordneten Termine für die aktuelle Auswahl. Termine ohne Punkt bleiben in
+Monat und Liste enthalten. Auf Touchgeräten ist das Verschieben der Karte zunächst
+ausgeschaltet, damit die Seite normal scrollt. „Karte bedienen“ aktiviert es;
+„Kartenbedienung beenden“ gibt die gewohnte Seitennavigation wieder frei.
+
+Leaflet 1.9.4 wird mit Lizenz aus `dist/assets/leaflet/` mitgeliefert und erst beim
+Öffnen der Kartenansicht geladen. Der Kartenhintergrund nutzt standardmäßig
+`https://tile.openstreetmap.org/{z}/{x}/{y}.png`. Es werden nur sichtbare Ausschnitte
+geladen, keine Karten vorab oder für Offline-Pakete. Browser-Caching und Referer
+bleiben erhalten, die OSM-Quellenangabe ist sichtbar. Ein anderer OSM-kompatibler
+Anbieter lässt sich mit `data-tile-url` am Element `map-canvas` konfigurieren;
+dessen zusätzliche Lizenzanforderungen sind dann ebenfalls zu berücksichtigen.
+Siehe [OSM Tile Usage Policy](https://operations.osmfoundation.org/policies/tiles/).
+
+Bei einer nicht erreichbaren Hintergrundkarte oder Kartenbibliothek bleiben die
+Orts- und Terminlisten bedienbar. Die normale Kalenderansicht benötigt den
+Kartendienst nicht.
 
 ## Einmalige Prüfung
 
