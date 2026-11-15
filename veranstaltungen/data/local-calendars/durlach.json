@@ -5,269 +5,19 @@
     "region": "Durlach und Umgebung",
     "url": "https://www.durlacher.de/durlacher-kalender",
     "status": "ok",
-    "lastAttemptAt": "2026-11-14T22:29:39+00:00",
-    "lastSuccessAt": "2026-11-14T22:29:39+00:00",
+    "lastAttemptAt": "2026-11-15T06:40:38+00:00",
+    "lastSuccessAt": "2026-11-15T06:40:38+00:00",
     "refreshHours": 24,
-    "recordCount": 34,
-    "eventCount": 34,
+    "recordCount": 31,
+    "eventCount": 31,
     "pagesFetched": 1,
     "coverageKind": "html-list",
-    "coverageStart": "2026-11-14",
+    "coverageStart": "2026-11-15",
     "coverageEnd": "2026-12-21",
     "coverageNote": "Veröffentlichte Vorschau der Durlacher Kalenderübersicht; kein vollständiger Jahreskalender.",
     "license": null
   },
   "events": [
-    {
-      "id": "durlach-12082-2026-11-14-0800",
-      "sourceId": "durlach",
-      "sourceName": "Durlacher.de · Durlacher Kalender",
-      "title": "Adventsmarkt in der HWK Gärtnerei",
-      "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12082&tx_events2_events%5Btimestamp%5D=1794639600&cHash=e39ffe47db12b143a9f3747bef6349d1",
-      "icalUrl": null,
-      "region": "Durlach und Umgebung",
-      "city": null,
-      "categoryKey": "stadtleben",
-      "category": "Stadtleben",
-      "description": "Veranstalter: Hagsfelder Werkstätten und Wohngemeinschaften gGmbh (HWK)",
-      "organizer": "Hagsfelder Werkstätten und Wohngemeinschaften gGmbh (HWK)",
-      "location": "HWK Gärtnerei, Am Viehweg 15 (Grötzingen)",
-      "start": "2026-11-14T08:00:00+01:00",
-      "end": "2026-11-14T18:00:00+01:00",
-      "startDate": "2026-11-14",
-      "endDate": "2026-11-14",
-      "startTime": "08:00",
-      "endTime": "18:00",
-      "timeKnown": true,
-      "allDay": false,
-      "longRunning": false,
-      "scheduleNote": "",
-      "openingSchedule": null,
-      "openingOccurrences": null,
-      "status": "scheduled",
-      "dataQuality": "html-calendar",
-      "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
-      "sources": [
-        {
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12082&tx_events2_events%5Btimestamp%5D=1794639600&cHash=e39ffe47db12b143a9f3747bef6349d1",
-          "recordId": "12082",
-          "title": "Adventsmarkt in der HWK Gärtnerei",
-          "startDate": "2026-11-14",
-          "endDate": "2026-11-14",
-          "startTime": "08:00",
-          "endTime": "18:00",
-          "dateText": "Sa. 14.11.2026\n\n\t\n\n\n\t\t\n\t\t\n\t\t\t- 08:00 Uhr",
-          "timeText": "Samstag, 14.11.2026 - 08:00 Uhr Ende : 18:00",
-          "sourceId": "durlach",
-          "sourceName": "Durlacher.de · Durlacher Kalender",
-          "reportedTitle": "Adventsmarkt in der HWK Gärtnerei",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
-          "priority": 2
-        }
-      ],
-      "conflicts": []
-    },
-    {
-      "id": "durlach-12089-2026-11-14-0900",
-      "sourceId": "durlach",
-      "sourceName": "Durlacher.de · Durlacher Kalender",
-      "title": "Charity-Papiermarkt",
-      "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12089&tx_events2_events%5Btimestamp%5D=1794643200&cHash=f400b491f10a506b79d4b819085a0d49",
-      "icalUrl": null,
-      "region": "Durlach und Umgebung",
-      "city": null,
-      "categoryKey": "stadtleben",
-      "category": "Stadtleben",
-      "description": "Veranstalter: siehe Beschreibung",
-      "organizer": "siehe Beschreibung",
-      "location": "Durlach (siehe Beschreibung)",
-      "start": "2026-11-14T09:00:00+01:00",
-      "end": "2026-11-14T15:00:00+01:00",
-      "startDate": "2026-11-14",
-      "endDate": "2026-11-14",
-      "startTime": "09:00",
-      "endTime": "15:00",
-      "timeKnown": true,
-      "allDay": false,
-      "longRunning": false,
-      "scheduleNote": "",
-      "openingSchedule": null,
-      "openingOccurrences": null,
-      "status": "scheduled",
-      "dataQuality": "html-calendar",
-      "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
-      "sources": [
-        {
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12089&tx_events2_events%5Btimestamp%5D=1794643200&cHash=f400b491f10a506b79d4b819085a0d49",
-          "recordId": "12089",
-          "title": "Charity-Papiermarkt",
-          "startDate": "2026-11-14",
-          "endDate": "2026-11-14",
-          "startTime": "09:00",
-          "endTime": "15:00",
-          "dateText": "Sa. 14.11.2026\n\n\t\n\n\n\t\t\n\t\t\n\t\t\t- 09:00 Uhr",
-          "timeText": "Samstag, 14.11.2026 - 09:00 Uhr Ende : 15:00",
-          "sourceId": "durlach",
-          "sourceName": "Durlacher.de · Durlacher Kalender",
-          "reportedTitle": "Charity-Papiermarkt",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
-          "priority": 2
-        }
-      ],
-      "conflicts": []
-    },
-    {
-      "id": "durlach-12094-2026-11-14-1300",
-      "sourceId": "durlach",
-      "sourceName": "Durlacher.de · Durlacher Kalender",
-      "title": "Skimarkt der Ski-Zunft Durlach",
-      "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12094&tx_events2_events%5Btimestamp%5D=1794657600&cHash=0e878f85fc389ce3d66beea440b2621b",
-      "icalUrl": null,
-      "region": "Durlach und Umgebung",
-      "city": null,
-      "categoryKey": "stadtleben",
-      "category": "Stadtleben",
-      "description": "Veranstalter: Ski-Zunft Durlach e.V.",
-      "organizer": "Ski-Zunft Durlach e.V.",
-      "location": "Traube Durlach Marstallstraße 8 76227 Karlsruhe",
-      "start": "2026-11-14T13:00:00+01:00",
-      "end": "2026-11-14T15:00:00+01:00",
-      "startDate": "2026-11-14",
-      "endDate": "2026-11-14",
-      "startTime": "13:00",
-      "endTime": "15:00",
-      "timeKnown": true,
-      "allDay": false,
-      "longRunning": false,
-      "scheduleNote": "",
-      "openingSchedule": null,
-      "openingOccurrences": null,
-      "status": "scheduled",
-      "dataQuality": "html-calendar",
-      "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
-      "sources": [
-        {
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12094&tx_events2_events%5Btimestamp%5D=1794657600&cHash=0e878f85fc389ce3d66beea440b2621b",
-          "recordId": "12094",
-          "title": "Skimarkt der Ski-Zunft Durlach",
-          "startDate": "2026-11-14",
-          "endDate": "2026-11-14",
-          "startTime": "13:00",
-          "endTime": "15:00",
-          "dateText": "Sa. 14.11.2026\n\n\t\n\n\n\t\t\n\t\t\n\t\t\t- 13:00 Uhr",
-          "timeText": "Samstag, 14.11.2026 - 13:00 Uhr Ende : 15:00",
-          "sourceId": "durlach",
-          "sourceName": "Durlacher.de · Durlacher Kalender",
-          "reportedTitle": "Skimarkt der Ski-Zunft Durlach",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
-          "priority": 2
-        }
-      ],
-      "conflicts": []
-    },
-    {
-      "id": "durlach-12087-2026-11-14-1700",
-      "sourceId": "durlach",
-      "sourceName": "Durlacher.de · Durlacher Kalender",
-      "title": "Sankt-Martins-Umzug",
-      "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12087&tx_events2_events%5Btimestamp%5D=1794672000&cHash=990cb3ae3886774b9cf3e0102d59532d",
-      "icalUrl": null,
-      "region": "Durlach und Umgebung",
-      "city": null,
-      "categoryKey": "stadtleben",
-      "category": "Stadtleben",
-      "description": "Veranstalter: Wirtschaftsvereinigung DurlacherLeben e.V.",
-      "organizer": "Wirtschaftsvereinigung DurlacherLeben e.V.",
-      "location": "Durlacher Schlossgarten",
-      "start": "2026-11-14T17:00:00+01:00",
-      "end": null,
-      "startDate": "2026-11-14",
-      "endDate": "2026-11-14",
-      "startTime": "17:00",
-      "endTime": null,
-      "timeKnown": true,
-      "allDay": false,
-      "longRunning": false,
-      "scheduleNote": "",
-      "openingSchedule": null,
-      "openingOccurrences": null,
-      "status": "scheduled",
-      "dataQuality": "html-calendar",
-      "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
-      "sources": [
-        {
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12087&tx_events2_events%5Btimestamp%5D=1794672000&cHash=990cb3ae3886774b9cf3e0102d59532d",
-          "recordId": "12087",
-          "title": "Sankt-Martins-Umzug",
-          "startDate": "2026-11-14",
-          "endDate": "2026-11-14",
-          "startTime": "17:00",
-          "endTime": null,
-          "dateText": "Sa. 14.11.2026\n\n\t\n\n\n\t\t\n\t\t\n\t\t\t- 17:00 Uhr",
-          "timeText": "Samstag, 14.11.2026 - 17:00 Uhr",
-          "sourceId": "durlach",
-          "sourceName": "Durlacher.de · Durlacher Kalender",
-          "reportedTitle": "Sankt-Martins-Umzug",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
-          "priority": 2
-        }
-      ],
-      "conflicts": []
-    },
-    {
-      "id": "durlach-12091-2026-11-14-1930",
-      "sourceId": "durlach",
-      "sourceName": "Durlacher.de · Durlacher Kalender",
-      "title": "Meisterin der Orgel: Sara Musumeci (Konzert)",
-      "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12091&tx_events2_events%5Btimestamp%5D=1794681000&cHash=a887ffdd3cc51f1178e91964f30333ee",
-      "icalUrl": null,
-      "region": "Durlach und Umgebung",
-      "city": null,
-      "categoryKey": "musik",
-      "category": "Musik",
-      "description": "Veranstalter: Musik an der Stadtkirche Durlach",
-      "organizer": "Musik an der Stadtkirche Durlach",
-      "location": "Stadtkirche Durlach (ev.) Marktplatz (Durlach) 76227 Karlsruhe",
-      "start": "2026-11-14T19:30:00+01:00",
-      "end": null,
-      "startDate": "2026-11-14",
-      "endDate": "2026-11-14",
-      "startTime": "19:30",
-      "endTime": null,
-      "timeKnown": true,
-      "allDay": false,
-      "longRunning": false,
-      "scheduleNote": "",
-      "openingSchedule": null,
-      "openingOccurrences": null,
-      "status": "scheduled",
-      "dataQuality": "html-calendar",
-      "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
-      "sources": [
-        {
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12091&tx_events2_events%5Btimestamp%5D=1794681000&cHash=a887ffdd3cc51f1178e91964f30333ee",
-          "recordId": "12091",
-          "title": "Meisterin der Orgel: Sara Musumeci (Konzert)",
-          "startDate": "2026-11-14",
-          "endDate": "2026-11-14",
-          "startTime": "19:30",
-          "endTime": null,
-          "dateText": "Sa. 14.11.2026\n\n\t\n\n\n\t\t\n\t\t\n\t\t\t- 19:30 Uhr",
-          "timeText": "Samstag, 14.11.2026 - 19:30 Uhr",
-          "sourceId": "durlach",
-          "sourceName": "Durlacher.de · Durlacher Kalender",
-          "reportedTitle": "Meisterin der Orgel: Sara Musumeci (Konzert)",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
-          "priority": 2
-        }
-      ],
-      "conflicts": []
-    },
     {
       "id": "durlach-11554-2026-11-15-1130",
       "sourceId": "durlach",
@@ -297,7 +47,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11554&tx_events2_events%5Btimestamp%5D=1794738600&cHash=6328b6561f6ca3b91a0ffdfcfce5c827",
@@ -312,7 +62,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Volkstrauertag Feierstunde (Durlach)",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -347,7 +97,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11555&tx_events2_events%5Btimestamp%5D=1794738600&cHash=5fb6f9e46d7c80124ab5c348521e6ba6",
@@ -362,7 +112,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Volkstrauertag Feierstunde (Aue)",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -397,7 +147,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12041&tx_events2_events%5Btimestamp%5D=1794992400&cHash=b5fe4b101329ea48498bc7bc2aa709a0",
@@ -412,7 +162,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Durlacher Lesecafé",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -447,7 +197,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11776&tx_events2_events%5Btimestamp%5D=1795026600&cHash=dc189173e0ee84a20dc3cf864cbbf69f",
@@ -462,7 +212,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Geselliger Museumsabend",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -497,7 +247,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11995&tx_events2_events%5Btimestamp%5D=1795026600&cHash=a67ac0c3c645a0d0d62a172b814105f2",
@@ -512,7 +262,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Ein Schlüssel zum Himmel",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -547,7 +297,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12092&tx_events2_events%5Btimestamp%5D=1795113000&cHash=5335169784daf835f3597b9396585d7d",
@@ -562,7 +312,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Donnerstagsreihe: Warum ein Papst die Rockmusik ersann (KonzertLesung)",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -597,7 +347,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11684&tx_events2_events%5Btimestamp%5D=1795154400&cHash=b117b16065f2ab5f0599479c375a98a8",
@@ -612,7 +362,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Altpapiersammlung (Bergwald)",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -647,7 +397,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12093&tx_events2_events%5Btimestamp%5D=1795273200&cHash=0fb37030950d9226b8c683fd22105e9e",
@@ -662,7 +412,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Benefizfest: „Wölfle, Wurst und Wein“",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -697,7 +447,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11850&tx_events2_events%5Btimestamp%5D=1795302000&cHash=19acf0e6def79676295aa7319fe2ed2d",
@@ -712,7 +462,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Versteigerung zu Gunsten der Bürgerstiftung",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -747,7 +497,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11651&tx_events2_events%5Btimestamp%5D=1795363200&cHash=bc48c4941441b14265855e2305e281a2",
@@ -762,7 +512,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Musikforum Durlach: Konzert in der Kirche",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -797,7 +547,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12026&tx_events2_events%5Btimestamp%5D=1795602600&cHash=a92387877ee2a3a950988de0e2e4ac2d",
@@ -812,7 +562,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Mittelalterlicher Weihnachtsmarkt",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -847,7 +597,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12025&tx_events2_events%5Btimestamp%5D=1795626000&cHash=ef7f4c6a829baee57e4c0d93dfeaeac5",
@@ -862,7 +612,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Mittelalterlicher Weihnachtsmarkt (Eröffnung)",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -897,7 +647,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12040&tx_events2_events%5Btimestamp%5D=1795705200&cHash=a2bdb491427a8f8d3cc02d1c5135261c",
@@ -912,7 +662,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Vorlesezeit mit Basteln",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -947,7 +697,7 @@
       "status": "cancelled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11763&tx_events2_events%5Btimestamp%5D=1795716000&cHash=3cdb770735e566166fc4804d9efcf2e6",
@@ -962,7 +712,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Fällt aus: Historischer Stammtisch",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -997,7 +747,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12030&tx_events2_events%5Btimestamp%5D=1795734000&cHash=935dda94e25d63bfd299120d921cdde9",
@@ -1012,7 +762,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Weihnachtsmarkt im Rathaus (1. Adventswochenende)",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -1047,7 +797,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11721&tx_events2_events%5Btimestamp%5D=1795786200&cHash=add67d660edc101d606c3e16f696a67f",
@@ -1062,7 +812,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Kaffeenachmittag „Gemeinsam statt einsam“",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -1097,7 +847,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12027&tx_events2_events%5Btimestamp%5D=1795795200&cHash=64eec14970ce0e2fe0df3ebd85411fc9",
@@ -1112,7 +862,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "ARTVENT#24: Kunst & Handwerk – Handwerk & Kunst (Eröffnung)",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -1147,7 +897,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12028&tx_events2_events%5Btimestamp%5D=1795798800&cHash=4286785d13ea783f3281fdfe3917dfad",
@@ -1162,7 +912,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Weihnachtsmarkt im Rathaus (Eröffnung)",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -1197,7 +947,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12029&tx_events2_events%5Btimestamp%5D=1795860000&cHash=b5de43a4da948d3df955edc9d7e94d85",
@@ -1212,7 +962,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "ARTVENT#24: Kunst & Handwerk – Handwerk & Kunst",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -1247,7 +997,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11638&tx_events2_events%5Btimestamp%5D=1795968000&cHash=71845c93ab436f50689c9c07df49977e",
@@ -1262,7 +1012,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Konzert der Durlacher Kantorei",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -1297,7 +1047,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12031&tx_events2_events%5Btimestamp%5D=1796338800&cHash=c59fafcd20958841c265d1cd3b158bbc",
@@ -1312,7 +1062,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Weihnachtsmarkt im Rathaus (2. Adventswochenende)",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -1347,7 +1097,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11987&tx_events2_events%5Btimestamp%5D=1796464800&cHash=4e1d13b8139146776c31f889a6b0c27b",
@@ -1362,7 +1112,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Minigottesdienst der Stadtkirche Durlach",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -1397,7 +1147,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11561&tx_events2_events%5Btimestamp%5D=1796493600&cHash=29ee6cf0564911f6a8f111f01b0e2a61",
@@ -1412,7 +1162,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Weihnachtsfeier des GV Aue",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -1447,7 +1197,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11639&tx_events2_events%5Btimestamp%5D=1796493600&cHash=45741e256a55e9ab2b3052b9965c6f08",
@@ -1462,7 +1212,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Weihnachtsoratorium-Singalong",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -1497,7 +1247,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12090&tx_events2_events%5Btimestamp%5D=1796821200&cHash=859dffee234b3363d3f1ded2d00bd2cb",
@@ -1512,7 +1262,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Seniorenweihnachtsfeier in der Festhalle",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -1547,7 +1297,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11511&tx_events2_events%5Btimestamp%5D=1796832000&cHash=d11f47ce91d4d2d2a55357d333883bfa",
@@ -1562,7 +1312,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Ortschaftsratssitzung",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -1597,7 +1347,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12032&tx_events2_events%5Btimestamp%5D=1796857200&cHash=04e8fb6ddfe7cb7b12f886557a875b14",
@@ -1612,7 +1362,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Weihnachtsmarkt im Rathaus (3. Adventswochenende)",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -1647,7 +1397,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11689&tx_events2_events%5Btimestamp%5D=1797058800&cHash=3327587c2d98e7aa3210f7a103e0cd4f",
@@ -1662,7 +1412,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Altpapiersammlung",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
@@ -1697,7 +1447,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-14T22:29:39+00:00",
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11559&tx_events2_events%5Btimestamp%5D=1797098400&cHash=fce6723535c8e21832d35020cdf98825",
@@ -1712,7 +1462,107 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Weihnachtsfeier der TG Aue",
-          "checkedAt": "2026-11-14T22:29:39+00:00",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
+          "priority": 2
+        }
+      ],
+      "conflicts": []
+    },
+    {
+      "id": "durlach-11560-2026-12-13-1600",
+      "sourceId": "durlach",
+      "sourceName": "Durlacher.de · Durlacher Kalender",
+      "title": "Kinderweihnachtsfeier der TG Aue",
+      "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11560&tx_events2_events%5Btimestamp%5D=1797174000&cHash=8c20876bc6043d739e5e57e161cbda66",
+      "icalUrl": null,
+      "region": "Durlach und Umgebung",
+      "city": null,
+      "categoryKey": "stadtleben",
+      "category": "Stadtleben",
+      "description": "Veranstalter: Turngemeinde Aue 1895 e.V.",
+      "organizer": "Turngemeinde Aue 1895 e.V.",
+      "location": "Vereinsheim am Rückhaltebecken",
+      "start": "2026-12-13T16:00:00+01:00",
+      "end": null,
+      "startDate": "2026-12-13",
+      "endDate": "2026-12-13",
+      "startTime": "16:00",
+      "endTime": null,
+      "timeKnown": true,
+      "allDay": false,
+      "longRunning": false,
+      "scheduleNote": "",
+      "openingSchedule": null,
+      "openingOccurrences": null,
+      "status": "scheduled",
+      "dataQuality": "html-calendar",
+      "availability": null,
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
+      "sources": [
+        {
+          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11560&tx_events2_events%5Btimestamp%5D=1797174000&cHash=8c20876bc6043d739e5e57e161cbda66",
+          "recordId": "11560",
+          "title": "Kinderweihnachtsfeier der TG Aue",
+          "startDate": "2026-12-13",
+          "endDate": "2026-12-13",
+          "startTime": "16:00",
+          "endTime": null,
+          "dateText": "So. 13.12.2026\n\n\t\n\n\n\t\t\n\t\t\n\t\t\t- 16:00 Uhr",
+          "timeText": "Sonntag, 13.12.2026 - 16:00 Uhr",
+          "sourceId": "durlach",
+          "sourceName": "Durlacher.de · Durlacher Kalender",
+          "reportedTitle": "Kinderweihnachtsfeier der TG Aue",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
+          "priority": 2
+        }
+      ],
+      "conflicts": []
+    },
+    {
+      "id": "durlach-11640-2026-12-13-1700",
+      "sourceId": "durlach",
+      "sourceName": "Durlacher.de · Durlacher Kalender",
+      "title": "Weihnachtssingen bei Kerzenschein",
+      "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11640&tx_events2_events%5Btimestamp%5D=1797177600&cHash=59d34833e26240c5ff3b7230b6eca9c8",
+      "icalUrl": null,
+      "region": "Durlach und Umgebung",
+      "city": null,
+      "categoryKey": "stadtleben",
+      "category": "Stadtleben",
+      "description": "Veranstalter: Musik an der Stadtkirche Durlach",
+      "organizer": "Musik an der Stadtkirche Durlach",
+      "location": "Stadtkirche Durlach (ev.) Marktplatz (Durlach) 76227 Karlsruhe",
+      "start": "2026-12-13T17:00:00+01:00",
+      "end": null,
+      "startDate": "2026-12-13",
+      "endDate": "2026-12-13",
+      "startTime": "17:00",
+      "endTime": null,
+      "timeKnown": true,
+      "allDay": false,
+      "longRunning": false,
+      "scheduleNote": "",
+      "openingSchedule": null,
+      "openingOccurrences": null,
+      "status": "scheduled",
+      "dataQuality": "html-calendar",
+      "availability": null,
+      "detailCheckedAt": "2026-11-15T06:40:38+00:00",
+      "sources": [
+        {
+          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11640&tx_events2_events%5Btimestamp%5D=1797177600&cHash=59d34833e26240c5ff3b7230b6eca9c8",
+          "recordId": "11640",
+          "title": "Weihnachtssingen bei Kerzenschein",
+          "startDate": "2026-12-13",
+          "endDate": "2026-12-13",
+          "startTime": "17:00",
+          "endTime": null,
+          "dateText": "So. 13.12.2026\n\n\t\n\n\n\t\t\n\t\t\n\t\t\t- 17:00 Uhr",
+          "timeText": "Sonntag, 13.12.2026 - 17:00 Uhr",
+          "sourceId": "durlach",
+          "sourceName": "Durlacher.de · Durlacher Kalender",
+          "reportedTitle": "Weihnachtssingen bei Kerzenschein",
+          "checkedAt": "2026-11-15T06:40:38+00:00",
           "priority": 2
         }
       ],
