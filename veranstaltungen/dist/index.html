@@ -3,7 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Veranstaltungen in Karlsruhe als Monatskalender und Terminliste, mit Suche, Kategorien und Links zur offiziellen Quelle.">
+  <meta name="description" content="Veranstaltungen in Karlsruhe und Umgebung als Kalender, Terminliste und Karte, mit Suche, Kategorien und Originalquellen.">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="stylesheet" href="assets/leaflet/leaflet.css">
   <meta name="theme-color" content="#f8f9fb">
   <title>Veranstaltungen in Karlsruhe und Umgebung</title>
   <style>
@@ -18,6 +20,14 @@
     @media(max-width:540px){.page{width:calc(100% - 28px)}h1{font-size:28px;letter-spacing:-.9px}.intro p{max-width:36ch}.draft{font-size:10px}.breadcrumb{font-size:11px;gap:7px}.source-strip{display:block}.source-strip>.external-link{margin-top:8px}.source-state .separator{display:none}.source-state #source-count{flex-basis:100%;margin-left:15px}.filters{padding:15px 0 17px;gap:10px}.segmented button{padding:6px 9px;font-size:12px}.segmented button .icon{width:14px}.field-label{font-size:11px}.month-navigation h2{font-size:19px;min-width:0}.month-navigation{display:grid;grid-template-columns:auto auto;gap:9px}.month-navigation .today-button{grid-column:2;grid-row:1}.month-navigation .nav-pair{grid-column:1;grid-row:1}.month-navigation h2{grid-column:1 / -1;grid-row:2}.calendar-toolbar{align-items:end;margin-bottom:12px}.month-count{max-width:133px;text-align:right;line-height:1.6}.calendar td{height:68px}.day{min-height:68px;padding:6px 3px;gap:3px;justify-content:flex-start}.day-top{justify-content:center;margin:0;min-height:25px}.date-number{font-size:13px}.day-count,.mini-event,.mini-more{display:none}.mobile-dots{display:flex;justify-content:center;gap:3px;align-items:center;min-height:12px}.mobile-dots .dot{width:4px;height:4px;border-radius:50%}.mobile-count{font-size:9px;color:#728294;margin-left:2px}.calendar th{text-align:center;padding:0;font-size:10px;height:30px}.calendar-help span{line-height:1.5}.legend{font-size:10px;gap:6px 13px}.coverage-note{font-size:11px;margin-top:13px;padding-top:10px}.ongoing-grid{grid-template-columns:1fr}.section-title{display:block}.section-title>span{display:block;margin-top:4px;font-size:11px}.ongoing-card{padding:13px 14px}.ongoing-intro{font-size:11px}.dialog-inner{padding:21px}.dialog-title{font-size:22px}.detail-actions{flex-direction:column}.primary-link,.secondary-link{justify-content:center}.source-details{font-size:11px}.source-details dl{display:block}.source-details dt{margin-top:7px;font-weight:600}.source-details dd{margin-top:2px}.notice{font-size:12px}.footer{font-size:10px}}
     @media(prefers-reduced-motion:no-preference){dialog[open]{animation:appear .15s ease-out}@keyframes appear{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}}
     @media print{.masthead,.filters,.nav-pair,.today-button,.agenda,.legend,.source-details,.show-more,.draft{display:none!important}.page{width:100%}.workspace{display:block}.calendar td{height:100px}.day{min-height:100px}.mini-event{white-space:normal}.coverage-note{font-size:10px}.ongoing-grid{grid-template-columns:1fr 1fr}dialog{display:none}}
+  </style>
+  <style id="map-styles">
+    .map-controls{display:flex;gap:12px;align-items:end;flex-wrap:wrap;margin:0 0 12px}.map-controls label{display:grid;gap:4px;font-size:12px;color:#536273}.map-controls select,.map-controls input{font:inherit;min-height:38px;padding:7px 10px;border:1px solid #cbd5df;border-radius:4px;background:#fff;color:#263e50}.map-summary{font-size:13px;color:#445c6e;line-height:1.6;margin:0 0 12px}.map-summary a{color:#286487;text-underline-offset:3px}.map-layout{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:16px;align-items:start}.map-frame{position:relative;isolation:isolate;z-index:0;background:#edf1f4;border:1px solid #cbd5df;border-radius:5px;overflow:hidden}.calendar-map{height:560px;width:100%;font-family:Arial,Helvetica,sans-serif}.calendar-map:focus-visible{outline:3px solid #c27813;outline-offset:-3px}.map-message{position:relative;z-index:1;background:#f5f8fa;font-size:12px;line-height:1.6;padding:10px 12px;color:#3e5668;border-top:1px solid #d6e0e7}.map-sidebar{background:#fff;border:1px solid #d3dce5;border-radius:5px;overflow:hidden}.map-sidebar-header{padding:14px 16px;border-bottom:1px solid #e1e7ed}.map-sidebar-header h3{font-size:16px;margin:0 0 6px}.map-sidebar-header p{font-size:12px;color:#607083;line-height:1.6;margin:6px 0}.map-place-list,.map-location-events{max-height:504px;overflow-y:auto;overscroll-behavior:auto}.map-place-row{display:flex;gap:12px;width:100%;padding:13px 14px;border:0;border-bottom:1px solid #e8edf1;background:#fff;text-align:left;color:#2d465b;align-items:center;cursor:pointer;font:inherit}.map-place-row:hover,.map-place-row:focus-visible{background:#edf5fa}.map-place-number{display:grid;place-items:center;flex:none;width:28px;height:28px;border:1px solid #34789b;border-radius:50%;font-size:12px;color:#245d7c}.map-place-body{display:grid;gap:4px;min-width:0}.map-place-body strong{font-size:13px;overflow-wrap:anywhere}.map-place-body small{font-size:11px;color:#607083}.map-event{display:block;width:100%;border:0;border-bottom:1px solid #e8edf1;background:#fff;text-align:left;padding:14px 16px;color:#2d465b;cursor:pointer;font:inherit}.map-event:hover,.map-event:focus-visible{background:#f4f8fb}.map-event .event-title{display:block;font-size:14px;margin:7px 0}.map-event .event-meta{display:block;font-size:11px;line-height:1.6;margin-bottom:6px}.map-event-date{display:block;font-size:12px;color:#536c7e}.map-pin{background:transparent;border:0}.map-pin-number{width:36px;height:36px;display:grid;place-items:center;border-radius:50%;background:#286c91;border:2px solid white;box-shadow:0 1px 5px #1d38455c;color:#fff;font:600 13px Arial,Helvetica,sans-serif}.map-pin.map-selected .map-pin-number{background:#9b5b13;box-shadow:0 0 0 3px #eac99b}.map-popup-title{font-weight:600;font-size:14px}.map-popup-meta{font-size:12px;margin:6px 0 0}.map-touch-toggle{display:none;margin:0 0 10px}.map-touch-toggle[aria-pressed=true]{background:#286487;color:#fff}.map-helper{font-size:12px;color:#607083;margin:12px 0;line-height:1.7}.map-empty{padding:18px;font-size:13px;color:#536c7e}.map-credit{font-size:11px;line-height:1.6;color:#607083;margin:10px 0}.map-credit a{color:#286487}.map-canvas-failed .calendar-map{height:120px}.map-canvas-failed .map-message{border-top:0}
+    .calendar-map:not(.map-interactive){touch-action:pan-y pinch-zoom}.calendar-map.map-interactive{touch-action:none}
+    @media(max-width:1000px){.map-layout{grid-template-columns:minmax(0,1fr) 300px}}
+    @media(max-width:800px){.map-layout{grid-template-columns:1fr}.calendar-map{height:410px;max-height:65vh}.map-place-list,.map-location-events{max-height:none;overflow:visible;overscroll-behavior:auto}.map-touch-toggle{display:inline-block}.map-controls{gap:10px}.map-controls select,.map-controls input{max-width:100%}}
+    @media(pointer:coarse){.map-touch-toggle{display:inline-block}}
+    @media print{#map-view{display:none!important}}
   </style>
 </head>
 <body>
@@ -52,12 +62,20 @@
       <p class="filter-help">Mehrfachauswahl möglich: Termine müssen zu mindestens einer gewählten Quelle und einer gewählten Kategorie passen.</p>
       <p id="notice" class="notice" role="status" hidden></p>
       <section id="kalender" aria-labelledby="month-title">
-        <div class="calendar-toolbar"><div class="month-navigation"><h2 id="month-title"></h2><div class="nav-pair"><button type="button" class="icon-button" id="previous-month" aria-label="Vorheriger Monat"><svg class="icon" aria-hidden="true"><use href="#i-prev"/></svg></button><button type="button" class="icon-button" id="next-month" aria-label="Nächster Monat"><svg class="icon" aria-hidden="true"><use href="#i-next"/></svg></button></div><button type="button" class="subtle-button today-button" id="today">Heute</button></div><div class="view-field"><span class="field-label" id="view-label">Ansicht</span><div class="segmented" role="group" aria-labelledby="view-label"><button type="button" id="month-view-button" aria-pressed="true"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>Monat</button><button type="button" id="list-view-button" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="#i-list"/></svg>Liste</button></div></div><p class="month-count" id="month-count" role="status" aria-live="polite"></p></div>
+        <div class="calendar-toolbar"><div class="month-navigation"><h2 id="month-title"></h2><div class="nav-pair"><button type="button" class="icon-button" id="previous-month" aria-label="Vorheriger Monat"><svg class="icon" aria-hidden="true"><use href="#i-prev"/></svg></button><button type="button" class="icon-button" id="next-month" aria-label="Nächster Monat"><svg class="icon" aria-hidden="true"><use href="#i-next"/></svg></button></div><button type="button" class="subtle-button today-button" id="today">Heute</button></div><div class="view-field"><span class="field-label" id="view-label">Ansicht</span><div class="segmented" role="group" aria-labelledby="view-label"><button type="button" id="month-view-button" aria-pressed="true"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>Monat</button><button type="button" id="list-view-button" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="#i-list"/></svg>Liste</button><button type="button" id="map-view-button" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>Karte</button></div></div><p class="month-count" id="month-count" role="status" aria-live="polite"></p></div>
         <div class="workspace" id="month-view">
           <div><div class="calendar-panel"><table class="calendar" aria-labelledby="month-title" aria-describedby="calendar-help"><thead><tr><th scope="col"><abbr title="Montag">Mo</abbr></th><th scope="col"><abbr title="Dienstag">Di</abbr></th><th scope="col"><abbr title="Mittwoch">Mi</abbr></th><th scope="col"><abbr title="Donnerstag">Do</abbr></th><th scope="col"><abbr title="Freitag">Fr</abbr></th><th scope="col"><abbr title="Samstag">Sa</abbr></th><th scope="col"><abbr title="Sonntag">So</abbr></th></tr></thead><tbody id="calendar-body"></tbody></table><p class="calendar-help" id="calendar-help"><svg class="icon" aria-hidden="true"><use href="#i-info"/></svg><span>Tag auswählen, um alle Termine zu sehen. Navigation auch mit den Pfeiltasten.</span></p></div><div class="legend" id="legend" aria-label="Kategoriefarben"></div></div>
           <aside class="agenda" aria-labelledby="agenda-title"><div class="agenda-header"><p class="eyebrow" id="agenda-weekday"></p><h3 id="agenda-title"></h3><p class="agenda-subtitle" id="agenda-subtitle"></p></div><div class="agenda-events" id="agenda-events"></div></aside>
         </div>
         <div class="list-view" id="list-view" hidden></div>
+        <section id="map-view" aria-label="Veranstaltungen auf der Karte" hidden>
+          <div class="map-controls"><label>Zeitraum<select id="map-period"><option value="month">Gesamter Monat</option><option value="day">Ausgewählter Tag</option></select></label><label id="map-day-field" hidden>Tag<input id="map-date" type="date"></label><button id="map-fit" class="subtle-button" type="button">Alle Orte zeigen</button></div>
+          <p id="map-summary" class="map-summary" aria-live="polite"></p>
+          <button id="map-touch" type="button" class="subtle-button map-touch-toggle" aria-pressed="false">Karte bedienen</button>
+          <div class="map-layout"><div class="map-frame" id="map-frame"><div id="map-canvas" class="calendar-map" role="region" aria-label="Kartenpunkte der gefilterten Veranstaltungen" aria-describedby="map-help" tabindex="0"></div><p id="map-message" class="map-message" role="status" hidden></p></div><aside class="map-sidebar" aria-labelledby="map-location-title"><div class="map-sidebar-header"><button id="map-back" class="subtle-button" type="button" hidden>Alle Orte</button><h3 id="map-location-title" tabindex="-1">Orte auf der Karte</h3><p id="map-location-address"></p></div><div id="map-places" class="map-place-list"></div><div id="map-events" class="map-location-events" hidden></div></aside></div>
+          <p id="map-help" class="map-helper">Wähle einen Kartenpunkt oder einen Ort in der Liste, um seine Termine zu sehen. Auf dem Handy kannst du die Seite über der Karte normal scrollen. Zum Verschieben der Karte schalte „Karte bedienen“ ein. Bei laufenden Angeboten gelten die konkreten Öffnungs- und Vorstellungszeiten der Quelle.</p>
+          <p class="map-credit">Kartenhintergrund und OSM-Ortsdaten: <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">© OpenStreetMap contributors · ODbL</a>. Ortsbelege bleiben an den Terminen erhalten. <a href="https://www.openstreetmap.org/fixthemap" target="_blank" rel="noopener noreferrer">Kartenfehler melden</a>.</p>
+        </section>
         <p class="coverage-note" id="coverage-note"></p>
       </section>
       <section class="ongoing" aria-labelledby="ongoing-title"><div class="section-title"><h2 id="ongoing-title">Laufende Angebote <span id="ongoing-count"></span></h2><span id="ongoing-month"></span></div><p class="ongoing-intro">Längere Ausstellungen und regelmäßige Angebote. Die Laufzeit bedeutet keine tägliche Öffnung; konkrete Termine stehen bei der Quelle.</p><div class="ongoing-grid" id="ongoing-grid"></div><button class="show-more" id="more-ongoing" type="button" hidden></button></section>
@@ -196,6 +214,78 @@
     if(!ongoing.length)target.append(el('p','ongoing-empty','Keine laufenden Angebote für diesen Monat und diese Filter.'));
     $('more-ongoing').hidden=ongoing.length<=4;$('more-ongoing').textContent=expanded?'Weniger anzeigen':'Alle '+ongoing.length+' laufenden Angebote anzeigen';$('more-ongoing').setAttribute('aria-expanded',String(expanded));
   }
+  let venueMap=null,venueLayer=null,mapLibraryPromise=null,mapRenderId=0,mapGroups=[],mapMarkers=new Map(),mapSelection=null,mapExtentKey='',mapTouchMode=false,mapPeriod='month';
+  const coarsePointer=()=>!!window.matchMedia?.('(pointer:coarse)').matches||window.innerWidth<=800;
+  const validMapPlace=e=>{const p=e.venue?.place;return e.venue?.status==='resolved'&&p&&typeof p.id==='string'&&p.id&&typeof p.latitude==='number'&&typeof p.longitude==='number'&&Number.isFinite(p.latitude)&&Number.isFinite(p.longitude)&&Math.abs(p.latitude)<=85&&Math.abs(p.longitude)<=180;};
+  function mapMessage(text){$('map-message').textContent=text;$('map-message').hidden=!text;}
+  function leafletLibrary(){
+    if(window.L?.map)return Promise.resolve(window.L);
+    if(mapLibraryPromise)return mapLibraryPromise;
+    mapLibraryPromise=new Promise((resolve,reject)=>{
+      const script=document.createElement('script');script.src='assets/leaflet/leaflet.js';script.async=true;
+      const timeout=setTimeout(()=>{script.remove();reject(new Error('Kartenbibliothek nicht erreichbar'));},8000);
+      script.onload=()=>{clearTimeout(timeout);window.L?.map?resolve(window.L):reject(new Error('Kartenbibliothek fehlt'));};
+      script.onerror=()=>{clearTimeout(timeout);script.remove();reject(new Error('Kartenbibliothek nicht erreichbar'));};document.head.append(script);
+    }).catch(error=>{mapLibraryPromise=null;throw error;});
+    return mapLibraryPromise;
+  }
+  function mapInteraction(){
+    const active=!coarsePointer()||mapTouchMode;$('map-canvas').classList.toggle('map-interactive',active);
+    if(venueMap)for(const name of ['dragging','touchZoom','doubleClickZoom'])venueMap[name]?.[active?'enable':'disable']();
+    $('map-touch').setAttribute('aria-pressed',String(mapTouchMode));$('map-touch').textContent=mapTouchMode?'Kartenbedienung beenden':'Karte bedienen';
+  }
+  function fitMap(){
+    if(!venueMap||!mapGroups.length)return;
+    const points=mapGroups.map(g=>[g.place.latitude,g.place.longitude]);
+    if(points.length===1)venueMap.setView(points[0],14,{animate:false});else venueMap.fitBounds(points,{padding:[26,26],maxZoom:13,animate:false});
+  }
+  function mapPlaceList(){
+    $('map-back').hidden=true;$('map-location-title').textContent='Orte auf der Karte';$('map-location-address').textContent='Die Zahlen entsprechen den Kartenpunkten.';$('map-places').hidden=false;$('map-events').hidden=true;
+    const list=$('map-places');list.replaceChildren();
+    for(const g of mapGroups){const button=el('button','map-place-row');button.type='button';button.dataset.mapPlace=g.id;button.setAttribute('aria-label',g.place.name+', '+countText(g.events.length)+'. Termine anzeigen');const body=el('span','map-place-body');body.append(el('strong','',g.place.name),el('small','',countText(g.events.length)+(g.place.address?' · '+g.place.address:'')));button.append(el('span','map-place-number',String(g.number)),body);button.addEventListener('click',()=>selectMapPlace(g.id,true));list.append(button);}
+    if(!mapGroups.length)list.append(el('p','map-empty','Für diese Auswahl sind noch keine Orte zugeordnet. Die Termine bleiben in Monat und Liste verfügbar.'));
+  }
+  function selectMapPlace(id,pan){
+    const g=mapGroups.find(g=>g.id===id);if(!g)return;mapSelection=id;
+    $('map-back').hidden=false;$('map-location-title').textContent=g.place.name;$('map-location-address').replaceChildren(document.createTextNode(g.place.address||''));
+    const link=el('a','','Kartenpunkt auf OpenStreetMap öffnen');link.href='https://www.openstreetmap.org/?mlat='+g.place.latitude+'&mlon='+g.place.longitude+'#map=18/'+g.place.latitude+'/'+g.place.longitude;link.target='_blank';link.rel='noopener noreferrer';$('map-location-address').append(document.createElement('br'),link);
+    $('map-places').hidden=true;const target=$('map-events');target.hidden=false;target.replaceChildren();
+    for(const e of g.events){const button=el('button','map-event');button.type='button';button.dataset.event=e.id;button.append(el('span','map-event-date',range(e)+(e.longRunning?(e.timeKnown?' · Beginn laut Quelle: '+e.startTime+' Uhr':' · Laufendes Angebot'):' · '+timeText(e,mapPeriod==='day'?selected:e.startDate))),el('span','event-title'+(e.status==='cancelled'?' cancelled':''),e.title),el('span','event-meta',displayLocation(e)),categoryTag(e));if(e.conflicts?.length)button.append(el('span','source-conflict','Abweichende Quellenangaben'));if(e.status==='cancelled')button.append(el('span','cancel-label','Abgesagt laut Quelle'));if(e.status==='postponed')button.append(el('span','source-conflict','Verschoben · neuer Termin offen'));target.append(button);}
+    target.scrollTop=0;
+    for(const [key,marker] of mapMarkers){const node=marker.getElement?.();node?.classList.toggle('map-selected',key===id);node?.setAttribute('aria-pressed',String(key===id));}
+    if(pan)$('map-location-title').focus({preventScroll:true});
+    if(pan&&venueMap){venueMap.setView([g.place.latitude,g.place.longitude],Math.max(venueMap.getZoom(),14),{animate:false});mapMarkers.get(id)?.openPopup();}
+  }
+  async function drawMap(filtered){
+    const revision=++mapRenderId;$('map-date').value=selected;$('map-day-field').hidden=mapPeriod!=='day';
+    const relevant=filtered.filter(e=>mapPeriod==='day'?onDay(e,selected):intersect(e,key(month),key(monthEnd(month))));
+    const mapped=relevant.filter(validMapPlace),grouped=new Map();
+    for(const e of mapped){const p=e.venue.place;let g=grouped.get(p.id);if(!g){g={id:p.id,place:p,events:[]};grouped.set(p.id,g);}if(!g.events.some(other=>other.id===e.id))g.events.push(e);}
+    mapGroups=[...grouped.values()].sort((a,b)=>a.place.name.localeCompare(b.place.name,'de')||a.id.localeCompare(b.id));mapGroups.forEach((g,i)=>{g.number=i+1;g.events.sort((a,b)=>a.startDate.localeCompare(b.startDate)||order(a,b));});
+    const summary=$('map-summary');summary.replaceChildren(document.createTextNode(countText(mapped.length)+' an '+mapGroups.length+' Orten mit Kartenpunkt · '+(relevant.length-mapped.length)+' weitere Termine ohne zugeordneten Ort. '));
+    const reviewLink=el('a','','Ortsangaben ergänzen');reviewLink.href='orte-pruefen.html';summary.append(reviewLink);
+    if(mapSelection&&!grouped.has(mapSelection))mapSelection=null;
+    if(mapSelection)selectMapPlace(mapSelection,false);else mapPlaceList();
+    if(!mapGroups.length){venueLayer?.clearLayers();mapMarkers.clear();$('map-frame').classList.add('map-canvas-failed');mapMessage('Für diesen Zeitraum und diese Filter sind noch keine Kartenpunkte verfügbar.');return;}
+    $('map-frame').classList.remove('map-canvas-failed');mapMessage(venueMap?'':'Karte wird geladen …');
+    try{
+      const L=await leafletLibrary();if(view!=='map'||revision!==mapRenderId)return;
+      if(!venueMap){
+        venueMap=L.map('map-canvas',{center:[49.015,8.48],zoom:11,maxZoom:19,scrollWheelZoom:false,dragging:!coarsePointer(),touchZoom:!coarsePointer(),doubleClickZoom:!coarsePointer(),keyboard:true});
+        const tiles=L.tileLayer($('map-canvas').dataset.tileUrl||'https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,updateWhenIdle:true,keepBuffer:1,referrerPolicy:'strict-origin-when-cross-origin',attribution:'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors'});
+        tiles.on('tileerror',()=>mapMessage('Die Hintergrundkarte konnte nicht vollständig geladen werden. Orte und Termine stehen weiterhin in der Liste.'));tiles.on('tileload',()=>mapMessage(''));tiles.addTo(venueMap);venueLayer=L.layerGroup().addTo(venueMap);
+      }
+      venueMap.invalidateSize({pan:false});mapInteraction();venueLayer.clearLayers();mapMarkers.clear();
+      for(const g of mapGroups){
+        const pin=L.divIcon({className:'map-pin',html:'<span class="map-pin-number">'+g.number+'</span>',iconSize:[36,36],iconAnchor:[18,18],popupAnchor:[0,-18]});
+        const popup=el('div');popup.append(el('p','map-popup-title',g.place.name),el('p','map-popup-meta',countText(g.events.length)+(g.place.address?' · '+g.place.address:'')));
+        const marker=L.marker([g.place.latitude,g.place.longitude],{icon:pin,title:g.place.name+', '+countText(g.events.length),alt:g.place.name,keyboard:true}).bindPopup(popup).on('click',()=>selectMapPlace(g.id,false)).addTo(venueLayer);mapMarkers.set(g.id,marker);
+      }
+      const extent=mapGroups.map(g=>g.id+':'+g.place.latitude+','+g.place.longitude).join('|');if(extent!==mapExtentKey){mapExtentKey=extent;fitMap();}
+      if(mapSelection)selectMapPlace(mapSelection,false);mapMessage('');
+    }catch(_){if(view==='map'&&revision===mapRenderId){$('map-frame').classList.add('map-canvas-failed');mapMessage('Die Karte ist gerade nicht verfügbar. Du kannst alle zugeordneten Orte und ihre Termine in der Liste auswählen.');}}
+  }
+
   function uncertainPeriod(e){
     const dates=[...new Set((e.dateCandidates||[]).filter(s=>/^\d{4}-\d{2}-\d{2}$/.test(s)&&!isNaN(fromKey(s))&&key(fromKey(s))===s))].sort();
     if(dates.length){
@@ -217,8 +307,9 @@
   function render(){
     const filtered=events.filter(matches),short=filtered.filter(e=>!e.longRunning),first=key(month),last=key(monthEnd(month)),inMonth=short.filter(e=>intersect(e,first,last)),ongoing=filtered.filter(e=>e.longRunning&&intersect(e,first,last));
     $('month-title').textContent=format(month,{month:'long',year:'numeric'});$('month-count').textContent=countText(inMonth.length)+' · '+ongoing.length+' laufende Angebote';
-    $('month-view').hidden=view!=='month';$('list-view').hidden=view!=='list';$('month-view-button').setAttribute('aria-pressed',String(view==='month'));$('list-view-button').setAttribute('aria-pressed',String(view==='list'));
+    $('month-view').hidden=view!=='month';$('list-view').hidden=view!=='list';$('map-view').hidden=view!=='map';for(const name of ['month','list','map'])$(name+'-view-button').setAttribute('aria-pressed',String(view===name));
     drawCalendar(short);drawAgenda(short);if(view==='list')drawList(short);drawOngoing(ongoing);drawLegend(short);drawUndated();drawCoverage();
+    if(view==='map')drawMap(filtered);else mapRenderId++;
   }
   function changeMonth(delta){month=new Date(Date.UTC(month.getUTCFullYear(),month.getUTCMonth()+delta,1,12));const day=Math.min(fromKey(selected).getUTCDate(),monthEnd(month).getUTCDate());selected=key(new Date(Date.UTC(month.getUTCFullYear(),month.getUTCMonth(),day,12)));expanded=false;render();}
   function resetFilters(){$('search').value='';for(const id of ['category','source-filter'])for(const input of filterInputs(id))input.checked=true;applyFilters();}
@@ -271,6 +362,10 @@
   details.append(el('dt','','Zusammengeführt'),el('dd','',(data.importStats?.deduplicatedRecords||0)+' mehrfach geführte Einträge; alle Quellen bleiben am Termin sichtbar.'));
   $('filters').addEventListener('submit',event=>event.preventDefault());$('search').addEventListener('input',()=>{expanded=false;render();});$('category').addEventListener('change',applyFilters);$('source-filter').addEventListener('change',event=>{if(event.target===group)for(const input of filterInputs('source-filter'))if(input.value.startsWith('groetzingen'))input.checked=group.checked;applyFilters();});
   $('month-view-button').addEventListener('click',()=>{view='month';render();});$('list-view-button').addEventListener('click',()=>{view='list';render();});$('previous-month').addEventListener('click',()=>changeMonth(-1));$('next-month').addEventListener('click',()=>changeMonth(1));$('today').addEventListener('click',()=>{selected=today;month=monthStart(fromKey(today));expanded=false;render();});
+  $('map-view-button').addEventListener('click',()=>{view='map';render();});$('map-period').addEventListener('change',()=>{mapPeriod=$('map-period').value;render();});
+  $('map-date').addEventListener('change',()=>{const value=$('map-date').value;if(!/^\d{4}-\d{2}-\d{2}$/.test(value)||Number.isNaN(fromKey(value).getTime())||key(fromKey(value))!==value)return;selected=value;month=monthStart(fromKey(value));mapPeriod='day';$('map-period').value='day';render();});
+  $('map-fit').addEventListener('click',fitMap);$('map-back').addEventListener('click',()=>{mapSelection=null;venueMap?.closePopup();for(const marker of mapMarkers.values()){const node=marker.getElement?.();node?.classList.remove('map-selected');node?.setAttribute('aria-pressed','false');}mapPlaceList();fitMap();$('map-places').querySelector('button')?.focus({preventScroll:true});});
+  $('map-touch').addEventListener('click',()=>{mapTouchMode=!mapTouchMode;mapInteraction();});window.addEventListener('resize',()=>{if(venueMap)mapInteraction();});
   $('more-ongoing').addEventListener('click',()=>{expanded=!expanded;drawOngoing(events.filter(e=>e.longRunning&&matches(e)&&intersect(e,key(month),key(monthEnd(month)))));});
   document.addEventListener('click',event=>{if(!event.target.closest('.multi-filter'))for(const options of document.querySelectorAll('.multi-filter'))options.open=false;const detail=event.target.closest('[data-event]');if(detail){showDetails(detail.dataset.event);return;}const day=event.target.closest('[data-day]');if(day){selected=day.dataset.day;month=monthStart(fromKey(selected));render();$('calendar-body').querySelector('[data-day="'+selected+'"]').focus({preventScroll:true});}});
   $('calendar-body').addEventListener('keydown',event=>{const target=event.target.closest('[data-day]');if(!target)return;const steps={ArrowLeft:-1,ArrowRight:1,ArrowUp:-7,ArrowDown:7};let next;if(event.key in steps)next=addDays(target.dataset.day,steps[event.key]);else if(event.key==='Home')next=addDays(target.dataset.day,-((fromKey(target.dataset.day).getUTCDay()+6)%7));else if(event.key==='End')next=addDays(target.dataset.day,6-((fromKey(target.dataset.day).getUTCDay()+6)%7));else if(event.key==='PageUp'||event.key==='PageDown'){event.preventDefault();changeMonth(event.key==='PageUp'?-1:1);$('calendar-body').querySelector('[data-day="'+selected+'"]').focus({preventScroll:true});return;}else return;event.preventDefault();selected=next;month=monthStart(fromKey(selected));render();$('calendar-body').querySelector('[data-day="'+selected+'"]').focus({preventScroll:true});});

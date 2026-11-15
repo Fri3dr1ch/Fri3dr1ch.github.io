@@ -1,5 +1,11 @@
 # Veranstaltungskalender Karlsruhe und Umgebung
 
+Die Ansicht „Karte“ zeigt bereits zugeordnete Veranstaltungsorte, gefiltert nach
+Monat oder Tag, Quellen, Kategorien und Suche. Neue Ortszuordnungen werden
+automatisch ergänzt; offene Fälle blockieren die Karte nicht. Einmal bestätigte
+Orte gelten auch für neue Termine. Ablauf und Entscheidungsexport sind in
+[docs/ORTSZUORDNUNG.md](docs/ORTSZUORDNUNG.md) beschrieben.
+
 Statischer Kalender aus 15 getrennt nachvollziehbaren Quellen. Der gemeinsame
 Produktionsaufruf aktualisiert RSS/iCalendar, regionale Kalender und die
 Änderungsprüfungen der manuell kontrollierten Grötzinger Quellen. Die

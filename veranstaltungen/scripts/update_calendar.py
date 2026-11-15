@@ -15,6 +15,7 @@ from import_local_calendars import SOURCES, refresh, build_current
 import karlsruhe
 from pdf_checks import check as check_pdfs, load_extracts
 from validate_calendar import validate, validate_files
+from venue_locations import enrich as locate_venues, render_review, review_problem
 
 
 def now():
@@ -77,6 +78,12 @@ def markdown(report):
              '| Quelle | Status | Letzter erfolgreicher Abruf |', '| --- | --- | --- |']
     for s in report['sources']:
         lines.append(f"| {s['name'].replace('|', '/')} | {s['status']} | {s.get('lastSuccessAt') or 'kein gültiger Stand'} |")
+    if report.get('venueStats'):
+        stats = report['venueStats']
+        counts = stats['eventStatuses']
+        lines += ['', f"Ortszuordnung: {counts.get('resolved', 0)} von {stats['upcomingEvents']} aktuellen oder kommenden Terminen haben einen sicheren Kartenpunkt. {stats['venueStatuses'].get('review', 0)} Ortsangaben stehen zur Prüfung."]
+        if report.get('venueLookup', {}).get('failures'):
+            lines += ['', 'Zusätzliche Ortssuche nach Netzfehlern ausgesetzt; gespeicherte Zuordnungen bleiben verfügbar.']
     if report['issues']:
         lines += ['', '## Offene Prüfungen und Fehler', '']
         for item in report['issues']:
@@ -125,10 +132,19 @@ def run(root, selected='all', offline=False, jobs=3, client=None, report_dir=Non
             attempted += list(checks)
             for sid, result in checks.items(): print(sid + ': ' + result['status'], flush=True)
     data = build_current(root, now())
+    venue_review = locate_venues(data, root, datetime.now(BERLIN).date(), online=not offline)
     validate(data)
     save_dataset(data, root)
     validate_files(root)
     report = report_for(data, started, attempted)
+    if venue_review:
+        render_review(root, venue_review)
+        report['venueStats'] = venue_review['stats']
+        report['venueLookup'] = venue_review['lookup']
+        config = read_json(root / 'data/venues/config.json')
+        problem = review_problem(venue_review, config['reviewUrl'])
+        if problem: report['issues'].append(problem)
+        else: report['resolvedKeys'].append('review:venues')
     folder = report_dir or root / '.etl'
     write_json(folder / 'report.json', report)
     summary = markdown(report)

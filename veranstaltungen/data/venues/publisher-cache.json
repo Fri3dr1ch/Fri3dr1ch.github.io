@@ -1,0 +1,515 @@
+{
+  "schemaVersion": 1,
+  "locations": {
+    "venue-00563f8c9777928c5fb4": {
+      "checkedAt": "2026-11-15T09:10:52+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-878",
+          "name": "Ev. Kirche Wössingen ",
+          "address": "Weinbrennerstraße  8, 75045 Walzbachtal",
+          "latitude": 49.01213875585,
+          "longitude": 8.6109144686998,
+          "url": "https://www.walzbachtal.de/adresse/Ev-Kirche-Woessingen-address878",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Oekumenischer-Gottesdienst-zum-Volkstrauertag-event-appointment4611",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-54554902f52b5a844870": {
+      "checkedAt": "2026-11-15T09:11:01+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-2663",
+          "name": "Aussegnungshalle Jöhlingen",
+          "address": "Kaiserstuhlweg 2, 75045 Walzbachtal",
+          "latitude": 49.030193917673,
+          "longitude": 8.5709077119827,
+          "url": "https://www.walzbachtal.de/adresse/Aussegnungshalle-Joehlingen-address2663",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Gemeinschaftskonzert-am-Volkstrauertag-event-appointment4815",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-a320cec499b522deeffe": {
+      "checkedAt": "2026-11-15T09:11:07+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-1118",
+          "name": "Bürgertreff Jöhlingen ",
+          "address": "Jöhlinger Straße  51, 75045 Walzbachtal",
+          "latitude": 49.02980485,
+          "longitude": 8.5766385869193,
+          "url": "https://www.walzbachtal.de/adresse/Buergertreff-Joehlingen-address1118",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Menschen-mit-Demenz-verstehen-Kompaktkurs-fuer-betroffene-Angehoerige-und-Interessierte-event-appointment5464",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-afd2712fc8173d394c08": {
+      "checkedAt": "2026-11-15T09:11:13+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-990",
+          "name": "Wössinger Hof",
+          "address": "Wössinger Straße  27, 75045 Walzbachtal",
+          "latitude": 49.010641252336,
+          "longitude": 8.6109745502472,
+          "url": "https://www.walzbachtal.de/adresse/Woessinger-Hof-address990",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Cafe-International-event-appointment5675",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-faf18dd329cc3c2bf6b6": {
+      "checkedAt": "2026-11-15T09:11:19+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-2787",
+          "name": "Jahnhalle Jöhlingen",
+          "address": "Jahnstraße 34, 75045 Walzbachtal",
+          "latitude": 49.0267938,
+          "longitude": 8.5820269,
+          "url": "https://www.walzbachtal.de/adresse/Jahnhalle-Joehlingen-address2787",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Line-Dance-Party-event-appointment4795",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-69192942f606f77ef935": {
+      "checkedAt": "2026-11-15T09:11:25+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-891",
+          "name": "Seniorenzentrum \"Im Kronengarten\"",
+          "address": "Im Kronengarten 1, 75045 Walzbachtal",
+          "latitude": 49.0121394,
+          "longitude": 8.6078961886197,
+          "url": "https://www.walzbachtal.de/adresse/Seniorenzentrum-Im-Kronengarten-address891",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Cafeteria-im-Kronengarten-event-appointment5417",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-573ec4f448ac63c1cf98": {
+      "checkedAt": "2026-11-15T09:11:30+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-2785",
+          "name": "Kirchplatz Jöhlingen ",
+          "address": "Kirchplatz  , 75045 Walzbachtal",
+          "latitude": 49.0320427,
+          "longitude": 8.5719645,
+          "url": "https://www.walzbachtal.de/adresse/Kirchplatz-Joehlingen-address2785",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Walzbachtaler-Weihnachtsmarkt-Rund-um-den-Speyerer-Hof-event-appointment4812",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-92fc7f897d175608b035": {
+      "checkedAt": "2026-11-15T09:11:36+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-1671",
+          "name": "Böhnlichhalle",
+          "address": "Seilerweg 5, 75045 Walzbachtal",
+          "latitude": 49.0120905,
+          "longitude": 8.612493296813,
+          "url": "https://www.walzbachtal.de/adresse/Boehnlichhalle-address1671",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Nikolausfeier-event-appointment5258",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-7cc2adb6eb6ca2a2730c": {
+      "checkedAt": "2026-11-15T09:11:41+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-2831",
+          "name": "Rathausplatz",
+          "address": "Wössinger Str. 26-28, 75045 Walzbachtal",
+          "latitude": 49.01130355,
+          "longitude": 8.6116123192603,
+          "url": "https://www.walzbachtal.de/adresse/Rathausplatz-address2831",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Nikolaus-Lichterfahrt-2026-event-appointment4531",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-c63c5309c4dbcc013b2b": {
+      "checkedAt": "2026-11-15T09:11:47+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-1745",
+          "name": "JuZe Walzbachtal",
+          "address": "Wössinger Straße 27, 75045 Walzbachtal",
+          "latitude": 49.010577917083,
+          "longitude": 8.6110818386078,
+          "url": "https://www.walzbachtal.de/adresse/JuZe-Walzbachtal-address1745",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Spieleabend-mit-Walzbachtal-Hilft-event-appointment4555",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-f58b014966ba05efe9ee": {
+      "checkedAt": "2026-11-15T09:11:53+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-2786",
+          "name": "Martinussaal Jöhlingen ",
+          "address": "Bahnhofsstraße 74, 75045 Walzbachtal",
+          "latitude": 49.031924370084,
+          "longitude": 8.5731875896454,
+          "url": "https://www.walzbachtal.de/adresse/Martinussaal-Joehlingen-address2786",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Theaterabende-event-appointment4762",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-1f83c837aa89ab87fec5": {
+      "checkedAt": "2026-11-15T09:11:58+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-2799",
+          "name": "Lammsaal Jöhlingen ",
+          "address": "Jöhlinger Str.  104, 75045 Walzbachtal",
+          "latitude": 49.0506214,
+          "longitude": 8.5450335918892,
+          "url": "https://www.walzbachtal.de/adresse/Lammsaal-Joehlingen-address2799",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Weihnachtsfeier-Gesangverein-Frohsinn-event-appointment4605",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-3d151306cfc18863304c": {
+      "checkedAt": "2026-11-15T09:12:04+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-924",
+          "name": "Neuer Friedhof Jöhlingen",
+          "address": "Kaiserstuhlweg 2, 75045 Walzbachtal-Jöhlingen",
+          "latitude": 49.030281145235,
+          "longitude": 8.5706942082106,
+          "url": "https://www.walzbachtal.de/adresse/Neuer-Friedhof-Joehlingen-address924",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Weihnachtliche-Klaenge-auf-dem-Neuen-Friedhof-Joehlingen-event-appointment4614",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-48276bda0bffdd20a92e": {
+      "checkedAt": "2026-11-15T09:12:09+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-874",
+          "name": "Kath. Kirche St. Martin Jöhlingen",
+          "address": "Kirchplatz 2, 75045 Walzbachtal",
+          "latitude": 49.032156499365,
+          "longitude": 8.5731339454651,
+          "url": "https://www.walzbachtal.de/adresse/Kath-Kirche-St-Martin-Joehlingen-address874",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Sternsingeraktion-event-appointment5862",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-0b387d3c33cdeb06d415": {
+      "checkedAt": "2026-11-15T09:12:14+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-706",
+          "name": "Ev. Kirche Jöhlingen ",
+          "address": "Leonorenweg 7, 75045 Walzbachtal",
+          "latitude": 49.031589539337,
+          "longitude": 8.5702875852257,
+          "url": "https://www.walzbachtal.de/adresse/Ev-Kirche-Joehlingen-address706",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Schuld-macht-Sinn-Schuldvorwuerfe-in-Trauerprozessen-neu-verstehen-event-appointment5509",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-56c1e8a52537288537fe": {
+      "checkedAt": "2026-11-15T09:12:19+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-2727",
+          "name": "Schulsporthalle Jöhlingen",
+          "address": "Friedhofstraße  17, 75045 Walzbachtal",
+          "latitude": 49.0321055,
+          "longitude": 8.571479,
+          "url": "https://www.walzbachtal.de/adresse/Schulsporthalle-Joehlingen-address2727",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Blutspende-in-Joehlingen-event-appointment5783",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-64c0926c6c1dabd42834": {
+      "checkedAt": "2026-11-15T09:12:24+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-2797",
+          "name": "Vereinsheim Bulldog und Oldtimer Team WÖ",
+          "address": "Hans-Thoma-Weg  3, 75045 Walzbachtal",
+          "latitude": 49.0099272,
+          "longitude": 8.6077842743582,
+          "url": "https://www.walzbachtal.de/adresse/Vereinsheim-Bulldog-und-Oldtimer-Team-WOe-address2797",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Jahreshauptversammlung-2027-event-appointment5804",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-db9b137b31ce7ffb6c50": {
+      "checkedAt": "2026-11-15T09:12:29+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-699",
+          "name": "Gemeinde Walzbachtal - Rathaus",
+          "address": "Wössinger Straße  26-28, 75045 Walzbachtal",
+          "latitude": 49.01130355,
+          "longitude": 8.6116123192603,
+          "url": "https://www.walzbachtal.de/adresse/Gemeinde-Walzbachtal-Rathaus-address699",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Buergerinformationsveranstaltung-zur-Biotopverbundplanung-event-appointment6173",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-12df3b83031c49a514e7": {
+      "checkedAt": "2026-11-15T09:12:35+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-2784",
+          "name": "TV Halle des TV Wössingen ",
+          "address": "Wössinger Str.  123, 75045 Walzbachtal",
+          "latitude": 49.0171814,
+          "longitude": 8.5971554,
+          "url": "https://www.walzbachtal.de/adresse/TV-Halle-des-TV-Woessingen-address2784",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Jahreshauptversammlung-TV-Woessingen-event-appointment5958",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-5451a710c61519e9d9f1": {
+      "checkedAt": "2026-11-15T09:12:41+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-2802",
+          "name": "Clubhaus FV04 Wössingen",
+          "address": "Wössinger Str. 119, 75045 Walzbachtal",
+          "latitude": 49.0153008,
+          "longitude": 8.6009863235993,
+          "url": "https://www.walzbachtal.de/adresse/Clubhaus-FV04-Woessingen-address2802",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Jahreshauptversammlung-event-appointment5799",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-3b5cf7ac1f75845c84e7": {
+      "checkedAt": "2026-11-15T09:12:47+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-2789",
+          "name": "Restaurant Viktoria ",
+          "address": "Jahnstraße  \t40, 75045 Walzbachtal",
+          "latitude": 49.0262114,
+          "longitude": 8.5847063,
+          "url": "https://www.walzbachtal.de/adresse/Restaurant-Viktoria-address2789",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Mitgliederversammlung-2027-event-appointment5833",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-3a6a912d05328e89c9a2": {
+      "checkedAt": "2026-11-15T09:12:54+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-881",
+          "name": "Kath. Kapelle, Walzbachtal",
+          "address": "Kapellenweg , 75045 Walzbachtal",
+          "latitude": 49.01792785,
+          "longitude": 8.5706216363772,
+          "url": "https://www.walzbachtal.de/adresse/Kath-Kapelle-Walzbachtal-address881",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Christi-Himmelfahrt-event-appointment5878",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-f6a088940cc63ba2c89a": {
+      "checkedAt": "2026-11-15T09:12:59+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-5174",
+          "name": "big.schützenhalle",
+          "address": "Grombacher Straße 95, 75045 Walzbachtal",
+          "latitude": 49.0407045,
+          "longitude": 8.5858747,
+          "url": "https://www.walzbachtal.de/adresse/big-schuetzenhalle-address5174",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Bei-jedem-Wetter-Tag-der-offenen-Tuer-des-Schuetzenvereins-am-Vatertag-event-appointment5915",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-dfd559bc89c8cc42cc79": {
+      "checkedAt": "2026-11-15T09:13:06+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-987",
+          "name": "Speyerer Hof Jöhlingen",
+          "address": "Kirchplatz 14, 75045 Walzbachtal ",
+          "latitude": 49.032402695904,
+          "longitude": 8.5728764533997,
+          "url": "https://www.walzbachtal.de/adresse/Speyerer-Hof-Joehlingen-address987",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Fruehlingesfest-OGV-Joehlingen-event-appointment5977",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-e1964c3a16492ba5056f": {
+      "checkedAt": "2026-11-15T09:13:15+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-2805",
+          "name": "Sportgelände FC Viktoria Jöhlingen ",
+          "address": "Jahnstraße  40, 75045 Walzbachtal",
+          "latitude": 49.0262114,
+          "longitude": 8.5847063,
+          "url": "https://www.walzbachtal.de/adresse/Sportgelaende-FC-Viktoria-Joehlingen-address2805",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Pfingstsportfest-2027-event-appointment5835",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-b077ecb517bd583b4e46": {
+      "checkedAt": "2026-11-15T09:13:20+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-5764",
+          "name": "Heimatstube im Pfarrhaus, Heimat- & Kulturverein Walzbachtal e.V.",
+          "address": "Kreuzstraße  2, 75045 Walzbachtal",
+          "latitude": 49.0317905,
+          "longitude": 8.573342,
+          "url": "https://www.walzbachtal.de/adresse/Heimatstube-im-Pfarrhaus-Heimat-Kulturverein-Walzbachtal-e-V-address5764",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Tag-der-offenen-Tuer-mit-Ausstellung-event-appointment5945",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-40e0699e6d10cdb77486": {
+      "checkedAt": "2026-11-15T09:13:27+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-832",
+          "name": "Kath. Kindergarten St. Elisabeth Jöhlingen",
+          "address": "Bahnhofstraße  37, 75045 Walzbachtal-Jöhlingen",
+          "latitude": 49.02933145,
+          "longitude": 8.5752818841385,
+          "url": "https://www.walzbachtal.de/adresse/Kath-Kindergarten-St-Elisabeth-Joehlingen-address832",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Festgottesdienst-zu-Fronleichnam-event-appointment5880",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-aff519f7e97d24d690f9": {
+      "checkedAt": "2026-11-15T09:13:33+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-2798",
+          "name": "Vereinsgelände FV04 Wössingen ",
+          "address": "Wössinger Str.  119, 75045 Walzbachtal",
+          "latitude": 49.0153008,
+          "longitude": 8.6009863235993,
+          "url": "https://www.walzbachtal.de/adresse/Vereinsgelaende-FV04-Woessingen-address2798",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Sportfest-des-FV04-Woessingen-event-appointment5789",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-9f114f697dd14e595623": {
+      "checkedAt": "2026-11-15T09:13:39+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-829",
+          "name": "Kinderhaus Arche",
+          "address": "Kirchplatz 10, 75045 Walzbachtal-Jöhlingen",
+          "latitude": 49.0326874,
+          "longitude": 8.5728887,
+          "url": "https://www.walzbachtal.de/adresse/Kinderhaus-Arche-address829",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/30-Jahre-Kita-Arche-event-appointment6043",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-2973d449fe9d78e51a34": {
+      "checkedAt": "2026-11-15T09:13:48+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-689",
+          "name": "Kindertagesstätte Moby Dick",
+          "address": "Seestraße  23, 75045 Walzbachtal",
+          "latitude": 49.0115631,
+          "longitude": 8.606734,
+          "url": "https://www.walzbachtal.de/adresse/Kindertagesstaette-Moby-Dick-address689",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/30-Jahre-Kita-Moby-Dick-event-appointment5811",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    }
+  }
+}

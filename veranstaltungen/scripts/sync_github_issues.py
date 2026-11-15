@@ -72,7 +72,7 @@ def contents(problem, run_url=''):
         raise ValueError('Ungültiger Wartungsschlüssel')
     prefix = 'Quelle prüfen' if problem['kind'] == 'review' else 'Importfehler'
     title = prefix + ': ' + safe_text(problem['sourceName'])
-    stable = {k: problem.get(k) for k in ('key', 'kind', 'reason', 'dueOn', 'lastReviewedAt', 'candidateUrls')}
+    stable = {k: problem.get(k) for k in ('key', 'kind', 'reason', 'dueOn', 'lastReviewedAt', 'candidateUrls', 'reviewFingerprint')}
     if problem['kind'] == 'error': stable['lastSuccessAt'] = problem.get('lastSuccessAt')
     digest = hashlib.sha256(json.dumps(stable, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
     lines = ['<!-- calendar-maintenance:' + key + ' -->', '<!-- calendar-fingerprint:' + digest + ' -->', '',
@@ -83,7 +83,9 @@ def contents(problem, run_url=''):
         lines += ['Letzter erfolgreicher Datenabruf: ' + safe_text(problem['lastSuccessAt'])]
     if problem.get('candidateUrls'):
         lines += ['', 'Gefundene PDF-Ausgaben:'] + ['- ' + safe_text(url) for url in problem['candidateUrls'][:12]]
-    if problem['kind'] == 'review':
+    if problem.get('sourceId') == 'venues':
+        lines += ['', 'Die Ortsprüfliste unter dem Quellenlink öffnen. Unsichere Spielorte einmalig bestätigen oder bewusst ohne Kartenpunkt lassen. Entscheidungen exportieren und mit `python scripts/review_venues.py --apply ortsentscheidungen.json` ins Repository übernehmen. Bestätigte Zuordnungen gelten automatisch für weitere Termine mit derselben Ortsangabe und demselben Ortskontext. Leere Ortsangaben müssen bei der Originalquelle geklärt werden.']
+    elif problem['kind'] == 'review':
         lines += ['', 'Termine und Bildaushänge bzw. neue PDF-Ausgabe gegen die Originalquelle prüfen, den geprüften Extrakt aktualisieren und das tatsächliche Prüfdatum dokumentieren. Ein erneuter Download oder das bloße Schließen dieses Issues ersetzt die Prüfung nicht.']
     lines += ['', 'Dieses Issue wird vom Kalender-Workflow verwaltet und nach bestätigter Behebung automatisch geschlossen.']
     if run_url: lines += ['', 'Erzeugender Workflow-Lauf: ' + run_url]

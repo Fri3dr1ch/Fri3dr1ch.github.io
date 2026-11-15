@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="de">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Veranstaltungsorte prüfen</title>
+<style>
+:root{font-family:Arial,Helvetica,sans-serif;color:#202a31;background:#f6f7f8;line-height:1.5}*{box-sizing:border-box}body{margin:0}main{max-width:1100px;margin:auto;padding:24px}h1{font-size:1.8rem;line-height:1.2;margin:0 0 12px}h2{font-size:1.15rem;margin:0}p{margin:8px 0 16px}a{color:#145c82}button,input,select,textarea{font:inherit}button{background:#165d7f;color:white;border:1px solid #165d7f;padding:9px 14px;cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #c87700;outline-offset:3px}input[type=search],select,textarea{padding:8px;border:1px solid #9ba8af;background:white}header{margin-bottom:20px}.summary{display:flex;gap:12px 24px;flex-wrap:wrap;margin:14px 0;color:#40515a}.toolbar{display:flex;gap:12px;flex-wrap:wrap;align-items:end;margin:16px 0}.toolbar label{display:grid;gap:4px}.toolbar input{min-width:220px}.export{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.small{font-size:.88rem;color:#50616a}.venue{padding:18px;background:white;border:1px solid #d7dee2;margin:16px 0}.venue-head{display:flex;justify-content:space-between;gap:16px}.venue-head p{margin:4px 0}.badge{font-size:.82rem;color:#8c4d00;white-space:nowrap}.resolved .badge{color:#25603a}.reason{padding-left:10px;border-left:3px solid #d08b2e;margin:12px 0}.resolved .reason{border-color:#4f8c68}fieldset{margin:12px 0;padding:0;border:0}legend{font-weight:bold;margin-bottom:6px}.candidate{display:grid;grid-template-columns:22px 1fr;gap:6px;padding:8px 0;border-bottom:1px solid #edf0f1}.candidate input{margin-top:6px}.candidate label{cursor:pointer}.candidate .small{display:block}.examples{padding-left:20px;margin:8px 0}.examples li{margin-bottom:3px}textarea{width:100%;min-height:62px;margin-top:6px}details{margin:8px 0}footer{margin-top:24px;border-top:1px solid #d7dee2;padding-top:12px}.empty{padding:24px;background:white}#message{min-height:1.5em} @media(max-width:600px){main{padding:14px}.toolbar{display:grid;grid-template-columns:1fr 1fr}.toolbar label:first-child{grid-column:1/-1}.toolbar input{min-width:0;width:100%}.toolbar select{width:100%}.venue{padding:12px}.venue-head{display:block}.badge{white-space:normal}h1{font-size:1.5rem}}
+</style>
+<main>
+<header><h1>Veranstaltungsorte prüfen</h1>
+<p>Prüfe die unsicheren Ortsangaben einmalig. Eine bestätigte Zuordnung gilt künftig auch für weitere Termine mit derselben Ortsangabe und demselben Ortskontext.</p>
+<div class="summary" id="summary"></div>
+<p class="small">Nur sichere Zuordnungen erhalten Koordinaten. Ähnliche Namen, mehrere mögliche Orte und fehlende Angaben bleiben offen. Die Ortsangabe des Termins wird dabei erhalten. Zugeordnete Orte sind bereits in der Kartenansicht sichtbar; du kannst die offenen Fälle nach und nach ergänzen.</p>
+<div class="export"><button id="export" type="button">Entscheidungen herunterladen</button><span id="selection-count" aria-live="polite"></span></div>
+<p class="small">Die Auswahl wird zunächst nur in diesem Browser gemerkt. Lade die Entscheidungen als JSON herunter und gib sie mir zurück; ich übernehme sie als dauerhafte Zuordnungen. Es wird nichts direkt auf GitHub geändert.</p>
+<p id="message" role="status"></p>
+</header>
+<div class="toolbar">
+<label>Suchen<input id="search" type="search" placeholder="Ortsname, Quelle oder Veranstaltung"></label>
+<label>Ortskontext<select id="scope"><option value="">Alle Orte</option></select></label>
+<label>Auswahl<select id="status"><option value="review">Unsichere Zuordnungen</option><option value="missing">Ortsangabe fehlt</option><option value="resolved">Bereits zugeordnet</option><option value="queued">Automatische Prüfung ausstehend</option><option value="all">Alle Ortsangaben</option><option value="selected">Meine Entscheidungen</option></select></label>
+</div>
+<p id="result-count" class="small" aria-live="polite"></p><section id="rows" aria-label="Ortsangaben"></section>
+<footer class="small">Automatische Ortssuche: Photon / OpenStreetMap. <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">© OpenStreetMap contributors · ODbL</a>. Koordinaten aus Originalseiten sind am jeweiligen Vorschlag belegt. <span id="generated"></span></footer>
+</main>
+<script id="place-data" type="application/json">/*PLACE_DATA*/</script>
+<script>
+(()=>{'use strict';
+const data=JSON.parse(document.getElementById('place-data').textContent),$=id=>document.getElementById(id),storageKey='regional-calendar-venue-review-v1';
+let decisions={};try{decisions=JSON.parse(localStorage.getItem(storageKey)||'{}');}catch(_){}
+const labels={review:'Bitte prüfen',resolved:'Zugeordnet',queued:'Wird automatisch geprüft',missing:'Ortsangabe fehlt',online:'Online-Angebot',excluded:'Bewusst ohne Kartenpunkt'};
+const node=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;};
+function link(text,url){const a=node('a','',text);try{const u=new URL(url);if(u.protocol==='https:')a.href=u.href;}catch(_){}a.target='_blank';a.rel='noopener noreferrer';return a;}
+function validDecision(r){const d=decisions[r.key];if(!d||!r.location||d.location!==r.location||d.scope!==r.scope||d.decision==='note'&&!d.note?.trim())return null;if(d.decision==='place'&&![...r.candidates,...(r.place?[r.place]:[])].some(p=>p.id===d.placeId))return null;return d;}
+function payload(){return {schemaVersion:1,decisions:data.rows.map(validDecision).filter(Boolean)};}
+function count(){const n=payload().decisions.length;$('selection-count').textContent=n+' Entscheidung'+(n===1?'':'en')+' gewählt';$('export').disabled=n===0;}
+function save(row,value,note){if(!value)delete decisions[row.key];else decisions[row.key]={key:row.key,location:row.location,scope:row.scope,decision:value==='unmapped'||value==='note'?value:'place',...(value!=='unmapped'&&value!=='note'?{placeId:value}:{}),note:note||''};try{localStorage.setItem(storageKey,JSON.stringify(decisions));}catch(_){}count();}
+const scopes=[...new Map(data.rows.map(r=>[r.scope||'unknown',r.scopeLabel])).entries()].sort((a,b)=>a[1].localeCompare(b[1],'de'));
+for(const [id,label] of scopes){const opt=node('option','',label);opt.value=id;$('scope').append(opt);}
+const stats=data.stats;$('summary').textContent=(stats.venueStatuses.resolved||0)+' Ortsangaben zugeordnet · '+(stats.venueStatuses.review||0)+' zu prüfen · '+(stats.venueStatuses.queued||0)+' automatisch vorgemerkt · '+(stats.venueStatuses.missing||0)+' ohne Ortsangabe';
+$('generated').textContent='Kalenderstand: '+new Intl.DateTimeFormat('de-DE',{dateStyle:'medium',timeStyle:'short',timeZone:'Europe/Berlin'}).format(new Date(data.generatedAt));
+function draw(){const q=$('search').value.toLocaleLowerCase('de'),scope=$('scope').value,status=$('status').value;
+const rows=data.rows.filter(r=>(!scope||(r.scope||'unknown')===scope)&&(status==='all'||status==='selected'&&validDecision(r)||r.status===status)&&(!q||[r.location,r.scopeLabel,...r.sources,...r.examples.map(e=>e.title)].join(' ').toLocaleLowerCase('de').includes(q)));
+$('result-count').textContent=rows.length+' Ortsangaben · '+rows.reduce((s,r)=>s+r.eventCount,0)+' aktuelle oder kommende Termine';$('rows').replaceChildren();
+for(const row of rows){const card=node('article','venue '+row.status);card.dataset.key=row.key;const head=node('div','venue-head'),title=node('div');title.append(node('h2','',row.location||'Keine Ortsangabe in der Quelle'),node('p','small',row.scopeLabel+' · '+row.eventCount+' Termine · '+row.sources.join(', ')));head.append(title,node('span','badge',labels[row.status]));card.append(head,node('p','reason',row.reason));
+if(row.organizer)card.append(node('p','small','Veranstalter: '+row.organizer));if(row.reviewNote)card.append(node('p','small','Dein Hinweis: '+row.reviewNote));const details=node('details'),summary=node('summary','','Beispieltermine und Originalquellen'),examples=node('ul','examples');for(const e of row.examples){const li=node('li');li.append(link((e.date?e.date+' · ':'')+e.title,e.url));examples.append(li);}details.append(summary,examples);card.append(details);
+if(row.location&&row.status!=='online'){const field=node('fieldset'),legend=node('legend','','Welcher Ort passt?');field.append(legend);let selected=validDecision(row),value=selected?(selected.decision==='place'?selected.placeId:selected.decision):'',note=selected?.note||'';
+const options=[...new Map([...(row.place?[row.place]:[]),...row.candidates].map(p=>[p.id,p])).values()];
+for(const [index,p] of options.entries()){const wrap=node('div','candidate'),input=node('input');input.type='radio';input.name=row.key;input.id=row.key+'-'+index;input.value=p.id;input.checked=value===p.id;const description=node('div'),label=node('label','',p.name);label.htmlFor=input.id;description.append(label,node('span','small',p.address||'Adresse nicht angegeben'),node('span','small',(p.outsideContext?'Außerhalb des erwarteten Ortskontexts · ':'')+p.latitude.toFixed(6)+', '+p.longitude.toFixed(6)+' · '));description.append(link(p.provenance==='publisher'?'Ortsbeleg der Originalquelle':'Kartenobjekt in OpenStreetMap',p.url));wrap.append(input,description);field.append(wrap);input.addEventListener('change',()=>{value=p.id;save(row,value,note);});}
+for(const [id,text] of [['unmapped','Kein fester Kartenpunkt / bewusst auslassen'],['note','Keiner der Vorschläge – Hinweis geben'],['','Noch offen lassen']]){const wrap=node('div','candidate'),input=node('input'),label=node('label','',text);input.type='radio';input.name=row.key;input.id=row.key+'-'+(id||'open');input.value=id;input.checked=value===id;label.htmlFor=input.id;wrap.append(input,label);field.append(wrap);input.addEventListener('change',()=>{value=id;save(row,value,note);});}
+const noteLabel=node('label','','Optionaler Hinweis oder richtige Adresse'),area=node('textarea');area.value=note;area.placeholder='Zum Beispiel: Gemeint ist das Vereinsheim in …';area.setAttribute('aria-label','Hinweis zu '+row.location);area.addEventListener('input',()=>{note=area.value;if(note&&!value){value='note';field.querySelector('input[value="note"]').checked=true;}save(row,value,note);});noteLabel.append(area);field.append(noteLabel);card.append(field);
+}else if(row.status==='missing')card.append(node('p','small','Hier lässt sich keine gemeinsame Zuordnung bestätigen: Die Termine dieser Quelle können an unterschiedlichen Orten stattfinden. Ein Hinweis zur Quelle hilft beim Verbessern des Imports.'));
+$('rows').append(card);}
+if(!rows.length)$('rows').append(node('p','empty','Keine Ortsangaben für diese Auswahl.'));count();}
+for(const id of ['scope','status'])$(id).addEventListener('change',draw);$('search').addEventListener('input',draw);
+$('export').addEventListener('click',()=>{const blob=new Blob([JSON.stringify(payload(),null,2)+'\n'],{type:'application/json'}),url=URL.createObjectURL(blob),a=node('a');a.href=url;a.download='ortsentscheidungen.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);$('message').textContent='Die Entscheidungen wurden heruntergeladen. Gib mir die JSON-Datei zur dauerhaften Übernahme zurück.';});
+draw();
+})();
+</script>
+</html>
