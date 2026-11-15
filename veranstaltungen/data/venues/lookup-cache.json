@@ -9457,6 +9457,437 @@
           "houseNumber": ""
         }
       ]
+    },
+    "Stephanplatz, Karlsruhe": {
+      "checkedAt": "2026-11-15T18:56:21+00:00",
+      "places": [
+        {
+          "id": "osm-way-162539268",
+          "name": "Stephanplatz",
+          "latitude": 49.0084419,
+          "longitude": 8.3941593,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/162539268",
+          "category": "place",
+          "type": "square",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-557072881",
+          "name": "Stephanplatz",
+          "latitude": 49.0085873,
+          "longitude": 8.3940855,
+          "address": "76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/557072881",
+          "category": "highway",
+          "type": "pedestrian",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-364372700",
+          "name": "Stephaniebrunnen",
+          "latitude": 49.0084044,
+          "longitude": 8.3942573,
+          "address": "Stephanplatz, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/364372700",
+          "category": "tourism",
+          "type": "artwork",
+          "street": "Stephanplatz",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-1749651556",
+          "name": "Stephanplatz",
+          "latitude": 49.0080986,
+          "longitude": 8.3927228,
+          "address": "Amalienstraße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1749651556",
+          "category": "amenity",
+          "type": "parking",
+          "street": "Amalienstraße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Bildungszentrum Berghausen, Schlossgartenstr. 11, 76327 Pfinztal, Berghausen Pfinztal": {
+      "checkedAt": "2026-11-15T18:56:21+00:00",
+      "places": [
+        {
+          "id": "osm-way-457397565",
+          "name": "Bildungszentrum Pfinztal",
+          "latitude": 49.0034752,
+          "longitude": 8.5331145,
+          "address": "Schloßgartenstraße 9/11, 76327 Berghausen",
+          "url": "https://www.openstreetmap.org/way/457397565",
+          "category": "amenity",
+          "type": "school",
+          "street": "Schloßgartenstraße",
+          "houseNumber": "9/11"
+        }
+      ]
+    },
+    "Pfarrsaal, Wöschbach Pfinztal": {
+      "checkedAt": "2026-11-15T18:56:21+00:00",
+      "places": [
+        {
+          "id": "osm-way-243446539",
+          "name": "Wöschbacher Kebabhaus",
+          "latitude": 48.9999197,
+          "longitude": 8.5673526,
+          "address": "Schwanenstraße 1, 76327 Wöschbach",
+          "url": "https://www.openstreetmap.org/way/243446539",
+          "category": "amenity",
+          "type": "restaurant",
+          "street": "Schwanenstraße",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-way-243036200",
+          "name": "Freiwillige Feuerwehr Pfinztal / Abt. Wöschbach",
+          "latitude": 49.006293,
+          "longitude": 8.5620373,
+          "address": "Wesostraße 154, 76327 Berghausen",
+          "url": "https://www.openstreetmap.org/way/243036200",
+          "category": "amenity",
+          "type": "fire_station",
+          "street": "Wesostraße",
+          "houseNumber": "154"
+        },
+        {
+          "id": "osm-way-35472511",
+          "name": "Wöschbacher Weg",
+          "latitude": 48.9933566,
+          "longitude": 8.5824848,
+          "address": "76327 Wöschbach",
+          "url": "https://www.openstreetmap.org/way/35472511",
+          "category": "highway",
+          "type": "track",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-relation-357386",
+          "name": "Wöschbach",
+          "latitude": 49.0014096,
+          "longitude": 8.5668782,
+          "address": "",
+          "url": "https://www.openstreetmap.org/relation/357386",
+          "category": "place",
+          "type": "village",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-5851194647",
+          "name": "Hundefreunde Pfinztal e.V.",
+          "latitude": 49.0089162,
+          "longitude": 8.5627323,
+          "address": "Bruchwiesen, 76327 Berghausen",
+          "url": "https://www.openstreetmap.org/node/5851194647",
+          "category": "club",
+          "type": "sport",
+          "street": "Bruchwiesen",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Altkatholische Kirche, Karlsruhe": {
+      "checkedAt": "2026-11-15T18:56:21+00:00",
+      "places": [
+        {
+          "id": "osm-way-110084653",
+          "name": "Christi-Auferstehungs-Kirche",
+          "latitude": 49.01193,
+          "longitude": 8.3837941,
+          "address": "Röntgenstraße 3, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/110084653",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Röntgenstraße",
+          "houseNumber": "3"
+        }
+      ]
+    },
+    "Friedhof Aue, Durlach": {
+      "checkedAt": "2026-11-15T18:56:21+00:00",
+      "places": [
+        {
+          "id": "osm-way-4407030",
+          "name": "Friedhof Durlach-Aue",
+          "latitude": 48.9871792,
+          "longitude": 8.4545273,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/4407030",
+          "category": "landuse",
+          "type": "cemetery",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Audimax - KIT Campus Süd, Karlsruhe": {
+      "checkedAt": "2026-11-15T18:56:21+00:00",
+      "places": [
+        {
+          "id": "osm-node-3234308899",
+          "name": "Durlacher Tor/KIT-Campus Süd (U)",
+          "latitude": 49.0090072,
+          "longitude": 8.4166206,
+          "address": "Kaiserstraße, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3234308899",
+          "category": "railway",
+          "type": "stop",
+          "street": "Kaiserstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-1122435502",
+          "name": "Durlacher Tor/KIT-Campus Süd (U)",
+          "latitude": 49.00887,
+          "longitude": 8.4171402,
+          "address": "Kapellenstraße, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1122435502",
+          "category": "railway",
+          "type": "platform",
+          "street": "Kapellenstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-3234308897",
+          "name": "Durlacher Tor/KIT-Campus Süd (U)",
+          "latitude": 49.0089699,
+          "longitude": 8.416906,
+          "address": "Adenauerring, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3234308897",
+          "category": "railway",
+          "type": "stop",
+          "street": "Adenauerring",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-6126664123",
+          "name": "Durlacher Tor/KIT-Campus Süd",
+          "latitude": 49.0093863,
+          "longitude": 8.4182001,
+          "address": "Karl-Wilhelm-Straße, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/6126664123",
+          "category": "railway",
+          "type": "tram_stop",
+          "street": "Karl-Wilhelm-Straße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-1122435482",
+          "name": "Durlacher Tor/KIT-Campus Süd (U)",
+          "latitude": 49.009034,
+          "longitude": 8.4166928,
+          "address": "Kaiserstraße, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1122435482",
+          "category": "railway",
+          "type": "platform",
+          "street": "Kaiserstraße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Erlöserkirche der Evangelischen methodistischen Kirche, Karlsruhe": {
+      "checkedAt": "2026-11-15T18:56:21+00:00",
+      "places": [
+        {
+          "id": "osm-way-98527600",
+          "name": "Christuskirche, Evangelisch-Methodistische Kirche",
+          "latitude": 48.9564153,
+          "longitude": 8.4680008,
+          "address": "Am Wetterbach 80, 76228 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/98527600",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Am Wetterbach",
+          "houseNumber": "80"
+        },
+        {
+          "id": "osm-node-252307969",
+          "name": "Evangelisch-methodistische Kirche",
+          "latitude": 49.0629102,
+          "longitude": 8.4735332,
+          "address": "Bachstraße 64, 76297 Blankenloch",
+          "url": "https://www.openstreetmap.org/node/252307969",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Bachstraße",
+          "houseNumber": "64"
+        }
+      ]
+    },
+    "Anna-Leimbach-Haus, Durlach": {
+      "checkedAt": "2026-11-15T18:56:21+00:00",
+      "places": [
+        {
+          "id": "osm-way-558244810",
+          "name": "Anna-Leimbach-Haus",
+          "latitude": 49.0006338,
+          "longitude": 8.4765921,
+          "address": "Blumentorstraße 6, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/558244810",
+          "category": "amenity",
+          "type": "social_facility",
+          "street": "Blumentorstraße",
+          "houseNumber": "6"
+        },
+        {
+          "id": "osm-way-558244809",
+          "name": "Katholische Kindertagesstätte Anna-Leimbach-Haus",
+          "latitude": 49.0010264,
+          "longitude": 8.4764312,
+          "address": "Pfinzstraße 15a, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/558244809",
+          "category": "amenity",
+          "type": "kindergarten",
+          "street": "Pfinzstraße",
+          "houseNumber": "15a"
+        }
+      ]
+    },
+    "IBZ (Internationales Begegnungszentrum), Kaiserallee 12 d, Karlsruhe, Karlsruhe": {
+      "checkedAt": "2026-11-15T18:56:21+00:00",
+      "places": [
+        {
+          "id": "osm-node-5168018882",
+          "name": "Internationales Begegnungszentrum",
+          "latitude": 49.0112896,
+          "longitude": 8.3766608,
+          "address": "Kaiserallee 12d, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/5168018882",
+          "category": "amenity",
+          "type": "community_centre",
+          "street": "Kaiserallee",
+          "houseNumber": "12d"
+        }
+      ]
+    },
+    "digital, Karlsruhe": {
+      "checkedAt": "2026-11-15T18:56:21+00:00",
+      "places": [
+        {
+          "id": "osm-node-11349271916",
+          "name": "Digital Power Systems GmbH",
+          "latitude": 49.0131834,
+          "longitude": 8.4252403,
+          "address": "Haid-und-Neu-Straße 7, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/11349271916",
+          "category": "office",
+          "type": "company",
+          "street": "Haid-und-Neu-Straße",
+          "houseNumber": "7"
+        },
+        {
+          "id": "osm-node-3575330099",
+          "name": "Siemens Digital Logistics",
+          "latitude": 49.0133916,
+          "longitude": 8.4272316,
+          "address": "Stumpfstraße 1, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3575330099",
+          "category": "office",
+          "type": "company",
+          "street": "Stumpfstraße",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-node-6468167345",
+          "name": "Digital Cinema Mastering",
+          "latitude": 49.004663,
+          "longitude": 8.4329116,
+          "address": "Alter Schlachthof 33, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/6468167345",
+          "category": "office",
+          "type": "media",
+          "street": "Alter Schlachthof",
+          "houseNumber": "33"
+        },
+        {
+          "id": "osm-node-3946564985",
+          "name": "Fischer Digital- und Schnelldruck",
+          "latitude": 49.0075986,
+          "longitude": 8.429048,
+          "address": "Seubertstraße 8, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3946564985",
+          "category": "shop",
+          "type": "copyshop",
+          "street": "Seubertstraße",
+          "houseNumber": "8"
+        },
+        {
+          "id": "osm-node-4726157504",
+          "name": "Mosaik Digital Network GmbH",
+          "latitude": 49.0059638,
+          "longitude": 8.4078476,
+          "address": "Kriegsstraße 82, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4726157504",
+          "category": "office",
+          "type": "it",
+          "street": "Kriegsstraße",
+          "houseNumber": "82"
+        }
+      ]
+    },
+    "Centro = Schul- und Kulturzentrum der Deutsch-Italienischen Gesellschaft e.V. Karlsruhe, Karlsruhe": {
+      "checkedAt": "2026-11-15T18:56:21+00:00",
+      "places": []
+    },
+    "Werderplatz, Karlsruhe": {
+      "checkedAt": "2026-11-15T18:56:21+00:00",
+      "places": [
+        {
+          "id": "osm-relation-9293549",
+          "name": "Werderplatz",
+          "latitude": 49.0015245,
+          "longitude": 8.4068862,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/9293549",
+          "category": "place",
+          "type": "square",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-262435736",
+          "name": "Werderplatz",
+          "latitude": 49.0015072,
+          "longitude": 8.4067187,
+          "address": "76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/262435736",
+          "category": "highway",
+          "type": "living_street",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-5107732033",
+          "name": "Hausarztpraxis Werderplatz",
+          "latitude": 49.0013851,
+          "longitude": 8.4069027,
+          "address": "Werderstraße 40, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/5107732033",
+          "category": "amenity",
+          "type": "doctors",
+          "street": "Werderstraße",
+          "houseNumber": "40"
+        },
+        {
+          "id": "osm-node-1895908651",
+          "name": "Friseursalon Werderplatz",
+          "latitude": 49.0013823,
+          "longitude": 8.4067739,
+          "address": "Werderplatz, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1895908651",
+          "category": "shop",
+          "type": "hairdresser",
+          "street": "Werderplatz",
+          "houseNumber": ""
+        }
+      ]
     }
   },
   "attribution": {

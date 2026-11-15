@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T18:08:58+00:00",
+  "generatedAt": "2026-11-15T18:56:21+00:00",
   "attribution": {
     "text": "© OpenStreetMap contributors · ODbL",
     "url": "https://www.openstreetmap.org/copyright"
@@ -9,17 +9,17 @@
     "venues": 327,
     "venueStatuses": {
       "missing": 11,
-      "review": 182,
-      "queued": 36,
+      "review": 192,
+      "queued": 24,
       "online": 3,
-      "resolved": 95
+      "resolved": 97
     },
-    "upcomingEvents": 1146,
+    "upcomingEvents": 1149,
     "eventStatuses": {
-      "resolved": 460,
-      "review": 438,
-      "queued": 36,
-      "missing": 208,
+      "resolved": 463,
+      "review": 448,
+      "queued": 24,
+      "missing": 210,
       "online": 4
     }
   },
@@ -126,7 +126,7 @@
       "method": null,
       "place": null,
       "candidates": [],
-      "eventCount": 43,
+      "eventCount": 45,
       "reviewNote": "",
       "organizer": "",
       "sourceContext": null,
@@ -1797,10 +1797,26 @@
       "scope": "karlsruhe",
       "scopeLabel": "Karlsruhe und Umgebung",
       "status": "review",
-      "reason": "Kein eindeutig passender Spielort gefunden.",
+      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
       "method": null,
       "place": null,
-      "candidates": [],
+      "candidates": [
+        {
+          "id": "osm-node-5168018882",
+          "name": "Internationales Begegnungszentrum",
+          "latitude": 49.0112896,
+          "longitude": 8.3766608,
+          "address": "Kaiserallee 12d, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/5168018882",
+          "category": "amenity",
+          "type": "community_centre",
+          "street": "Kaiserallee",
+          "houseNumber": "12d",
+          "score": 0.597,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
       "eventCount": 4,
       "reviewNote": "",
       "organizer": "",
@@ -6316,8 +6332,8 @@
       "location": "Altkatholische Kirche",
       "scope": "karlsruhe",
       "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "queued",
-      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
+      "status": "review",
+      "reason": "Kein eindeutig passender Spielort gefunden.",
       "method": null,
       "place": null,
       "candidates": [],
@@ -6364,68 +6380,87 @@
       ]
     },
     {
-      "key": "venue-c947c23e1fe3dcc86b96",
-      "location": "Anna-Leimbach-Haus",
-      "scope": "durlach",
-      "scopeLabel": "Durlach",
-      "status": "queued",
-      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "",
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Durlacher.de · Durlacher Kalender"
-      ],
-      "examples": [
-        {
-          "id": "durlach-11721-2026-11-27-1430",
-          "title": "Kaffeenachmittag „Gemeinsam statt einsam“",
-          "date": "2026-11-27",
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11721&tx_events2_events%5Btimestamp%5D=1795786200&cHash=add67d660edc101d606c3e16f696a67f"
-        }
-      ]
-    },
-    {
       "key": "venue-c3ee21d1c5a192c928b1",
       "location": "Audimax - KIT Campus Süd",
       "scope": "karlsruhe",
       "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "queued",
-      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
+      "status": "review",
+      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
       "method": null,
       "place": null,
       "candidates": [
         {
-          "id": "osm-node-1481190937",
-          "name": "Orientierungsplan Campus Süd",
-          "latitude": 49.0109768,
-          "longitude": 8.4158682,
-          "address": "Engesserstraße, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/1481190937",
-          "category": "information",
-          "type": "map",
-          "street": "Engesserstraße",
+          "id": "osm-node-6126664123",
+          "name": "Durlacher Tor/KIT-Campus Süd",
+          "latitude": 49.0093863,
+          "longitude": 8.4182001,
+          "address": "Karl-Wilhelm-Straße, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/6126664123",
+          "category": "railway",
+          "type": "tram_stop",
+          "street": "Karl-Wilhelm-Straße",
           "houseNumber": "",
-          "score": 0.48,
+          "score": 0.64,
           "exact": false,
           "outsideContext": false
         },
         {
-          "id": "osm-node-4339000383",
-          "name": "Orientierungsplan Campus Ost",
-          "latitude": 49.0210541,
-          "longitude": 8.4312931,
-          "address": "Rintheimer Querallee, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/4339000383",
-          "category": "information",
-          "type": "map",
-          "street": "Rintheimer Querallee",
+          "id": "osm-node-3234308897",
+          "name": "Durlacher Tor/KIT-Campus Süd (U)",
+          "latitude": 49.0089699,
+          "longitude": 8.416906,
+          "address": "Adenauerring, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3234308897",
+          "category": "railway",
+          "type": "stop",
+          "street": "Adenauerring",
           "houseNumber": "",
-          "score": 0.4,
+          "score": 0.615,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-3234308899",
+          "name": "Durlacher Tor/KIT-Campus Süd (U)",
+          "latitude": 49.0090072,
+          "longitude": 8.4166206,
+          "address": "Kaiserstraße, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3234308899",
+          "category": "railway",
+          "type": "stop",
+          "street": "Kaiserstraße",
+          "houseNumber": "",
+          "score": 0.615,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-1122435482",
+          "name": "Durlacher Tor/KIT-Campus Süd (U)",
+          "latitude": 49.009034,
+          "longitude": 8.4166928,
+          "address": "Kaiserstraße, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1122435482",
+          "category": "railway",
+          "type": "platform",
+          "street": "Kaiserstraße",
+          "houseNumber": "",
+          "score": 0.615,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-1122435502",
+          "name": "Durlacher Tor/KIT-Campus Süd (U)",
+          "latitude": 49.00887,
+          "longitude": 8.4171402,
+          "address": "Kapellenstraße, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1122435502",
+          "category": "railway",
+          "type": "platform",
+          "street": "Kapellenstraße",
+          "houseNumber": "",
+          "score": 0.615,
           "exact": false,
           "outsideContext": false
         }
@@ -6715,11 +6750,26 @@
       "location": "Bildungszentrum Berghausen, Schlossgartenstr. 11, 76327 Pfinztal",
       "scope": "berghausen",
       "scopeLabel": "Pfinztal-Berghausen",
-      "status": "queued",
-      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
+      "status": "review",
+      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
       "method": null,
       "place": null,
       "candidates": [
+        {
+          "id": "osm-way-457397565",
+          "name": "Bildungszentrum Pfinztal",
+          "latitude": 49.0034752,
+          "longitude": 8.5331145,
+          "address": "Schloßgartenstraße 9/11, 76327 Berghausen",
+          "url": "https://www.openstreetmap.org/way/457397565",
+          "category": "amenity",
+          "type": "school",
+          "street": "Schloßgartenstraße",
+          "houseNumber": "9/11",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
         {
           "id": "osm-way-152220643",
           "name": "Aussegungshalle Berghausen",
@@ -6773,10 +6823,26 @@
       "scope": "karlsruhe",
       "scopeLabel": "Karlsruhe und Umgebung",
       "status": "review",
-      "reason": "Kein eindeutig passender Spielort gefunden.",
+      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
       "method": null,
       "place": null,
-      "candidates": [],
+      "candidates": [
+        {
+          "id": "osm-way-457397565",
+          "name": "Bildungszentrum Pfinztal",
+          "latitude": 49.0034752,
+          "longitude": 8.5331145,
+          "address": "Schloßgartenstraße 9/11, 76327 Berghausen",
+          "url": "https://www.openstreetmap.org/way/457397565",
+          "category": "amenity",
+          "type": "school",
+          "street": "Schloßgartenstraße",
+          "houseNumber": "9/11",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
       "eventCount": 1,
       "reviewNote": "",
       "organizer": "",
@@ -7051,8 +7117,8 @@
       "location": "Centro = Schul- und Kulturzentrum der Deutsch-Italienischen Gesellschaft e.V. Karlsruhe",
       "scope": "karlsruhe",
       "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "queued",
-      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
+      "status": "review",
+      "reason": "Kein eindeutig passender Spielort gefunden.",
       "method": null,
       "place": null,
       "candidates": [],
@@ -7290,11 +7356,27 @@
       "location": "Erlöserkirche der Evangelischen methodistischen Kirche",
       "scope": "karlsruhe",
       "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "queued",
-      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
+      "status": "review",
+      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
       "method": null,
       "place": null,
-      "candidates": [],
+      "candidates": [
+        {
+          "id": "osm-way-98527600",
+          "name": "Christuskirche, Evangelisch-Methodistische Kirche",
+          "latitude": 48.9564153,
+          "longitude": 8.4680008,
+          "address": "Am Wetterbach 80, 76228 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/98527600",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Am Wetterbach",
+          "houseNumber": "80",
+          "score": 0.824,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
       "eventCount": 1,
       "reviewNote": "",
       "organizer": "",
@@ -7880,11 +7962,27 @@
       "location": "Friedhof Aue",
       "scope": "durlach",
       "scopeLabel": "Durlach",
-      "status": "queued",
-      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
+      "status": "review",
+      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
       "method": null,
       "place": null,
-      "candidates": [],
+      "candidates": [
+        {
+          "id": "osm-way-4407030",
+          "name": "Friedhof Durlach-Aue",
+          "latitude": 48.9871792,
+          "longitude": 8.4545273,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/4407030",
+          "category": "landuse",
+          "type": "cemetery",
+          "street": "",
+          "houseNumber": "",
+          "score": 0.75,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
       "eventCount": 1,
       "reviewNote": "",
       "organizer": "",
@@ -8153,32 +8251,77 @@
       "place": null,
       "candidates": [
         {
-          "id": "osm-node-1481190937",
-          "name": "Orientierungsplan Campus Süd",
-          "latitude": 49.0109768,
-          "longitude": 8.4158682,
-          "address": "Engesserstraße, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/1481190937",
-          "category": "information",
-          "type": "map",
-          "street": "Engesserstraße",
+          "id": "osm-node-6126664123",
+          "name": "Durlacher Tor/KIT-Campus Süd",
+          "latitude": 49.0093863,
+          "longitude": 8.4182001,
+          "address": "Karl-Wilhelm-Straße, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/6126664123",
+          "category": "railway",
+          "type": "tram_stop",
+          "street": "Karl-Wilhelm-Straße",
           "houseNumber": "",
-          "score": 0.438,
+          "score": 0.548,
           "exact": false,
           "outsideContext": false
         },
         {
-          "id": "osm-node-4339000383",
-          "name": "Orientierungsplan Campus Ost",
-          "latitude": 49.0210541,
-          "longitude": 8.4312931,
-          "address": "Rintheimer Querallee, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/4339000383",
-          "category": "information",
-          "type": "map",
-          "street": "Rintheimer Querallee",
+          "id": "osm-node-3234308897",
+          "name": "Durlacher Tor/KIT-Campus Süd (U)",
+          "latitude": 49.0089699,
+          "longitude": 8.416906,
+          "address": "Adenauerring, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3234308897",
+          "category": "railway",
+          "type": "stop",
+          "street": "Adenauerring",
           "houseNumber": "",
-          "score": 0.384,
+          "score": 0.533,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-3234308899",
+          "name": "Durlacher Tor/KIT-Campus Süd (U)",
+          "latitude": 49.0090072,
+          "longitude": 8.4166206,
+          "address": "Kaiserstraße, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3234308899",
+          "category": "railway",
+          "type": "stop",
+          "street": "Kaiserstraße",
+          "houseNumber": "",
+          "score": 0.533,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-1122435482",
+          "name": "Durlacher Tor/KIT-Campus Süd (U)",
+          "latitude": 49.009034,
+          "longitude": 8.4166928,
+          "address": "Kaiserstraße, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1122435482",
+          "category": "railway",
+          "type": "platform",
+          "street": "Kaiserstraße",
+          "houseNumber": "",
+          "score": 0.533,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-1122435502",
+          "name": "Durlacher Tor/KIT-Campus Süd (U)",
+          "latitude": 49.00887,
+          "longitude": 8.4171402,
+          "address": "Kapellenstraße, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1122435502",
+          "category": "railway",
+          "type": "platform",
+          "street": "Kapellenstraße",
+          "houseNumber": "",
+          "score": 0.533,
           "exact": false,
           "outsideContext": false
         }
@@ -8853,11 +8996,27 @@
       "location": "IBZ (Internationales Begegnungszentrum), Kaiserallee 12 d, Karlsruhe",
       "scope": "karlsruhe",
       "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "queued",
-      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
+      "status": "review",
+      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
       "method": null,
       "place": null,
-      "candidates": [],
+      "candidates": [
+        {
+          "id": "osm-node-5168018882",
+          "name": "Internationales Begegnungszentrum",
+          "latitude": 49.0112896,
+          "longitude": 8.3766608,
+          "address": "Kaiserallee 12d, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/5168018882",
+          "category": "amenity",
+          "type": "community_centre",
+          "street": "Kaiserallee",
+          "houseNumber": "12d",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
       "eventCount": 1,
       "reviewNote": "",
       "organizer": "",
@@ -10701,8 +10860,8 @@
       "location": "Pfarrsaal",
       "scope": "woeschbach",
       "scopeLabel": "Pfinztal-Wöschbach",
-      "status": "queued",
-      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
+      "status": "review",
+      "reason": "Kein eindeutig passender Spielort gefunden.",
       "method": null,
       "place": null,
       "candidates": [],
@@ -11848,32 +12007,6 @@
       ]
     },
     {
-      "key": "venue-b78bffd9affaea9a150a",
-      "location": "Stephanplatz",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "queued",
-      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "",
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-9296f2b59f6b2129",
-          "title": "Wochenmarkt Stephanplatz",
-          "date": "2025-11-19",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/wochenmarkt_stephanplatz"
-        }
-      ]
-    },
-    {
       "key": "venue-f80c053fcd1551a5c644",
       "location": "TRIANGEL Transfer | Kultur | Raum",
       "scope": "karlsruhe",
@@ -12490,11 +12623,57 @@
       "location": "Werderplatz",
       "scope": "karlsruhe",
       "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "queued",
-      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
+      "status": "review",
+      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
       "method": null,
       "place": null,
-      "candidates": [],
+      "candidates": [
+        {
+          "id": "osm-way-262435736",
+          "name": "Werderplatz",
+          "latitude": 49.0015072,
+          "longitude": 8.4067187,
+          "address": "76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/262435736",
+          "category": "highway",
+          "type": "living_street",
+          "street": "",
+          "houseNumber": "",
+          "score": 1.0,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-1895908651",
+          "name": "Friseursalon Werderplatz",
+          "latitude": 49.0013823,
+          "longitude": 8.4067739,
+          "address": "Werderplatz, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1895908651",
+          "category": "shop",
+          "type": "hairdresser",
+          "street": "Werderplatz",
+          "houseNumber": "",
+          "score": 0.629,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-5107732033",
+          "name": "Hausarztpraxis Werderplatz",
+          "latitude": 49.0013851,
+          "longitude": 8.4069027,
+          "address": "Werderstraße 40, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/5107732033",
+          "category": "amenity",
+          "type": "doctors",
+          "street": "Werderstraße",
+          "houseNumber": "40",
+          "score": 0.595,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
       "eventCount": 1,
       "reviewNote": "",
       "organizer": "",
@@ -12683,11 +12862,87 @@
       "location": "digital",
       "scope": "karlsruhe",
       "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "queued",
-      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
+      "status": "review",
+      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
       "method": null,
       "place": null,
-      "candidates": [],
+      "candidates": [
+        {
+          "id": "osm-node-6468167345",
+          "name": "Digital Cinema Mastering",
+          "latitude": 49.004663,
+          "longitude": 8.4329116,
+          "address": "Alter Schlachthof 33, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/6468167345",
+          "category": "office",
+          "type": "media",
+          "street": "Alter Schlachthof",
+          "houseNumber": "33",
+          "score": 0.452,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-3575330099",
+          "name": "Siemens Digital Logistics",
+          "latitude": 49.0133916,
+          "longitude": 8.4272316,
+          "address": "Stumpfstraße 1, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3575330099",
+          "category": "office",
+          "type": "company",
+          "street": "Stumpfstraße",
+          "houseNumber": "1",
+          "score": 0.438,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-11349271916",
+          "name": "Digital Power Systems GmbH",
+          "latitude": 49.0131834,
+          "longitude": 8.4252403,
+          "address": "Haid-und-Neu-Straße 7, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/11349271916",
+          "category": "office",
+          "type": "company",
+          "street": "Haid-und-Neu-Straße",
+          "houseNumber": "7",
+          "score": 0.424,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-4726157504",
+          "name": "Mosaik Digital Network GmbH",
+          "latitude": 49.0059638,
+          "longitude": 8.4078476,
+          "address": "Kriegsstraße 82, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4726157504",
+          "category": "office",
+          "type": "it",
+          "street": "Kriegsstraße",
+          "houseNumber": "82",
+          "score": 0.412,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-3946564985",
+          "name": "Fischer Digital- und Schnelldruck",
+          "latitude": 49.0075986,
+          "longitude": 8.429048,
+          "address": "Seubertstraße 8, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3946564985",
+          "category": "shop",
+          "type": "copyshop",
+          "street": "Seubertstraße",
+          "houseNumber": "8",
+          "score": 0.359,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
       "eventCount": 1,
       "reviewNote": "",
       "organizer": "",
@@ -15044,6 +15299,72 @@
       ]
     },
     {
+      "key": "venue-b077ecb517bd583b4e46",
+      "location": "Heimatstube im Pfarrhaus, Heimat- & Kulturverein Walzbachtal e.V., Walzbachtal",
+      "scope": "walzbachtal",
+      "scopeLabel": "Walzbachtal",
+      "status": "resolved",
+      "reason": "Koordinate ausdrücklich auf der Originalseite dieses Spielorts angegeben.",
+      "method": "publisher",
+      "place": {
+        "id": "walzbachtal-address-5764",
+        "name": "Heimatstube im Pfarrhaus, Heimat- & Kulturverein Walzbachtal e.V.",
+        "address": "Kreuzstraße  2, 75045 Walzbachtal",
+        "latitude": 49.0317905,
+        "longitude": 8.573342,
+        "url": "https://www.walzbachtal.de/adresse/Heimatstube-im-Pfarrhaus-Heimat-Kulturverein-Walzbachtal-e-V-address5764",
+        "eventUrl": "https://www.walzbachtal.de/veranstaltung/Tag-der-offenen-Tuer-mit-Ausstellung-event-appointment5945",
+        "category": "publisher",
+        "type": "venue",
+        "provenance": "publisher",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "walzbachtal-address-5764",
+          "name": "Heimatstube im Pfarrhaus, Heimat- & Kulturverein Walzbachtal e.V.",
+          "address": "Kreuzstraße  2, 75045 Walzbachtal",
+          "latitude": 49.0317905,
+          "longitude": 8.573342,
+          "url": "https://www.walzbachtal.de/adresse/Heimatstube-im-Pfarrhaus-Heimat-Kulturverein-Walzbachtal-e-V-address5764",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Tag-der-offenen-Tuer-mit-Ausstellung-event-appointment5945",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 3,
+      "reviewNote": "",
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Walzbachtal · Jöhlingen und Wössingen"
+      ],
+      "examples": [
+        {
+          "id": "walzbachtal-5945-2027-05-23-1100",
+          "title": "Tag der offenen Tür mit Ausstellung \"Idema-Bausteine\"",
+          "date": "2027-05-23",
+          "url": "https://www.walzbachtal.de/veranstaltung/Tag-der-offenen-Tuer-mit-Ausstellung-Idema-Bausteine-event-appointment5945"
+        },
+        {
+          "id": "walzbachtal-6181-2027-07-06-1900",
+          "title": "Vortrag \"Hexen(-verfolgung) im Kraichgau\"",
+          "date": "2027-07-06",
+          "url": "https://www.walzbachtal.de/veranstaltung/Vortrag-Hexen-verfolgung-im-Kraichgau-event-appointment6181"
+        },
+        {
+          "id": "walzbachtal-5940-2027-12-05-1500",
+          "title": "Adventslesung",
+          "date": "2027-12-05",
+          "url": "https://www.walzbachtal.de/veranstaltung/Adventslesung-event-appointment5940"
+        }
+      ]
+    },
+    {
       "key": "venue-e7b233fed91e6d980181",
       "location": "Kaiserstraße 47, Kulturküche",
       "scope": "karlsruhe",
@@ -16124,66 +16445,6 @@
       ]
     },
     {
-      "key": "venue-b077ecb517bd583b4e46",
-      "location": "Heimatstube im Pfarrhaus, Heimat- & Kulturverein Walzbachtal e.V., Walzbachtal",
-      "scope": "walzbachtal",
-      "scopeLabel": "Walzbachtal",
-      "status": "resolved",
-      "reason": "Koordinate ausdrücklich auf der Originalseite dieses Spielorts angegeben.",
-      "method": "publisher",
-      "place": {
-        "id": "walzbachtal-address-5764",
-        "name": "Heimatstube im Pfarrhaus, Heimat- & Kulturverein Walzbachtal e.V.",
-        "address": "Kreuzstraße  2, 75045 Walzbachtal",
-        "latitude": 49.0317905,
-        "longitude": 8.573342,
-        "url": "https://www.walzbachtal.de/adresse/Heimatstube-im-Pfarrhaus-Heimat-Kulturverein-Walzbachtal-e-V-address5764",
-        "eventUrl": "https://www.walzbachtal.de/veranstaltung/Tag-der-offenen-Tuer-mit-Ausstellung-event-appointment5945",
-        "category": "publisher",
-        "type": "venue",
-        "provenance": "publisher",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "walzbachtal-address-5764",
-          "name": "Heimatstube im Pfarrhaus, Heimat- & Kulturverein Walzbachtal e.V.",
-          "address": "Kreuzstraße  2, 75045 Walzbachtal",
-          "latitude": 49.0317905,
-          "longitude": 8.573342,
-          "url": "https://www.walzbachtal.de/adresse/Heimatstube-im-Pfarrhaus-Heimat-Kulturverein-Walzbachtal-e-V-address5764",
-          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Tag-der-offenen-Tuer-mit-Ausstellung-event-appointment5945",
-          "category": "publisher",
-          "type": "venue",
-          "provenance": "publisher",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 2,
-      "reviewNote": "",
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Walzbachtal · Jöhlingen und Wössingen"
-      ],
-      "examples": [
-        {
-          "id": "walzbachtal-5945-2027-05-23-1100",
-          "title": "Tag der offenen Tür mit Ausstellung",
-          "date": "2027-05-23",
-          "url": "https://www.walzbachtal.de/veranstaltung/Tag-der-offenen-Tuer-mit-Ausstellung-event-appointment5945"
-        },
-        {
-          "id": "walzbachtal-5940-2027-12-05-1500",
-          "title": "Adventslesung",
-          "date": "2027-12-05",
-          "url": "https://www.walzbachtal.de/veranstaltung/Adventslesung-event-appointment5940"
-        }
-      ]
-    },
-    {
       "key": "venue-bdad8bc85a62dc7f566b",
       "location": "Junge Kunsthalle",
       "scope": "karlsruhe",
@@ -16939,6 +17200,75 @@
           "title": "Fällt aus: Historischer Stammtisch",
           "date": "2026-11-26",
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11763&tx_events2_events%5Btimestamp%5D=1795716000&cHash=3cdb770735e566166fc4804d9efcf2e6"
+        }
+      ]
+    },
+    {
+      "key": "venue-c947c23e1fe3dcc86b96",
+      "location": "Anna-Leimbach-Haus",
+      "scope": "durlach",
+      "scopeLabel": "Durlach",
+      "status": "resolved",
+      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
+      "method": "automatic",
+      "place": {
+        "id": "osm-way-558244810",
+        "name": "Anna-Leimbach-Haus",
+        "latitude": 49.0006338,
+        "longitude": 8.4765921,
+        "address": "Blumentorstraße 6, 76227 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/558244810",
+        "category": "amenity",
+        "type": "social_facility",
+        "street": "Blumentorstraße",
+        "houseNumber": "6",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "osm-way-558244810",
+          "name": "Anna-Leimbach-Haus",
+          "latitude": 49.0006338,
+          "longitude": 8.4765921,
+          "address": "Blumentorstraße 6, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/558244810",
+          "category": "amenity",
+          "type": "social_facility",
+          "street": "Blumentorstraße",
+          "houseNumber": "6",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-558244809",
+          "name": "Katholische Kindertagesstätte Anna-Leimbach-Haus",
+          "latitude": 49.0010264,
+          "longitude": 8.4764312,
+          "address": "Pfinzstraße 15a, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/558244809",
+          "category": "amenity",
+          "type": "kindergarten",
+          "street": "Pfinzstraße",
+          "houseNumber": "15a",
+          "score": 0.6,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Durlacher.de · Durlacher Kalender"
+      ],
+      "examples": [
+        {
+          "id": "durlach-11721-2026-11-27-1430",
+          "title": "Kaffeenachmittag „Gemeinsam statt einsam“",
+          "date": "2026-11-27",
+          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11721&tx_events2_events%5Btimestamp%5D=1795786200&cHash=add67d660edc101d606c3e16f696a67f"
         }
       ]
     },
@@ -19096,6 +19426,75 @@
           "title": "VORLESEZEIT in der Waldstadt",
           "date": "2026-11-23",
           "url": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_in_der_waldstadt-24"
+        }
+      ]
+    },
+    {
+      "key": "venue-b78bffd9affaea9a150a",
+      "location": "Stephanplatz",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
+      "method": "automatic",
+      "place": {
+        "id": "osm-node-1749651556",
+        "name": "Stephanplatz",
+        "latitude": 49.0080986,
+        "longitude": 8.3927228,
+        "address": "Amalienstraße, 76133 Karlsruhe",
+        "url": "https://www.openstreetmap.org/node/1749651556",
+        "category": "amenity",
+        "type": "parking",
+        "street": "Amalienstraße",
+        "houseNumber": "",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "osm-node-1749651556",
+          "name": "Stephanplatz",
+          "latitude": 49.0080986,
+          "longitude": 8.3927228,
+          "address": "Amalienstraße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1749651556",
+          "category": "amenity",
+          "type": "parking",
+          "street": "Amalienstraße",
+          "houseNumber": "",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-557072881",
+          "name": "Stephanplatz",
+          "latitude": 49.0085873,
+          "longitude": 8.3940855,
+          "address": "76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/557072881",
+          "category": "highway",
+          "type": "pedestrian",
+          "street": "",
+          "houseNumber": "",
+          "score": 1.0,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-9296f2b59f6b2129",
+          "title": "Wochenmarkt Stephanplatz",
+          "date": "2025-11-19",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/wochenmarkt_stephanplatz"
         }
       ]
     },
