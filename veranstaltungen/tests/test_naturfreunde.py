@@ -10,6 +10,7 @@ sys.path.insert(0, str(ROOT / 'scripts'))
 import naturfreunde as nf
 import import_local_calendars as imp
 from import_groetzingen import check_review
+from fixture_sources import historical_dataset
 
 
 ICS = b'''BEGIN:VCALENDAR
@@ -162,8 +163,9 @@ class NaturfreundeTests(unittest.TestCase):
     def test_monthly_review_is_due_on_first_of_next_month_including_year_end(self):
         self.assertEqual(nf.monthly_review('2026-11-13'), '2026-12-01')
         self.assertEqual(nf.monthly_review('2026-12-31'), '2027-01-01')
-        data = imp.build_current(ROOT, '2026-11-13T09:00:00+00:00')
-        future = imp.build_current(ROOT, '2026-12-05T09:00:00+00:00')
+        data = historical_dataset(stamp='2026-11-13T09:00:00+00:00')
+        future = historical_dataset(stamp='2026-12-05T09:00:00+00:00')
+        self.assertNotEqual(data['generatedAt'], future['generatedAt'])
         self.assertEqual(data['maintenance']['naturfreunde-groetzingen'], future['maintenance']['naturfreunde-groetzingen'])
         self.assertIn('Monatliche Prüfung ist fällig', check_review(future, date(2026, 12, 5)))
         self.assertEqual(future['maintenance']['naturfreunde-groetzingen']['lastReviewedAt'], '2026-11-13')
@@ -178,7 +180,7 @@ class NaturfreundeTests(unittest.TestCase):
         self.assertEqual(a, nf.groetzingen_evidence(html, lambda u: b'old image'))
 
     def test_manual_import_has_no_fabricated_sunday_or_clock_and_preserves_overlap(self):
-        data = imp.build_current(ROOT, '2026-11-13T09:00:00+00:00')
+        data = historical_dataset()
         events = [e for e in data['events'] if any(s['sourceId'] == 'naturfreunde-groetzingen' for s in e['sources'])]
         stew = next(e for e in events if 'Eintopf' in e['title'])
         self.assertEqual(stew['startDate'], '2026-11-08')

@@ -97,6 +97,29 @@ class EkiCalendarTests(unittest.TestCase):
                 fetch,_=self.fetch_pages({**pages,2:bad})
                 with self.assertRaises(ValueError):eki.fetch_records(fetch)
 
+    def test_same_calendar_pagination_supports_optional_trailing_slash(self):
+        for mixed in (False,True):
+            with self.subTest(mixed=mixed):
+                pages={n:(raw if mixed and n==2 else raw.replace(b'/terminkalender/?',b'/terminkalender?')) for n,raw in self.paged().items()}
+                fetch,seen=self.fetch_pages(pages)
+                rows,metadata=eki.fetch_records(fetch)
+                self.assertEqual(len(rows),7);self.assertEqual(metadata['pagesFetched'],3)
+                self.assertEqual(len(seen),3)
+                self.assertTrue(all(urlsplit(url).path=='/terminkalender/' for url in seen))
+
+    def test_official_cms_tenant_links_use_the_same_canonical_event_route(self):
+        original=eki.parse_listing(self.fixture())
+        raw=self.fixture().replace(b'https://eki-groetzingen.de/',b'https://eki-groetzingen.eki-musterhausen.de/')
+        # Fixtures may also use relative links, as the official page does.
+        raw=raw.replace(b'href="/terminkalender/detail/',b'href="https://eki-groetzingen.eki-musterhausen.de/terminkalender/detail/')
+        self.assertIn(b'https://eki-groetzingen.eki-musterhausen.de/',raw)
+        changed=eki.parse_listing(raw)
+        self.assertEqual(changed,original)
+        self.assertTrue(all(urlsplit(r['url']).netloc=='eki-groetzingen.de' for r in changed))
+        for host in ('other.eki-musterhausen.de','eki-groetzingen.eki-musterhausen.de.evil.example'):
+            with self.subTest(host=host),self.assertRaises(ValueError):
+                eki.parse_listing(raw.replace(b'eki-groetzingen.eki-musterhausen.de',host.encode()))
+
     def test_missing_page_or_failed_fetch_cannot_be_published_as_complete(self):
         pages=self.paged()
         for p,raw in pages.items():
@@ -113,6 +136,7 @@ class EkiCalendarTests(unittest.TestCase):
     def test_external_or_unrecognized_pagination_links_are_rejected_before_fetch(self):
         first=self.paged()[1]
         for target in ('https://example.org/terminkalender/?pagerPage_f1092ea5=2',
+                       '/terminkalender/weiter/?pagerPage_f1092ea5=2','/terminkalender//?pagerPage_f1092ea5=2',
                        '/terminkalender/?page=2','/terminkalender/?pagerPage_f1092ea5=101',
                        '/terminkalender/?pagerPage_f1092ea5=2&amp;filter=other'):
             changed=first.replace(b'/terminkalender/?pagerPage_f1092ea5=2#a-upos-f1092ea5',target.encode())

@@ -5,6 +5,7 @@ from datetime import date
 from io import BytesIO, StringIO
 import json
 import os
+import subprocess
 from pathlib import Path
 import sys
 import tempfile
@@ -317,6 +318,11 @@ class DeliveryTests(unittest.TestCase):
         steps = {s['id']: s for s in update['steps'] if 'id' in s}
         self.assertIn("steps.checks.outcome == 'success'", steps['persist']['if'])
         self.assertIn("steps.report.outputs.valid == 'true'", steps['persist']['if'])
+        self.assertIn("steps.etl.outcome != 'success'", steps['final']['if'])
+        self.assertIn("|| steps.checks.outcome != 'success'", steps['final']['if'])
+        self.assertIn("|| steps.report.outputs.valid != 'true'", steps['final']['if'])
+        self.assertEqual(steps['final']['run'], 'exit 1')
+        self.assertNotIn('continue-on-error', steps['final'])
         self.assertIn("steps.stage.outcome == 'success'", steps['pages-upload']['if'])
         self.assertIn("needs.update.outputs.pages_ready == 'true'", workflow['jobs']['deploy']['if'])
         self.assertNotIn('pages', update['permissions'])
@@ -324,6 +330,35 @@ class DeliveryTests(unittest.TestCase):
         import re
         for step in update['steps'] + workflow['jobs']['deploy']['steps']:
             if 'uses' in step: self.assertRegex(step['uses'], r'@' + '[a-f0-9]{40}$')
+
+    def test_workflow_report_distinguishes_failed_checks_and_keeps_import_errors(self):
+        import yaml
+        workflow=yaml.load(workflow_path(ROOT).read_text(),Loader=yaml.BaseLoader)
+        step=next(s for s in workflow['jobs']['update']['steps'] if s.get('id')=='report')
+        script=step['run'].split("<<'PY'\n",1)[1].rsplit('\nPY',1)[0]
+        for etl,checks,initial,expected,reason in (
+            ('success','failure',True,False,'Daten- und Anwendungsprüfungen'),
+            ('skipped','skipped',True,False,'Installation'),
+            ('success','success',True,True,None),
+            ('failure','success',False,False,None),
+        ):
+            with self.subTest(etl=etl,checks=checks), tempfile.TemporaryDirectory() as folder:
+                folder=Path(folder);(folder/'.etl').mkdir()
+                report={'validationPassed':initial,'issues':[{'key':'review:venues'}],'errors':[] if initial else [{'reason':'Original import error'}]}
+                target=folder/'.etl/report.json';target.write_text(json.dumps(report))
+                output,summary=folder/'output',folder/'gha-summary.md'
+                env={**os.environ,'ETL_OUTCOME':etl,'CHECK_OUTCOME':checks,'GITHUB_OUTPUT':str(output),'GITHUB_STEP_SUMMARY':str(summary)}
+                subprocess.run([sys.executable,'-c',script],cwd=folder,env=env,check=True,capture_output=True,text=True)
+                actual=json.loads(target.read_text())
+                self.assertEqual(actual['validationPassed'],expected)
+                self.assertEqual(output.read_text(),'valid='+str(expected).lower()+'\n')
+                self.assertEqual(actual['issues'],report['issues'])
+                self.assertEqual(actual['workflow'],{'etlOutcome':etl,'checkOutcome':checks})
+                if reason:
+                    self.assertIn(reason,actual['errors'][-1]['reason'])
+                    self.assertIn('Veröffentlichung gestoppt',summary.read_text())
+                    self.assertIn('Veröffentlichung gestoppt',(folder/'.etl/summary.md').read_text())
+                else:self.assertEqual(actual['errors'],report['errors'])
 
     def test_installed_github_layout_can_resolve_and_rebuild_its_bundle(self):
         with tempfile.TemporaryDirectory() as folder:

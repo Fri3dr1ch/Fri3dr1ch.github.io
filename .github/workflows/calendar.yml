@@ -74,9 +74,19 @@ jobs:
           folder=Path('.etl');folder.mkdir(exist_ok=True)
           path=folder/'report.json'
           report=json.loads(path.read_text()) if path.exists() else {'schemaVersion':1,'issues':[],'resolvedKeys':[],'errors':[],'validationPassed':False}
-          if os.environ['ETL_OUTCOME']=='skipped' or os.environ['CHECK_OUTCOME']!='success':
+          report['workflow']={'etlOutcome':os.environ['ETL_OUTCOME'],'checkOutcome':os.environ['CHECK_OUTCOME']}
+          reason=None
+          if os.environ['ETL_OUTCOME']=='skipped':
+              reason='Der Import wurde nach einer fehlgeschlagenen Installation nicht ausgeführt.'
+          elif os.environ['CHECK_OUTCOME']!='success':
+              reason='Die automatischen Daten- und Anwendungsprüfungen sind fehlgeschlagen. Details stehen im Workflow-Schritt „Daten und Anwendung prüfen“.'
+          if reason:
               report['validationPassed']=False
-              report['errors'].append({'reason':'Installation, ETL oder anschließende Prüfungen wurden nicht erfolgreich abgeschlossen.'})
+              report['errors'].append({'reason':reason})
+              notice='\n## Veröffentlichung gestoppt\n\n'+reason+' Es werden keine neuen Kalenderdaten veröffentlicht.\n'
+              with open(folder/'summary.md','a') as summary: summary.write(notice)
+              if os.environ.get('GITHUB_STEP_SUMMARY'):
+                  with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as summary: summary.write(notice)
           path.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
           with open(os.environ['GITHUB_OUTPUT'],'a') as output:
               output.write('valid='+str(bool(report.get('validationPassed'))).lower()+'\n')
@@ -121,8 +131,9 @@ jobs:
         uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:
           path: ${{ runner.temp }}/calendar-pages
-      - name: Unvollständige Quellen als fehlgeschlagenen Lauf kennzeichnen
-        if: always() && steps.etl.outcome != 'success'
+      - name: Fehlgeschlagene Importe oder Prüfungen als Fehler kennzeichnen
+        id: final
+        if: always() && (steps.etl.outcome != 'success' || steps.checks.outcome != 'success' || steps.report.outputs.valid != 'true')
         run: exit 1
 
   deploy:
