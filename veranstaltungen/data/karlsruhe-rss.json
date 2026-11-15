@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T06:41:35+00:00",
+  "generatedAt": "2026-11-15T06:46:29+00:00",
   "timezone": "Europe/Berlin",
   "sources": [
     {
@@ -11,9 +11,9 @@
       "license": "CC0",
       "licenseUrl": "https://transparenz.karlsruhe.de/dataset/veranstaltungskalender-stadt-karlsruhe",
       "timezone": "Europe/Berlin",
-      "lastAttemptAt": "2026-11-15T06:40:38+00:00",
-      "lastSuccessAt": "2026-11-15T06:41:35+00:00",
-      "feedBuiltAt": "Sun, 15 Nov 2026 06:40:39 +0000",
+      "lastAttemptAt": "2026-11-15T06:46:27+00:00",
+      "lastSuccessAt": "2026-11-15T06:46:29+00:00",
+      "feedBuiltAt": "Sun, 15 Nov 2026 06:46:28 +0000",
       "status": "ok",
       "feedItemCount": 425,
       "eventCount": 425,
@@ -10946,13 +10946,13 @@
       "icalLastModified": null
     },
     {
-      "id": "karlsruhe-0032a403bc453d47",
+      "id": "karlsruhe-3589dc0e044d134a",
       "sourceId": "karlsruhe",
       "sourceName": "Stadt Karlsruhe",
-      "sourceGuid": "ka 585314",
+      "sourceGuid": "ka 585312",
       "title": "Begegnungscafé für Jung und Alt",
-      "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/begegnungscafe_fur_jung_und_alt-6",
-      "icalUrl": "https://kalender.karlsruhe.de/db/termine/stadtleben/begegnungscafe_fur_jung_und_alt-6/ical",
+      "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/begegnungscafe_fur_jung_und_alt-4",
+      "icalUrl": "https://kalender.karlsruhe.de/db/termine/stadtleben/begegnungscafe_fur_jung_und_alt-4/ical",
       "categoryKey": "stadtleben",
       "category": "Stadtleben",
       "description": "9.30 bis 12 Uhr - Kaffee, Kuchen, Begegnung, Beratung und Austausch in der in der Oststadt",
@@ -10976,13 +10976,13 @@
       "icalLastModified": null
     },
     {
-      "id": "karlsruhe-3589dc0e044d134a",
+      "id": "karlsruhe-0032a403bc453d47",
       "sourceId": "karlsruhe",
       "sourceName": "Stadt Karlsruhe",
-      "sourceGuid": "ka 585312",
+      "sourceGuid": "ka 585314",
       "title": "Begegnungscafé für Jung und Alt",
-      "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/begegnungscafe_fur_jung_und_alt-4",
-      "icalUrl": "https://kalender.karlsruhe.de/db/termine/stadtleben/begegnungscafe_fur_jung_und_alt-4/ical",
+      "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/begegnungscafe_fur_jung_und_alt-6",
+      "icalUrl": "https://kalender.karlsruhe.de/db/termine/stadtleben/begegnungscafe_fur_jung_und_alt-6/ical",
       "categoryKey": "stadtleben",
       "category": "Stadtleben",
       "description": "9.30 bis 12 Uhr - Kaffee, Kuchen, Begegnung, Beratung und Austausch in der in der Oststadt",
