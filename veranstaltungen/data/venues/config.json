@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "enabled": true,
+  "endpoint": "https://photon.komoot.io/api/",
+  "maxNewPerRun": 12,
+  "repositoryUrl": "https://github.com/Fri3dr1ch/Fri3dr1ch.github.io",
+  "reviewUrl": "https://fri3dr1ch.github.io/veranstaltungen/orte-pruefen.html"
+}

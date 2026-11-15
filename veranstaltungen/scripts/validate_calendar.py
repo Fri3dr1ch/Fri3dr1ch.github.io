@@ -44,6 +44,13 @@ def validate(data):
             if not start <= day <= end:
                 raise ValueError('Hausöffnung liegt außerhalb ihrer Laufzeit')
             for key in ('startTime', 'endTime'): datetime.strptime(opening[key], '%H:%M')
+        venue = event.get('venue')
+        if venue is not None:
+            from venue_locations import validate_place
+            if venue.get('status') not in {'resolved', 'review', 'queued', 'missing', 'online', 'excluded'}:
+                raise ValueError('Unbekannter Ortszuordnungsstatus')
+            if venue['status'] == 'resolved': validate_place(venue['place'])
+            elif venue.get('place') is not None: raise ValueError('Ungeprüfter Ort hat einen Kartenpunkt')
     if data['importStats']['eventCount'] != len(events):
         raise ValueError('Eintragszahl stimmt nicht mit dem Kalender überein')
     return data

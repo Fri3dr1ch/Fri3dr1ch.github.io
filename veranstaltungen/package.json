@@ -2,7 +2,7 @@
   "name": "regionaler-veranstaltungskalender",
   "private": true,
   "scripts": {
-    "test": "node tests/test_ui.cjs && node tests/test_freshness.cjs"
+    "test": "node tests/test_ui.cjs && node tests/test_freshness.cjs && node tests/test_place_review.cjs"
   },
   "devDependencies": {
     "jsdom": "26.1.0"

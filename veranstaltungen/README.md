@@ -1,5 +1,10 @@
 # Veranstaltungskalender Karlsruhe und Umgebung
 
+Die Vorbereitung der Kartenansicht umfasst eine automatische, gespeicherte
+Ortszuordnung und eine Prüfliste für unsichere Spielorte. Einmal bestätigte Orte
+gelten auch für neue Termine. Ablauf und Entscheidungsexport sind in
+[docs/ORTSZUORDNUNG.md](docs/ORTSZUORDNUNG.md) beschrieben.
+
 Statischer Kalender aus 15 getrennt nachvollziehbaren Quellen. Der gemeinsame
 Produktionsaufruf aktualisiert RSS/iCalendar, regionale Kalender und die
 Änderungsprüfungen der manuell kontrollierten Grötzinger Quellen. Die
