@@ -5784,8 +5784,69 @@
       ]
     },
     "VWA Baden in Karlsruhe e. V., Karlsruhe": {
-      "checkedAt": "2026-11-15T09:17:28+00:00",
-      "error": "URLError: <urlopen error timed out>"
+      "checkedAt": "2026-11-16T22:12:20+00:00",
+      "places": [
+        {
+          "id": "osm-way-98816986",
+          "name": "Kleingartenverein Karlsruhe-Albsiedlung e. V.",
+          "latitude": 49.0048106,
+          "longitude": 8.3469322,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/98816986",
+          "category": "landuse",
+          "type": "allotments",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-147668323",
+          "name": "Polizeihundeclub Karlsruhe-Knielingen e.V.",
+          "latitude": 49.0251955,
+          "longitude": 8.3391624,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/147668323",
+          "category": "landuse",
+          "type": "grass",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-223726440",
+          "name": "Kaninchen- und Geflügelzuchtverein C107 e.V. Karlsruhe-Knielingen",
+          "latitude": 49.0259289,
+          "longitude": 8.3402264,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/223726440",
+          "category": "landuse",
+          "type": "allotments",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-47263604",
+          "name": "Kleingarten- und Geflügelzuchtverein Karlsruhe-Ost e.V.",
+          "latitude": 49.0081431,
+          "longitude": 8.4489307,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/47263604",
+          "category": "landuse",
+          "type": "allotments",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-179013499",
+          "name": "Longierzirkel ZRV Karlsruhe-Knielingen e.V.",
+          "latitude": 49.0280802,
+          "longitude": 8.3366169,
+          "address": "An der Rennbahn, 76187 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/179013499",
+          "category": "leisure",
+          "type": "pitch",
+          "street": "An der Rennbahn",
+          "houseNumber": ""
+        }
+      ]
     },
     "Karlsburg (Vorplatz), Durlach": {
       "checkedAt": "2026-11-15T09:17:28+00:00",
@@ -10194,6 +10255,346 @@
           "type": "garden",
           "street": "Am Fasanengarten",
           "houseNumber": "2"
+        }
+      ]
+    },
+    "dm dialogicum, Karlsruhe": {
+      "checkedAt": "2026-11-16T22:12:20+00:00",
+      "places": [
+        {
+          "id": "osm-relation-8012942",
+          "name": "dm-dialogicum",
+          "latitude": 49.0028443,
+          "longitude": 8.4567725,
+          "address": "Am dm-Platz 1, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/8012942",
+          "category": "building",
+          "type": "office",
+          "street": "Am dm-Platz",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-way-790731646",
+          "name": "dm dialogicum Besucherparkplatz",
+          "latitude": 49.003501,
+          "longitude": 8.4557179,
+          "address": "Am dm-Platz, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/790731646",
+          "category": "amenity",
+          "type": "bicycle_parking",
+          "street": "Am dm-Platz",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-648817645",
+          "name": "dm dialogicum Besucherparkplatz",
+          "latitude": 49.0036138,
+          "longitude": 8.4561,
+          "address": "Am dm-Platz, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/648817645",
+          "category": "amenity",
+          "type": "parking",
+          "street": "Am dm-Platz",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Kirchplatz/ Bachbühne, Weingarten (Baden)": {
+      "checkedAt": "2026-11-16T22:12:20+00:00",
+      "places": []
+    },
+    "TBW-Sommerhalle, Jahnstraße 6, 75196 Remchingen, Remchingen": {
+      "checkedAt": "2026-11-16T22:12:20+00:00",
+      "places": [
+        {
+          "id": "osm-way-1469906257",
+          "name": "Sommerhalle",
+          "latitude": 48.943662,
+          "longitude": 8.5731851,
+          "address": "Jahnstraße 6, 75196 Wilferdingen",
+          "url": "https://www.openstreetmap.org/way/1469906257",
+          "category": "leisure",
+          "type": "sports_hall",
+          "street": "Jahnstraße",
+          "houseNumber": "6"
+        },
+        {
+          "id": "osm-way-266678748",
+          "name": "Jahnhalle",
+          "latitude": 48.9435795,
+          "longitude": 8.5731082,
+          "address": "Jahnstraße 6, 75196 Wilferdingen",
+          "url": "https://www.openstreetmap.org/way/266678748",
+          "category": "leisure",
+          "type": "sports_centre",
+          "street": "Jahnstraße",
+          "houseNumber": "6"
+        }
+      ]
+    },
+    "Karlsruher Institut für Technologie (Audimax), Karlsruhe": {
+      "checkedAt": "2026-11-16T22:12:20+00:00",
+      "places": [
+        {
+          "id": "osm-relation-3350207",
+          "name": "Karlsruher Institut für Technologie",
+          "latitude": 49.1018534,
+          "longitude": 8.4331202,
+          "address": "89584 Ehingen (Donau)",
+          "url": "https://www.openstreetmap.org/relation/3350207",
+          "category": "amenity",
+          "type": "university",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-380818921",
+          "name": "Sportgruppe am Karlsruher Institut für Technologie",
+          "latitude": 49.0945241,
+          "longitude": 8.4171482,
+          "address": "Am Schröcker Tor, 76344 Eggenstein-Leopoldshafen",
+          "url": "https://www.openstreetmap.org/way/380818921",
+          "category": "leisure",
+          "type": "sports_centre",
+          "street": "Am Schröcker Tor",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-1177014540",
+          "name": "Institut für QuantenMaterialien und Technologien",
+          "latitude": 49.0949014,
+          "longitude": 8.4333089,
+          "address": "Karlsruher Allee 425, 76344 Eggenstein-Leopoldshafen",
+          "url": "https://www.openstreetmap.org/node/1177014540",
+          "category": "office",
+          "type": "research",
+          "street": "Karlsruher Allee",
+          "houseNumber": "425"
+        },
+        {
+          "id": "osm-way-244665212",
+          "name": "Fraunhofer-Institut für Chemische Technologie",
+          "latitude": 49.0174234,
+          "longitude": 8.5191839,
+          "address": "Joseph-von-Fraunhofer-Straße 7, 76327 Berghausen",
+          "url": "https://www.openstreetmap.org/way/244665212",
+          "category": "amenity",
+          "type": "research_institute",
+          "street": "Joseph-von-Fraunhofer-Straße",
+          "houseNumber": "7"
+        },
+        {
+          "id": "osm-node-13027023801",
+          "name": "Institut für Beschleunigerphysik und Technologie (IBPT)",
+          "latitude": 49.0963573,
+          "longitude": 8.4297759,
+          "address": "Weingartener Straße 345, 76344 Eggenstein-Leopoldshafen",
+          "url": "https://www.openstreetmap.org/node/13027023801",
+          "category": "office",
+          "type": "research",
+          "street": "Weingartener Straße",
+          "houseNumber": "345"
+        }
+      ]
+    },
+    "Alte ev. Kirche Wilferdingen, Kirchstr. 19, Remchingen": {
+      "checkedAt": "2026-11-16T22:12:20+00:00",
+      "places": [
+        {
+          "id": "osm-node-918688076",
+          "name": "Alte evangelische Kirche Wilferdingen",
+          "latitude": 48.9439768,
+          "longitude": 8.5770865,
+          "address": "Kirchstraße 21, 75196 Wilferdingen",
+          "url": "https://www.openstreetmap.org/node/918688076",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Kirchstraße",
+          "houseNumber": "21"
+        },
+        {
+          "id": "osm-way-291860868",
+          "name": "Evangelische Kirche Wilferdingen",
+          "latitude": 48.9465148,
+          "longitude": 8.5788788,
+          "address": "Im Grund, 75196 Wilferdingen",
+          "url": "https://www.openstreetmap.org/way/291860868",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Im Grund",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-810540105",
+          "name": "Kirchstraße",
+          "latitude": 48.9423262,
+          "longitude": 8.5782585,
+          "address": "75196 Wilferdingen",
+          "url": "https://www.openstreetmap.org/way/810540105",
+          "category": "highway",
+          "type": "residential",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-23589400",
+          "name": "Kirchstraße",
+          "latitude": 48.9442833,
+          "longitude": 8.5766821,
+          "address": "75196 Wilferdingen",
+          "url": "https://www.openstreetmap.org/way/23589400",
+          "category": "highway",
+          "type": "service",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Turmzimmer im Rathaus, Weingarten (Baden)": {
+      "checkedAt": "2026-11-16T22:12:20+00:00",
+      "places": []
+    },
+    "Hilfezentrum The Justice Project e.V., Karlsruhe": {
+      "checkedAt": "2026-11-16T22:12:20+00:00",
+      "places": []
+    },
+    "Karlsruhe Hauptbahnhof (Vordach), Karlsruhe": {
+      "checkedAt": "2026-11-16T22:12:20+00:00",
+      "places": [
+        {
+          "id": "osm-node-402589279",
+          "name": "Karlsruhe Hauptbahnhof",
+          "latitude": 48.9937234,
+          "longitude": 8.4018652,
+          "address": "Bahnhofplatz, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/402589279",
+          "category": "railway",
+          "type": "stop",
+          "street": "Bahnhofplatz",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-402589292",
+          "name": "Karlsruhe Hauptbahnhof",
+          "latitude": 48.9931508,
+          "longitude": 8.4020752,
+          "address": "Hinterm Hauptbahnhof, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/402589292",
+          "category": "railway",
+          "type": "stop",
+          "street": "Hinterm Hauptbahnhof",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-2541436126",
+          "name": "Karlsruhe Hauptbahnhof",
+          "latitude": 48.9931917,
+          "longitude": 8.4017106,
+          "address": "Hinterm Hauptbahnhof, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/2541436126",
+          "category": "railway",
+          "type": "stop",
+          "street": "Hinterm Hauptbahnhof",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-3216079568",
+          "name": "Karlsruhe Hauptbahnhof",
+          "latitude": 48.9933687,
+          "longitude": 8.4021034,
+          "address": "Hinterm Hauptbahnhof, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3216079568",
+          "category": "railway",
+          "type": "stop",
+          "street": "Hinterm Hauptbahnhof",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-402589288",
+          "name": "Karlsruhe Hauptbahnhof",
+          "latitude": 48.9932895,
+          "longitude": 8.4020941,
+          "address": "Hinterm Hauptbahnhof, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/402589288",
+          "category": "railway",
+          "type": "stop",
+          "street": "Hinterm Hauptbahnhof",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Naturfreundehaus Pfinztalblick, Am Neuen Berg, Pfinztal-Söllingen, Söllingen Pfinztal": {
+      "checkedAt": "2026-11-16T22:12:20+00:00",
+      "places": [
+        {
+          "id": "osm-way-306713725",
+          "name": "Naturfreundehaus Pfinztalblick",
+          "latitude": 48.9828764,
+          "longitude": 8.5624499,
+          "address": "Am Neuen Berg 1, 76327 Söllingen",
+          "url": "https://www.openstreetmap.org/way/306713725",
+          "category": "amenity",
+          "type": "restaurant",
+          "street": "Am Neuen Berg",
+          "houseNumber": "1"
+        }
+      ]
+    },
+    "FC Victoria Berghausen, Berghausen Pfinztal": {
+      "checkedAt": "2026-11-16T22:12:20+00:00",
+      "places": [
+        {
+          "id": "osm-node-4140580601",
+          "name": "Sportgaststätte FC Viktoria 06 Berghausen",
+          "latitude": 49.0013944,
+          "longitude": 8.538209,
+          "address": "Brunnenstraße, 76327 Berghausen",
+          "url": "https://www.openstreetmap.org/node/4140580601",
+          "category": "amenity",
+          "type": "restaurant",
+          "street": "Brunnenstraße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Reitsportclub Daxlanden e.V., Karlsruhe": {
+      "checkedAt": "2026-11-16T22:12:20+00:00",
+      "places": [
+        {
+          "id": "osm-way-121072097",
+          "name": "Angelverein Daxlanden e.V.",
+          "latitude": 49.0023727,
+          "longitude": 8.3212449,
+          "address": "Saumweg 3, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/121072097",
+          "category": "club",
+          "type": "sport",
+          "street": "Saumweg",
+          "houseNumber": "3"
+        },
+        {
+          "id": "osm-way-42090470",
+          "name": "Budo-Club Karlsruhe e.V.",
+          "latitude": 49.0044193,
+          "longitude": 8.3400659,
+          "address": "Wißmannstraße 1, 76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/42090470",
+          "category": "leisure",
+          "type": "sports_centre",
+          "street": "Wißmannstraße",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-way-129207402",
+          "name": "Bootshaus Polizeisportverein Karlsruhe e.V.",
+          "latitude": 48.9961557,
+          "longitude": 8.2917865,
+          "address": "Hermann-Schneider-Allee 55, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/129207402",
+          "category": "building",
+          "type": "yes",
+          "street": "Hermann-Schneider-Allee",
+          "houseNumber": "55"
         }
       ]
     }
