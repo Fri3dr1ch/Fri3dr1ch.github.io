@@ -9888,6 +9888,314 @@
           "houseNumber": ""
         }
       ]
+    },
+    "auf der Wiese neben dem Wartturm, Weingarten (Baden)": {
+      "checkedAt": "2026-11-16T06:39:07+00:00",
+      "places": []
+    },
+    "Gutenbergplatz, am Krautkopfbrunnen, Karlsruhe": {
+      "checkedAt": "2026-11-16T06:39:07+00:00",
+      "places": [
+        {
+          "id": "osm-node-279252298",
+          "name": "Krautkopfbrunnen",
+          "latitude": 49.0091434,
+          "longitude": 8.3758978,
+          "address": "Gutenbergplatz, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/279252298",
+          "category": "amenity",
+          "type": "fountain",
+          "street": "Gutenbergplatz",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-2062749521",
+          "name": "Zahnarztpraxis am Gutenbergplatz",
+          "latitude": 49.0077714,
+          "longitude": 8.3766158,
+          "address": "Körnerstraße 42, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/2062749521",
+          "category": "amenity",
+          "type": "dentist",
+          "street": "Körnerstraße",
+          "houseNumber": "42"
+        },
+        {
+          "id": "osm-node-828547743",
+          "name": "Weinlade am Gutenbergplatz",
+          "latitude": 49.0084498,
+          "longitude": 8.3760522,
+          "address": "Nelkenstraße 33, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/828547743",
+          "category": "shop",
+          "type": "alcohol",
+          "street": "Nelkenstraße",
+          "houseNumber": "33"
+        }
+      ]
+    },
+    "Treffpunkt: Parkplatz Moor B3 Weingarten (Baden), Weingarten (Baden)": {
+      "checkedAt": "2026-11-16T06:39:07+00:00",
+      "places": []
+    },
+    "Weingartner Weinberg oberhalb Parkplatz Liverdunplatz, Weingarten (Baden)": {
+      "checkedAt": "2026-11-16T06:39:07+00:00",
+      "places": []
+    },
+    "Evang. Gemeindehaus, Berghausen Pfinztal": {
+      "checkedAt": "2026-11-16T06:39:07+00:00",
+      "places": [
+        {
+          "id": "osm-way-152250690",
+          "name": "Evangelisches Gemeindehaus",
+          "latitude": 49.0031673,
+          "longitude": 8.5257537,
+          "address": "Alte Pfarrhausgasse 4, 76327 Berghausen",
+          "url": "https://www.openstreetmap.org/way/152250690",
+          "category": "building",
+          "type": "civic",
+          "street": "Alte Pfarrhausgasse",
+          "houseNumber": "4"
+        }
+      ]
+    },
+    "Walther-Rathenau-Platz, Karlsruhe": {
+      "checkedAt": "2026-11-16T06:39:07+00:00",
+      "places": [
+        {
+          "id": "osm-way-4493923",
+          "name": "Walther-Rathenau-Platz",
+          "latitude": 49.0291576,
+          "longitude": 8.3699282,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/4493923",
+          "category": "place",
+          "type": "square",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-6184811863",
+          "name": "Walther-Rathenau-Platz",
+          "latitude": 49.0290176,
+          "longitude": 8.3698849,
+          "address": "Bienwaldstraße, 76187 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/6184811863",
+          "category": "amenity",
+          "type": "marketplace",
+          "street": "Bienwaldstraße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Freibad Wolfartsweier, Karlsruhe": {
+      "checkedAt": "2026-11-16T06:39:07+00:00",
+      "places": [
+        {
+          "id": "osm-way-4626528",
+          "name": "Freibad Wolfartsweier",
+          "latitude": 48.9723555,
+          "longitude": 8.4534423,
+          "address": "Schlossbergstraße, 76228 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/4626528",
+          "category": "leisure",
+          "type": "sports_centre",
+          "street": "Schlossbergstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-5290543052",
+          "name": "Wolfartsweier Freibad",
+          "latitude": 48.9726617,
+          "longitude": 8.4544113,
+          "address": "Schlossbergstraße, 76228 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/5290543052",
+          "category": "information",
+          "type": "guidepost",
+          "street": "Schlossbergstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-13325820786",
+          "name": "16 Freibad Wölfle",
+          "latitude": 48.9727169,
+          "longitude": 8.4543848,
+          "address": "Schlossbergstraße, 76228 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/13325820786",
+          "category": "information",
+          "type": "map_board",
+          "street": "Schlossbergstraße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Clubhaus Dörnigstraße 2 Weingarten, Weingarten (Baden)": {
+      "checkedAt": "2026-11-16T06:39:07+00:00",
+      "places": []
+    },
+    "Gottesauer Platz, Karlsruhe": {
+      "checkedAt": "2026-11-16T06:39:07+00:00",
+      "places": [
+        {
+          "id": "osm-way-1303832888",
+          "name": "Gottesauer Platz",
+          "latitude": 49.0070925,
+          "longitude": 8.424005,
+          "address": "76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1303832888",
+          "category": "highway",
+          "type": "residential",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-1369805517",
+          "name": "Gottesauer Platz",
+          "latitude": 49.0073139,
+          "longitude": 8.4236275,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1369805517",
+          "category": "place",
+          "type": "square",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-134765889",
+          "name": "Gottesauer Platz",
+          "latitude": 49.0074414,
+          "longitude": 8.4235142,
+          "address": "76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/134765889",
+          "category": "highway",
+          "type": "pedestrian",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-421656425",
+          "name": "Gottesauer Platz",
+          "latitude": 49.0072214,
+          "longitude": 8.4239868,
+          "address": "Wolfartsweierer Straße, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/421656425",
+          "category": "highway",
+          "type": "bus_stop",
+          "street": "Wolfartsweierer Straße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-21618138",
+          "name": "Gottesauer Platz/BGV",
+          "latitude": 49.0074119,
+          "longitude": 8.4252235,
+          "address": "Durlacher Allee, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/21618138",
+          "category": "railway",
+          "type": "stop",
+          "street": "Durlacher Allee",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Bürgerzentrum Mühlburg e.V., Karlsruhe": {
+      "checkedAt": "2026-11-16T06:39:07+00:00",
+      "places": [
+        {
+          "id": "osm-node-7154542819",
+          "name": "Karlsruher Tafel e.V.",
+          "latitude": 49.0171309,
+          "longitude": 8.3448324,
+          "address": "Nördliche Uferstraße 8, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/7154542819",
+          "category": "amenity",
+          "type": "social_facility",
+          "street": "Nördliche Uferstraße",
+          "houseNumber": "8"
+        },
+        {
+          "id": "osm-way-110644863",
+          "name": "Karlsruher Ruder-Verein Wiking v. 1879 e.V.",
+          "latitude": 49.0101595,
+          "longitude": 8.3351092,
+          "address": "Hansastraße 18b, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/110644863",
+          "category": "leisure",
+          "type": "sports_centre",
+          "street": "Hansastraße",
+          "houseNumber": "18b"
+        },
+        {
+          "id": "osm-way-61183835",
+          "name": "Karlsruher Rheinklub Alemannia e.V.",
+          "latitude": 49.0173969,
+          "longitude": 8.3422207,
+          "address": "Nördliche Uferstraße, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/61183835",
+          "category": "leisure",
+          "type": "sports_centre",
+          "street": "Nördliche Uferstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-12615575668",
+          "name": "Nachbarschaftshilfe Sonnenblume e.V.",
+          "latitude": 49.0120544,
+          "longitude": 8.3652923,
+          "address": "Philippstraße 8, 76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12615575668",
+          "category": "amenity",
+          "type": "social_facility",
+          "street": "Philippstraße",
+          "houseNumber": "8"
+        },
+        {
+          "id": "osm-node-6680389521",
+          "name": "Deutsche Lebens-Rettungs-Gesellschaft Landesverband Baden e. V. Geschäftstelle",
+          "latitude": 49.0171186,
+          "longitude": 8.3427536,
+          "address": "Werftstraße 8a, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/6680389521",
+          "category": "office",
+          "type": "association",
+          "street": "Werftstraße",
+          "houseNumber": "8a"
+        }
+      ]
+    },
+    "Christ-König-Kirche, Karlsruhe": {
+      "checkedAt": "2026-11-16T06:39:07+00:00",
+      "places": [
+        {
+          "id": "osm-way-152250686",
+          "name": "Christ-König-Kirche",
+          "latitude": 49.0035768,
+          "longitude": 8.5237067,
+          "address": "Kiefernstraße 2a, 76327 Berghausen",
+          "url": "https://www.openstreetmap.org/way/152250686",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Kiefernstraße",
+          "houseNumber": "2a"
+        }
+      ]
+    },
+    "KIT Botanischer Garten, Karlsruhe": {
+      "checkedAt": "2026-11-16T06:39:07+00:00",
+      "places": [
+        {
+          "id": "osm-way-42152680",
+          "name": "Botanischer Garten des KIT",
+          "latitude": 49.0127476,
+          "longitude": 8.4190266,
+          "address": "Am Fasanengarten 2, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/42152680",
+          "category": "leisure",
+          "type": "garden",
+          "street": "Am Fasanengarten",
+          "houseNumber": "2"
+        }
+      ]
     }
   },
   "attribution": {

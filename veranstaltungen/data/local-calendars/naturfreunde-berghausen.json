@@ -5,8 +5,8 @@
     "region": "Pfinztal-Berghausen",
     "url": "https://www.naturfreunde-berghausen.de/",
     "status": "ok",
-    "lastAttemptAt": "2026-11-15T18:55:27+00:00",
-    "lastSuccessAt": "2026-11-15T18:55:27+00:00",
+    "lastAttemptAt": "2026-11-16T06:38:19+00:00",
+    "lastSuccessAt": "2026-11-16T06:38:19+00:00",
     "refreshHours": 24,
     "recordCount": 2,
     "eventCount": 2,
@@ -51,7 +51,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-15T18:55:27+00:00",
+      "detailCheckedAt": "2026-11-16T06:38:19+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/17/993/-/von-berghausen-nach-soellingen",
@@ -66,7 +66,7 @@
           "sourceId": "naturfreunde-berghausen",
           "sourceName": "NaturFreunde Berghausen",
           "reportedTitle": "Von Berghausen nach Söllingen",
-          "checkedAt": "2026-11-15T18:55:27+00:00",
+          "checkedAt": "2026-11-16T06:38:19+00:00",
           "priority": 2
         }
       ],
@@ -101,7 +101,7 @@
       "status": "postponed",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-15T18:55:27+00:00",
+      "detailCheckedAt": "2026-11-16T06:38:19+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/21/991/-/baumpflanzaktion-termin-verschoben",
@@ -116,7 +116,7 @@
           "sourceId": "naturfreunde-berghausen",
           "sourceName": "NaturFreunde Berghausen",
           "reportedTitle": "Baumpflanzaktion - Termin verschoben",
-          "checkedAt": "2026-11-15T18:55:27+00:00",
+          "checkedAt": "2026-11-16T06:38:19+00:00",
           "priority": 2
         }
       ],
