@@ -994,6 +994,84 @@
       "checkedAt": "2026-11-17T09:00:00+00:00",
       "places": [],
       "addresses": []
+    },
+    "venue-2b0c0373c265a66eb63a": {
+      "checkedAt": "2026-11-17T12:49:22+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Alter Schlachthof 4",
+          "city": "Karlsruhe",
+          "postalCode": "76131",
+          "address": "Alter Schlachthof 4, 76131 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/cosmic_flow_yoga_unter_sternen-5"
+        }
+      ]
+    },
+    "venue-a881ffcee73f90200662": {
+      "checkedAt": "2026-11-17T12:49:22+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Erbprinzenstraße 13",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Erbprinzenstraße 13, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/workshop_6_7_jahre_spuren_der_urmenschen-1"
+        }
+      ]
+    },
+    "venue-9e0eb9a3ce8fa80d91ef": {
+      "checkedAt": "2026-11-17T12:49:22+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Alter Schlachthof 35",
+          "city": "Karlsruhe",
+          "postalCode": "76131",
+          "address": "Alter Schlachthof 35, 76131 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/wohnzimmerkonzert08n"
+        }
+      ]
+    },
+    "venue-0729ef1f81f2900db0ad": {
+      "checkedAt": "2026-11-17T12:49:22+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Prinz-Max-Palais, Karlstraße 10",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Prinz-Max-Palais, Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/bioglow_der_regenwald_braucht_euch"
+        }
+      ]
+    },
+    "venue-8230e6fa2fc4947a2f61": {
+      "checkedAt": "2026-11-17T12:49:22+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Lorenzstraße 27, Städtische Galerie Karlsruhe",
+          "city": "Karlsruhe",
+          "postalCode": "76135",
+          "address": "Lorenzstraße 27, Städtische Galerie Karlsruhe, 76135 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/kanguru_tour_mit_baby_in_die_ausstellung-19"
+        }
+      ]
+    },
+    "venue-b74313ce24bc73733284": {
+      "checkedAt": "2026-11-17T12:49:22+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Niddastraße 9",
+          "city": "Karlsruhe",
+          "postalCode": "76229",
+          "address": "Niddastraße 9, 76229 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/internetcafe_55_grotzingen-6"
+        }
+      ]
     }
   }
 }

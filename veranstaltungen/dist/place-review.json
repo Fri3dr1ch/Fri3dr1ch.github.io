@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T08:02:03+00:00",
+  "generatedAt": "2026-11-17T12:49:21+00:00",
   "attribution": {
     "text": "© OpenStreetMap contributors · ODbL",
     "url": "https://www.openstreetmap.org/copyright"
@@ -9,22 +9,22 @@
     "venues": 323,
     "venueStatuses": {
       "missing": 10,
-      "review": 45,
+      "review": 50,
       "online": 3,
-      "queued": 2,
-      "resolved": 263
+      "queued": 4,
+      "resolved": 256
     },
-    "upcomingEvents": 1158,
+    "upcomingEvents": 1162,
     "eventStatuses": {
-      "resolved": 892,
-      "review": 51,
+      "resolved": 797,
+      "review": 146,
       "missing": 209,
-      "online": 4,
-      "queued": 2
+      "online": 5,
+      "queued": 5
     }
   },
   "lookup": {
-    "requested": 0,
+    "requested": 12,
     "failures": []
   },
   "rows": [
@@ -160,6 +160,527 @@
           "title": "FV04 Jugendweihnachtsmarkt",
           "date": "2026-12-12",
           "url": "https://www.walzbachtal.de/veranstaltung/FV04-Jugendweihnachtsmarkt-event-appointment4495"
+        }
+      ]
+    },
+    {
+      "key": "venue-2b0c0373c265a66eb63a",
+      "location": "PLANET KA Planetarium Karlsruhe",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "review",
+      "reason": "Mehrere gleich gut passende Kartenobjekte; Auswahl erforderlich.",
+      "method": null,
+      "place": null,
+      "candidates": [
+        {
+          "id": "osm-node-12813379988",
+          "name": "PLANET KA",
+          "latitude": 49.0039247,
+          "longitude": 8.4304598,
+          "address": "Alter Schlachthof 4, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12813379988",
+          "category": "amenity",
+          "type": "planetarium",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "Alter Schlachthof",
+          "houseNumber": "4",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-119746318",
+          "name": "Alter Schlachthof 4",
+          "latitude": 49.0039151,
+          "longitude": 8.4304661,
+          "address": "Alter Schlachthof 4, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/119746318",
+          "category": "building",
+          "type": "industrial",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "Alter Schlachthof",
+          "houseNumber": "4",
+          "score": 0.286,
+          "exact": true,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 34,
+      "reviewNote": "",
+      "sourceAddresses": [
+        {
+          "street": "Alter Schlachthof 4",
+          "city": "Karlsruhe",
+          "postalCode": "76131",
+          "address": "Alter Schlachthof 4, 76131 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/cosmic_flow_yoga_unter_sternen-5"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-c22a3358b9988549",
+          "title": "Cosmic Flow - Yoga unter Sternen",
+          "date": "2026-11-18",
+          "url": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/cosmic_flow_yoga_unter_sternen-5"
+        },
+        {
+          "id": "karlsruhe-88e874d1a9625dd6",
+          "title": "Unser exotisches Universum - zum diesjährigen Physik-Nobelpreis!",
+          "date": "2026-11-18",
+          "url": "https://kalender.karlsruhe.de/db/termine/wirtschaft/unser_exotisches_universum_zum_diesjahrigen-1"
+        },
+        {
+          "id": "karlsruhe-124dd8d04ef7f354",
+          "title": "Captain Schnuppes Weltraumreise",
+          "date": "2026-11-19",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/captain_schnuppes_weltraumreise-50"
+        },
+        {
+          "id": "karlsruhe-2b209ed0f8a0dd15",
+          "title": "NEU: Stella Nova",
+          "date": "2026-11-19",
+          "url": "https://kalender.karlsruhe.de/db/termine/wirtschaft/neu_stella_nova-10"
+        }
+      ]
+    },
+    {
+      "key": "venue-a881ffcee73f90200662",
+      "location": "Staatliches Museum für Naturkunde Karlsruhe",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "review",
+      "reason": "Mehrere gleich gut passende Kartenobjekte; Auswahl erforderlich.",
+      "method": null,
+      "place": null,
+      "candidates": [
+        {
+          "id": "osm-way-431433884",
+          "name": "Staatliches Museum für Naturkunde",
+          "latitude": 49.0069855,
+          "longitude": 8.400144,
+          "address": "Erbprinzenstraße 13, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/431433884",
+          "category": "tourism",
+          "type": "museum",
+          "street": "Erbprinzenstraße",
+          "houseNumber": "13",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-8022619493",
+          "name": "Bibliothek des Staatlichen Museums für Naturkunde Karlsruhe",
+          "latitude": 49.0069553,
+          "longitude": 8.3995595,
+          "address": "Erbprinzenstraße 13, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/8022619493",
+          "category": "amenity",
+          "type": "library",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Erbprinzenstraße",
+          "houseNumber": "13",
+          "score": 0.78,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-4058954",
+          "name": "Erbprinzenstraße 13",
+          "latitude": 49.0070646,
+          "longitude": 8.4002293,
+          "address": "Erbprinzenstraße 13, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/4058954",
+          "category": "building",
+          "type": "museum",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Erbprinzenstraße",
+          "houseNumber": "13",
+          "score": 0.264,
+          "exact": true,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 22,
+      "reviewNote": "",
+      "sourceAddresses": [
+        {
+          "street": "Erbprinzenstraße 13",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Erbprinzenstraße 13, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/workshop_6_7_jahre_spuren_der_urmenschen-1"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-1b62d28597f8154c",
+          "title": "Workshop (6-7 Jahre): Spuren der Urmenschen – mehr als nur Knochen",
+          "date": "2026-11-17",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/workshop_6_7_jahre_spuren_der_urmenschen-1"
+        },
+        {
+          "id": "karlsruhe-89b99da87d2f2948",
+          "title": "Vortrag mit Filmpräsentation und Diskussion: Natur im Fokus: Kurzfilme über Tiere, Vögel, Landschaften",
+          "date": "2026-11-17",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/vortrag_mit_filmprasentation_und_diskussion"
+        },
+        {
+          "id": "karlsruhe-a08d34039a3a0810",
+          "title": "Jugendbeirat: Artenkenntis für Alle. Entdecke die Natur",
+          "date": "2026-11-18",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/jugendbeirat_artenkenntis_fur_alle_entdecke_die_natur-1"
+        },
+        {
+          "id": "karlsruhe-f9c730e745e1e9a0",
+          "title": "Karneval der Tiere - Eine XR-Experience über das Verschwinden",
+          "date": "2026-11-18",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/karneval_der_tiere_eine_xr_experience"
+        }
+      ]
+    },
+    {
+      "key": "venue-9e0eb9a3ce8fa80d91ef",
+      "location": "Kulturzentrum Tollhaus",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "review",
+      "reason": "Mehrere gleich gut passende Kartenobjekte; Auswahl erforderlich.",
+      "method": null,
+      "place": null,
+      "candidates": [
+        {
+          "id": "osm-way-549437544",
+          "name": "Kulturzentrum Tollhaus",
+          "latitude": 49.0044252,
+          "longitude": 8.4317094,
+          "address": "Alter Schlachthof 35, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/549437544",
+          "category": "amenity",
+          "type": "arts_centre",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Kreativpark Alter Schlachthof",
+          "street": "Alter Schlachthof",
+          "houseNumber": "35",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-13163864381",
+          "name": "Bauernmarkt Karlsruhe",
+          "latitude": 49.0047014,
+          "longitude": 8.4317806,
+          "address": "Alter Schlachthof 35, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/13163864381",
+          "category": "amenity",
+          "type": "marketplace",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "Alter Schlachthof",
+          "houseNumber": "35",
+          "score": 0.211,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-484396384",
+          "name": "Alter Schlachthof 35",
+          "latitude": 49.0045449,
+          "longitude": 8.4314329,
+          "address": "Alter Schlachthof 35, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/484396384",
+          "category": "building",
+          "type": "civic",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "Alter Schlachthof",
+          "houseNumber": "35",
+          "score": 0.143,
+          "exact": true,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 20,
+      "reviewNote": "",
+      "sourceAddresses": [
+        {
+          "street": "Alter Schlachthof 35",
+          "city": "Karlsruhe",
+          "postalCode": "76131",
+          "address": "Alter Schlachthof 35, 76131 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/wohnzimmerkonzert08n"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-01856d68f620e210",
+          "title": "WOHNZIMMERKONZERT #08",
+          "date": "2026-11-17",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/wohnzimmerkonzert08n"
+        },
+        {
+          "id": "karlsruhe-7ab23b20fde996c0",
+          "title": "BATSHEVA DANCE COMPANY. OHAD NAHARIN",
+          "date": "2026-11-17",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/batsheva_dance_company_ohad_naharin"
+        },
+        {
+          "id": "karlsruhe-8683530ee2315e3c",
+          "title": "STUDNITZKY & KAMMERORCHESTER PHILHARMONIE ODESA",
+          "date": "2026-11-19",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/studnitzky_kammerorchester_philharmonie_odesa"
+        },
+        {
+          "id": "karlsruhe-3d4d0cff265985a8",
+          "title": "VOODOO JÜRGENS & DIE ANSA PANIER",
+          "date": "2026-11-19",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/voodoo_jurgens_die_ansa_panier"
+        }
+      ]
+    },
+    {
+      "key": "venue-0729ef1f81f2900db0ad",
+      "location": "Stadtbibliothek Karlsruhe - Kinder- und Jugendbibliothek Karlsruhe im Prinz-Max-Palais",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "review",
+      "reason": "Mehrere gleich gut passende Kartenobjekte; Auswahl erforderlich.",
+      "method": null,
+      "place": null,
+      "candidates": [
+        {
+          "id": "osm-node-375691054",
+          "name": "Kinder- und Jugendbibliothek im Prinz-Max-Palais",
+          "latitude": 49.0112378,
+          "longitude": 8.3948222,
+          "address": "Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/375691054",
+          "category": "amenity",
+          "type": "library",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Karlstraße",
+          "houseNumber": "10",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-90051674",
+          "name": "Prinz-Max-Palais",
+          "latitude": 49.0111857,
+          "longitude": 8.3947581,
+          "address": "Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/90051674",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Karlstraße",
+          "houseNumber": "10",
+          "score": 0.93,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-659502171",
+          "name": "Stadtmuseum",
+          "latitude": 49.0111502,
+          "longitude": 8.3948343,
+          "address": "Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/659502171",
+          "category": "tourism",
+          "type": "museum",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Karlstraße",
+          "houseNumber": "10",
+          "score": 0.138,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-659502172",
+          "name": "Museum für Literatur am Oberrhein",
+          "latitude": 49.0111814,
+          "longitude": 8.3946773,
+          "address": "Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/659502172",
+          "category": "tourism",
+          "type": "museum",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Karlstraße",
+          "houseNumber": "10",
+          "score": 0.05,
+          "exact": true,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 10,
+      "reviewNote": "",
+      "sourceAddresses": [
+        {
+          "street": "Prinz-Max-Palais, Karlstraße 10",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Prinz-Max-Palais, Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/bioglow_der_regenwald_braucht_euch"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-105ec65513f84176",
+          "title": "BioGlow – Der Regenwald braucht euch!",
+          "date": "2026-11-05",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/bioglow_der_regenwald_braucht_euch"
+        },
+        {
+          "id": "karlsruhe-167e61a40957763f",
+          "title": "VORLESEZEIT in der Kinder- & Jugendbibliothek",
+          "date": "2026-11-18",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_in_der_kinder_jugendbibliothek-59"
+        },
+        {
+          "id": "karlsruhe-fee32ef92f722741",
+          "title": "Vorlesezeit am Bundesweiten Vorlesetag",
+          "date": "2026-11-20",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_am_bundesweiten_vorlesetag"
+        },
+        {
+          "id": "karlsruhe-e5463655f4bdcc88",
+          "title": "Bücherflohmarkt",
+          "date": "2026-11-24",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/bucherflohmarkt-4"
+        }
+      ]
+    },
+    {
+      "key": "venue-b74313ce24bc73733284",
+      "location": "Begegnungsstätte Grötzingen",
+      "scope": "groetzingen",
+      "scopeLabel": "Grötzingen",
+      "status": "review",
+      "reason": "Mehrere gleich gut passende Kartenobjekte; Auswahl erforderlich.",
+      "method": null,
+      "place": null,
+      "candidates": [
+        {
+          "id": "osm-way-151345436",
+          "name": "Begegnungsstätte Grötzingen",
+          "latitude": 49.0070922,
+          "longitude": 8.4951326,
+          "address": "Niddastraße 9, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151345436",
+          "category": "amenity",
+          "type": "community_centre",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Niddastraße",
+          "houseNumber": "9",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-10300133100",
+          "name": "Holzhackers Ratsstuben",
+          "latitude": 49.0069969,
+          "longitude": 8.4953746,
+          "address": "Niddastraße 9, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/10300133100",
+          "category": "amenity",
+          "type": "restaurant",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Niddastraße",
+          "houseNumber": "9",
+          "score": 0.263,
+          "exact": true,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 9,
+      "reviewNote": "",
+      "sourceAddresses": [
+        {
+          "street": "Niddastraße 9",
+          "city": "Karlsruhe",
+          "postalCode": "76229",
+          "address": "Niddastraße 9, 76229 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/internetcafe_55_grotzingen-6"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Grötzingen · Jahresprogramm",
+        "Grötzingen · Kultur-Natur-Termine",
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-c85a0df0b60f4457",
+          "title": "Internetcafe 55+ Grötzingen",
+          "date": "2026-11-05",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/internetcafe_55_grotzingen-6"
+        },
+        {
+          "id": "groetzingen-jahresprogramm-annual-2026-131",
+          "title": "Ortschaftsratssitzung",
+          "date": "2026-11-18",
+          "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/017_Stadtteile_und_Umgebung/Groetzingen/Jahresprogramm_Groetzingen_2026_im_CD_sem.pdf#page=10"
+        },
+        {
+          "id": "karlsruhe-5c2d39707b07917f",
+          "title": "Naturparadies Rheinauen",
+          "date": "2026-11-19",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/naturparadies_rheinauen"
+        },
+        {
+          "id": "karlsruhe-0fe323818688851f",
+          "title": "KLAVIERFEST",
+          "date": "2026-11-21",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/klavierfest-2"
         }
       ]
     },
@@ -460,6 +981,109 @@
           "title": "Weihnachtlicher Jahresabschluss",
           "date": "2026-12-12",
           "url": "https://www.naturfreunde-groetzingen.de/images/1a_Nov-Dez26.jpg"
+        }
+      ]
+    },
+    {
+      "key": "venue-80fdf1c0ee6118a7776f",
+      "location": "Online Veranstaltung",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "online",
+      "reason": "Als Online-Ort angegeben; kein physischer Kartenpunkt.",
+      "method": null,
+      "place": null,
+      "candidates": [],
+      "eventCount": 2,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-24881b2cfbb78a0c",
+          "title": "Geschlechterrolle rückwärts?!",
+          "date": "2026-11-17",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/geschlechterrolle_ruckwarts"
+        },
+        {
+          "id": "karlsruhe-f37f24f4a2531499",
+          "title": "Schulung: Demenz-Balance-Modell ONLINE",
+          "date": "2026-11-19",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/schulung_demenz_balance_modell_online-3"
+        }
+      ]
+    },
+    {
+      "key": "venue-5c550710f8b012c4607f",
+      "location": "Rüppurrer Rathäusle",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "queued",
+      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
+      "method": null,
+      "place": null,
+      "candidates": [
+        {
+          "id": "osm-way-131508946",
+          "name": "Am Rüppurrer Schloss 5",
+          "latitude": 48.9820256,
+          "longitude": 8.4057377,
+          "address": "Am Rüppurrer Schloss 5, 76199 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/131508946",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Rüppurr",
+          "locality": "Gartenstadt",
+          "street": "Am Rüppurrer Schloss",
+          "houseNumber": "5",
+          "score": 0.585,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-583795766",
+          "name": "Städtische Kindertagesstätte am Rüppurrer Schloss",
+          "latitude": 48.9820261,
+          "longitude": 8.4058497,
+          "address": "Am Rüppurrer Schloss 5, 76199 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/583795766",
+          "category": "amenity",
+          "type": "kindergarten",
+          "city": "Karlsruhe",
+          "district": "Rüppurr",
+          "locality": "Gartenstadt",
+          "street": "Am Rüppurrer Schloss",
+          "houseNumber": "5",
+          "score": 0.353,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 2,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-ca58788fabc6cca5",
+          "title": "Vernissage \"Lichtfelder\" ~ Kunstausstellung mit Hubert Obermanns",
+          "date": "2026-11-27",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/vernissage_lichtfelder_kunstausstellung"
+        },
+        {
+          "id": "karlsruhe-3a71aeba97b577c7",
+          "title": "Kunstausstellung mit Hubert Obermanns ~ „Lichtfelder“",
+          "date": "2026-11-28",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/kunstausstellung_mit_hubert_obermanns_lichtfelder"
         }
       ]
     },
@@ -1725,15 +2349,97 @@
       ]
     },
     {
-      "key": "venue-80fdf1c0ee6118a7776f",
-      "location": "Online-Veranstaltung",
+      "key": "venue-c65d1627b77d241cc6cd",
+      "location": "Orgelfabrik Halle",
       "scope": "karlsruhe",
       "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "online",
-      "reason": "Als Online-Ort angegeben; kein physischer Kartenpunkt.",
+      "status": "queued",
+      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
       "method": null,
       "place": null,
-      "candidates": [],
+      "candidates": [
+        {
+          "id": "osm-node-12458900135",
+          "name": "Orgelfabrik",
+          "latitude": 48.9978139,
+          "longitude": 8.4718127,
+          "address": "Weiherhof, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12458900135",
+          "category": "information",
+          "type": "board",
+          "street": "Weiherhof",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-12458900144",
+          "name": "Orgelfabrik",
+          "latitude": 48.9978755,
+          "longitude": 8.4716673,
+          "address": "Am Stadtgraben, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12458900144",
+          "category": "amenity",
+          "type": "community_centre",
+          "street": "Am Stadtgraben",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-12458903415",
+          "name": "Kulturzentrum Orgelfabrik",
+          "latitude": 48.9979313,
+          "longitude": 8.47122,
+          "address": "Amthausstraße, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12458903415",
+          "category": "information",
+          "type": "board",
+          "street": "Amthausstraße",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-12458900137",
+          "name": "Orgelfabrik Verein",
+          "latitude": 48.9978389,
+          "longitude": 8.4715895,
+          "address": "Amthausstraße 17-19, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12458900137",
+          "category": "club",
+          "type": "history",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Amthausstraße",
+          "houseNumber": "17-19",
+          "score": 0.743,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-12458900138",
+          "name": "Theater in der Orgelfabrik",
+          "latitude": 48.9978917,
+          "longitude": 8.4717746,
+          "address": "Amthausstraße 19, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12458900138",
+          "category": "amenity",
+          "type": "theatre",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Amthausstraße",
+          "houseNumber": "19",
+          "score": 0.512,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
       "eventCount": 1,
       "reviewNote": "",
       "sourceAddresses": [],
@@ -1744,10 +2450,10 @@
       ],
       "examples": [
         {
-          "id": "karlsruhe-f37f24f4a2531499",
-          "title": "Schulung: Demenz-Balance-Modell ONLINE",
-          "date": "2026-11-19",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/schulung_demenz_balance_modell_online-3"
+          "id": "karlsruhe-505b4fcc25f97635",
+          "title": "ARTVENT#24 im Jahr 2026",
+          "date": "2026-11-27",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/artvent24_im_jahr2026n"
         }
       ]
     },
@@ -2642,7 +3348,7 @@
           "outsideContext": false
         }
       ],
-      "eventCount": 42,
+      "eventCount": 43,
       "reviewNote": "",
       "sourceAddresses": [],
       "organizer": "",
@@ -2675,167 +3381,6 @@
           "title": "Südtirol & Dolomiten - im Zauberreich der leuchtenden Berge - 3D!",
           "date": "2026-11-25",
           "url": "https://www.kulturhalle-remchingen.de/events/kh-va/suedtirol-dolomiten-stephan-schulz-2026"
-        }
-      ]
-    },
-    {
-      "key": "venue-2b0c0373c265a66eb63a",
-      "location": "PLANET KA Planetarium Karlsruhe",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
-      "method": "automatic",
-      "place": {
-        "id": "osm-node-12813379988",
-        "name": "PLANET KA",
-        "latitude": 49.0039247,
-        "longitude": 8.4304598,
-        "address": "Alter Schlachthof 4, 76131 Karlsruhe",
-        "url": "https://www.openstreetmap.org/node/12813379988",
-        "category": "amenity",
-        "type": "planetarium",
-        "street": "Alter Schlachthof",
-        "houseNumber": "4",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-node-12813379988",
-          "name": "PLANET KA",
-          "latitude": 49.0039247,
-          "longitude": 8.4304598,
-          "address": "Alter Schlachthof 4, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/12813379988",
-          "category": "amenity",
-          "type": "planetarium",
-          "street": "Alter Schlachthof",
-          "houseNumber": "4",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 34,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-c22a3358b9988549",
-          "title": "Cosmic Flow - Yoga unter Sternen",
-          "date": "2026-11-18",
-          "url": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/cosmic_flow_yoga_unter_sternen-5"
-        },
-        {
-          "id": "karlsruhe-88e874d1a9625dd6",
-          "title": "Unser exotisches Universum - zum diesjährigen Physik-Nobelpreis!",
-          "date": "2026-11-18",
-          "url": "https://kalender.karlsruhe.de/db/termine/wirtschaft/unser_exotisches_universum_zum_diesjahrigen-1"
-        },
-        {
-          "id": "karlsruhe-124dd8d04ef7f354",
-          "title": "Captain Schnuppes Weltraumreise",
-          "date": "2026-11-19",
-          "url": "https://kalender.karlsruhe.de/db/termine/literatur/captain_schnuppes_weltraumreise-50"
-        },
-        {
-          "id": "karlsruhe-2b209ed0f8a0dd15",
-          "title": "NEU: Stella Nova",
-          "date": "2026-11-19",
-          "url": "https://kalender.karlsruhe.de/db/termine/wirtschaft/neu_stella_nova-10"
-        }
-      ]
-    },
-    {
-      "key": "venue-a881ffcee73f90200662",
-      "location": "Staatliches Museum für Naturkunde Karlsruhe",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
-      "method": "automatic",
-      "place": {
-        "id": "osm-way-431433884",
-        "name": "Staatliches Museum für Naturkunde",
-        "latitude": 49.0069855,
-        "longitude": 8.400144,
-        "address": "Erbprinzenstraße 13, 76133 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/431433884",
-        "category": "tourism",
-        "type": "museum",
-        "street": "Erbprinzenstraße",
-        "houseNumber": "13",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-way-431433884",
-          "name": "Staatliches Museum für Naturkunde",
-          "latitude": 49.0069855,
-          "longitude": 8.400144,
-          "address": "Erbprinzenstraße 13, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/431433884",
-          "category": "tourism",
-          "type": "museum",
-          "street": "Erbprinzenstraße",
-          "houseNumber": "13",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-8022619493",
-          "name": "Bibliothek des Staatlichen Museums für Naturkunde Karlsruhe",
-          "latitude": 49.0069553,
-          "longitude": 8.3995595,
-          "address": "Erbprinzenstraße 13, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/8022619493",
-          "category": "amenity",
-          "type": "library",
-          "street": "Erbprinzenstraße",
-          "houseNumber": "13",
-          "score": 0.78,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 22,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-1b62d28597f8154c",
-          "title": "Workshop (6-7 Jahre): Spuren der Urmenschen – mehr als nur Knochen",
-          "date": "2026-11-17",
-          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/workshop_6_7_jahre_spuren_der_urmenschen-1"
-        },
-        {
-          "id": "karlsruhe-89b99da87d2f2948",
-          "title": "Vortrag mit Filmpräsentation und Diskussion: Natur im Fokus: Kurzfilme über Tiere, Vögel, Landschaften",
-          "date": "2026-11-17",
-          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/vortrag_mit_filmprasentation_und_diskussion"
-        },
-        {
-          "id": "karlsruhe-a08d34039a3a0810",
-          "title": "Jugendbeirat: Artenkenntis für Alle. Entdecke die Natur",
-          "date": "2026-11-18",
-          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/jugendbeirat_artenkenntis_fur_alle_entdecke_die_natur-1"
-        },
-        {
-          "id": "karlsruhe-f9c730e745e1e9a0",
-          "title": "Karneval der Tiere - Eine XR-Experience über das Verschwinden",
-          "date": "2026-11-18",
-          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/karneval_der_tiere_eine_xr_experience"
         }
       ]
     },
@@ -2939,79 +3484,6 @@
           "title": "Heiraten in Weingarten (Baden) - Angebot Trausamstag",
           "date": "2027-02-20",
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/928/heiraten-in-weingarten-baden-angebot-trausamstag"
-        }
-      ]
-    },
-    {
-      "key": "venue-9e0eb9a3ce8fa80d91ef",
-      "location": "Kulturzentrum Tollhaus",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
-      "method": "automatic",
-      "place": {
-        "id": "osm-way-549437544",
-        "name": "Kulturzentrum Tollhaus",
-        "latitude": 49.0044252,
-        "longitude": 8.4317094,
-        "address": "Alter Schlachthof 35, 76131 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/549437544",
-        "category": "amenity",
-        "type": "arts_centre",
-        "street": "Alter Schlachthof",
-        "houseNumber": "35",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-way-549437544",
-          "name": "Kulturzentrum Tollhaus",
-          "latitude": 49.0044252,
-          "longitude": 8.4317094,
-          "address": "Alter Schlachthof 35, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/549437544",
-          "category": "amenity",
-          "type": "arts_centre",
-          "street": "Alter Schlachthof",
-          "houseNumber": "35",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 20,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-01856d68f620e210",
-          "title": "WOHNZIMMERKONZERT #08",
-          "date": "2026-11-17",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/wohnzimmerkonzert08n"
-        },
-        {
-          "id": "karlsruhe-7ab23b20fde996c0",
-          "title": "BATSHEVA DANCE COMPANY. OHAD NAHARIN",
-          "date": "2026-11-17",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/batsheva_dance_company_ohad_naharin"
-        },
-        {
-          "id": "karlsruhe-8683530ee2315e3c",
-          "title": "STUDNITZKY & KAMMERORCHESTER PHILHARMONIE ODESA",
-          "date": "2026-11-19",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/studnitzky_kammerorchester_philharmonie_odesa"
-        },
-        {
-          "id": "karlsruhe-3d4d0cff265985a8",
-          "title": "VOODOO JÜRGENS & DIE ANSA PANIER",
-          "date": "2026-11-19",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/voodoo_jurgens_die_ansa_panier"
         }
       ]
     },
@@ -3223,7 +3695,7 @@
     },
     {
       "key": "venue-8d82ceee140fb91c2b76",
-      "location": "Stadtbibliothek Karlsruhe - Zentralbibliothek im Neuen Ständehaus - Sprechstunde",
+      "location": "Stadtbibliothek Karlsruhe - Zentralbibliothek im Neuen Ständehaus - Aktionswoche",
       "scope": "karlsruhe",
       "scopeLabel": "Karlsruhe und Umgebung",
       "status": "resolved",
@@ -3259,7 +3731,7 @@
           "exact": true
         }
       ],
-      "eventCount": 17,
+      "eventCount": 16,
       "reviewNote": "",
       "sourceAddresses": [],
       "organizer": "",
@@ -3268,12 +3740,6 @@
         "Stadt Karlsruhe"
       ],
       "examples": [
-        {
-          "id": "karlsruhe-c0cd8ff7950ea862",
-          "title": "Sprechstunde: Einfach digital!",
-          "date": "2026-11-17",
-          "url": "https://kalender.karlsruhe.de/db/termine/literatur/sprechstunde_einfach_digital-58"
-        },
         {
           "id": "karlsruhe-a2ca95a66671753e",
           "title": "FANTASY-WOCHE: QBeKA Buchclub",
@@ -3291,6 +3757,12 @@
           "title": "Brain Energy - Gut vorbereitet fürs nächste Referat",
           "date": "2026-11-18",
           "url": "https://kalender.karlsruhe.de/db/termine/literatur/brain_energy_gut_vorbereitet_furs_nachste_referat-2"
+        },
+        {
+          "id": "karlsruhe-6a9ca9e2b514ee32",
+          "title": "FANTASY-WOCHE: Schreib-Workshop mit Autorin Alicia Serieux",
+          "date": "2026-11-18",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/fantasy_woche_schreib_workshop_mit_autorin"
         }
       ]
     },
@@ -3347,6 +3819,139 @@
           "title": "Öffentliche Gemeinderatssitzung / 2027 - 01",
           "date": "2027-01-28",
           "url": "https://www.remchingen.de/ratstermine/oeffentliche-gemeinderatssitzung-2027-01-id_3332/"
+        }
+      ]
+    },
+    {
+      "key": "venue-e97d27c69e39df33d545",
+      "location": "Badisches Staatstheater, Kleines Haus",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-4058925",
+        "name": "Badisches Staatstheater",
+        "latitude": 49.004712,
+        "longitude": 8.406662,
+        "address": "Hermann-Levi-Platz 1, 76137 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/4058925",
+        "category": "amenity",
+        "type": "theatre",
+        "street": "Hermann-Levi-Platz",
+        "houseNumber": "1",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "osm-way-4058925",
+          "name": "Badisches Staatstheater",
+          "latitude": 49.004712,
+          "longitude": 8.406662,
+          "address": "Hermann-Levi-Platz 1, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/4058925",
+          "category": "amenity",
+          "type": "theatre",
+          "street": "Hermann-Levi-Platz",
+          "houseNumber": "1",
+          "outsideContext": false,
+          "score": 1.0,
+          "exact": true
+        },
+        {
+          "id": "osm-node-3761433995",
+          "name": "Badisches Staatstheater - Ergotti",
+          "latitude": 49.0038133,
+          "longitude": 8.4056186,
+          "address": "Wilhelmstraße 1, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3761433995",
+          "category": "amenity",
+          "type": "theatre",
+          "street": "Wilhelmstraße",
+          "houseNumber": "1",
+          "score": 0.852,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-119619142",
+          "name": "Badisches Staatstheater - Magazin",
+          "latitude": 48.9941316,
+          "longitude": 8.4396203,
+          "address": "Wachhausstraße 22, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/119619142",
+          "category": "building",
+          "type": "commercial",
+          "street": "Wachhausstraße",
+          "houseNumber": "22",
+          "score": 0.852,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-7682318266",
+          "name": "Probebühne Badisches Staatstheater",
+          "latitude": 49.0018985,
+          "longitude": 8.400047,
+          "address": "Festplatz, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/7682318266",
+          "category": "amenity",
+          "type": "stage",
+          "street": "Festplatz",
+          "houseNumber": "",
+          "score": 0.807,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-3605775457",
+          "name": "Tages- & Abokasse Badisches Staatstheater",
+          "latitude": 49.0051947,
+          "longitude": 8.4042783,
+          "address": "Ettlinger-Tor-Platz 1a, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3605775457",
+          "category": "shop",
+          "type": "ticket",
+          "street": "Ettlinger-Tor-Platz",
+          "houseNumber": "1a",
+          "score": 0.708,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 13,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-196b91ff0b4caf88",
+          "title": "Die Wut, die bleibt (Wiederaufnahme)",
+          "date": "2026-11-18",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/die_wut_die_bleibt_wiederaufnahme"
+        },
+        {
+          "id": "karlsruhe-777f50edb22448af",
+          "title": "Peer Gynt",
+          "date": "2026-11-19",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/peer_gynt-1"
+        },
+        {
+          "id": "karlsruhe-7a8d409a2506fe30",
+          "title": "Macbeth",
+          "date": "2026-11-20",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/macbeth-1"
+        },
+        {
+          "id": "karlsruhe-1121d2155f6ffd9f",
+          "title": "Geschichten aus dem Wiener Wald",
+          "date": "2026-11-21",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/geschichten_aus_dem_wiener_wald-2"
         }
       ]
     },
@@ -3526,7 +4131,7 @@
           "outsideContext": false
         }
       ],
-      "eventCount": 12,
+      "eventCount": 11,
       "reviewNote": "",
       "sourceAddresses": [],
       "organizer": "",
@@ -3535,12 +4140,6 @@
         "Stadt Karlsruhe"
       ],
       "examples": [
-        {
-          "id": "karlsruhe-5b69d0e043d5f4d2",
-          "title": "Nils Karlsson Däumling",
-          "date": "2026-11-17",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/nils_karlsson_daumling-1"
-        },
         {
           "id": "karlsruhe-405de45aef878a31",
           "title": "Habibi, das ist echt!",
@@ -3558,139 +4157,12 @@
           "title": "Robin Hood",
           "date": "2026-11-19",
           "url": "https://kalender.karlsruhe.de/db/termine/theater/robin_hood-2"
-        }
-      ]
-    },
-    {
-      "key": "venue-e97d27c69e39df33d545",
-      "location": "Badisches Staatstheater, Kleines Haus",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-4058925",
-        "name": "Badisches Staatstheater",
-        "latitude": 49.004712,
-        "longitude": 8.406662,
-        "address": "Hermann-Levi-Platz 1, 76137 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/4058925",
-        "category": "amenity",
-        "type": "theatre",
-        "street": "Hermann-Levi-Platz",
-        "houseNumber": "1",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-way-4058925",
-          "name": "Badisches Staatstheater",
-          "latitude": 49.004712,
-          "longitude": 8.406662,
-          "address": "Hermann-Levi-Platz 1, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/4058925",
-          "category": "amenity",
-          "type": "theatre",
-          "street": "Hermann-Levi-Platz",
-          "houseNumber": "1",
-          "outsideContext": false,
-          "score": 1.0,
-          "exact": true
         },
         {
-          "id": "osm-node-3761433995",
-          "name": "Badisches Staatstheater - Ergotti",
-          "latitude": 49.0038133,
-          "longitude": 8.4056186,
-          "address": "Wilhelmstraße 1, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/3761433995",
-          "category": "amenity",
-          "type": "theatre",
-          "street": "Wilhelmstraße",
-          "houseNumber": "1",
-          "score": 0.852,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-119619142",
-          "name": "Badisches Staatstheater - Magazin",
-          "latitude": 48.9941316,
-          "longitude": 8.4396203,
-          "address": "Wachhausstraße 22, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/119619142",
-          "category": "building",
-          "type": "commercial",
-          "street": "Wachhausstraße",
-          "houseNumber": "22",
-          "score": 0.852,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-7682318266",
-          "name": "Probebühne Badisches Staatstheater",
-          "latitude": 49.0018985,
-          "longitude": 8.400047,
-          "address": "Festplatz, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/7682318266",
-          "category": "amenity",
-          "type": "stage",
-          "street": "Festplatz",
-          "houseNumber": "",
-          "score": 0.807,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-3605775457",
-          "name": "Tages- & Abokasse Badisches Staatstheater",
-          "latitude": 49.0051947,
-          "longitude": 8.4042783,
-          "address": "Ettlinger-Tor-Platz 1a, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/3605775457",
-          "category": "shop",
-          "type": "ticket",
-          "street": "Ettlinger-Tor-Platz",
-          "houseNumber": "1a",
-          "score": 0.708,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 12,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-196b91ff0b4caf88",
-          "title": "Die Wut, die bleibt (Wiederaufnahme)",
-          "date": "2026-11-18",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/die_wut_die_bleibt_wiederaufnahme"
-        },
-        {
-          "id": "karlsruhe-777f50edb22448af",
-          "title": "Peer Gynt",
-          "date": "2026-11-19",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/peer_gynt-1"
-        },
-        {
-          "id": "karlsruhe-7a8d409a2506fe30",
-          "title": "Macbeth",
-          "date": "2026-11-20",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/macbeth-1"
-        },
-        {
-          "id": "karlsruhe-1121d2155f6ffd9f",
-          "title": "Geschichten aus dem Wiener Wald",
+          "id": "karlsruhe-8d74c939b80b0a65",
+          "title": "Stapeln",
           "date": "2026-11-21",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/geschichten_aus_dem_wiener_wald-2"
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/stapeln-4"
         }
       ]
     },
@@ -3857,6 +4329,9 @@
         "url": "https://www.openstreetmap.org/way/224089407",
         "category": "tourism",
         "type": "museum",
+        "city": "Karlsruhe",
+        "district": "Südweststadt",
+        "locality": "Beiertheimer Feld",
         "street": "Lorenzstraße",
         "houseNumber": "27",
         "outsideContext": false
@@ -3871,31 +4346,27 @@
           "url": "https://www.openstreetmap.org/way/224089407",
           "category": "tourism",
           "type": "museum",
+          "city": "Karlsruhe",
+          "district": "Südweststadt",
+          "locality": "Beiertheimer Feld",
           "street": "Lorenzstraße",
           "houseNumber": "27",
           "score": 1.0,
           "exact": true,
           "outsideContext": false
-        },
-        {
-          "id": "osm-node-5908313090",
-          "name": "ZKM/Kunstmuseum Karlsruhe",
-          "latitude": 49.000309,
-          "longitude": 8.3830545,
-          "address": "Lorenzstraße, 76135 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/5908313090",
-          "category": "highway",
-          "type": "bus_stop",
-          "street": "Lorenzstraße",
-          "houseNumber": "",
-          "score": 0.846,
-          "exact": false,
-          "outsideContext": false
         }
       ],
       "eventCount": 10,
       "reviewNote": "",
-      "sourceAddresses": [],
+      "sourceAddresses": [
+        {
+          "street": "Lorenzstraße 27, Städtische Galerie Karlsruhe",
+          "city": "Karlsruhe",
+          "postalCode": "76135",
+          "address": "Lorenzstraße 27, Städtische Galerie Karlsruhe, 76135 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/kanguru_tour_mit_baby_in_die_ausstellung-19"
+        }
+      ],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -3925,79 +4396,6 @@
           "title": "Kinderwerkstatt „Da hat mich ein Hai verschluckt – Verrückte Selbstporträts“",
           "date": "2026-11-22",
           "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/kinderwerkstatt_da_hat_mich_ein_hai"
-        }
-      ]
-    },
-    {
-      "key": "venue-0729ef1f81f2900db0ad",
-      "location": "Stadtbibliothek Karlsruhe - Kinder- und Jugendbibliothek Karlsruhe im Prinz-Max-Palais",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
-      "method": "automatic",
-      "place": {
-        "id": "osm-node-375691054",
-        "name": "Kinder- und Jugendbibliothek im Prinz-Max-Palais",
-        "latitude": 49.0112378,
-        "longitude": 8.3948222,
-        "address": "Karlstraße 10, 76133 Karlsruhe",
-        "url": "https://www.openstreetmap.org/node/375691054",
-        "category": "amenity",
-        "type": "library",
-        "street": "Karlstraße",
-        "houseNumber": "10",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-node-375691054",
-          "name": "Kinder- und Jugendbibliothek im Prinz-Max-Palais",
-          "latitude": 49.0112378,
-          "longitude": 8.3948222,
-          "address": "Karlstraße 10, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/375691054",
-          "category": "amenity",
-          "type": "library",
-          "street": "Karlstraße",
-          "houseNumber": "10",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 10,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-105ec65513f84176",
-          "title": "BioGlow – Der Regenwald braucht euch!",
-          "date": "2026-11-05",
-          "url": "https://kalender.karlsruhe.de/db/termine/literatur/bioglow_der_regenwald_braucht_euch"
-        },
-        {
-          "id": "karlsruhe-167e61a40957763f",
-          "title": "VORLESEZEIT in der Kinder- & Jugendbibliothek",
-          "date": "2026-11-18",
-          "url": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_in_der_kinder_jugendbibliothek-59"
-        },
-        {
-          "id": "karlsruhe-fee32ef92f722741",
-          "title": "Vorlesezeit am Bundesweiten Vorlesetag",
-          "date": "2026-11-20",
-          "url": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_am_bundesweiten_vorlesetag"
-        },
-        {
-          "id": "karlsruhe-e5463655f4bdcc88",
-          "title": "Bücherflohmarkt",
-          "date": "2026-11-24",
-          "url": "https://kalender.karlsruhe.de/db/termine/literatur/bucherflohmarkt-4"
         }
       ]
     },
@@ -4086,96 +4484,6 @@
           "title": "Musikverein Erlebnistag",
           "date": "2027-04-17",
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/967/musikverein-erlebnistag"
-        }
-      ]
-    },
-    {
-      "key": "venue-b74313ce24bc73733284",
-      "location": "Begegnungsstätte Grötzingen",
-      "scope": "groetzingen",
-      "scopeLabel": "Grötzingen",
-      "status": "resolved",
-      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
-      "method": "automatic",
-      "place": {
-        "id": "osm-way-151345436",
-        "name": "Begegnungsstätte Grötzingen",
-        "latitude": 49.0070922,
-        "longitude": 8.4951326,
-        "address": "Niddastraße 9, 76229 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/151345436",
-        "category": "amenity",
-        "type": "community_centre",
-        "street": "Niddastraße",
-        "houseNumber": "9",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-way-151345436",
-          "name": "Begegnungsstätte Grötzingen",
-          "latitude": 49.0070922,
-          "longitude": 8.4951326,
-          "address": "Niddastraße 9, 76229 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/151345436",
-          "category": "amenity",
-          "type": "community_centre",
-          "street": "Niddastraße",
-          "houseNumber": "9",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-151484045",
-          "name": "AWO-Begegnungsstätte Grötzingen",
-          "latitude": 49.0099031,
-          "longitude": 8.4954708,
-          "address": "Niddastraße 30, 76229 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/151484045",
-          "category": "building",
-          "type": "terrace",
-          "street": "Niddastraße",
-          "houseNumber": "30",
-          "score": 0.889,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 9,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Grötzingen · Jahresprogramm",
-        "Grötzingen · Kultur-Natur-Termine",
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-c85a0df0b60f4457",
-          "title": "Internetcafe 55+ Grötzingen",
-          "date": "2026-11-05",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/internetcafe_55_grotzingen-6"
-        },
-        {
-          "id": "groetzingen-jahresprogramm-annual-2026-131",
-          "title": "Ortschaftsratssitzung",
-          "date": "2026-11-18",
-          "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/017_Stadtteile_und_Umgebung/Groetzingen/Jahresprogramm_Groetzingen_2026_im_CD_sem.pdf#page=10"
-        },
-        {
-          "id": "karlsruhe-5c2d39707b07917f",
-          "title": "Naturparadies Rheinauen",
-          "date": "2026-11-19",
-          "url": "https://kalender.karlsruhe.de/db/termine/literatur/naturparadies_rheinauen"
-        },
-        {
-          "id": "karlsruhe-0fe323818688851f",
-          "title": "KLAVIERFEST",
-          "date": "2026-11-21",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/klavierfest-2"
         }
       ]
     },
@@ -6836,10 +7144,10 @@
       ],
       "examples": [
         {
-          "id": "durlach-12028-2026-11-27-1800",
+          "id": "durlach-12028-2026-11-27-1745",
           "title": "Weihnachtsmarkt im Rathaus (Eröffnung)",
           "date": "2026-11-27",
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12028&tx_events2_events%5Btimestamp%5D=1795798800&cHash=4286785d13ea783f3281fdfe3917dfad"
+          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12028&tx_events2_events%5Btimestamp%5D=1795797900&cHash=afc9d3aa232397f624855720451f6711"
         },
         {
           "id": "durlach-12030-2026-11-27-unknown",
@@ -6854,10 +7162,10 @@
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12031&tx_events2_events%5Btimestamp%5D=1796338800&cHash=c59fafcd20958841c265d1cd3b158bbc"
         },
         {
-          "id": "durlach-12032-2026-12-10-unknown",
+          "id": "durlach-12032-2026-12-11-unknown",
           "title": "Weihnachtsmarkt im Rathaus (3. Adventswochenende)",
-          "date": "2026-12-10",
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12032&tx_events2_events%5Btimestamp%5D=1796857200&cHash=04e8fb6ddfe7cb7b12f886557a875b14"
+          "date": "2026-12-11",
+          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12032&tx_events2_events%5Btimestamp%5D=1796943600&cHash=23910b8cecd459c8c96718768d1bab46"
         }
       ]
     },
@@ -7158,6 +7466,9 @@
         "url": "https://www.openstreetmap.org/way/151345436",
         "category": "amenity",
         "type": "community_centre",
+        "city": "Karlsruhe",
+        "district": "Grötzingen",
+        "locality": "Nördlich der Pfinz",
         "street": "Niddastraße",
         "houseNumber": "9",
         "outsideContext": false
@@ -7172,6 +7483,9 @@
           "url": "https://www.openstreetmap.org/way/151345436",
           "category": "amenity",
           "type": "community_centre",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
           "street": "Niddastraße",
           "houseNumber": "9",
           "score": 1.0,
@@ -10268,6 +10582,67 @@
       ]
     },
     {
+      "key": "venue-57ab50d7c735b0000bca",
+      "location": "Festhalle Durlach Kanzlerstraße 13 76227 Karlsruhe",
+      "scope": "durlach",
+      "scopeLabel": "Durlach",
+      "status": "resolved",
+      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
+      "method": "automatic",
+      "place": {
+        "id": "osm-way-54828233",
+        "name": "Festhalle",
+        "latitude": 48.998064,
+        "longitude": 8.4667679,
+        "address": "Kanzlerstraße 13, 76227 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/54828233",
+        "category": "amenity",
+        "type": "restaurant",
+        "street": "Kanzlerstraße",
+        "houseNumber": "13",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "osm-way-54828233",
+          "name": "Festhalle",
+          "latitude": 48.998064,
+          "longitude": 8.4667679,
+          "address": "Kanzlerstraße 13, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/54828233",
+          "category": "amenity",
+          "type": "restaurant",
+          "street": "Kanzlerstraße",
+          "houseNumber": "13",
+          "score": 0.93,
+          "exact": true,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 2,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Durlacher.de · Durlacher Kalender"
+      ],
+      "examples": [
+        {
+          "id": "durlach-12090-2026-12-08-1400",
+          "title": "Seniorenweihnachtsfeier in der Festhalle",
+          "date": "2026-12-08",
+          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12090&tx_events2_events%5Btimestamp%5D=1796734800&cHash=f3983891d295a43684afe322e3759119"
+        },
+        {
+          "id": "durlach-12096-2026-12-12-1300",
+          "title": "Mädchen Flohmarkt - Beauty Jungle Xmas Edition",
+          "date": "2026-12-12",
+          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12096&tx_events2_events%5Btimestamp%5D=1797076800&cHash=530e73ea5dde612c82de77768513d1eb"
+        }
+      ]
+    },
+    {
       "key": "venue-334a4b9777bd49916b74",
       "location": "Filmtheater Schauburg",
       "scope": "karlsruhe",
@@ -10857,16 +11232,16 @@
       ],
       "examples": [
         {
-          "id": "karlsruhe-3589dc0e044d134a",
-          "title": "Begegnungscafé für Jung und Alt",
-          "date": "2026-11-27",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/begegnungscafe_fur_jung_und_alt-4"
-        },
-        {
           "id": "karlsruhe-0032a403bc453d47",
           "title": "Begegnungscafé für Jung und Alt",
           "date": "2026-11-27",
           "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/begegnungscafe_fur_jung_und_alt-6"
+        },
+        {
+          "id": "karlsruhe-3589dc0e044d134a",
+          "title": "Begegnungscafé für Jung und Alt",
+          "date": "2026-11-27",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/begegnungscafe_fur_jung_und_alt-4"
         }
       ]
     },
@@ -12228,6 +12603,9 @@
           "url": "https://www.openstreetmap.org/node/8022619493",
           "category": "amenity",
           "type": "library",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
           "street": "Erbprinzenstraße",
           "houseNumber": "13",
           "score": 0.518,
@@ -12407,6 +12785,129 @@
           "title": "Schlossgarten-Gelächter Karlsruhe",
           "date": "2026-11-29",
           "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/schlossgarten_gelachter_karlsruhe-8"
+        }
+      ]
+    },
+    {
+      "key": "venue-835536d3e7bf808269e5",
+      "location": "Pädagogische Hochschule Karlsruhe (PHKA)",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-159880107",
+        "name": "Pädagogische Hochschule Karlsruhe",
+        "latitude": 49.0137118,
+        "longitude": 8.3927565,
+        "address": "Bismarckstraße 10, 76133 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/159880107",
+        "category": "amenity",
+        "type": "university",
+        "street": "Bismarckstraße",
+        "houseNumber": "10"
+      },
+      "candidates": [
+        {
+          "id": "osm-relation-7011483",
+          "name": "Hochschule Karlsruhe",
+          "latitude": 49.0164075,
+          "longitude": 8.3908688,
+          "address": "Moltkestraße 30, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/7011483",
+          "category": "amenity",
+          "type": "school",
+          "street": "Moltkestraße",
+          "houseNumber": "30",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-159880107",
+          "name": "Pädagogische Hochschule Karlsruhe",
+          "latitude": 49.0137118,
+          "longitude": 8.3927565,
+          "address": "Bismarckstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/159880107",
+          "category": "amenity",
+          "type": "university",
+          "street": "Bismarckstraße",
+          "houseNumber": "10",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-3079160175",
+          "name": "Pädagogische Hochschule Karlsruhe (Gebäude IV)",
+          "latitude": 49.0260095,
+          "longitude": 8.385065,
+          "address": "Erzbergerstraße 119, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3079160175",
+          "category": "amenity",
+          "type": "college",
+          "city": "Karlsruhe",
+          "district": "Nordstadt",
+          "locality": "Amerikanersiedlung",
+          "street": "Erzbergerstraße",
+          "houseNumber": "119",
+          "score": 0.806,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-23855655",
+          "name": "Staatliche Hochschule für Gestaltung",
+          "latitude": 49.0020695,
+          "longitude": 8.3836683,
+          "address": "Lorenzstraße 15, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/23855655",
+          "category": "amenity",
+          "type": "university",
+          "street": "Lorenzstraße",
+          "houseNumber": "15",
+          "score": 0.594,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-1828938324",
+          "name": "Schloss Gottesaue/Hochschule für Musik",
+          "latitude": 49.0036286,
+          "longitude": 8.4278537,
+          "address": "Schlachthausstraße, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1828938324",
+          "category": "railway",
+          "type": "stop",
+          "street": "Schlachthausstraße",
+          "houseNumber": "",
+          "score": 0.515,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 2,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-f9d2cb05e4a0da97",
+          "title": "Studieninformationstag",
+          "date": "2026-11-18",
+          "url": "https://kalender.karlsruhe.de/db/termine/wirtschaft/studieninformationstag-1"
+        },
+        {
+          "id": "karlsruhe-f05818db650aaa32",
+          "title": "Hilfe! Meine Dystopien werden zu historischen Romanen",
+          "date": "2026-11-25",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/hilfe_meine_dystopien_werden_zu_historischen_romanen"
         }
       ]
     },
@@ -12911,6 +13412,9 @@
         "url": "https://www.openstreetmap.org/node/375691054",
         "category": "amenity",
         "type": "library",
+        "city": "Karlsruhe",
+        "district": "Innenstadt-West",
+        "locality": "Innenstadt-West Westlicher Teil",
         "street": "Karlstraße",
         "houseNumber": "10",
         "outsideContext": false
@@ -12925,10 +13429,31 @@
           "url": "https://www.openstreetmap.org/node/375691054",
           "category": "amenity",
           "type": "library",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
           "street": "Karlstraße",
           "houseNumber": "10",
           "score": 1.0,
           "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-90051674",
+          "name": "Prinz-Max-Palais",
+          "latitude": 49.0111857,
+          "longitude": 8.3947581,
+          "address": "Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/90051674",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Karlstraße",
+          "houseNumber": "10",
+          "score": 0.93,
+          "exact": false,
           "outsideContext": false
         }
       ],
@@ -14648,106 +15173,6 @@
       ]
     },
     {
-      "key": "venue-eea570e965d9e20216ef",
-      "location": "Bürgerzentrum Mühlburg e.V.",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
-      "method": "automatic",
-      "place": {
-        "id": "osm-way-777277359",
-        "name": "Bürgerzentrum Mühlburg",
-        "latitude": 49.0099393,
-        "longitude": 8.3604239,
-        "address": "Weinbrennerstraße 79a, 76185 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/777277359",
-        "category": "amenity",
-        "type": "community_centre",
-        "street": "Weinbrennerstraße",
-        "houseNumber": "79a",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-way-777277359",
-          "name": "Bürgerzentrum Mühlburg",
-          "latitude": 49.0099393,
-          "longitude": 8.3604239,
-          "address": "Weinbrennerstraße 79a, 76185 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/777277359",
-          "category": "amenity",
-          "type": "community_centre",
-          "street": "Weinbrennerstraße",
-          "houseNumber": "79a",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-4050982",
-          "name": "Bürgerzentrum Südstadt",
-          "latitude": 49.0027915,
-          "longitude": 8.4139281,
-          "address": "Henriette-Obermüller-Straße 10, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/4050982",
-          "category": "amenity",
-          "type": "community_centre",
-          "street": "Henriette-Obermüller-Straße",
-          "houseNumber": "10",
-          "score": 0.682,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-12486337679",
-          "name": "Bürgerzentrum Daxlanden",
-          "latitude": 49.0047899,
-          "longitude": 8.3232832,
-          "address": "Waidweg, 76189 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/12486337679",
-          "category": "amenity",
-          "type": "community_centre",
-          "street": "Waidweg",
-          "houseNumber": "",
-          "score": 0.667,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-348003957",
-          "name": "Stadtteilbibliothek Mühlburg",
-          "latitude": 49.010018,
-          "longitude": 8.3603485,
-          "address": "Weinbrennerstraße 79a, 76185 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/348003957",
-          "category": "amenity",
-          "type": "library",
-          "street": "Weinbrennerstraße",
-          "houseNumber": "79a",
-          "score": 0.44,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-6fbd2183f17db655",
-          "title": "Deine berufliche Zukunft",
-          "date": "2026-11-17",
-          "url": "https://kalender.karlsruhe.de/db/termine/wirtschaft/deine_berufliche_zukunft-1"
-        }
-      ]
-    },
-    {
       "key": "venue-ce3e93ce2de30a33f4e3",
       "location": "Centro = Schul- und Kulturzentrum der Deutsch-Italienischen Gesellschaft e.V. Karlsruhe",
       "scope": "karlsruhe",
@@ -15103,38 +15528,38 @@
           "outsideContext": false
         },
         {
-          "id": "osm-way-102302455",
-          "name": "Kreativpark Alter Schlachthof",
-          "latitude": 49.0053385,
-          "longitude": 8.4311032,
-          "address": "Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/102302455",
-          "category": "landuse",
-          "type": "commercial",
-          "city": "Karlsruhe",
-          "district": "Oststadt",
-          "locality": "",
-          "street": "",
-          "houseNumber": "",
-          "score": 0.548,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-122725417",
-          "name": "Atelierhaus Karlsruhe Alter Schlachthof",
-          "latitude": 49.0057741,
-          "longitude": 8.4296572,
-          "address": "Alter Schlachthof 13a, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/122725417",
+          "id": "osm-way-119746318",
+          "name": "Alter Schlachthof 4",
+          "latitude": 49.0039151,
+          "longitude": 8.4304661,
+          "address": "Alter Schlachthof 4, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/119746318",
           "category": "building",
           "type": "industrial",
           "city": "Karlsruhe",
           "district": "Oststadt",
-          "locality": "Kreativpark Alter Schlachthof",
+          "locality": "Oststadt Südlicher Teil",
           "street": "Alter Schlachthof",
-          "houseNumber": "13a",
-          "score": 0.516,
+          "houseNumber": "4",
+          "score": 0.577,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-484396384",
+          "name": "Alter Schlachthof 35",
+          "latitude": 49.0045449,
+          "longitude": 8.4314329,
+          "address": "Alter Schlachthof 35, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/484396384",
+          "category": "building",
+          "type": "civic",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "Alter Schlachthof",
+          "houseNumber": "35",
+          "score": 0.566,
           "exact": false,
           "outsideContext": false
         }
@@ -15694,61 +16119,6 @@
           "title": "Konzert",
           "date": "2027-10-30",
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1046/konzert"
-        }
-      ]
-    },
-    {
-      "key": "venue-57ab50d7c735b0000bca",
-      "location": "Festhalle Durlach Kanzlerstraße 13 76227 Karlsruhe",
-      "scope": "durlach",
-      "scopeLabel": "Durlach",
-      "status": "resolved",
-      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
-      "method": "automatic",
-      "place": {
-        "id": "osm-way-54828233",
-        "name": "Festhalle",
-        "latitude": 48.998064,
-        "longitude": 8.4667679,
-        "address": "Kanzlerstraße 13, 76227 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/54828233",
-        "category": "amenity",
-        "type": "restaurant",
-        "street": "Kanzlerstraße",
-        "houseNumber": "13",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-way-54828233",
-          "name": "Festhalle",
-          "latitude": 48.998064,
-          "longitude": 8.4667679,
-          "address": "Kanzlerstraße 13, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/54828233",
-          "category": "amenity",
-          "type": "restaurant",
-          "street": "Kanzlerstraße",
-          "houseNumber": "13",
-          "score": 0.93,
-          "exact": true,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Durlacher.de · Durlacher Kalender"
-      ],
-      "examples": [
-        {
-          "id": "durlach-12090-2026-12-08-1400",
-          "title": "Seniorenweihnachtsfeier in der Festhalle",
-          "date": "2026-12-08",
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12090&tx_events2_events%5Btimestamp%5D=1796734800&cHash=f3983891d295a43684afe322e3759119"
         }
       ]
     },
@@ -18625,79 +18995,6 @@
       ]
     },
     {
-      "key": "venue-2f6063718b8693576747",
-      "location": "Kinemathek Karlsruhe, Kaiserpassage 6,76133 Karlsruhe",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
-      "method": "automatic",
-      "place": {
-        "id": "osm-node-30969701",
-        "name": "Kinemathek",
-        "latitude": 49.010561,
-        "longitude": 8.3968591,
-        "address": "Kaiserpassage 6, 76133 Karlsruhe",
-        "url": "https://www.openstreetmap.org/node/30969701",
-        "category": "amenity",
-        "type": "cinema",
-        "street": "Kaiserpassage",
-        "houseNumber": "6",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-node-30969701",
-          "name": "Kinemathek",
-          "latitude": 49.010561,
-          "longitude": 8.3968591,
-          "address": "Kaiserpassage 6, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/30969701",
-          "category": "amenity",
-          "type": "cinema",
-          "street": "Kaiserpassage",
-          "houseNumber": "6",
-          "score": 0.93,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-220722732",
-          "name": "Hans-Thoma-Straße 6 A",
-          "latitude": 49.1085121,
-          "longitude": 8.4814642,
-          "address": "Hans-Thoma-Straße 6 A, 76297 Friedrichstal",
-          "url": "https://www.openstreetmap.org/way/220722732",
-          "category": "building",
-          "type": "yes",
-          "city": "Friedrichstal",
-          "district": "Friedrichstal",
-          "locality": "",
-          "street": "Hans-Thoma-Straße",
-          "houseNumber": "6 A",
-          "score": 0.444,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-55db9ebc6445e311",
-          "title": "Was an Empfindsamkeit bleibt",
-          "date": "2026-11-29",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/was_an_empfindsamkeit_bleibt-1"
-        }
-      ]
-    },
-    {
       "key": "venue-aeee2bfbcaa2d1dc822a",
       "location": "Kirchplatz St. Stephan",
       "scope": "karlsruhe",
@@ -19601,6 +19898,9 @@
           "url": "https://www.openstreetmap.org/node/12813379988",
           "category": "amenity",
           "type": "planetarium",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
           "street": "Alter Schlachthof",
           "houseNumber": "4",
           "score": 0.357,
@@ -19858,6 +20158,9 @@
         "url": "https://www.openstreetmap.org/way/151345436",
         "category": "amenity",
         "type": "community_centre",
+        "city": "Karlsruhe",
+        "district": "Grötzingen",
+        "locality": "Nördlich der Pfinz",
         "street": "Niddastraße",
         "houseNumber": "9",
         "outsideContext": false
@@ -19872,6 +20175,9 @@
           "url": "https://www.openstreetmap.org/way/151345436",
           "category": "amenity",
           "type": "community_centre",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
           "street": "Niddastraße",
           "houseNumber": "9",
           "score": 1.0,
@@ -20277,123 +20583,6 @@
           "title": "Kloistoibacher Weihnachtsmärktle",
           "date": "2026-12-04",
           "url": "https://pfinztal.de/wp-content/uploads/2026/02/Kopie-von-Finaler-Veranstaltungskalender_2026_Stand_09.12.2025.pdf#page=10"
-        }
-      ]
-    },
-    {
-      "key": "venue-835536d3e7bf808269e5",
-      "location": "Pädagogische Hochschule Karlsruhe (PHKA)",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-159880107",
-        "name": "Pädagogische Hochschule Karlsruhe",
-        "latitude": 49.0137118,
-        "longitude": 8.3927565,
-        "address": "Bismarckstraße 10, 76133 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/159880107",
-        "category": "amenity",
-        "type": "university",
-        "street": "Bismarckstraße",
-        "houseNumber": "10"
-      },
-      "candidates": [
-        {
-          "id": "osm-relation-7011483",
-          "name": "Hochschule Karlsruhe",
-          "latitude": 49.0164075,
-          "longitude": 8.3908688,
-          "address": "Moltkestraße 30, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/relation/7011483",
-          "category": "amenity",
-          "type": "school",
-          "street": "Moltkestraße",
-          "houseNumber": "30",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-159880107",
-          "name": "Pädagogische Hochschule Karlsruhe",
-          "latitude": 49.0137118,
-          "longitude": 8.3927565,
-          "address": "Bismarckstraße 10, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/159880107",
-          "category": "amenity",
-          "type": "university",
-          "street": "Bismarckstraße",
-          "houseNumber": "10",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-3079160175",
-          "name": "Pädagogische Hochschule Karlsruhe (Gebäude IV)",
-          "latitude": 49.0260095,
-          "longitude": 8.385065,
-          "address": "Erzbergerstraße 119, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/3079160175",
-          "category": "amenity",
-          "type": "college",
-          "city": "Karlsruhe",
-          "district": "Nordstadt",
-          "locality": "Amerikanersiedlung",
-          "street": "Erzbergerstraße",
-          "houseNumber": "119",
-          "score": 0.806,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-23855655",
-          "name": "Staatliche Hochschule für Gestaltung",
-          "latitude": 49.0020695,
-          "longitude": 8.3836683,
-          "address": "Lorenzstraße 15, 76135 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/23855655",
-          "category": "amenity",
-          "type": "university",
-          "street": "Lorenzstraße",
-          "houseNumber": "15",
-          "score": 0.594,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-1828938324",
-          "name": "Schloss Gottesaue/Hochschule für Musik",
-          "latitude": 49.0036286,
-          "longitude": 8.4278537,
-          "address": "Schlachthausstraße, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/1828938324",
-          "category": "railway",
-          "type": "stop",
-          "street": "Schlachthausstraße",
-          "houseNumber": "",
-          "score": 0.515,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-f9d2cb05e4a0da97",
-          "title": "Studieninformationstag",
-          "date": "2026-11-18",
-          "url": "https://kalender.karlsruhe.de/db/termine/wirtschaft/studieninformationstag-1"
         }
       ]
     },
@@ -21034,6 +21223,9 @@
           "url": "https://www.openstreetmap.org/node/8022619493",
           "category": "amenity",
           "type": "library",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
           "street": "Erbprinzenstraße",
           "houseNumber": "13",
           "score": 0.442,
@@ -21814,6 +22006,24 @@
           "outsideContext": false
         },
         {
+          "id": "osm-way-90051674",
+          "name": "Prinz-Max-Palais",
+          "latitude": 49.0111857,
+          "longitude": 8.3947581,
+          "address": "Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/90051674",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Karlstraße",
+          "houseNumber": "10",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
           "id": "osm-node-375691054",
           "name": "Kinder- und Jugendbibliothek im Prinz-Max-Palais",
           "latitude": 49.0112378,
@@ -21822,6 +22032,9 @@
           "url": "https://www.openstreetmap.org/node/375691054",
           "category": "amenity",
           "type": "library",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
           "street": "Karlstraße",
           "houseNumber": "10",
           "score": 0.564,
@@ -22286,6 +22499,9 @@
         "url": "https://www.openstreetmap.org/way/549437544",
         "category": "amenity",
         "type": "arts_centre",
+        "city": "Karlsruhe",
+        "district": "Oststadt",
+        "locality": "Kreativpark Alter Schlachthof",
         "street": "Alter Schlachthof",
         "houseNumber": "35",
         "outsideContext": false
@@ -22300,6 +22516,9 @@
           "url": "https://www.openstreetmap.org/way/549437544",
           "category": "amenity",
           "type": "arts_centre",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Kreativpark Alter Schlachthof",
           "street": "Alter Schlachthof",
           "houseNumber": "35",
           "score": 1.0,

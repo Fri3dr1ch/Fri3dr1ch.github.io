@@ -15023,6 +15023,306 @@
           "houseNumber": "6"
         }
       ]
+    },
+    "Alter Schlachthof 4, Karlsruhe": {
+      "checkedAt": "2026-11-17T12:49:22+00:00",
+      "places": [
+        {
+          "id": "osm-way-119746318",
+          "name": "Alter Schlachthof 4",
+          "latitude": 49.0039151,
+          "longitude": 8.4304661,
+          "address": "Alter Schlachthof 4, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/119746318",
+          "category": "building",
+          "type": "industrial",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "Alter Schlachthof",
+          "houseNumber": "4"
+        },
+        {
+          "id": "osm-node-12813379988",
+          "name": "PLANET KA",
+          "latitude": 49.0039247,
+          "longitude": 8.4304598,
+          "address": "Alter Schlachthof 4, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12813379988",
+          "category": "amenity",
+          "type": "planetarium",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "Alter Schlachthof",
+          "houseNumber": "4"
+        },
+        {
+          "id": "osm-node-2888273607",
+          "name": "Atelier 4",
+          "latitude": 49.005673,
+          "longitude": 8.4295973,
+          "address": "Alter Schlachthof 13, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/2888273607",
+          "category": "amenity",
+          "type": "arts_centre",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Kreativpark Alter Schlachthof",
+          "street": "Alter Schlachthof",
+          "houseNumber": "13"
+        },
+        {
+          "id": "osm-node-4799843382",
+          "name": "Bau4 Architekten",
+          "latitude": 49.0053265,
+          "longitude": 8.4309219,
+          "address": "Alter Schlachthof 47, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4799843382",
+          "category": "office",
+          "type": "architect",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Kreativpark Alter Schlachthof",
+          "street": "Alter Schlachthof",
+          "houseNumber": "47"
+        }
+      ]
+    },
+    "Erbprinzenstraße 13, Karlsruhe": {
+      "checkedAt": "2026-11-17T12:49:22+00:00",
+      "places": [
+        {
+          "id": "osm-way-431433884",
+          "name": "Staatliches Museum für Naturkunde",
+          "latitude": 49.0069855,
+          "longitude": 8.400144,
+          "address": "Erbprinzenstraße 13, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/431433884",
+          "category": "tourism",
+          "type": "museum",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Erbprinzenstraße",
+          "houseNumber": "13"
+        },
+        {
+          "id": "osm-node-8022619493",
+          "name": "Bibliothek des Staatlichen Museums für Naturkunde Karlsruhe",
+          "latitude": 49.0069553,
+          "longitude": 8.3995595,
+          "address": "Erbprinzenstraße 13, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/8022619493",
+          "category": "amenity",
+          "type": "library",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Erbprinzenstraße",
+          "houseNumber": "13"
+        },
+        {
+          "id": "osm-way-4058954",
+          "name": "Erbprinzenstraße 13",
+          "latitude": 49.0070646,
+          "longitude": 8.4002293,
+          "address": "Erbprinzenstraße 13, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/4058954",
+          "category": "building",
+          "type": "museum",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Erbprinzenstraße",
+          "houseNumber": "13"
+        },
+        {
+          "id": "osm-node-2460204059",
+          "name": "Erbprinzenstraße 13",
+          "latitude": 49.0074007,
+          "longitude": 8.4004504,
+          "address": "Erbprinzenstraße 13, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/2460204059",
+          "category": "place",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Erbprinzenstraße",
+          "houseNumber": "13"
+        }
+      ]
+    },
+    "Alter Schlachthof 35, Karlsruhe": {
+      "checkedAt": "2026-11-17T12:49:22+00:00",
+      "places": [
+        {
+          "id": "osm-node-13163864381",
+          "name": "Bauernmarkt Karlsruhe",
+          "latitude": 49.0047014,
+          "longitude": 8.4317806,
+          "address": "Alter Schlachthof 35, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/13163864381",
+          "category": "amenity",
+          "type": "marketplace",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "Alter Schlachthof",
+          "houseNumber": "35"
+        },
+        {
+          "id": "osm-way-484396384",
+          "name": "Alter Schlachthof 35",
+          "latitude": 49.0045449,
+          "longitude": 8.4314329,
+          "address": "Alter Schlachthof 35, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/484396384",
+          "category": "building",
+          "type": "civic",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "Alter Schlachthof",
+          "houseNumber": "35"
+        },
+        {
+          "id": "osm-way-549437544",
+          "name": "Kulturzentrum Tollhaus",
+          "latitude": 49.0044252,
+          "longitude": 8.4317094,
+          "address": "Alter Schlachthof 35, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/549437544",
+          "category": "amenity",
+          "type": "arts_centre",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Kreativpark Alter Schlachthof",
+          "street": "Alter Schlachthof",
+          "houseNumber": "35"
+        }
+      ]
+    },
+    "Prinz-Max-Palais, Karlstraße 10, Karlsruhe": {
+      "checkedAt": "2026-11-17T12:49:22+00:00",
+      "places": [
+        {
+          "id": "osm-way-90051674",
+          "name": "Prinz-Max-Palais",
+          "latitude": 49.0111857,
+          "longitude": 8.3947581,
+          "address": "Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/90051674",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Karlstraße",
+          "houseNumber": "10"
+        },
+        {
+          "id": "osm-node-375691054",
+          "name": "Kinder- und Jugendbibliothek im Prinz-Max-Palais",
+          "latitude": 49.0112378,
+          "longitude": 8.3948222,
+          "address": "Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/375691054",
+          "category": "amenity",
+          "type": "library",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Karlstraße",
+          "houseNumber": "10"
+        },
+        {
+          "id": "osm-node-659502172",
+          "name": "Museum für Literatur am Oberrhein",
+          "latitude": 49.0111814,
+          "longitude": 8.3946773,
+          "address": "Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/659502172",
+          "category": "tourism",
+          "type": "museum",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Karlstraße",
+          "houseNumber": "10"
+        },
+        {
+          "id": "osm-node-659502171",
+          "name": "Stadtmuseum",
+          "latitude": 49.0111502,
+          "longitude": 8.3948343,
+          "address": "Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/659502171",
+          "category": "tourism",
+          "type": "museum",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Karlstraße",
+          "houseNumber": "10"
+        }
+      ]
+    },
+    "Lorenzstraße 27, Städtische Galerie Karlsruhe, Karlsruhe": {
+      "checkedAt": "2026-11-17T12:49:22+00:00",
+      "places": [
+        {
+          "id": "osm-way-224089407",
+          "name": "Kunstmuseum Karlsruhe",
+          "latitude": 49.0003577,
+          "longitude": 8.3834933,
+          "address": "Lorenzstraße 27, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/224089407",
+          "category": "tourism",
+          "type": "museum",
+          "city": "Karlsruhe",
+          "district": "Südweststadt",
+          "locality": "Beiertheimer Feld",
+          "street": "Lorenzstraße",
+          "houseNumber": "27"
+        }
+      ]
+    },
+    "Niddastraße 9, Karlsruhe": {
+      "checkedAt": "2026-11-17T12:49:22+00:00",
+      "places": [
+        {
+          "id": "osm-way-151345436",
+          "name": "Begegnungsstätte Grötzingen",
+          "latitude": 49.0070922,
+          "longitude": 8.4951326,
+          "address": "Niddastraße 9, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151345436",
+          "category": "amenity",
+          "type": "community_centre",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Niddastraße",
+          "houseNumber": "9"
+        },
+        {
+          "id": "osm-node-10300133100",
+          "name": "Holzhackers Ratsstuben",
+          "latitude": 49.0069969,
+          "longitude": 8.4953746,
+          "address": "Niddastraße 9, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/10300133100",
+          "category": "amenity",
+          "type": "restaurant",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Niddastraße",
+          "houseNumber": "9"
+        }
+      ]
     }
   },
   "attribution": {
