@@ -11,7 +11,8 @@ from unittest.mock import patch
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
 from venue_locations import (candidates_for,enrich,identity,parse_photon,query_for,read,render_review,
-                             review_problem,validate_place,walzbachtal_places,weingarten_places,write)
+                             review_problem,validate_place,walzbachtal_places,weingarten_places,write,
+                             source_addresses,address_queries,exact_address)
 from review_venues import apply_decisions
 from sync_github_issues import contents
 import update_calendar
@@ -32,6 +33,56 @@ def point(name='Kulturhalle Remchingen',pid='osm-way-108146379',lat=48.9528061,l
 
 
 class VenueTests(unittest.TestCase):
+    def test_source_address_is_bound_to_the_venue_not_contacts_or_transport(self):
+        e={**event('Imagine','Karlsruhe und Umgebung','karlsruhe'),'url':'https://kalender.karlsruhe.de/db/termine/theater/test'}
+        raw='<div id="contact"><span class="street-address">Falsch 99</span></div><div id="box_ort"><h5>Imagine</h5><p><span class="street-address">Ettlinger Str.5,</span><span class="postal-code">76133</span><span class="locality">Karlsruhe</span></p></div>'
+        addresses=source_addresses(raw,e)
+        self.assertEqual(len(addresses),1);self.assertEqual(address_queries(addresses),['Ettlinger Straße 5, Karlsruhe'])
+        self.assertEqual(source_addresses(raw,{**e,'location':'Andere Schule'}),[])
+        self.assertEqual(source_addresses(raw,{**e,'url':'https://evil.example/db/termine/test'}),[])
+        self.assertTrue(exact_address('Gottesauerstraße 35',{'street':'Gottesauer Straße','houseNumber':'35'}))
+        self.assertFalse(exact_address('Gottesauerstraße 350',{'street':'Gottesauer Straße','houseNumber':'35'}))
+
+    def test_remchingen_address_deduplicates_identical_event_json_and_ignores_footer(self):
+        e={**event('Alte RemBar'),'url':'https://www.remchingen.de/veranstaltungen/repair-cafe-id_3347/'}
+        record={'@type':'Event','location':{'name':'Alte RemBar','address':{'streetAddress':'Frauenwaldstraße 6','postalCode':'75196','addressLocality':'Remchingen'}}}
+        raw='<script type="application/ld+json">'+json.dumps(record)+'</script>'
+        self.assertEqual(len(source_addresses(raw+raw+'<address>Rathaus, Falsch 99</address>',e)),1)
+
+    def test_published_address_overrides_exact_name_but_ambiguity_stays_open(self):
+        wrong={**point('Café NUN'),'street':'Falschstraße','houseNumber':'1'}
+        right={**point('nun Kaffeehaus',pid='osm-node-2',lat=49.0068,lon=8.4208),'street':'Gottesauer Straße','houseNumber':'35','address':'Gottesauer Straße 35, 76131 Karlsruhe','city':'Karlsruhe'}
+        addresses=[{'street':'Gottesauerstraße 35','city':'Karlsruhe'}]
+        matches=candidates_for('Café NUN','karlsruhe',[wrong,right],addresses)
+        self.assertEqual([p['id'] for p in matches],['osm-node-2']);self.assertTrue(matches[0]['exact'])
+        self.assertEqual(candidates_for('Café NUN','karlsruhe',[{**right,'city':'Stutensee'}],addresses),[])
+        self.assertEqual(candidates_for('Café NUN','karlsruhe',[right],[{**addresses[0],'postalCode':'99999'}]),[])
+        e=event('Café NUN','Karlsruhe und Umgebung','karlsruhe');self.cache(e,[right,{**right,'id':'osm-way-3'}])
+        write(self.root/'data/venues/publisher-cache.json',{'schemaVersion':1,'locations':{identity(e)[0]:{'addresses':addresses}}})
+        data,review=self.build([e]);self.assertEqual(review['rows'][0]['status'],'review');self.assertIsNone(data['events'][0]['venue']['place'])
+
+    def test_source_address_fetch_and_geocoding_share_budget_and_are_reused(self):
+        e={**event('Imagine','Karlsruhe und Umgebung','karlsruhe'),'url':'https://kalender.karlsruhe.de/db/termine/theater/test'}
+        raw='<div id="box_ort"><h5>Imagine</h5><span class="street-address">Ettlinger Str.5</span><span class="locality">Karlsruhe</span></div>'
+        p={**point('Ettlinger Straße 5',lat=49.0026,lon=8.4035),'street':'Ettlinger Straße','houseNumber':'5','address':'Ettlinger Straße 5, 76137 Karlsruhe','city':'Karlsruhe'}
+        calls=[]
+        def fetch(q,s):calls.append(q);return [p]
+        _,review=self.build([e],online=True,budget=1,source_fetch=lambda _:raw,fetch=fetch)
+        self.assertEqual(review['lookup']['requested'],1);self.assertEqual(calls,[])
+        _,review=self.build([e],online=True,budget=1,source_fetch=lambda _:self.fail('source reloaded'),fetch=fetch)
+        self.assertEqual(calls,['Ettlinger Straße 5, Karlsruhe']);self.assertEqual(review['rows'][0]['status'],'resolved')
+        _,review=self.build([e],online=True,budget=1,source_fetch=lambda _:self.fail('source reloaded'),fetch=lambda *_:self.fail('address queried again'))
+        self.assertEqual(review['lookup']['requested'],0)
+
+    def test_old_export_cannot_overwrite_a_corrected_reviewed_place(self):
+        e=event();self.cache(e,[point()]);_,review=self.build([e]);render_review(self.root,review)
+        row=review['rows'][0];d={k:row[k] for k in ('key','location','scope')};d.update(decision='place',placeId=point()['id'])
+        self.assertEqual(apply_decisions(self.root,{'schemaVersion':1,'decisions':[d]},TODAY),1)
+        registry=read(self.root/'data/venues/reviewed.json',{});before=deepcopy(registry)
+        d.update(placeId='old-incorrect-pin')
+        self.assertEqual(apply_decisions(self.root,{'schemaVersion':1,'decisions':[d]},TODAY),0)
+        self.assertEqual(read(self.root/'data/venues/reviewed.json',{}),before)
+
     def setUp(self):
         self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name)
         (self.root/'dist').mkdir();(self.root/'scripts').mkdir()

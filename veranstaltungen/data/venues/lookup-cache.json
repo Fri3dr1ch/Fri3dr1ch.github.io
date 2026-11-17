@@ -14378,6 +14378,651 @@
           "houseNumber": ""
         }
       ]
+    },
+    "Frauenwaldstraße 6 Remchingen": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [
+        {
+          "id": "osm-way-233899006",
+          "name": "Frauenwaldstraße 6",
+          "latitude": 48.9295449,
+          "longitude": 8.5729205,
+          "address": "Frauenwaldstraße 6, 75196 Remchingen",
+          "url": "https://www.openstreetmap.org/way/233899006",
+          "category": "building",
+          "type": "public",
+          "city": "Remchingen",
+          "district": "",
+          "locality": "",
+          "street": "Frauenwaldstraße",
+          "houseNumber": "6"
+        }
+      ]
+    },
+    "Jöhlinger Straße 104 Walzbachtal": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [
+        {
+          "id": "osm-way-555542597",
+          "name": "Jöhlinger Straße 104",
+          "latitude": 49.0323469,
+          "longitude": 8.5745361,
+          "address": "Jöhlinger Straße 104, 75045 Walzbachtal",
+          "url": "https://www.openstreetmap.org/way/555542597",
+          "category": "building",
+          "type": "retail",
+          "city": "Walzbachtal",
+          "district": "Jöhlingen",
+          "locality": "",
+          "street": "Jöhlinger Straße",
+          "houseNumber": "104"
+        },
+        {
+          "id": "osm-node-5912428880",
+          "name": "Hotel & Restaurant zum Lamm",
+          "latitude": 49.0323302,
+          "longitude": 8.5745626,
+          "address": "Jöhlinger Straße 104, 75045 Walzbachtal",
+          "url": "https://www.openstreetmap.org/node/5912428880",
+          "category": "tourism",
+          "type": "hotel",
+          "city": "Walzbachtal",
+          "district": "Jöhlingen",
+          "locality": "",
+          "street": "Jöhlinger Straße",
+          "houseNumber": "104"
+        },
+        {
+          "id": "osm-node-918644628",
+          "name": "Ristorante da D'Amico",
+          "latitude": 49.0323273,
+          "longitude": 8.5745099,
+          "address": "Jöhlinger Straße 104, 75045 Walzbachtal",
+          "url": "https://www.openstreetmap.org/node/918644628",
+          "category": "amenity",
+          "type": "restaurant",
+          "city": "Walzbachtal",
+          "district": "Jöhlingen",
+          "locality": "",
+          "street": "Jöhlinger Straße",
+          "houseNumber": "104"
+        }
+      ]
+    },
+    "Gottesauer straße 35 Karlsruhe": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [
+        {
+          "id": "osm-way-108832351",
+          "name": "Gottesauer Straße 35",
+          "latitude": 49.0068154,
+          "longitude": 8.4208005,
+          "address": "Gottesauer Straße 35, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/108832351",
+          "category": "building",
+          "type": "residential",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Westlicher Teil",
+          "street": "Gottesauer Straße",
+          "houseNumber": "35"
+        },
+        {
+          "id": "osm-node-1669073010",
+          "name": "nun Kaffeehaus",
+          "latitude": 49.0068065,
+          "longitude": 8.4207765,
+          "address": "Gottesauer Straße 35, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1669073010",
+          "category": "amenity",
+          "type": "bar",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Westlicher Teil",
+          "street": "Gottesauer Straße",
+          "houseNumber": "35"
+        }
+      ]
+    },
+    "Ettlinger Straße 5 Karlsruhe": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [
+        {
+          "id": "osm-way-101325635",
+          "name": "Congress-Apotheke",
+          "latitude": 49.0026575,
+          "longitude": 8.4035248,
+          "address": "Ettlinger Straße 5, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/101325635",
+          "category": "amenity",
+          "type": "pharmacy",
+          "city": "Karlsruhe",
+          "district": "Südstadt",
+          "locality": "Südstadt Nördlicher Teil",
+          "street": "Ettlinger Straße",
+          "houseNumber": "5"
+        },
+        {
+          "id": "osm-way-101325628",
+          "name": "Ettlinger Straße 5a",
+          "latitude": 49.0025123,
+          "longitude": 8.4035185,
+          "address": "Ettlinger Straße 5a, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/101325628",
+          "category": "building",
+          "type": "office",
+          "city": "Karlsruhe",
+          "district": "Südstadt",
+          "locality": "Südstadt Nördlicher Teil",
+          "street": "Ettlinger Straße",
+          "houseNumber": "5a"
+        },
+        {
+          "id": "osm-way-220727973",
+          "name": "Ettlinger Straße 5",
+          "latitude": 49.0972834,
+          "longitude": 8.4721297,
+          "address": "Ettlinger Straße 5, 76297 Stutensee",
+          "url": "https://www.openstreetmap.org/way/220727973",
+          "category": "building",
+          "type": "detached",
+          "city": "Stutensee",
+          "district": "Friedrichstal",
+          "locality": "Schöneichenjagen",
+          "street": "Ettlinger Straße",
+          "houseNumber": "5"
+        },
+        {
+          "id": "osm-way-318395983",
+          "name": "Ettlinger Straße 5",
+          "latitude": 48.8623765,
+          "longitude": 8.457367,
+          "address": "Ettlinger Straße 5, 76359 Marxzell",
+          "url": "https://www.openstreetmap.org/way/318395983",
+          "category": "building",
+          "type": "yes",
+          "city": "Marxzell",
+          "district": "Pfaffenrot",
+          "locality": "",
+          "street": "Ettlinger Straße",
+          "houseNumber": "5"
+        },
+        {
+          "id": "osm-way-218475234",
+          "name": "Ettlinger Straße 5",
+          "latitude": 48.9312523,
+          "longitude": 8.4563133,
+          "address": "Ettlinger Straße 5, 76337 Waldbronn",
+          "url": "https://www.openstreetmap.org/way/218475234",
+          "category": "building",
+          "type": "apartments",
+          "city": "Waldbronn",
+          "district": "Busenbach",
+          "locality": "",
+          "street": "Ettlinger Straße",
+          "houseNumber": "5"
+        }
+      ]
+    },
+    "Frauenwaldstraße 6, Remchingen": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [
+        {
+          "id": "osm-way-233899006",
+          "name": "Frauenwaldstraße 6",
+          "latitude": 48.9295449,
+          "longitude": 8.5729205,
+          "address": "Frauenwaldstraße 6, 75196 Nöttingen",
+          "url": "https://www.openstreetmap.org/way/233899006",
+          "category": "building",
+          "type": "public",
+          "city": "Nöttingen",
+          "district": "",
+          "locality": "",
+          "street": "Frauenwaldstraße",
+          "houseNumber": "6"
+        }
+      ]
+    },
+    "Frauenwald straße 6, Remchingen": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [
+        {
+          "id": "osm-way-122660046",
+          "name": "Remchinger Straße 6",
+          "latitude": 48.9526512,
+          "longitude": 8.5728238,
+          "address": "Remchinger Straße 6, 75196 Wilferdingen",
+          "url": "https://www.openstreetmap.org/way/122660046",
+          "category": "building",
+          "type": "detached",
+          "city": "Wilferdingen",
+          "district": "",
+          "locality": "",
+          "street": "Remchinger Straße",
+          "houseNumber": "6"
+        },
+        {
+          "id": "osm-way-233899006",
+          "name": "Frauenwaldstraße 6",
+          "latitude": 48.9295449,
+          "longitude": 8.5729205,
+          "address": "Frauenwaldstraße 6, 75196 Nöttingen",
+          "url": "https://www.openstreetmap.org/way/233899006",
+          "category": "building",
+          "type": "public",
+          "city": "Nöttingen",
+          "district": "",
+          "locality": "",
+          "street": "Frauenwaldstraße",
+          "houseNumber": "6"
+        },
+        {
+          "id": "osm-way-303148775",
+          "name": "Gleiwitzer Straße 6",
+          "latitude": 48.9282614,
+          "longitude": 8.5741405,
+          "address": "Gleiwitzer Straße 6, 75196 Nöttingen",
+          "url": "https://www.openstreetmap.org/way/303148775",
+          "category": "building",
+          "type": "residential",
+          "city": "Nöttingen",
+          "district": "",
+          "locality": "",
+          "street": "Gleiwitzer Straße",
+          "houseNumber": "6"
+        },
+        {
+          "id": "osm-way-305027386",
+          "name": "Friedrich-Ebert-Straße 6",
+          "latitude": 48.948739,
+          "longitude": 8.5735826,
+          "address": "Friedrich-Ebert-Straße 6, 75196 Wilferdingen",
+          "url": "https://www.openstreetmap.org/way/305027386",
+          "category": "building",
+          "type": "apartments",
+          "city": "Wilferdingen",
+          "district": "",
+          "locality": "",
+          "street": "Friedrich-Ebert-Straße",
+          "houseNumber": "6"
+        },
+        {
+          "id": "osm-node-9424991466",
+          "name": "Zum Frauenwald",
+          "latitude": 49.3219892,
+          "longitude": 6.8524472,
+          "address": "Schwalbacher Straße 93, 66793 Saarwellingen",
+          "url": "https://www.openstreetmap.org/node/9424991466",
+          "category": "amenity",
+          "type": "restaurant",
+          "city": "Saarwellingen",
+          "district": "Schwarzenholz",
+          "locality": "",
+          "street": "Schwalbacher Straße",
+          "houseNumber": "93"
+        }
+      ]
+    },
+    "Ettlinger Straße 5, Karlsruhe": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [
+        {
+          "id": "osm-way-101325635",
+          "name": "Congress-Apotheke",
+          "latitude": 49.0026575,
+          "longitude": 8.4035248,
+          "address": "Ettlinger Straße 5, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/101325635",
+          "category": "amenity",
+          "type": "pharmacy",
+          "city": "Karlsruhe",
+          "district": "Südstadt",
+          "locality": "Südstadt Nördlicher Teil",
+          "street": "Ettlinger Straße",
+          "houseNumber": "5"
+        },
+        {
+          "id": "osm-way-101325628",
+          "name": "Ettlinger Straße 5a",
+          "latitude": 49.0025123,
+          "longitude": 8.4035185,
+          "address": "Ettlinger Straße 5a, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/101325628",
+          "category": "building",
+          "type": "office",
+          "city": "Karlsruhe",
+          "district": "Südstadt",
+          "locality": "Südstadt Nördlicher Teil",
+          "street": "Ettlinger Straße",
+          "houseNumber": "5a"
+        },
+        {
+          "id": "osm-way-220727973",
+          "name": "Ettlinger Straße 5",
+          "latitude": 49.0972834,
+          "longitude": 8.4721297,
+          "address": "Ettlinger Straße 5, 76297 Friedrichstal",
+          "url": "https://www.openstreetmap.org/way/220727973",
+          "category": "building",
+          "type": "detached",
+          "city": "Friedrichstal",
+          "district": "Friedrichstal",
+          "locality": "Schöneichenjagen",
+          "street": "Ettlinger Straße",
+          "houseNumber": "5"
+        },
+        {
+          "id": "osm-way-318395983",
+          "name": "Ettlinger Straße 5",
+          "latitude": 48.8623765,
+          "longitude": 8.457367,
+          "address": "Ettlinger Straße 5, 76359 Marxzell",
+          "url": "https://www.openstreetmap.org/way/318395983",
+          "category": "building",
+          "type": "yes",
+          "city": "Marxzell",
+          "district": "Pfaffenrot",
+          "locality": "",
+          "street": "Ettlinger Straße",
+          "houseNumber": "5"
+        },
+        {
+          "id": "osm-way-218475234",
+          "name": "Ettlinger Straße 5",
+          "latitude": 48.9312523,
+          "longitude": 8.4563133,
+          "address": "Ettlinger Straße 5, 76337 Waldbronn",
+          "url": "https://www.openstreetmap.org/way/218475234",
+          "category": "building",
+          "type": "apartments",
+          "city": "Waldbronn",
+          "district": "Busenbach",
+          "locality": "",
+          "street": "Ettlinger Straße",
+          "houseNumber": "5"
+        }
+      ]
+    },
+    "Gottesauerstraße 35, Karlsruhe": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [
+        {
+          "id": "osm-way-151330613",
+          "name": "Karlsruher Straße 35",
+          "latitude": 49.0287104,
+          "longitude": 8.456627,
+          "address": "Karlsruher Straße 35, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151330613",
+          "category": "building",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Hagsfeld",
+          "locality": "Alt-Hagsfeld",
+          "street": "Karlsruher Straße",
+          "houseNumber": "35"
+        },
+        {
+          "id": "osm-node-13163864381",
+          "name": "Bauernmarkt Karlsruhe",
+          "latitude": 49.0047014,
+          "longitude": 8.4317806,
+          "address": "Alter Schlachthof 35, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/13163864381",
+          "category": "amenity",
+          "type": "marketplace",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "Alter Schlachthof",
+          "houseNumber": "35"
+        },
+        {
+          "id": "osm-way-298360172",
+          "name": "Karlsruher Straße 35",
+          "latitude": 48.9760644,
+          "longitude": 8.3133766,
+          "address": "Karlsruher Straße 35, 76287 Rheinstetten",
+          "url": "https://www.openstreetmap.org/way/298360172",
+          "category": "building",
+          "type": "apartments",
+          "city": "Rheinstetten",
+          "district": "Forchheim",
+          "locality": "",
+          "street": "Karlsruher Straße",
+          "houseNumber": "35"
+        },
+        {
+          "id": "osm-way-306364181",
+          "name": "Karlsruher Straße 35",
+          "latitude": 49.1565281,
+          "longitude": 8.4832579,
+          "address": "Karlsruher Straße 35, 76676 Graben-Neudorf",
+          "url": "https://www.openstreetmap.org/way/306364181",
+          "category": "building",
+          "type": "yes",
+          "city": "Graben-Neudorf",
+          "district": "Graben",
+          "locality": "Graben",
+          "street": "Karlsruher Straße",
+          "houseNumber": "35"
+        },
+        {
+          "id": "osm-way-535928421",
+          "name": "Karlsruher Straße 35",
+          "latitude": 49.2225722,
+          "longitude": 8.5242434,
+          "address": "Karlsruher Straße 35, 68753 Waghäusel",
+          "url": "https://www.openstreetmap.org/way/535928421",
+          "category": "building",
+          "type": "yes",
+          "city": "Waghäusel",
+          "district": "Wiesental",
+          "locality": "",
+          "street": "Karlsruher Straße",
+          "houseNumber": "35"
+        }
+      ]
+    },
+    "Gottesauer straße 35, Karlsruhe": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [
+        {
+          "id": "osm-way-108832351",
+          "name": "Gottesauer Straße 35",
+          "latitude": 49.0068154,
+          "longitude": 8.4208005,
+          "address": "Gottesauer Straße 35, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/108832351",
+          "category": "building",
+          "type": "residential",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Westlicher Teil",
+          "street": "Gottesauer Straße",
+          "houseNumber": "35"
+        },
+        {
+          "id": "osm-node-1669073010",
+          "name": "nun Kaffeehaus",
+          "latitude": 49.0068065,
+          "longitude": 8.4207765,
+          "address": "Gottesauer Straße 35, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1669073010",
+          "category": "amenity",
+          "type": "bar",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Westlicher Teil",
+          "street": "Gottesauer Straße",
+          "houseNumber": "35"
+        }
+      ]
+    },
+    "Waidweg 1 a-c, Karlsruhe": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [
+        {
+          "id": "osm-way-1076975926",
+          "name": "Waidweg 1 c",
+          "latitude": 49.0050309,
+          "longitude": 8.3241917,
+          "address": "Waidweg, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1076975926",
+          "category": "leisure",
+          "type": "playground",
+          "city": "Karlsruhe",
+          "district": "Daxlanden",
+          "locality": "Alt-Daxlanden",
+          "street": "Waidweg",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-6591771926",
+          "name": "Waidweg 1c",
+          "latitude": 49.0050832,
+          "longitude": 8.3232486,
+          "address": "Waidweg 1c, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/6591771926",
+          "category": "amenity",
+          "type": "car_sharing",
+          "city": "Karlsruhe",
+          "district": "Daxlanden",
+          "locality": "Alt-Daxlanden",
+          "street": "Waidweg",
+          "houseNumber": "1c"
+        },
+        {
+          "id": "osm-way-306461068",
+          "name": "Waidweg 1c",
+          "latitude": 49.0049435,
+          "longitude": 8.323829,
+          "address": "Waidweg 1c, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/306461068",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Daxlanden",
+          "locality": "Alt-Daxlanden",
+          "street": "Waidweg",
+          "houseNumber": "1c"
+        }
+      ]
+    },
+    "Hintere Schlossteige/Schloss 1, Karlsruhe": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [
+        {
+          "id": "osm-way-319568474",
+          "name": "Hinterm Schloss 1",
+          "latitude": 49.1497183,
+          "longitude": 8.6877517,
+          "address": "Hinterm Schloss 1, 76703 Kraichtal",
+          "url": "https://www.openstreetmap.org/way/319568474",
+          "category": "building",
+          "type": "residential",
+          "city": "Kraichtal",
+          "district": "Oberöwisheim",
+          "locality": "",
+          "street": "Hinterm Schloss",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-way-964553941",
+          "name": "Adventuregolfpark Kürnbach",
+          "latitude": 49.0771177,
+          "longitude": 8.851279,
+          "address": "Hinterm Schloß 1, 75057 Kürnbach",
+          "url": "https://www.openstreetmap.org/way/964553941",
+          "category": "leisure",
+          "type": "miniature_golf",
+          "city": "Kürnbach",
+          "district": "",
+          "locality": "",
+          "street": "Hinterm Schloß",
+          "houseNumber": "1"
+        }
+      ]
+    },
+    "Hans-Thoma-Straße 2-6, Karlsruhe": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [
+        {
+          "id": "osm-relation-13042785",
+          "name": "Staatliche Kunsthalle Karlsruhe",
+          "latitude": 49.0119303,
+          "longitude": 8.3997157,
+          "address": "Hans-Thoma-Straße 2, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/13042785",
+          "category": "tourism",
+          "type": "gallery",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Hans-Thoma-Straße",
+          "houseNumber": "2"
+        },
+        {
+          "id": "osm-way-584945302",
+          "name": "Orangerie",
+          "latitude": 49.0131604,
+          "longitude": 8.3988634,
+          "address": "Hans-Thoma-Straße 6, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/584945302",
+          "category": "tourism",
+          "type": "gallery",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Hans-Thoma-Straße",
+          "houseNumber": "6"
+        },
+        {
+          "id": "osm-way-217792370",
+          "name": "Hans-Thoma-Straße 6",
+          "latitude": 48.9235663,
+          "longitude": 8.4798977,
+          "address": "Hans-Thoma-Straße 6, 76337 Waldbronn",
+          "url": "https://www.openstreetmap.org/way/217792370",
+          "category": "building",
+          "type": "yes",
+          "city": "Waldbronn",
+          "district": "Reichenbach",
+          "locality": "",
+          "street": "Hans-Thoma-Straße",
+          "houseNumber": "6"
+        },
+        {
+          "id": "osm-way-220722732",
+          "name": "Hans-Thoma-Straße 6 A",
+          "latitude": 49.1085121,
+          "longitude": 8.4814642,
+          "address": "Hans-Thoma-Straße 6 A, 76297 Friedrichstal",
+          "url": "https://www.openstreetmap.org/way/220722732",
+          "category": "building",
+          "type": "yes",
+          "city": "Friedrichstal",
+          "district": "Friedrichstal",
+          "locality": "",
+          "street": "Hans-Thoma-Straße",
+          "houseNumber": "6 A"
+        },
+        {
+          "id": "osm-node-5450206038",
+          "name": "Hans-Thoma-Straße 6",
+          "latitude": 49.1223558,
+          "longitude": 8.6043377,
+          "address": "Hans-Thoma-Straße 6, 76646 Bruchsal",
+          "url": "https://www.openstreetmap.org/node/5450206038",
+          "category": "place",
+          "type": "house",
+          "city": "Bruchsal",
+          "district": "",
+          "locality": "",
+          "street": "Hans-Thoma-Straße",
+          "houseNumber": "6"
+        }
+      ]
     }
   },
   "attribution": {
