@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T07:31:18+00:00",
+  "generatedAt": "2026-11-17T08:02:03+00:00",
   "attribution": {
     "text": "© OpenStreetMap contributors · ODbL",
     "url": "https://www.openstreetmap.org/copyright"
@@ -10810,16 +10810,16 @@
       ],
       "examples": [
         {
-          "id": "karlsruhe-0032a403bc453d47",
-          "title": "Begegnungscafé für Jung und Alt",
-          "date": "2026-11-27",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/begegnungscafe_fur_jung_und_alt-6"
-        },
-        {
           "id": "karlsruhe-3589dc0e044d134a",
           "title": "Begegnungscafé für Jung und Alt",
           "date": "2026-11-27",
           "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/begegnungscafe_fur_jung_und_alt-4"
+        },
+        {
+          "id": "karlsruhe-0032a403bc453d47",
+          "title": "Begegnungscafé für Jung und Alt",
+          "date": "2026-11-27",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/begegnungscafe_fur_jung_und_alt-6"
         }
       ]
     },
@@ -11494,10 +11494,10 @@
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12026&tx_events2_events%5Btimestamp%5D=1795602600&cHash=a92387877ee2a3a950988de0e2e4ac2d"
         },
         {
-          "id": "durlach-12025-2026-11-25-1800",
+          "id": "durlach-12025-2026-11-25-1830",
           "title": "Mittelalterlicher Weihnachtsmarkt (Eröffnung)",
           "date": "2026-11-25",
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12025&tx_events2_events%5Btimestamp%5D=1795626000&cHash=ef7f4c6a829baee57e4c0d93dfeaeac5"
+          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12025&tx_events2_events%5Btimestamp%5D=1795627800&cHash=77a0733b9e44aac3c7314856e78462e9"
         }
       ]
     },
