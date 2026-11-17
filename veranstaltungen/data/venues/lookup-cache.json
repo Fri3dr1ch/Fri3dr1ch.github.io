@@ -4956,7 +4956,7 @@
       ]
     },
     "OrgelFabrikSalon, Karlsruhe": {
-      "checkedAt": "2026-11-15T09:17:28+00:00",
+      "checkedAt": "2026-11-17T06:19:50+00:00",
       "places": []
     },
     "Rathausplatz Weingarten und Rebgelände, Weingarten (Baden)": {
@@ -10595,6 +10595,3787 @@
           "type": "yes",
           "street": "Hermann-Schneider-Allee",
           "houseNumber": "55"
+        }
+      ]
+    },
+    "Sandkorn, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:11:22+00:00",
+      "places": [
+        {
+          "id": "osm-node-289245508",
+          "name": "Sandkorn-Theater",
+          "latitude": 49.0099865,
+          "longitude": 8.3841087,
+          "address": "Kaiserallee, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/289245508",
+          "category": "amenity",
+          "type": "theatre",
+          "street": "Kaiserallee",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-4029945652",
+          "name": "Sandkorn Theater gGmbH",
+          "latitude": 49.010054,
+          "longitude": 8.3845843,
+          "address": "Kaiserallee 11b, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4029945652",
+          "category": "shop",
+          "type": "ticket",
+          "street": "Kaiserallee",
+          "houseNumber": "11b"
+        }
+      ]
+    },
+    "Substage, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:11:26+00:00",
+      "places": [
+        {
+          "id": "osm-way-115564781",
+          "name": "Substage",
+          "latitude": 49.0052774,
+          "longitude": 8.429731,
+          "address": "Alter Schlachthof 19, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/115564781",
+          "category": "amenity",
+          "type": "nightclub",
+          "street": "Alter Schlachthof",
+          "houseNumber": "19"
+        },
+        {
+          "id": "osm-way-645691489",
+          "name": "MINESTRONE",
+          "latitude": 49.0052824,
+          "longitude": 8.4297144,
+          "address": "Alter Schlachthof 19, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/645691489",
+          "category": "amenity",
+          "type": "restaurant",
+          "street": "Alter Schlachthof",
+          "houseNumber": "19"
+        }
+      ]
+    },
+    "Jubez, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:11:30+00:00",
+      "places": [
+        {
+          "id": "osm-node-3148259369",
+          "name": "jubez",
+          "latitude": 49.0083572,
+          "longitude": 8.4096338,
+          "address": "Kronenplatz 1, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3148259369",
+          "category": "amenity",
+          "type": "arts_centre",
+          "street": "Kronenplatz",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-node-3148259368",
+          "name": "jubez Sporthalle",
+          "latitude": 49.0085412,
+          "longitude": 8.4096495,
+          "address": "Kronenplatz, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3148259368",
+          "category": "leisure",
+          "type": "pitch",
+          "street": "Kronenplatz",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-524509698",
+          "name": "jubez Café",
+          "latitude": 49.0086022,
+          "longitude": 8.4096509,
+          "address": "Kronenplatz 1, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/524509698",
+          "category": "amenity",
+          "type": "cafe",
+          "street": "Kronenplatz",
+          "houseNumber": "1"
+        }
+      ]
+    },
+    "Tanzareal, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:11:34+00:00",
+      "places": []
+    },
+    "Imagine, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:11:39+00:00",
+      "places": []
+    },
+    "HfG, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:11:43+00:00",
+      "places": [
+        {
+          "id": "osm-way-1239169923",
+          "name": "Bibliothek des ZKM und der Staatlichen Hochschule für Gestaltung (HfG)",
+          "latitude": 49.0014562,
+          "longitude": 8.3833367,
+          "address": "Lorenzstraße, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1239169923",
+          "category": "amenity",
+          "type": "library",
+          "street": "Lorenzstraße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Hans und Therese Krille, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:11:47+00:00",
+      "places": []
+    },
+    "Jakobus Theater, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:11:51+00:00",
+      "places": [
+        {
+          "id": "osm-node-656404292",
+          "name": "Jakobus-Theater",
+          "latitude": 49.0096707,
+          "longitude": 8.3840859,
+          "address": "Kaiserallee, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/656404292",
+          "category": "amenity",
+          "type": "theatre",
+          "street": "Kaiserallee",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Tempel, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:11:55+00:00",
+      "places": [
+        {
+          "id": "osm-way-538119613",
+          "name": "Weinbrenner-Tempel",
+          "latitude": 49.0171662,
+          "longitude": 8.4017642,
+          "address": "Ahaweg, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/538119613",
+          "category": "building",
+          "type": "yes",
+          "street": "Ahaweg",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-119792090",
+          "name": "Kulturzentrum Tempel",
+          "latitude": 49.013903,
+          "longitude": 8.3578352,
+          "address": "Hardtstraße 37a, 76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/119792090",
+          "category": "amenity",
+          "type": "arts_centre",
+          "street": "Hardtstraße",
+          "houseNumber": "37a"
+        },
+        {
+          "id": "osm-node-7100291955",
+          "name": "deko.tempel",
+          "latitude": 49.0743695,
+          "longitude": 8.3971956,
+          "address": "Jahnstraße 2, 76344 Eggenstein-Leopoldshafen",
+          "url": "https://www.openstreetmap.org/node/7100291955",
+          "category": "amenity",
+          "type": "events_venue",
+          "street": "Jahnstraße",
+          "houseNumber": "2"
+        },
+        {
+          "id": "osm-node-13047946076",
+          "name": "deko.tempel",
+          "latitude": 49.0743291,
+          "longitude": 8.3971547,
+          "address": "Jahnstraße 2, 76344 Eggenstein-Leopoldshafen",
+          "url": "https://www.openstreetmap.org/node/13047946076",
+          "category": "shop",
+          "type": "boutique",
+          "street": "Jahnstraße",
+          "houseNumber": "2"
+        },
+        {
+          "id": "osm-node-3579302575",
+          "name": "Krempel-Tempelchen",
+          "latitude": 49.0073984,
+          "longitude": 8.4063941,
+          "address": "Zähringerstraße 40, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3579302575",
+          "category": "shop",
+          "type": "second_hand",
+          "street": "Zähringerstraße",
+          "houseNumber": "40"
+        }
+      ]
+    },
+    "Orangerie, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:12:00+00:00",
+      "places": [
+        {
+          "id": "osm-way-584945302",
+          "name": "Orangerie",
+          "latitude": 49.0131604,
+          "longitude": 8.3988634,
+          "address": "Hans-Thoma-Straße 6, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/584945302",
+          "category": "tourism",
+          "type": "gallery",
+          "street": "Hans-Thoma-Straße",
+          "houseNumber": "6"
+        }
+      ]
+    },
+    "VWA, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:12:04+00:00",
+      "places": [
+        {
+          "id": "osm-node-13171490915",
+          "name": "VWA",
+          "latitude": 49.0112983,
+          "longitude": 8.3761176,
+          "address": "Kaiserallee 12e, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/13171490915",
+          "category": "amenity",
+          "type": "college",
+          "street": "Kaiserallee",
+          "houseNumber": "12e"
+        }
+      ]
+    },
+    "ZeSIA, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:12:09+00:00",
+      "places": [
+        {
+          "id": "osm-node-5645576902",
+          "name": "ZeSIA Karlsruhe",
+          "latitude": 49.0080077,
+          "longitude": 8.382608,
+          "address": "Sophienstraße 102, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/5645576902",
+          "category": "healthcare",
+          "type": "centre",
+          "street": "Sophienstraße",
+          "houseNumber": "102"
+        }
+      ]
+    },
+    "Volkshochschule, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:12:13+00:00",
+      "places": [
+        {
+          "id": "osm-way-89564038",
+          "name": "Volkshochschule Karlsruhe",
+          "latitude": 49.0112872,
+          "longitude": 8.3759401,
+          "address": "Kaiserallee 12e, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/89564038",
+          "category": "office",
+          "type": "educational_institution",
+          "street": "Kaiserallee",
+          "houseNumber": "12e"
+        },
+        {
+          "id": "osm-node-10900306485",
+          "name": "Volkshochschule im Landkreis Karlsruhe",
+          "latitude": 48.9988405,
+          "longitude": 8.4039772,
+          "address": "Ettlinger Straße 27, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/10900306485",
+          "category": "office",
+          "type": "educational_institution",
+          "street": "Ettlinger Straße",
+          "houseNumber": "27"
+        },
+        {
+          "id": "osm-node-3386498345",
+          "name": "Volkshochschule im Landkreis Karlsruhe e.V.",
+          "latitude": 49.0666161,
+          "longitude": 8.4699917,
+          "address": "Spechaa Straße 23, 76297 Blankenloch",
+          "url": "https://www.openstreetmap.org/node/3386498345",
+          "category": "amenity",
+          "type": "college",
+          "street": "Spechaa Straße",
+          "houseNumber": "23"
+        },
+        {
+          "id": "osm-node-4498428305",
+          "name": "Ettlingen Volkshochschule",
+          "latitude": 48.9429669,
+          "longitude": 8.4098235,
+          "address": "Pforzheimer Straße, 76275 Ettlingen",
+          "url": "https://www.openstreetmap.org/node/4498428305",
+          "category": "highway",
+          "type": "bus_stop",
+          "street": "Pforzheimer Straße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Albtalbahnhof, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:12:17+00:00",
+      "places": [
+        {
+          "id": "osm-way-111792053",
+          "name": "Albtalbahnhof",
+          "latitude": 48.993909,
+          "longitude": 8.3954472,
+          "address": "Beiertheimer Allee, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/111792053",
+          "category": "highway",
+          "type": "platform",
+          "street": "Beiertheimer Allee",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-2574283873",
+          "name": "Albtalbahnhof",
+          "latitude": 48.9936597,
+          "longitude": 8.3960901,
+          "address": "Schwarzwaldstraße, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/2574283873",
+          "category": "railway",
+          "type": "station",
+          "street": "Schwarzwaldstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-2931020704",
+          "name": "Albtalbahnhof",
+          "latitude": 48.9937006,
+          "longitude": 8.3961945,
+          "address": "Schwarzwaldstraße, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/2931020704",
+          "category": "railway",
+          "type": "stop",
+          "street": "Schwarzwaldstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-relation-19162249",
+          "name": "Albtalbahnhof",
+          "latitude": 48.9935101,
+          "longitude": 8.3959041,
+          "address": "Schwarzwaldstraße, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/19162249",
+          "category": "railway",
+          "type": "platform",
+          "street": "Schwarzwaldstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-238211978",
+          "name": "Albtalbahnhof",
+          "latitude": 48.9935156,
+          "longitude": 8.3961959,
+          "address": "Schwarzwaldstraße, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/238211978",
+          "category": "railway",
+          "type": "platform",
+          "street": "Schwarzwaldstraße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Alt katholische Kirche, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:12:23+00:00",
+      "places": [
+        {
+          "id": "osm-node-11564414721",
+          "name": "Katholische Kirche",
+          "latitude": 49.0482567,
+          "longitude": 8.4684319,
+          "address": "Sterntalerstraße, 76297 Blankenloch",
+          "url": "https://www.openstreetmap.org/node/11564414721",
+          "category": "information",
+          "type": "board",
+          "street": "Sterntalerstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-11564371158",
+          "name": "Katholische Kirche Heilig Geist",
+          "latitude": 49.0483246,
+          "longitude": 8.4691514,
+          "address": "Sterntalerstraße 2, 76297 Blankenloch",
+          "url": "https://www.openstreetmap.org/node/11564371158",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Sterntalerstraße",
+          "houseNumber": "2"
+        },
+        {
+          "id": "osm-way-1528826736",
+          "name": "Katholische Kindertageseinrichtung Albgrün",
+          "latitude": 49.0041068,
+          "longitude": 8.354063,
+          "address": "Zeppelinstraße 56a, 76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1528826736",
+          "category": "amenity",
+          "type": "kindergarten",
+          "street": "Zeppelinstraße",
+          "houseNumber": "56a"
+        },
+        {
+          "id": "osm-way-558244809",
+          "name": "Katholische Kindertagesstätte Anna-Leimbach-Haus",
+          "latitude": 49.0010264,
+          "longitude": 8.4764312,
+          "address": "Pfinzstraße 15a, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/558244809",
+          "category": "amenity",
+          "type": "kindergarten",
+          "street": "Pfinzstraße",
+          "houseNumber": "15a"
+        },
+        {
+          "id": "osm-node-8015986820",
+          "name": "Katholische Hochschulgemeinde Karlsruhe",
+          "latitude": 48.9993404,
+          "longitude": 8.3909771,
+          "address": "Hirschstraße, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/8015986820",
+          "category": "office",
+          "type": "religion",
+          "street": "Hirschstraße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Audimax, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:12:28+00:00",
+      "places": [
+        {
+          "id": "osm-way-247422979",
+          "name": "Audimax",
+          "latitude": 49.0128366,
+          "longitude": 8.415524,
+          "address": "Straße am Forum 1, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/247422979",
+          "category": "amenity",
+          "type": "auditorium",
+          "street": "Straße am Forum",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-node-4237245701",
+          "name": "Audimax Hörsaal B",
+          "latitude": 49.0128815,
+          "longitude": 8.4155984,
+          "address": "Straße am Forum 1, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4237245701",
+          "category": "amenity",
+          "type": "auditorium",
+          "street": "Straße am Forum",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-way-167867872",
+          "name": "Hörsaalgebäude am Forum - Audimax",
+          "latitude": 49.0127803,
+          "longitude": 8.4156386,
+          "address": "Straße am Forum 1, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/167867872",
+          "category": "building",
+          "type": "university",
+          "street": "Straße am Forum",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-node-4237245700",
+          "name": "Audimax Hörsaal A",
+          "latitude": 49.0128054,
+          "longitude": 8.4154429,
+          "address": "Straße am Forum 1, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4237245700",
+          "category": "amenity",
+          "type": "auditorium",
+          "street": "Straße am Forum",
+          "houseNumber": "1"
+        }
+      ]
+    },
+    "Badisches Konservatorium, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:12:32+00:00",
+      "places": [
+        {
+          "id": "osm-way-110101434",
+          "name": "Badisches Konservatorium",
+          "latitude": 49.0112484,
+          "longitude": 8.3773667,
+          "address": "Kaiserallee 12c, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/110101434",
+          "category": "amenity",
+          "type": "music_school",
+          "street": "Kaiserallee",
+          "houseNumber": "12c"
+        }
+      ]
+    },
+    "Badnerlandhalle, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:12:36+00:00",
+      "places": [
+        {
+          "id": "osm-way-7652212",
+          "name": "Badnerlandhalle",
+          "latitude": 49.0446178,
+          "longitude": 8.3830479,
+          "address": "Rubensstraße 21, 76149 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/7652212",
+          "category": "emergency",
+          "type": "fire_detection_system",
+          "street": "Rubensstraße",
+          "houseNumber": "21"
+        }
+      ]
+    },
+    "Roncalli Forum, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:12:40+00:00",
+      "places": [
+        {
+          "id": "osm-way-260318329",
+          "name": "Forum",
+          "latitude": 49.0119043,
+          "longitude": 8.4153124,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/260318329",
+          "category": "leisure",
+          "type": "park",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-767173583",
+          "name": "Lexus Forum Karlsruhe",
+          "latitude": 48.9972,
+          "longitude": 8.4399598,
+          "address": "Ottostraße 18a, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/767173583",
+          "category": "shop",
+          "type": "car",
+          "street": "Ottostraße",
+          "houseNumber": "18a"
+        },
+        {
+          "id": "osm-way-1377367759",
+          "name": "Forum St. Stephan",
+          "latitude": 49.0088387,
+          "longitude": 8.3998199,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1377367759",
+          "category": "landuse",
+          "type": "construction",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-274753212",
+          "name": "Straße am Forum",
+          "latitude": 49.0118597,
+          "longitude": 8.4160947,
+          "address": "76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/274753212",
+          "category": "highway",
+          "type": "living_street",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-35739042",
+          "name": "Straße am Forum",
+          "latitude": 49.013642,
+          "longitude": 8.4162889,
+          "address": "76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/35739042",
+          "category": "highway",
+          "type": "residential",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Bürgerzentrum Daxlanden, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:12:44+00:00",
+      "places": [
+        {
+          "id": "osm-node-12486337679",
+          "name": "Bürgerzentrum Daxlanden",
+          "latitude": 49.0047899,
+          "longitude": 8.3232832,
+          "address": "Waidweg, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12486337679",
+          "category": "amenity",
+          "type": "community_centre",
+          "street": "Waidweg",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Bürgerzentrum Mühlburg, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:12:48+00:00",
+      "places": [
+        {
+          "id": "osm-way-777277359",
+          "name": "Bürgerzentrum Mühlburg",
+          "latitude": 49.0099393,
+          "longitude": 8.3604239,
+          "address": "Weinbrennerstraße 79a, 76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/777277359",
+          "category": "amenity",
+          "type": "community_centre",
+          "street": "Weinbrennerstraße",
+          "houseNumber": "79a"
+        }
+      ]
+    },
+    "St. Valentin, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:12:52+00:00",
+      "places": [
+        {
+          "id": "osm-way-116520122",
+          "name": "St. Valentin",
+          "latitude": 49.0057609,
+          "longitude": 8.3263609,
+          "address": "Inselstraße 25, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/116520122",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Inselstraße",
+          "houseNumber": "25"
+        },
+        {
+          "id": "osm-way-1223196927",
+          "name": "St. Valentin",
+          "latitude": 49.0048445,
+          "longitude": 8.3282871,
+          "address": "Taubenstraße, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1223196927",
+          "category": "amenity",
+          "type": "kindergarten",
+          "street": "Taubenstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-1015983752",
+          "name": "St.-Valentin-Platz",
+          "latitude": 49.0057567,
+          "longitude": 8.3266073,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1015983752",
+          "category": "place",
+          "type": "square",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-4271474",
+          "name": "St.-Valentin-Platz",
+          "latitude": 49.0056688,
+          "longitude": 8.3263745,
+          "address": "76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/4271474",
+          "category": "highway",
+          "type": "service",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Centro Deutsch Italienische Gesellschaft, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:12:57+00:00",
+      "places": []
+    },
+    "Im Schlachthof, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:13:01+00:00",
+      "places": [
+        {
+          "id": "osm-node-3573711095",
+          "name": "Espresso Tostino - Rösterei im alten Schlachthof",
+          "latitude": 49.0044217,
+          "longitude": 8.4297185,
+          "address": "Alter Schlachthof 29a, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3573711095",
+          "category": "amenity",
+          "type": "cafe",
+          "street": "Alter Schlachthof",
+          "houseNumber": "29a"
+        },
+        {
+          "id": "osm-way-90172398",
+          "name": "Eat & Greet",
+          "latitude": 49.0059988,
+          "longitude": 8.4309975,
+          "address": "Alter Schlachthof 7a, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/90172398",
+          "category": "amenity",
+          "type": "restaurant",
+          "street": "Alter Schlachthof",
+          "houseNumber": "7a"
+        }
+      ]
+    },
+    "Stadtkirche Durlach, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:13:05+00:00",
+      "places": [
+        {
+          "id": "osm-way-25000998",
+          "name": "Evangelische Stadtkirche",
+          "latitude": 48.9988594,
+          "longitude": 8.4713534,
+          "address": "Pfinztalstraße 31, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/25000998",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Pfinztalstraße",
+          "houseNumber": "31"
+        }
+      ]
+    },
+    "Generallandesarchiv, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:13:10+00:00",
+      "places": [
+        {
+          "id": "osm-node-10055268855",
+          "name": "Generallandesarchiv Karlsruhe",
+          "latitude": 49.0131446,
+          "longitude": 8.3828024,
+          "address": "Nördliche Hildapromenade 3, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/10055268855",
+          "category": "office",
+          "type": "government",
+          "street": "Nördliche Hildapromenade",
+          "houseNumber": "3"
+        }
+      ]
+    },
+    "Gerthsen Hörsaal, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:13:14+00:00",
+      "places": [
+        {
+          "id": "osm-node-977499668",
+          "name": "Gerthsen-Hörsaal",
+          "latitude": 49.0122099,
+          "longitude": 8.4113454,
+          "address": "Engesserstraße, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/977499668",
+          "category": "amenity",
+          "type": "bicycle_parking",
+          "street": "Engesserstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-977499652",
+          "name": "Gerthsen-Hörsaal",
+          "latitude": 49.0122007,
+          "longitude": 8.4116375,
+          "address": "Wolfgang-Gaede-Straße, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/977499652",
+          "category": "amenity",
+          "type": "bicycle_parking",
+          "street": "Wolfgang-Gaede-Straße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-1134006199",
+          "name": "Gerthsen-Hörsaal",
+          "latitude": 49.0125002,
+          "longitude": 8.4115242,
+          "address": "Wolfgang-Gaede-Straße, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1134006199",
+          "category": "amenity",
+          "type": "auditorium",
+          "street": "Wolfgang-Gaede-Straße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-167867876",
+          "name": "Gerthsen-Hörsaal-Gebäude",
+          "latitude": 49.0125246,
+          "longitude": 8.4115266,
+          "address": "Engesserstraße 9, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/167867876",
+          "category": "building",
+          "type": "university",
+          "street": "Engesserstraße",
+          "houseNumber": "9"
+        },
+        {
+          "id": "osm-node-4824752870",
+          "name": "Pump- und Reparaturstation beim Gerthsen-Hörsaal",
+          "latitude": 49.0122123,
+          "longitude": 8.4114557,
+          "address": "Wolfgang-Gaede-Straße, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4824752870",
+          "category": "amenity",
+          "type": "bicycle_repair_station",
+          "street": "Wolfgang-Gaede-Straße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "The Justice Project, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:13:18+00:00",
+      "places": []
+    },
+    "Hochschule Karlsruhe, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:13:22+00:00",
+      "places": [
+        {
+          "id": "osm-relation-7011483",
+          "name": "Hochschule Karlsruhe",
+          "latitude": 49.0164075,
+          "longitude": 8.3908688,
+          "address": "Moltkestraße 30, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/7011483",
+          "category": "amenity",
+          "type": "school",
+          "street": "Moltkestraße",
+          "houseNumber": "30"
+        },
+        {
+          "id": "osm-way-258679943",
+          "name": "Hochschule für Musik Karlsruhe",
+          "latitude": 49.0045681,
+          "longitude": 8.4265554,
+          "address": "Schlachthausstraße, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/258679943",
+          "category": "amenity",
+          "type": "university",
+          "street": "Schlachthausstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-159880107",
+          "name": "Pädagogische Hochschule Karlsruhe",
+          "latitude": 49.0137118,
+          "longitude": 8.3927565,
+          "address": "Bismarckstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/159880107",
+          "category": "amenity",
+          "type": "university",
+          "street": "Bismarckstraße",
+          "houseNumber": "10"
+        },
+        {
+          "id": "osm-way-576037299",
+          "name": "Duale Hochschule Baden-Württemberg Karlsruhe",
+          "latitude": 49.0261991,
+          "longitude": 8.3855534,
+          "address": "Erzbergerstraße 121, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/576037299",
+          "category": "building",
+          "type": "college",
+          "street": "Erzbergerstraße",
+          "houseNumber": "121"
+        },
+        {
+          "id": "osm-way-23855655",
+          "name": "Staatliche Hochschule für Gestaltung",
+          "latitude": 49.0020695,
+          "longitude": 8.3836683,
+          "address": "Lorenzstraße 15, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/23855655",
+          "category": "amenity",
+          "type": "university",
+          "street": "Lorenzstraße",
+          "houseNumber": "15"
+        }
+      ]
+    },
+    "Jazzclub, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:13:26+00:00",
+      "places": [
+        {
+          "id": "osm-node-2726790178",
+          "name": "Jazzclub Karlsruhe",
+          "latitude": 49.0105065,
+          "longitude": 8.3969181,
+          "address": "Kaiserpassage 6, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/2726790178",
+          "category": "amenity",
+          "type": "nightclub",
+          "street": "Kaiserpassage",
+          "houseNumber": "6"
+        }
+      ]
+    },
+    "Julius Leber Platz, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:13:31+00:00",
+      "places": [
+        {
+          "id": "osm-way-4940191",
+          "name": "Julius-Leber-Platz",
+          "latitude": 48.9856202,
+          "longitude": 8.3618224,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/4940191",
+          "category": "place",
+          "type": "square",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Hauptbahnhof, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:13:35+00:00",
+      "places": [
+        {
+          "id": "osm-node-402589279",
+          "name": "Karlsruhe Hauptbahnhof",
+          "latitude": 48.9937234,
+          "longitude": 8.4018652,
+          "address": "Bahnhofplatz, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/402589279",
+          "category": "railway",
+          "type": "stop",
+          "street": "Bahnhofplatz",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-402589292",
+          "name": "Karlsruhe Hauptbahnhof",
+          "latitude": 48.9931508,
+          "longitude": 8.4020752,
+          "address": "Hinterm Hauptbahnhof, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/402589292",
+          "category": "railway",
+          "type": "stop",
+          "street": "Hinterm Hauptbahnhof",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-2541436126",
+          "name": "Karlsruhe Hauptbahnhof",
+          "latitude": 48.9931917,
+          "longitude": 8.4017106,
+          "address": "Hinterm Hauptbahnhof, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/2541436126",
+          "category": "railway",
+          "type": "stop",
+          "street": "Hinterm Hauptbahnhof",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-3216079568",
+          "name": "Karlsruhe Hauptbahnhof",
+          "latitude": 48.9933687,
+          "longitude": 8.4021034,
+          "address": "Hinterm Hauptbahnhof, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3216079568",
+          "category": "railway",
+          "type": "stop",
+          "street": "Hinterm Hauptbahnhof",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-811377003",
+          "name": "Karlsruhe Hauptbahnhof",
+          "latitude": 48.992958,
+          "longitude": 8.4023021,
+          "address": "Hinterm Hauptbahnhof, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/811377003",
+          "category": "railway",
+          "type": "stop",
+          "street": "Hinterm Hauptbahnhof",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "KIT Campus Süd, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:13:39+00:00",
+      "places": [
+        {
+          "id": "osm-way-627247618",
+          "name": "Durlacher Tor/KIT-Campus Süd",
+          "latitude": 49.0094098,
+          "longitude": 8.4181288,
+          "address": "Adenauerring, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/627247618",
+          "category": "railway",
+          "type": "platform",
+          "street": "Adenauerring",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-3234308899",
+          "name": "Durlacher Tor/KIT-Campus Süd (U)",
+          "latitude": 49.0090072,
+          "longitude": 8.4166206,
+          "address": "Kaiserstraße, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3234308899",
+          "category": "railway",
+          "type": "stop",
+          "street": "Kaiserstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-532457213",
+          "name": "Durlacher Tor/KIT-Campus Süd",
+          "latitude": 49.0092212,
+          "longitude": 8.4179553,
+          "address": "Adenauerring, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/532457213",
+          "category": "highway",
+          "type": "bus_stop",
+          "street": "Adenauerring",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-6126664124",
+          "name": "Durlacher Tor/KIT-Campus Süd",
+          "latitude": 49.009281,
+          "longitude": 8.4178808,
+          "address": "Adenauerring, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/6126664124",
+          "category": "railway",
+          "type": "stop",
+          "street": "Adenauerring",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-6037870927",
+          "name": "Durlacher Tor/KIT-Campus Süd",
+          "latitude": 49.0095053,
+          "longitude": 8.4185509,
+          "address": "Karl-Wilhelm-Straße, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/6037870927",
+          "category": "railway",
+          "type": "stop",
+          "street": "Karl-Wilhelm-Straße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "St. Cyriakus Bulach, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:13:43+00:00",
+      "places": [
+        {
+          "id": "osm-way-526832734",
+          "name": "St. Cyriakus",
+          "latitude": 48.9883703,
+          "longitude": 8.3808723,
+          "address": "Litzenhardtstraße 50, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/526832734",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Litzenhardtstraße",
+          "houseNumber": "50"
+        }
+      ]
+    },
+    "St. Stephan, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:13:47+00:00",
+      "places": [
+        {
+          "id": "osm-way-4058964",
+          "name": "St. Stephan",
+          "latitude": 49.0086624,
+          "longitude": 8.3993797,
+          "address": "Erbprinzenstraße 16, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/4058964",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Erbprinzenstraße",
+          "houseNumber": "16"
+        },
+        {
+          "id": "osm-way-1377367759",
+          "name": "Forum St. Stephan",
+          "latitude": 49.0088387,
+          "longitude": 8.3998199,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1377367759",
+          "category": "landuse",
+          "type": "construction",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-160611129",
+          "name": "Kirchengarten St. Stephan",
+          "latitude": 49.0082745,
+          "longitude": 8.3998236,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/160611129",
+          "category": "leisure",
+          "type": "park",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-160611127",
+          "name": "Kirchplatz St. Stephan",
+          "latitude": 49.0087829,
+          "longitude": 8.3986347,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/160611127",
+          "category": "place",
+          "type": "square",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-10051767780",
+          "name": "Kirche St. Stephan",
+          "latitude": 49.0087276,
+          "longitude": 8.3990249,
+          "address": "Ständehausstraße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/10051767780",
+          "category": "information",
+          "type": "board",
+          "street": "Ständehausstraße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Lutherkirche, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:13:52+00:00",
+      "places": [
+        {
+          "id": "osm-way-195066765",
+          "name": "Lutherkirche",
+          "latitude": 49.0081125,
+          "longitude": 8.4235137,
+          "address": "Durlacher Allee 23, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/195066765",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Durlacher Allee",
+          "houseNumber": "23"
+        },
+        {
+          "id": "osm-node-3547526511",
+          "name": "Lutherkirche",
+          "latitude": 49.0079792,
+          "longitude": 8.4236405,
+          "address": "Durlacher Allee, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3547526511",
+          "category": "historic",
+          "type": "memorial",
+          "street": "Durlacher Allee",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Naturkundemuseum, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:13:56+00:00",
+      "places": [
+        {
+          "id": "osm-way-431433884",
+          "name": "Staatliches Museum für Naturkunde",
+          "latitude": 49.0069855,
+          "longitude": 8.400144,
+          "address": "Erbprinzenstraße 13, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/431433884",
+          "category": "tourism",
+          "type": "museum",
+          "street": "Erbprinzenstraße",
+          "houseNumber": "13"
+        }
+      ]
+    },
+    "Neureuter Platz, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:14:00+00:00",
+      "places": [
+        {
+          "id": "osm-relation-1767511",
+          "name": "Neureuter Platz",
+          "latitude": 49.0447826,
+          "longitude": 8.3824149,
+          "address": "76149 Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/1767511",
+          "category": "highway",
+          "type": "pedestrian",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Reitsportclub Daxlanden, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:14:05+00:00",
+      "places": [
+        {
+          "id": "osm-way-121071276",
+          "name": "Reitsportclub Daxlanden",
+          "latitude": 49.002532,
+          "longitude": 8.3183176,
+          "address": "Saumweg, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/121071276",
+          "category": "club",
+          "type": "sport",
+          "street": "Saumweg",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Schlossplatz, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:14:09+00:00",
+      "places": [
+        {
+          "id": "osm-way-1234029143",
+          "name": "Schlossplatz",
+          "latitude": 49.0122214,
+          "longitude": 8.40416,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1234029143",
+          "category": "place",
+          "type": "square",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-relation-338749",
+          "name": "Amtsgericht Karlsruhe",
+          "latitude": 49.0113834,
+          "longitude": 8.4004478,
+          "address": "Schlossplatz 23, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/338749",
+          "category": "amenity",
+          "type": "courthouse",
+          "street": "Schlossplatz",
+          "houseNumber": "23"
+        },
+        {
+          "id": "osm-node-3770510516",
+          "name": "Schlossplatz",
+          "latitude": 48.9990005,
+          "longitude": 8.4740874,
+          "address": "76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3770510516",
+          "category": "place",
+          "type": "square",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-261420058",
+          "name": "Schlossplatz",
+          "latitude": 49.0115648,
+          "longitude": 8.4012131,
+          "address": "76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/261420058",
+          "category": "highway",
+          "type": "secondary",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-159916386",
+          "name": "Schlossplatz",
+          "latitude": 49.0107531,
+          "longitude": 8.4035356,
+          "address": "76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/159916386",
+          "category": "highway",
+          "type": "pedestrian",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "St. Peter und Paul Durlach, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:14:14+00:00",
+      "places": [
+        {
+          "id": "osm-way-24883742",
+          "name": "Sankt Peter und Paul",
+          "latitude": 48.998344,
+          "longitude": 8.4680934,
+          "address": "Kanzlerstraße 2, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/24883742",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Kanzlerstraße",
+          "houseNumber": "2"
+        },
+        {
+          "id": "osm-way-52276454",
+          "name": "St. Peter und Paul",
+          "latitude": 49.0109203,
+          "longitude": 8.3648868,
+          "address": "Peter-und-Paul-Platz 1, 76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/52276454",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Peter-und-Paul-Platz",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-node-671466769",
+          "name": "Sankt Peter und Paul",
+          "latitude": 48.9978742,
+          "longitude": 8.4678884,
+          "address": "Kanzlerstraße 5a, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/671466769",
+          "category": "amenity",
+          "type": "kindergarten",
+          "street": "Kanzlerstraße",
+          "houseNumber": "5a"
+        },
+        {
+          "id": "osm-node-261012765",
+          "name": "Christkönighaus - Sankt Peter und Paul",
+          "latitude": 48.9979796,
+          "longitude": 8.4678579,
+          "address": "Kanzlerstraße 5, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/261012765",
+          "category": "amenity",
+          "type": "community_centre",
+          "street": "Kanzlerstraße",
+          "houseNumber": "5"
+        }
+      ]
+    },
+    "Stadthalle, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:14:18+00:00",
+      "places": [
+        {
+          "id": "osm-way-15526554",
+          "name": "Stadthalle",
+          "latitude": 49.0034181,
+          "longitude": 8.4012497,
+          "address": "Festplatz 4, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/15526554",
+          "category": "amenity",
+          "type": "exhibition_hall",
+          "street": "Festplatz",
+          "houseNumber": "4"
+        },
+        {
+          "id": "osm-way-65199048",
+          "name": "Stadthalle",
+          "latitude": 48.9413031,
+          "longitude": 8.4111389,
+          "address": "Friedrichstraße 14, 76275 Ettlingen",
+          "url": "https://www.openstreetmap.org/way/65199048",
+          "category": "building",
+          "type": "public",
+          "street": "Friedrichstraße",
+          "houseNumber": "14"
+        },
+        {
+          "id": "osm-node-12396356296",
+          "name": "Ettlingen Stadthalle",
+          "latitude": 48.9413818,
+          "longitude": 8.4106765,
+          "address": "Friedrichstraße, 76275 Ettlingen",
+          "url": "https://www.openstreetmap.org/node/12396356296",
+          "category": "highway",
+          "type": "bus_stop",
+          "street": "Friedrichstraße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Konzerthaus, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:14:24+00:00",
+      "places": [
+        {
+          "id": "osm-way-163920142",
+          "name": "Konzerthaus",
+          "latitude": 49.0035885,
+          "longitude": 8.3996295,
+          "address": "76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/163920142",
+          "category": "highway",
+          "type": "footway",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-147603975",
+          "name": "Konzerthaus",
+          "latitude": 49.00351,
+          "longitude": 8.3997798,
+          "address": "76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/147603975",
+          "category": "highway",
+          "type": "path",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-15526557",
+          "name": "Konzerthaus",
+          "latitude": 49.0025569,
+          "longitude": 8.3999343,
+          "address": "Festplatz 9, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/15526557",
+          "category": "amenity",
+          "type": "concert_hall",
+          "street": "Festplatz",
+          "houseNumber": "9"
+        },
+        {
+          "id": "osm-node-1589010441",
+          "name": "Konzerthaus",
+          "latitude": 49.0033628,
+          "longitude": 8.399427,
+          "address": "Beiertheimer Allee, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1589010441",
+          "category": "railway",
+          "type": "stop",
+          "street": "Beiertheimer Allee",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-1589010447",
+          "name": "Konzerthaus",
+          "latitude": 49.0037707,
+          "longitude": 8.39994,
+          "address": "Beiertheimer Allee, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1589010447",
+          "category": "railway",
+          "type": "stop",
+          "street": "Beiertheimer Allee",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Triangel, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:14:28+00:00",
+      "places": [
+        {
+          "id": "osm-node-14093912840",
+          "name": "TRIANGEL – Werkstatt",
+          "latitude": 49.009235,
+          "longitude": 8.4087499,
+          "address": "Kaiserstraße 93, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/14093912840",
+          "category": "amenity",
+          "type": "events_venue",
+          "street": "Kaiserstraße",
+          "houseNumber": "93"
+        },
+        {
+          "id": "osm-node-524555510",
+          "name": "TRIANGEL Transfer | Kultur | Raum",
+          "latitude": 49.0091927,
+          "longitude": 8.4088572,
+          "address": "Kaiserstraße 93, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/524555510",
+          "category": "amenity",
+          "type": "events_venue",
+          "street": "Kaiserstraße",
+          "houseNumber": "93"
+        },
+        {
+          "id": "osm-node-14093912841",
+          "name": "TRIANGEL – Studio",
+          "latitude": 49.0090217,
+          "longitude": 8.4097681,
+          "address": "Kaiserstraße 89, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/14093912841",
+          "category": "amenity",
+          "type": "events_venue",
+          "street": "Kaiserstraße",
+          "houseNumber": "89"
+        },
+        {
+          "id": "osm-node-14093912839",
+          "name": "TRIANGEL – Space",
+          "latitude": 49.009122,
+          "longitude": 8.4089018,
+          "address": "Kaiserstraße 93, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/14093912839",
+          "category": "amenity",
+          "type": "events_venue",
+          "street": "Kaiserstraße",
+          "houseNumber": "93"
+        },
+        {
+          "id": "osm-way-156619883",
+          "name": "Kollegiengebäude am Kronenplatz",
+          "latitude": 49.0090019,
+          "longitude": 8.4097611,
+          "address": "Kaiserstraße 89-93, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/156619883",
+          "category": "building",
+          "type": "university",
+          "street": "Kaiserstraße",
+          "houseNumber": "89-93"
+        }
+      ]
+    },
+    "Tourist Information, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:14:34+00:00",
+      "places": [
+        {
+          "id": "osm-node-7057899961",
+          "name": "Tourist-Information Karlsruhe",
+          "latitude": 49.009733,
+          "longitude": 8.4040824,
+          "address": "Kaiserstraße 72-74, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/7057899961",
+          "category": "information",
+          "type": "office",
+          "street": "Kaiserstraße",
+          "houseNumber": "72-74"
+        }
+      ]
+    },
+    "Grüne Grotte, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:14:39+00:00",
+      "places": [
+        {
+          "id": "osm-way-92367224",
+          "name": "Grüne Wasser",
+          "latitude": 49.0090388,
+          "longitude": 8.3061918,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/92367224",
+          "category": "water",
+          "type": "oxbow",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-1476200799",
+          "name": "Grüne Hütte",
+          "latitude": 48.9771493,
+          "longitude": 8.5074692,
+          "address": "Judenweg, 76327 Söllingen",
+          "url": "https://www.openstreetmap.org/node/1476200799",
+          "category": "amenity",
+          "type": "shelter",
+          "street": "Judenweg",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-4806521821",
+          "name": "Bündnis90 / Die Grünen Kreisverband Karlsruhe",
+          "latitude": 49.0032848,
+          "longitude": 8.3934715,
+          "address": "Redtenbacherstraße 9, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4806521821",
+          "category": "office",
+          "type": "political_party",
+          "street": "Redtenbacherstraße",
+          "houseNumber": "9"
+        },
+        {
+          "id": "osm-way-334889237",
+          "name": "Grüner Weg",
+          "latitude": 49.0382768,
+          "longitude": 8.3897259,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/334889237",
+          "category": "landuse",
+          "type": "allotments",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-1027089788",
+          "name": "Grüner Weg",
+          "latitude": 49.0396745,
+          "longitude": 8.3922742,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1027089788",
+          "category": "landuse",
+          "type": "allotments",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Marktbrücke, Weingarten (Baden)": {
+      "checkedAt": "2026-11-17T06:14:43+00:00",
+      "places": [
+        {
+          "id": "osm-relation-659819",
+          "name": "Weingarten",
+          "latitude": 49.0532906,
+          "longitude": 8.5245089,
+          "address": "76356",
+          "url": "https://www.openstreetmap.org/relation/659819",
+          "category": "place",
+          "type": "village",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-relation-2401350",
+          "name": "Weingartener Moor-Bruchwald Grötzingen",
+          "latitude": 49.0389109,
+          "longitude": 8.5087931,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/relation/2401350",
+          "category": "leisure",
+          "type": "nature_reserve",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-25528027",
+          "name": "Weingartener Entlastungskanal",
+          "latitude": 49.0591603,
+          "longitude": 8.4921762,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/way/25528027",
+          "category": "waterway",
+          "type": "river",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-791073468",
+          "name": "Weingartener Entlastungskanal",
+          "latitude": 49.0545983,
+          "longitude": 8.4980348,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/way/791073468",
+          "category": "waterway",
+          "type": "river",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-25528025",
+          "name": "Weingartener Entlastungskanal",
+          "latitude": 49.0547432,
+          "longitude": 8.4975493,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/way/25528025",
+          "category": "waterway",
+          "type": "river",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Gärtnerei Stärk, Weingarten (Baden)": {
+      "checkedAt": "2026-11-17T06:14:48+00:00",
+      "places": [
+        {
+          "id": "osm-node-6561193808",
+          "name": "Stärk GmbH",
+          "latitude": 49.0605745,
+          "longitude": 8.5234527,
+          "address": "Neue Bahnhofstraße 25, 76356 Weingarten",
+          "url": "https://www.openstreetmap.org/node/6561193808",
+          "category": "shop",
+          "type": "garden_centre",
+          "street": "Neue Bahnhofstraße",
+          "houseNumber": "25"
+        }
+      ]
+    },
+    "Festplatz, Weingarten (Baden)": {
+      "checkedAt": "2026-11-17T06:14:52+00:00",
+      "places": [
+        {
+          "id": "osm-way-1231705852",
+          "name": "Festplatz",
+          "latitude": 49.0495602,
+          "longitude": 8.5191906,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/way/1231705852",
+          "category": "place",
+          "type": "square",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Hartmannsbrücke, Weingarten (Baden)": {
+      "checkedAt": "2026-11-17T06:14:58+00:00",
+      "places": [
+        {
+          "id": "osm-relation-659819",
+          "name": "Weingarten",
+          "latitude": 49.0532906,
+          "longitude": 8.5245089,
+          "address": "76356",
+          "url": "https://www.openstreetmap.org/relation/659819",
+          "category": "place",
+          "type": "village",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-relation-2401350",
+          "name": "Weingartener Moor-Bruchwald Grötzingen",
+          "latitude": 49.0389109,
+          "longitude": 8.5087931,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/relation/2401350",
+          "category": "leisure",
+          "type": "nature_reserve",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-25528027",
+          "name": "Weingartener Entlastungskanal",
+          "latitude": 49.0591603,
+          "longitude": 8.4921762,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/way/25528027",
+          "category": "waterway",
+          "type": "river",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-791073468",
+          "name": "Weingartener Entlastungskanal",
+          "latitude": 49.0545983,
+          "longitude": 8.4980348,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/way/791073468",
+          "category": "waterway",
+          "type": "river",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-25528025",
+          "name": "Weingartener Entlastungskanal",
+          "latitude": 49.0547432,
+          "longitude": 8.4975493,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/way/25528025",
+          "category": "waterway",
+          "type": "river",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Kirchplatz, Weingarten (Baden)": {
+      "checkedAt": "2026-11-17T06:15:10+00:00",
+      "places": [
+        {
+          "id": "osm-relation-659819",
+          "name": "Weingarten",
+          "latitude": 49.0532906,
+          "longitude": 8.5245089,
+          "address": "76356",
+          "url": "https://www.openstreetmap.org/relation/659819",
+          "category": "place",
+          "type": "village",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-relation-2401350",
+          "name": "Weingartener Moor-Bruchwald Grötzingen",
+          "latitude": 49.0389109,
+          "longitude": 8.5087931,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/relation/2401350",
+          "category": "leisure",
+          "type": "nature_reserve",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-25528027",
+          "name": "Weingartener Entlastungskanal",
+          "latitude": 49.0591603,
+          "longitude": 8.4921762,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/way/25528027",
+          "category": "waterway",
+          "type": "river",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-791073468",
+          "name": "Weingartener Entlastungskanal",
+          "latitude": 49.0545983,
+          "longitude": 8.4980348,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/way/791073468",
+          "category": "waterway",
+          "type": "river",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-25528025",
+          "name": "Weingartener Entlastungskanal",
+          "latitude": 49.0547432,
+          "longitude": 8.4975493,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/way/25528025",
+          "category": "waterway",
+          "type": "river",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Wartturm, Weingarten (Baden)": {
+      "checkedAt": "2026-11-17T06:15:14+00:00",
+      "places": [
+        {
+          "id": "osm-way-113569923",
+          "name": "Wartturm",
+          "latitude": 49.0524453,
+          "longitude": 8.5321855,
+          "address": "Jöhlinger Straße, 76356 Weingarten",
+          "url": "https://www.openstreetmap.org/way/113569923",
+          "category": "man_made",
+          "type": "tower",
+          "street": "Jöhlinger Straße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Schützenverein, Weingarten (Baden)": {
+      "checkedAt": "2026-11-17T06:15:19+00:00",
+      "places": [
+        {
+          "id": "osm-relation-659819",
+          "name": "Weingarten",
+          "latitude": 49.0532906,
+          "longitude": 8.5245089,
+          "address": "76356",
+          "url": "https://www.openstreetmap.org/relation/659819",
+          "category": "place",
+          "type": "village",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-relation-2401350",
+          "name": "Weingartener Moor-Bruchwald Grötzingen",
+          "latitude": 49.0389109,
+          "longitude": 8.5087931,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/relation/2401350",
+          "category": "leisure",
+          "type": "nature_reserve",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-25528027",
+          "name": "Weingartener Entlastungskanal",
+          "latitude": 49.0591603,
+          "longitude": 8.4921762,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/way/25528027",
+          "category": "waterway",
+          "type": "river",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-791073468",
+          "name": "Weingartener Entlastungskanal",
+          "latitude": 49.0545983,
+          "longitude": 8.4980348,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/way/791073468",
+          "category": "waterway",
+          "type": "river",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-25528025",
+          "name": "Weingartener Entlastungskanal",
+          "latitude": 49.0547432,
+          "longitude": 8.4975493,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/way/25528025",
+          "category": "waterway",
+          "type": "river",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Feuerwehrhaus, Weingarten (Baden)": {
+      "checkedAt": "2026-11-17T06:15:23+00:00",
+      "places": [
+        {
+          "id": "osm-relation-659819",
+          "name": "Weingarten",
+          "latitude": 49.0532906,
+          "longitude": 8.5245089,
+          "address": "76356",
+          "url": "https://www.openstreetmap.org/relation/659819",
+          "category": "place",
+          "type": "village",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-relation-2401350",
+          "name": "Weingartener Moor-Bruchwald Grötzingen",
+          "latitude": 49.0389109,
+          "longitude": 8.5087931,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/relation/2401350",
+          "category": "leisure",
+          "type": "nature_reserve",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-25528027",
+          "name": "Weingartener Entlastungskanal",
+          "latitude": 49.0591603,
+          "longitude": 8.4921762,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/way/25528027",
+          "category": "waterway",
+          "type": "river",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-791073468",
+          "name": "Weingartener Entlastungskanal",
+          "latitude": 49.0545983,
+          "longitude": 8.4980348,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/way/791073468",
+          "category": "waterway",
+          "type": "river",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-25528025",
+          "name": "Weingartener Entlastungskanal",
+          "latitude": 49.0547432,
+          "longitude": 8.4975493,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/way/25528025",
+          "category": "waterway",
+          "type": "river",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Trimm dich Pfad Breitheide, Weingarten (Baden)": {
+      "checkedAt": "2026-11-17T06:15:28+00:00",
+      "places": [
+        {
+          "id": "osm-way-370450293",
+          "name": "Trim Dich Pfad",
+          "latitude": 49.0677606,
+          "longitude": 8.5197927,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/way/370450293",
+          "category": "highway",
+          "type": "path",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Moor Parkplatz, Weingarten (Baden)": {
+      "checkedAt": "2026-11-17T06:15:32+00:00",
+      "places": [
+        {
+          "id": "osm-relation-2401350",
+          "name": "Weingartener Moor-Bruchwald Grötzingen",
+          "latitude": 49.0389109,
+          "longitude": 8.5087931,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/relation/2401350",
+          "category": "leisure",
+          "type": "nature_reserve",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-relation-1096795",
+          "name": "Weingartener Moor",
+          "latitude": 49.0395099,
+          "longitude": 8.5100997,
+          "address": "Weingarten",
+          "url": "https://www.openstreetmap.org/relation/1096795",
+          "category": "natural",
+          "type": "wetland",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-507978151",
+          "name": "Knüppelsteg Weingartener Moor",
+          "latitude": 49.0391505,
+          "longitude": 8.5149052,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/way/507978151",
+          "category": "highway",
+          "type": "steps",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-4393069",
+          "name": "Knüppelsteg Weingartener Moor",
+          "latitude": 49.0391655,
+          "longitude": 8.5150422,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/way/4393069",
+          "category": "highway",
+          "type": "path",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-686363280",
+          "name": "Naturschutzgebiet Weingartener Moor - Bruchwald Grötzingen",
+          "latitude": 49.034333,
+          "longitude": 8.5134815,
+          "address": "76229 Weingarten",
+          "url": "https://www.openstreetmap.org/node/686363280",
+          "category": "information",
+          "type": "map",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Mühle, Weingarten (Baden)": {
+      "checkedAt": "2026-11-17T06:15:38+00:00",
+      "places": [
+        {
+          "id": "osm-node-7474456739",
+          "name": "Mühle Weingarten",
+          "latitude": 49.0501772,
+          "longitude": 8.5418181,
+          "address": "Schmalensteinweg, 76356 Weingarten",
+          "url": "https://www.openstreetmap.org/node/7474456739",
+          "category": "information",
+          "type": "board",
+          "street": "Schmalensteinweg",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-29671991",
+          "name": "Untere Mühle",
+          "latitude": 49.0518307,
+          "longitude": 8.5331953,
+          "address": "Jöhlinger Straße, 76356 Weingarten",
+          "url": "https://www.openstreetmap.org/node/29671991",
+          "category": "man_made",
+          "type": "watermill",
+          "street": "Jöhlinger Straße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Altes Rathaus Nöttingen, Remchingen": {
+      "checkedAt": "2026-11-17T06:15:43+00:00",
+      "places": [
+        {
+          "id": "osm-node-60678465",
+          "name": "Wilferdingen Altes Rathaus",
+          "latitude": 48.94475,
+          "longitude": 8.574063,
+          "address": "Nöttinger Straße, 75196 Wilferdingen",
+          "url": "https://www.openstreetmap.org/node/60678465",
+          "category": "highway",
+          "type": "bus_stop",
+          "street": "Nöttinger Straße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-1238277703",
+          "name": "Alter Neubruch",
+          "latitude": 48.9212123,
+          "longitude": 8.5868387,
+          "address": "75196 Nöttingen",
+          "url": "https://www.openstreetmap.org/node/1238277703",
+          "category": "place",
+          "type": "locality",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Ski Club Nöttingen, Remchingen": {
+      "checkedAt": "2026-11-17T06:15:47+00:00",
+      "places": []
+    },
+    "Fluckenberg, Remchingen": {
+      "checkedAt": "2026-11-17T06:15:52+00:00",
+      "places": [
+        {
+          "id": "osm-node-4341770284",
+          "name": "Fluckenberg",
+          "latitude": 48.9438336,
+          "longitude": 8.5613248,
+          "address": "75196 Wilferdingen",
+          "url": "https://www.openstreetmap.org/node/4341770284",
+          "category": "place",
+          "type": "locality",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-1510355867",
+          "name": "Fluckenberg",
+          "latitude": 48.9472608,
+          "longitude": 8.5629175,
+          "address": "75196 Singen",
+          "url": "https://www.openstreetmap.org/node/1510355867",
+          "category": "place",
+          "type": "locality",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Rathausplatz, Grötzingen": {
+      "checkedAt": "2026-11-17T06:15:56+00:00",
+      "places": [
+        {
+          "id": "osm-way-221068024",
+          "name": "Rathausplatz",
+          "latitude": 49.0073431,
+          "longitude": 8.4958747,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/221068024",
+          "category": "place",
+          "type": "square",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-151355166",
+          "name": "Rathaus Grötzingen (Bürgerbüro)",
+          "latitude": 49.0075499,
+          "longitude": 8.4959545,
+          "address": "Rathausplatz 1, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151355166",
+          "category": "amenity",
+          "type": "townhall",
+          "street": "Rathausplatz",
+          "houseNumber": "1"
+        }
+      ]
+    },
+    "Bürgerhaus, Söllingen Pfinztal": {
+      "checkedAt": "2026-11-17T06:16:00+00:00",
+      "places": [
+        {
+          "id": "osm-way-306713725",
+          "name": "Naturfreundehaus Pfinztalblick",
+          "latitude": 48.9828764,
+          "longitude": 8.5624499,
+          "address": "Am Neuen Berg 1, 76327 Söllingen",
+          "url": "https://www.openstreetmap.org/way/306713725",
+          "category": "amenity",
+          "type": "restaurant",
+          "street": "Am Neuen Berg",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-node-602470111",
+          "name": "Pfinztal-Food",
+          "latitude": 48.9856048,
+          "longitude": 8.5449031,
+          "address": "Pfinzstraße, 76327 Söllingen",
+          "url": "https://www.openstreetmap.org/node/602470111",
+          "category": "amenity",
+          "type": "fast_food",
+          "street": "Pfinzstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-270136600",
+          "name": "Freiwillige Feuerwehr Pfinztal / Abt. Söllingen",
+          "latitude": 48.9840584,
+          "longitude": 8.5431429,
+          "address": "Gebrüder-Räuchle-Straße, 76327 Söllingen",
+          "url": "https://www.openstreetmap.org/node/270136600",
+          "category": "amenity",
+          "type": "fire_station",
+          "street": "Gebrüder-Räuchle-Straße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-11954185515",
+          "name": "Söllingen (Pfinztal)",
+          "latitude": 48.9878774,
+          "longitude": 8.5435245,
+          "address": "Bahnhofstraße, 76327 Söllingen",
+          "url": "https://www.openstreetmap.org/node/11954185515",
+          "category": "railway",
+          "type": "stop",
+          "street": "Bahnhofstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-11954185516",
+          "name": "Söllingen (Pfinztal)",
+          "latitude": 48.9879001,
+          "longitude": 8.5435665,
+          "address": "Bahnhofstraße, 76327 Söllingen",
+          "url": "https://www.openstreetmap.org/node/11954185516",
+          "category": "railway",
+          "type": "stop",
+          "street": "Bahnhofstraße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "DRK, Söllingen Pfinztal": {
+      "checkedAt": "2026-11-17T06:16:05+00:00",
+      "places": [
+        {
+          "id": "osm-way-306713725",
+          "name": "Naturfreundehaus Pfinztalblick",
+          "latitude": 48.9828764,
+          "longitude": 8.5624499,
+          "address": "Am Neuen Berg 1, 76327 Söllingen",
+          "url": "https://www.openstreetmap.org/way/306713725",
+          "category": "amenity",
+          "type": "restaurant",
+          "street": "Am Neuen Berg",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-node-602470111",
+          "name": "Pfinztal-Food",
+          "latitude": 48.9856048,
+          "longitude": 8.5449031,
+          "address": "Pfinzstraße, 76327 Söllingen",
+          "url": "https://www.openstreetmap.org/node/602470111",
+          "category": "amenity",
+          "type": "fast_food",
+          "street": "Pfinzstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-270136600",
+          "name": "Freiwillige Feuerwehr Pfinztal / Abt. Söllingen",
+          "latitude": 48.9840584,
+          "longitude": 8.5431429,
+          "address": "Gebrüder-Räuchle-Straße, 76327 Söllingen",
+          "url": "https://www.openstreetmap.org/node/270136600",
+          "category": "amenity",
+          "type": "fire_station",
+          "street": "Gebrüder-Räuchle-Straße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-11954185515",
+          "name": "Söllingen (Pfinztal)",
+          "latitude": 48.9878774,
+          "longitude": 8.5435245,
+          "address": "Bahnhofstraße, 76327 Söllingen",
+          "url": "https://www.openstreetmap.org/node/11954185515",
+          "category": "railway",
+          "type": "stop",
+          "street": "Bahnhofstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-11954185516",
+          "name": "Söllingen (Pfinztal)",
+          "latitude": 48.9879001,
+          "longitude": 8.5435665,
+          "address": "Bahnhofstraße, 76327 Söllingen",
+          "url": "https://www.openstreetmap.org/node/11954185516",
+          "category": "railway",
+          "type": "stop",
+          "street": "Bahnhofstraße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Feuerwehr, Söllingen Pfinztal": {
+      "checkedAt": "2026-11-17T06:16:09+00:00",
+      "places": [
+        {
+          "id": "osm-node-270136600",
+          "name": "Freiwillige Feuerwehr Pfinztal / Abt. Söllingen",
+          "latitude": 48.9840584,
+          "longitude": 8.5431429,
+          "address": "Gebrüder-Räuchle-Straße, 76327 Söllingen",
+          "url": "https://www.openstreetmap.org/node/270136600",
+          "category": "amenity",
+          "type": "fire_station",
+          "street": "Gebrüder-Räuchle-Straße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Evangelische Kirche, Söllingen Pfinztal": {
+      "checkedAt": "2026-11-17T06:16:13+00:00",
+      "places": [
+        {
+          "id": "osm-way-248354166",
+          "name": "Neuapostolische Kirche",
+          "latitude": 48.9830724,
+          "longitude": 8.5495045,
+          "address": "Hauptstraße 143, 76327 Söllingen",
+          "url": "https://www.openstreetmap.org/way/248354166",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Hauptstraße",
+          "houseNumber": "143"
+        },
+        {
+          "id": "osm-way-248357309",
+          "name": "Katholische Kirche St. Pius X",
+          "latitude": 48.983086,
+          "longitude": 8.5475538,
+          "address": "Hauptstraße 146/1, 76327 Söllingen",
+          "url": "https://www.openstreetmap.org/way/248357309",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Hauptstraße",
+          "houseNumber": "146/1"
+        },
+        {
+          "id": "osm-way-1233519763",
+          "name": "Kirchhofstraße",
+          "latitude": 48.985548,
+          "longitude": 8.5404216,
+          "address": "76327 Söllingen",
+          "url": "https://www.openstreetmap.org/way/1233519763",
+          "category": "highway",
+          "type": "residential",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Saldingerstraße 7, Wöschbach Pfinztal": {
+      "checkedAt": "2026-11-17T06:16:18+00:00",
+      "places": [
+        {
+          "id": "osm-way-243100249",
+          "name": "Katholischer Kindergarten - St. Johannes",
+          "latitude": 48.9997866,
+          "longitude": 8.5660234,
+          "address": "Saldingerstraße 7, 76327 Wöschbach",
+          "url": "https://www.openstreetmap.org/way/243100249",
+          "category": "amenity",
+          "type": "kindergarten",
+          "street": "Saldingerstraße",
+          "houseNumber": "7"
+        },
+        {
+          "id": "osm-way-1457149551",
+          "name": "Saldingerstraße",
+          "latitude": 49.0003141,
+          "longitude": 8.5663456,
+          "address": "76327 Wöschbach",
+          "url": "https://www.openstreetmap.org/way/1457149551",
+          "category": "highway",
+          "type": "residential",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-254007775",
+          "name": "Saldingerstraße",
+          "latitude": 49.0003726,
+          "longitude": 8.5667665,
+          "address": "76327 Wöschbach",
+          "url": "https://www.openstreetmap.org/way/254007775",
+          "category": "highway",
+          "type": "unclassified",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Schlossplatz Karlsruhe, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": [
+        {
+          "id": "osm-relation-338749",
+          "name": "Amtsgericht Karlsruhe",
+          "latitude": 49.0113834,
+          "longitude": 8.4004478,
+          "address": "Schlossplatz 23, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/338749",
+          "category": "amenity",
+          "type": "courthouse",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Schlossplatz",
+          "houseNumber": "23"
+        },
+        {
+          "id": "osm-way-1234029143",
+          "name": "Schlossplatz",
+          "latitude": 49.0122214,
+          "longitude": 8.40416,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1234029143",
+          "category": "place",
+          "type": "square",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-3770510516",
+          "name": "Schlossplatz",
+          "latitude": 48.9990005,
+          "longitude": 8.4740874,
+          "address": "76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3770510516",
+          "category": "place",
+          "type": "square",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-261420058",
+          "name": "Schlossplatz",
+          "latitude": 49.0115648,
+          "longitude": 8.4012131,
+          "address": "76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/261420058",
+          "category": "highway",
+          "type": "secondary",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-159916386",
+          "name": "Schlossplatz",
+          "latitude": 49.0107531,
+          "longitude": 8.4035356,
+          "address": "76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/159916386",
+          "category": "highway",
+          "type": "pedestrian",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "TRIANGEL Transfer | Kultur | Raum, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": [
+        {
+          "id": "osm-node-524555510",
+          "name": "TRIANGEL Transfer | Kultur | Raum",
+          "latitude": 49.0091927,
+          "longitude": 8.4088572,
+          "address": "Kaiserstraße 93, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/524555510",
+          "category": "amenity",
+          "type": "events_venue",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "93"
+        }
+      ]
+    },
+    "Generallandesarchiv Karlsruhe, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": [
+        {
+          "id": "osm-node-10055268855",
+          "name": "Generallandesarchiv Karlsruhe",
+          "latitude": 49.0131446,
+          "longitude": 8.3828024,
+          "address": "Nördliche Hildapromenade 3, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/10055268855",
+          "category": "office",
+          "type": "government",
+          "city": "Karlsruhe",
+          "district": "Weststadt",
+          "locality": "Weststadt Mittlerer Teil",
+          "street": "Nördliche Hildapromenade",
+          "houseNumber": "3"
+        }
+      ]
+    },
+    "Insel Karlstraße 49b, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:19:22+00:00",
+      "places": [
+        {
+          "id": "osm-way-91369026",
+          "name": "INSEL",
+          "latitude": 49.004719,
+          "longitude": 8.3957424,
+          "address": "Karlstraße 49b, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/91369026",
+          "category": "amenity",
+          "type": "theatre",
+          "city": "Karlsruhe",
+          "district": "Südweststadt",
+          "locality": "Südweststadt Östlicher Teil",
+          "street": "Karlstraße",
+          "houseNumber": "49b"
+        }
+      ]
+    },
+    "Karlstraße 49b, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:19:27+00:00",
+      "places": [
+        {
+          "id": "osm-way-91369026",
+          "name": "INSEL",
+          "latitude": 49.004719,
+          "longitude": 8.3957424,
+          "address": "Karlstraße 49b, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/91369026",
+          "category": "amenity",
+          "type": "theatre",
+          "city": "Karlsruhe",
+          "district": "Südweststadt",
+          "locality": "Südweststadt Östlicher Teil",
+          "street": "Karlstraße",
+          "houseNumber": "49b"
+        }
+      ]
+    },
+    "Lutherkirche Durlacher Allee, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:19:32+00:00",
+      "places": [
+        {
+          "id": "osm-way-195066765",
+          "name": "Lutherkirche",
+          "latitude": 49.0081125,
+          "longitude": 8.4235137,
+          "address": "Durlacher Allee 23, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/195066765",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Westlicher Teil",
+          "street": "Durlacher Allee",
+          "houseNumber": "23"
+        },
+        {
+          "id": "osm-node-3547526511",
+          "name": "Lutherkirche",
+          "latitude": 49.0079792,
+          "longitude": 8.4236405,
+          "address": "Durlacher Allee, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3547526511",
+          "category": "historic",
+          "type": "memorial",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Westlicher Teil",
+          "street": "Durlacher Allee",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Stadtkirche Karlsruhe, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:19:36+00:00",
+      "places": [
+        {
+          "id": "osm-way-90180591",
+          "name": "Evangelische Stadtkirche",
+          "latitude": 49.0085051,
+          "longitude": 8.404454,
+          "address": "Karl-Friedrich-Straße 11, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/90180591",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Karl-Friedrich-Straße",
+          "houseNumber": "11"
+        },
+        {
+          "id": "osm-way-150797686",
+          "name": "Stadtkirche",
+          "latitude": 49.0032753,
+          "longitude": 8.4983684,
+          "address": "Kirchstraße 17, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/150797686",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Südlich der Pfinz",
+          "street": "Kirchstraße",
+          "houseNumber": "17"
+        },
+        {
+          "id": "osm-way-25000998",
+          "name": "Evangelische Stadtkirche",
+          "latitude": 48.9988594,
+          "longitude": 8.4713534,
+          "address": "Pfinztalstraße 31, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/25000998",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Pfinztalstraße",
+          "houseNumber": "31"
+        },
+        {
+          "id": "osm-node-10050527231",
+          "name": "Evangelische Stadtkirche am Marktplatz",
+          "latitude": 49.0085471,
+          "longitude": 8.4040855,
+          "address": "Karl-Friedrich-Straße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/10050527231",
+          "category": "information",
+          "type": "board",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Karl-Friedrich-Straße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-12093647989",
+          "name": "Kinder-Stadtkirche",
+          "latitude": 49.0002689,
+          "longitude": 8.4097269,
+          "address": "Rüppurrer Straße 52, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12093647989",
+          "category": "amenity",
+          "type": "social_facility",
+          "city": "Karlsruhe",
+          "district": "Südstadt",
+          "locality": "Südstadt Südlicher Teil",
+          "street": "Rüppurrer Straße",
+          "houseNumber": "52"
+        }
+      ]
+    },
+    "Staatliche Hochschule für Gestaltung, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:19:40+00:00",
+      "places": [
+        {
+          "id": "osm-way-23855655",
+          "name": "Staatliche Hochschule für Gestaltung",
+          "latitude": 49.0020695,
+          "longitude": 8.3836683,
+          "address": "Lorenzstraße 15, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/23855655",
+          "category": "amenity",
+          "type": "university",
+          "city": "Karlsruhe",
+          "district": "Südweststadt",
+          "locality": "Beiertheimer Feld",
+          "street": "Lorenzstraße",
+          "houseNumber": "15"
+        },
+        {
+          "id": "osm-node-5908313103",
+          "name": "Sammelstelle Staatliche Hochschule für Gestaltung",
+          "latitude": 49.0020639,
+          "longitude": 8.3842273,
+          "address": "Platz der Menschenrechte, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/5908313103",
+          "category": "emergency",
+          "type": "assembly_point",
+          "city": "Karlsruhe",
+          "district": "Südweststadt",
+          "locality": "Beiertheimer Feld",
+          "street": "Platz der Menschenrechte",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-1239169923",
+          "name": "Bibliothek des ZKM und der Staatlichen Hochschule für Gestaltung (HfG)",
+          "latitude": 49.0014562,
+          "longitude": 8.3833367,
+          "address": "Lorenzstraße, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1239169923",
+          "category": "amenity",
+          "type": "library",
+          "city": "Karlsruhe",
+          "district": "Südweststadt",
+          "locality": "Beiertheimer Feld",
+          "street": "Lorenzstraße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Jazzclub Karlsruhe, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:19:46+00:00",
+      "places": [
+        {
+          "id": "osm-node-2726790178",
+          "name": "Jazzclub Karlsruhe",
+          "latitude": 49.0105065,
+          "longitude": 8.3969181,
+          "address": "Kaiserpassage 6, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/2726790178",
+          "category": "amenity",
+          "type": "nightclub",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Kaiserpassage",
+          "houseNumber": "6"
+        }
+      ]
+    },
+    "Alter Schlachthof Gaststätte, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:19:56+00:00",
+      "places": [
+        {
+          "id": "osm-way-835852681",
+          "name": "Alter Schlachthof",
+          "latitude": 49.0058088,
+          "longitude": 8.4295665,
+          "address": "76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/835852681",
+          "category": "highway",
+          "type": "unclassified",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Kreativpark Alter Schlachthof",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-134765925",
+          "name": "Alter Schlachthof",
+          "latitude": 49.0059712,
+          "longitude": 8.4305647,
+          "address": "76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/134765925",
+          "category": "highway",
+          "type": "pedestrian",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Kreativpark Alter Schlachthof",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-252297878",
+          "name": "Alter Schlachthof",
+          "latitude": 49.0035091,
+          "longitude": 8.434195,
+          "address": "76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/252297878",
+          "category": "highway",
+          "type": "unclassified",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-122725417",
+          "name": "Atelierhaus Karlsruhe Alter Schlachthof",
+          "latitude": 49.0057741,
+          "longitude": 8.4296572,
+          "address": "Alter Schlachthof 13a, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/122725417",
+          "category": "building",
+          "type": "industrial",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Kreativpark Alter Schlachthof",
+          "street": "Alter Schlachthof",
+          "houseNumber": "13a"
+        },
+        {
+          "id": "osm-way-102302455",
+          "name": "Kreativpark Alter Schlachthof",
+          "latitude": 49.0053385,
+          "longitude": 8.4311032,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/102302455",
+          "category": "landuse",
+          "type": "commercial",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Badnerlandhalle Rubensstraße 21, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:20:01+00:00",
+      "places": [
+        {
+          "id": "osm-way-7652212",
+          "name": "Badnerlandhalle",
+          "latitude": 49.0446178,
+          "longitude": 8.3830479,
+          "address": "Rubensstraße 21, 76149 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/7652212",
+          "category": "amenity",
+          "type": "community_centre",
+          "city": "Karlsruhe",
+          "district": "Neureut",
+          "locality": "Neureut Nördlicher Teil",
+          "street": "Rubensstraße",
+          "houseNumber": "21"
+        }
+      ]
+    },
+    "Hochschule Karlsruhe Gebäude B, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:20:05+00:00",
+      "places": [
+        {
+          "id": "osm-node-3079160175",
+          "name": "Pädagogische Hochschule Karlsruhe (Gebäude IV)",
+          "latitude": 49.0260095,
+          "longitude": 8.385065,
+          "address": "Erzbergerstraße 119, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3079160175",
+          "category": "amenity",
+          "type": "college",
+          "city": "Karlsruhe",
+          "district": "Nordstadt",
+          "locality": "Amerikanersiedlung",
+          "street": "Erzbergerstraße",
+          "houseNumber": "119"
+        }
+      ]
+    },
+    "Hochschule Karlsruhe Gebäude K, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:20:09+00:00",
+      "places": [
+        {
+          "id": "osm-node-3079160175",
+          "name": "Pädagogische Hochschule Karlsruhe (Gebäude IV)",
+          "latitude": 49.0260095,
+          "longitude": 8.385065,
+          "address": "Erzbergerstraße 119, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3079160175",
+          "category": "amenity",
+          "type": "college",
+          "city": "Karlsruhe",
+          "district": "Nordstadt",
+          "locality": "Amerikanersiedlung",
+          "street": "Erzbergerstraße",
+          "houseNumber": "119"
+        }
+      ]
+    },
+    "KIT Gebäude 20.40, Karlsruhe": {
+      "checkedAt": "2026-11-17T06:20:14+00:00",
+      "places": []
+    },
+    "Marktplatz, 76133 Karlsruhe": {
+      "checkedAt": "2026-11-17T06:25:46+00:00",
+      "places": [
+        {
+          "id": "osm-node-4359043368",
+          "name": "Polizeirevier Karlsruhe-Marktplatz",
+          "latitude": 49.0079582,
+          "longitude": 8.4040508,
+          "address": "Hebelstraße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4359043368",
+          "category": "amenity",
+          "type": "police",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Hebelstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-11570863329",
+          "name": "Marktplatz (Pyramide)",
+          "latitude": 49.0091102,
+          "longitude": 8.4038425,
+          "address": "Zähringerstraße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/11570863329",
+          "category": "highway",
+          "type": "elevator",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Zähringerstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-2640942878",
+          "name": "Marktplatz (Pyramide U)",
+          "latitude": 49.0086264,
+          "longitude": 8.4037145,
+          "address": "Karl-Friedrich-Straße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/2640942878",
+          "category": "railway",
+          "type": "stop",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Karl-Friedrich-Straße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-5383104969",
+          "name": "Marktplatz (Kaiserstraße)",
+          "latitude": 49.0093046,
+          "longitude": 8.4024805,
+          "address": "Lammstraße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/5383104969",
+          "category": "railway",
+          "type": "subway_entrance",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Lammstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-9458813700",
+          "name": "Marktplatz (Kaiserstraße)",
+          "latitude": 49.0096917,
+          "longitude": 8.4031452,
+          "address": "Kaiserstraße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/9458813700",
+          "category": "railway",
+          "type": "subway_entrance",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Ettlinger straße 5, 76133 Karlsruhe": {
+      "checkedAt": "2026-11-17T06:25:51+00:00",
+      "places": [
+        {
+          "id": "osm-way-609497254",
+          "name": "Ettlinger Straße",
+          "latitude": 49.0054849,
+          "longitude": 8.4034656,
+          "address": "76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/609497254",
+          "category": "highway",
+          "type": "secondary",
+          "city": "Karlsruhe",
+          "district": "Südweststadt",
+          "locality": "Südweststadt Östlicher Teil",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-625803367",
+          "name": "Ettlinger Tor (U)",
+          "latitude": 49.0054644,
+          "longitude": 8.4036048,
+          "address": "Karl-Friedrich-Straße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/625803367",
+          "category": "railway",
+          "type": "platform",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Karl-Friedrich-Straße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-12529534365",
+          "name": "Ettlinger Tor (U)",
+          "latitude": 49.0057589,
+          "longitude": 8.4035794,
+          "address": "Karl-Friedrich-Straße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12529534365",
+          "category": "railway",
+          "type": "stop",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Karl-Friedrich-Straße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-10309544063",
+          "name": "Ettlinger Tor (U)",
+          "latitude": 49.0059012,
+          "longitude": 8.403595,
+          "address": "Karl-Friedrich-Straße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/10309544063",
+          "category": "railway",
+          "type": "stop",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Karl-Friedrich-Straße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-1163643428",
+          "name": "Ettlinger Tor (U)",
+          "latitude": 49.0058444,
+          "longitude": 8.403636,
+          "address": "Karl-Friedrich-Straße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1163643428",
+          "category": "railway",
+          "type": "platform",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Karl-Friedrich-Straße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Hardtstraße 37a, 76185 Karlsruhe": {
+      "checkedAt": "2026-11-17T06:25:56+00:00",
+      "places": [
+        {
+          "id": "osm-node-4436943318",
+          "name": "Hardtstraße 37a",
+          "latitude": 49.0135979,
+          "longitude": 8.3576858,
+          "address": "Hardtstraße 37a, 76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4436943318",
+          "category": "place",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Mühlburg",
+          "locality": "Alt-Mühlburg",
+          "street": "Hardtstraße",
+          "houseNumber": "37a"
+        },
+        {
+          "id": "osm-way-119792090",
+          "name": "Kulturzentrum Tempel",
+          "latitude": 49.013903,
+          "longitude": 8.3578352,
+          "address": "Hardtstraße 37a, 76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/119792090",
+          "category": "amenity",
+          "type": "arts_centre",
+          "city": "Karlsruhe",
+          "district": "Mühlburg",
+          "locality": "Alt-Mühlburg",
+          "street": "Hardtstraße",
+          "houseNumber": "37a"
+        },
+        {
+          "id": "osm-node-7769164733",
+          "name": "Vanguarde",
+          "latitude": 49.0138934,
+          "longitude": 8.3577817,
+          "address": "Hardtstraße 37a, 76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/7769164733",
+          "category": "amenity",
+          "type": "cafe",
+          "city": "Karlsruhe",
+          "district": "Mühlburg",
+          "locality": "Alt-Mühlburg",
+          "street": "Hardtstraße",
+          "houseNumber": "37a"
+        },
+        {
+          "id": "osm-node-4436943317",
+          "name": "Bau 1",
+          "latitude": 49.0139735,
+          "longitude": 8.3577073,
+          "address": "Hardtstraße 37a, 76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4436943317",
+          "category": "place",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Mühlburg",
+          "locality": "Alt-Mühlburg",
+          "street": "Hardtstraße",
+          "houseNumber": "37a"
+        },
+        {
+          "id": "osm-node-4437009880",
+          "name": "Musentempel",
+          "latitude": 49.013661,
+          "longitude": 8.3574599,
+          "address": "Hardtstraße 37a, 76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4437009880",
+          "category": "amenity",
+          "type": "music_venue",
+          "city": "Karlsruhe",
+          "district": "Mühlburg",
+          "locality": "Alt-Mühlburg",
+          "street": "Hardtstraße",
+          "houseNumber": "37a"
+        }
+      ]
+    },
+    "Gottesauerstraße 35, 76131 Karlsruhe": {
+      "checkedAt": "2026-11-17T06:26:01+00:00",
+      "places": [
+        {
+          "id": "osm-node-13163864381",
+          "name": "Bauernmarkt Karlsruhe",
+          "latitude": 49.0047014,
+          "longitude": 8.4317806,
+          "address": "Alter Schlachthof 35, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/13163864381",
+          "category": "amenity",
+          "type": "marketplace",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "Alter Schlachthof",
+          "houseNumber": "35"
+        },
+        {
+          "id": "osm-way-151330613",
+          "name": "Karlsruher Straße 35",
+          "latitude": 49.0287104,
+          "longitude": 8.456627,
+          "address": "Karlsruher Straße 35, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151330613",
+          "category": "building",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Hagsfeld",
+          "locality": "Alt-Hagsfeld",
+          "street": "Karlsruher Straße",
+          "houseNumber": "35"
+        },
+        {
+          "id": "osm-node-12612810093",
+          "name": "Fairteiler K35 Waldstadt",
+          "latitude": 49.0328711,
+          "longitude": 8.4406451,
+          "address": "Königsberger Straße 35, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12612810093",
+          "category": "amenity",
+          "type": "food_sharing",
+          "city": "Karlsruhe",
+          "district": "Waldstadt",
+          "locality": "Waldstadt Waldlage",
+          "street": "Königsberger Straße",
+          "houseNumber": "35"
+        },
+        {
+          "id": "osm-node-4141428422",
+          "name": "Die Beteiligung der 35. Infanterie-Division an Kriegsverbrechen",
+          "latitude": 49.0129485,
+          "longitude": 8.3819656,
+          "address": "Nördliche Hildapromenade, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4141428422",
+          "category": "information",
+          "type": "board",
+          "city": "Karlsruhe",
+          "district": "Weststadt",
+          "locality": "Weststadt Mittlerer Teil",
+          "street": "Nördliche Hildapromenade",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Haizingerstraße 1, 76131 Karlsruhe": {
+      "checkedAt": "2026-11-17T06:26:06+00:00",
+      "places": [
+        {
+          "id": "osm-way-113495265",
+          "name": "Haizingerstraße 1",
+          "latitude": 49.0076063,
+          "longitude": 8.4299055,
+          "address": "Haizingerstraße 1, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/113495265",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "Haizingerstraße",
+          "houseNumber": "1"
+        }
+      ]
+    },
+    "Am Zinger 5, 76227 Karlsruhe": {
+      "checkedAt": "2026-11-17T06:26:10+00:00",
+      "places": [
+        {
+          "id": "osm-way-103358944",
+          "name": "Evangelisches Gemeindezentrum",
+          "latitude": 48.9983439,
+          "longitude": 8.4707346,
+          "address": "Am Zwinger 5, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/103358944",
+          "category": "amenity",
+          "type": "community_centre",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Am Zwinger",
+          "houseNumber": "5"
+        },
+        {
+          "id": "osm-way-287306346",
+          "name": "Am Pfinztor 5",
+          "latitude": 49.0025832,
+          "longitude": 8.4717296,
+          "address": "Am Pfinztor 5, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/287306346",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Am Pfinztor",
+          "houseNumber": "5"
+        },
+        {
+          "id": "osm-node-1217745343",
+          "name": "Am Dechantsberg 5",
+          "latitude": 48.9872655,
+          "longitude": 8.4772095,
+          "address": "Am Dechantsberg 5, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1217745343",
+          "category": "place",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Geigersberg",
+          "street": "Am Dechantsberg",
+          "houseNumber": "5"
+        },
+        {
+          "id": "osm-way-103358943",
+          "name": "Am Zwinger 5",
+          "latitude": 48.998531,
+          "longitude": 8.4707975,
+          "address": "Am Zwinger 5, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/103358943",
+          "category": "building",
+          "type": "office",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Am Zwinger",
+          "houseNumber": "5"
+        },
+        {
+          "id": "osm-way-120444929",
+          "name": "Am Burgweg 5",
+          "latitude": 48.9994394,
+          "longitude": 8.4842,
+          "address": "Am Burgweg 5, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/120444929",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Hanggebiet",
+          "street": "Am Burgweg",
+          "houseNumber": "5"
+        }
+      ]
+    },
+    "Amthausstraße 19, 76227 Karlsruhe": {
+      "checkedAt": "2026-11-17T06:26:14+00:00",
+      "places": [
+        {
+          "id": "osm-node-12458900138",
+          "name": "Theater in der Orgelfabrik",
+          "latitude": 48.9978917,
+          "longitude": 8.4717746,
+          "address": "Amthausstraße 19, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12458900138",
+          "category": "amenity",
+          "type": "theatre",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Amthausstraße",
+          "houseNumber": "19"
+        },
+        {
+          "id": "osm-way-94755076",
+          "name": "Amthausstraße 19",
+          "latitude": 48.9978802,
+          "longitude": 8.4712406,
+          "address": "Amthausstraße 19, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/94755076",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Amthausstraße",
+          "houseNumber": "19"
+        },
+        {
+          "id": "osm-node-12458900137",
+          "name": "Orgelfabrik Verein",
+          "latitude": 48.9978389,
+          "longitude": 8.4715895,
+          "address": "Amthausstraße 17-19, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12458900137",
+          "category": "club",
+          "type": "history",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Amthausstraße",
+          "houseNumber": "17-19"
+        },
+        {
+          "id": "osm-node-12458900143",
+          "name": "Die Spiegelfechter",
+          "latitude": 48.9977931,
+          "longitude": 8.4715332,
+          "address": "Amthausstraße 17-19, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12458900143",
+          "category": "amenity",
+          "type": "theatre",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Amthausstraße",
+          "houseNumber": "17-19"
+        }
+      ]
+    },
+    "Am Rüppurrer Schloss 5, 76199 Karlsruhe": {
+      "checkedAt": "2026-11-17T06:26:19+00:00",
+      "places": [
+        {
+          "id": "osm-way-583795766",
+          "name": "Städtische Kindertagesstätte am Rüppurrer Schloss",
+          "latitude": 48.9820261,
+          "longitude": 8.4058497,
+          "address": "Am Rüppurrer Schloss 5, 76199 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/583795766",
+          "category": "amenity",
+          "type": "kindergarten",
+          "city": "Karlsruhe",
+          "district": "Rüppurr",
+          "locality": "Gartenstadt",
+          "street": "Am Rüppurrer Schloss",
+          "houseNumber": "5"
+        },
+        {
+          "id": "osm-node-10208328895",
+          "name": "Allianz Generalvertretung",
+          "latitude": 48.9817396,
+          "longitude": 8.4056771,
+          "address": "Am Rüppurrer Schloss 5, 76199 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/10208328895",
+          "category": "office",
+          "type": "insurance",
+          "city": "Karlsruhe",
+          "district": "Rüppurr",
+          "locality": "Gartenstadt",
+          "street": "Am Rüppurrer Schloss",
+          "houseNumber": "5"
+        },
+        {
+          "id": "osm-way-131508946",
+          "name": "Am Rüppurrer Schloss 5",
+          "latitude": 48.9820256,
+          "longitude": 8.4057377,
+          "address": "Am Rüppurrer Schloss 5, 76199 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/131508946",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Rüppurr",
+          "locality": "Gartenstadt",
+          "street": "Am Rüppurrer Schloss",
+          "houseNumber": "5"
+        }
+      ]
+    },
+    "Kaiserstraße 3, 76131 Karlsruhe": {
+      "checkedAt": "2026-11-17T06:26:23+00:00",
+      "places": [
+        {
+          "id": "osm-way-105026240",
+          "name": "Kaiserstraße 3",
+          "latitude": 49.0088774,
+          "longitude": 8.4158604,
+          "address": "Kaiserstraße 3, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/105026240",
+          "category": "building",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "3"
+        },
+        {
+          "id": "osm-node-3633376972",
+          "name": "Kaiser Spiel Casino",
+          "latitude": 49.0089528,
+          "longitude": 8.4157479,
+          "address": "Kaiserstraße 3, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3633376972",
+          "category": "leisure",
+          "type": "adult_gaming_centre",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "3"
+        }
+      ]
+    },
+    "Röntgenstraße 1, 76133 Karlsruhe": {
+      "checkedAt": "2026-11-17T06:26:27+00:00",
+      "places": [
+        {
+          "id": "osm-way-110084636",
+          "name": "Altkatholisches Pfarramt Karlsruhe",
+          "latitude": 49.0121844,
+          "longitude": 8.3835873,
+          "address": "Röntgenstraße 1, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/110084636",
+          "category": "office",
+          "type": "religion",
+          "city": "Karlsruhe",
+          "district": "Weststadt",
+          "locality": "Weststadt Mittlerer Teil",
+          "street": "Röntgenstraße",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-way-109861078",
+          "name": "Helmholtz-Gymnasium Gebäude Röntgenstraße 10",
+          "latitude": 49.0111491,
+          "longitude": 8.3830576,
+          "address": "Röntgenstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/109861078",
+          "category": "building",
+          "type": "school",
+          "city": "Karlsruhe",
+          "district": "Weststadt",
+          "locality": "Weststadt Mittlerer Teil",
+          "street": "Röntgenstraße",
+          "houseNumber": "10"
+        }
+      ]
+    },
+    "Kriegsstraße 37, 76133 Karlsruhe": {
+      "checkedAt": "2026-11-17T06:26:32+00:00",
+      "places": [
+        {
+          "id": "osm-way-111452525",
+          "name": "Kriegsstraße 37",
+          "latitude": 49.0051478,
+          "longitude": 8.3968623,
+          "address": "Kriegsstraße 37, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/111452525",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Südweststadt",
+          "locality": "Südweststadt Östlicher Teil",
+          "street": "Kriegsstraße",
+          "houseNumber": "37"
+        }
+      ]
+    },
+    "Waidweg 1 a-c, 76189 Karlsruhe": {
+      "checkedAt": "2026-11-17T06:26:36+00:00",
+      "places": [
+        {
+          "id": "osm-way-1076975926",
+          "name": "Waidweg 1 c",
+          "latitude": 49.0050309,
+          "longitude": 8.3241917,
+          "address": "Waidweg, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1076975926",
+          "category": "leisure",
+          "type": "playground",
+          "city": "Karlsruhe",
+          "district": "Daxlanden",
+          "locality": "Alt-Daxlanden",
+          "street": "Waidweg",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-6591771926",
+          "name": "Waidweg 1c",
+          "latitude": 49.0050832,
+          "longitude": 8.3232486,
+          "address": "Waidweg 1c, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/6591771926",
+          "category": "amenity",
+          "type": "car_sharing",
+          "city": "Karlsruhe",
+          "district": "Daxlanden",
+          "locality": "Alt-Daxlanden",
+          "street": "Waidweg",
+          "houseNumber": "1c"
+        },
+        {
+          "id": "osm-way-306461068",
+          "name": "Waidweg 1c",
+          "latitude": 49.0049435,
+          "longitude": 8.323829,
+          "address": "Waidweg 1c, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/306461068",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Daxlanden",
+          "locality": "Alt-Daxlanden",
+          "street": "Waidweg",
+          "houseNumber": "1c"
+        }
+      ]
+    },
+    "Kaiserstraße 150, 76133 Karlsruhe": {
+      "checkedAt": "2026-11-17T06:26:40+00:00",
+      "places": [
+        {
+          "id": "osm-node-292402182",
+          "name": "Wiener Feinbäcker Heberer",
+          "latitude": 49.0101673,
+          "longitude": 8.3943716,
+          "address": "Kaiserstraße 150, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/292402182",
+          "category": "shop",
+          "type": "bakery",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "150"
+        },
+        {
+          "id": "osm-way-109265540",
+          "name": "Kaiserstraße 150",
+          "latitude": 49.010194,
+          "longitude": 8.3944313,
+          "address": "Kaiserstraße 150, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/109265540",
+          "category": "building",
+          "type": "retail",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "150"
+        },
+        {
+          "id": "osm-node-12068330857",
+          "name": "Namu House",
+          "latitude": 49.0101683,
+          "longitude": 8.3944747,
+          "address": "Kaiserstraße 150, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12068330857",
+          "category": "amenity",
+          "type": "restaurant",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "150"
+        }
+      ]
+    },
+    "Englerstraße 7, 76131 Karlsruhe": {
+      "checkedAt": "2026-11-17T06:26:44+00:00",
+      "places": [
+        {
+          "id": "osm-relation-285898",
+          "name": "Architektur",
+          "latitude": 49.0111461,
+          "longitude": 8.4106476,
+          "address": "Englerstraße 7, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/285898",
+          "category": "building",
+          "type": "university",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Nordöstlicher Teil",
+          "street": "Englerstraße",
+          "houseNumber": "7"
+        },
+        {
+          "id": "osm-way-292276805",
+          "name": "Englerstraße",
+          "latitude": 49.0111139,
+          "longitude": 8.4100205,
+          "address": "76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/292276805",
+          "category": "highway",
+          "type": "residential",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Nordöstlicher Teil",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-155684563",
+          "name": "Englerstraße",
+          "latitude": 49.0098483,
+          "longitude": 8.4113562,
+          "address": "76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/155684563",
+          "category": "highway",
+          "type": "pedestrian",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Nordöstlicher Teil",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Durlacher Allee 64, 76131 Karlsruhe": {
+      "checkedAt": "2026-11-17T06:26:52+00:00",
+      "places": [
+        {
+          "id": "osm-way-361163237",
+          "name": "Durlacher Allee 64",
+          "latitude": 49.0060364,
+          "longitude": 8.431019,
+          "address": "Durlacher Allee 64, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/361163237",
+          "category": "building",
+          "type": "retail",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "Durlacher Allee",
+          "houseNumber": "64"
+        }
+      ]
+    },
+    "Kaiserstraße 63, 76131 Karlsruhe": {
+      "checkedAt": "2026-11-17T06:26:57+00:00",
+      "places": [
+        {
+          "id": "osm-way-105026255",
+          "name": "Kaiserstraße 63",
+          "latitude": 49.0091173,
+          "longitude": 8.4113544,
+          "address": "Kaiserstraße 63, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/105026255",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "63"
+        },
+        {
+          "id": "osm-node-3718868222",
+          "name": "mariposa",
+          "latitude": 49.0091169,
+          "longitude": 8.4113481,
+          "address": "Kaiserstraße 63, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3718868222",
+          "category": "office",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "63"
+        }
+      ]
+    },
+    "Sophienstraße 234, 76185 Karlsruhe": {
+      "checkedAt": "2026-11-17T06:27:02+00:00",
+      "places": [
+        {
+          "id": "osm-way-116494894",
+          "name": "Sophienstraße 234",
+          "latitude": 49.010461,
+          "longitude": 8.3644618,
+          "address": "Sophienstraße 234, 76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/116494894",
+          "category": "building",
+          "type": "kindergarten",
+          "city": "Karlsruhe",
+          "district": "Mühlburg",
+          "locality": "Alt-Mühlburg",
+          "street": "Sophienstraße",
+          "houseNumber": "234"
+        }
+      ]
+    },
+    "Hintere Schlossteige/Schloss 1, 75305 Karlsruhe": {
+      "checkedAt": "2026-11-17T06:27:07+00:00",
+      "places": []
+    },
+    "Rheinstraße, 76185 Karlsruhe": {
+      "checkedAt": "2026-11-17T06:27:11+00:00",
+      "places": [
+        {
+          "id": "osm-way-347660096",
+          "name": "Rheinstraße",
+          "latitude": 49.0130355,
+          "longitude": 8.3551718,
+          "address": "76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/347660096",
+          "category": "highway",
+          "type": "tertiary",
+          "city": "Karlsruhe",
+          "district": "Mühlburg",
+          "locality": "Rheinhafen",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-97796019",
+          "name": "Rheinstraße",
+          "latitude": 49.0173021,
+          "longitude": 8.3531038,
+          "address": "76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/97796019",
+          "category": "highway",
+          "type": "secondary",
+          "city": "Karlsruhe",
+          "district": "Mühlburg",
+          "locality": "Weingärtensiedlung",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-3527660",
+          "name": "Rheinstraße",
+          "latitude": 49.011269,
+          "longitude": 8.3599301,
+          "address": "76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/3527660",
+          "category": "highway",
+          "type": "residential",
+          "city": "Karlsruhe",
+          "district": "Mühlburg",
+          "locality": "Alt-Mühlburg",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-236537163",
+          "name": "Rheinstraße",
+          "latitude": 49.0113056,
+          "longitude": 8.3610051,
+          "address": "76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/236537163",
+          "category": "highway",
+          "type": "primary",
+          "city": "Karlsruhe",
+          "district": "Mühlburg",
+          "locality": "Alt-Mühlburg",
+          "street": "",
+          "houseNumber": ""
         }
       ]
     }

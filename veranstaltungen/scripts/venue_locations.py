@@ -4,6 +4,7 @@ from copy import deepcopy
 from datetime import datetime, timezone, timedelta
 from difflib import SequenceMatcher
 import hashlib
+from html.parser import HTMLParser
 import json
 import math
 from pathlib import Path
@@ -45,6 +46,10 @@ def norm(value):
     return re.sub(r'[^a-z0-9]+', ' ', value).strip()
 
 
+def local_name(scope):
+    return norm(re.sub(r'\s*\([^)]*\)', '', SCOPES[scope][0].split('-')[-1]))
+
+
 def canonical_label(location):
     # A building with varying programme suffixes emitted by this source. Keep
     # branches and named rooms distinct; never truncate arbitrary place labels.
@@ -81,6 +86,58 @@ def query_for(location, scope):
     return canonical_label(location) + ', ' + city
 
 
+def building_label(location):
+    """Only named, known buildings; never strip arbitrary branches or campuses.
+
+    These parent names are supported by the reviewed places and venue labels.
+    Identity deliberately keeps the original room, so an explicit room decision
+    (including an exclusion) continues to override the building fallback.
+    """
+    label = canonical_label(location)
+    patterns = [
+        (r'^(?:Badisches )?Staatstheater(?:, (?:Großes Haus|Kleines Haus|Studio|Foyer|Neues Entrée|siehe Beschreibung))?$', 'Badisches Staatstheater'),
+        (r'^Hochschule für Musik(?: Karlsruhe)?(?:,.*)?$', 'Hochschule für Musik Karlsruhe'),
+        (r'^(?:ZKM\s*[|│]\s*Zentrum für Kunst und Medien(?: Karlsruhe)?|Zentrum für Kunst und Medien \(ZKM\))(?:\s*[|│,].*)?$', 'ZKM | Zentrum für Kunst und Medien'),
+        (r'^(?:Augustaraum|Niddaraum), Begegnungsstätte Grötzingen$', 'Begegnungsstätte Grötzingen'),
+        (r'^Kulturhalle Remchingen\s*-\s*Foyer$', 'Kulturhalle Remchingen'),
+        (r'^Karlsburg \(Vorplatz\)$', 'Karlsburg'),
+    ]
+    for pattern, parent in patterns:
+        if re.fullmatch(pattern, label, re.I):return parent
+    return label
+
+
+def context_match(place, scope):
+    """Bounding boxes overlap; explicit municipality names take precedence."""
+    if not inside(place, scope):return False
+    if place.get('provenance'):return True
+    text = norm(' '.join(str(place.get(k, '')) for k in ('address', 'name', 'district', 'locality')))
+    named = {key for key in SCOPES
+             if re.search(r'\b' + re.escape(local_name(key)) + r'\b', text)}
+    if scope in {'karlsruhe', 'remchingen', 'pfinztal', 'walzbachtal'}:return True
+    postal_city = re.search(r'\b\d{5}\s+([^,]+)', place.get('address', ''))
+    city = norm(place.get('city') or (postal_city[1] if postal_city else ''))
+    allowed = {'groetzingen': {'karlsruhe', 'grotzingen'}, 'durlach': {'karlsruhe', 'durlach'},
+               'weingarten': {'weingarten', 'weingarten baden'},
+               'joehlingen': {'johlingen', 'walzbachtal'}, 'woessingen': {'wossingen', 'walzbachtal'}}
+    expected = allowed.get(scope, {local_name(scope), 'pfinztal'})
+    if city and city not in expected:return False
+    # Karlsruhe is the postal city of Durlach and Grötzingen. The municipality
+    # Pfinztal/Walzbachtal also does not conflict with one of its own districts.
+    named -= {'karlsruhe', 'pfinztal', 'walzbachtal'}
+    return not named or scope in named
+
+
+def venue_object(place, location):
+    category, kind = place.get('category'), place.get('type')
+    if category in {'railway', 'public_transport', 'information', 'emergency'}:return False
+    if kind in {'toilets', 'ticket', 'bus_stop', 'elevator', 'bicycle_parking', 'bench'}:return False
+    if category == 'highway':
+        return kind in {'pedestrian', 'living_street', 'footway'} and bool(re.search(r'(platz|markt|strasse|brucke)\b', norm(location)))
+    if kind == 'parking':return 'parkplatz' in norm(location)
+    return category not in {'boundary', 'place'} or (category=='place' and kind=='square')
+
+
 def inside(place, scope):
     if not scope:return False
     west,south,east,north = SCOPES[scope][1]
@@ -115,6 +172,7 @@ def parse_photon(raw):
                                                ' '.join(str(p.get(k,'')) for k in ('postcode','city')).strip()] if v),
                  'url':f'https://www.openstreetmap.org/{kind}/{p["osm_id"]}',
                  'category':p.get('osm_key',''),'type':p.get('osm_value',''),
+                 'city':p.get('city',''),'district':p.get('district',''),'locality':p.get('locality',''),
                  'street':p.get('street',''),'houseNumber':p.get('housenumber','')})
         if place['id'] not in seen:result.append(place);seen.add(place['id'])
     return result
@@ -123,9 +181,12 @@ def parse_photon(raw):
 def name_core(value, scope):
     # Only harmless city/legal/venue-type qualifiers. Room names, churches and
     # district names are deliberately not removed as general fuzzy synonyms.
-    value = norm(value.replace('&',' und '))
+    value = norm(building_label(value).replace('&',' und '))
     for word in ('deutschland','walzbachtal','karlsruhe','remchingen','pfinztal','kulturzentrum','galerie','naturfreundehaus','planetarium','stadtbibliothek','zentralbibliothek','e v'):
         value = re.sub(r'\b'+word+r'\b',' ',value)
+    if scope:
+        local = local_name(scope)
+        value = re.sub(r'\b'+re.escape(local)+r'\b', ' ', value)
     return ' '.join(value.split())
 
 
@@ -140,7 +201,7 @@ def candidates_for(location, scope, places):
     core = name_core(location,scope)
     result = []
     for place in places:
-        outside=not inside(place,scope)
+        outside=not context_match(place,scope)
         other = name_core(place['name'],scope)
         if outside and place.get('provenance') not in {'publisher','publisher-multiple'}:
             # A named hall can be in a neighbouring district even when the
@@ -149,14 +210,16 @@ def candidates_for(location, scope, places):
             if sorted(core.split())!=sorted(other.split()) or not (8.20<=place['longitude']<=8.70 and 48.90<=place['latitude']<=49.20):continue
         a,b = set(core.split()),set(other.split())
         score = max(SequenceMatcher(None,core,other).ratio(),len(a&b)/max(len(a|b),1))
-        full_exact=norm(location)==norm(place['name']) and norm(location) not in GENERIC
+        contextual_generic = core in {'evangelisches gemeindehaus', 'kulturhalle', 'friedhof'} and scope and bool(
+            re.search(r'\b'+re.escape(local_name(scope))+r'\b', norm(place.get('address',''))))
+        full_exact=norm(location)==norm(place['name']) and (norm(location) not in GENERIC or contextual_generic)
         context_names={norm(label.split('-')[-1]) for label,_ in SCOPES.values()}
-        exact = bool(core and (sorted(core.split()) == sorted(other.split()) and core not in GENERIC|context_names or full_exact) and
-                     place['category'] not in {'highway','boundary','place'} and place['type'] not in {'administrative','city','town','village','suburb'})
+        exact = bool(core and ((sorted(core.split()) == sorted(other.split()) or core.replace(' ','') == other.replace(' ','')) and core not in GENERIC|context_names or full_exact) and
+                     venue_object(place,location) and place['type'] not in {'administrative','city','town','village','suburb'})
         if place.get('provenance')=='publisher':exact=True
-        address = exact_address(location,place) and place.get('houseNumber')
+        address = exact_address(location,place) and place.get('houseNumber') and venue_object(place,location)
         if place.get('provenance')=='publisher-multiple':exact=address=False
-        if place['category'] in {'boundary','place'} and not address:continue
+        if place['category'] in {'boundary','place'} and place['type']!='square' and not address:continue
         if not (a&b)-SEARCH_FILLER and not exact and not address and core not in GENERIC and score<0.8:continue
         if b and b<=a and b-SEARCH_FILLER:score=max(score,0.93)
         if score<0.35 and not exact and not address and not (core in GENERIC and a&b):continue
@@ -182,6 +245,30 @@ def walzbachtal_places(raw,event_url):
                  'provenance':'publisher' if len(values)==1 else 'publisher-multiple'})
         result.append(place)
     return result
+
+
+def weingarten_places(raw, event_url, location):
+    """Use only the marker bound to this event, never the page's general map."""
+    parsed=urlsplit(event_url)
+    match=re.fullmatch(r'/freizeit-tourismus/veranstaltungen/(\d+)/[^/]+/?',parsed.path)
+    if parsed.scheme!='https' or parsed.hostname!='www.weingarten-baden.de' or not match:
+        raise ValueError('Unbekannter Weingartener Ortsbeleg')
+    event_id=match[1]
+    class Markers(HTMLParser):
+        def __init__(self):super().__init__();self.markers=[]
+        def handle_starttag(self,tag,attrs):
+            attrs=dict(attrs)
+            if tag=='div' and attrs.get('id')=='hw_map_location__'+event_id:
+                self.markers.append(attrs)
+    parser=Markers();parser.feed(raw.decode('utf-8') if isinstance(raw,bytes) else raw)
+    # Duplicate IDs and missing coordinates must not turn into an arbitrary pin.
+    if len(parser.markers)!=1:return []
+    marker=parser.markers[0]
+    if not marker.get('data-lat') or not marker.get('data-lng'):return []
+    return [validate_place({'id':'weingarten-location-'+event_id,'name':location,
+             'latitude':float(marker['data-lat']),'longitude':float(marker['data-lng']),
+             'address':' '.join(marker.get('data-'+k,'') for k in ('strasse','hausnummer','plz','ort')).strip(),
+             'url':event_url,'eventUrl':event_url,'category':'publisher','type':'venue','provenance':'publisher'})]
 
 
 class NoRedirect(HTTPRedirectHandler):
@@ -222,6 +309,11 @@ def enrich(data,root,today,online=False,budget=None,fetch=None,source_fetch=None
     rules=registry['rules']
     if len({r['key'] for r in rules})!=len(rules):raise ValueError('Doppelte Ortsprüfentscheidung')
     reviewed={r['key']:r for r in rules}
+    confirmed_buildings={}
+    for rule in rules:
+        if rule['decision']=='place' and building_label(rule['location']) != canonical_label(rule['location']):
+            parent=(norm(building_label(rule['location'])),rule['scope'])
+            confirmed_buildings.setdefault(parent,{})[rule['place']['id']]=rule['place']
     cache=read(folder/'lookup-cache.json',{'schemaVersion':1,'queries':{}})
     publishers=read(folder/'publisher-cache.json',{'schemaVersion':1,'locations':{}})
     groups={}
@@ -240,18 +332,21 @@ def enrich(data,root,today,online=False,budget=None,fetch=None,source_fetch=None
         for g in eligible:
             if requested>=limit or len(failures)>=2:break
             if not g['location'] or not g['scope'] or g['key'] in reviewed or re.search(r'\bonline\b',norm(g['location'])):continue
-            if re.search(r'\b(oder|verschiedene|mehrere|beschreibung)\b',norm(g['location'])):continue
+            if len(confirmed_buildings.get((norm(building_label(g['location'])),g['scope']),{}))==1:continue
+            if re.search(r'\b(oder|verschiedene|mehrere|beschreibung)\b',norm(g['location'])) or norm(g['location']) in {'im ort','wird noch bekannt gegeben','ort wird noch bekannt gegeben','siehe homepage'}:continue
             query=query_for(g['location'],g['scope'])
             publisher=publishers['locations'].get(g['key'])
             if publisher and publisher.get('places'):continue
-            source_event=next((e for e in g['events'] if e['sourceId']=='walzbachtal'),None)
+            source_event=next((e for e in g['events'] if e['sourceId'] in {'walzbachtal','weingarten'}),None)
             retry_publisher=not publisher or ('error' in publisher and datetime.fromisoformat(publisher['checkedAt'])+timedelta(days=1)<=datetime.now(timezone.utc))
             if source_event and retry_publisher:
                 from http_client import HttpClient
                 source_fetch=source_fetch or HttpClient(timeout=12,attempts=1)
                 requested+=1
                 try:
-                    places=walzbachtal_places(source_fetch(source_event['url']),source_event['url'])
+                    raw=source_fetch(source_event['url'])
+                    places=(walzbachtal_places(raw,source_event['url']) if source_event['sourceId']=='walzbachtal'
+                            else weingarten_places(raw,source_event['url'],g['location']))
                     publishers['locations'][g['key']]={'checkedAt':now,'places':places}
                 except Exception as error:
                     failures.append(type(error).__name__+': '+str(error))
@@ -275,6 +370,9 @@ def enrich(data,root,today,online=False,budget=None,fetch=None,source_fetch=None
     # Reuse known places across name variants and publishers. This also exposes
     # competing same-name objects already found elsewhere instead of hiding them.
     known={p['id']:p for entry in sorted(cache['queries'].values(),key=lambda x:x.get('checkedAt','')) for p in entry.get('places',[])}
+    # Confirmations remain usable even when their original lookup has expired.
+    # Room aliases use the same confirmed building, never a freshly guessed one.
+    known.update({r['place']['id']:r['place'] for r in rules if r['decision']=='place'})
     rows=[]
     for g in groups.values():
         location,scope,key=g['location'],g['scope'],g['key']
@@ -289,6 +387,7 @@ def enrich(data,root,today,online=False,budget=None,fetch=None,source_fetch=None
         candidates=candidates_for(location,scope,publisher.get('places') or unique.values()) if query else []
         status,reason,place,method='review','Kein eindeutig passender Spielort gefunden.',None,None
         rule=reviewed.get(key)
+        parent=confirmed_buildings.get((norm(building_label(location)),scope),{})
         if rule:
             if not location:raise ValueError('Leere Ortsangaben dürfen keine gemeinsame Zuordnung erhalten')
             # Raw spelling variants share a key; all semantic context must still
@@ -301,9 +400,12 @@ def enrich(data,root,today,online=False,budget=None,fetch=None,source_fetch=None
             elif rule['decision']=='unmapped':status='excluded';reason=rule.get('note') or 'Bewusst ohne festen Kartenpunkt.'
             else:raise ValueError('Unbekannte Ortsentscheidung')
         elif not location:status='missing';reason='Die Quelle nennt keinen Veranstaltungsort. Keine Zuordnung aus dem Herausgeber ableiten.'
-        elif re.search(r'\bonline\b',norm(location)):
+        elif re.search(r'\bonline\b',norm(location)) or norm(location) in {'digital','virtuell','livestream'}:
             status='online';reason='Als Online-Ort angegeben; kein physischer Kartenpunkt.'
         elif not scope:reason='Kein ausreichend bestimmter Ortskontext.'
+        elif len(parent)==1:
+            place=validate_place(deepcopy(next(iter(parent.values()))))
+            status='resolved';method='building';reason='Bestätigtes Veranstaltungsgebäude; Kartenpunkt gilt für das Gebäude, nicht den einzelnen Saal.'
         elif re.search(r'\b(oder|verschiedene|mehrere|beschreibung)\b',norm(location)):
             reason='Mehrere mögliche Orte oder Verweis auf eine Beschreibung; Treffpunkt prüfen.'
         else:

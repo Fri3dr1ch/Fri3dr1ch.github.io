@@ -510,6 +510,352 @@
           "provenance": "publisher"
         }
       ]
+    },
+    "venue-418c8561f52820e3f2e4": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": [
+        {
+          "id": "weingarten-location-1004",
+          "name": "Marktbrücke Weingarten",
+          "latitude": 49.05131373258907,
+          "longitude": 8.532042503356935,
+          "address": "",
+          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1004/choraele-zum-jahresausklang",
+          "eventUrl": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1004/choraele-zum-jahresausklang",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-b4405c7bbc9ceae88f79": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": []
+    },
+    "venue-1d0dab6d7496b805ea5e": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": []
+    },
+    "venue-cd730dea52e1f3aae0eb": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": [
+        {
+          "id": "weingarten-location-1050",
+          "name": "Mineralixarena",
+          "latitude": 49.0501646,
+          "longitude": 8.5200935,
+          "address": "Ringstraße 67 76356 Weingarten (Baden)",
+          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1050/turnier-bezirksrangliste",
+          "eventUrl": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1050/turnier-bezirksrangliste",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-1486e7e77c0a7516de8c": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": []
+    },
+    "venue-4dc3e62712933144e36f": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": [
+        {
+          "id": "weingarten-location-1020",
+          "name": "Vogelpark Waldbrücke",
+          "latitude": 49.0686369,
+          "longitude": 8.5091935,
+          "address": "Tannenweg 20 76356 Weingarten (Baden)",
+          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1020/sommerfest-2027-vogelpark-waldbruecke",
+          "eventUrl": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1020/sommerfest-2027-vogelpark-waldbruecke",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-5e054c9c8e7eb2ea5c72": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": [
+        {
+          "id": "weingarten-location-963",
+          "name": "Rathausplatz Weingarten und Rebgelände",
+          "latitude": 49.05128842987993,
+          "longitude": 8.53087957922742,
+          "address": "76356 Weingarten",
+          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/963/musik-und-wein-hitparade-und-weinwandertag",
+          "eventUrl": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/963/musik-und-wein-hitparade-und-weinwandertag",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-d6b73e3d8ee9ced96e7e": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": [
+        {
+          "id": "weingarten-location-923",
+          "name": "Rathausplatz Weingarten",
+          "latitude": 49.051923070028586,
+          "longitude": 8.531363010379211,
+          "address": "Rathausplatz 2 76356 Weingarten",
+          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/923/apres-ski-party",
+          "eventUrl": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/923/apres-ski-party",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-d7e2092546ed61cc84a5": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": [
+        {
+          "id": "weingarten-location-961",
+          "name": "GemeindeBibliothek",
+          "latitude": 49.05206987703204,
+          "longitude": 8.531146654251957,
+          "address": "Rathausplatz 4 76356 Weingarten (Baden)",
+          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/961/herzliche-einladung-zum-bilderbuchkino",
+          "eventUrl": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/961/herzliche-einladung-zum-bilderbuchkino",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-daa21c6250772c3ffe4c": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": []
+    },
+    "venue-0b776de82406d91c4195": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": [
+        {
+          "id": "weingarten-location-931",
+          "name": "Rund um das Feuerwehrhaus",
+          "latitude": 49.04958414300215,
+          "longitude": 8.520369552740952,
+          "address": "Ringstraße 69 76356 Weingarten (Baden)",
+          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/931/tag-der-rettungskraefte",
+          "eventUrl": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/931/tag-der-rettungskraefte",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-13ec8bc890249dc49a0c": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": [
+        {
+          "id": "weingarten-location-1071",
+          "name": "Kirchplatz/ Bachbühne",
+          "latitude": 49.0594711,
+          "longitude": 8.5406131,
+          "address": "76356 Weingarten (Baden)",
+          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1071/fete-de-la-musique",
+          "eventUrl": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1071/fete-de-la-musique",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-14c5f953b14d36858db4": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": []
+    },
+    "venue-20dddfbcd8bba12e306d": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": [
+        {
+          "id": "weingarten-location-932",
+          "name": "Parkplatz an der Turmbergschule",
+          "latitude": 49.05084295449611,
+          "longitude": 8.529521215843726,
+          "address": "Ecke Friedrich-Wilhelm-Straße / Schulstraße  76356 Weingarten (Baden)",
+          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/932/wehrhauptuebung-der-feuerwehr",
+          "eventUrl": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/932/wehrhauptuebung-der-feuerwehr",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-31b3c7db1e011e025a8c": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": []
+    },
+    "venue-3cff8119e7fbbdb133f8": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": []
+    },
+    "venue-5069410b50c7e476a551": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": [
+        {
+          "id": "weingarten-location-1044",
+          "name": "Mühle Weingraten",
+          "latitude": 49.050330622774524,
+          "longitude": 8.542069374103749,
+          "address": "Mühlstr. 9 76356 Weingarten",
+          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1044/muehlenfest",
+          "eventUrl": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1044/muehlenfest",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-52887d5b8b5b35f6b8d0": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": [
+        {
+          "id": "weingarten-location-957",
+          "name": "Festplatz Weingarten (Baden)",
+          "latitude": 49.0508536,
+          "longitude": 8.5186406,
+          "address": "Ringstraße  76356 Weingarten (Baden)",
+          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/957/altpapiersammlung-bring-system-der-kjg-weingarten",
+          "eventUrl": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/957/altpapiersammlung-bring-system-der-kjg-weingarten",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-5577de689b8d6c2ca718": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": []
+    },
+    "venue-7284dfa192154ff836a3": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": []
+    },
+    "venue-7c4be39097b510ec9244": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": []
+    },
+    "venue-9d1b33d3a9d12501501e": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": [
+        {
+          "id": "weingarten-location-1021",
+          "name": "Hartmannsbrücke am Brunnen",
+          "latitude": 49.0520045,
+          "longitude": 8.5315516,
+          "address": "Marktplatz 2 76356 Weingarten (Baden)",
+          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1021/osterbrunnen-schmuecken-mit-kuchenverkauf",
+          "eventUrl": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1021/osterbrunnen-schmuecken-mit-kuchenverkauf",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-a677cbb75131aabc7aa4": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": [
+        {
+          "id": "weingarten-location-1014",
+          "name": "Clubhausfest",
+          "latitude": 49.04990283312396,
+          "longitude": 8.517291544133956,
+          "address": "Dörnigstraße 2 76356 Weingarten",
+          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1014/clubhausfest-mc-white-horses",
+          "eventUrl": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1014/clubhausfest-mc-white-horses",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-ae3cfa86b3d3ad90a3b5": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": [
+        {
+          "id": "weingarten-location-1007",
+          "name": "Treffpunkt: Eingang Trimm-dich-Pfad im Freizeitgebiet Breitheide",
+          "latitude": 49.06546290003181,
+          "longitude": 8.51907979921581,
+          "address": "76356 Weingarten (Baden)",
+          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1007/komm-ich-zeig-dir-die-natur-wald-mit-allen-sinnen-erleben",
+          "eventUrl": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1007/komm-ich-zeig-dir-die-natur-wald-mit-allen-sinnen-erleben",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-db2d36c7be48dc9bfaa3": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": [
+        {
+          "id": "weingarten-location-1008",
+          "name": "Treffpunkt: Parkplatz Moor B3 Weingarten (Baden)",
+          "latitude": 49.03624180096051,
+          "longitude": 8.520624938625591,
+          "address": "76356 Weingarten (Baden)",
+          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1008/komm-ich-zeig-dir-die-natur-bluehender-moorwald-erleben",
+          "eventUrl": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1008/komm-ich-zeig-dir-die-natur-bluehender-moorwald-erleben",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-db4ffdaca27ce1ca8da1": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": [
+        {
+          "id": "weingarten-location-1018",
+          "name": "Weingartner Weinberg oberhalb Parkplatz Liverdunplatz",
+          "latitude": 49.0535587,
+          "longitude": 8.5373137,
+          "address": "Liverdunplatz  76356 Weingarten (Baden)",
+          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1018/2-wein-und-worte-open-air",
+          "eventUrl": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1018/2-wein-und-worte-open-air",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-e6f942b7c47272c04b51": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": [
+        {
+          "id": "weingarten-location-1013",
+          "name": "Clubhaus Dörnigstraße 2 Weingarten",
+          "latitude": 49.049916897310375,
+          "longitude": 8.517312997230576,
+          "address": "Dörnigstraße 2 76356 Weingarten",
+          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1013/clubhausfest-mc-white-horses",
+          "eventUrl": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1013/clubhausfest-mc-white-horses",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
+    },
+    "venue-fb41e204e5682c8feaa8": {
+      "checkedAt": "2026-11-17T06:18:24+00:00",
+      "places": [
+        {
+          "id": "weingarten-location-1048",
+          "name": "Mineralix-Arena",
+          "latitude": 49.050020066902206,
+          "longitude": 8.520069122314455,
+          "address": "Ringstraße 17 76356 Weingarten",
+          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1048/3-fruehlingsfest",
+          "eventUrl": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1048/3-fruehlingsfest",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ]
     }
   }
 }

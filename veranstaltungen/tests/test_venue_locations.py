@@ -11,7 +11,7 @@ from unittest.mock import patch
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
 from venue_locations import (candidates_for,enrich,identity,parse_photon,query_for,read,render_review,
-                             review_problem,validate_place,walzbachtal_places,write)
+                             review_problem,validate_place,walzbachtal_places,weingarten_places,write)
 from review_venues import apply_decisions
 from sync_github_issues import contents
 import update_calendar
@@ -71,6 +71,51 @@ class VenueTests(unittest.TestCase):
         e=event();self.cache(e,[point(),point(pid='osm-node-other')]);data,_=self.build([e])
         self.assertEqual(data['events'][0]['venue']['status'],'review')
 
+    def test_same_name_in_overlapping_search_boxes_uses_event_town(self):
+        e=event('Evangelisches Gemeindehaus','Weingarten (Baden)')
+        nearby={**point('Evangelisches Gemeindehaus','osm-way-berghausen',49.035,8.535),
+                'address':'Alte Pfarrhausgasse 4, 76327 Berghausen'}
+        local={**point('Evangelisches Gemeindehaus','osm-way-weingarten',49.051,8.531),
+               'address':'Marktplatz 12, 76356 Weingarten'}
+        self.cache(e,[nearby,local])
+        data,_=self.build([e])
+        self.assertEqual(data['events'][0]['venue']['place']['id'],'osm-way-weingarten')
+        self.cache(e,[nearby])
+        data,_=self.build([e])
+        self.assertIsNone(data['events'][0]['venue']['place'])
+
+    def test_confirmed_parent_serves_new_rooms_without_lookup_but_not_other_branches(self):
+        a=event('Staatstheater, siehe Beschreibung','Karlsruhe und Umgebung')
+        p=point('Badisches Staatstheater','osm-way-theatre',49.003,8.407)
+        self.cache(a,[p]);_,review=self.build([a]);render_review(self.root,review)
+        row=review['rows'][0];d={k:row[k] for k in ('key','location','scope')}
+        d.update(decision='place',placeId=p['id'])
+        apply_decisions(self.root,{'schemaVersion':1,'decisions':[d]},TODAY)
+        (self.root/'data/venues/lookup-cache.json').unlink()
+        b=event('Badisches Staatstheater, Kleines Haus','Karlsruhe und Umgebung',eid='room')
+        branch=event('Badisches Staatstheater, INSEL','Karlsruhe und Umgebung',eid='branch')
+        data,_=self.build([b,branch])
+        self.assertEqual(data['events'][0]['venue']['place']['id'],p['id'])
+        self.assertEqual(data['events'][0]['venue']['method'],'building')
+        self.assertIsNone(data['events'][1]['venue']['place'])
+        self.build([b],online=True,fetch=lambda *_:self.fail('confirmed parent queried again'))
+        # A room-specific exclusion overrides the parent even on a future date.
+        registry=read(self.root/'data/venues/reviewed.json',{})
+        registry['rules'].append({'key':identity(b)[0],'location':b['location'],'scope':'karlsruhe',
+                                  'decision':'unmapped','note':'Kein fester Treffpunkt'})
+        write(self.root/'data/venues/reviewed.json',registry)
+        data,_=self.build([b]);self.assertEqual(data['events'][0]['venue']['status'],'excluded')
+
+    def test_signs_stops_and_toilets_do_not_compete_with_the_building(self):
+        e=event('Karlsburg','Durlach')
+        building={**point('Karlsburg','osm-way-building',48.998,8.474),'category':'building','type':'public',
+                  'address':'Pfinztalstraße 9, 76227 Karlsruhe'}
+        objects=[building,*[{**building,'id':'osm-node-'+kind,'category':category,'type':kind}
+                           for category,kind in [('amenity','toilets'),('highway','bus_stop'),
+                                                 ('information','board'),('railway','stop')]]]
+        self.cache(e,objects);data,_=self.build([e])
+        self.assertEqual(data['events'][0]['venue']['place']['id'],building['id'])
+
     def test_missing_online_and_multiple_possible_places_have_no_coordinates(self):
         items=[event('',eid='one'),event('Online-Veranstaltung',eid='two'),event('Rathaus oder Wartturm',eid='three')]
         self.cache(items[2],[point('Rathaus oder Wartturm')]);data,_=self.build(items)
@@ -109,6 +154,20 @@ class VenueTests(unittest.TestCase):
         with self.assertRaises(ValueError):walzbachtal_places(raw.replace('49.026','999'),'url')
         with self.assertRaises(ValueError):parse_photon('{"type":"not-a-feature-collection"}')
         with self.assertRaises(ValueError):validate_place({**point(),'latitude':float('nan')})
+
+    def test_weingarten_uses_only_the_event_marker_and_reuses_it(self):
+        url='https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1004/choraele'
+        raw='<div id="general-map" data-lat="0" data-lng="0"></div><div id="hw_map_location__1004" data-lat="49.05131373258907" data-lng="8.532042503356935"></div>'
+        self.assertEqual(weingarten_places(raw,url,'Marktbrücke')[0]['latitude'],49.05131373258907)
+        self.assertEqual(weingarten_places(raw.replace('__1004','__9999'),url,'Marktbrücke'),[])
+        self.assertEqual(weingarten_places(raw+raw,url,'Marktbrücke'),[])
+        with self.assertRaises(ValueError):weingarten_places(raw.replace('49.05131373258907','999'),url,'Marktbrücke')
+        e={**event('Marktbrücke Weingarten','Weingarten (Baden)','weingarten'),'url':url}
+        data,review=self.build([e],online=True,source_fetch=lambda _:raw,
+                               fetch=lambda *_:self.fail('publisher marker needs no geocoding'))
+        self.assertEqual(data['events'][0]['venue']['method'],'publisher')
+        self.assertEqual(review['lookup']['requested'],1)
+        self.build([e],online=True,source_fetch=lambda _:self.fail('known event marker queried again'))
 
     def test_lookup_budget_empty_cache_and_error_backoff_are_bounded(self):
         items=[event('Ort '+str(i),eid=str(i)) for i in range(5)];calls=[]
@@ -152,7 +211,7 @@ class VenueTests(unittest.TestCase):
         self.assertEqual(identity(event(base+' - Buchclub','Karlsruhe und Umgebung'))[0],identity(event(base+' - Aktionswoche','Karlsruhe und Umgebung'))[0])
         self.assertNotEqual(identity(event('Badisches Staatstheater, INSEL'))[0],identity(event('Badisches Staatstheater, Großes Haus'))[0])
         a=event('Stadtbibliothek Karlsruhe - Stadtteilbibliothek Durlach','Durlach')
-        p=point('Stadtteilbibliothek Durlach',lat=49.001,lon=8.472)
+        p={**point('Stadtteilbibliothek Durlach',lat=49.001,lon=8.472),'address':'Pfinztalstraße 9, 76227 Karlsruhe'}
         self.assertTrue(candidates_for(a['location'],'durlach',[p])[0]['exact'])
         self.assertFalse(candidates_for('Stadtbibliothek Karlsruhe - Stadtteilbibliothek Grötzingen','durlach',[p])[0]['exact'])
         z=point('ZKM | Zentrum für Kunst und Medien',lat=49.002,lon=8.39)
