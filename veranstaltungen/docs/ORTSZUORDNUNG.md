@@ -66,7 +66,12 @@ Bezeichnungen wie „Clubhaus“ gehört auch der Veranstalter zum Kontext, bei
 fehlendem Veranstalter zusätzlich die Quelle. So werden zwei Vereinsheime im
 gleichen Ort nicht durch eine Entscheidung miteinander verwechselt. Bekannte
 Programmzusätze derselben Zentralbibliothek werden als dasselbe Gebäude behandelt;
-andere Filialen und benannte Theaterspielstätten bleiben getrennt.
+andere Filialen und benannte Theaterspielstätten bleiben getrennt. Für bekannte
+Saalvarianten werden bestätigte Gebäudepunkte wiederverwendet (unter anderem
+Staatstheater, Hochschule für Musik und ZKM). Der originale Saaltext und die
+eigene Ortsidentität bleiben erhalten; eine ausdrückliche Einzelentscheidung
+hat Vorrang. Die INSEL ist eine eigene Spielstätte in der Karlstraße und wird
+nicht mit dem Hauptgebäude des Staatstheaters zusammengelegt.
 
 ## Automatischer Ablauf
 
@@ -81,10 +86,18 @@ Zeitplan. Nach dem Merge werden Ortsdaten, Prüfliste und Caches mit `data/` und
   der Originalseiten gelesen. Mehrere Punkte und Punkte außerhalb des erwarteten
   Ortsbereichs müssen ebenfalls geprüft werden. Die Ortsbereiche sind vorsichtige
   Suchfenster und keine amtlichen Verwaltungsgrenzen.
+- Bei Weingarten wird der Kartenmarker mit der ID des jeweiligen Termins aus
+  dessen Originalseite gelesen. Allgemeine Seitenkarten und fremde Termin-IDs
+  zählen nicht als Ortsbeleg. Diese Punkte werden ebenfalls gespeichert und
+  wiederverwendet. Platzhalter ohne festen Ort werden dabei übersprungen.
 - Andere neue Ortsangaben werden über Photon gesucht. Nur ein einzelner genauer
   Namens- oder vollständiger Adresstreffer im passenden Ortsbereich darf automatisch
   einen Punkt liefern. Ein Straßenname ohne Hausnummer reicht nicht. Unscharfe
   Namensähnlichkeit dient nur als Vorschlag für die Prüfung.
+- Bei überlappenden Suchgebieten müssen auch Ortsnamen und Adressen zum
+  Veranstaltungskontext passen. Ein Gemeindehaus in Berghausen ist kein Treffer
+  für eine Veranstaltung in Weingarten. Haltestellen, Hinweistafeln, Toiletten
+  und Fahrradständer gelten nicht als Veranstaltungsgebäude.
 - Suchergebnisse einschließlich leerer Antworten werden dauerhaft gespeichert.
   Pro regulärem Lauf werden höchstens zwölf neue Abfragen versucht, seriell und
   mit Abstand. Nach zwei Netzfehlern stoppt die zusätzliche Suche. Fehlversuche
@@ -125,7 +138,8 @@ python scripts/update_calendar.py --offline
 Das optionale Feld `event.venue` enthält `key`, `status`, `method` und `place`.
 `place` ist nur bei `resolved` gesetzt und enthält unter anderem stabile
 Orts-ID, Name, Adresse, `latitude`, `longitude` und Beleg-URL. `method` unterscheidet
-`publisher`, `automatic` und `reviewed`. Darauf kann die spätere Karte aufbauen.
+`publisher`, `automatic`, `reviewed` und `building` (bestätigtes Gebäude statt
+eines eigenen Saalpunkts). Darauf kann die spätere Karte aufbauen.
 Die ursprünglichen Quellen, Konflikte und Ortsangaben bleiben erhalten.
 
 Photon erlaubt eine maßvolle Nutzung des öffentlichen Servers, bietet aber keine
