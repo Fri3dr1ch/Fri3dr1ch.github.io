@@ -856,6 +856,144 @@
           "provenance": "publisher"
         }
       ]
+    },
+    "venue-785ee87a97bd2b95c5d2": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Frauenwaldstraße 6",
+          "city": "Remchingen",
+          "postalCode": "75196",
+          "address": "Frauenwaldstraße 6, 75196 Remchingen",
+          "url": "https://www.remchingen.de/veranstaltungen/repair-cafe-id_3347/"
+        }
+      ]
+    },
+    "venue-1e8bbc1ea1b8c55cb59e": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Ettlinger Str.5",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Ettlinger Str.5, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/schnupperworkshop_theaterspielen_fur-2"
+        }
+      ]
+    },
+    "venue-78defb2823c4adeb7f63": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-aaf6c7163d41740efa42": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Gottesauerstraße 35",
+          "city": "Karlsruhe",
+          "postalCode": "76131",
+          "address": "Gottesauerstraße 35, 76131 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/schragfest_9_mit_frederik_tebbe_julian"
+        }
+      ]
+    },
+    "venue-a7d30990cf599062533e": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-7c8ed3f0364f6564fdef": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-40f34999333d042180f4": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-4a6ba3aac6aee90ca2b9": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Waidweg 1 a-c",
+          "city": "Karlsruhe",
+          "postalCode": "76189",
+          "address": "Waidweg 1 a-c, 76189 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/17_europaisches_filmfestival_der_generationen-13"
+        }
+      ]
+    },
+    "venue-415de67c5b4c19fd5987": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-d13fab80fd8f045922b2": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-0839ddf3ed2fef312599": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-3c6b35bd0e3437f7a0af": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-55abac2edb51f504b90d": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-ab566534a45f577a9749": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-5bf6fdca0b4da6f6c0ce": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Hintere Schlossteige/Schloss 1",
+          "city": "Karlsruhe",
+          "postalCode": "75305",
+          "address": "Hintere Schlossteige/Schloss 1, 75305 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/coded_art"
+        }
+      ]
+    },
+    "venue-f4f1af29688fadf209cc": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-3cb15564c4bd820c672c": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Hans-Thoma-Straße 2-6",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Hans-Thoma-Straße 2-6, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/ines_geipel_landschaft_ohne_zeugen"
+        }
+      ]
+    },
+    "venue-7d0753641531aa472f86": {
+      "checkedAt": "2026-11-17T09:00:00+00:00",
+      "places": [],
+      "addresses": []
     }
   }
 }

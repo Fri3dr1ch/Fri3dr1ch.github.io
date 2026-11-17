@@ -44,6 +44,12 @@ Spielorte. Jeder Vorschlag hat einen Ortsbeleg, Koordinaten und Beispieltermine
 mit Originalquellen. Verschiedene Kartenobjekte werden nicht stillschweigend
 zu einem scheinbar eindeutigen Treffer zusammengezogen.
 
+Der Link bleibt im Wartungs-Issue; die öffentliche Veranstaltungsseite verlinkt
+die Prüfliste nicht. Bereits übernommene Browserauswahlen werden beim Öffnen der
+aktualisierten Prüfliste bereinigt, auch wenn ein Kartenpunkt bei der Übernahme
+berichtigt wurde. „Auswahl leeren“ entfernt alle noch im Browser gemerkten
+Entscheidungen. Quellenadressen werden mit ihrem Originalbeleg angezeigt.
+
 1. Passenden Vorschlag auswählen oder „Kein fester Kartenpunkt“ wählen.
 2. Falls kein Vorschlag passt, die richtige Adresse als Hinweis eintragen.
 3. Mit „Entscheidungen herunterladen“ die Datei `ortsentscheidungen.json` speichern.
@@ -59,6 +65,11 @@ Browserauswahl allein ändert das Repository nicht. Die Datei wird vollständig
 validiert, bevor Entscheidungen geschrieben werden: Kontext und gewählter
 Kartenkandidat müssen noch zur aktuellen Prüfliste passen. Hinweise ohne
 bestätigten Ort bleiben offen; sie erfinden keine Koordinate.
+
+Alte Exporte überspringen bereits geprüfte Registereinträge. So kann eine alte
+Auswahl keine zwischenzeitliche Berichtigung zurücksetzen. Zum ausdrücklichen
+Ändern einer bestehenden Zuordnung ist `--apply DATEI --replace-reviewed`
+erforderlich; die neuen Kandidaten und der Ortskontext werden weiterhin geprüft.
 
 Eine Zuordnung gilt für die normalisierte Ortsangabe und ihren Ortskontext,
 unabhängig von Datum, Titel und Herausgeber eines neuen Termins. Bei allgemeinen
@@ -94,6 +105,14 @@ Zeitplan. Nach dem Merge werden Ortsdaten, Prüfliste und Caches mit `data/` und
   Namens- oder vollständiger Adresstreffer im passenden Ortsbereich darf automatisch
   einen Punkt liefern. Ein Straßenname ohne Hausnummer reicht nicht. Unscharfe
   Namensähnlichkeit dient nur als Vorschlag für die Prüfung.
+- Für Karlsruhe wird die Adresse aus dem eindeutig benannten Veranstaltungsort
+  (`box_ort`) gelesen, für Remchingen aus dem Event-JSON-LD mit passendem Ortsnamen.
+  Kontaktadressen im Seitenfuß zählen nicht. Diese Quellenadressen haben beim
+  Abgleich Vorrang vor Namensähnlichkeit und werden gespeichert. Die Suche
+  vereinheitlicht „Str.5“ und „Straße 5“ und versucht bei Bedarf eine Variante mit
+  Leerzeichen vor „straße“. Ohne Hausnummer, bei widersprüchlichen Quellenadressen
+  oder mehreren passenden Kartenobjekten bleibt die Prüfung offen. Quellenabrufe
+  und Adresssuchen teilen sich das bestehende Budget und die Fehlergrenzen.
 - Bei überlappenden Suchgebieten müssen auch Ortsnamen und Adressen zum
   Veranstaltungskontext passen. Ein Gemeindehaus in Berghausen ist kein Treffer
   für eine Veranstaltung in Weingarten. Haltestellen, Hinweistafeln, Toiletten

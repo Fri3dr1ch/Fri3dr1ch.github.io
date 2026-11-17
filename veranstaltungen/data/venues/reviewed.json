@@ -91,6 +91,57 @@
       "note": "Nachprüfung anhand OSM-Objekt, Ortsname und Adresse im Veranstaltungskontext. Bei Saal- oder Geländeangaben: allgemeiner Gebäudepunkt, Originalangabe bleibt erhalten."
     },
     {
+      "key": "venue-1e8bbc1ea1b8c55cb59e",
+      "location": "Imagine, Schauspielschule für Kinder und Jugendliche",
+      "scope": "karlsruhe",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-17",
+      "note": "Gebäudepunkt Ettlinger Straße 5; OSM führt hier die Congress-Apotheke. Die Schule bestätigt dieselbe Hausadresse unter https://imagine-theater.de/kontakt/ . Die PLZ 76133 im städtischen Kalender ist gegenüber 76137 auf der Schulwebseite und in OSM abweichend.",
+      "place": {
+        "id": "osm-way-101325635",
+        "name": "Ettlinger Straße 5 (Gebäudepunkt für Imagine)",
+        "latitude": 49.0026575,
+        "longitude": 8.4035248,
+        "address": "Ettlinger Straße 5, 76137 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/101325635",
+        "category": "amenity",
+        "type": "pharmacy",
+        "city": "Karlsruhe",
+        "district": "Südstadt",
+        "locality": "Südstadt Nördlicher Teil",
+        "street": "Ettlinger Straße",
+        "houseNumber": "5",
+        "osmName": "Congress-Apotheke"
+      }
+    },
+    {
+      "key": "venue-1f83c837aa89ab87fec5",
+      "location": "Lammsaal Jöhlingen , Walzbachtal",
+      "scope": "joehlingen",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-17",
+      "note": "Gebäudepunkt Jöhlinger Straße 104 statt des widersprüchlichen Originalmarkers walzbachtal-address-2799. Adresse bestätigt durch https://www.lamm-hotel.de/kontakt/ und https://www.walzbachtal.de/adresse/Lammsaal-Joehlingen-address2799 .",
+      "place": {
+        "id": "osm-way-555542597",
+        "name": "Jöhlinger Straße 104",
+        "latitude": 49.0323469,
+        "longitude": 8.5745361,
+        "address": "Jöhlinger Straße 104, 75045 Walzbachtal",
+        "url": "https://www.openstreetmap.org/way/555542597",
+        "category": "building",
+        "type": "retail",
+        "city": "Walzbachtal",
+        "district": "Jöhlingen",
+        "locality": "",
+        "street": "Jöhlinger Straße",
+        "houseNumber": "104"
+      }
+    },
+    {
       "key": "venue-21ca1ee1b34dd18a7f46",
       "location": "Marktplatz Durlach",
       "scope": "durlach",
@@ -1141,6 +1192,53 @@
       "note": "Gebäudepunkt anhand der Originaladresse Durlacher Allee 64, 76131 Karlsruhe. Beleg: https://kalender.karlsruhe.de/db/termine/stadtleben/der_alte_schlachthof_schlosschen_schlachthof-7"
     },
     {
+      "key": "venue-785ee87a97bd2b95c5d2",
+      "location": "Alte RemBar (Altes Rathaus Nöttingen)",
+      "scope": "remchingen",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-17",
+      "note": "Quellenadresse Frauenwaldstraße 6, 75196 Remchingen bestätigt das öffentliche Gebäude. Beleg: https://www.remchingen.de/veranstaltungen/repair-cafe-id_3347/",
+      "place": {
+        "id": "osm-way-233899006",
+        "name": "Frauenwaldstraße 6",
+        "latitude": 48.9295449,
+        "longitude": 8.5729205,
+        "address": "Frauenwaldstraße 6, 75196 Remchingen",
+        "url": "https://www.openstreetmap.org/way/233899006",
+        "category": "building",
+        "type": "public",
+        "city": "Remchingen",
+        "district": "",
+        "locality": "",
+        "street": "Frauenwaldstraße",
+        "houseNumber": "6"
+      }
+    },
+    {
+      "key": "venue-78defb2823c4adeb7f63",
+      "location": "Marktplatz Karlsruhe",
+      "scope": "karlsruhe",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-17",
+      "note": "Karlsruher Marktplatz in der Innenstadt. Die Exportauswahl osm-way-103361548 gehört zum Marktplatz Durlach und wurde anhand des Veranstaltungsorts berichtigt.",
+      "place": {
+        "id": "osm-way-743665089",
+        "name": "Marktplatz",
+        "latitude": 49.0089484,
+        "longitude": 8.4038789,
+        "address": "Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/743665089",
+        "category": "place",
+        "type": "square",
+        "street": "",
+        "houseNumber": ""
+      }
+    },
+    {
       "key": "venue-7c1164c282e9797267d0",
       "location": "Evangelische Auferstehungskirche",
       "scope": "weingarten",
@@ -1753,6 +1851,28 @@
       },
       "reviewedOn": "2026-11-17",
       "note": "Gebäudepunkt anhand der Originaladresse Kaiserstraße 63, 76131 Karlsruhe. Beleg: https://kalender.karlsruhe.de/db/termine/stadtleben/justice_night"
+    },
+    {
+      "key": "venue-aaf6c7163d41740efa42",
+      "location": "Café NUN",
+      "scope": "karlsruhe",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-17",
+      "note": "Adresse Gottesauerstraße 35 = Gottesauer Straße 35, 76131 Karlsruhe. Beleg: https://kalender.karlsruhe.de/db/termine/cafe_nun/",
+      "place": {
+        "id": "osm-node-1669073010",
+        "name": "nun Kaffeehaus",
+        "latitude": 49.0068065,
+        "longitude": 8.4207765,
+        "address": "Gottesauer Straße 35, 76131 Karlsruhe",
+        "url": "https://www.openstreetmap.org/node/1669073010",
+        "category": "amenity",
+        "type": "bar",
+        "street": "Gottesauer Straße",
+        "houseNumber": "35"
+      }
     },
     {
       "key": "venue-aeee2bfbcaa2d1dc822a",

@@ -191,13 +191,73 @@ def name_core(value, scope):
 
 
 def exact_address(location, place):
-    street,number = norm(place.get('street')),norm(place.get('houseNumber'))
+    street,number = street_norm(place.get('street')),norm(place.get('houseNumber'))
     # Both street and number must be present as complete words; no street-centre
     # matches and no interpretation of an isolated year as a house number.
-    return bool(street and number and re.search(r'\b'+re.escape(street)+r'\s+'+re.escape(number)+r'\b',norm(location)))
+    return bool(street and number and re.search(r'\b'+re.escape(street)+r'\s*'+re.escape(number)+r'\b',street_norm(location)))
 
 
-def candidates_for(location, scope, places):
+def street_norm(value):
+    # Str.5, Straße 5 and the OSM spelling with a space before Straße agree.
+    value=re.sub(r'(?i)\bstr\.(?=\s|\d|$)', 'straße ', value or '')
+    value=norm(value)
+    return re.sub(r'\s+(strasse|str)\b', r'\1', value)
+
+
+def address_source_url(event):
+    parsed=urlsplit(event.get('url',''))
+    return (parsed.scheme=='https' and not parsed.query and not parsed.fragment and
+            ((event['sourceId']=='karlsruhe' and parsed.hostname=='kalender.karlsruhe.de' and parsed.path.startswith('/db/termine/')) or
+             (event['sourceId']=='remchingen' and parsed.hostname=='www.remchingen.de' and re.fullmatch(r'/veranstaltungen/[^/]+-id_\d+/?',parsed.path))))
+
+
+def source_addresses(raw,event):
+    """Read the venue block, never the publisher's contact/footer address."""
+    if not address_source_url(event):return []
+    from lxml import html
+    tree=html.fromstring(raw)
+    text=lambda node:' '.join(node.text_content().split()).strip(' ,')
+    result=[]
+    if event['sourceId']=='karlsruhe':
+        for box in tree.xpath('//*[@id="box_ort"]'):
+            names=box.xpath('.//h5');streets=box.xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," street-address ")]')
+            if len(names)!=1 or len(streets)!=1:continue
+            if norm(canonical_label(text(names[0])))!=norm(canonical_label(event['location'])):continue
+            def field(cls):
+                nodes=box.xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," '+cls+' ")]')
+                return text(nodes[0]) if len(nodes)==1 else ''
+            street,city,postal=text(streets[0]),field('locality'),field('postal-code')
+            if street and city:result.append({'street':street,'city':city,'postalCode':postal})
+    else:
+        for script in tree.xpath('//script[@type="application/ld+json"]/text()'):
+            try:values=json.loads(script)
+            except (ValueError,TypeError):continue
+            values=values if isinstance(values,list) else [values]
+            for value in values:
+                if not isinstance(value,dict) or value.get('@type')!='Event':continue
+                place=value.get('location') or {}
+                if not isinstance(place,dict) or norm(place.get('name'))!=norm(event['location']):continue
+                address=place.get('address') or {}
+                if isinstance(address,dict) and address.get('streetAddress') and address.get('addressLocality'):
+                    result.append({'street':address['streetAddress'],'city':address['addressLocality'],'postalCode':address.get('postalCode','')})
+    unique={}
+    for a in result:
+        if not re.search(r'\d',a['street']):continue
+        a.update(address=a['street']+', '+' '.join(filter(None,[a['postalCode'],a['city']])),url=event['url'])
+        unique[street_norm(a['street'])+'|'+norm(a['city'])]=a
+    # Conflicting source blocks require review rather than an arbitrary address.
+    return list(unique.values())
+
+
+def address_queries(addresses):
+    if len(addresses)!=1:return []
+    a=addresses[0];street=re.sub(r'(?i)\bStr\.(?=\s|\d|$)','Straße ',a['street'])
+    street=' '.join(street.split())
+    variants=[street,re.sub(r'(?i)(?<=\w)(straße)\b',r' \1',street)]
+    return list(dict.fromkeys(v+', '+a['city'] for v in variants))
+
+
+def candidates_for(location, scope, places, addresses=None):
     core = name_core(location,scope)
     result = []
     for place in places:
@@ -218,6 +278,16 @@ def candidates_for(location, scope, places):
                      venue_object(place,location) and place['type'] not in {'administrative','city','town','village','suburb'})
         if place.get('provenance')=='publisher':exact=True
         address = exact_address(location,place) and place.get('houseNumber') and venue_object(place,location)
+        if addresses:
+            # A matching name cannot overrule a different published house address.
+            source=addresses[0]
+            postal=re.search(r'\b\d{5}\b',place.get('address',''))
+            city=place.get('city') or (re.search(r'\b\d{5}\s+([^,]+)',place.get('address','')) or [None,''])[1]
+            address=(len(addresses)==1 and exact_address(source['street'],place) and venue_object(place,location) and
+                     (not city or not source.get('city') or norm(city)==norm(source['city'])) and
+                     (not postal or not source.get('postalCode') or postal[0]==source['postalCode']))
+            exact=bool(address)
+            if not address:continue
         if place.get('provenance')=='publisher-multiple':exact=address=False
         if place['category'] in {'boundary','place'} and place['type']!='square' and not address:continue
         if not (a&b)-SEARCH_FILLER and not exact and not address and core not in GENERIC and score<0.8:continue
@@ -334,10 +404,9 @@ def enrich(data,root,today,online=False,budget=None,fetch=None,source_fetch=None
             if not g['location'] or not g['scope'] or g['key'] in reviewed or re.search(r'\bonline\b',norm(g['location'])):continue
             if len(confirmed_buildings.get((norm(building_label(g['location'])),g['scope']),{}))==1:continue
             if re.search(r'\b(oder|verschiedene|mehrere|beschreibung)\b',norm(g['location'])) or norm(g['location']) in {'im ort','wird noch bekannt gegeben','ort wird noch bekannt gegeben','siehe homepage'}:continue
-            query=query_for(g['location'],g['scope'])
             publisher=publishers['locations'].get(g['key'])
             if publisher and publisher.get('places'):continue
-            source_event=next((e for e in g['events'] if e['sourceId'] in {'walzbachtal','weingarten'}),None)
+            source_event=next((e for e in g['events'] if e['sourceId'] in {'walzbachtal','weingarten'} or address_source_url(e)),None)
             retry_publisher=not publisher or ('error' in publisher and datetime.fromisoformat(publisher['checkedAt'])+timedelta(days=1)<=datetime.now(timezone.utc))
             if source_event and retry_publisher:
                 from http_client import HttpClient
@@ -346,14 +415,18 @@ def enrich(data,root,today,online=False,budget=None,fetch=None,source_fetch=None
                 try:
                     raw=source_fetch(source_event['url'])
                     places=(walzbachtal_places(raw,source_event['url']) if source_event['sourceId']=='walzbachtal'
-                            else weingarten_places(raw,source_event['url'],g['location']))
-                    publishers['locations'][g['key']]={'checkedAt':now,'places':places}
+                            else weingarten_places(raw,source_event['url'],g['location']) if source_event['sourceId']=='weingarten' else [])
+                    addresses=source_addresses(raw,source_event) if address_source_url(source_event) else []
+                    publishers['locations'][g['key']]={'checkedAt':now,'places':places,'addresses':addresses}
                 except Exception as error:
                     failures.append(type(error).__name__+': '+str(error))
                     publishers['locations'][g['key']]={'checkedAt':now,'error':failures[-1]}
                 write(folder/'publisher-cache.json',publishers)
                 if publishers['locations'][g['key']].get('places'):continue
                 if requested>=limit or len(failures)>=2:break
+            publisher=publishers['locations'].get(g['key'],{})
+            queries=address_queries(publisher.get('addresses',[])) or [query_for(g['location'],g['scope'])]
+            query=next((q for q in queries if q not in cache['queries']),queries[-1])
             old=cache['queries'].get(query)
             if old:
                 # Successful results, including empty lists, are durable. Only
@@ -379,12 +452,14 @@ def enrich(data,root,today,online=False,budget=None,fetch=None,source_fetch=None
         query=query_for(location,scope) if location and scope else None
         entry=cache['queries'].get(query,{})
         publisher=publishers['locations'].get(key,{})
+        addresses=publisher.get('addresses',[])
         pool=list(entry.get('places',[]))
+        for q in address_queries(addresses):pool+=cache['queries'].get(q,{}).get('places',[])
         if query and not publisher.get('places'):
             words=set(name_core(location,scope).split())-SEARCH_FILLER
             pool += [p for p in known.values() if words & set(name_core(p['name'],scope).split())]
         unique={p['id']:p for p in pool}
-        candidates=candidates_for(location,scope,publisher.get('places') or unique.values()) if query else []
+        candidates=candidates_for(location,scope,publisher.get('places') or unique.values(),addresses) if query else []
         status,reason,place,method='review','Kein eindeutig passender Spielort gefunden.',None,None
         rule=reviewed.get(key)
         parent=confirmed_buildings.get((norm(building_label(location)),scope),{})
@@ -406,6 +481,7 @@ def enrich(data,root,today,online=False,budget=None,fetch=None,source_fetch=None
         elif len(parent)==1:
             place=validate_place(deepcopy(next(iter(parent.values()))))
             status='resolved';method='building';reason='Bestätigtes Veranstaltungsgebäude; Kartenpunkt gilt für das Gebäude, nicht den einzelnen Saal.'
+        elif len(addresses)>1:reason='Widersprüchliche Quellenadressen; Zuordnung bitte prüfen.'
         elif re.search(r'\b(oder|verschiedene|mehrere|beschreibung)\b',norm(location)):
             reason='Mehrere mögliche Orte oder Verweis auf eine Beschreibung; Treffpunkt prüfen.'
         else:
@@ -426,7 +502,7 @@ def enrich(data,root,today,online=False,budget=None,fetch=None,source_fetch=None
         if not current:continue
         rows.append({'key':key,'location':location,'scope':scope,'scopeLabel':SCOPES[scope][0] if scope else 'Ortskontext offen',
                      'status':status,'reason':reason,'method':method,'place':place,'candidates':candidates,
-                     'eventCount':len(current),'reviewNote':registry.get('notes',{}).get(key,{}).get('note',''),
+                     'eventCount':len(current),'reviewNote':registry.get('notes',{}).get(key,{}).get('note',''),'sourceAddresses':addresses,
                      'organizer':current[0].get('organizer','') if norm(canonical_label(location)) in GENERIC else '',
                      'sourceContext':current[0]['sourceId'] if norm(canonical_label(location)) in GENERIC and not current[0].get('organizer') else None,
                      'sources':sorted({e['sourceName'] for e in current}),

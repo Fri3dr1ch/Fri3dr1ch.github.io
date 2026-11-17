@@ -9,15 +9,15 @@
     "venues": 323,
     "venueStatuses": {
       "missing": 10,
-      "review": 51,
+      "review": 45,
       "online": 3,
       "queued": 2,
-      "resolved": 257
+      "resolved": 263
     },
     "upcomingEvents": 1158,
     "eventStatuses": {
-      "resolved": 877,
-      "review": 66,
+      "resolved": 892,
+      "review": 51,
       "missing": 209,
       "online": 4,
       "queued": 2
@@ -40,6 +40,7 @@
       "candidates": [],
       "eventCount": 106,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -84,6 +85,7 @@
       "candidates": [],
       "eventCount": 47,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -128,6 +130,7 @@
       "candidates": [],
       "eventCount": 45,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -172,6 +175,7 @@
       "candidates": [],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -199,302 +203,6 @@
       ]
     },
     {
-      "key": "venue-785ee87a97bd2b95c5d2",
-      "location": "Alte RemBar (Altes Rathaus Nöttingen)",
-      "scope": "remchingen",
-      "scopeLabel": "Remchingen",
-      "status": "review",
-      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
-      "method": null,
-      "place": null,
-      "candidates": [
-        {
-          "id": "osm-node-5173147821",
-          "name": "Rathaus Remchingen",
-          "latitude": 48.9521732,
-          "longitude": 8.5706958,
-          "address": "San-Biagio-Platani-Platz 8, 75196 Wilferdingen",
-          "url": "https://www.openstreetmap.org/node/5173147821",
-          "category": "amenity",
-          "type": "townhall",
-          "street": "San-Biagio-Platani-Platz",
-          "houseNumber": "8",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-60678465",
-          "name": "Wilferdingen Altes Rathaus",
-          "latitude": 48.94475,
-          "longitude": 8.574063,
-          "address": "Nöttinger Straße, 75196 Wilferdingen",
-          "url": "https://www.openstreetmap.org/node/60678465",
-          "category": "highway",
-          "type": "bus_stop",
-          "street": "Nöttinger Straße",
-          "houseNumber": "",
-          "score": 0.59,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-918688076",
-          "name": "Alte evangelische Kirche Wilferdingen",
-          "latitude": 48.9439768,
-          "longitude": 8.5770865,
-          "address": "Kirchstraße 21, 75196 Wilferdingen",
-          "url": "https://www.openstreetmap.org/node/918688076",
-          "category": "amenity",
-          "type": "place_of_worship",
-          "street": "Kirchstraße",
-          "houseNumber": "21",
-          "score": 0.361,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 3,
-      "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Gemeinde Remchingen"
-      ],
-      "examples": [
-        {
-          "id": "remchingen-3347-2026-11-20-1500",
-          "title": "Repair-Café",
-          "date": "2026-11-20",
-          "url": "https://www.remchingen.de/veranstaltungen/repair-cafe-id_3347/"
-        },
-        {
-          "id": "remchingen-3348-2026-12-18-1500",
-          "title": "Repair-Café",
-          "date": "2026-12-18",
-          "url": "https://www.remchingen.de/veranstaltungen/repair-cafe-id_3348/"
-        },
-        {
-          "id": "remchingen-3397-2027-01-15-1500",
-          "title": "Repair-Café",
-          "date": "2027-01-15",
-          "url": "https://www.remchingen.de/veranstaltungen/repair-cafe-id_3397/"
-        }
-      ]
-    },
-    {
-      "key": "venue-1e8bbc1ea1b8c55cb59e",
-      "location": "Imagine, Schauspielschule für Kinder und Jugendliche",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "review",
-      "reason": "Kein eindeutig passender Spielort gefunden.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 3,
-      "reviewNote": "Originalquelle nennt Ettlinger Str.5, 76133 Karlsruhe. Noch keinen eindeutigen passenden Kartenpunkt bestätigt. Beleg: https://kalender.karlsruhe.de/db/termine/theater/schnupperworkshop_theaterspielen_fur-2",
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-5d61ae7985abdfb8",
-          "title": "Schnupperworkshop Theaterspielen für Kinder von 6-8 Jahren",
-          "date": "2026-11-28",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/schnupperworkshop_theaterspielen_fur-2"
-        },
-        {
-          "id": "karlsruhe-1d40920288c75fd9",
-          "title": "Schnupperworkshop Theaterspielen für Kinder von 10-13 Jahren",
-          "date": "2026-11-28",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/schnupperworkshop_theaterspielen_fur-1"
-        },
-        {
-          "id": "karlsruhe-1e236d9af83ed78d",
-          "title": "Schnupperworkshop Theaterspielen für Jugendliche von 14-17 Jahren",
-          "date": "2026-11-28",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/schnupperworkshop_theaterspielen_fur"
-        }
-      ]
-    },
-    {
-      "key": "venue-1f83c837aa89ab87fec5",
-      "location": "Lammsaal Jöhlingen , Walzbachtal",
-      "scope": "joehlingen",
-      "scopeLabel": "Walzbachtal-Jöhlingen",
-      "status": "review",
-      "reason": "Ein Ortsbeleg liegt außerhalb des erwarteten Ortskontexts. Ortsteil und Koordinate ausdrücklich prüfen.",
-      "method": null,
-      "place": null,
-      "candidates": [
-        {
-          "id": "walzbachtal-address-2799",
-          "name": "Lammsaal Jöhlingen ",
-          "address": "Jöhlinger Str.  104, 75045 Walzbachtal",
-          "latitude": 49.0506214,
-          "longitude": 8.5450335918892,
-          "url": "https://www.walzbachtal.de/adresse/Lammsaal-Joehlingen-address2799",
-          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Weihnachtsfeier-Gesangverein-Frohsinn-event-appointment4605",
-          "category": "publisher",
-          "type": "venue",
-          "provenance": "publisher",
-          "score": 1.0,
-          "exact": false,
-          "outsideContext": true
-        }
-      ],
-      "eventCount": 3,
-      "reviewNote": "Originalquelle nennt Jöhlinger Str. 104, ihr veröffentlichter Kartenpunkt liegt jedoch außerhalb Jöhlingens. https://www.lamm-hotel.de/kontakt/ bestätigt die Adresse. Koordinate vor Bestätigung prüfen.",
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Walzbachtal · Jöhlingen und Wössingen"
-      ],
-      "examples": [
-        {
-          "id": "walzbachtal-4605-2026-12-13-1500",
-          "title": "Weihnachtsfeier Gesangverein Frohsinn",
-          "date": "2026-12-13",
-          "url": "https://www.walzbachtal.de/veranstaltung/Weihnachtsfeier-Gesangverein-Frohsinn-event-appointment4605"
-        },
-        {
-          "id": "walzbachtal-6112-2027-04-08-1930",
-          "title": "Mitgliederversammlung Frohsinn Jöhlingen",
-          "date": "2027-04-08",
-          "url": "https://www.walzbachtal.de/veranstaltung/Mitgliederversammlung-Frohsinn-Joehlingen-event-appointment6112"
-        },
-        {
-          "id": "walzbachtal-6114-2027-12-11-1500",
-          "title": "Weihnachtsfeier Frohsinn Jöhlingen",
-          "date": "2027-12-11",
-          "url": "https://www.walzbachtal.de/veranstaltung/Weihnachtsfeier-Frohsinn-Joehlingen-event-appointment6114"
-        }
-      ]
-    },
-    {
-      "key": "venue-78defb2823c4adeb7f63",
-      "location": "Marktplatz Karlsruhe",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "review",
-      "reason": "Mehrere gleich gut passende Kartenobjekte; Auswahl erforderlich.",
-      "method": null,
-      "place": null,
-      "candidates": [
-        {
-          "id": "osm-way-103361548",
-          "name": "Marktplatz",
-          "latitude": 48.9989945,
-          "longitude": 8.4714667,
-          "address": "76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/103361548",
-          "category": "highway",
-          "type": "pedestrian",
-          "street": "",
-          "houseNumber": "",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-131567352",
-          "name": "Marktplatz",
-          "latitude": 48.9990209,
-          "longitude": 8.4714949,
-          "address": "76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/131567352",
-          "category": "highway",
-          "type": "pedestrian",
-          "street": "",
-          "houseNumber": "",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-743665089",
-          "name": "Marktplatz",
-          "latitude": 49.0089484,
-          "longitude": 8.4038789,
-          "address": "Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/743665089",
-          "category": "place",
-          "type": "square",
-          "street": "",
-          "houseNumber": "",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-11570863329",
-          "name": "Marktplatz (Pyramide)",
-          "latitude": 49.0091102,
-          "longitude": 8.4038425,
-          "address": "Zähringerstraße, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/11570863329",
-          "category": "highway",
-          "type": "elevator",
-          "city": "Karlsruhe",
-          "district": "Innenstadt-Ost",
-          "locality": "Innenstadt-Ost Südwestlicher Teil",
-          "street": "Zähringerstraße",
-          "houseNumber": "",
-          "score": 0.69,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-2640942878",
-          "name": "Marktplatz (Pyramide U)",
-          "latitude": 49.0086264,
-          "longitude": 8.4037145,
-          "address": "Karl-Friedrich-Straße, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/2640942878",
-          "category": "railway",
-          "type": "stop",
-          "city": "Karlsruhe",
-          "district": "Innenstadt-Ost",
-          "locality": "Innenstadt-Ost Südwestlicher Teil",
-          "street": "Karl-Friedrich-Straße",
-          "houseNumber": "",
-          "score": 0.645,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 3,
-      "reviewNote": "Originalquelle nennt Marktplatz, 76133 Karlsruhe. Noch keinen eindeutigen passenden Kartenpunkt bestätigt. Beleg: https://kalender.karlsruhe.de/db/termine/stadtleben/karlsruher_christkindlesmarkt",
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-d384daea82fa982b",
-          "title": "Blumenmarkt",
-          "date": "2025-11-19",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/blumenmarkt"
-        },
-        {
-          "id": "karlsruhe-77ae02033b85a4ab",
-          "title": "Pyramidenmarkt",
-          "date": "2025-11-19",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/pyramidenmarkt"
-        },
-        {
-          "id": "karlsruhe-710e49a57e3810bf",
-          "title": "Karlsruher Christkindlesmarkt",
-          "date": "2026-11-23",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/karlsruher_christkindlesmarkt"
-        }
-      ]
-    },
-    {
       "key": "venue-96cfdab160c7f30bc4ef",
       "location": "",
       "scope": "groetzingen",
@@ -506,6 +214,7 @@
       "candidates": [],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -538,6 +247,7 @@
       "candidates": [],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -555,114 +265,6 @@
           "title": "OWGV JHV",
           "date": "2027-03-12",
           "url": "https://www.naturfreunde-soellingen.de/kalender/"
-        }
-      ]
-    },
-    {
-      "key": "venue-aaf6c7163d41740efa42",
-      "location": "Café NUN",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "review",
-      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
-      "method": null,
-      "place": null,
-      "candidates": [
-        {
-          "id": "osm-node-3079160176",
-          "name": "café-mats",
-          "latitude": 49.0263102,
-          "longitude": 8.3855639,
-          "address": "Erzbergerstraße 119, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/3079160176",
-          "category": "amenity",
-          "type": "cafe",
-          "street": "Erzbergerstraße",
-          "houseNumber": "119",
-          "score": 0.588,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-1673731927",
-          "name": "Café Kehrle",
-          "latitude": 48.9991253,
-          "longitude": 8.4706211,
-          "address": "Pfinztalstraße 35-37, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/1673731927",
-          "category": "amenity",
-          "type": "cafe",
-          "street": "Pfinztalstraße",
-          "houseNumber": "35-37",
-          "score": 0.526,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-30030257",
-          "name": "Café-Bar 59",
-          "latitude": 49.0041641,
-          "longitude": 8.3950523,
-          "address": "Gartenstraße, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/30030257",
-          "category": "amenity",
-          "type": "pub",
-          "street": "Gartenstraße",
-          "houseNumber": "",
-          "score": 0.526,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-5641892654",
-          "name": "Karisma Cafe Lounge",
-          "latitude": 49.0087288,
-          "longitude": 8.3915105,
-          "address": "Hirschstraße, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/5641892654",
-          "category": "amenity",
-          "type": "pub",
-          "street": "Hirschstraße",
-          "houseNumber": "",
-          "score": 0.519,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-3764070685",
-          "name": "Jon café",
-          "latitude": 49.0102723,
-          "longitude": 8.4259035,
-          "address": "Sternbergstraße 7, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/3764070685",
-          "category": "amenity",
-          "type": "cafe",
-          "street": "Sternbergstraße",
-          "houseNumber": "7",
-          "score": 0.5,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 2,
-      "reviewNote": "Originalquelle nennt Gottesauerstraße 35, 76131 Karlsruhe. Noch keinen eindeutigen passenden Kartenpunkt bestätigt. Beleg: https://kalender.karlsruhe.de/db/termine/musik/schragfest_9_mit_frederik_tebbe_julian",
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-ed0709b111811179",
-          "title": "Schrägfest # 9 mit FREDERIK TEBBE + JULIAN KNOTH mit Trio Abstrich",
-          "date": "2026-11-21",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/schragfest_9_mit_frederik_tebbe_julian"
-        },
-        {
-          "id": "karlsruhe-82717ec7b836a584",
-          "title": "NUN-Märchenzeit: Tischlein deck dich mit Markus Finkler",
-          "date": "2026-11-29",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/nun_marchenzeit_tischlein_deck_dich_mit_markus_finkler"
         }
       ]
     },
@@ -694,6 +296,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "TSV Wöschbach 07 e.V.",
       "sourceContext": null,
       "sources": [
@@ -757,6 +360,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "Evangelische Kirche in Grötzingen",
       "sourceContext": null,
       "sources": [
@@ -789,6 +393,7 @@
       "candidates": [],
       "eventCount": 2,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -837,6 +442,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -869,6 +475,7 @@
       "candidates": [],
       "eventCount": 2,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -917,6 +524,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -949,6 +557,7 @@
       "candidates": [],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -1012,6 +621,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "Nachprüfung: Kein einzelner fester Veranstaltungs- bzw. Treffpunkt aus der Ortsangabe ableitbar. Genauen Treffpunkt in der Originalquelle klären; keine Ortsmitte als Ersatz verwenden.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -1044,6 +654,7 @@
       "candidates": [],
       "eventCount": 2,
       "reviewNote": "Nachprüfung: Kein einzelner fester Veranstaltungs- bzw. Treffpunkt aus der Ortsangabe ableitbar. Genauen Treffpunkt in der Originalquelle klären; keine Ortsmitte als Ersatz verwenden.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -1076,6 +687,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -1102,6 +714,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -1128,6 +741,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -1154,6 +768,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -1180,6 +795,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -1206,6 +822,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -1232,6 +849,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -1258,6 +876,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein einzelner fester Veranstaltungs- bzw. Treffpunkt aus der Ortsangabe ableitbar. Genauen Treffpunkt in der Originalquelle klären; keine Ortsmitte als Ersatz verwenden.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -1284,6 +903,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -1310,6 +930,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -1330,73 +951,21 @@
       "scope": "karlsruhe",
       "scopeLabel": "Karlsruhe und Umgebung",
       "status": "review",
-      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
+      "reason": "Kein eindeutig passender Spielort gefunden.",
       "method": null,
       "place": null,
-      "candidates": [
-        {
-          "id": "osm-way-116520122",
-          "name": "St. Valentin",
-          "latitude": 49.0057609,
-          "longitude": 8.3263609,
-          "address": "Inselstraße 25, 76189 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/116520122",
-          "category": "amenity",
-          "type": "place_of_worship",
-          "street": "Inselstraße",
-          "houseNumber": "25",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-1223196927",
-          "name": "St. Valentin",
-          "latitude": 49.0048445,
-          "longitude": 8.3282871,
-          "address": "Taubenstraße, 76189 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/1223196927",
-          "category": "amenity",
-          "type": "kindergarten",
-          "street": "Taubenstraße",
-          "houseNumber": "",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-1015983752",
-          "name": "St.-Valentin-Platz",
-          "latitude": 49.0057567,
-          "longitude": 8.3266073,
-          "address": "Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/1015983752",
-          "category": "place",
-          "type": "square",
-          "street": "",
-          "houseNumber": "",
-          "score": 0.394,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-4271474",
-          "name": "St.-Valentin-Platz",
-          "latitude": 49.0056688,
-          "longitude": 8.3263745,
-          "address": "76189 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/4271474",
-          "category": "highway",
-          "type": "service",
-          "street": "",
-          "houseNumber": "",
-          "score": 0.394,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
+      "candidates": [],
       "eventCount": 1,
       "reviewNote": "Originalquelle nennt Waidweg 1 a-c, 76189 Karlsruhe. Noch keinen eindeutigen passenden Kartenpunkt bestätigt. Beleg: https://kalender.karlsruhe.de/db/termine/stadtleben/17_europaisches_filmfestival_der_generationen-13",
+      "sourceAddresses": [
+        {
+          "street": "Waidweg 1 a-c",
+          "city": "Karlsruhe",
+          "postalCode": "76189",
+          "address": "Waidweg 1 a-c, 76189 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/17_europaisches_filmfestival_der_generationen-13"
+        }
+      ],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -1423,6 +992,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein einzelner fester Veranstaltungs- bzw. Treffpunkt aus der Ortsangabe ableitbar. Genauen Treffpunkt in der Originalquelle klären; keine Ortsmitte als Ersatz verwenden.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -1449,6 +1019,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -1475,6 +1046,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein einzelner fester Veranstaltungs- bzw. Treffpunkt aus der Ortsangabe ableitbar. Genauen Treffpunkt in der Originalquelle klären; keine Ortsmitte als Ersatz verwenden.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -1517,6 +1089,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -1543,6 +1116,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -1585,6 +1159,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -1687,6 +1262,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -1713,6 +1289,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -1739,6 +1316,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -1796,6 +1374,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "Männergesangverein",
       "sourceContext": null,
       "sources": [
@@ -1853,6 +1432,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "Posaunenchor",
       "sourceContext": null,
       "sources": [
@@ -1879,6 +1459,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -1905,6 +1486,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein einzelner fester Veranstaltungs- bzw. Treffpunkt aus der Ortsangabe ableitbar. Genauen Treffpunkt in der Originalquelle klären; keine Ortsmitte als Ersatz verwenden.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -1931,6 +1513,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "Akkordeonring 1963 Wöschbach",
       "sourceContext": null,
       "sources": [
@@ -1957,6 +1540,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "Musikverein Frohsinn Wöschbach 1901",
       "sourceContext": null,
       "sources": [
@@ -1983,6 +1567,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "Naturfreunde",
       "sourceContext": null,
       "sources": [
@@ -2009,6 +1594,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "OGV",
       "sourceContext": null,
       "sources": [
@@ -2123,6 +1709,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "Originalquelle nennt Durlach Schlossplatz,  . Noch keinen eindeutigen passenden Kartenpunkt bestätigt. Beleg: https://kalender.karlsruhe.de/db/termine/stadtleben/durlach_pur_schloss_stadt_burgerhaus-6",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -2149,6 +1736,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -2175,6 +1763,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein einzelner fester Veranstaltungs- bzw. Treffpunkt aus der Ortsangabe ableitbar. Genauen Treffpunkt in der Originalquelle klären; keine Ortsmitte als Ersatz verwenden.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -2201,6 +1790,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -2227,6 +1817,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -2253,6 +1844,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -2364,6 +1956,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "Originalquelle nennt Rheinstraße, 76185 Karlsruhe. Noch keinen eindeutigen passenden Kartenpunkt bestätigt. Beleg: https://kalender.karlsruhe.de/db/termine/stadtleben/wochenmarkt_muhlburg",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -2390,6 +1983,15 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Originalquelle nennt Hintere Schlossteige/Schloss 1, 75305 Karlsruhe. Noch keinen eindeutigen passenden Kartenpunkt bestätigt. Beleg: https://kalender.karlsruhe.de/db/termine/ausstellungen/coded_art",
+      "sourceAddresses": [
+        {
+          "street": "Hintere Schlossteige/Schloss 1",
+          "city": "Karlsruhe",
+          "postalCode": "75305",
+          "address": "Hintere Schlossteige/Schloss 1, 75305 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/coded_art"
+        }
+      ],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -2489,6 +2091,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -2515,6 +2118,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -2530,108 +2134,6 @@
       ]
     },
     {
-      "key": "venue-3cb15564c4bd820c672c",
-      "location": "Staatliche Kunsthalle Karlsruhe",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "review",
-      "reason": "Mehrere gleich gut passende Kartenobjekte; Auswahl erforderlich.",
-      "method": null,
-      "place": null,
-      "candidates": [
-        {
-          "id": "osm-node-13669299089",
-          "name": "Staatliche Kunsthalle Karlsruhe",
-          "latitude": 49.00267,
-          "longitude": 8.3839704,
-          "address": "Lorenzstraße 19, 76135 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/13669299089",
-          "category": "tourism",
-          "type": "museum",
-          "street": "Lorenzstraße",
-          "houseNumber": "19",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-relation-13042785",
-          "name": "Staatliche Kunsthalle Karlsruhe",
-          "latitude": 49.0119303,
-          "longitude": 8.3997157,
-          "address": "Hans-Thoma-Straße 2, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/relation/13042785",
-          "category": "tourism",
-          "type": "gallery",
-          "street": "Hans-Thoma-Straße",
-          "houseNumber": "2",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-538857781",
-          "name": "Junge Kunsthalle",
-          "latitude": 49.0125116,
-          "longitude": 8.3991779,
-          "address": "Hans-Thoma-Straße 4, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/538857781",
-          "category": "tourism",
-          "type": "gallery",
-          "street": "Hans-Thoma-Straße",
-          "houseNumber": "4",
-          "score": 0.649,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-23855655",
-          "name": "Staatliche Hochschule für Gestaltung",
-          "latitude": 49.0020695,
-          "longitude": 8.3836683,
-          "address": "Lorenzstraße 15, 76135 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/23855655",
-          "category": "amenity",
-          "type": "university",
-          "street": "Lorenzstraße",
-          "houseNumber": "15",
-          "score": 0.456,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-relation-8653723",
-          "name": "Staatliche Akademie der bildenden Künste Karlsruhe – Außenstelle Schloss Scheibenhardt",
-          "latitude": 48.9748951,
-          "longitude": 8.3725028,
-          "address": "Guckallee, 76135 Ettlingen",
-          "url": "https://www.openstreetmap.org/relation/8653723",
-          "category": "amenity",
-          "type": "college",
-          "street": "Guckallee",
-          "houseNumber": "",
-          "score": 0.417,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "Mehrere Gebäude: Die aktuelle Lesung Ines Geipel findet laut https://www.kunsthalle-karlsruhe.de/termine/lesung-landschaft-ohne-zeugen/ in der Orangerie, Hans-Thoma-Straße 6 statt. Keine globale Zuordnung des unspezifischen Ortsnamens, da weitere Termine auch im ZKM stattfinden können.",
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-453c1c26ac93c9ff",
-          "title": "Ines Geipel: \"Landschaft ohne Zeugen\"",
-          "date": "2026-11-19",
-          "url": "https://kalender.karlsruhe.de/db/termine/literatur/ines_geipel_landschaft_ohne_zeugen"
-        }
-      ]
-    },
-    {
       "key": "venue-3ac48088052968bb0570",
       "location": "Vereinsgelände",
       "scope": "soellingen",
@@ -2643,6 +2145,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein einzelner fester Veranstaltungs- bzw. Treffpunkt aus der Ortsangabe ableitbar. Genauen Treffpunkt in der Originalquelle klären; keine Ortsmitte als Ersatz verwenden.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -2669,6 +2172,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein einzelner fester Veranstaltungs- bzw. Treffpunkt aus der Ortsangabe ableitbar. Genauen Treffpunkt in der Originalquelle klären; keine Ortsmitte als Ersatz verwenden.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -2726,6 +2230,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -2752,6 +2257,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein einzelner fester Veranstaltungs- bzw. Treffpunkt aus der Ortsangabe ableitbar. Genauen Treffpunkt in der Originalquelle klären; keine Ortsmitte als Ersatz verwenden.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -2854,6 +2360,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -2880,6 +2387,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein einzelner fester Veranstaltungs- bzw. Treffpunkt aus der Ortsangabe ableitbar. Genauen Treffpunkt in der Originalquelle klären; keine Ortsmitte als Ersatz verwenden.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -2906,6 +2414,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "Nachprüfung: Kein einzelner fester Veranstaltungs- bzw. Treffpunkt aus der Ortsangabe ableitbar. Genauen Treffpunkt in der Originalquelle klären; keine Ortsmitte als Ersatz verwenden.",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -2960,6 +2469,7 @@
       ],
       "eventCount": 50,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -3032,6 +2542,7 @@
       ],
       "eventCount": 50,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -3133,6 +2644,7 @@
       ],
       "eventCount": 42,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -3206,6 +2718,7 @@
       ],
       "eventCount": 34,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -3293,6 +2806,7 @@
       ],
       "eventCount": 22,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -3395,6 +2909,7 @@
       ],
       "eventCount": 21,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -3467,6 +2982,7 @@
       ],
       "eventCount": 20,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -3539,6 +3055,7 @@
       ],
       "eventCount": 17,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -3671,6 +3188,7 @@
       ],
       "eventCount": 17,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -3743,6 +3261,7 @@
       ],
       "eventCount": 17,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -3798,6 +3317,7 @@
       "candidates": [],
       "eventCount": 15,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": "remchingen",
       "sources": [
@@ -3870,6 +3390,7 @@
       ],
       "eventCount": 13,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -4007,6 +3528,7 @@
       ],
       "eventCount": 12,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -4139,6 +3661,7 @@
       ],
       "eventCount": 12,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -4211,6 +3734,7 @@
       ],
       "eventCount": 11,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -4283,6 +3807,7 @@
       ],
       "eventCount": 11,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -4370,6 +3895,7 @@
       ],
       "eventCount": 10,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -4442,6 +3968,7 @@
       ],
       "eventCount": 10,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -4529,6 +4056,7 @@
       ],
       "eventCount": 10,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -4616,6 +4144,7 @@
       ],
       "eventCount": 9,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -4704,6 +4233,7 @@
       ],
       "eventCount": 9,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -4835,6 +4365,7 @@
       ],
       "eventCount": 9,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "Eberhard Blauth",
       "sourceContext": null,
       "sources": [
@@ -4967,6 +4498,7 @@
       ],
       "eventCount": 8,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -5039,6 +4571,7 @@
       ],
       "eventCount": 8,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -5111,6 +4644,7 @@
       ],
       "eventCount": 7,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -5243,6 +4777,7 @@
       ],
       "eventCount": 7,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -5375,6 +4910,7 @@
       ],
       "eventCount": 7,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -5447,6 +4983,7 @@
       ],
       "eventCount": 7,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -5519,6 +5056,7 @@
       ],
       "eventCount": 7,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -5591,6 +5129,7 @@
       ],
       "eventCount": 6,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -5663,6 +5202,7 @@
       ],
       "eventCount": 6,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -5764,6 +5304,7 @@
       ],
       "eventCount": 6,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -5836,6 +5377,7 @@
       ],
       "eventCount": 6,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -5908,6 +5450,7 @@
       ],
       "eventCount": 6,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -5980,6 +5523,7 @@
       ],
       "eventCount": 6,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -6052,6 +5596,7 @@
       ],
       "eventCount": 5,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -6124,6 +5669,7 @@
       ],
       "eventCount": 5,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -6256,6 +5802,7 @@
       ],
       "eventCount": 5,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -6328,6 +5875,7 @@
       ],
       "eventCount": 5,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -6400,6 +5948,7 @@
       ],
       "eventCount": 5,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -6487,6 +6036,7 @@
       ],
       "eventCount": 5,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -6559,6 +6109,7 @@
       ],
       "eventCount": 4,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -6661,6 +6212,7 @@
       ],
       "eventCount": 4,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -6748,6 +6300,7 @@
       ],
       "eventCount": 4,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "Weingartener Theaterkiste e.V.",
       "sourceContext": null,
       "sources": [
@@ -6820,6 +6373,7 @@
       ],
       "eventCount": 4,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -6907,6 +6461,7 @@
       ],
       "eventCount": 4,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -7038,6 +6593,7 @@
       ],
       "eventCount": 4,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -7169,6 +6725,7 @@
       ],
       "eventCount": 4,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -7271,6 +6828,7 @@
       ],
       "eventCount": 4,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -7357,6 +6915,7 @@
       ],
       "eventCount": 4,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -7429,6 +6988,7 @@
       ],
       "eventCount": 4,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -7487,6 +7047,7 @@
       "candidates": [],
       "eventCount": 4,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -7516,6 +7077,67 @@
           "title": "Open Stage im TanzAreal",
           "date": "2026-11-29",
           "url": "https://kalender.karlsruhe.de/db/termine/theater/open_stage_im_tanzareal-1"
+        }
+      ]
+    },
+    {
+      "key": "venue-785ee87a97bd2b95c5d2",
+      "location": "Alte RemBar (Altes Rathaus Nöttingen)",
+      "scope": "remchingen",
+      "scopeLabel": "Remchingen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-233899006",
+        "name": "Frauenwaldstraße 6",
+        "latitude": 48.9295449,
+        "longitude": 8.5729205,
+        "address": "Frauenwaldstraße 6, 75196 Remchingen",
+        "url": "https://www.openstreetmap.org/way/233899006",
+        "category": "building",
+        "type": "public",
+        "city": "Remchingen",
+        "district": "",
+        "locality": "",
+        "street": "Frauenwaldstraße",
+        "houseNumber": "6"
+      },
+      "candidates": [],
+      "eventCount": 3,
+      "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [
+        {
+          "street": "Frauenwaldstraße 6",
+          "city": "Remchingen",
+          "postalCode": "75196",
+          "address": "Frauenwaldstraße 6, 75196 Remchingen",
+          "url": "https://www.remchingen.de/veranstaltungen/repair-cafe-id_3347/"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Gemeinde Remchingen"
+      ],
+      "examples": [
+        {
+          "id": "remchingen-3347-2026-11-20-1500",
+          "title": "Repair-Café",
+          "date": "2026-11-20",
+          "url": "https://www.remchingen.de/veranstaltungen/repair-cafe-id_3347/"
+        },
+        {
+          "id": "remchingen-3348-2026-12-18-1500",
+          "title": "Repair-Café",
+          "date": "2026-12-18",
+          "url": "https://www.remchingen.de/veranstaltungen/repair-cafe-id_3348/"
+        },
+        {
+          "id": "remchingen-3397-2027-01-15-1500",
+          "title": "Repair-Café",
+          "date": "2027-01-15",
+          "url": "https://www.remchingen.de/veranstaltungen/repair-cafe-id_3397/"
         }
       ]
     },
@@ -7574,6 +7196,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -7670,6 +7293,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -7795,6 +7419,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -7920,6 +7545,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -7986,6 +7612,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -8052,6 +7679,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -8075,6 +7703,68 @@
           "title": "Adventslesung",
           "date": "2027-12-05",
           "url": "https://www.walzbachtal.de/veranstaltung/Adventslesung-event-appointment5940"
+        }
+      ]
+    },
+    {
+      "key": "venue-1e8bbc1ea1b8c55cb59e",
+      "location": "Imagine, Schauspielschule für Kinder und Jugendliche",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-101325635",
+        "name": "Ettlinger Straße 5 (Gebäudepunkt für Imagine)",
+        "latitude": 49.0026575,
+        "longitude": 8.4035248,
+        "address": "Ettlinger Straße 5, 76137 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/101325635",
+        "category": "amenity",
+        "type": "pharmacy",
+        "city": "Karlsruhe",
+        "district": "Südstadt",
+        "locality": "Südstadt Nördlicher Teil",
+        "street": "Ettlinger Straße",
+        "houseNumber": "5",
+        "osmName": "Congress-Apotheke"
+      },
+      "candidates": [],
+      "eventCount": 3,
+      "reviewNote": "Originalquelle nennt Ettlinger Str.5, 76133 Karlsruhe. Noch keinen eindeutigen passenden Kartenpunkt bestätigt. Beleg: https://kalender.karlsruhe.de/db/termine/theater/schnupperworkshop_theaterspielen_fur-2",
+      "sourceAddresses": [
+        {
+          "street": "Ettlinger Str.5",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Ettlinger Str.5, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/schnupperworkshop_theaterspielen_fur-2"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-5d61ae7985abdfb8",
+          "title": "Schnupperworkshop Theaterspielen für Kinder von 6-8 Jahren",
+          "date": "2026-11-28",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/schnupperworkshop_theaterspielen_fur-2"
+        },
+        {
+          "id": "karlsruhe-1d40920288c75fd9",
+          "title": "Schnupperworkshop Theaterspielen für Kinder von 10-13 Jahren",
+          "date": "2026-11-28",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/schnupperworkshop_theaterspielen_fur-1"
+        },
+        {
+          "id": "karlsruhe-1e236d9af83ed78d",
+          "title": "Schnupperworkshop Theaterspielen für Jugendliche von 14-17 Jahren",
+          "date": "2026-11-28",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/schnupperworkshop_theaterspielen_fur"
         }
       ]
     },
@@ -8190,6 +7880,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -8256,6 +7947,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -8352,6 +8044,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -8447,6 +8140,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -8513,6 +8207,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -8536,6 +8231,207 @@
           "title": "Tanzen mit Erika",
           "date": "2026-11-26",
           "url": "https://kalender.karlsruhe.de/db/termine/theater/tanzen_mit_erika-1"
+        }
+      ]
+    },
+    {
+      "key": "venue-1f83c837aa89ab87fec5",
+      "location": "Lammsaal Jöhlingen , Walzbachtal",
+      "scope": "joehlingen",
+      "scopeLabel": "Walzbachtal-Jöhlingen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-555542597",
+        "name": "Jöhlinger Straße 104",
+        "latitude": 49.0323469,
+        "longitude": 8.5745361,
+        "address": "Jöhlinger Straße 104, 75045 Walzbachtal",
+        "url": "https://www.openstreetmap.org/way/555542597",
+        "category": "building",
+        "type": "retail",
+        "city": "Walzbachtal",
+        "district": "Jöhlingen",
+        "locality": "",
+        "street": "Jöhlinger Straße",
+        "houseNumber": "104"
+      },
+      "candidates": [
+        {
+          "id": "walzbachtal-address-2799",
+          "name": "Lammsaal Jöhlingen ",
+          "address": "Jöhlinger Str.  104, 75045 Walzbachtal",
+          "latitude": 49.0506214,
+          "longitude": 8.5450335918892,
+          "url": "https://www.walzbachtal.de/adresse/Lammsaal-Joehlingen-address2799",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Weihnachtsfeier-Gesangverein-Frohsinn-event-appointment4605",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher",
+          "score": 1.0,
+          "exact": false,
+          "outsideContext": true
+        }
+      ],
+      "eventCount": 3,
+      "reviewNote": "Originalquelle nennt Jöhlinger Str. 104, ihr veröffentlichter Kartenpunkt liegt jedoch außerhalb Jöhlingens. https://www.lamm-hotel.de/kontakt/ bestätigt die Adresse. Koordinate vor Bestätigung prüfen.",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Walzbachtal · Jöhlingen und Wössingen"
+      ],
+      "examples": [
+        {
+          "id": "walzbachtal-4605-2026-12-13-1500",
+          "title": "Weihnachtsfeier Gesangverein Frohsinn",
+          "date": "2026-12-13",
+          "url": "https://www.walzbachtal.de/veranstaltung/Weihnachtsfeier-Gesangverein-Frohsinn-event-appointment4605"
+        },
+        {
+          "id": "walzbachtal-6112-2027-04-08-1930",
+          "title": "Mitgliederversammlung Frohsinn Jöhlingen",
+          "date": "2027-04-08",
+          "url": "https://www.walzbachtal.de/veranstaltung/Mitgliederversammlung-Frohsinn-Joehlingen-event-appointment6112"
+        },
+        {
+          "id": "walzbachtal-6114-2027-12-11-1500",
+          "title": "Weihnachtsfeier Frohsinn Jöhlingen",
+          "date": "2027-12-11",
+          "url": "https://www.walzbachtal.de/veranstaltung/Weihnachtsfeier-Frohsinn-Joehlingen-event-appointment6114"
+        }
+      ]
+    },
+    {
+      "key": "venue-78defb2823c4adeb7f63",
+      "location": "Marktplatz Karlsruhe",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-743665089",
+        "name": "Marktplatz",
+        "latitude": 49.0089484,
+        "longitude": 8.4038789,
+        "address": "Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/743665089",
+        "category": "place",
+        "type": "square",
+        "street": "",
+        "houseNumber": ""
+      },
+      "candidates": [
+        {
+          "id": "osm-way-103361548",
+          "name": "Marktplatz",
+          "latitude": 48.9989945,
+          "longitude": 8.4714667,
+          "address": "76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/103361548",
+          "category": "highway",
+          "type": "pedestrian",
+          "street": "",
+          "houseNumber": "",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-131567352",
+          "name": "Marktplatz",
+          "latitude": 48.9990209,
+          "longitude": 8.4714949,
+          "address": "76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/131567352",
+          "category": "highway",
+          "type": "pedestrian",
+          "street": "",
+          "houseNumber": "",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-743665089",
+          "name": "Marktplatz",
+          "latitude": 49.0089484,
+          "longitude": 8.4038789,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/743665089",
+          "category": "place",
+          "type": "square",
+          "street": "",
+          "houseNumber": "",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-11570863329",
+          "name": "Marktplatz (Pyramide)",
+          "latitude": 49.0091102,
+          "longitude": 8.4038425,
+          "address": "Zähringerstraße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/11570863329",
+          "category": "highway",
+          "type": "elevator",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Zähringerstraße",
+          "houseNumber": "",
+          "score": 0.69,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-2640942878",
+          "name": "Marktplatz (Pyramide U)",
+          "latitude": 49.0086264,
+          "longitude": 8.4037145,
+          "address": "Karl-Friedrich-Straße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/2640942878",
+          "category": "railway",
+          "type": "stop",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Karl-Friedrich-Straße",
+          "houseNumber": "",
+          "score": 0.645,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 3,
+      "reviewNote": "Originalquelle nennt Marktplatz, 76133 Karlsruhe. Noch keinen eindeutigen passenden Kartenpunkt bestätigt. Beleg: https://kalender.karlsruhe.de/db/termine/stadtleben/karlsruher_christkindlesmarkt",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-d384daea82fa982b",
+          "title": "Blumenmarkt",
+          "date": "2025-11-19",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/blumenmarkt"
+        },
+        {
+          "id": "karlsruhe-77ae02033b85a4ab",
+          "title": "Pyramidenmarkt",
+          "date": "2025-11-19",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/pyramidenmarkt"
+        },
+        {
+          "id": "karlsruhe-710e49a57e3810bf",
+          "title": "Karlsruher Christkindlesmarkt",
+          "date": "2026-11-23",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/karlsruher_christkindlesmarkt"
         }
       ]
     },
@@ -8579,6 +8475,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -8710,6 +8607,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -8791,6 +8689,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -8859,6 +8758,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -8939,6 +8839,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -9005,6 +8906,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -9071,6 +8973,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -9197,6 +9100,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -9323,6 +9227,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -9418,6 +9323,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -9484,6 +9390,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -9565,6 +9472,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -9631,6 +9539,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -9696,6 +9605,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -9777,6 +9687,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -9842,6 +9753,7 @@
       ],
       "eventCount": 3,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -9908,6 +9820,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -9968,6 +9881,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -10011,6 +9925,7 @@
       "candidates": [],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -10028,6 +9943,92 @@
           "title": "Kino über der Stadt Shorts",
           "date": "2026-11-30",
           "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/kino_uber_der_stadt_shorts"
+        }
+      ]
+    },
+    {
+      "key": "venue-aaf6c7163d41740efa42",
+      "location": "Café NUN",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-node-1669073010",
+        "name": "nun Kaffeehaus",
+        "latitude": 49.0068065,
+        "longitude": 8.4207765,
+        "address": "Gottesauer Straße 35, 76131 Karlsruhe",
+        "url": "https://www.openstreetmap.org/node/1669073010",
+        "category": "amenity",
+        "type": "bar",
+        "street": "Gottesauer Straße",
+        "houseNumber": "35"
+      },
+      "candidates": [
+        {
+          "id": "osm-node-1669073010",
+          "name": "nun Kaffeehaus",
+          "latitude": 49.0068065,
+          "longitude": 8.4207765,
+          "address": "Gottesauer Straße 35, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1669073010",
+          "category": "amenity",
+          "type": "bar",
+          "street": "Gottesauer Straße",
+          "houseNumber": "35",
+          "score": 0.333,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-108832351",
+          "name": "Gottesauer Straße 35",
+          "latitude": 49.0068154,
+          "longitude": 8.4208005,
+          "address": "Gottesauer Straße 35, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/108832351",
+          "category": "building",
+          "type": "residential",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Westlicher Teil",
+          "street": "Gottesauer Straße",
+          "houseNumber": "35",
+          "score": 0.207,
+          "exact": true,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 2,
+      "reviewNote": "Originalquelle nennt Gottesauerstraße 35, 76131 Karlsruhe. Noch keinen eindeutigen passenden Kartenpunkt bestätigt. Beleg: https://kalender.karlsruhe.de/db/termine/musik/schragfest_9_mit_frederik_tebbe_julian",
+      "sourceAddresses": [
+        {
+          "street": "Gottesauerstraße 35",
+          "city": "Karlsruhe",
+          "postalCode": "76131",
+          "address": "Gottesauerstraße 35, 76131 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/schragfest_9_mit_frederik_tebbe_julian"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-ed0709b111811179",
+          "title": "Schrägfest # 9 mit FREDERIK TEBBE + JULIAN KNOTH mit Trio Abstrich",
+          "date": "2026-11-21",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/schragfest_9_mit_frederik_tebbe_julian"
+        },
+        {
+          "id": "karlsruhe-82717ec7b836a584",
+          "title": "NUN-Märchenzeit: Tischlein deck dich mit Markus Finkler",
+          "date": "2026-11-29",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/nun_marchenzeit_tischlein_deck_dich_mit_markus_finkler"
         }
       ]
     },
@@ -10116,6 +10117,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -10244,6 +10246,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -10303,6 +10306,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -10377,6 +10381,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "Musikverein Freundschaft Berghausen",
       "sourceContext": null,
       "sources": [
@@ -10437,6 +10442,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -10497,6 +10503,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -10622,6 +10629,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -10681,6 +10689,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -10737,10 +10746,29 @@
           "score": 1.0,
           "exact": true,
           "outsideContext": false
+        },
+        {
+          "id": "osm-way-220722732",
+          "name": "Hans-Thoma-Straße 6 A",
+          "latitude": 49.1085121,
+          "longitude": 8.4814642,
+          "address": "Hans-Thoma-Straße 6 A, 76297 Friedrichstal",
+          "url": "https://www.openstreetmap.org/way/220722732",
+          "category": "building",
+          "type": "yes",
+          "city": "Friedrichstal",
+          "district": "Friedrichstal",
+          "locality": "",
+          "street": "Hans-Thoma-Straße",
+          "houseNumber": "6 A",
+          "score": 0.465,
+          "exact": false,
+          "outsideContext": false
         }
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -10786,6 +10814,24 @@
       },
       "candidates": [
         {
+          "id": "osm-way-220722732",
+          "name": "Hans-Thoma-Straße 6 A",
+          "latitude": 49.1085121,
+          "longitude": 8.4814642,
+          "address": "Hans-Thoma-Straße 6 A, 76297 Friedrichstal",
+          "url": "https://www.openstreetmap.org/way/220722732",
+          "category": "building",
+          "type": "yes",
+          "city": "Friedrichstal",
+          "district": "Friedrichstal",
+          "locality": "",
+          "street": "Hans-Thoma-Straße",
+          "houseNumber": "6 A",
+          "score": 0.52,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
           "id": "osm-node-12530403425",
           "name": "Hans-Kampffmeyer-Saal",
           "latitude": 48.9727458,
@@ -10803,6 +10849,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -10923,6 +10970,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -10982,6 +11030,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -11063,6 +11112,9 @@
           "url": "https://www.openstreetmap.org/relation/13042785",
           "category": "tourism",
           "type": "gallery",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
           "street": "Hans-Thoma-Straße",
           "houseNumber": "2",
           "score": 0.649,
@@ -11072,6 +11124,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -11161,6 +11214,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -11286,6 +11340,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -11361,6 +11416,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -11481,6 +11537,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -11540,6 +11597,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -11615,6 +11673,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "Musikverein Freundschaft Berghausen",
       "sourceContext": null,
       "sources": [
@@ -11690,6 +11749,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "Interessengemeinschaft Kulturhalle",
       "sourceContext": null,
       "sources": [
@@ -11779,6 +11839,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -11871,6 +11932,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -11991,6 +12053,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -12051,6 +12114,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -12131,6 +12195,9 @@
           "url": "https://www.openstreetmap.org/relation/13042785",
           "category": "tourism",
           "type": "gallery",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
           "street": "Hans-Thoma-Straße",
           "houseNumber": "2",
           "score": 0.737,
@@ -12170,6 +12237,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -12216,6 +12284,7 @@
       "candidates": [],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -12320,6 +12389,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -12410,6 +12480,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -12470,6 +12541,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -12530,6 +12602,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -12590,6 +12663,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -12679,6 +12753,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -12798,6 +12873,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -12858,6 +12934,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -12933,6 +13010,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -12993,6 +13071,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -13067,6 +13146,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -13127,6 +13207,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -13186,6 +13267,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -13263,6 +13345,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -13306,6 +13389,7 @@
       "candidates": [],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -13366,6 +13450,7 @@
       ],
       "eventCount": 2,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -13412,6 +13497,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -13525,6 +13611,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -13597,6 +13684,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -13650,6 +13738,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -13690,6 +13779,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -13759,6 +13849,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -13872,6 +13963,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -13956,6 +14048,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -14069,6 +14162,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -14183,6 +14277,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -14242,6 +14337,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -14295,6 +14391,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -14366,6 +14463,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -14420,6 +14518,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -14533,6 +14632,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -14632,6 +14732,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -14688,6 +14789,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -14742,6 +14844,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -14796,6 +14899,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -14850,6 +14954,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -14904,6 +15009,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -15035,6 +15141,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -15149,6 +15256,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -15203,6 +15311,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -15240,6 +15349,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -15293,6 +15403,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -15346,6 +15457,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -15462,6 +15574,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -15499,6 +15612,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -15568,6 +15682,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "GV Frohsinn 1886 Weingarten (Baden) e.V.",
       "sourceContext": null,
       "sources": [
@@ -15622,6 +15737,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -15676,6 +15792,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -15713,6 +15830,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -15796,6 +15914,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -15880,6 +15999,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -15934,6 +16054,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -16047,6 +16168,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -16118,6 +16240,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -16234,6 +16357,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -16294,6 +16418,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -16407,6 +16532,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -16520,6 +16646,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -16603,6 +16730,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -16657,6 +16785,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -16711,6 +16840,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -16765,6 +16895,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -16878,6 +17009,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -16918,6 +17050,7 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -17034,6 +17167,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -17150,6 +17284,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -17264,6 +17399,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -17336,6 +17472,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -17389,6 +17526,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -17443,6 +17581,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -17503,6 +17642,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -17557,6 +17697,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -17673,6 +17814,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -17726,6 +17868,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -17840,6 +17983,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -17953,6 +18097,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -18066,6 +18211,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -18120,6 +18266,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -18174,6 +18321,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -18242,6 +18390,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -18295,6 +18444,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -18349,6 +18499,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -18403,6 +18554,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -18457,6 +18609,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -18507,10 +18660,29 @@
           "score": 0.93,
           "exact": true,
           "outsideContext": false
+        },
+        {
+          "id": "osm-way-220722732",
+          "name": "Hans-Thoma-Straße 6 A",
+          "latitude": 49.1085121,
+          "longitude": 8.4814642,
+          "address": "Hans-Thoma-Straße 6 A, 76297 Friedrichstal",
+          "url": "https://www.openstreetmap.org/way/220722732",
+          "category": "building",
+          "type": "yes",
+          "city": "Friedrichstal",
+          "district": "Friedrichstal",
+          "locality": "",
+          "street": "Hans-Thoma-Straße",
+          "houseNumber": "6 A",
+          "score": 0.444,
+          "exact": false,
+          "outsideContext": false
         }
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -18624,6 +18796,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -18678,6 +18851,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -18791,6 +18965,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -18844,6 +19019,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -18963,6 +19139,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -19046,6 +19223,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -19159,6 +19337,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -19213,6 +19392,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -19267,6 +19447,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -19321,6 +19502,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -19374,6 +19556,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -19427,6 +19610,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -19525,6 +19709,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -19641,6 +19826,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -19710,6 +19896,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -19763,6 +19950,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -19883,6 +20071,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -19951,6 +20140,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -20005,6 +20195,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -20074,6 +20265,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -20190,6 +20382,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -20259,6 +20452,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -20372,6 +20566,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -20426,6 +20621,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -20510,6 +20706,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -20564,6 +20761,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -20633,6 +20831,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -20687,6 +20886,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -20756,6 +20956,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -20815,6 +21016,9 @@
           "url": "https://www.openstreetmap.org/relation/13042785",
           "category": "tourism",
           "type": "gallery",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
           "street": "Hans-Thoma-Straße",
           "houseNumber": "2",
           "score": 0.553,
@@ -20872,6 +21076,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -20926,6 +21131,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -20995,6 +21201,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -21049,6 +21256,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -21132,6 +21340,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -21255,6 +21464,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -21266,6 +21476,75 @@
           "title": "Laura Vazquez: „Les Forces\" dt. „Die Kräfte“",
           "date": "2026-11-17",
           "url": "https://kalender.karlsruhe.de/db/termine/literatur/laura_vazquez_les_forces_dt_die_krafte"
+        }
+      ]
+    },
+    {
+      "key": "venue-3cb15564c4bd820c672c",
+      "location": "Staatliche Kunsthalle Karlsruhe",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
+      "method": "automatic",
+      "place": {
+        "id": "osm-relation-13042785",
+        "name": "Staatliche Kunsthalle Karlsruhe",
+        "latitude": 49.0119303,
+        "longitude": 8.3997157,
+        "address": "Hans-Thoma-Straße 2, 76133 Karlsruhe",
+        "url": "https://www.openstreetmap.org/relation/13042785",
+        "category": "tourism",
+        "type": "gallery",
+        "city": "Karlsruhe",
+        "district": "Innenstadt-West",
+        "locality": "Innenstadt-West Östlicher Teil",
+        "street": "Hans-Thoma-Straße",
+        "houseNumber": "2",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "osm-relation-13042785",
+          "name": "Staatliche Kunsthalle Karlsruhe",
+          "latitude": 49.0119303,
+          "longitude": 8.3997157,
+          "address": "Hans-Thoma-Straße 2, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/13042785",
+          "category": "tourism",
+          "type": "gallery",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Hans-Thoma-Straße",
+          "houseNumber": "2",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "Mehrere Gebäude: Die aktuelle Lesung Ines Geipel findet laut https://www.kunsthalle-karlsruhe.de/termine/lesung-landschaft-ohne-zeugen/ in der Orangerie, Hans-Thoma-Straße 6 statt. Keine globale Zuordnung des unspezifischen Ortsnamens, da weitere Termine auch im ZKM stattfinden können.",
+      "sourceAddresses": [
+        {
+          "street": "Hans-Thoma-Straße 2-6",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Hans-Thoma-Straße 2-6, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/ines_geipel_landschaft_ohne_zeugen"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-453c1c26ac93c9ff",
+          "title": "Ines Geipel: \"Landschaft ohne Zeugen\"",
+          "date": "2026-11-19",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/ines_geipel_landschaft_ohne_zeugen"
         }
       ]
     },
@@ -21369,6 +21648,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -21482,6 +21762,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -21550,6 +21831,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -21633,6 +21915,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -21687,6 +21970,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -21751,10 +22035,65 @@
           "score": 0.227,
           "exact": true,
           "outsideContext": false
+        },
+        {
+          "id": "osm-way-122660046",
+          "name": "Remchinger Straße 6",
+          "latitude": 48.9526512,
+          "longitude": 8.5728238,
+          "address": "Remchinger Straße 6, 75196 Wilferdingen",
+          "url": "https://www.openstreetmap.org/way/122660046",
+          "category": "building",
+          "type": "detached",
+          "city": "Wilferdingen",
+          "district": "",
+          "locality": "",
+          "street": "Remchinger Straße",
+          "houseNumber": "6",
+          "score": 0.473,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-303148775",
+          "name": "Gleiwitzer Straße 6",
+          "latitude": 48.9282614,
+          "longitude": 8.5741405,
+          "address": "Gleiwitzer Straße 6, 75196 Nöttingen",
+          "url": "https://www.openstreetmap.org/way/303148775",
+          "category": "building",
+          "type": "residential",
+          "city": "Nöttingen",
+          "district": "",
+          "locality": "",
+          "street": "Gleiwitzer Straße",
+          "houseNumber": "6",
+          "score": 0.473,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-233899006",
+          "name": "Frauenwaldstraße 6",
+          "latitude": 48.9295449,
+          "longitude": 8.5729205,
+          "address": "Frauenwaldstraße 6, 75196 Remchingen",
+          "url": "https://www.openstreetmap.org/way/233899006",
+          "category": "building",
+          "type": "public",
+          "city": "Remchingen",
+          "district": "",
+          "locality": "",
+          "street": "Frauenwaldstraße",
+          "houseNumber": "6",
+          "score": 0.444,
+          "exact": false,
+          "outsideContext": false
         }
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -21860,6 +22199,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -21914,6 +22254,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -21968,6 +22309,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -22084,6 +22426,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -22138,6 +22481,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -22192,6 +22536,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -22245,6 +22590,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -22298,6 +22644,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -22366,6 +22713,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -22420,6 +22768,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -22489,6 +22838,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -22543,6 +22893,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -22656,6 +23007,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -22710,6 +23062,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -22764,6 +23117,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -22862,6 +23216,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -22931,6 +23286,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -23000,6 +23356,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -23069,6 +23426,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -23122,6 +23480,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -23176,6 +23535,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -23260,6 +23620,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -23313,6 +23674,7 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sources": [
