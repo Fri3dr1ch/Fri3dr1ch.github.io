@@ -15323,6 +15323,436 @@
           "houseNumber": "9"
         }
       ]
+    },
+    "Erbprinzen straße 13, Karlsruhe": {
+      "checkedAt": "2026-11-17T21:01:22+00:00",
+      "places": [
+        {
+          "id": "osm-way-431433884",
+          "name": "Staatliches Museum für Naturkunde",
+          "latitude": 49.0069855,
+          "longitude": 8.400144,
+          "address": "Erbprinzenstraße 13, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/431433884",
+          "category": "tourism",
+          "type": "museum",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Erbprinzenstraße",
+          "houseNumber": "13"
+        },
+        {
+          "id": "osm-node-8022619493",
+          "name": "Bibliothek des Staatlichen Museums für Naturkunde Karlsruhe",
+          "latitude": 49.0069553,
+          "longitude": 8.3995595,
+          "address": "Erbprinzenstraße 13, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/8022619493",
+          "category": "amenity",
+          "type": "library",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Erbprinzenstraße",
+          "houseNumber": "13"
+        },
+        {
+          "id": "osm-node-2460204059",
+          "name": "Erbprinzenstraße 13",
+          "latitude": 49.0074007,
+          "longitude": 8.4004504,
+          "address": "Erbprinzenstraße 13, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/2460204059",
+          "category": "place",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Erbprinzenstraße",
+          "houseNumber": "13"
+        },
+        {
+          "id": "osm-way-4058954",
+          "name": "Erbprinzenstraße 13",
+          "latitude": 49.0070646,
+          "longitude": 8.4002293,
+          "address": "Erbprinzenstraße 13, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/4058954",
+          "category": "building",
+          "type": "museum",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Erbprinzenstraße",
+          "houseNumber": "13"
+        },
+        {
+          "id": "osm-way-289729851",
+          "name": "Karlsruher Straße 13",
+          "latitude": 49.0299857,
+          "longitude": 8.4579884,
+          "address": "Karlsruher Straße 13, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/289729851",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Hagsfeld",
+          "locality": "Alt-Hagsfeld",
+          "street": "Karlsruher Straße",
+          "houseNumber": "13"
+        }
+      ]
+    },
+    "Prinz-Max-Palais, Karl straße 10, Karlsruhe": {
+      "checkedAt": "2026-11-17T21:01:22+00:00",
+      "places": [
+        {
+          "id": "osm-way-90051674",
+          "name": "Prinz-Max-Palais",
+          "latitude": 49.0111857,
+          "longitude": 8.3947581,
+          "address": "Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/90051674",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Karlstraße",
+          "houseNumber": "10"
+        },
+        {
+          "id": "osm-node-375691054",
+          "name": "Kinder- und Jugendbibliothek im Prinz-Max-Palais",
+          "latitude": 49.0112378,
+          "longitude": 8.3948222,
+          "address": "Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/375691054",
+          "category": "amenity",
+          "type": "library",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Karlstraße",
+          "houseNumber": "10"
+        },
+        {
+          "id": "osm-node-659502172",
+          "name": "Museum für Literatur am Oberrhein",
+          "latitude": 49.0111814,
+          "longitude": 8.3946773,
+          "address": "Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/659502172",
+          "category": "tourism",
+          "type": "museum",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Karlstraße",
+          "houseNumber": "10"
+        },
+        {
+          "id": "osm-node-659502171",
+          "name": "Stadtmuseum",
+          "latitude": 49.0111502,
+          "longitude": 8.3948343,
+          "address": "Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/659502171",
+          "category": "tourism",
+          "type": "museum",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Karlstraße",
+          "houseNumber": "10"
+        },
+        {
+          "id": "osm-way-107108991",
+          "name": "Markgräfliches Palais",
+          "latitude": 49.006766,
+          "longitude": 8.4040373,
+          "address": "Karl-Friedrich-Straße 23, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/107108991",
+          "category": "building",
+          "type": "commercial",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Karl-Friedrich-Straße",
+          "houseNumber": "23"
+        }
+      ]
+    },
+    "Lorenz straße 27, Städtische Galerie Karlsruhe, Karlsruhe": {
+      "checkedAt": "2026-11-17T21:01:22+00:00",
+      "places": [
+        {
+          "id": "osm-way-224089407",
+          "name": "Kunstmuseum Karlsruhe",
+          "latitude": 49.0003577,
+          "longitude": 8.3834933,
+          "address": "Lorenzstraße 27, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/224089407",
+          "category": "tourism",
+          "type": "museum",
+          "city": "Karlsruhe",
+          "district": "Südweststadt",
+          "locality": "Beiertheimer Feld",
+          "street": "Lorenzstraße",
+          "houseNumber": "27"
+        }
+      ]
+    },
+    "Nidda straße 9, Karlsruhe": {
+      "checkedAt": "2026-11-17T21:01:22+00:00",
+      "places": [
+        {
+          "id": "osm-way-151523980",
+          "name": "Werrabronner Straße 9",
+          "latitude": 49.0159359,
+          "longitude": 8.4956162,
+          "address": "Werrabronner Straße 9, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151523980",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Werrabronner Straße",
+          "houseNumber": "9"
+        },
+        {
+          "id": "osm-way-151373349",
+          "name": "Heinrich-Kurz-Straße 9",
+          "latitude": 49.0099226,
+          "longitude": 8.4944398,
+          "address": "Heinrich-Kurz-Straße 9, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151373349",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Heinrich-Kurz-Straße",
+          "houseNumber": "9"
+        },
+        {
+          "id": "osm-way-151504819",
+          "name": "Weingartener Straße 9",
+          "latitude": 49.0121086,
+          "longitude": 8.4953964,
+          "address": "Weingartener Straße 9, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151504819",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Weingartener Straße",
+          "houseNumber": "9"
+        },
+        {
+          "id": "osm-way-151512474",
+          "name": "Durlacher Straße 9",
+          "latitude": 49.0138077,
+          "longitude": 8.4930628,
+          "address": "Durlacher Straße 9, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151512474",
+          "category": "building",
+          "type": "residential",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Durlacher Straße",
+          "houseNumber": "9"
+        },
+        {
+          "id": "osm-way-151379651",
+          "name": "Karl-Leopold-Straße 9",
+          "latitude": 49.0106493,
+          "longitude": 8.4941391,
+          "address": "Karl-Leopold-Straße 9, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151379651",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Karl-Leopold-Straße",
+          "houseNumber": "9"
+        }
+      ]
+    },
+    "Kaiserallee 12e, Karlsruhe": {
+      "checkedAt": "2026-11-17T21:01:22+00:00",
+      "places": [
+        {
+          "id": "osm-way-89564038",
+          "name": "Volkshochschule Karlsruhe",
+          "latitude": 49.0112872,
+          "longitude": 8.3759401,
+          "address": "Kaiserallee 12e, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/89564038",
+          "category": "office",
+          "type": "educational_institution",
+          "city": "Karlsruhe",
+          "district": "Weststadt",
+          "locality": "Weststadt Mittlerer Teil",
+          "street": "Kaiserallee",
+          "houseNumber": "12e"
+        },
+        {
+          "id": "osm-node-13171490915",
+          "name": "VWA",
+          "latitude": 49.0112983,
+          "longitude": 8.3761176,
+          "address": "Kaiserallee 12e, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/13171490915",
+          "category": "amenity",
+          "type": "college",
+          "city": "Karlsruhe",
+          "district": "Weststadt",
+          "locality": "Weststadt Mittlerer Teil",
+          "street": "Kaiserallee",
+          "houseNumber": "12e"
+        }
+      ]
+    },
+    "Kaiserpassage 6, Karlsruhe": {
+      "checkedAt": "2026-11-17T21:01:22+00:00",
+      "places": [
+        {
+          "id": "osm-way-108994143",
+          "name": "Kaiserpassage 6",
+          "latitude": 49.0106171,
+          "longitude": 8.3969911,
+          "address": "Kaiserpassage 6, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/108994143",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Kaiserpassage",
+          "houseNumber": "6"
+        },
+        {
+          "id": "osm-node-30969701",
+          "name": "Kinemathek",
+          "latitude": 49.010561,
+          "longitude": 8.3968591,
+          "address": "Kaiserpassage 6, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/30969701",
+          "category": "amenity",
+          "type": "cinema",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Kaiserpassage",
+          "houseNumber": "6"
+        },
+        {
+          "id": "osm-node-2726790178",
+          "name": "Jazzclub Karlsruhe",
+          "latitude": 49.0105065,
+          "longitude": 8.3969181,
+          "address": "Kaiserpassage 6, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/2726790178",
+          "category": "amenity",
+          "type": "nightclub",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Kaiserpassage",
+          "houseNumber": "6"
+        }
+      ]
+    },
+    "Durlacher Allee 62, Karlsruhe": {
+      "checkedAt": "2026-11-17T21:01:22+00:00",
+      "places": [
+        {
+          "id": "osm-way-314980338",
+          "name": "Durlacher Allee",
+          "latitude": 49.0076572,
+          "longitude": 8.4235858,
+          "address": "76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/314980338",
+          "category": "highway",
+          "type": "secondary",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Westlicher Teil",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-243819942",
+          "name": "Durlacher Allee",
+          "latitude": 49.0008652,
+          "longitude": 8.4617786,
+          "address": "76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/243819942",
+          "category": "highway",
+          "type": "secondary",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-134547021",
+          "name": "Durlacher Allee",
+          "latitude": 49.0050082,
+          "longitude": 8.4387431,
+          "address": "76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/134547021",
+          "category": "highway",
+          "type": "primary",
+          "city": "Karlsruhe",
+          "district": "Rintheim",
+          "locality": "Alt-Rintheim",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-3171772390",
+          "name": "PSD Bank Karlsruhe-Neustadt",
+          "latitude": 49.0065419,
+          "longitude": 8.4255428,
+          "address": "Durlacher Allee 56, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3171772390",
+          "category": "amenity",
+          "type": "bank",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "Durlacher Allee",
+          "houseNumber": "56"
+        }
+      ]
+    },
+    "Erbprinzenstraße 15, Karlsruhe": {
+      "checkedAt": "2026-11-17T21:01:22+00:00",
+      "places": [
+        {
+          "id": "osm-way-4234637",
+          "name": "Badische Landesbibliothek",
+          "latitude": 49.0077978,
+          "longitude": 8.3988823,
+          "address": "Erbprinzenstraße 15, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/4234637",
+          "category": "amenity",
+          "type": "library",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Erbprinzenstraße",
+          "houseNumber": "15"
+        }
+      ]
     }
   },
   "attribution": {

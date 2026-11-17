@@ -1072,6 +1072,58 @@
           "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/internetcafe_55_grotzingen-6"
         }
       ]
+    },
+    "venue-d8472b66ee73904a3d96": {
+      "checkedAt": "2026-11-17T21:01:22+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Kaiserallee 12e",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Kaiserallee 12e, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/new_adult_buchclub_liebe_drama"
+        }
+      ]
+    },
+    "venue-2259ee6eb4390af22c2b": {
+      "checkedAt": "2026-11-17T21:01:22+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Kaiserpassage 6",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Kaiserpassage 6, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/schulkinowoche_baden_wurttemberg-4"
+        }
+      ]
+    },
+    "venue-93377e950b585fc47dbd": {
+      "checkedAt": "2026-11-17T21:01:22+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Durlacher Allee 62",
+          "city": "Karlsruhe",
+          "postalCode": "76131",
+          "address": "Durlacher Allee 62, 76131 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/the_last_internationale"
+        }
+      ]
+    },
+    "venue-93bb5f36f8cd43d2d6f0": {
+      "checkedAt": "2026-11-17T21:01:22+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Erbprinzenstraße 15",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Erbprinzenstraße 15, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/brand_und_katastrophe_zundeln_und_loschen"
+        }
+      ]
     }
   }
 }

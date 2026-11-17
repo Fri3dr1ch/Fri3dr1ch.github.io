@@ -5,8 +5,8 @@
     "region": "Pfinztal",
     "url": "https://pfinztal.de/aktuelles-blog/termine-und-veranstaltungen/",
     "status": "ok",
-    "lastAttemptAt": "2026-11-17T12:48:15+00:00",
-    "lastSuccessAt": "2026-11-17T12:48:15+00:00",
+    "lastAttemptAt": "2026-11-17T20:59:54+00:00",
+    "lastSuccessAt": "2026-11-17T20:59:54+00:00",
     "refreshHours": 24,
     "recordCount": 3,
     "eventCount": 3,
@@ -49,7 +49,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-17T12:48:15+00:00",
+      "detailCheckedAt": "2026-11-17T20:59:54+00:00",
       "sources": [
         {
           "url": "https://pfinztal.de/events/wintergeheimnis-mit-maerchenerzaehlerin-jutta-scherzinger/",
@@ -64,7 +64,7 @@
           "sourceId": "pfinztal",
           "sourceName": "Pfinztal · Gemeindetermine",
           "reportedTitle": "Wintergeheimnis mit Märchenerzählerin Jutta Scherzinger",
-          "checkedAt": "2026-11-17T12:48:15+00:00",
+          "checkedAt": "2026-11-17T20:59:54+00:00",
           "priority": 2
         }
       ],
@@ -99,7 +99,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-17T12:48:15+00:00",
+      "detailCheckedAt": "2026-11-17T20:59:54+00:00",
       "sources": [
         {
           "url": "https://pfinztal.de/events/digital-unterwegs-und-sicher-im-alltag-informationsveranstaltung-fuer-seniorinnen-und-senioren/",
@@ -114,7 +114,7 @@
           "sourceId": "pfinztal",
           "sourceName": "Pfinztal · Gemeindetermine",
           "reportedTitle": "Digital unterwegs und sicher im Alltag - Informationsveranstaltung für Seniorinnen und Senioren",
-          "checkedAt": "2026-11-17T12:48:15+00:00",
+          "checkedAt": "2026-11-17T20:59:54+00:00",
           "priority": 2
         }
       ],
@@ -149,7 +149,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-17T12:48:15+00:00",
+      "detailCheckedAt": "2026-11-17T20:59:54+00:00",
       "sources": [
         {
           "url": "https://pfinztal.de/events/pfinztaler-weihnachtsmarkt/",
@@ -164,7 +164,7 @@
           "sourceId": "pfinztal",
           "sourceName": "Pfinztal · Gemeindetermine",
           "reportedTitle": "Pfinztaler Weihnachtsmarkt",
-          "checkedAt": "2026-11-17T12:48:15+00:00",
+          "checkedAt": "2026-11-17T20:59:54+00:00",
           "priority": 2
         }
       ],
