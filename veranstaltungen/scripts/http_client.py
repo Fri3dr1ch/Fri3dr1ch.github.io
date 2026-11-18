@@ -15,7 +15,7 @@ ALLOWED_HOSTS = frozenset({
     'www.remchingen.de', 'www.kulturhalle-remchingen.de', 'eki-groetzingen.de',
     'www.naturfreunde-groetzingen.de', 'www.naturfreunde-berghausen.de',
     'www.naturfreunde-soellingen.de', 'calendar.google.com',
-    'www.walzbachtal.de',
+    'www.walzbachtal.de', 'www.waldpaedagogik-karlsruhe.de',
 })
 
 

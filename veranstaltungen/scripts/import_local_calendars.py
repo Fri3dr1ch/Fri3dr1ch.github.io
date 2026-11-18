@@ -46,6 +46,8 @@ SOURCES={
             'url':'https://www.naturfreunde-soellingen.de/kalender/'},
  'naturfreunde-groetzingen':{'id':'naturfreunde-groetzingen','name':'NaturFreunde Grötzingen','region':'Grötzingen',
             'url':'https://www.naturfreunde-groetzingen.de/'},
+ 'waldpaedagogik-karlsruhe':{'id':'waldpaedagogik-karlsruhe','name':'Waldpädagogik Karlsruhe','region':'Karlsruhe und Umgebung',
+            'url':'https://www.waldpaedagogik-karlsruhe.de/jahresprogramm'},
 }
 
 def cls(token):return 'contains(concat(" ",normalize-space(@class)," ")," '+token+' ")'
@@ -201,6 +203,9 @@ def fetch_source(source_id,stamp,fetch=download,root=ROOT):
             records,extra=fetch_records(fetch)
         elif source_id=='walzbachtal':
             from walzbachtal import fetch_records
+            records,extra=fetch_records(fetch)
+        elif source_id=='waldpaedagogik-karlsruhe':
+            from waldpaedagogik import fetch_records
             records,extra=fetch_records(fetch)
         elif source_id=='pfinztal-vereine':
             from pfinztal_pdf import fetch_records

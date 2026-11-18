@@ -70,6 +70,29 @@
       "note": "Nachprüfung anhand OSM-Objekt, Ortsname und Adresse im Veranstaltungskontext. Bei Saal- oder Geländeangaben: allgemeiner Gebäudepunkt, Originalangabe bleibt erhalten."
     },
     {
+      "key": "venue-1759dcd24969122d0cab",
+      "location": "Waldklassenzimmer",
+      "scope": "karlsruhe",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-18",
+      "place": {
+        "id": "osm-way-135510435",
+        "name": "Waldklassenzimmer",
+        "latitude": 49.0286172,
+        "longitude": 8.4088693,
+        "address": "Kanalweg, 76131 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/135510435",
+        "category": "building",
+        "type": "yes",
+        "street": "Kanalweg",
+        "houseNumber": ""
+      },
+      "note": "Der Veranstalter bestätigt den Kanalweg und die Holzwerkstatt auf dem Gelände. OSM weist das Gebäude ausdrücklich als Waldklassenzimmer des Veranstalters aus.",
+      "sourceUrl": "https://www.waldpaedagogik-karlsruhe.de/das-waldklassenzimmer"
+    },
+    {
       "key": "venue-199f1400be86a27d1f78",
       "location": "Kabarett in der Orgelfabrik - die Spiegelfechter",
       "scope": "karlsruhe",
