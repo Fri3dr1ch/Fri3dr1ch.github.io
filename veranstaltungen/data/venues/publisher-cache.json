@@ -1313,6 +1313,76 @@
           "url": "https://kalender.karlsruhe.de/db/termine/literatur/film_fur_kinder_weihnachten_im_zaubereulenwald"
         }
       ]
+    },
+    "venue-29f2752d0c1e4a97ace2": {
+      "checkedAt": "2026-11-18T17:37:22+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Eichelbergstraße 34",
+          "city": "Karlsruhe",
+          "postalCode": "76189",
+          "address": "Eichelbergstraße 34, 76189 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/salsa_kostenloses_schnuppertraining"
+        }
+      ]
+    },
+    "venue-a2c56754f39af188e9b8": {
+      "checkedAt": "2026-11-18T17:37:22+00:00",
+      "places": [
+        {
+          "id": "weingarten-location-859",
+          "name": "Entlang der Kirchstraße bis zur Bachbühne",
+          "latitude": 49.0513992,
+          "longitude": 8.532391,
+          "address": "Kirchstraße  76356 Weingarten (Baden)",
+          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/859/der-andere-weihnachtsmarkt",
+          "eventUrl": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/859/der-andere-weihnachtsmarkt",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ],
+      "addresses": []
+    },
+    "venue-bdad8bc85a62dc7f566b": {
+      "checkedAt": "2026-11-18T17:37:22+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Hans-Thoma-Str. 4",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Hans-Thoma-Str. 4, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/graphic_stories_erzahlen_trotz_allem"
+        }
+      ]
+    },
+    "venue-dfbc03c1a8286a055359": {
+      "checkedAt": "2026-11-18T17:37:22+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Pfinztalstr. 9, Karlsburg",
+          "city": "Karlsruhe",
+          "postalCode": "76227",
+          "address": "Pfinztalstr. 9, Karlsburg, 76227 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_mit_basteln_in_durlach"
+        }
+      ]
+    },
+    "venue-e64043d3b94fb3835d60": {
+      "checkedAt": "2026-11-18T17:37:22+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Moltkestrasse 20",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Moltkestrasse 20, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/freies_tanzen_karlsruhe-140"
+        }
+      ]
     }
   }
 }
