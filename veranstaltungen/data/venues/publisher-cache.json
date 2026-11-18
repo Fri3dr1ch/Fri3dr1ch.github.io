@@ -1124,6 +1124,86 @@
           "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/brand_und_katastrophe_zundeln_und_loschen"
         }
       ]
+    },
+    "venue-ad93901dc1ea4849d8bf": {
+      "checkedAt": "2026-11-18T07:37:28+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Lorenzstraße 19",
+          "city": "Karlsruhe",
+          "postalCode": "76135",
+          "address": "Lorenzstraße 19, 76135 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/the_story_that_never_ends"
+        }
+      ]
+    },
+    "venue-cd088c3fa7fda925389b": {
+      "checkedAt": "2026-11-18T07:37:28+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-04db84d5d1dde320a0b1": {
+      "checkedAt": "2026-11-18T07:37:28+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Kaiserpassage 6",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Kaiserpassage 6, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/ohad_naharin_ist_mr_gaga"
+        }
+      ]
+    },
+    "venue-2da8ccddafecb26c7da2": {
+      "checkedAt": "2026-11-18T07:37:28+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-57fc2c451cd44a63b2e2": {
+      "checkedAt": "2026-11-18T07:37:28+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Kaiserstraße 131 nähe Marktplatz",
+          "city": "Karlsruhe",
+          "postalCode": "",
+          "address": "Kaiserstraße 131 nähe Marktplatz, Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/orgelpunkt-9"
+        }
+      ]
+    },
+    "venue-990d989f75d480926f5e": {
+      "checkedAt": "2026-11-18T07:37:28+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-bf18ccf97052a4e3def7": {
+      "checkedAt": "2026-11-18T07:37:28+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Kaiserstraße 47",
+          "city": "Karlsruhe",
+          "postalCode": "76131",
+          "address": "Kaiserstraße 47, 76131 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/jam_session-17"
+        }
+      ]
+    },
+    "venue-cbb89f9abb661ccc3e50": {
+      "checkedAt": "2026-11-18T07:37:28+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Rubensstraße 21",
+          "city": "Karlsruhe",
+          "postalCode": "76149",
+          "address": "Rubensstraße 21, 76149 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_mit_basteln_in_neureut-13"
+        }
+      ]
     }
   }
 }

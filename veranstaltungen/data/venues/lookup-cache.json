@@ -15753,6 +15753,220 @@
           "houseNumber": "15"
         }
       ]
+    },
+    "Erbprinzen straße 15, Karlsruhe": {
+      "checkedAt": "2026-11-18T07:37:28+00:00",
+      "places": [
+        {
+          "id": "osm-way-4234637",
+          "name": "Badische Landesbibliothek",
+          "latitude": 49.0077978,
+          "longitude": 8.3988823,
+          "address": "Erbprinzenstraße 15, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/4234637",
+          "category": "amenity",
+          "type": "library",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Erbprinzenstraße",
+          "houseNumber": "15"
+        },
+        {
+          "id": "osm-way-108964467",
+          "name": "Erbprinzenhof 15",
+          "latitude": 49.0094975,
+          "longitude": 8.3980621,
+          "address": "Erbprinzenhof 15, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/108964467",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Erbprinzenhof",
+          "houseNumber": "15"
+        },
+        {
+          "id": "osm-way-188284620",
+          "name": "Alte Karlsruher Straße 15",
+          "latitude": 49.0033444,
+          "longitude": 8.460554,
+          "address": "Alte Karlsruher Straße 15, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/188284620",
+          "category": "building",
+          "type": "semidetached_house",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Untermühlsiedlung",
+          "street": "Alte Karlsruher Straße",
+          "houseNumber": "15"
+        },
+        {
+          "id": "osm-way-289729853",
+          "name": "Karlsruher Straße 15",
+          "latitude": 49.0298352,
+          "longitude": 8.4578764,
+          "address": "Karlsruher Straße 15, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/289729853",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Hagsfeld",
+          "locality": "Alt-Hagsfeld",
+          "street": "Karlsruher Straße",
+          "houseNumber": "15"
+        },
+        {
+          "id": "osm-node-5352590671",
+          "name": "Ehrbrecht Medizinische Fußpflege",
+          "latitude": 49.0298422,
+          "longitude": 8.4578539,
+          "address": "Karlsruher Straße 15, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/5352590671",
+          "category": "healthcare",
+          "type": "podiatrist",
+          "city": "Karlsruhe",
+          "district": "Hagsfeld",
+          "locality": "Alt-Hagsfeld",
+          "street": "Karlsruher Straße",
+          "houseNumber": "15"
+        }
+      ]
+    },
+    "Lorenzstraße 19, Karlsruhe": {
+      "checkedAt": "2026-11-18T07:37:28+00:00",
+      "places": [
+        {
+          "id": "osm-way-224089410",
+          "name": "ZKM | Zentrum für Kunst und Medien",
+          "latitude": 49.0012852,
+          "longitude": 8.3836005,
+          "address": "Lorenzstraße 19, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/224089410",
+          "category": "amenity",
+          "type": "arts_centre",
+          "city": "Karlsruhe",
+          "district": "Südweststadt",
+          "locality": "Beiertheimer Feld",
+          "street": "Lorenzstraße",
+          "houseNumber": "19"
+        },
+        {
+          "id": "osm-node-13669299089",
+          "name": "Staatliche Kunsthalle Karlsruhe",
+          "latitude": 49.00267,
+          "longitude": 8.3839704,
+          "address": "Lorenzstraße 19, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/13669299089",
+          "category": "tourism",
+          "type": "museum",
+          "city": "Karlsruhe",
+          "district": "Südweststadt",
+          "locality": "Beiertheimer Feld",
+          "street": "Lorenzstraße",
+          "houseNumber": "19"
+        },
+        {
+          "id": "osm-node-656382769",
+          "name": "mint",
+          "latitude": 49.0011783,
+          "longitude": 8.3835916,
+          "address": "Lorenzstraße 19, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/656382769",
+          "category": "amenity",
+          "type": "restaurant",
+          "city": "Karlsruhe",
+          "district": "Südweststadt",
+          "locality": "Beiertheimer Feld",
+          "street": "Lorenzstraße",
+          "houseNumber": "19"
+        },
+        {
+          "id": "osm-way-221201830",
+          "name": "Lorenzstraße 19",
+          "latitude": 49.072737,
+          "longitude": 8.4562766,
+          "address": "Lorenzstraße 19, 76297 Blankenloch",
+          "url": "https://www.openstreetmap.org/way/221201830",
+          "category": "building",
+          "type": "yes",
+          "city": "Blankenloch",
+          "district": "Blankenloch",
+          "locality": "Gewerbegebiet Blankenloch Süd",
+          "street": "Lorenzstraße",
+          "houseNumber": "19"
+        },
+        {
+          "id": "osm-node-6883703706",
+          "name": "Flüchtlingshilfe Stutensee e.V.",
+          "latitude": 49.0727282,
+          "longitude": 8.4563063,
+          "address": "Lorenzstraße 19, 76297 Blankenloch",
+          "url": "https://www.openstreetmap.org/node/6883703706",
+          "category": "amenity",
+          "type": "community_centre",
+          "city": "Blankenloch",
+          "district": "Blankenloch",
+          "locality": "Gewerbegebiet Blankenloch Süd",
+          "street": "Lorenzstraße",
+          "houseNumber": "19"
+        }
+      ]
+    },
+    "Kaiserstraße 131 nähe Marktplatz, Karlsruhe": {
+      "checkedAt": "2026-11-18T07:37:28+00:00",
+      "places": []
+    },
+    "Kaiserstraße 47, Karlsruhe": {
+      "checkedAt": "2026-11-18T07:37:28+00:00",
+      "places": [
+        {
+          "id": "osm-way-286408685",
+          "name": "Kaiserstraße 47",
+          "latitude": 49.0089809,
+          "longitude": 8.4124431,
+          "address": "Kaiserstraße 47, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/286408685",
+          "category": "building",
+          "type": "retail",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "47"
+        },
+        {
+          "id": "osm-node-674759821",
+          "name": "Kulturküche",
+          "latitude": 49.009085,
+          "longitude": 8.4124929,
+          "address": "Kaiserstraße 47, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/674759821",
+          "category": "amenity",
+          "type": "restaurant",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "47"
+        },
+        {
+          "id": "osm-way-105026253",
+          "name": "Seilerhäuschen",
+          "latitude": 49.0090696,
+          "longitude": 8.412492,
+          "address": "Kaiserstraße 47, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/105026253",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "47"
+        }
+      ]
     }
   },
   "attribution": {
