@@ -1256,6 +1256,63 @@
           "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/wolfgang_rempfer-3"
         }
       ]
+    },
+    "venue-5c550710f8b012c4607f": {
+      "checkedAt": "2026-11-18T14:28:00+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Lange Straße 69",
+          "city": "Karlsruhe",
+          "postalCode": "76199",
+          "address": "Lange Straße 69, 76199 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/vernissage_lichtfelder_kunstausstellung"
+        }
+      ]
+    },
+    "venue-6096cdfa5e984d474e2a": {
+      "checkedAt": "2026-11-18T14:28:00+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Herrenstraße 30",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Herrenstraße 30, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/elternabend-1"
+        }
+      ]
+    },
+    "venue-6b0d17fa9e17ebb43994": {
+      "checkedAt": "2026-11-18T14:28:00+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Weinbrennerstraße 79",
+          "city": "Karlsruhe",
+          "postalCode": "76185",
+          "address": "Weinbrennerstraße 79, 76185 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_in_muhlburg-16"
+        }
+      ]
+    },
+    "venue-89f80200ac37ecbe8420": {
+      "checkedAt": "2026-11-18T14:28:00+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-9b46c71ac22fdc020257": {
+      "checkedAt": "2026-11-18T14:28:00+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Hainbuchenweg 1",
+          "city": "Karlsruhe",
+          "postalCode": "76199",
+          "address": "Hainbuchenweg 1, 76199 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/film_fur_kinder_weihnachten_im_zaubereulenwald"
+        }
+      ]
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T10:14:25+00:00",
+  "generatedAt": "2026-11-18T14:28:00+00:00",
   "attribution": {
     "text": "© OpenStreetMap contributors · ODbL",
     "url": "https://www.openstreetmap.org/copyright"
@@ -9,18 +9,18 @@
     "venues": 329,
     "venueStatuses": {
       "missing": 10,
-      "review": 43,
-      "queued": 13,
+      "review": 44,
+      "queued": 12,
       "online": 3,
       "resolved": 260
     },
     "upcomingEvents": 1178,
     "eventStatuses": {
       "resolved": 902,
-      "review": 52,
+      "review": 54,
       "online": 4,
       "missing": 205,
-      "queued": 15
+      "queued": 13
     }
   },
   "lookup": {
@@ -493,6 +493,102 @@
       ]
     },
     {
+      "key": "venue-6096cdfa5e984d474e2a",
+      "location": "Kammertheater Karlsruhe",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "review",
+      "reason": "Mehrere gleich gut passende Kartenobjekte; Auswahl erforderlich.",
+      "method": null,
+      "place": null,
+      "candidates": [
+        {
+          "id": "osm-way-108964438",
+          "name": "Herrenstraße 30",
+          "latitude": 49.0089855,
+          "longitude": 8.3980657,
+          "address": "Herrenstraße 30, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/108964438",
+          "category": "building",
+          "type": "retail",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Herrenstraße",
+          "houseNumber": "30",
+          "score": 0.276,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-253396057",
+          "name": "Alte Bank",
+          "latitude": 49.0089053,
+          "longitude": 8.3981933,
+          "address": "Herrenstraße 30, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/253396057",
+          "category": "amenity",
+          "type": "restaurant",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Herrenstraße",
+          "houseNumber": "30",
+          "score": 0.273,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-3891889947",
+          "name": "Alte Bank",
+          "latitude": 49.0087526,
+          "longitude": 8.3983995,
+          "address": "Herrenstraße 30, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3891889947",
+          "category": "amenity",
+          "type": "restaurant",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Herrenstraße",
+          "houseNumber": "30",
+          "score": 0.273,
+          "exact": true,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 2,
+      "reviewNote": "",
+      "sourceAddresses": [
+        {
+          "street": "Herrenstraße 30",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Herrenstraße 30, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/elternabend-1"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-9787f36ce89ce5d0",
+          "title": "Elternabend",
+          "date": "2026-10-23",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/elternabend-1"
+        },
+        {
+          "id": "karlsruhe-02d7eb8ee2b57bba",
+          "title": "Elternabend",
+          "date": "2026-10-23",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/elternabend"
+        }
+      ]
+    },
+    {
       "key": "venue-e1e3e93ed91f17d2a46f",
       "location": "Naturfreundehaus Grötzingen",
       "scope": "groetzingen",
@@ -538,76 +634,6 @@
           "title": "Weihnachtlicher Jahresabschluss",
           "date": "2026-12-12",
           "url": "https://www.naturfreunde-groetzingen.de/images/1a_Nov-Dez26.jpg"
-        }
-      ]
-    },
-    {
-      "key": "venue-5c550710f8b012c4607f",
-      "location": "Rüppurrer Rathäusle",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "queued",
-      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
-      "method": null,
-      "place": null,
-      "candidates": [
-        {
-          "id": "osm-way-131508946",
-          "name": "Am Rüppurrer Schloss 5",
-          "latitude": 48.9820256,
-          "longitude": 8.4057377,
-          "address": "Am Rüppurrer Schloss 5, 76199 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/131508946",
-          "category": "building",
-          "type": "apartments",
-          "city": "Karlsruhe",
-          "district": "Rüppurr",
-          "locality": "Gartenstadt",
-          "street": "Am Rüppurrer Schloss",
-          "houseNumber": "5",
-          "score": 0.585,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-583795766",
-          "name": "Städtische Kindertagesstätte am Rüppurrer Schloss",
-          "latitude": 48.9820261,
-          "longitude": 8.4058497,
-          "address": "Am Rüppurrer Schloss 5, 76199 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/583795766",
-          "category": "amenity",
-          "type": "kindergarten",
-          "city": "Karlsruhe",
-          "district": "Rüppurr",
-          "locality": "Gartenstadt",
-          "street": "Am Rüppurrer Schloss",
-          "houseNumber": "5",
-          "score": 0.353,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 2,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-ca58788fabc6cca5",
-          "title": "Vernissage \"Lichtfelder\" ~ Kunstausstellung mit Hubert Obermanns",
-          "date": "2026-11-27",
-          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/vernissage_lichtfelder_kunstausstellung"
-        },
-        {
-          "id": "karlsruhe-3a71aeba97b577c7",
-          "title": "Kunstausstellung mit Hubert Obermanns ~ „Lichtfelder“",
-          "date": "2026-11-28",
-          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/kunstausstellung_mit_hubert_obermanns_lichtfelder"
         }
       ]
     },
@@ -1560,6 +1586,24 @@
           "outsideContext": false
         },
         {
+          "id": "osm-way-289729819",
+          "name": "Karlsruher Straße 21",
+          "latitude": 49.0295,
+          "longitude": 8.4574876,
+          "address": "Karlsruher Straße 21, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/289729819",
+          "category": "building",
+          "type": "detached",
+          "city": "Karlsruhe",
+          "district": "Hagsfeld",
+          "locality": "Alt-Hagsfeld",
+          "street": "Karlsruher Straße",
+          "houseNumber": "21",
+          "score": 0.7,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
           "id": "osm-way-289729851",
           "name": "Karlsruher Straße 13",
           "latitude": 49.0299857,
@@ -1573,24 +1617,6 @@
           "locality": "Alt-Hagsfeld",
           "street": "Karlsruher Straße",
           "houseNumber": "13",
-          "score": 0.7,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-289729853",
-          "name": "Karlsruher Straße 15",
-          "latitude": 49.0298352,
-          "longitude": 8.4578764,
-          "address": "Karlsruher Straße 15, 76139 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/289729853",
-          "category": "building",
-          "type": "yes",
-          "city": "Karlsruhe",
-          "district": "Hagsfeld",
-          "locality": "Alt-Hagsfeld",
-          "street": "Karlsruher Straße",
-          "houseNumber": "15",
           "score": 0.7,
           "exact": false,
           "outsideContext": false
@@ -3240,7 +3266,7 @@
           "outsideContext": false
         }
       ],
-      "eventCount": 44,
+      "eventCount": 45,
       "reviewNote": "",
       "sourceAddresses": [],
       "organizer": "",
@@ -3338,7 +3364,7 @@
           "outsideContext": false
         }
       ],
-      "eventCount": 33,
+      "eventCount": 34,
       "reviewNote": "",
       "sourceAddresses": [
         {
@@ -3473,12 +3499,6 @@
       ],
       "examples": [
         {
-          "id": "karlsruhe-a08d34039a3a0810",
-          "title": "Jugendbeirat: Artenkenntis für Alle. Entdecke die Natur",
-          "date": "2026-11-18",
-          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/jugendbeirat_artenkenntis_fur_alle_entdecke_die_natur-1"
-        },
-        {
           "id": "karlsruhe-f9c730e745e1e9a0",
           "title": "Karneval der Tiere - Eine XR-Experience über das Verschwinden",
           "date": "2026-11-18",
@@ -3495,6 +3515,12 @@
           "title": "Von Tritium und Quantencomputern",
           "date": "2026-11-19",
           "url": "https://kalender.karlsruhe.de/db/termine/wirtschaft/von_tritium_und_quantencomputern"
+        },
+        {
+          "id": "karlsruhe-c7c8dd7ce8cbc40d",
+          "title": "Vortrag: Tritium – von der Erforschung des Universums zum Fusionskraftwerk",
+          "date": "2026-11-19",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/vortrag_tritium_von_der_erforschung"
         }
       ]
     },
@@ -3931,79 +3957,6 @@
       ]
     },
     {
-      "key": "venue-8d82ceee140fb91c2b76",
-      "location": "Stadtbibliothek Karlsruhe - Zentralbibliothek im Neuen Ständehaus",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-node-4525034596",
-        "name": "Stadtbibliothek im Neuen Ständehaus",
-        "latitude": 49.0088688,
-        "longitude": 8.4003289,
-        "address": "Ständehausstraße 2, 76133 Karlsruhe",
-        "url": "https://www.openstreetmap.org/node/4525034596",
-        "category": "amenity",
-        "type": "library",
-        "street": "Ständehausstraße",
-        "houseNumber": "2",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-node-4525034596",
-          "name": "Stadtbibliothek im Neuen Ständehaus",
-          "latitude": 49.0088688,
-          "longitude": 8.4003289,
-          "address": "Ständehausstraße 2, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/4525034596",
-          "category": "amenity",
-          "type": "library",
-          "street": "Ständehausstraße",
-          "houseNumber": "2",
-          "outsideContext": false,
-          "score": 1.0,
-          "exact": true
-        }
-      ],
-      "eventCount": 16,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-673b8efec6eda486",
-          "title": "Brain Energy - Gut vorbereitet fürs nächste Referat",
-          "date": "2026-11-18",
-          "url": "https://kalender.karlsruhe.de/db/termine/literatur/brain_energy_gut_vorbereitet_furs_nachste_referat-2"
-        },
-        {
-          "id": "karlsruhe-6a9ca9e2b514ee32",
-          "title": "FANTASY-WOCHE: Schreib-Workshop mit Autorin Alicia Serieux",
-          "date": "2026-11-18",
-          "url": "https://kalender.karlsruhe.de/db/termine/literatur/fantasy_woche_schreib_workshop_mit_autorin"
-        },
-        {
-          "id": "karlsruhe-1c847dd27e6f50de",
-          "title": "TREFF: Begegnungscafé -- ENTFÄLLT --",
-          "date": "2026-11-19",
-          "url": "https://kalender.karlsruhe.de/db/termine/literatur/treff_begegnungscafe_entfallt_"
-        },
-        {
-          "id": "karlsruhe-cd66843b3594db58",
-          "title": "FANTASY-WOCHE: Zauberstab-Werkstatt",
-          "date": "2026-11-19",
-          "url": "https://kalender.karlsruhe.de/db/termine/literatur/fantasy_woche_zauberstab_werkstatt"
-        }
-      ]
-    },
-    {
       "key": "venue-3fae26f22e49b283790b",
       "location": "Ratssaal",
       "scope": "remchingen",
@@ -4056,6 +4009,79 @@
           "title": "Öffentliche Gemeinderatssitzung / 2027 - 01",
           "date": "2027-01-28",
           "url": "https://www.remchingen.de/ratstermine/oeffentliche-gemeinderatssitzung-2027-01-id_3332/"
+        }
+      ]
+    },
+    {
+      "key": "venue-8d82ceee140fb91c2b76",
+      "location": "Stadtbibliothek Karlsruhe - Zentralbibliothek im Neuen Ständehaus - Aktionswoche",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-node-4525034596",
+        "name": "Stadtbibliothek im Neuen Ständehaus",
+        "latitude": 49.0088688,
+        "longitude": 8.4003289,
+        "address": "Ständehausstraße 2, 76133 Karlsruhe",
+        "url": "https://www.openstreetmap.org/node/4525034596",
+        "category": "amenity",
+        "type": "library",
+        "street": "Ständehausstraße",
+        "houseNumber": "2",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "osm-node-4525034596",
+          "name": "Stadtbibliothek im Neuen Ständehaus",
+          "latitude": 49.0088688,
+          "longitude": 8.4003289,
+          "address": "Ständehausstraße 2, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4525034596",
+          "category": "amenity",
+          "type": "library",
+          "street": "Ständehausstraße",
+          "houseNumber": "2",
+          "outsideContext": false,
+          "score": 1.0,
+          "exact": true
+        }
+      ],
+      "eventCount": 15,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-6a9ca9e2b514ee32",
+          "title": "FANTASY-WOCHE: Schreib-Workshop mit Autorin Alicia Serieux",
+          "date": "2026-11-18",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/fantasy_woche_schreib_workshop_mit_autorin"
+        },
+        {
+          "id": "karlsruhe-1c847dd27e6f50de",
+          "title": "TREFF: Begegnungscafé -- ENTFÄLLT --",
+          "date": "2026-11-19",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/treff_begegnungscafe_entfallt_"
+        },
+        {
+          "id": "karlsruhe-cd66843b3594db58",
+          "title": "FANTASY-WOCHE: Zauberstab-Werkstatt",
+          "date": "2026-11-19",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/fantasy_woche_zauberstab_werkstatt"
+        },
+        {
+          "id": "karlsruhe-e6c7df1837f1cd00",
+          "title": "Onleihe Sprechstunde",
+          "date": "2026-11-19",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/onleihe_sprechstunde-178"
         }
       ]
     },
@@ -6348,93 +6374,6 @@
       ]
     },
     {
-      "key": "venue-93bb5f36f8cd43d2d6f0",
-      "location": "Badische Landesbibliothek",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
-      "method": "automatic",
-      "place": {
-        "id": "osm-way-4234637",
-        "name": "Badische Landesbibliothek",
-        "latitude": 49.0077978,
-        "longitude": 8.3988823,
-        "address": "Erbprinzenstraße 15, 76133 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/4234637",
-        "category": "amenity",
-        "type": "library",
-        "city": "Karlsruhe",
-        "district": "Innenstadt-West",
-        "locality": "Innenstadt-West Östlicher Teil",
-        "street": "Erbprinzenstraße",
-        "houseNumber": "15",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-way-4234637",
-          "name": "Badische Landesbibliothek",
-          "latitude": 49.0077978,
-          "longitude": 8.3988823,
-          "address": "Erbprinzenstraße 15, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/4234637",
-          "category": "amenity",
-          "type": "library",
-          "city": "Karlsruhe",
-          "district": "Innenstadt-West",
-          "locality": "Innenstadt-West Östlicher Teil",
-          "street": "Erbprinzenstraße",
-          "houseNumber": "15",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 5,
-      "reviewNote": "",
-      "sourceAddresses": [
-        {
-          "street": "Erbprinzenstraße 15",
-          "city": "Karlsruhe",
-          "postalCode": "76133",
-          "address": "Erbprinzenstraße 15, 76133 Karlsruhe",
-          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/brand_und_katastrophe_zundeln_und_loschen"
-        }
-      ],
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-a1500aafc63eb33c",
-          "title": "Brand und Katastrophe – Zündeln und Löschen in Baden 1700-1900",
-          "date": "2026-11-04",
-          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/brand_und_katastrophe_zundeln_und_loschen"
-        },
-        {
-          "id": "karlsruhe-8b26abdc52c54b27",
-          "title": "BLB4Teacher",
-          "date": "2026-11-18",
-          "url": "https://kalender.karlsruhe.de/db/termine/literatur/blb4teacher-2"
-        },
-        {
-          "id": "karlsruhe-164554146ea6ca61",
-          "title": "Mittwochs um 5",
-          "date": "2026-11-18",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/mittwochs_um5n"
-        },
-        {
-          "id": "karlsruhe-ae88ade543979abd",
-          "title": "Brand und Katastrophe – Zündeln und Löschen in Baden 1700-1900",
-          "date": "2026-11-24",
-          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/brand_und_katastrophe_zundeln_und_loschen-2"
-        }
-      ]
-    },
-    {
       "key": "venue-315f6dd2ee828bd892f8",
       "location": "Bürgersaal Rathaus Weingarten (Baden)",
       "scope": "weingarten",
@@ -7199,6 +7138,93 @@
       ]
     },
     {
+      "key": "venue-93bb5f36f8cd43d2d6f0",
+      "location": "Badische Landesbibliothek",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
+      "method": "automatic",
+      "place": {
+        "id": "osm-way-4234637",
+        "name": "Badische Landesbibliothek",
+        "latitude": 49.0077978,
+        "longitude": 8.3988823,
+        "address": "Erbprinzenstraße 15, 76133 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/4234637",
+        "category": "amenity",
+        "type": "library",
+        "city": "Karlsruhe",
+        "district": "Innenstadt-West",
+        "locality": "Innenstadt-West Östlicher Teil",
+        "street": "Erbprinzenstraße",
+        "houseNumber": "15",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "osm-way-4234637",
+          "name": "Badische Landesbibliothek",
+          "latitude": 49.0077978,
+          "longitude": 8.3988823,
+          "address": "Erbprinzenstraße 15, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/4234637",
+          "category": "amenity",
+          "type": "library",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Erbprinzenstraße",
+          "houseNumber": "15",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 4,
+      "reviewNote": "",
+      "sourceAddresses": [
+        {
+          "street": "Erbprinzenstraße 15",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Erbprinzenstraße 15, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/brand_und_katastrophe_zundeln_und_loschen"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-a1500aafc63eb33c",
+          "title": "Brand und Katastrophe – Zündeln und Löschen in Baden 1700-1900",
+          "date": "2026-11-04",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/brand_und_katastrophe_zundeln_und_loschen"
+        },
+        {
+          "id": "karlsruhe-164554146ea6ca61",
+          "title": "Mittwochs um 5",
+          "date": "2026-11-18",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/mittwochs_um5n"
+        },
+        {
+          "id": "karlsruhe-ae88ade543979abd",
+          "title": "Brand und Katastrophe – Zündeln und Löschen in Baden 1700-1900",
+          "date": "2026-11-24",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/brand_und_katastrophe_zundeln_und_loschen-2"
+        },
+        {
+          "id": "karlsruhe-81c3fa1ad516d96f",
+          "title": "Silent Book Club ® – zwanglos lesen",
+          "date": "2026-11-26",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/silent_book_club_zwanglos_lesen-12"
+        }
+      ]
+    },
+    {
       "key": "venue-6c94ec3b7aa83595d931",
       "location": "Baggersee Weingarten",
       "scope": "weingarten",
@@ -7406,6 +7432,9 @@
         "url": "https://www.openstreetmap.org/way/151345444",
         "category": "amenity",
         "type": "arts_centre",
+        "city": "Karlsruhe",
+        "district": "Grötzingen",
+        "locality": "Nördlich der Pfinz",
         "street": "Niddastraße",
         "houseNumber": "6",
         "outsideContext": false
@@ -7420,6 +7449,9 @@
           "url": "https://www.openstreetmap.org/way/151345444",
           "category": "amenity",
           "type": "arts_centre",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
           "street": "Niddastraße",
           "houseNumber": "6",
           "score": 1.0,
@@ -8346,6 +8378,9 @@
           "url": "https://www.openstreetmap.org/way/777277359",
           "category": "amenity",
           "type": "community_centre",
+          "city": "Karlsruhe",
+          "district": "Mühlburg",
+          "locality": "Mühlburger Feld",
           "street": "Weinbrennerstraße",
           "houseNumber": "79a",
           "score": 0.744,
@@ -9292,12 +9327,6 @@
       ],
       "examples": [
         {
-          "id": "karlsruhe-cf8aede08d5d66f5",
-          "title": "Orgelpunkt",
-          "date": "2026-11-18",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/orgelpunkt-9"
-        },
-        {
           "id": "karlsruhe-4976ec44eb8ce9a7",
           "title": "Orgelpunkt",
           "date": "2026-11-25",
@@ -9308,6 +9337,12 @@
           "title": "Seasons – Vom Vergehen und vom Neubeginn",
           "date": "2026-11-27",
           "url": "https://kalender.karlsruhe.de/db/termine/musik/seasons_vom_vergehen_und_vom_neubeginn"
+        },
+        {
+          "id": "karlsruhe-73fa78127e147be6",
+          "title": "Orgelpunkt",
+          "date": "2026-12-02",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/orgelpunkt-11"
         }
       ]
     },
@@ -11542,6 +11577,24 @@
           "score": 0.556,
           "exact": false,
           "outsideContext": false
+        },
+        {
+          "id": "osm-way-184807171",
+          "name": "Waldshuter Straße 13",
+          "latitude": 49.0035874,
+          "longitude": 8.4720487,
+          "address": "Waldshuter Straße 13, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/184807171",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Waldshuter Straße",
+          "houseNumber": "13",
+          "score": 0.519,
+          "exact": false,
+          "outsideContext": false
         }
       ],
       "eventCount": 2,
@@ -11719,6 +11772,9 @@
         "url": "https://www.openstreetmap.org/way/151345444",
         "category": "amenity",
         "type": "arts_centre",
+        "city": "Karlsruhe",
+        "district": "Grötzingen",
+        "locality": "Nördlich der Pfinz",
         "street": "Niddastraße",
         "houseNumber": "6",
         "outsideContext": false
@@ -11733,6 +11789,9 @@
           "url": "https://www.openstreetmap.org/way/151345444",
           "category": "amenity",
           "type": "arts_centre",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
           "street": "Niddastraße",
           "houseNumber": "6",
           "score": 1.0,
@@ -11901,38 +11960,52 @@
       "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
       "method": "automatic",
       "place": {
-        "id": "osm-node-12530403425",
-        "name": "Hans-Kampffmeyer-Saal",
-        "latitude": 48.9727458,
-        "longitude": 8.4053572,
-        "address": "Hainbuchenweg, 76199 Karlsruhe",
-        "url": "https://www.openstreetmap.org/node/12530403425",
-        "category": "amenity",
-        "type": "events_venue",
+        "id": "osm-way-182503361",
+        "name": "Hainbuchenweg 1",
+        "latitude": 48.9727637,
+        "longitude": 8.4053266,
+        "address": "Hainbuchenweg 1, 76199 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/182503361",
+        "category": "building",
+        "type": "apartments",
+        "city": "Karlsruhe",
+        "district": "Rüppurr",
+        "locality": "Gartenstadt",
         "street": "Hainbuchenweg",
-        "houseNumber": "",
+        "houseNumber": "1",
         "outsideContext": false
       },
       "candidates": [
         {
-          "id": "osm-node-12530403425",
-          "name": "Hans-Kampffmeyer-Saal",
-          "latitude": 48.9727458,
-          "longitude": 8.4053572,
-          "address": "Hainbuchenweg, 76199 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/12530403425",
-          "category": "amenity",
-          "type": "events_venue",
+          "id": "osm-way-182503361",
+          "name": "Hainbuchenweg 1",
+          "latitude": 48.9727637,
+          "longitude": 8.4053266,
+          "address": "Hainbuchenweg 1, 76199 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/182503361",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Rüppurr",
+          "locality": "Gartenstadt",
           "street": "Hainbuchenweg",
-          "houseNumber": "",
-          "score": 1.0,
+          "houseNumber": "1",
+          "score": 0.222,
           "exact": true,
           "outsideContext": false
         }
       ],
       "eventCount": 2,
       "reviewNote": "",
-      "sourceAddresses": [],
+      "sourceAddresses": [
+        {
+          "street": "Hainbuchenweg 1",
+          "city": "Karlsruhe",
+          "postalCode": "76199",
+          "address": "Hainbuchenweg 1, 76199 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/film_fur_kinder_weihnachten_im_zaubereulenwald"
+        }
+      ],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -12003,16 +12076,16 @@
       ],
       "examples": [
         {
-          "id": "karlsruhe-0032a403bc453d47",
-          "title": "Begegnungscafé für Jung und Alt",
-          "date": "2026-11-27",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/begegnungscafe_fur_jung_und_alt-6"
-        },
-        {
           "id": "karlsruhe-3589dc0e044d134a",
           "title": "Begegnungscafé für Jung und Alt",
           "date": "2026-11-27",
           "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/begegnungscafe_fur_jung_und_alt-4"
+        },
+        {
+          "id": "karlsruhe-0032a403bc453d47",
+          "title": "Begegnungscafé für Jung und Alt",
+          "date": "2026-11-27",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/begegnungscafe_fur_jung_und_alt-6"
         }
       ]
     },
@@ -12336,6 +12409,9 @@
           "url": "https://www.openstreetmap.org/node/656404294",
           "category": "amenity",
           "type": "theatre",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
           "street": "Herrenstraße",
           "houseNumber": "30/32",
           "score": 0.93,
@@ -12643,82 +12719,6 @@
           "title": "Gemeinsam Digital",
           "date": "2026-11-24",
           "url": "https://kalender.karlsruhe.de/db/termine/literatur/gemeinsam_digital-9"
-        }
-      ]
-    },
-    {
-      "key": "venue-6096cdfa5e984d474e2a",
-      "location": "Kammertheater Karlsruhe",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
-      "method": "automatic",
-      "place": {
-        "id": "osm-node-656404294",
-        "name": "Kammertheater",
-        "latitude": 49.0089819,
-        "longitude": 8.3982348,
-        "address": "Herrenstraße 30/32, 76133 Karlsruhe",
-        "url": "https://www.openstreetmap.org/node/656404294",
-        "category": "amenity",
-        "type": "theatre",
-        "street": "Herrenstraße",
-        "houseNumber": "30/32",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-node-656404294",
-          "name": "Kammertheater",
-          "latitude": 49.0089819,
-          "longitude": 8.3982348,
-          "address": "Herrenstraße 30/32, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/656404294",
-          "category": "amenity",
-          "type": "theatre",
-          "street": "Herrenstraße",
-          "houseNumber": "30/32",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-3384576937",
-          "name": "Kasse Kammertheater",
-          "latitude": 49.0089548,
-          "longitude": 8.3982116,
-          "address": "Herrenstraße, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/3384576937",
-          "category": "shop",
-          "type": "ticket",
-          "street": "Herrenstraße",
-          "houseNumber": "",
-          "score": 0.812,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 2,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-9787f36ce89ce5d0",
-          "title": "Elternabend",
-          "date": "2026-10-23",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/elternabend-1"
-        },
-        {
-          "id": "karlsruhe-02d7eb8ee2b57bba",
-          "title": "Elternabend",
-          "date": "2026-10-23",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/elternabend"
         }
       ]
     },
@@ -14187,6 +14187,81 @@
       ]
     },
     {
+      "key": "venue-5c550710f8b012c4607f",
+      "location": "Rüppurrer Rathäusle",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
+      "method": "automatic",
+      "place": {
+        "id": "osm-way-103379603",
+        "name": "Altes Rathaus",
+        "latitude": 48.9670279,
+        "longitude": 8.3991144,
+        "address": "Lange Straße 69, 76199 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/103379603",
+        "category": "building",
+        "type": "apartments",
+        "city": "Karlsruhe",
+        "district": "Rüppurr",
+        "locality": "Alt-Rüppurr",
+        "street": "Lange Straße",
+        "houseNumber": "69",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "osm-way-103379603",
+          "name": "Altes Rathaus",
+          "latitude": 48.9670279,
+          "longitude": 8.3991144,
+          "address": "Lange Straße 69, 76199 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/103379603",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Rüppurr",
+          "locality": "Alt-Rüppurr",
+          "street": "Lange Straße",
+          "houseNumber": "69",
+          "score": 0.562,
+          "exact": true,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 2,
+      "reviewNote": "",
+      "sourceAddresses": [
+        {
+          "street": "Lange Straße 69",
+          "city": "Karlsruhe",
+          "postalCode": "76199",
+          "address": "Lange Straße 69, 76199 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/vernissage_lichtfelder_kunstausstellung"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-ca58788fabc6cca5",
+          "title": "Vernissage \"Lichtfelder\" ~ Kunstausstellung mit Hubert Obermanns",
+          "date": "2026-11-27",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/vernissage_lichtfelder_kunstausstellung"
+        },
+        {
+          "id": "karlsruhe-3a71aeba97b577c7",
+          "title": "Kunstausstellung mit Hubert Obermanns ~ „Lichtfelder“",
+          "date": "2026-11-28",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/kunstausstellung_mit_hubert_obermanns_lichtfelder"
+        }
+      ]
+    },
+    {
       "key": "venue-a2b8fa87411f15c8e8d8",
       "location": "Sammlungspräsentation der Staatlichen Kunsthalle Karlsruhe im ZKM",
       "scope": "karlsruhe",
@@ -14824,104 +14899,52 @@
       "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
       "method": "automatic",
       "place": {
-        "id": "osm-node-348003957",
-        "name": "Stadtteilbibliothek Mühlburg",
-        "latitude": 49.010018,
-        "longitude": 8.3603485,
-        "address": "Weinbrennerstraße 79a, 76185 Karlsruhe",
-        "url": "https://www.openstreetmap.org/node/348003957",
-        "category": "amenity",
-        "type": "library",
+        "id": "osm-way-116488001",
+        "name": "Weinbrennerstraße 79",
+        "latitude": 49.0097914,
+        "longitude": 8.3603292,
+        "address": "Weinbrennerstraße 79, 76185 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/116488001",
+        "category": "building",
+        "type": "apartments",
+        "city": "Karlsruhe",
+        "district": "Mühlburg",
+        "locality": "Mühlburger Feld",
         "street": "Weinbrennerstraße",
-        "houseNumber": "79a",
+        "houseNumber": "79",
         "outsideContext": false
       },
       "candidates": [
         {
-          "id": "osm-node-348003957",
-          "name": "Stadtteilbibliothek Mühlburg",
-          "latitude": 49.010018,
-          "longitude": 8.3603485,
-          "address": "Weinbrennerstraße 79a, 76185 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/348003957",
-          "category": "amenity",
-          "type": "library",
+          "id": "osm-way-116488001",
+          "name": "Weinbrennerstraße 79",
+          "latitude": 49.0097914,
+          "longitude": 8.3603292,
+          "address": "Weinbrennerstraße 79, 76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/116488001",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Mühlburg",
+          "locality": "Mühlburger Feld",
           "street": "Weinbrennerstraße",
-          "houseNumber": "79a",
-          "score": 1.0,
+          "houseNumber": "79",
+          "score": 0.204,
           "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-1489951609",
-          "name": "Stadtteilbibliothek Durlach",
-          "latitude": 48.9986073,
-          "longitude": 8.473871,
-          "address": "Pfinztalstraße 9, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/1489951609",
-          "category": "amenity",
-          "type": "library",
-          "street": "Pfinztalstraße",
-          "houseNumber": "9",
-          "score": 0.8,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-32535727",
-          "name": "Stadtteilbibliothek Neureut",
-          "latitude": 49.0447079,
-          "longitude": 8.382813,
-          "address": "Rubensstraße 21, 76149 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/32535727",
-          "category": "amenity",
-          "type": "library",
-          "city": "Karlsruhe",
-          "district": "Neureut",
-          "locality": "Neureut Nördlicher Teil",
-          "street": "Rubensstraße",
-          "houseNumber": "21",
-          "score": 0.8,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-375688614",
-          "name": "Stadtteilbibliothek Grötzingen",
-          "latitude": 49.0039507,
-          "longitude": 8.498114,
-          "address": "Kirchstraße 13, 76229 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/375688614",
-          "category": "amenity",
-          "type": "library",
-          "city": "Karlsruhe",
-          "district": "Grötzingen",
-          "locality": "Südlich der Pfinz",
-          "street": "Kirchstraße",
-          "houseNumber": "13",
-          "score": 0.759,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-375689534",
-          "name": "Stadtteilbibliothek Waldstadt",
-          "latitude": 49.0353847,
-          "longitude": 8.4441307,
-          "address": "Neisser Straße 12, 76139 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/375689534",
-          "category": "amenity",
-          "type": "library",
-          "street": "Neisser Straße",
-          "houseNumber": "12",
-          "score": 0.737,
-          "exact": false,
           "outsideContext": false
         }
       ],
       "eventCount": 2,
       "reviewNote": "",
-      "sourceAddresses": [],
+      "sourceAddresses": [
+        {
+          "street": "Weinbrennerstraße 79",
+          "city": "Karlsruhe",
+          "postalCode": "76185",
+          "address": "Weinbrennerstraße 79, 76185 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_in_muhlburg-16"
+        }
+      ],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -16845,6 +16868,9 @@
           "url": "https://www.openstreetmap.org/way/777277359",
           "category": "amenity",
           "type": "community_centre",
+          "city": "Karlsruhe",
+          "district": "Mühlburg",
+          "locality": "Mühlburger Feld",
           "street": "Weinbrennerstraße",
           "houseNumber": "79a",
           "score": 0.381,
@@ -16902,6 +16928,9 @@
           "url": "https://www.openstreetmap.org/way/777277359",
           "category": "amenity",
           "type": "community_centre",
+          "city": "Karlsruhe",
+          "district": "Mühlburg",
+          "locality": "Mühlburger Feld",
           "street": "Weinbrennerstraße",
           "houseNumber": "79a",
           "score": 1.0,
@@ -16947,6 +16976,9 @@
           "url": "https://www.openstreetmap.org/node/348003957",
           "category": "amenity",
           "type": "library",
+          "city": "Karlsruhe",
+          "district": "Mühlburg",
+          "locality": "Mühlburger Feld",
           "street": "Weinbrennerstraße",
           "houseNumber": "79a",
           "score": 0.44,
@@ -22763,6 +22795,9 @@
           "url": "https://www.openstreetmap.org/node/348003957",
           "category": "amenity",
           "type": "library",
+          "city": "Karlsruhe",
+          "district": "Mühlburg",
+          "locality": "Mühlburger Feld",
           "street": "Weinbrennerstraße",
           "houseNumber": "79a",
           "score": 0.737,

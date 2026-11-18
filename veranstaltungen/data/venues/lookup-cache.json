@@ -16456,6 +16456,356 @@
           "houseNumber": "13"
         }
       ]
+    },
+    "Rubens straße 21, Karlsruhe": {
+      "checkedAt": "2026-11-18T14:28:00+00:00",
+      "places": [
+        {
+          "id": "osm-way-188284631",
+          "name": "Alte Karlsruher Straße 21",
+          "latitude": 49.0034618,
+          "longitude": 8.460231,
+          "address": "Alte Karlsruher Straße 21, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/188284631",
+          "category": "building",
+          "type": "semidetached_house",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Untermühlsiedlung",
+          "street": "Alte Karlsruher Straße",
+          "houseNumber": "21"
+        },
+        {
+          "id": "osm-way-289729819",
+          "name": "Karlsruher Straße 21",
+          "latitude": 49.0295,
+          "longitude": 8.4574876,
+          "address": "Karlsruher Straße 21, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/289729819",
+          "category": "building",
+          "type": "detached",
+          "city": "Karlsruhe",
+          "district": "Hagsfeld",
+          "locality": "Alt-Hagsfeld",
+          "street": "Karlsruher Straße",
+          "houseNumber": "21"
+        },
+        {
+          "id": "osm-way-138511581",
+          "name": "Karlsruher Straße 21",
+          "latitude": 48.9743704,
+          "longitude": 8.3115721,
+          "address": "Karlsruher Straße 21, 76287 Rheinstetten",
+          "url": "https://www.openstreetmap.org/way/138511581",
+          "category": "building",
+          "type": "apartments",
+          "city": "Rheinstetten",
+          "district": "Forchheim",
+          "locality": "Dammfeldsiedlung",
+          "street": "Karlsruher Straße",
+          "houseNumber": "21"
+        },
+        {
+          "id": "osm-way-233524068",
+          "name": "Karlsruher Straße 21",
+          "latitude": 49.0047582,
+          "longitude": 8.5193661,
+          "address": "Karlsruher Straße 21, 76327 Berghausen",
+          "url": "https://www.openstreetmap.org/way/233524068",
+          "category": "building",
+          "type": "yes",
+          "city": "Berghausen",
+          "district": "Berghausen",
+          "locality": "",
+          "street": "Karlsruher Straße",
+          "houseNumber": "21"
+        },
+        {
+          "id": "osm-node-12752190755",
+          "name": "Klimaalarm24.de",
+          "latitude": 48.9743327,
+          "longitude": 8.311663,
+          "address": "Karlsruher Straße 21, 76287 Rheinstetten",
+          "url": "https://www.openstreetmap.org/node/12752190755",
+          "category": "craft",
+          "type": "hvac",
+          "city": "Rheinstetten",
+          "district": "Forchheim",
+          "locality": "Dammfeldsiedlung",
+          "street": "Karlsruher Straße",
+          "houseNumber": "21"
+        }
+      ]
+    },
+    "Kirch straße 13, Karlsruhe": {
+      "checkedAt": "2026-11-18T14:28:00+00:00",
+      "places": [
+        {
+          "id": "osm-way-151504795",
+          "name": "Weingartener Straße 13",
+          "latitude": 49.0123521,
+          "longitude": 8.4955422,
+          "address": "Weingartener Straße 13, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151504795",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Weingartener Straße",
+          "houseNumber": "13"
+        },
+        {
+          "id": "osm-way-151073902",
+          "name": "Karl-Martin-Graff-Straße 13",
+          "latitude": 49.0034458,
+          "longitude": 8.5048223,
+          "address": "Karl-Martin-Graff-Straße 13, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151073902",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Gewann Am Wasserfall",
+          "street": "Karl-Martin-Graff-Straße",
+          "houseNumber": "13"
+        },
+        {
+          "id": "osm-way-150972760",
+          "name": "Carl-Langhein-Straße 13",
+          "latitude": 49.0046841,
+          "longitude": 8.5072554,
+          "address": "Carl-Langhein-Straße 13, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/150972760",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Gewann Am Wasserfall",
+          "street": "Carl-Langhein-Straße",
+          "houseNumber": "13"
+        },
+        {
+          "id": "osm-way-151379604",
+          "name": "Karl-Leopold-Straße 13",
+          "latitude": 49.0106584,
+          "longitude": 8.4937901,
+          "address": "Karl-Leopold-Straße 13, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151379604",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Karl-Leopold-Straße",
+          "houseNumber": "13"
+        },
+        {
+          "id": "osm-way-184807171",
+          "name": "Waldshuter Straße 13",
+          "latitude": 49.0035874,
+          "longitude": 8.4720487,
+          "address": "Waldshuter Straße 13, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/184807171",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Waldshuter Straße",
+          "houseNumber": "13"
+        }
+      ]
+    },
+    "Niddastraße 6, Karlsruhe": {
+      "checkedAt": "2026-11-18T14:28:00+00:00",
+      "places": [
+        {
+          "id": "osm-way-151345444",
+          "name": "Kunstfachwerk N6",
+          "latitude": 49.0073195,
+          "longitude": 8.4956039,
+          "address": "Niddastraße 6, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151345444",
+          "category": "amenity",
+          "type": "arts_centre",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Niddastraße",
+          "houseNumber": "6"
+        }
+      ]
+    },
+    "Lange Straße 69, Karlsruhe": {
+      "checkedAt": "2026-11-18T14:28:00+00:00",
+      "places": [
+        {
+          "id": "osm-way-103379603",
+          "name": "Altes Rathaus",
+          "latitude": 48.9670279,
+          "longitude": 8.3991144,
+          "address": "Lange Straße 69, 76199 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/103379603",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Rüppurr",
+          "locality": "Alt-Rüppurr",
+          "street": "Lange Straße",
+          "houseNumber": "69"
+        },
+        {
+          "id": "osm-way-24238318",
+          "name": "Bergzaberner Straße 69",
+          "latitude": 49.0382325,
+          "longitude": 8.3696966,
+          "address": "Bergzaberner Straße 69, 76187 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/24238318",
+          "category": "building",
+          "type": "terrace",
+          "city": "Karlsruhe",
+          "district": "Nordweststadt",
+          "locality": "Lange Richtstatt",
+          "street": "Bergzaberner Straße",
+          "houseNumber": "69"
+        }
+      ]
+    },
+    "Herrenstraße 30, Karlsruhe": {
+      "checkedAt": "2026-11-18T14:28:00+00:00",
+      "places": [
+        {
+          "id": "osm-node-3891889947",
+          "name": "Alte Bank",
+          "latitude": 49.0087526,
+          "longitude": 8.3983995,
+          "address": "Herrenstraße 30, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3891889947",
+          "category": "amenity",
+          "type": "restaurant",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Herrenstraße",
+          "houseNumber": "30"
+        },
+        {
+          "id": "osm-way-108964438",
+          "name": "Herrenstraße 30",
+          "latitude": 49.0089855,
+          "longitude": 8.3980657,
+          "address": "Herrenstraße 30, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/108964438",
+          "category": "building",
+          "type": "retail",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Herrenstraße",
+          "houseNumber": "30"
+        },
+        {
+          "id": "osm-node-253396057",
+          "name": "Alte Bank",
+          "latitude": 49.0089053,
+          "longitude": 8.3981933,
+          "address": "Herrenstraße 30, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/253396057",
+          "category": "amenity",
+          "type": "restaurant",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Herrenstraße",
+          "houseNumber": "30"
+        },
+        {
+          "id": "osm-node-656404294",
+          "name": "Kammertheater",
+          "latitude": 49.0089819,
+          "longitude": 8.3982348,
+          "address": "Herrenstraße 30/32, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/656404294",
+          "category": "amenity",
+          "type": "theatre",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Herrenstraße",
+          "houseNumber": "30/32"
+        }
+      ]
+    },
+    "Weinbrennerstraße 79, Karlsruhe": {
+      "checkedAt": "2026-11-18T14:28:00+00:00",
+      "places": [
+        {
+          "id": "osm-way-116488001",
+          "name": "Weinbrennerstraße 79",
+          "latitude": 49.0097914,
+          "longitude": 8.3603292,
+          "address": "Weinbrennerstraße 79, 76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/116488001",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Mühlburg",
+          "locality": "Mühlburger Feld",
+          "street": "Weinbrennerstraße",
+          "houseNumber": "79"
+        },
+        {
+          "id": "osm-node-348003957",
+          "name": "Stadtteilbibliothek Mühlburg",
+          "latitude": 49.010018,
+          "longitude": 8.3603485,
+          "address": "Weinbrennerstraße 79a, 76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/348003957",
+          "category": "amenity",
+          "type": "library",
+          "city": "Karlsruhe",
+          "district": "Mühlburg",
+          "locality": "Mühlburger Feld",
+          "street": "Weinbrennerstraße",
+          "houseNumber": "79a"
+        },
+        {
+          "id": "osm-way-777277359",
+          "name": "Bürgerzentrum Mühlburg",
+          "latitude": 49.0099393,
+          "longitude": 8.3604239,
+          "address": "Weinbrennerstraße 79a, 76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/777277359",
+          "category": "amenity",
+          "type": "community_centre",
+          "city": "Karlsruhe",
+          "district": "Mühlburg",
+          "locality": "Mühlburger Feld",
+          "street": "Weinbrennerstraße",
+          "houseNumber": "79a"
+        }
+      ]
+    },
+    "Hainbuchenweg 1, Karlsruhe": {
+      "checkedAt": "2026-11-18T14:28:00+00:00",
+      "places": [
+        {
+          "id": "osm-way-182503361",
+          "name": "Hainbuchenweg 1",
+          "latitude": 48.9727637,
+          "longitude": 8.4053266,
+          "address": "Hainbuchenweg 1, 76199 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/182503361",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Rüppurr",
+          "locality": "Gartenstadt",
+          "street": "Hainbuchenweg",
+          "houseNumber": "1"
+        }
+      ]
     }
   },
   "attribution": {
