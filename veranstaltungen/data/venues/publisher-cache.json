@@ -1383,6 +1383,97 @@
           "url": "https://kalender.karlsruhe.de/db/termine/theater/freies_tanzen_karlsruhe-140"
         }
       ]
+    },
+    "venue-e7b233fed91e6d980181": {
+      "checkedAt": "2026-11-18T20:39:20+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Kaiserstraße 47",
+          "city": "Karlsruhe",
+          "postalCode": "76131",
+          "address": "Kaiserstraße 47, 76131 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/wolkenwandern_inklusives_thaeter"
+        }
+      ]
+    },
+    "venue-ebacbc09167818080848": {
+      "checkedAt": "2026-11-18T20:39:20+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Prinz-Max-Palais, Karlstraße 10",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Prinz-Max-Palais, Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/fantasy_woche_zauberstab_werkstatt_kids"
+        }
+      ]
+    },
+    "venue-09989a18f4a2f1745f4f": {
+      "checkedAt": "2026-11-18T20:39:20+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Kaiserpassage 6",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Kaiserpassage 6, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/fachveranstaltung_zum_internationalen"
+        }
+      ]
+    },
+    "venue-0e915ffa25fe557d3857": {
+      "checkedAt": "2026-11-18T20:39:20+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Karl-Friedrich-Straße 17",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Karl-Friedrich-Straße 17, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/bausteinwelten-1"
+        }
+      ]
+    },
+    "venue-1094260c05b81d49cd1c": {
+      "checkedAt": "2026-11-18T20:39:20+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Karl-Friedrich-Str. 6, Karlsruhe",
+          "city": "Karlsruhe",
+          "postalCode": "76131",
+          "address": "Karl-Friedrich-Str. 6, Karlsruhe, 76131 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/im_gesprach_sicher_unterwegs_kinder"
+        }
+      ]
+    },
+    "venue-13819f83120215f60478": {
+      "checkedAt": "2026-11-18T20:39:20+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Neisser Straße 12",
+          "city": "Karlsruhe",
+          "postalCode": "76139",
+          "address": "Neisser Straße 12, 76139 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_in_der_waldstadt-24"
+        }
+      ]
+    },
+    "venue-1b1cc525906aeea28fae": {
+      "checkedAt": "2026-11-18T20:39:20+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Wilhelm-Hausenstein-Allee 22",
+          "city": "Karlsruhe",
+          "postalCode": "76187",
+          "address": "Wilhelm-Hausenstein-Allee 22, 76187 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/weihnachtsmarkt_des_humboldt_gymnasiums-3"
+        }
+      ]
     }
   }
 }

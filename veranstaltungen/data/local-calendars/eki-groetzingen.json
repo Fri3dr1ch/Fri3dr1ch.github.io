@@ -4,8 +4,8 @@
     "name": "Evangelische Kirche Grötzingen",
     "region": "Grötzingen",
     "url": "https://eki-groetzingen.de/terminkalender/",
-    "status": "ok",
-    "lastAttemptAt": "2026-11-18T17:36:05+00:00",
+    "status": "error",
+    "lastAttemptAt": "2026-11-18T20:38:14+00:00",
     "lastSuccessAt": "2026-11-18T17:36:05+00:00",
     "refreshHours": 24,
     "recordCount": 106,
@@ -18,7 +18,8 @@
     "coverageEnd": "2027-10-24",
     "coverageNote": "Alle 106 ausdrücklich datierten Einträge von 6 veröffentlichten Ergebnisseiten. Keine selbst erzeugten Wiederholungen; Orte nur soweit ausdrücklich erkennbar.",
     "extractionMethod": "deterministic-html",
-    "llmRequired": false
+    "llmRequired": false,
+    "lastError": "ValueError: EKI: Ergebnisumfang verändert oder Paginierung ignoriert"
   },
   "events": [
     {
