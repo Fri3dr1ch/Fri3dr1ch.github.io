@@ -6,7 +6,7 @@ automatisch ergänzt; offene Fälle blockieren die Karte nicht. Einmal bestätig
 Orte gelten auch für neue Termine. Ablauf und Entscheidungsexport sind in
 [docs/ORTSZUORDNUNG.md](docs/ORTSZUORDNUNG.md) beschrieben.
 
-Statischer Kalender aus 15 getrennt nachvollziehbaren Quellen. Der gemeinsame
+Statischer Kalender aus 16 getrennt nachvollziehbaren Quellen. Der gemeinsame
 Produktionsaufruf aktualisiert RSS/iCalendar, regionale Kalender und die
 Änderungsprüfungen der manuell kontrollierten Grötzinger Quellen. Die
 GitHub-Übernahme und Aktivierung sind in [DEPLOYMENT.md](DEPLOYMENT.md) beschrieben.
@@ -42,7 +42,7 @@ python scripts/sync_github_issues.py --repo Fri3dr1ch/Fri3dr1ch.github.io --dry-
 
 `--source` akzeptiert alle IDs in `scripts/import_local_calendars.py` sowie
 `karlsruhe`, `pdfs` und `regional`. Ohne Option laufen alle Quellen.
-`--source regional` aktualisiert die zwölf regionalen Quellen und die beiden
+`--source regional` aktualisiert die 13 regionalen Quellen und die beiden
 PDF-Änderungsprüfungen, falls Karlsruhe bereits separat aktualisiert wurde.
 Der bisherige Aufruf `import_local_calendars.py` delegiert an denselben Produktionsablauf.
 `--offline` setzt gespeicherte Daten zusammen und validiert sie; es bestätigt
@@ -67,6 +67,7 @@ keinen neuen Abruf und verschiebt keine Sichtprüfung.
 | NaturFreunde Berghausen | Aktuelle und nächste HTML-Jahresprogramme, Detailseiten und Verschiebungen. |
 | NaturFreunde Söllingen | Öffentlicher iCalendar-Export mit Wiederholungen, Ausnahmen und Einzeländerungen; zwölf Monate ab Monatsanfang. |
 | NaturFreunde Grötzingen | Manuell geprüfte Meldungen und Bildaushänge; automatische Änderungsprüfung und monatliche Sichtprüfung. |
+| Waldpädagogik Karlsruhe | Öffentliches Jahresprogramm mit allen verlinkten Monatsseiten, auch kurzfristigen Absagen und ausgebuchten Durchgängen. Bei Kursreihen ohne einzeln ausgewiesene Folgetermine wird der veröffentlichte Beginn übernommen. |
 
 Aktuelle Zahlen und Abdeckungszeiträume stehen in `dist/events.json` und nach
 einem Lauf in `.etl/summary.md`. Die Quellenzahlen enthalten Überschneidungen.
