@@ -4,6 +4,7 @@ from pathlib import Path
 import sys
 from tempfile import TemporaryDirectory
 import unittest
+from unittest.mock import patch
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
@@ -91,6 +92,29 @@ class LocalCalendarTests(unittest.TestCase):
             self.assertEqual(next(s['lastSuccessAt'] for s in data['sources'] if s['id']==name),next(s['lastSuccessAt'] for s in current['sources'] if s['id']==name))
         self.assertEqual(data['maintenance'],current['maintenance'])
         self.assertEqual(len(data['sources']),3+len(saved_sources(ROOT)))
+
+    def test_combined_calendar_recognizes_markets_across_sources(self):
+        def event(title, source='karlsruhe', path='/db/termine/stadtleben/test', category='stadtleben'):
+            return {'title':title, 'categoryKey':category,
+                    'sources':[{'sourceId':source, 'url':'https://example.org'+path}]}
+
+        markets = [
+            event('Wochenmarkt Rüppurr'),
+            event('Bücherflohmarkt', category='literatur'),
+            event('Kloistoibacher Weihnachtsmärktle'),
+            event('Radbasar'),
+            {**event('Remchinger Weihnachtsdorf', 'remchingen'), 'sources':[
+                *event('Remchinger Weihnachtsdorf', 'remchingen')['sources'],
+                *event('Remchinger Weihnachtsdorf', 'kulturhalle-remchingen', '/events/maerkte/weihnachtsdorf')['sources'],
+            ]},
+        ]
+        other = [event('Vortrag zum Arbeitsmarkt', category='literatur'), event('Konzert am Marktplatz', category='musik')]
+        undated = event('Adventsmarkt')
+        data = {'events':markets+other, 'undatedEvents':[undated], 'sources':[]}
+        with patch.object(imp, 'combine_local_sources', return_value=data):
+            result = imp.build_current(ROOT, STAMP)
+        self.assertEqual([e['categoryKey'] for e in result['events']], ['maerkte']*5+['literatur','musik'])
+        self.assertEqual((undated['categoryKey'], undated['category']), ('maerkte','Märkte'))
 
     def test_checked_overlaps_keep_provenance_and_real_time_conflicts(self):
         # Rolling source lists legitimately remove old dates. Test historical

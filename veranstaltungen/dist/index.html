@@ -112,7 +112,7 @@
   const fromGroetzingen=e=>eventSources(e).some(s=>s.sourceId.startsWith('groetzingen'));
   let selectedSources=new Set(sources.map(s=>s.id)),selectedCategories=new Set();
   const selectedSourceMatches=e=>eventSources(e).some(s=>selectedSources.has(s.sourceId));
-  const palette={musik:['#397a9c','#edf5fa','#285d7a'],theater:['#87649e','#f3eff8','#704a89'],literatur:['#b37b38','#faf3e9','#8a5b24'],ausstellungen:['#568579','#edf5f1','#3e6a5d'],stadtleben:['#b27768','#faf0ec','#925b4c'],sportveranstaltung:['#739448','#f0f6e9','#587638'],wirtschaft:['#687d9d','#eff2f8','#4f6385'],architektur:['#81776a','#f4f1ed','#6f6356'],messen_und_kongresse:['#708591','#eff4f6','#536e7e'],sonstiges:['#718195','#eff3f7','#52687e'],festivals:['#a75e82','#f9edf4','#884365']};
+  const palette={musik:['#397a9c','#edf5fa','#285d7a'],theater:['#87649e','#f3eff8','#704a89'],literatur:['#b37b38','#faf3e9','#8a5b24'],ausstellungen:['#568579','#edf5f1','#3e6a5d'],stadtleben:['#b27768','#faf0ec','#925b4c'],maerkte:['#a46b32','#f8f0df','#765022'],sportveranstaltung:['#739448','#f0f6e9','#587638'],wirtschaft:['#687d9d','#eff2f8','#4f6385'],architektur:['#81776a','#f4f1ed','#6f6356'],messen_und_kongresse:['#708591','#eff4f6','#536e7e'],sonstiges:['#718195','#eff3f7','#52687e'],festivals:['#a75e82','#f9edf4','#884365']};
   const colors = key => palette[key] || palette.sonstiges;
   const paint=(node,key)=>{const [color,tint,text]=colors(key);node.style.setProperty('--category',color);node.style.setProperty('--tint',tint);node.style.setProperty('--text',text);return node;};
   const el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;};
@@ -216,6 +216,7 @@
   }
   let venueMap=null,venueLayer=null,mapLibraryPromise=null,mapRenderId=0,mapGroups=[],mapMarkers=new Map(),mapSelection=null,mapExtentKey='',mapTouchMode=false,mapPeriod='month';
   const coarsePointer=()=>!!window.matchMedia?.('(pointer:coarse)').matches||window.innerWidth<=800;
+  const finePointer=window.matchMedia?.('(any-pointer:fine)');
   const validMapPlace=e=>{const p=e.venue?.place;return e.venue?.status==='resolved'&&p&&typeof p.id==='string'&&p.id&&typeof p.latitude==='number'&&typeof p.longitude==='number'&&Number.isFinite(p.latitude)&&Number.isFinite(p.longitude)&&Math.abs(p.latitude)<=85&&Math.abs(p.longitude)<=180;};
   function mapMessage(text){$('map-message').textContent=text;$('map-message').hidden=!text;}
   function leafletLibrary(){
@@ -231,7 +232,11 @@
   }
   function mapInteraction(){
     const active=!coarsePointer()||mapTouchMode;$('map-canvas').classList.toggle('map-interactive',active);
-    if(venueMap)for(const name of ['dragging','touchZoom','doubleClickZoom'])venueMap[name]?.[active?'enable':'disable']();
+    if(venueMap){
+      for(const name of ['dragging','touchZoom','doubleClickZoom'])venueMap[name]?.[active?'enable':'disable']();
+      const wheelZoom=finePointer?.matches ?? !coarsePointer();
+      venueMap.scrollWheelZoom[wheelZoom?'enable':'disable']();
+    }
     $('map-touch').setAttribute('aria-pressed',String(mapTouchMode));$('map-touch').textContent=mapTouchMode?'Kartenbedienung beenden':'Karte bedienen';
   }
   function fitMap(){
@@ -364,7 +369,9 @@
   $('map-view-button').addEventListener('click',()=>{view='map';render();});$('map-period').addEventListener('change',()=>{mapPeriod=$('map-period').value;render();});
   $('map-date').addEventListener('change',()=>{const value=$('map-date').value;if(!/^\d{4}-\d{2}-\d{2}$/.test(value)||Number.isNaN(fromKey(value).getTime())||key(fromKey(value))!==value)return;selected=value;month=monthStart(fromKey(value));mapPeriod='day';$('map-period').value='day';render();});
   $('map-fit').addEventListener('click',fitMap);$('map-back').addEventListener('click',()=>{mapSelection=null;venueMap?.closePopup();for(const marker of mapMarkers.values()){const node=marker.getElement?.();node?.classList.remove('map-selected');node?.setAttribute('aria-pressed','false');}mapPlaceList();fitMap();$('map-places').querySelector('button')?.focus({preventScroll:true});});
-  $('map-touch').addEventListener('click',()=>{mapTouchMode=!mapTouchMode;mapInteraction();});window.addEventListener('resize',()=>{if(venueMap)mapInteraction();});
+  $('map-touch').addEventListener('click',()=>{mapTouchMode=!mapTouchMode;mapInteraction();});
+  window.addEventListener('resize',()=>{if(venueMap)mapInteraction();});
+  finePointer?.addEventListener?.('change',mapInteraction);
   $('more-ongoing').addEventListener('click',()=>{expanded=!expanded;drawOngoing(events.filter(e=>e.longRunning&&matches(e)&&intersect(e,key(month),key(monthEnd(month)))));});
   document.addEventListener('click',event=>{if(!event.target.closest('.multi-filter'))for(const options of document.querySelectorAll('.multi-filter'))options.open=false;const detail=event.target.closest('[data-event]');if(detail){showDetails(detail.dataset.event);return;}const day=event.target.closest('[data-day]');if(day){selected=day.dataset.day;month=monthStart(fromKey(selected));render();$('calendar-body').querySelector('[data-day="'+selected+'"]').focus({preventScroll:true});}});
   $('calendar-body').addEventListener('keydown',event=>{const target=event.target.closest('[data-day]');if(!target)return;const steps={ArrowLeft:-1,ArrowRight:1,ArrowUp:-7,ArrowDown:7};let next;if(event.key in steps)next=addDays(target.dataset.day,steps[event.key]);else if(event.key==='Home')next=addDays(target.dataset.day,-((fromKey(target.dataset.day).getUTCDay()+6)%7));else if(event.key==='End')next=addDays(target.dataset.day,6-((fromKey(target.dataset.day).getUTCDay()+6)%7));else if(event.key==='PageUp'||event.key==='PageDown'){event.preventDefault();changeMonth(event.key==='PageUp'?-1:1);$('calendar-body').querySelector('[data-day="'+selected+'"]').focus({preventScroll:true});return;}else return;event.preventDefault();selected=next;month=monthStart(fromKey(selected));render();$('calendar-body').querySelector('[data-day="'+selected+'"]').focus({preventScroll:true});});

@@ -15,6 +15,12 @@ from import_groetzingen import ROOT,build_dataset,save_dataset,check_review,cate
 from calendar_sources import combine_local_sources,saved_sources
 
 BERLIN=ZoneInfo('Europe/Berlin')
+MARKET_TITLE = re.compile(
+    r'\b\w*(?:advents|bauern|blumen|christkindles?|floh|frühlings|genuss|glühwein|'
+    r'handwerk(?:s|er)?|hexen|kreativ|oster|pyramiden|tannenbaum|trödel|wein|weihnachts|winter|wochen)'
+    r'[\s-]*(?:markt|märkte|märktle)\b|\b\w*basar(?:e)?\b|^(?:abgesagt:\s*)?markt\b',
+    re.IGNORECASE,
+)
 SOURCES={
  'durlach':{'id':'durlach','name':'Durlacher.de · Durlacher Kalender','region':'Durlach und Umgebung',
             'url':'https://www.durlacher.de/durlacher-kalender'},
@@ -250,6 +256,14 @@ def build_current(root,stamp):
     data=build_dataset(base,pdfs,pdf_stamp,date.fromisoformat(stamp[:10]))
     data['generatedAt']=stamp
     data=combine_local_sources(data,saved_sources(root))
+    for event in [*data['events'], *data['undatedEvents']]:
+        market_source = any(
+            report['sourceId'] == 'kulturhalle-remchingen'
+            and urlsplit(report['url']).path.startswith('/events/maerkte/')
+            for report in event['sources']
+        )
+        if market_source or MARKET_TITLE.search(event['title']):
+            event.update(categoryKey='maerkte', category='Märkte')
     checks_path=root/'data/source-checks.json'
     if checks_path.exists():
         checks=json.loads(checks_path.read_text())
