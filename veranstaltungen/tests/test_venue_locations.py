@@ -42,6 +42,7 @@ class VenueTests(unittest.TestCase):
         self.assertEqual(source_addresses(raw,{**e,'url':'https://evil.example/db/termine/test'}),[])
         self.assertTrue(exact_address('Gottesauerstraße 35',{'street':'Gottesauer Straße','houseNumber':'35'}))
         self.assertFalse(exact_address('Gottesauerstraße 350',{'street':'Gottesauer Straße','houseNumber':'35'}))
+        self.assertTrue(exact_address('Engesserstr. 9', {'street':'Engesserstraße','houseNumber':'9'}))
 
     def test_remchingen_address_deduplicates_identical_event_json_and_ignores_footer(self):
         e={**event('Alte RemBar'),'url':'https://www.remchingen.de/veranstaltungen/repair-cafe-id_3347/'}
@@ -60,6 +61,45 @@ class VenueTests(unittest.TestCase):
         e=event('Café NUN','Karlsruhe und Umgebung','karlsruhe');self.cache(e,[right,{**right,'id':'osm-way-3'}])
         write(self.root/'data/venues/publisher-cache.json',{'schemaVersion':1,'locations':{identity(e)[0]:{'addresses':addresses}}})
         data,review=self.build([e]);self.assertEqual(review['rows'][0]['status'],'review');self.assertIsNone(data['events'][0]['venue']['place'])
+
+    def test_karlsruhe_name_alone_cannot_select_a_neighbouring_town(self):
+        market = event('Christ-König-Kirche', 'Karlsruhe und Umgebung', 'karlsruhe')
+        berghausen = {**point(market['location'], lat=49.0036, lon=8.5237),
+                      'street':'Kiefernstraße', 'houseNumber':'2a', 'address':'Kiefernstraße 2a, 76327 Berghausen'}
+        self.cache(market, [berghausen])
+        data,review = self.build([market])
+        self.assertIsNone(data['events'][0]['venue']['place'])
+        self.assertTrue(review['rows'][0]['candidates'][0]['outsideContext'])
+        nearby_address = [{'street':'Kiefernstraße 2a','city':'Berghausen','postalCode':'76327'}]
+        self.assertTrue(candidates_for(market['location'], 'karlsruhe', [berghausen], nearby_address)[0]['exact'])
+
+    def test_venue_name_disambiguates_objects_at_the_published_address(self):
+        venue = {**point('Kinemathek', 'osm-node-1', lat=49.01, lon=8.40),
+                 'street':'Kaiserpassage', 'houseNumber':'6', 'address':'Kaiserpassage 6, 76133 Karlsruhe'}
+        neighbour = {**venue, 'id':'osm-node-2', 'name':'Jazzclub Karlsruhe'}
+        wrong_address = {**venue, 'id':'osm-node-3', 'houseNumber':'16'}
+        address = [{'street':'Kaiserpassage 6','city':'Karlsruhe','postalCode':'76133'}]
+        for location,sources in (('Kinemathek Karlsruhe e.V.',address),('Kaiserpassage 6, Kinemathek',[])):
+            with self.subTest(location=location):
+                matches = candidates_for(location,'karlsruhe',[neighbour,wrong_address,venue],sources)
+                self.assertEqual([p['id'] for p in matches if p['exact']], ['osm-node-1'])
+
+    def test_reviewed_event_venue_override_applies_only_to_the_original_event_context(self):
+        original = event('Staatliche Kunsthalle Karlsruhe', 'Karlsruhe und Umgebung', 'karlsruhe')
+        orangerie = {**original, 'location':'Orangerie', 'id':'second-listing'}
+        other = {**original, 'id':'another-event'}
+        key, location, scope = identity(orangerie)
+        place = {**point(location, lat=49.01316, lon=8.39886), 'address':'Hans-Thoma-Straße 6, 76133 Karlsruhe'}
+        rule = {'key':key,'location':location,'scope':scope,'decision':'place','place':place}
+        override = {'originalVenueKey':identity(original)[0], 'reviewedVenueKey':key}
+        write(self.root/'data/venues/reviewed.json', {
+            'schemaVersion':1, 'rules':[rule], 'eventOverrides':{original['id']:override}})
+        data,_ = self.build([original,orangerie,other])
+        self.assertEqual(data['events'][0]['location'], original['location'])
+        self.assertEqual(data['events'][0]['venue'], data['events'][1]['venue'])
+        self.assertIsNone(data['events'][2]['venue']['place'])
+        data,_ = self.build([{**original, 'location':'Ein neuer Veranstaltungsort'}])
+        self.assertIsNone(data['events'][0]['venue']['place'])
 
     def test_source_address_fetch_and_geocoding_share_budget_and_are_reused(self):
         e={**event('Imagine','Karlsruhe und Umgebung','karlsruhe'),'url':'https://kalender.karlsruhe.de/db/termine/theater/test'}
@@ -265,7 +305,7 @@ class VenueTests(unittest.TestCase):
         p={**point('Stadtteilbibliothek Durlach',lat=49.001,lon=8.472),'address':'Pfinztalstraße 9, 76227 Karlsruhe'}
         self.assertTrue(candidates_for(a['location'],'durlach',[p])[0]['exact'])
         self.assertFalse(candidates_for('Stadtbibliothek Karlsruhe - Stadtteilbibliothek Grötzingen','durlach',[p])[0]['exact'])
-        z=point('ZKM | Zentrum für Kunst und Medien',lat=49.002,lon=8.39)
+        z={**point('ZKM | Zentrum für Kunst und Medien',lat=49.002,lon=8.39),'address':'Lorenzstraße 19, 76135 Karlsruhe'}
         self.assertTrue(candidates_for('Zentrum für Kunst und Medien (ZKM)','karlsruhe',[z])[0]['exact'])
 
     def test_notes_stay_pending_and_issue_fingerprint_only_changes_for_different_venue_keys(self):

@@ -25,6 +25,29 @@
       }
     },
     {
+      "key": "venue-0753356160b6e175035e",
+      "location": "Messe Karlsruhe",
+      "scope": "karlsruhe",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-18",
+      "place": {
+        "id": "osm-way-15385485",
+        "name": "Messe Karlsruhe",
+        "latitude": 48.980865,
+        "longitude": 8.3304163,
+        "address": "Messeallee 1, 76287 Rheinstetten",
+        "url": "https://www.openstreetmap.org/way/15385485",
+        "category": "amenity",
+        "type": "exhibition_centre",
+        "street": "Messeallee",
+        "houseNumber": "1"
+      },
+      "note": "Die Messe bestätigt Messeallee 1 in Rheinstetten als Adresse des Messegeländes.",
+      "sourceUrl": "https://www.messe-karlsruhe.de/de/kontakt/anreise/"
+    },
+    {
       "key": "venue-12631c2047f30abfe98a",
       "location": "Friedhof Weingarten",
       "scope": "weingarten",
@@ -228,6 +251,29 @@
         "houseNumber": "6"
       },
       "note": "Nachprüfung anhand OSM-Objekt, Ortsname und Adresse im Veranstaltungskontext. Bei Saal- oder Geländeangaben: allgemeiner Gebäudepunkt, Originalangabe bleibt erhalten."
+    },
+    {
+      "key": "venue-2da8ccddafecb26c7da2",
+      "location": "vhs Karlsruhe, Kaiserallee 12e, Hofgebäude",
+      "scope": "karlsruhe",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-18",
+      "place": {
+        "id": "osm-way-110101426",
+        "name": "vhs Karlsruhe, Hofgebäude",
+        "latitude": 49.0116633,
+        "longitude": 8.3757795,
+        "address": "Kaiserallee 12e, 76133 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/110101426",
+        "category": "building",
+        "type": "college",
+        "street": "Kaiserallee",
+        "houseNumber": "12e"
+      },
+      "note": "Die vhs nennt für beide Gebäude Kaiserallee 12e und zeigt das separate Hofgebäude im Lageplan.",
+      "sourceUrl": "https://www.vhs-karlsruhe.de/anfahrt"
     },
     {
       "key": "venue-315f6dd2ee828bd892f8",
@@ -723,20 +769,21 @@
       "organizer": "",
       "sourceContext": null,
       "decision": "place",
-      "reviewedOn": "2026-11-17",
+      "reviewedOn": "2026-11-18",
       "place": {
-        "id": "osm-way-1134006199",
-        "name": "Gerthsen-Hörsaal",
-        "latitude": 49.0125002,
-        "longitude": 8.4115242,
-        "address": "Wolfgang-Gaede-Straße, 76131 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/1134006199",
-        "category": "amenity",
-        "type": "auditorium",
-        "street": "Wolfgang-Gaede-Straße",
-        "houseNumber": ""
+        "id": "osm-way-167867876",
+        "name": "Gerthsen-Hörsaal-Gebäude",
+        "latitude": 49.0125246,
+        "longitude": 8.4115266,
+        "address": "Engesserstraße 9, 76131 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/167867876",
+        "category": "building",
+        "type": "university",
+        "street": "Engesserstraße",
+        "houseNumber": "9"
       },
-      "note": "Nachprüfung anhand OSM-Objekt, Ortsname und Adresse im Veranstaltungskontext. Bei Saal- oder Geländeangaben: allgemeiner Gebäudepunkt, Originalangabe bleibt erhalten."
+      "note": "Das KIT bestätigt Engesserstraße 9 für das Hörsaalgebäude 30.21.",
+      "sourceUrl": "https://www.studiumundbehinderung.kit.edu/75_269.php"
     },
     {
       "key": "venue-5b3a5ef5f08948545dce",
@@ -1261,6 +1308,32 @@
       "note": "Nachprüfung anhand OSM-Objekt, Ortsname und Adresse im Veranstaltungskontext. Bei Saal- oder Geländeangaben: allgemeiner Gebäudepunkt, Originalangabe bleibt erhalten."
     },
     {
+      "key": "venue-7f9f0ed479744ab6ded4",
+      "location": "Wochenmarkt Rüppurr",
+      "scope": "karlsruhe",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-18",
+      "place": {
+        "id": "osm-node-7296572600",
+        "name": "Wochenmarkt Rüppurr",
+        "latitude": 48.9711525,
+        "longitude": 8.40521,
+        "address": "Tulpenstraße 1, 76199 Karlsruhe",
+        "url": "https://www.openstreetmap.org/node/7296572600",
+        "category": "amenity",
+        "type": "marketplace",
+        "city": "Karlsruhe",
+        "district": "Rüppurr",
+        "locality": "Neu-Rüppurr",
+        "street": "Tulpenstraße",
+        "houseNumber": "1"
+      },
+      "note": "Der Markt findet auf dem Platz vor der Kirche statt.",
+      "sourceUrl": "https://kalender.karlsruhe.de/db/termine/stadtleben/wochenmarkt_ruppurr"
+    },
+    {
       "key": "venue-802147b9dcc7829449c8",
       "location": "Badnerlandhalle Neureut",
       "scope": "karlsruhe",
@@ -1602,6 +1675,29 @@
         "houseNumber": ""
       },
       "note": "Nachprüfung anhand OSM-Objekt, Ortsname und Adresse im Veranstaltungskontext. Bei Saal- oder Geländeangaben: allgemeiner Gebäudepunkt, Originalangabe bleibt erhalten."
+    },
+    {
+      "key": "venue-93377e950b585fc47dbd",
+      "location": "Substage Karlsruhe e.V.",
+      "scope": "karlsruhe",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-18",
+      "place": {
+        "id": "osm-way-115564781",
+        "name": "Substage",
+        "latitude": 49.0052774,
+        "longitude": 8.429731,
+        "address": "Alter Schlachthof 19, 76131 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/115564781",
+        "category": "amenity",
+        "type": "nightclub",
+        "street": "Alter Schlachthof",
+        "houseNumber": "19"
+      },
+      "note": "Der Club gibt als Anfahrtsadresse Alter Schlachthof 19 an. Die städtische Seite nennt Durlacher Allee 62.",
+      "sourceUrl": "https://substage.de/kontakt/"
     },
     {
       "key": "venue-94696beee74c9ab7c256",
@@ -2258,6 +2354,55 @@
       }
     },
     {
+      "key": "venue-cd2d86abd9111a567a4b",
+      "location": "Bürgerzentrum Mühlburg",
+      "scope": "karlsruhe",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-18",
+      "place": {
+        "id": "osm-node-4436943318",
+        "name": "Bürgerzentrum Mühlburg (Bau 2)",
+        "latitude": 49.0135979,
+        "longitude": 8.3576858,
+        "address": "Hardtstraße 37a, 76185 Karlsruhe",
+        "url": "https://www.openstreetmap.org/node/4436943318",
+        "category": "place",
+        "type": "house",
+        "city": "Karlsruhe",
+        "district": "Mühlburg",
+        "locality": "Alt-Mühlburg",
+        "street": "Hardtstraße",
+        "houseNumber": "37a"
+      },
+      "note": "Der Betreiber und die städtische Veranstaltungsseite nennen Hardtstraße 37a, Bau 2. Der Kartenpunkt liegt an der Adresse.",
+      "sourceUrl": "https://www.bzm-ka.de/das-b%C3%BCrgerzentrum/die-lage/"
+    },
+    {
+      "key": "venue-cd730dea52e1f3aae0eb",
+      "location": "Mineralixarena",
+      "scope": "weingarten",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-18",
+      "place": {
+        "id": "osm-way-53003261",
+        "name": "Mineralix-Arena",
+        "latitude": 49.0501654,
+        "longitude": 8.5200007,
+        "address": "Ringstraße 67, 76356 Weingarten",
+        "url": "https://www.openstreetmap.org/way/53003261",
+        "category": "leisure",
+        "type": "sports_hall",
+        "street": "Ringstraße",
+        "houseNumber": "67"
+      },
+      "note": "Der Betreiber bestätigt Ringstraße 67. Ein Kalendereintrag nennt die Hausnummer 17.",
+      "sourceUrl": "https://svgermania04.de/anfahrt/"
+    },
+    {
       "key": "venue-ce3e93ce2de30a33f4e3",
       "location": "Centro = Schul- und Kulturzentrum der Deutsch-Italienischen Gesellschaft e.V. Karlsruhe",
       "scope": "karlsruhe",
@@ -2576,6 +2721,32 @@
       "note": "Nachprüfung anhand passendem OSM-Gebäude bzw. Platz und Veranstaltungsort. Andere gleichnamige Objekte (Haltestellen, Straßen und benachbarte Orte) ausgeschlossen."
     },
     {
+      "key": "venue-eebcbdaa0c78cbf93ff3",
+      "location": "Christ-König-Kirche",
+      "scope": "karlsruhe",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-18",
+      "place": {
+        "id": "osm-way-80339684",
+        "name": "Christkönig",
+        "latitude": 48.9713224,
+        "longitude": 8.4055783,
+        "address": "Tulpenstraße 1, 76199 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/80339684",
+        "category": "amenity",
+        "type": "place_of_worship",
+        "city": "Karlsruhe",
+        "district": "Rüppurr",
+        "locality": "Neu-Rüppurr",
+        "street": "Tulpenstraße",
+        "houseNumber": "1"
+      },
+      "note": "Der Karlsruher Spielort liegt in Rüppurr. Die gleichnamige Kirche in Berghausen liegt in Pfinztal.",
+      "sourceUrl": "https://kalender.karlsruhe.de/db/termine/stadtleben/wochenmarkt_ruppurr"
+    },
+    {
       "key": "venue-ef262230e60512dffb40",
       "location": "KIT Botanischer Garten",
       "scope": "karlsruhe",
@@ -2685,6 +2856,29 @@
         "houseNumber": "",
         "outsideContext": false
       }
+    },
+    {
+      "key": "venue-fb41e204e5682c8feaa8",
+      "location": "Mineralix-Arena",
+      "scope": "weingarten",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-18",
+      "place": {
+        "id": "osm-way-53003261",
+        "name": "Mineralix-Arena",
+        "latitude": 49.0501654,
+        "longitude": 8.5200007,
+        "address": "Ringstraße 67, 76356 Weingarten",
+        "url": "https://www.openstreetmap.org/way/53003261",
+        "category": "leisure",
+        "type": "sports_hall",
+        "street": "Ringstraße",
+        "houseNumber": "67"
+      },
+      "note": "Der Betreiber bestätigt Ringstraße 67. Ein Kalendereintrag nennt die Hausnummer 17.",
+      "sourceUrl": "https://svgermania04.de/anfahrt/"
     },
     {
       "key": "venue-fcd8021f267fdd06210c",
@@ -3074,6 +3268,18 @@
       "scope": "karlsruhe",
       "note": "Nachprüfung: Kein einzelner fester Veranstaltungs- bzw. Treffpunkt aus der Ortsangabe ableitbar. Genauen Treffpunkt in der Originalquelle klären; keine Ortsmitte als Ersatz verwenden.",
       "reviewedOn": "2026-11-17"
+    }
+  },
+  "eventOverrides": {
+    "karlsruhe-830d37d0b9e38bfe": {
+      "originalVenueKey": "venue-eebcbdaa0c78cbf93ff3",
+      "reviewedVenueKey": "venue-7f9f0ed479744ab6ded4",
+      "sourceUrl": "https://kalender.karlsruhe.de/db/termine/stadtleben/wochenmarkt_ruppurr"
+    },
+    "karlsruhe-453c1c26ac93c9ff": {
+      "originalVenueKey": "venue-3cb15564c4bd820c672c",
+      "reviewedVenueKey": "venue-cfb435b8ff413f46732c",
+      "sourceUrl": "https://www.kunsthalle-karlsruhe.de/termine/lesung-landschaft-ohne-zeugen/"
     }
   }
 }

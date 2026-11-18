@@ -107,16 +107,24 @@ def building_label(location):
     return label
 
 
-def context_match(place, scope):
+def postal_city(place):
+    match = re.search(r'\b\d{5}\s+([^,]+)', place.get('address', ''))
+    return norm(place.get('city') or (match[1] if match else ''))
+
+
+def context_match(place, scope, source_city=None):
     """Bounding boxes overlap; explicit municipality names take precedence."""
     if not inside(place, scope):return False
     if place.get('provenance'):return True
+    city = postal_city(place)
+    if scope == 'karlsruhe':
+        # The feed covers the surrounding area too. A different postal city
+        # needs a matching source address or a reviewed venue.
+        return not city or city == (norm(source_city) or 'karlsruhe')
     text = norm(' '.join(str(place.get(k, '')) for k in ('address', 'name', 'district', 'locality')))
     named = {key for key in SCOPES
              if re.search(r'\b' + re.escape(local_name(key)) + r'\b', text)}
-    if scope in {'karlsruhe', 'remchingen', 'pfinztal', 'walzbachtal'}:return True
-    postal_city = re.search(r'\b\d{5}\s+([^,]+)', place.get('address', ''))
-    city = norm(place.get('city') or (postal_city[1] if postal_city else ''))
+    if scope in {'remchingen', 'pfinztal', 'walzbachtal'}:return True
     allowed = {'groetzingen': {'karlsruhe', 'grotzingen'}, 'durlach': {'karlsruhe', 'durlach'},
                'weingarten': {'weingarten', 'weingarten baden'},
                'joehlingen': {'johlingen', 'walzbachtal'}, 'woessingen': {'wossingen', 'walzbachtal'}}
@@ -182,6 +190,7 @@ def name_core(value, scope):
     # Only harmless city/legal/venue-type qualifiers. Room names, churches and
     # district names are deliberately not removed as general fuzzy synonyms.
     value = norm(building_label(value).replace('&',' und '))
+    value = re.sub(r'\bvhs\b', 'volkshochschule', value)
     for word in ('deutschland','walzbachtal','karlsruhe','remchingen','pfinztal','kulturzentrum','galerie','naturfreundehaus','planetarium','stadtbibliothek','zentralbibliothek','e v'):
         value = re.sub(r'\b'+word+r'\b',' ',value)
     if scope:
@@ -190,17 +199,26 @@ def name_core(value, scope):
     return ' '.join(value.split())
 
 
-def exact_address(location, place):
+def address_match(location, place):
     street,number = street_norm(place.get('street')),norm(place.get('houseNumber'))
     # Both street and number must be present as complete words; no street-centre
     # matches and no interpretation of an isolated year as a house number.
-    return bool(street and number and re.search(r'\b'+re.escape(street)+r'\s*'+re.escape(number)+r'\b',street_norm(location)))
+    if not street or not number:
+        return None
+    return re.search(r'\b'+re.escape(street)+r'\s*'+re.escape(number)+r'\b',street_norm(location))
+
+
+def exact_address(location, place):
+    return address_match(location, place) is not None
+
+
+def expand_street_abbreviation(value):
+    return re.sub(r'(?i)str\.(?=\s|\d|$)', lambda m: 'Straße ' if m[0][0].isupper() else 'straße ', value)
 
 
 def street_norm(value):
     # Str.5, Straße 5 and the OSM spelling with a space before Straße agree.
-    value=re.sub(r'(?i)\bstr\.(?=\s|\d|$)', 'straße ', value or '')
-    value=norm(value)
+    value=norm(expand_street_abbreviation(value or ''))
     return re.sub(r'\s+(strasse|str)\b', r'\1', value)
 
 
@@ -251,7 +269,7 @@ def source_addresses(raw,event):
 
 def address_queries(addresses):
     if len(addresses)!=1:return []
-    a=addresses[0];street=re.sub(r'(?i)\bStr\.(?=\s|\d|$)','Straße ',a['street'])
+    a=addresses[0];street=expand_street_abbreviation(a['street'])
     street=' '.join(street.split())
     variants=[street,re.sub(r'(?i)(?<=\w)(straße)\b',r' \1',street)]
     return list(dict.fromkeys(v+', '+a['city'] for v in variants))
@@ -260,8 +278,11 @@ def address_queries(addresses):
 def candidates_for(location, scope, places, addresses=None):
     core = name_core(location,scope)
     result = []
+    address_name_matches = set()
+    source = addresses[0] if addresses else {}
+    context_names = {norm(label.split('-')[-1]) for label,_ in SCOPES.values()}
     for place in places:
-        outside=not context_match(place,scope)
+        outside=not context_match(place,scope,source.get('city'))
         other = name_core(place['name'],scope)
         if outside and place.get('provenance') not in {'publisher','publisher-multiple'}:
             # A named hall can be in a neighbouring district even when the
@@ -273,27 +294,38 @@ def candidates_for(location, scope, places, addresses=None):
         contextual_generic = core in {'evangelisches gemeindehaus', 'kulturhalle', 'friedhof'} and scope and bool(
             re.search(r'\b'+re.escape(local_name(scope))+r'\b', norm(place.get('address',''))))
         full_exact=norm(location)==norm(place['name']) and (norm(location) not in GENERIC or contextual_generic)
-        context_names={norm(label.split('-')[-1]) for label,_ in SCOPES.values()}
+        usable = venue_object(place,location)
         exact = bool(core and ((sorted(core.split()) == sorted(other.split()) or core.replace(' ','') == other.replace(' ','')) and core not in GENERIC|context_names or full_exact) and
-                     venue_object(place,location) and place['type'] not in {'administrative','city','town','village','suburb'})
+                     usable and place['type'] not in {'administrative','city','town','village','suburb'})
         if place.get('provenance')=='publisher':exact=True
-        address = exact_address(location,place) and place.get('houseNumber') and venue_object(place,location)
+        inline_address = address_match(location,place)
+        address = bool(inline_address and usable)
+        if inline_address:
+            raw_label = inline_address.string[:inline_address.start()] + ' ' + inline_address.string[inline_address.end():]
+            name_without_address = name_core(re.sub(r'\b\d{5}\b', '', raw_label),scope)
+        else:
+            name_without_address = core
         if addresses:
             # A matching name cannot overrule a different published house address.
-            source=addresses[0]
             postal=re.search(r'\b\d{5}\b',place.get('address',''))
-            city=place.get('city') or (re.search(r'\b\d{5}\s+([^,]+)',place.get('address','')) or [None,''])[1]
-            address=(len(addresses)==1 and exact_address(source['street'],place) and venue_object(place,location) and
-                     (not city or not source.get('city') or norm(city)==norm(source['city'])) and
+            city=postal_city(place)
+            address=(len(addresses)==1 and exact_address(source['street'],place) and usable and
+                     (not city or not source.get('city') or city==norm(source['city'])) and
                      (not postal or not source.get('postalCode') or postal[0]==source['postalCode']))
-            exact=bool(address)
             if not address:continue
         if place.get('provenance')=='publisher-multiple':exact=address=False
         if place['category'] in {'boundary','place'} and place['type']!='square' and not address:continue
         if not (a&b)-SEARCH_FILLER and not exact and not address and core not in GENERIC and score<0.8:continue
         if b and b<=a and b-SEARCH_FILLER:score=max(score,0.93)
         if score<0.35 and not exact and not address and not (core in GENERIC and a&b):continue
+        if address and not outside and (exact or (name_without_address and name_without_address == other)):
+            address_name_matches.add(place['id'])
         result.append({**deepcopy(place),'score':round(score,3),'exact':bool(exact or address) and not outside,'outsideContext':outside})
+    if address_name_matches:
+        # Several tenants can share an address. Prefer a matching venue name
+        # at that address, while keeping equally named objects for review.
+        for candidate in result:
+            candidate['exact'] = candidate['id'] in address_name_matches
     return sorted(result,key=lambda p:(not p['exact'],-p['score'],p['id']))[:5]
 
 
@@ -379,6 +411,7 @@ def enrich(data,root,today,online=False,budget=None,fetch=None,source_fetch=None
     rules=registry['rules']
     if len({r['key'] for r in rules})!=len(rules):raise ValueError('Doppelte Ortsprüfentscheidung')
     reviewed={r['key']:r for r in rules}
+    event_overrides=registry.get('eventOverrides',{})
     confirmed_buildings={}
     for rule in rules:
         if rule['decision']=='place' and building_label(rule['location']) != canonical_label(rule['location']):
@@ -389,6 +422,12 @@ def enrich(data,root,today,online=False,budget=None,fetch=None,source_fetch=None
     groups={}
     for e in [*data['events'],*data.get('undatedEvents',[])]:
         key,location,scope=identity(e)
+        override=event_overrides.get(e['id'])
+        if override and key == override['originalVenueKey']:
+            # A source can name the institution while the organiser specifies
+            # a different building for just this event.
+            target=reviewed[override['reviewedVenueKey']]
+            key,location,scope=target['key'],target['location'],target['scope']
         group=groups.setdefault(key,{'key':key,'location':location,'scope':scope,'events':[]})
         group['events'].append(e)
     now=datetime.now(timezone.utc).isoformat(timespec='seconds')
