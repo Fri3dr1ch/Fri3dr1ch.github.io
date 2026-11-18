@@ -1204,6 +1204,58 @@
           "url": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_mit_basteln_in_neureut-13"
         }
       ]
+    },
+    "venue-fa1c74c566bfb80be20d": {
+      "checkedAt": "2026-11-18T10:14:26+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Kanalweg 52",
+          "city": "Karlsruhe",
+          "postalCode": "76149",
+          "address": "Kanalweg 52, 76149 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/storytime-27"
+        }
+      ]
+    },
+    "venue-138e45b1a1d14a83025d": {
+      "checkedAt": "2026-11-18T10:14:26+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Am dm-Platz 1",
+          "city": "Karlsruhe",
+          "postalCode": "76227",
+          "address": "Am dm-Platz 1, 76227 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/stark_von_innen_selbstbewusstsein_und_selbstfursorge"
+        }
+      ]
+    },
+    "venue-2dc0ff27c4d2135c9118": {
+      "checkedAt": "2026-11-18T10:14:26+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Kirchstraße 13",
+          "city": "Karlsruhe",
+          "postalCode": "76229",
+          "address": "Kirchstraße 13, 76229 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_in_grotzingen-2"
+        }
+      ]
+    },
+    "venue-585f027bb3d8a481f488": {
+      "checkedAt": "2026-11-18T10:14:26+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Niddastraße 6",
+          "city": "Karlsruhe",
+          "postalCode": "76229",
+          "address": "Niddastraße 6, 76229 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/wolfgang_rempfer-3"
+        }
+      ]
     }
   }
 }
