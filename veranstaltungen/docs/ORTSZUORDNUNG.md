@@ -84,6 +84,12 @@ eigene Ortsidentität bleiben erhalten; eine ausdrückliche Einzelentscheidung
 hat Vorrang. Die INSEL ist eine eigene Spielstätte in der Karlstraße und wird
 nicht mit dem Hauptgebäude des Staatstheaters zusammengelegt.
 
+Wenn ein Veranstalter für einen einzelnen Termin ein anderes Gebäude
+bestätigt, kann `eventOverrides` im Ortsregister auf dessen geprüften Kartenpunkt
+verweisen. Die Korrektur gilt für die Termin-ID, solange die ursprüngliche
+Ortsangabe denselben Schlüssel ergibt. Die Originalangabe und die Quellen
+bleiben im Termin erhalten.
+
 ## Automatischer Ablauf
 
 `update_calendar.py` führt die Zuordnung nach dem Zusammenführen der Quellen aus.
@@ -113,10 +119,14 @@ Zeitplan. Nach dem Merge werden Ortsdaten, Prüfliste und Caches mit `data/` und
   Leerzeichen vor „straße“. Ohne Hausnummer, bei widersprüchlichen Quellenadressen
   oder mehreren passenden Kartenobjekten bleibt die Prüfung offen. Quellenabrufe
   und Adresssuchen teilen sich das bestehende Budget und die Fehlergrenzen.
+  Teilen sich mehrere Einrichtungen eine Adresse, kann ein eindeutiger
+  Spielortname unter den Adresstreffern die Zuordnung entscheiden.
 - Bei überlappenden Suchgebieten müssen auch Ortsnamen und Adressen zum
   Veranstaltungskontext passen. Ein Gemeindehaus in Berghausen ist kein Treffer
   für eine Veranstaltung in Weingarten. Haltestellen, Hinweistafeln, Toiletten
   und Fahrradständer gelten nicht als Veranstaltungsgebäude.
+  Für „Karlsruhe und Umgebung“ brauchen Treffer mit einer ausdrücklich anderen
+  Poststadt eine passende Quellenadresse oder eine geprüfte Zuordnung.
 - Suchergebnisse einschließlich leerer Antworten werden dauerhaft gespeichert.
   Pro regulärem Lauf werden höchstens zwölf neue Abfragen versucht, seriell und
   mit Abstand. Nach zwei Netzfehlern stoppt die zusätzliche Suche. Fehlversuche
