@@ -1593,6 +1593,84 @@
           "url": "https://kalender.karlsruhe.de/db/termine/musik/abgesagt_monotape"
         }
       ]
+    },
+    "venue-6b96e7db1a371c399535": {
+      "checkedAt": "2026-11-19T20:43:58+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Gerwigstr. 2",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Gerwigstr. 2, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/wirtschaft/denkmahl_skeptix_ka-9"
+        }
+      ]
+    },
+    "venue-6d50b2bd7d7f4ead0b15": {
+      "checkedAt": "2026-11-19T20:43:58+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Kaiserstr. 131",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Kaiserstr. 131, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/denis_scheck_und_wolfgang_abendschon"
+        }
+      ]
+    },
+    "venue-728fceef06366503470f": {
+      "checkedAt": "2026-11-19T20:43:58+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Albert-Schweitzer-Straße 1",
+          "city": "Karlsruhe",
+          "postalCode": "76139",
+          "address": "Albert-Schweitzer-Straße 1, 76139 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/plakatparaphrasen_hommage_a_victor_vasarely-1"
+        }
+      ]
+    },
+    "venue-737b1a38c30afb631237": {
+      "checkedAt": "2026-11-19T20:43:58+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Durlacher Allee 56",
+          "city": "Karlsruhe",
+          "postalCode": "76131",
+          "address": "Durlacher Allee 56, 76131 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/el_salvador_kleines_land_groe_probleme"
+        }
+      ]
+    },
+    "venue-8a702efd78807447d8b9": {
+      "checkedAt": "2026-11-19T20:43:58+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Lorenzstraße 19",
+          "city": "Karlsruhe",
+          "postalCode": "76135",
+          "address": "Lorenzstraße 19, 76135 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/artist_talk_mit_juha_van_ingen"
+        }
+      ]
+    },
+    "venue-8ec91168d545e84b52dc": {
+      "checkedAt": "2026-11-19T20:43:58+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Hermann-von-Helmholtz-Platz 1",
+          "city": "Eggenstein-Leopoldshafen",
+          "postalCode": "76344",
+          "address": "Hermann-von-Helmholtz-Platz 1, 76344 Eggenstein-Leopoldshafen",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/junge_talente_wissenschaft_und_musik-3"
+        }
+      ]
     }
   }
 }

@@ -18235,6 +18235,276 @@
           "houseNumber": "26"
         }
       ]
+    },
+    "Begegnungsstätte Grötzingen, Niddaraum, Grötzingen": {
+      "checkedAt": "2026-11-19T20:43:58+00:00",
+      "places": [
+        {
+          "id": "osm-way-151345436",
+          "name": "Begegnungsstätte Grötzingen",
+          "latitude": 49.0070922,
+          "longitude": 8.4951326,
+          "address": "Niddastraße 9, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151345436",
+          "category": "amenity",
+          "type": "community_centre",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Niddastraße",
+          "houseNumber": "9"
+        },
+        {
+          "id": "osm-way-151484045",
+          "name": "AWO-Begegnungsstätte Grötzingen",
+          "latitude": 49.0099031,
+          "longitude": 8.4954708,
+          "address": "Niddastraße 30, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151484045",
+          "category": "building",
+          "type": "terrace",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Niddastraße",
+          "houseNumber": "30"
+        }
+      ]
+    },
+    "Begegnungsstätte Grötzingen, Niddasaal, Grötzingen": {
+      "checkedAt": "2026-11-19T20:43:58+00:00",
+      "places": [
+        {
+          "id": "osm-way-151345436",
+          "name": "Begegnungsstätte Grötzingen",
+          "latitude": 49.0070922,
+          "longitude": 8.4951326,
+          "address": "Niddastraße 9, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151345436",
+          "category": "amenity",
+          "type": "community_centre",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Niddastraße",
+          "houseNumber": "9"
+        },
+        {
+          "id": "osm-way-151484045",
+          "name": "AWO-Begegnungsstätte Grötzingen",
+          "latitude": 49.0099031,
+          "longitude": 8.4954708,
+          "address": "Niddastraße 30, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151484045",
+          "category": "building",
+          "type": "terrace",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Niddastraße",
+          "houseNumber": "30"
+        }
+      ]
+    },
+    "Gerwigstraße 2, Karlsruhe": {
+      "checkedAt": "2026-11-19T20:43:58+00:00",
+      "places": [
+        {
+          "id": "osm-node-31261876",
+          "name": "Oxford Café Ost",
+          "latitude": 49.0093568,
+          "longitude": 8.4238287,
+          "address": "Gerwigstraße 2, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/31261876",
+          "category": "amenity",
+          "type": "restaurant",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "Gerwigstraße",
+          "houseNumber": "2"
+        },
+        {
+          "id": "osm-way-111741770",
+          "name": "Gerwigstraße 2",
+          "latitude": 49.0093437,
+          "longitude": 8.4239202,
+          "address": "Gerwigstraße 2, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/111741770",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "Gerwigstraße",
+          "houseNumber": "2"
+        },
+        {
+          "id": "osm-way-668086709",
+          "name": "T2",
+          "latitude": 49.0070195,
+          "longitude": 8.4331419,
+          "address": "Gerwigstraße, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/668086709",
+          "category": "railway",
+          "type": "engine_shed",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "Gerwigstraße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Kaiserstraße 131, Karlsruhe": {
+      "checkedAt": "2026-11-19T20:43:58+00:00",
+      "places": [
+        {
+          "id": "osm-way-90034224",
+          "name": "Kleine Kirche",
+          "latitude": 49.0092404,
+          "longitude": 8.4053095,
+          "address": "Kaiserstraße 131, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/90034224",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "131"
+        }
+      ]
+    },
+    "Albert-Schweitzer-Straße 1, Karlsruhe": {
+      "checkedAt": "2026-11-19T20:43:58+00:00",
+      "places": [
+        {
+          "id": "osm-way-156959753",
+          "name": "Europäische Schule Karlsruhe",
+          "latitude": 49.0463508,
+          "longitude": 8.4458101,
+          "address": "Albert-Schweitzer-Straße 1, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/156959753",
+          "category": "amenity",
+          "type": "school",
+          "city": "Karlsruhe",
+          "district": "Waldstadt",
+          "locality": "Waldstadt Waldlage",
+          "street": "Albert-Schweitzer-Straße",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-way-110881022",
+          "name": "Albert-Schweitzer-Straße 1",
+          "latitude": 49.0462055,
+          "longitude": 8.4467706,
+          "address": "Albert-Schweitzer-Straße 1, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/110881022",
+          "category": "building",
+          "type": "school",
+          "city": "Karlsruhe",
+          "district": "Waldstadt",
+          "locality": "Waldstadt Waldlage",
+          "street": "Albert-Schweitzer-Straße",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-way-119469417",
+          "name": "Albert-Schweitzer-Straße 1",
+          "latitude": 48.9500372,
+          "longitude": 8.400275,
+          "address": "Albert-Schweitzer-Straße 1, 76275 Ettlingen",
+          "url": "https://www.openstreetmap.org/way/119469417",
+          "category": "building",
+          "type": "yes",
+          "city": "Ettlingen",
+          "district": "Ettlingen",
+          "locality": "",
+          "street": "Albert-Schweitzer-Straße",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-way-257683212",
+          "name": "Albert-Schweitzer-Straße 1",
+          "latitude": 48.9637085,
+          "longitude": 8.2985255,
+          "address": "Albert-Schweitzer-Straße 1, 76287 Rheinstetten",
+          "url": "https://www.openstreetmap.org/way/257683212",
+          "category": "building",
+          "type": "yes",
+          "city": "Rheinstetten",
+          "district": "Mörsch",
+          "locality": "",
+          "street": "Albert-Schweitzer-Straße",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-way-218754240",
+          "name": "Albert-Schweitzer-Straße 1",
+          "latitude": 48.9344828,
+          "longitude": 8.4611994,
+          "address": "Albert-Schweitzer-Straße 1, 76337 Waldbronn",
+          "url": "https://www.openstreetmap.org/way/218754240",
+          "category": "building",
+          "type": "yes",
+          "city": "Waldbronn",
+          "district": "Busenbach",
+          "locality": "",
+          "street": "Albert-Schweitzer-Straße",
+          "houseNumber": "1"
+        }
+      ]
+    },
+    "Durlacher Allee 56, Karlsruhe": {
+      "checkedAt": "2026-11-19T20:43:58+00:00",
+      "places": [
+        {
+          "id": "osm-node-3171772390",
+          "name": "PSD Bank Karlsruhe-Neustadt",
+          "latitude": 49.0065419,
+          "longitude": 8.4255428,
+          "address": "Durlacher Allee 56, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3171772390",
+          "category": "amenity",
+          "type": "bank",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "Durlacher Allee",
+          "houseNumber": "56"
+        },
+        {
+          "id": "osm-node-3171772387",
+          "name": "Durlacher Allee 56",
+          "latitude": 49.0066092,
+          "longitude": 8.425533,
+          "address": "Durlacher Allee 56, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3171772387",
+          "category": "amenity",
+          "type": "atm",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "Durlacher Allee",
+          "houseNumber": "56"
+        },
+        {
+          "id": "osm-way-251203951",
+          "name": "Durlacher Allee 56",
+          "latitude": 49.0064663,
+          "longitude": 8.425459,
+          "address": "Durlacher Allee 56, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/251203951",
+          "category": "building",
+          "type": "office",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "Durlacher Allee",
+          "houseNumber": "56"
+        }
+      ]
     }
   },
   "attribution": {
