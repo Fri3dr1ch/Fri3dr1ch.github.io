@@ -1,8 +1,8 @@
 {
   "groetzingen-jahresprogramm": {
-    "lastAttemptAt": "2026-11-18T20:39:15+00:00",
-    "lastCheckedAt": "2026-11-18T20:39:19+00:00",
-    "lastSuccessAt": "2026-11-18T20:39:19+00:00",
+    "lastAttemptAt": "2026-11-19T07:33:50+00:00",
+    "lastCheckedAt": "2026-11-19T07:33:56+00:00",
+    "lastSuccessAt": "2026-11-19T07:33:56+00:00",
     "lastReviewedAt": "2026-11-12",
     "refreshHours": 24,
     "status": "ok",
@@ -13,9 +13,9 @@
     ]
   },
   "groetzingen-kultur-natur": {
-    "lastAttemptAt": "2026-11-18T20:39:15+00:00",
-    "lastCheckedAt": "2026-11-18T20:39:20+00:00",
-    "lastSuccessAt": "2026-11-18T20:39:20+00:00",
+    "lastAttemptAt": "2026-11-19T07:33:50+00:00",
+    "lastCheckedAt": "2026-11-19T07:33:58+00:00",
+    "lastSuccessAt": "2026-11-19T07:33:58+00:00",
     "lastReviewedAt": "2026-11-12",
     "refreshHours": 24,
     "status": "ok",

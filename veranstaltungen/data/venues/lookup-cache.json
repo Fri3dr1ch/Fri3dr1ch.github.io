@@ -17616,6 +17616,241 @@
           "houseNumber": "12"
         }
       ]
+    },
+    "Wilhelm-Hausenstein-Allee 22, Karlsruhe": {
+      "checkedAt": "2026-11-19T07:33:58+00:00",
+      "places": [
+        {
+          "id": "osm-way-334797399",
+          "name": "Humboldt-Gymnasium",
+          "latitude": 49.0330261,
+          "longitude": 8.3720151,
+          "address": "Wilhelm-Hausenstein-Allee 22, 76187 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/334797399",
+          "category": "amenity",
+          "type": "school",
+          "city": "Karlsruhe",
+          "district": "Nordweststadt",
+          "locality": "Alter Flugplatz",
+          "street": "Wilhelm-Hausenstein-Allee",
+          "houseNumber": "22"
+        },
+        {
+          "id": "osm-relation-36984",
+          "name": "Wilhelm-Hausenstein-Allee 22",
+          "latitude": 49.0336227,
+          "longitude": 8.371673,
+          "address": "Wilhelm-Hausenstein-Allee 22, 76187 Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/36984",
+          "category": "building",
+          "type": "school",
+          "city": "Karlsruhe",
+          "district": "Nordweststadt",
+          "locality": "Alter Flugplatz",
+          "street": "Wilhelm-Hausenstein-Allee",
+          "houseNumber": "22"
+        }
+      ]
+    },
+    "Karlstraße 10, Karlsruhe": {
+      "checkedAt": "2026-11-19T07:33:58+00:00",
+      "places": [
+        {
+          "id": "osm-way-90051674",
+          "name": "Prinz-Max-Palais",
+          "latitude": 49.0111857,
+          "longitude": 8.3947581,
+          "address": "Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/90051674",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Karlstraße",
+          "houseNumber": "10"
+        },
+        {
+          "id": "osm-node-659502172",
+          "name": "Museum für Literatur am Oberrhein",
+          "latitude": 49.0111814,
+          "longitude": 8.3946773,
+          "address": "Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/659502172",
+          "category": "tourism",
+          "type": "museum",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Karlstraße",
+          "houseNumber": "10"
+        },
+        {
+          "id": "osm-node-659502171",
+          "name": "Stadtmuseum",
+          "latitude": 49.0111502,
+          "longitude": 8.3948343,
+          "address": "Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/659502171",
+          "category": "tourism",
+          "type": "museum",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Karlstraße",
+          "houseNumber": "10"
+        },
+        {
+          "id": "osm-node-375691054",
+          "name": "Kinder- und Jugendbibliothek im Prinz-Max-Palais",
+          "latitude": 49.0112378,
+          "longitude": 8.3948222,
+          "address": "Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/375691054",
+          "category": "amenity",
+          "type": "library",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Karlstraße",
+          "houseNumber": "10"
+        },
+        {
+          "id": "osm-way-314456048",
+          "name": "Karlstraße 10b",
+          "latitude": 49.0104379,
+          "longitude": 8.3947713,
+          "address": "Karlstraße 10b, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/314456048",
+          "category": "building",
+          "type": "retail",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Karlstraße",
+          "houseNumber": "10b"
+        }
+      ]
+    },
+    "Hirschhof 2, Karlsruhe": {
+      "checkedAt": "2026-11-19T07:33:58+00:00",
+      "places": [
+        {
+          "id": "osm-node-12591635701",
+          "name": "Happy wrong",
+          "latitude": 49.0104852,
+          "longitude": 8.3923172,
+          "address": "Hirschhof 2, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12591635701",
+          "category": "amenity",
+          "type": "bar",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Hirschhof",
+          "houseNumber": "2"
+        }
+      ]
+    },
+    "Linkenheimer Landstraße 133 A, Karlsruhe": {
+      "checkedAt": "2026-11-19T07:33:58+00:00",
+      "places": [
+        {
+          "id": "osm-way-27001752",
+          "name": "Badische Neueste Nachrichten",
+          "latitude": 49.0464705,
+          "longitude": 8.3913817,
+          "address": "Linkenheimer Landstraße 133, 76149 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/27001752",
+          "category": "man_made",
+          "type": "works",
+          "city": "Karlsruhe",
+          "district": "Neureut",
+          "locality": "Neureut Nördlicher Teil",
+          "street": "Linkenheimer Landstraße",
+          "houseNumber": "133"
+        },
+        {
+          "id": "osm-way-132366944",
+          "name": "Linkenheimer Landstraße 133",
+          "latitude": 49.0476622,
+          "longitude": 8.3910394,
+          "address": "Linkenheimer Landstraße 133, 76149 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/132366944",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Neureut",
+          "locality": "Neureut Nördlicher Teil",
+          "street": "Linkenheimer Landstraße",
+          "houseNumber": "133"
+        },
+        {
+          "id": "osm-way-112976844",
+          "name": "Linkenheimer Landstraße 133a",
+          "latitude": 49.0454088,
+          "longitude": 8.39044,
+          "address": "Linkenheimer Landstraße 133a, 76149 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/112976844",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Neureut",
+          "locality": "Neureut Nördlicher Teil",
+          "street": "Linkenheimer Landstraße",
+          "houseNumber": "133a"
+        },
+        {
+          "id": "osm-node-9248250149",
+          "name": "Ev. Brunhilde-Baur-Kindertagesstätte",
+          "latitude": 49.0457597,
+          "longitude": 8.3908926,
+          "address": "Linkenheimer Landstraße 133a, 76149 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/9248250149",
+          "category": "amenity",
+          "type": "kindergarten",
+          "city": "Karlsruhe",
+          "district": "Neureut",
+          "locality": "Neureut Nördlicher Teil",
+          "street": "Linkenheimer Landstraße",
+          "houseNumber": "133a"
+        },
+        {
+          "id": "osm-node-9248268966",
+          "name": "Linkenheimer Landstraße 133a",
+          "latitude": 49.0455663,
+          "longitude": 8.3910374,
+          "address": "Linkenheimer Landstraße 133a, 76149 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/9248268966",
+          "category": "amenity",
+          "type": "social_facility",
+          "city": "Karlsruhe",
+          "district": "Neureut",
+          "locality": "Neureut Nördlicher Teil",
+          "street": "Linkenheimer Landstraße",
+          "houseNumber": "133a"
+        }
+      ]
+    },
+    "Lammstraße 13-17, Karlsruhe": {
+      "checkedAt": "2026-11-19T07:33:58+00:00",
+      "places": [
+        {
+          "id": "osm-node-4225635194",
+          "name": "Industrie- und Handelskammer Karlsruhe",
+          "latitude": 49.0076959,
+          "longitude": 8.4018195,
+          "address": "Lammstraße 13-17, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4225635194",
+          "category": "office",
+          "type": "chamber",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Lammstraße",
+          "houseNumber": "13-17"
+        }
+      ]
     }
   },
   "attribution": {

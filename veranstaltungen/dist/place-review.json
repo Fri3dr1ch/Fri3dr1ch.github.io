@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T20:39:20+00:00",
+  "generatedAt": "2026-11-19T07:33:58+00:00",
   "attribution": {
     "text": "© OpenStreetMap contributors · ODbL",
     "url": "https://www.openstreetmap.org/copyright"
   },
   "stats": {
-    "venues": 328,
+    "venues": 327,
     "venueStatuses": {
       "missing": 11,
-      "review": 46,
+      "review": 48,
       "online": 4,
-      "queued": 10,
-      "resolved": 257
+      "queued": 9,
+      "resolved": 255
     },
-    "upcomingEvents": 1175,
+    "upcomingEvents": 1167,
     "eventStatuses": {
-      "resolved": 894,
-      "review": 57,
-      "missing": 209,
+      "resolved": 886,
+      "review": 59,
+      "missing": 208,
       "online": 5,
-      "queued": 10
+      "queued": 9
     }
   },
   "lookup": {
@@ -38,7 +38,7 @@
       "method": null,
       "place": null,
       "candidates": [],
-      "eventCount": 104,
+      "eventCount": 103,
       "reviewNote": "",
       "sourceAddresses": [],
       "organizer": "",
@@ -47,12 +47,6 @@
         "Evangelische Kirche Grötzingen"
       ],
       "examples": [
-        {
-          "id": "eki-groetzingen-1060983-2026-11-18-1900",
-          "title": "Gottesdienst an Buß- und Bettag mit Abendmahl und Einzelsegnung",
-          "date": "2026-11-18",
-          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1060983-gottesdienst-an-buss-und-bettag-mit-abendmahl-und-einzelsegnung/?vt=1&cb-id=118282"
-        },
         {
           "id": "eki-groetzingen-1068037-2026-11-19-1530",
           "title": "Senioren-Gottesdienst im Hanne-Landgraf-Haus (Diakonin Aydt)",
@@ -70,6 +64,12 @@
           "title": "Wanderung der Wandergruppe",
           "date": "2026-11-20",
           "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/966400-wanderung-der-wandergruppe/?vt=1&cb-id=118282"
+        },
+        {
+          "id": "eki-groetzingen-1035633-2026-11-20-2000",
+          "title": "Posaunenchor",
+          "date": "2026-11-20",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1035633-posaunenchor/?vt=1&cb-id=118282"
         }
       ]
     },
@@ -1139,6 +1139,24 @@
       "place": null,
       "candidates": [
         {
+          "id": "osm-way-27001752",
+          "name": "Badische Neueste Nachrichten",
+          "latitude": 49.0464705,
+          "longitude": 8.3913817,
+          "address": "Linkenheimer Landstraße 133, 76149 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/27001752",
+          "category": "man_made",
+          "type": "works",
+          "city": "Karlsruhe",
+          "district": "Neureut",
+          "locality": "Neureut Nördlicher Teil",
+          "street": "Linkenheimer Landstraße",
+          "houseNumber": "133",
+          "score": 0.604,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
           "id": "osm-way-4234637",
           "name": "Badische Landesbibliothek",
           "latitude": 49.0077978,
@@ -1279,6 +1297,78 @@
           "title": "Brennballturnier Kreisjugendfeuerwehr",
           "date": null,
           "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/017_Stadtteile_und_Umgebung/Groetzingen/Jahresprogramm_Groetzingen_2026_im_CD_sem.pdf#page=7"
+        }
+      ]
+    },
+    {
+      "key": "venue-3fe962abf95c714bb4da",
+      "location": "Brunhilde-Baur-Haus",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "review",
+      "reason": "Mehrere gleich gut passende Kartenobjekte; Auswahl erforderlich.",
+      "method": null,
+      "place": null,
+      "candidates": [
+        {
+          "id": "osm-way-132366944",
+          "name": "Linkenheimer Landstraße 133",
+          "latitude": 49.0476622,
+          "longitude": 8.3910394,
+          "address": "Linkenheimer Landstraße 133, 76149 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/132366944",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Neureut",
+          "locality": "Neureut Nördlicher Teil",
+          "street": "Linkenheimer Landstraße",
+          "houseNumber": "133",
+          "score": 0.298,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-27001752",
+          "name": "Badische Neueste Nachrichten",
+          "latitude": 49.0464705,
+          "longitude": 8.3913817,
+          "address": "Linkenheimer Landstraße 133, 76149 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/27001752",
+          "category": "man_made",
+          "type": "works",
+          "city": "Karlsruhe",
+          "district": "Neureut",
+          "locality": "Neureut Nördlicher Teil",
+          "street": "Linkenheimer Landstraße",
+          "houseNumber": "133",
+          "score": 0.298,
+          "exact": true,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [
+        {
+          "street": "Linkenheimer Landstraße 133 A",
+          "city": "Karlsruhe",
+          "postalCode": "76149",
+          "address": "Linkenheimer Landstraße 133 A, 76149 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/17_europaisches_filmfestival_der_generationen-5"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-ee28c6605e925f07",
+          "title": "17. Europäisches Filmfestival der Generationen",
+          "date": "2026-11-20",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/17_europaisches_filmfestival_der_generationen-5"
         }
       ]
     },
@@ -1958,30 +2048,95 @@
       "location": "Literarische Gesellschaft Karlsruhe e.V.",
       "scope": "karlsruhe",
       "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "queued",
-      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
+      "status": "review",
+      "reason": "Mehrere gleich gut passende Kartenobjekte; Auswahl erforderlich.",
       "method": null,
       "place": null,
       "candidates": [
         {
-          "id": "osm-node-6680389521",
-          "name": "Deutsche Lebens-Rettungs-Gesellschaft Landesverband Baden e. V. Geschäftstelle",
-          "latitude": 49.0171186,
-          "longitude": 8.3427536,
-          "address": "Werftstraße 8a, 76189 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/6680389521",
-          "category": "office",
-          "type": "association",
-          "street": "Werftstraße",
-          "houseNumber": "8a",
-          "score": 0.371,
-          "exact": false,
+          "id": "osm-node-659502172",
+          "name": "Museum für Literatur am Oberrhein",
+          "latitude": 49.0111814,
+          "longitude": 8.3946773,
+          "address": "Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/659502172",
+          "category": "tourism",
+          "type": "museum",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Karlstraße",
+          "houseNumber": "10",
+          "score": 0.31,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-659502171",
+          "name": "Stadtmuseum",
+          "latitude": 49.0111502,
+          "longitude": 8.3948343,
+          "address": "Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/659502171",
+          "category": "tourism",
+          "type": "museum",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Karlstraße",
+          "houseNumber": "10",
+          "score": 0.222,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-375691054",
+          "name": "Kinder- und Jugendbibliothek im Prinz-Max-Palais",
+          "latitude": 49.0112378,
+          "longitude": 8.3948222,
+          "address": "Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/375691054",
+          "category": "amenity",
+          "type": "library",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Karlstraße",
+          "houseNumber": "10",
+          "score": 0.194,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-90051674",
+          "name": "Prinz-Max-Palais",
+          "latitude": 49.0111857,
+          "longitude": 8.3947581,
+          "address": "Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/90051674",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Karlstraße",
+          "houseNumber": "10",
+          "score": 0.146,
+          "exact": true,
           "outsideContext": false
         }
       ],
       "eventCount": 1,
       "reviewNote": "",
-      "sourceAddresses": [],
+      "sourceAddresses": [
+        {
+          "street": "Karlstraße 10",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/peter_stamm_auf_ganz_dunnem_eis"
+        }
+      ],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -3327,7 +3482,7 @@
           "outsideContext": false
         }
       ],
-      "eventCount": 50,
+      "eventCount": 49,
       "reviewNote": "",
       "sourceAddresses": [],
       "organizer": "",
@@ -3336,12 +3491,6 @@
         "NaturFreunde Söllingen"
       ],
       "examples": [
-        {
-          "id": "naturfreunde-soellingen-3da7383404f2847d08a15544-2026-11-18-1530",
-          "title": "Nordic Walking",
-          "date": "2026-11-18",
-          "url": "https://www.naturfreunde-soellingen.de/kalender/"
-        },
         {
           "id": "naturfreunde-soellingen-890ea5405ca27de8cb562412-2026-11-25-1530",
           "title": "Nordic Walking",
@@ -3358,6 +3507,12 @@
           "id": "naturfreunde-soellingen-4b31a02a7fb25596f912923d-2026-12-09-1530",
           "title": "Nordic Walking",
           "date": "2026-12-09",
+          "url": "https://www.naturfreunde-soellingen.de/kalender/"
+        },
+        {
+          "id": "naturfreunde-soellingen-4ce167a4adffb3d1380b603f-2026-12-16-1530",
+          "title": "Nordic Walking",
+          "date": "2026-12-16",
           "url": "https://www.naturfreunde-soellingen.de/kalender/"
         }
       ]
@@ -4827,113 +4982,6 @@
       ]
     },
     {
-      "key": "venue-b74313ce24bc73733284",
-      "location": "Begegnungsstätte Grötzingen",
-      "scope": "groetzingen",
-      "scopeLabel": "Grötzingen",
-      "status": "resolved",
-      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
-      "method": "automatic",
-      "place": {
-        "id": "osm-way-151345436",
-        "name": "Begegnungsstätte Grötzingen",
-        "latitude": 49.0070922,
-        "longitude": 8.4951326,
-        "address": "Niddastraße 9, 76229 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/151345436",
-        "category": "amenity",
-        "type": "community_centre",
-        "city": "Karlsruhe",
-        "district": "Grötzingen",
-        "locality": "Nördlich der Pfinz",
-        "street": "Niddastraße",
-        "houseNumber": "9",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-way-151345436",
-          "name": "Begegnungsstätte Grötzingen",
-          "latitude": 49.0070922,
-          "longitude": 8.4951326,
-          "address": "Niddastraße 9, 76229 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/151345436",
-          "category": "amenity",
-          "type": "community_centre",
-          "city": "Karlsruhe",
-          "district": "Grötzingen",
-          "locality": "Nördlich der Pfinz",
-          "street": "Niddastraße",
-          "houseNumber": "9",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-10300133100",
-          "name": "Holzhackers Ratsstuben",
-          "latitude": 49.0069969,
-          "longitude": 8.4953746,
-          "address": "Niddastraße 9, 76229 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/10300133100",
-          "category": "amenity",
-          "type": "restaurant",
-          "city": "Karlsruhe",
-          "district": "Grötzingen",
-          "locality": "Nördlich der Pfinz",
-          "street": "Niddastraße",
-          "houseNumber": "9",
-          "score": 0.263,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 10,
-      "reviewNote": "",
-      "sourceAddresses": [
-        {
-          "street": "Niddastraße 9",
-          "city": "Karlsruhe",
-          "postalCode": "76229",
-          "address": "Niddastraße 9, 76229 Karlsruhe",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/internetcafe_55_grotzingen-6"
-        }
-      ],
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Grötzingen · Jahresprogramm",
-        "Grötzingen · Kultur-Natur-Termine",
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-c85a0df0b60f4457",
-          "title": "Internetcafe 55+ Grötzingen",
-          "date": "2026-11-05",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/internetcafe_55_grotzingen-6"
-        },
-        {
-          "id": "groetzingen-jahresprogramm-annual-2026-131",
-          "title": "Ortschaftsratssitzung",
-          "date": "2026-11-18",
-          "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/017_Stadtteile_und_Umgebung/Groetzingen/Jahresprogramm_Groetzingen_2026_im_CD_sem.pdf#page=10"
-        },
-        {
-          "id": "karlsruhe-ef3eb8362b74e956",
-          "title": "Naturparadies Rheinauen",
-          "date": "2026-11-19",
-          "url": "https://kalender.karlsruhe.de/db/termine/literatur/naturparadies_rheinauen-1"
-        },
-        {
-          "id": "karlsruhe-5c2d39707b07917f",
-          "title": "Naturparadies Rheinauen",
-          "date": "2026-11-19",
-          "url": "https://kalender.karlsruhe.de/db/termine/literatur/naturparadies_rheinauen"
-        }
-      ]
-    },
-    {
       "key": "venue-0729ef1f81f2900db0ad",
       "location": "Stadtbibliothek Karlsruhe - Kinder- und Jugendbibliothek Karlsruhe im Prinz-Max-Palais",
       "scope": "karlsruhe",
@@ -5071,6 +5119,113 @@
           "title": "Sabrina Schmohl und Nikolai Renger: Lesung mit Live-Zeichnen aus \"Tierisch diebisch\" -- AUSGEBUCHT --",
           "date": "2026-11-25",
           "url": "https://kalender.karlsruhe.de/db/termine/literatur/sabrina_schmohl_und_nikolai_renger_lesung"
+        }
+      ]
+    },
+    {
+      "key": "venue-b74313ce24bc73733284",
+      "location": "Begegnungsstätte Grötzingen",
+      "scope": "groetzingen",
+      "scopeLabel": "Grötzingen",
+      "status": "resolved",
+      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
+      "method": "automatic",
+      "place": {
+        "id": "osm-way-151345436",
+        "name": "Begegnungsstätte Grötzingen",
+        "latitude": 49.0070922,
+        "longitude": 8.4951326,
+        "address": "Niddastraße 9, 76229 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/151345436",
+        "category": "amenity",
+        "type": "community_centre",
+        "city": "Karlsruhe",
+        "district": "Grötzingen",
+        "locality": "Nördlich der Pfinz",
+        "street": "Niddastraße",
+        "houseNumber": "9",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "osm-way-151345436",
+          "name": "Begegnungsstätte Grötzingen",
+          "latitude": 49.0070922,
+          "longitude": 8.4951326,
+          "address": "Niddastraße 9, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151345436",
+          "category": "amenity",
+          "type": "community_centre",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Niddastraße",
+          "houseNumber": "9",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-10300133100",
+          "name": "Holzhackers Ratsstuben",
+          "latitude": 49.0069969,
+          "longitude": 8.4953746,
+          "address": "Niddastraße 9, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/10300133100",
+          "category": "amenity",
+          "type": "restaurant",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Niddastraße",
+          "houseNumber": "9",
+          "score": 0.263,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 9,
+      "reviewNote": "",
+      "sourceAddresses": [
+        {
+          "street": "Niddastraße 9",
+          "city": "Karlsruhe",
+          "postalCode": "76229",
+          "address": "Niddastraße 9, 76229 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/internetcafe_55_grotzingen-6"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Grötzingen · Jahresprogramm",
+        "Grötzingen · Kultur-Natur-Termine",
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-c85a0df0b60f4457",
+          "title": "Internetcafe 55+ Grötzingen",
+          "date": "2026-11-05",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/internetcafe_55_grotzingen-6"
+        },
+        {
+          "id": "karlsruhe-ef3eb8362b74e956",
+          "title": "Naturparadies Rheinauen",
+          "date": "2026-11-19",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/naturparadies_rheinauen-1"
+        },
+        {
+          "id": "karlsruhe-5c2d39707b07917f",
+          "title": "Naturparadies Rheinauen",
+          "date": "2026-11-19",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/naturparadies_rheinauen"
+        },
+        {
+          "id": "karlsruhe-0fe323818688851f",
+          "title": "KLAVIERFEST",
+          "date": "2026-11-21",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/klavierfest-2"
         }
       ]
     },
@@ -9243,148 +9398,6 @@
       ]
     },
     {
-      "key": "venue-fccd05881ec60aa54568",
-      "location": "Karlsburg (Stadtbibliothek) Pfinztalstraße 9 76227 Karlsruhe",
-      "scope": "durlach",
-      "scopeLabel": "Durlach",
-      "status": "resolved",
-      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
-      "method": "automatic",
-      "place": {
-        "id": "osm-way-23229362",
-        "name": "Karlsburg",
-        "latitude": 48.998476,
-        "longitude": 8.4738226,
-        "address": "Pfinztalstraße 9, 76227 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/23229362",
-        "category": "building",
-        "type": "public",
-        "city": "Karlsruhe",
-        "district": "Durlach",
-        "locality": "Alt-Durlach",
-        "street": "Pfinztalstraße",
-        "houseNumber": "9",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-way-23229362",
-          "name": "Karlsburg",
-          "latitude": 48.998476,
-          "longitude": 8.4738226,
-          "address": "Pfinztalstraße 9, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/23229362",
-          "category": "building",
-          "type": "public",
-          "city": "Karlsruhe",
-          "district": "Durlach",
-          "locality": "Alt-Durlach",
-          "street": "Pfinztalstraße",
-          "houseNumber": "9",
-          "score": 0.93,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-5782635777",
-          "name": "Karlsburg",
-          "latitude": 48.998607,
-          "longitude": 8.4744796,
-          "address": "Karlsburgstraße, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/5782635777",
-          "category": "highway",
-          "type": "bus_stop",
-          "street": "Karlsburgstraße",
-          "houseNumber": "",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-764051158",
-          "name": "Karlsburg",
-          "latitude": 48.9988286,
-          "longitude": 8.4740299,
-          "address": "Pfinztalstraße 9, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/764051158",
-          "category": "amenity",
-          "type": "toilets",
-          "city": "Karlsruhe",
-          "district": "Durlach",
-          "locality": "Alt-Durlach",
-          "street": "Pfinztalstraße",
-          "houseNumber": "9",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-1673731922",
-          "name": "Karlsburg Cafe",
-          "latitude": 48.9992282,
-          "longitude": 8.4739474,
-          "address": "Pfinztalstraße 22, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/1673731922",
-          "category": "amenity",
-          "type": "cafe",
-          "city": "Karlsruhe",
-          "district": "Durlach",
-          "locality": "Alt-Durlach",
-          "street": "Pfinztalstraße",
-          "houseNumber": "22",
-          "score": 0.511,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-10294884305",
-          "name": "Trausaal Karlsburg Standesamt Durlach",
-          "latitude": 48.9988361,
-          "longitude": 8.4739368,
-          "address": "Pfinztalstraße 9, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/10294884305",
-          "category": "office",
-          "type": "government",
-          "city": "Karlsruhe",
-          "district": "Durlach",
-          "locality": "Alt-Durlach",
-          "street": "Pfinztalstraße",
-          "houseNumber": "9",
-          "score": 0.452,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 3,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Durlacher.de · Durlacher Kalender"
-      ],
-      "examples": [
-        {
-          "id": "durlach-12041-2026-11-18-1000",
-          "title": "Durlacher Lesecafé",
-          "date": "2026-11-18",
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12041&tx_events2_events%5Btimestamp%5D=1794992400&cHash=b5fe4b101329ea48498bc7bc2aa709a0"
-        },
-        {
-          "id": "durlach-12100-2026-12-01-1900",
-          "title": "Weihnachtlich kriminell",
-          "date": "2026-12-01",
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12100&tx_events2_events%5Btimestamp%5D=1796148000&cHash=4380d2c0deac1883d2eafcbe2fe29502"
-        },
-        {
-          "id": "durlach-12099-2026-12-08-1600",
-          "title": "Buchclub Buchtipps",
-          "date": "2026-12-08",
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12099&tx_events2_events%5Btimestamp%5D=1796742000&cHash=97a58c31c10e41f37622755c4851dcfb"
-        }
-      ]
-    },
-    {
       "key": "venue-04db84d5d1dde320a0b1",
       "location": "Kinemathek Karlsruhe",
       "scope": "karlsruhe",
@@ -12006,67 +12019,6 @@
       ]
     },
     {
-      "key": "venue-d7e2092546ed61cc84a5",
-      "location": "GemeindeBibliothek",
-      "scope": "weingarten",
-      "scopeLabel": "Weingarten (Baden)",
-      "status": "resolved",
-      "reason": "Koordinate ausdrücklich auf der Originalseite dieses Spielorts angegeben.",
-      "method": "publisher",
-      "place": {
-        "id": "weingarten-location-961",
-        "name": "GemeindeBibliothek",
-        "latitude": 49.05206987703204,
-        "longitude": 8.531146654251957,
-        "address": "Rathausplatz 4 76356 Weingarten (Baden)",
-        "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/961/herzliche-einladung-zum-bilderbuchkino",
-        "eventUrl": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/961/herzliche-einladung-zum-bilderbuchkino",
-        "category": "publisher",
-        "type": "venue",
-        "provenance": "publisher",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "weingarten-location-961",
-          "name": "GemeindeBibliothek",
-          "latitude": 49.05206987703204,
-          "longitude": 8.531146654251957,
-          "address": "Rathausplatz 4 76356 Weingarten (Baden)",
-          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/961/herzliche-einladung-zum-bilderbuchkino",
-          "eventUrl": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/961/herzliche-einladung-zum-bilderbuchkino",
-          "category": "publisher",
-          "type": "venue",
-          "provenance": "publisher",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 2,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Gemeinde Weingarten (Baden)"
-      ],
-      "examples": [
-        {
-          "id": "weingarten-961-2026-11-18-1600",
-          "title": "AUSGEBUCHT! Bilderbuchkino",
-          "date": "2026-11-18",
-          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/961/ausgebucht-bilderbuchkino"
-        },
-        {
-          "id": "weingarten-1015-2026-11-20-1445",
-          "title": "AUSGEBUCHT! Kamishibai Erzähltheater",
-          "date": "2026-11-20",
-          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1015/ausgebucht-kamishibai-erzaehltheater"
-        }
-      ]
-    },
-    {
       "key": "venue-cf09e72fe83199af7bdb",
       "location": "HWK Gärtnerei Grötzingen",
       "scope": "groetzingen",
@@ -12851,41 +12803,30 @@
       ]
     },
     {
-      "key": "venue-389f07a15fc328c26527",
-      "location": "Karlsburg (Pfinzgaumuseum) Pfinztalstraße 9 76227 Karlsruhe",
+      "key": "venue-fccd05881ec60aa54568",
+      "location": "Karlsburg (Stadtbibliothek) Pfinztalstraße 9 76227 Karlsruhe",
       "scope": "durlach",
       "scopeLabel": "Durlach",
       "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
+      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
+      "method": "automatic",
       "place": {
-        "id": "osm-node-4799734265",
-        "name": "Pfinzgaumuseum",
-        "latitude": 48.9984162,
-        "longitude": 8.4738459,
+        "id": "osm-way-23229362",
+        "name": "Karlsburg",
+        "latitude": 48.998476,
+        "longitude": 8.4738226,
         "address": "Pfinztalstraße 9, 76227 Karlsruhe",
-        "url": "https://www.openstreetmap.org/node/4799734265",
-        "category": "tourism",
-        "type": "museum",
+        "url": "https://www.openstreetmap.org/way/23229362",
+        "category": "building",
+        "type": "public",
+        "city": "Karlsruhe",
+        "district": "Durlach",
+        "locality": "Alt-Durlach",
         "street": "Pfinztalstraße",
-        "houseNumber": "9"
+        "houseNumber": "9",
+        "outsideContext": false
       },
       "candidates": [
-        {
-          "id": "osm-node-4799734265",
-          "name": "Pfinzgaumuseum",
-          "latitude": 48.9984162,
-          "longitude": 8.4738459,
-          "address": "Pfinztalstraße 9, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/4799734265",
-          "category": "tourism",
-          "type": "museum",
-          "street": "Pfinztalstraße",
-          "houseNumber": "9",
-          "score": 0.93,
-          "exact": true,
-          "outsideContext": false
-        },
         {
           "id": "osm-way-23229362",
           "name": "Karlsburg",
@@ -12901,24 +12842,6 @@
           "street": "Pfinztalstraße",
           "houseNumber": "9",
           "score": 0.93,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-10294884305",
-          "name": "Trausaal Karlsburg Standesamt Durlach",
-          "latitude": 48.9988361,
-          "longitude": 8.4739368,
-          "address": "Pfinztalstraße 9, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/10294884305",
-          "category": "office",
-          "type": "government",
-          "city": "Karlsruhe",
-          "district": "Durlach",
-          "locality": "Alt-Durlach",
-          "street": "Pfinztalstraße",
-          "houseNumber": "9",
-          "score": 0.39,
           "exact": true,
           "outsideContext": false
         },
@@ -12954,6 +12877,42 @@
           "score": 0.93,
           "exact": false,
           "outsideContext": false
+        },
+        {
+          "id": "osm-node-1673731922",
+          "name": "Karlsburg Cafe",
+          "latitude": 48.9992282,
+          "longitude": 8.4739474,
+          "address": "Pfinztalstraße 22, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1673731922",
+          "category": "amenity",
+          "type": "cafe",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Pfinztalstraße",
+          "houseNumber": "22",
+          "score": 0.511,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-10294884305",
+          "name": "Trausaal Karlsburg Standesamt Durlach",
+          "latitude": 48.9988361,
+          "longitude": 8.4739368,
+          "address": "Pfinztalstraße 9, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/10294884305",
+          "category": "office",
+          "type": "government",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Pfinztalstraße",
+          "houseNumber": "9",
+          "score": 0.452,
+          "exact": false,
+          "outsideContext": false
         }
       ],
       "eventCount": 2,
@@ -12966,16 +12925,16 @@
       ],
       "examples": [
         {
-          "id": "durlach-11776-2026-11-18-1930",
-          "title": "Geselliger Museumsabend",
-          "date": "2026-11-18",
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11776&tx_events2_events%5Btimestamp%5D=1795026600&cHash=dc189173e0ee84a20dc3cf864cbbf69f"
+          "id": "durlach-12100-2026-12-01-1900",
+          "title": "Weihnachtlich kriminell",
+          "date": "2026-12-01",
+          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12100&tx_events2_events%5Btimestamp%5D=1796148000&cHash=4380d2c0deac1883d2eafcbe2fe29502"
         },
         {
-          "id": "durlach-12098-2026-11-22-1500",
-          "title": "Pfinzgaumuseum: „Durlacher Duos. Kunstwerke im Dialog“ (Führung)",
-          "date": "2026-11-22",
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12098&tx_events2_events%5Btimestamp%5D=1795356000&cHash=c0ce3271b84c74501f3ebc0d38ca5e80"
+          "id": "durlach-12099-2026-12-08-1600",
+          "title": "Buchclub Buchtipps",
+          "date": "2026-12-08",
+          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12099&tx_events2_events%5Btimestamp%5D=1796742000&cHash=97a58c31c10e41f37622755c4851dcfb"
         }
       ]
     },
@@ -13688,66 +13647,6 @@
           "title": "DurlacherLeben: Gemeinsam Durlach zum Leuchten bringen",
           "date": "2026-11-24",
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12097&tx_events2_events%5Btimestamp%5D=1795537800&cHash=aa8840e9c9fa4d9e02e20aa499e56ca3"
-        }
-      ]
-    },
-    {
-      "key": "venue-0753356160b6e175035e",
-      "location": "Messe Karlsruhe",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-15385485",
-        "name": "Messe Karlsruhe",
-        "latitude": 48.980865,
-        "longitude": 8.3304163,
-        "address": "Messeallee 1, 76287 Rheinstetten",
-        "url": "https://www.openstreetmap.org/way/15385485",
-        "category": "amenity",
-        "type": "exhibition_centre",
-        "street": "Messeallee",
-        "houseNumber": "1"
-      },
-      "candidates": [
-        {
-          "id": "osm-way-15385485",
-          "name": "Messe Karlsruhe",
-          "latitude": 48.980865,
-          "longitude": 8.3304163,
-          "address": "Messeallee 1, 76287 Rheinstetten",
-          "url": "https://www.openstreetmap.org/way/15385485",
-          "category": "amenity",
-          "type": "exhibition_centre",
-          "street": "Messeallee",
-          "houseNumber": "1",
-          "score": 1.0,
-          "exact": false,
-          "outsideContext": true
-        }
-      ],
-      "eventCount": 2,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-1624065f928ea081",
-          "title": "expoSE 2026 | expoDirekt 2026",
-          "date": "2026-11-18",
-          "url": "https://kalender.karlsruhe.de/db/termine/messen_und_kongresse/expose_2026_expodirekt2026n"
-        },
-        {
-          "id": "karlsruhe-524422872768ddb0",
-          "title": "TIERisch gut 2026",
-          "date": "2026-11-28",
-          "url": "https://kalender.karlsruhe.de/db/termine/messen_und_kongresse/tierisch_gut2026n"
         }
       ]
     },
@@ -16822,61 +16721,6 @@
       ]
     },
     {
-      "key": "venue-3fe962abf95c714bb4da",
-      "location": "Brunhilde-Baur-Haus",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
-      "method": "automatic",
-      "place": {
-        "id": "osm-relation-13435472",
-        "name": "Brunhilde-Baur-Haus",
-        "latitude": 49.0456495,
-        "longitude": 8.3906715,
-        "address": "Neureuter Querallee, 76149 Karlsruhe",
-        "url": "https://www.openstreetmap.org/relation/13435472",
-        "category": "amenity",
-        "type": "social_facility",
-        "street": "Neureuter Querallee",
-        "houseNumber": "",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-relation-13435472",
-          "name": "Brunhilde-Baur-Haus",
-          "latitude": 49.0456495,
-          "longitude": 8.3906715,
-          "address": "Neureuter Querallee, 76149 Karlsruhe",
-          "url": "https://www.openstreetmap.org/relation/13435472",
-          "category": "amenity",
-          "type": "social_facility",
-          "street": "Neureuter Querallee",
-          "houseNumber": "",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-ee28c6605e925f07",
-          "title": "17. Europäisches Filmfestival der Generationen",
-          "date": "2026-11-20",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/17_europaisches_filmfestival_der_generationen-5"
-        }
-      ]
-    },
-    {
       "key": "venue-12ec5e5242cabc2a320b",
       "location": "Bürgerhaus Söllingen, Hauptstr. 57",
       "scope": "soellingen",
@@ -18594,6 +18438,61 @@
       ]
     },
     {
+      "key": "venue-d7e2092546ed61cc84a5",
+      "location": "GemeindeBibliothek",
+      "scope": "weingarten",
+      "scopeLabel": "Weingarten (Baden)",
+      "status": "resolved",
+      "reason": "Koordinate ausdrücklich auf der Originalseite dieses Spielorts angegeben.",
+      "method": "publisher",
+      "place": {
+        "id": "weingarten-location-961",
+        "name": "GemeindeBibliothek",
+        "latitude": 49.05206987703204,
+        "longitude": 8.531146654251957,
+        "address": "Rathausplatz 4 76356 Weingarten (Baden)",
+        "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/961/herzliche-einladung-zum-bilderbuchkino",
+        "eventUrl": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/961/herzliche-einladung-zum-bilderbuchkino",
+        "category": "publisher",
+        "type": "venue",
+        "provenance": "publisher",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "weingarten-location-961",
+          "name": "GemeindeBibliothek",
+          "latitude": 49.05206987703204,
+          "longitude": 8.531146654251957,
+          "address": "Rathausplatz 4 76356 Weingarten (Baden)",
+          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/961/herzliche-einladung-zum-bilderbuchkino",
+          "eventUrl": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/961/herzliche-einladung-zum-bilderbuchkino",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Gemeinde Weingarten (Baden)"
+      ],
+      "examples": [
+        {
+          "id": "weingarten-1015-2026-11-20-1445",
+          "title": "AUSGEBUCHT! Kamishibai Erzähltheater",
+          "date": "2026-11-20",
+          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1015/ausgebucht-kamishibai-erzaehltheater"
+        }
+      ]
+    },
+    {
       "key": "venue-9474e3da50665072bf1d",
       "location": "Gemeindesaal Peter-und-Paul-Gemeinde",
       "scope": "karlsruhe",
@@ -19155,6 +19054,9 @@
         "url": "https://www.openstreetmap.org/node/12591635701",
         "category": "amenity",
         "type": "bar",
+        "city": "Karlsruhe",
+        "district": "Innenstadt-West",
+        "locality": "Innenstadt-West Westlicher Teil",
         "street": "Hirschhof",
         "houseNumber": "2",
         "outsideContext": false
@@ -19169,6 +19071,9 @@
           "url": "https://www.openstreetmap.org/node/12591635701",
           "category": "amenity",
           "type": "bar",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
           "street": "Hirschhof",
           "houseNumber": "2",
           "score": 1.0,
@@ -19178,7 +19083,15 @@
       ],
       "eventCount": 1,
       "reviewNote": "",
-      "sourceAddresses": [],
+      "sourceAddresses": [
+        {
+          "street": "Hirschhof 2",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Hirschhof 2, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/dale_reggaeton_x_happy_wrong_karlsruhe_sa211126n"
+        }
+      ],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -19535,6 +19448,9 @@
         "url": "https://www.openstreetmap.org/way/334797399",
         "category": "amenity",
         "type": "school",
+        "city": "Karlsruhe",
+        "district": "Nordweststadt",
+        "locality": "Alter Flugplatz",
         "street": "Wilhelm-Hausenstein-Allee",
         "houseNumber": "22",
         "outsideContext": false
@@ -19549,10 +19465,31 @@
           "url": "https://www.openstreetmap.org/way/334797399",
           "category": "amenity",
           "type": "school",
+          "city": "Karlsruhe",
+          "district": "Nordweststadt",
+          "locality": "Alter Flugplatz",
           "street": "Wilhelm-Hausenstein-Allee",
           "houseNumber": "22",
           "score": 1.0,
           "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-relation-36984",
+          "name": "Wilhelm-Hausenstein-Allee 22",
+          "latitude": 49.0336227,
+          "longitude": 8.371673,
+          "address": "Wilhelm-Hausenstein-Allee 22, 76187 Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/36984",
+          "category": "building",
+          "type": "school",
+          "city": "Karlsruhe",
+          "district": "Nordweststadt",
+          "locality": "Alter Flugplatz",
+          "street": "Wilhelm-Hausenstein-Allee",
+          "houseNumber": "22",
+          "score": 0.174,
+          "exact": false,
           "outsideContext": false
         }
       ],
@@ -19644,38 +19581,52 @@
       "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
       "method": "automatic",
       "place": {
-        "id": "osm-way-867975310",
-        "name": "IHK Haus der Wirtschaft",
-        "latitude": 49.0074706,
-        "longitude": 8.4025247,
-        "address": "Erbprinzenstraße, 76133 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/867975310",
-        "category": "building",
-        "type": "commercial",
-        "street": "Erbprinzenstraße",
-        "houseNumber": "",
+        "id": "osm-node-4225635194",
+        "name": "Industrie- und Handelskammer Karlsruhe",
+        "latitude": 49.0076959,
+        "longitude": 8.4018195,
+        "address": "Lammstraße 13-17, 76133 Karlsruhe",
+        "url": "https://www.openstreetmap.org/node/4225635194",
+        "category": "office",
+        "type": "chamber",
+        "city": "Karlsruhe",
+        "district": "Innenstadt-West",
+        "locality": "Innenstadt-West Östlicher Teil",
+        "street": "Lammstraße",
+        "houseNumber": "13-17",
         "outsideContext": false
       },
       "candidates": [
         {
-          "id": "osm-way-867975310",
-          "name": "IHK Haus der Wirtschaft",
-          "latitude": 49.0074706,
-          "longitude": 8.4025247,
-          "address": "Erbprinzenstraße, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/867975310",
-          "category": "building",
-          "type": "commercial",
-          "street": "Erbprinzenstraße",
-          "houseNumber": "",
-          "score": 1.0,
+          "id": "osm-node-4225635194",
+          "name": "Industrie- und Handelskammer Karlsruhe",
+          "latitude": 49.0076959,
+          "longitude": 8.4018195,
+          "address": "Lammstraße 13-17, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4225635194",
+          "category": "office",
+          "type": "chamber",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Lammstraße",
+          "houseNumber": "13-17",
+          "score": 0.28,
           "exact": true,
           "outsideContext": false
         }
       ],
       "eventCount": 1,
       "reviewNote": "",
-      "sourceAddresses": [],
+      "sourceAddresses": [
+        {
+          "street": "Lammstraße 13-17",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Lammstraße 13-17, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/architektur/2_denkmalkongress_baden_wurttemberg"
+        }
+      ],
       "organizer": "",
       "sourceContext": null,
       "sources": [
@@ -19978,30 +19929,41 @@
       ]
     },
     {
-      "key": "venue-af9db9d24766152a937d",
-      "location": "Karlsburg",
+      "key": "venue-389f07a15fc328c26527",
+      "location": "Karlsburg (Pfinzgaumuseum) Pfinztalstraße 9 76227 Karlsruhe",
       "scope": "durlach",
       "scopeLabel": "Durlach",
       "status": "resolved",
-      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
-      "method": "automatic",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
       "place": {
-        "id": "osm-way-23229362",
-        "name": "Karlsburg",
-        "latitude": 48.998476,
-        "longitude": 8.4738226,
+        "id": "osm-node-4799734265",
+        "name": "Pfinzgaumuseum",
+        "latitude": 48.9984162,
+        "longitude": 8.4738459,
         "address": "Pfinztalstraße 9, 76227 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/23229362",
-        "category": "building",
-        "type": "public",
-        "city": "Karlsruhe",
-        "district": "Durlach",
-        "locality": "Alt-Durlach",
+        "url": "https://www.openstreetmap.org/node/4799734265",
+        "category": "tourism",
+        "type": "museum",
         "street": "Pfinztalstraße",
-        "houseNumber": "9",
-        "outsideContext": false
+        "houseNumber": "9"
       },
       "candidates": [
+        {
+          "id": "osm-node-4799734265",
+          "name": "Pfinzgaumuseum",
+          "latitude": 48.9984162,
+          "longitude": 8.4738459,
+          "address": "Pfinztalstraße 9, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4799734265",
+          "category": "tourism",
+          "type": "museum",
+          "street": "Pfinztalstraße",
+          "houseNumber": "9",
+          "score": 0.93,
+          "exact": true,
+          "outsideContext": false
+        },
         {
           "id": "osm-way-23229362",
           "name": "Karlsburg",
@@ -20016,7 +19978,25 @@
           "locality": "Alt-Durlach",
           "street": "Pfinztalstraße",
           "houseNumber": "9",
-          "score": 1.0,
+          "score": 0.93,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-10294884305",
+          "name": "Trausaal Karlsburg Standesamt Durlach",
+          "latitude": 48.9988361,
+          "longitude": 8.4739368,
+          "address": "Pfinztalstraße 9, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/10294884305",
+          "category": "office",
+          "type": "government",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Pfinztalstraße",
+          "houseNumber": "9",
+          "score": 0.39,
           "exact": true,
           "outsideContext": false
         },
@@ -20031,7 +20011,7 @@
           "type": "bus_stop",
           "street": "Karlsburgstraße",
           "houseNumber": "",
-          "score": 1.0,
+          "score": 0.93,
           "exact": false,
           "outsideContext": false
         },
@@ -20049,43 +20029,7 @@
           "locality": "Alt-Durlach",
           "street": "Pfinztalstraße",
           "houseNumber": "9",
-          "score": 1.0,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-1673731922",
-          "name": "Karlsburg Cafe",
-          "latitude": 48.9992282,
-          "longitude": 8.4739474,
-          "address": "Pfinztalstraße 22, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/1673731922",
-          "category": "amenity",
-          "type": "cafe",
-          "city": "Karlsruhe",
-          "district": "Durlach",
-          "locality": "Alt-Durlach",
-          "street": "Pfinztalstraße",
-          "houseNumber": "22",
-          "score": 0.783,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-10294884305",
-          "name": "Trausaal Karlsburg Standesamt Durlach",
-          "latitude": 48.9988361,
-          "longitude": 8.4739368,
-          "address": "Pfinztalstraße 9, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/10294884305",
-          "category": "office",
-          "type": "government",
-          "city": "Karlsruhe",
-          "district": "Durlach",
-          "locality": "Alt-Durlach",
-          "street": "Pfinztalstraße",
-          "houseNumber": "9",
-          "score": 0.474,
+          "score": 0.93,
           "exact": false,
           "outsideContext": false
         }
@@ -20100,10 +20044,10 @@
       ],
       "examples": [
         {
-          "id": "durlach-11995-2026-11-18-1930",
-          "title": "Ein Schlüssel zum Himmel",
-          "date": "2026-11-18",
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11995&tx_events2_events%5Btimestamp%5D=1795026600&cHash=a67ac0c3c645a0d0d62a172b814105f2"
+          "id": "durlach-12098-2026-11-22-1500",
+          "title": "Pfinzgaumuseum: „Durlacher Duos. Kunstwerke im Dialog“ (Führung)",
+          "date": "2026-11-22",
+          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12098&tx_events2_events%5Btimestamp%5D=1795356000&cHash=c0ce3271b84c74501f3ebc0d38ca5e80"
         }
       ]
     },
@@ -21010,6 +20954,60 @@
           "title": "Komitas Chamber Orchestra (Gyumri / Armenien)",
           "date": "2026-11-25",
           "url": "https://kalender.karlsruhe.de/db/termine/musik/komitas_chamber_orchestra_gyumri_armenien"
+        }
+      ]
+    },
+    {
+      "key": "venue-0753356160b6e175035e",
+      "location": "Messe Karlsruhe",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-15385485",
+        "name": "Messe Karlsruhe",
+        "latitude": 48.980865,
+        "longitude": 8.3304163,
+        "address": "Messeallee 1, 76287 Rheinstetten",
+        "url": "https://www.openstreetmap.org/way/15385485",
+        "category": "amenity",
+        "type": "exhibition_centre",
+        "street": "Messeallee",
+        "houseNumber": "1"
+      },
+      "candidates": [
+        {
+          "id": "osm-way-15385485",
+          "name": "Messe Karlsruhe",
+          "latitude": 48.980865,
+          "longitude": 8.3304163,
+          "address": "Messeallee 1, 76287 Rheinstetten",
+          "url": "https://www.openstreetmap.org/way/15385485",
+          "category": "amenity",
+          "type": "exhibition_centre",
+          "street": "Messeallee",
+          "houseNumber": "1",
+          "score": 1.0,
+          "exact": false,
+          "outsideContext": true
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-524422872768ddb0",
+          "title": "TIERisch gut 2026",
+          "date": "2026-11-28",
+          "url": "https://kalender.karlsruhe.de/db/termine/messen_und_kongresse/tierisch_gut2026n"
         }
       ]
     },
@@ -24318,24 +24316,53 @@
           "outsideContext": false
         },
         {
-          "id": "osm-node-5908313090",
-          "name": "ZKM/Kunstmuseum Karlsruhe",
-          "latitude": 49.000309,
-          "longitude": 8.3830545,
-          "address": "Lorenzstraße, 76135 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/5908313090",
-          "category": "highway",
-          "type": "bus_stop",
+          "id": "osm-node-13669299089",
+          "name": "Staatliche Kunsthalle Karlsruhe",
+          "latitude": 49.00267,
+          "longitude": 8.3839704,
+          "address": "Lorenzstraße 19, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/13669299089",
+          "category": "tourism",
+          "type": "museum",
+          "city": "Karlsruhe",
+          "district": "Südweststadt",
+          "locality": "Beiertheimer Feld",
           "street": "Lorenzstraße",
-          "houseNumber": "",
-          "score": 0.468,
+          "houseNumber": "19",
+          "score": 0.302,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-656382769",
+          "name": "mint",
+          "latitude": 49.0011783,
+          "longitude": 8.3835916,
+          "address": "Lorenzstraße 19, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/656382769",
+          "category": "amenity",
+          "type": "restaurant",
+          "city": "Karlsruhe",
+          "district": "Südweststadt",
+          "locality": "Beiertheimer Feld",
+          "street": "Lorenzstraße",
+          "houseNumber": "19",
+          "score": 0.167,
           "exact": false,
           "outsideContext": false
         }
       ],
       "eventCount": 1,
       "reviewNote": "",
-      "sourceAddresses": [],
+      "sourceAddresses": [
+        {
+          "street": "Lorenzstr. 19",
+          "city": "Karlsruhe",
+          "postalCode": "76135",
+          "address": "Lorenzstr. 19, 76135 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/performance_in_two_minds"
+        }
+      ],
       "organizer": "",
       "sourceContext": null,
       "sources": [

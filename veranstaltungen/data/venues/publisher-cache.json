@@ -1474,6 +1474,81 @@
           "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/weihnachtsmarkt_des_humboldt_gymnasiums-3"
         }
       ]
+    },
+    "venue-220e9bc5b4b4cec82569": {
+      "checkedAt": "2026-11-19T07:33:58+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Lorenzstr. 19",
+          "city": "Karlsruhe",
+          "postalCode": "76135",
+          "address": "Lorenzstr. 19, 76135 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/performance_in_two_minds"
+        }
+      ]
+    },
+    "venue-2e5741fd1f2656f98c1e": {
+      "checkedAt": "2026-11-19T07:33:58+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-3215e5996976919d09f8": {
+      "checkedAt": "2026-11-19T07:33:58+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Karlstraße 10",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Karlstraße 10, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/peter_stamm_auf_ganz_dunnem_eis"
+        }
+      ]
+    },
+    "venue-34b85c080de46190d349": {
+      "checkedAt": "2026-11-19T07:33:58+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Hirschhof 2",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Hirschhof 2, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/dale_reggaeton_x_happy_wrong_karlsruhe_sa211126n"
+        }
+      ]
+    },
+    "venue-3f4464a5427914bb8163": {
+      "checkedAt": "2026-11-19T07:33:58+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-3fe962abf95c714bb4da": {
+      "checkedAt": "2026-11-19T07:33:58+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Linkenheimer Landstraße 133 A",
+          "city": "Karlsruhe",
+          "postalCode": "76149",
+          "address": "Linkenheimer Landstraße 133 A, 76149 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/17_europaisches_filmfestival_der_generationen-5"
+        }
+      ]
+    },
+    "venue-48280a3a0db109e3d425": {
+      "checkedAt": "2026-11-19T07:33:58+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Lammstraße 13-17",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Lammstraße 13-17, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/architektur/2_denkmalkongress_baden_wurttemberg"
+        }
+      ]
     }
   }
 }
