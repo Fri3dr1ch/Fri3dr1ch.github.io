@@ -1,4 +1,4 @@
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 import json
 from pathlib import Path
 import sys
@@ -14,6 +14,7 @@ import update_calendar
 from calendar_sources import combine_local_sources
 import import_local_calendars as local
 import import_groetzingen as groetzingen
+from venue_locations import review_problem
 
 
 def card(title, event_id, date_text, time_text='', location=''):
@@ -33,6 +34,46 @@ class PublisherSourceTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'wiederkehrend'):
             ps.naturtreff_records(raw.replace(b'END:VEVENT', b'RRULE:FREQ=DAILY\r\nEND:VEVENT'))
 
+    def test_ical_updates_keep_uid_cancellation_and_last_good_snapshot(self):
+        stamp = '2026-11-19T12:00:00+00:00'
+        for sid in ('naturtreff-groetzingen', 'karlsbad'):
+            with self.subTest(sid=sid):
+                url = local.SOURCES[sid]['url']
+                def feed(start, status, link=url):
+                    lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'BEGIN:VEVENT', 'UID:term-1',
+                             'SUMMARY:Ausflug', 'DTSTART:' + start, 'URL:' + link,
+                             'STATUS:' + status, 'END:VEVENT', 'END:VCALENDAR', '']
+                    return '\r\n'.join(lines).encode()
+                valid, error = local.refresh(sid, stamp, fetch=lambda _: feed('20261230T180000Z', 'CONFIRMED'))
+                self.assertIsNone(error)
+                updated, error = local.refresh(sid, stamp, valid, lambda _: feed('20270108T190000Z', 'CANCELLED'))
+                self.assertIsNone(error)
+                self.assertEqual(updated['events'][0]['status'], 'cancelled')
+                self.assertEqual(updated['events'][0]['startDate'], '2027-01-08')
+                self.assertEqual(updated['events'][0]['id'], valid['events'][0]['id'])
+                retained, error = local.refresh(sid, '2026-11-20T12:00:00+00:00', updated,
+                    lambda _: feed('20270108T190000Z', 'CONFIRMED', url.replace('https:', 'http:')))
+                self.assertIn('unsichere Originalquelle', error)
+                self.assertEqual(retained['source']['status'], 'error')
+                self.assertEqual(retained['source']['lastSuccessAt'], stamp)
+                self.assertEqual(retained['events'], updated['events'])
+
+    def test_known_empty_ical_feed_replaces_stale_rows(self):
+        stamp = '2026-11-19T12:00:00+00:00'
+        for sid, prodid in [('naturtreff-groetzingen', '-//Naturtreff Veranstaltungen//DE'),
+                            ('karlsbad', '-//KLIK//EventCalendar//DE')]:
+            calendar = Calendar()
+            calendar.add('version', '2.0')
+            calendar.add('prodid', prodid)
+            result, error = local.refresh(sid, stamp, fetch=lambda _: calendar.to_ical())
+            self.assertIsNone(error)
+            self.assertEqual(result['source']['status'], 'ok')
+            self.assertEqual(result['events'], [])
+            calendar['PRODID'] = '-//Unbekannter Kalender//DE'
+            result, error = local.refresh(sid, stamp, fetch=lambda _: calendar.to_ical())
+            self.assertIsNone(result)
+            self.assertIn('nicht erkannt', error)
+
     def test_vhs_land_keeps_only_single_appointments_and_title_link(self):
         page = '''<main><div class="kw-ue"><h4 class="kw-ue-title"><a href="/programm/kw/bereich/kursdetails/kurs/M1">Naturführung</a></h4>
           <div>Beginn Do., 03.12.2026, 18:00 - 20:00 Uhr Dauer 1 Termin Kursort Pfinztal, Naturfreundehaus Gebühr 5,00 €</div>
@@ -43,20 +84,8 @@ class PublisherSourceTests(unittest.TestCase):
         self.assertEqual(len(rows), 1)
         self.assertEqual((rows[0]['title'], rows[0]['startTime'], rows[0]['endTime']), ('Naturführung', '18:00', '20:00'))
         self.assertEqual(rows[0]['location'], 'Pfinztal, Naturfreundehaus')
+        self.assertEqual(rows[0]['url'], 'https://www.vhs-karlsruhe-land.de/programm/kw/bereich/kursdetails/kurs/M1')
         self.assertIn('Einzelveranstaltungen', meta['coverageNote'])
-
-    def test_awo_imports_only_explicitly_dated_meetings(self):
-        body = '''<article>AWO Ortsverein Grötzingen Niddastr. 9 in Karlsruhe-Grötzingen
-        Stuhl-Yoga – jeden 3. Dienstag im Monat um 15:00 Uhr: 17.11., 15.12.2026
-        Donnerstags 13:30 bis 16:00 Uhr: Spielenachmittag
-        Grötzinger AWO Geschichtsstammtisch – immer dienstags, von 15:00 bis 16:00 Uhr:
-        03.11.2026: Erntedank 08.12.2026: Advents- und Weihnachtsbräuche
-        Ausflüge, Besuch von Museen, Kino etc.</article>'''
-        rows, _ = ps.awo_records(body.encode(), 'https://www.awo-karlsruhe.de/einrichtungen/ortsverein-groetzingen-3/')
-        self.assertEqual(len(rows), 4)
-        self.assertEqual({r['startDate'] for r in rows}, {'2026-11-03', '2026-11-17', '2026-12-08', '2026-12-15'})
-        self.assertNotIn('Spielenachmittag', ' '.join(r['title'] for r in rows))
-        self.assertEqual(next(r for r in rows if 'Geschichtsstammtisch' in r['title'])['endTime'], '16:00')
 
     def test_hagsfeld_keeps_distinct_performance_urls_and_dates(self):
         page = b'''<div class="mod_eventlist pb40 block">
@@ -84,10 +113,26 @@ class PublisherSourceTests(unittest.TestCase):
         page = b'''<div class="v-kacheln-itemlist"><div class="v-kachel"><div class="date">Mi. 18.11.2026</div>
         <div class="time">16:00 bis 18:00 Uhr</div><div class="v-kachel-titel"><a href="https://www.bergdoerfer.info/termine-2/detail/termin/id/1047988-konfi"><h4 class="title">Konfi B Nachmittag</h4></a></div>
         <div class="oertlichkeit"><div class="oertlichkeit-name">Evang. Kirche Hohenwettersbach</div><div class="oertlichkeit-ort">Hohenwettersbach</div></div></div></div>'''
-        rows, _ = ps.bergdoerfer_records(page, 'https://www.bergdoerfer.info/termine-2/')
+        rows, _ = ps.bergdoerfer_records(page, 'https://www.bergdoerfer.info/termine-2/',
+                                        lambda url: self.fail('unexpected request: ' + url))
         self.assertEqual(rows[0]['recordId'], '1047988')
         self.assertEqual(rows[0]['location'], 'Evang. Kirche Hohenwettersbach, Hohenwettersbach')
         self.assertEqual((rows[0]['startTime'], rows[0]['endTime']), ('16:00', '18:00'))
+
+    def test_bergdoerfer_does_not_save_only_first_page_of_cms_listing(self):
+        url = 'https://www.bergdoerfer.info/termine-2/'
+        def page(number, record_id, total=2):
+            links = ''.join(
+                f'<a href="/termine-2/?pagerPage_f1092ea5={n}#a-upos" class="{("pager-active-page" if n==number else "")}">{n}</a>'
+                for n in (1, 2))
+            return f'''<main><div class="v-kachel"><div class="date">Mi. 18.11.2026</div>
+            <div class="v-kachel-titel"><a href="/termine-2/detail/termin/id/{record_id}-termin"><h4 class="title">Gottesdienst</h4></a></div></div>
+            <div class="termine-pager"><div class="inner-content-pager-info">Ergebnisse {number} - {number} von {total}</div>{links}</div></main>'''.encode()
+        rows, meta = ps.bergdoerfer_records(page(1, 101), url, lambda _:page(2, 102))
+        self.assertEqual([r['recordId'] for r in rows], ['101', '102'])
+        self.assertEqual(meta['pagesFetched'], 2)
+        with self.assertRaisesRegex(ValueError, 'Ergebnisumfang'):
+            ps.bergdoerfer_records(page(1, 101), url, lambda _:page(2, 102, total=3))
 
     def test_karlsbad_date_only_feed_does_not_fabricate_midnight(self):
         cal = Calendar(); cal.add('prodid', '-//test//EN'); cal.add('version', '2.0')
@@ -154,6 +199,34 @@ class PublisherSourceTests(unittest.TestCase):
         self.assertFalse(update_calendar.source_due(fresh, now))
         self.assertTrue(update_calendar.source_due(old, now))
         self.assertTrue(update_calendar.source_due(broken, now))
+
+    def test_daily_schedule_grace_and_optional_sources_stay_in_run_report(self):
+        cutoff = datetime(2026, 11, 19, 6, 19, 59, tzinfo=timezone.utc)
+        source = {'id':'stutensee', 'name':'Stutensee', 'status':'ok',
+                  'refreshHours':24, 'lastSuccessAt':'2026-11-18T06:20:00+00:00'}
+        self.assertFalse(update_calendar.source_due(source, cutoff))
+        at = cutoff.replace(minute=20, second=1)
+        active, _ = update_calendar.problems({'sources':[source]}, date(2026, 11, 19), at)
+        self.assertEqual(active, [])
+        city = {'id':'karlsruhe', 'name':'Stadt Karlsruhe', 'status':'ok',
+                'listingStatus':'error', 'listingLastError':'Beispielausfall'}
+        failed = {**source, 'status':'error', 'lastError':'Beispielausfall'}
+        report = update_calendar.report_for({'sources':[city, failed], 'events':[],
+                                             'generatedAt':at.isoformat()}, at.isoformat(), [])
+        self.assertEqual(report['issues'], [])
+        self.assertEqual(report['errors'], [])
+        self.assertEqual({w['key'] for w in report['sourceWarnings']},
+                         {'error:stutensee', 'error:stadtteilbibliothek-groetzingen'})
+        self.assertIn('Stutensee', update_calendar.markdown(report))
+
+    def test_optional_venues_do_not_add_to_personal_review(self):
+        optional = {'key':'optional', 'status':'review', 'sourceIds':['stutensee']}
+        legacy = {'key':'legacy', 'status':'review', 'sourceIds':['durlach']}
+        excluded = {'stutensee'}
+        self.assertIsNone(review_problem({'rows':[optional]}, 'https://example.org', excluded))
+        legacy_only = review_problem({'rows':[legacy]}, 'https://example.org', excluded)
+        self.assertEqual(review_problem({'rows':[legacy, optional]}, 'https://example.org', excluded),
+                         legacy_only)
 
 
 if __name__ == '__main__':

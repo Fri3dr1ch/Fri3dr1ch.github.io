@@ -544,6 +544,7 @@ def enrich(data,root,today,online=False,budget=None,fetch=None,source_fetch=None
                      'eventCount':len(current),'reviewNote':registry.get('notes',{}).get(key,{}).get('note',''),'sourceAddresses':addresses,
                      'organizer':current[0].get('organizer','') if norm(canonical_label(location)) in GENERIC else '',
                      'sourceContext':current[0]['sourceId'] if norm(canonical_label(location)) in GENERIC and not current[0].get('organizer') else None,
+                     'sourceIds':sorted({e.get('librarySupplement') or e['sourceId'] for e in current}),
                      'sources':sorted({e['sourceName'] for e in current}),
                      'examples':[{'id':e['id'],'title':e['title'],'date':e.get('startDate'),'url':e.get('url') or e['sources'][0]['url']} for e in sorted(current,key=lambda e:e.get('startDate') or '9999')[:4]]})
     rows.sort(key=lambda r:(r['status']=='resolved',-r['eventCount'],r['location']))
@@ -565,8 +566,9 @@ def render_review(root,review):
     write(root/'dist/place-review.json',review)
 
 
-def review_problem(review,review_url):
-    pending=sorted(r['key'] for r in review['rows'] if r['status']=='review')
+def review_problem(review,review_url,optional_sources=frozenset()):
+    pending=sorted(r['key'] for r in review['rows'] if r['status']=='review'
+                   and (not r.get('sourceIds') or set(r['sourceIds'])-optional_sources))
     if not pending:return None
     return {'key':'review:venues','kind':'review','sourceId':'venues','sourceName':'Ortszuordnung',
             'url':review_url,

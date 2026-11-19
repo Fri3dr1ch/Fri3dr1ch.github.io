@@ -5,7 +5,7 @@ from datetime import date, datetime, time, timedelta, timezone
 from email.utils import parsedate_to_datetime
 import hashlib
 import re
-from urllib.parse import urlsplit
+from urllib.parse import urljoin, urlsplit
 from zoneinfo import ZoneInfo
 
 from icalendar import Calendar
@@ -14,6 +14,7 @@ from lxml import etree, html
 BERLIN = ZoneInfo('Europe/Berlin')
 FEED = 'https://kalender.karlsruhe.de/db/termine/rss'
 GROETZINGEN_LIBRARY = 'https://kalender.karlsruhe.de/db/termine/549983/'
+LIBRARY_ID = 'stadtteilbibliothek-groetzingen'
 LABELS = {'ausstellungen': 'Kunst & Ausstellungen', 'stadtleben': 'Stadtleben',
           'literatur': 'Literatur & Vorträge', 'sportveranstaltung': 'Sport', 'musik': 'Musik',
           'wirtschaft': 'Wirtschaft & Wissenschaft', 'theater': 'Theater & Tanz',
@@ -88,7 +89,7 @@ def local_datetime(value, hint=None):
     raise ValueError('Karlsruhe: unbekanntes Datumsformat')
 
 
-def detail(record, raw, checked_at):
+def detail_item(raw):
     # Organizer/contact fields are not imported. This publisher sometimes emits
     # invalid quoting there; exclude the unused property after RFC unfolding.
     raw = re.sub(br'\r?\n[ \t]', b'', raw)
@@ -101,10 +102,17 @@ def detail(record, raw, checked_at):
     if len(entries) != 1 or calendar.errors or entries[0].errors:
         fields = sorted({str(field or 'Inhaltszeile') for component in [calendar, *entries] for field, _ in component.errors})
         raise ValueError('Karlsruhe: iCalendar enthält keine eindeutigen fehlerfreien Termindaten' + (' (' + ', '.join(fields) + ')' if fields else ''))
-    item = entries[0]
+    return entries[0]
+
+
+def detail(record, raw, checked_at):
+    return event_from_detail(record, detail_item(raw), checked_at)
+
+
+def event_from_detail(record, item, checked_at):
     if str(item.get('UID', '')) != record['sourceGuid'].removeprefix('ka '):
         raise ValueError('Karlsruhe: iCalendar-UID widerspricht RSS-GUID')
-    if item.get('RRULE') or item.get('RDATE'):
+    if item.get('RRULE') or item.get('RDATE') or item.get('RECURRENCE-ID'):
         raise ValueError('Karlsruhe: neue iCalendar-Wiederholungsstruktur; Adapter prüfen')
     original = item.decoded('DTSTART')
     all_day = not isinstance(original, datetime)
@@ -153,28 +161,26 @@ def library_listing(raw):
         raise ValueError('Karlsruhe: Grötzinger Bibliotheksliste nicht erkannt')
     records, seen = [], set()
     for link in tree.xpath('//a[@href]'):
-        url = link.get('href', '').split('#', 1)[0]
+        url = urljoin(GROETZINGEN_LIBRARY, link.get('href', '')).split('#', 1)[0]
         parsed = urlsplit(url)
-        if parsed.scheme != 'https' or parsed.netloc != 'kalender.karlsruhe.de' or not re.match(r'^/db/termine/[^/]+/[^/]+$', parsed.path):
+        if parsed.scheme != 'https' or parsed.netloc != 'kalender.karlsruhe.de' or parsed.query or not re.fullmatch(r'/db/termine/[^/]+/[^/]+/?', parsed.path):
             continue
         url = url.rstrip('/')
         title_text = plain(link.text_content())
         if title_text and url not in seen:
             seen.add(url)
             records.append({'url': url, 'title': title_text, 'categoryKey': parsed.path.split('/')[3]})
-    if not records:
+    empty_notice = any(
+        re.fullmatch(r'(?:zurzeit |derzeit |aktuell )?keine (?:weiteren |aktuellen |kommenden )?(?:termine|veranstaltungen)(?: (?:vorhanden|eingetragen|geplant|gefunden|bekannt))?[.!]?', plain(node.text_content()), re.I)
+        for node in tree.xpath('//main|//section|//p')
+    )
+    if not records and not empty_notice:
         raise ValueError('Karlsruhe: keine Termine auf der Grötzinger Bibliotheksliste erkannt')
     return records
 
 
-def library_ical_record(record, raw, cached=None):
-    calendar = Calendar.from_ical(raw)
-    items = calendar.walk('VEVENT')
-    if len(items) != 1 or calendar.errors or items[0].errors:
-        raise ValueError('Karlsruhe: Bibliotheks iCalendar enthält keinen eindeutigen Termin')
-    item = items[0]
-    if item.get('RRULE') or item.get('RDATE') or item.get('RECURRENCE-ID'):
-        raise ValueError('Karlsruhe: Bibliotheks iCalendar enthält eine unerwartete Serie')
+def library_ical_record(record, raw, previous_by_guid=None):
+    item = detail_item(raw)
     uid = str(item.get('UID', '')).strip()
     title = str(item.get('SUMMARY', '')).strip()
     original = item.decoded('DTSTART')
@@ -184,26 +190,40 @@ def library_ical_record(record, raw, cached=None):
         when = local_datetime(original)
     else:
         raise ValueError('Karlsruhe: Bibliotheks iCalendar hat kein DTSTART')
-    if not uid or not title or title != record['title']:
-        raise ValueError('Karlsruhe: Bibliotheksliste und iCalendar-Titel widersprechen sich')
+    if not uid or not title:
+        raise ValueError('Karlsruhe: Bibliothekstermin ohne eindeutigen Titel oder UID')
     guid = 'ka ' + uid
-    identity = (cached or {}).get('id') or 'karlsruhe-' + hashlib.sha256((guid + when.isoformat()).encode()).hexdigest()[:16]
+    previous = (previous_by_guid or {}).get(guid, {})
+    identity = previous.get('id') or 'karlsruhe-' + hashlib.sha256((guid + when.isoformat()).encode()).hexdigest()[:16]
     feed_record = {'id': identity, 'sourceId': 'karlsruhe', 'sourceName': 'Stadt Karlsruhe',
                    'sourceGuid': guid, 'title': title, 'url': record['url'], 'icalUrl': record['url'] + '/ical',
                    'categoryKey': record['categoryKey'] if record['categoryKey'] in LABELS else 'sonstiges',
                    'category': LABELS.get(record['categoryKey'], LABELS['sonstiges']),
                    'description': plain(str(item.get('DESCRIPTION', ''))), 'rssStart': when.isoformat(),
                    'region': 'Karlsruhe und Umgebung', 'city': None}
-    event = detail(feed_record, raw, stamp())
-    event['librarySupplement'] = 'stadtteilbibliothek-groetzingen'
+    event = event_from_detail(feed_record, item, stamp())
+    event['librarySupplement'] = LIBRARY_ID
     return event
 
 
 def supplement_groetzingen_library(events, previous, client, source):
-    old = {e.get('sourceGuid'): e for e in previous.get('events', []) if e.get('librarySupplement') == 'stadtteilbibliothek-groetzingen'}
-    current_urls = {e['url'].rstrip('/') for e in events}
-    by_guid = {e.get('sourceGuid'): e for e in events}
-    retained = [e for guid, e in old.items() if guid not in by_guid and e['url'].rstrip('/') not in current_urls]
+    previous_by_guid = {e['sourceGuid']: e for e in previous.get('events', [])}
+    old = [e for e in previous_by_guid.values() if e.get('librarySupplement') == LIBRARY_ID]
+    by_url = {e['url'].rstrip('/'): e for e in events}
+    by_guid = {e['sourceGuid']: e for e in events}
+    for event in events:
+        event.pop('librarySupplement', None)
+
+    def keep_members(candidates):
+        for event in candidates:
+            match = by_guid.get(event['sourceGuid']) or by_url.get(event['url'].rstrip('/'))
+            if match is not None:
+                match['librarySupplement'] = LIBRARY_ID
+            else:
+                events.append(deepcopy(event))
+                by_guid[event['sourceGuid']] = events[-1]
+                by_url[event['url'].rstrip('/')] = events[-1]
+
     source = {**previous['sources'][0], **source}
     source['listingUrl'] = GROETZINGEN_LIBRARY
     source['listingRefreshHours'] = 24
@@ -213,62 +233,40 @@ def supplement_groetzingen_library(events, previous, client, source):
     except (ValueError, TypeError):
         listing_age = -1
     if source.get('listingStatus') == 'ok' and 0 <= listing_age < 24 * 3600:
-        events.extend(deepcopy(retained))
+        keep_members(old)
         return source
+    source['listingLastAttemptAt'] = stamp()
     try:
         links = library_listing(client(GROETZINGEN_LIBRARY))
     except Exception as error:
-        source.update(status='partial', listingStatus='error', listingLastAttemptAt=stamp(),
+        source.update(listingStatus='error',
                       listingLastError=type(error).__name__ + ': ' + str(error))
-        events.extend(deepcopy(retained))
+        keep_members(old)
         return source
-    old_by_url = {e['url'].rstrip('/'): e for e in retained}
+    old_by_url = {e['url'].rstrip('/'): e for e in old}
     updated, errors = [], []
     for record in links:
-        if record['url'] in current_urls: continue
-        cached = old_by_url.get(record['url'])
-        if cached and cached.get('title') == record['title']:
-            try:
-                age = (datetime.now(timezone.utc) - datetime.fromisoformat(cached['detailCheckedAt'])).total_seconds()
-            except (KeyError, ValueError, TypeError):
-                age = -1
-            if 0 <= age < 6 * 3600:
-                updated.append(deepcopy(cached)); continue
+        if record['url'] in by_url:
+            updated.append(by_url[record['url']])
+            continue
         try:
             raw = client(record['url'] + '/ical')
-            # First validate the source UID before looking up its last-known identity.
-            calendar = Calendar.from_ical(raw)
-            items = calendar.walk('VEVENT')
-            uid = str(items[0].get('UID', '')).strip() if len(items) == 1 else ''
-            event = library_ical_record(record, raw, old.get('ka ' + uid))
-            if event['sourceGuid'] in by_guid:
-                continue
-            updated.append(event)
+            updated.append(library_ical_record(record, raw, previous_by_guid))
         except Exception as error:
             errors.append(record['url'] + ': ' + type(error).__name__ + ': ' + str(error))
-            if cached: updated.append(deepcopy(cached))
-    # If any detail is incomplete, retain cached rows missing from this attempt;
-    # the next successful scan will remove genuinely withdrawn entries.
-    if errors:
-        retained_urls = {e.get('url', '').rstrip('/') for e in updated}
-        retained_guids = {e['sourceGuid'] for e in updated}
-        updated.extend(deepcopy(e) for e in retained
-                       if e['url'].rstrip('/') not in retained_urls and e['sourceGuid'] not in retained_guids)
-    ids = [e['id'] for e in updated]
-    if len(ids) != len(set(ids)):
-        source.update(status='partial', listingStatus='error', listingLastAttemptAt=stamp(),
-                      listingLastError='Doppelte Identität in der Bibliotheksliste')
-        events.extend(deepcopy(retained))
-        return source
-    events.extend(updated)
-    source.update(listingUrl=GROETZINGEN_LIBRARY, listingRecordCount=len(links), listingRefreshHours=24,
-                  listingLastAttemptAt=stamp(), listingStatus='partial' if errors else 'ok')
+            if record['url'] in old_by_url:
+                updated.append(old_by_url[record['url']])
+    # Multiple URLs for the same publisher UID belong to one event. An
+    # incomplete list retains prior members until a complete list replaces it.
+    keep_members(updated)
+    source.update(listingStatus='partial' if errors else 'ok')
     source.pop('listingLastError', None)
     if errors:
-        source['status'] = 'partial'
+        keep_members(old)
         source['listingLastError'] = '; '.join(errors[:5])
     else:
         source['listingLastSuccessAt'] = stamp()
+        source['listingRecordCount'] = len(links)
     return source
 
 
@@ -338,8 +336,5 @@ def refresh(previous, client):
     if errors: source['lastError'] = '; '.join(errors[:5])
     source = supplement_groetzingen_library(events, previous, client, source)
     source['eventCount'] = len(events)
-    if source.get('listingStatus') in {'error', 'partial'}:
-        source['lastError'] = '; '.join(filter(None, [source.get('lastError'), source.get('listingLastError')]))
-    # Preserve the main RSS health state while reflecting any partial listing.
     return {**previous, 'generatedAt': stamp(), 'sources': [source],
             'events': sorted(events, key=lambda e: (e['startDate'], e.get('startTime') or '99:99', e['title']))}

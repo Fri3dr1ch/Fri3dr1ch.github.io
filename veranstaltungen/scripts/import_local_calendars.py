@@ -12,7 +12,8 @@ from zoneinfo import ZoneInfo
 from lxml import html
 
 from import_groetzingen import ROOT,build_dataset,save_dataset,check_review,category,CATEGORIES
-from calendar_sources import combine_local_sources,saved_sources
+from calendar_sources import PUBLISHER_SOURCE_IDS,combine_local_sources,saved_sources
+from validate_calendar import validate_events
 
 BERLIN=ZoneInfo('Europe/Berlin')
 MARKET_TITLE = re.compile(
@@ -56,8 +57,6 @@ SOURCES={
             'url':'https://www.vhs-karlsruhe-land.de/standorte/weingarten/'},
  'vhs-karlsruhe-land-walzbachtal':{'id':'vhs-karlsruhe-land-walzbachtal','name':'vhs Karlsruhe Land · Außenstelle Walzbachtal','region':'Walzbachtal',
             'url':'https://www.vhs-karlsruhe-land.de/standorte/walzbachtal/'},
- 'awo-groetzingen':{'id':'awo-groetzingen','name':'AWO Ortsverein Grötzingen','region':'Grötzingen',
-            'url':'https://www.awo-karlsruhe.de/einrichtungen/ortsverein-groetzingen-3/'},
  'hagsfeld':{'id':'hagsfeld','name':'Bürgerkommission Hagsfeld','region':'Hagsfeld',
             'url':'https://www.hagsfeld.de/termine'},
  'stutensee':{'id':'stutensee','name':'Stadt Stutensee · Veranstaltungskalender','region':'Stutensee und Umgebung',
@@ -103,7 +102,12 @@ def event(source,record,stamp):
     if begin and finish and end==start and finish<begin and not record.get('endIso'):
         end=(date.fromisoformat(end)+timedelta(days=1)).isoformat()
     if end<start:raise ValueError('Umgekehrter Zeitraum')
-    record_id=record['recordId'];identity=f"{source['id']}-{record_id}-{start}-{(begin or 'unknown').replace(':','')}"
+    record_id=record['recordId']
+    identity=f"{source['id']}-{record_id}"
+    # These adapters use one publisher record (or one distinct listing card)
+    # per occurrence. A correction to a known record keeps the same identity.
+    if source['id'] not in PUBLISHER_SOURCE_IDS:
+        identity+=f"-{start}-{(begin or 'unknown').replace(':','')}"
     cat=record.get('categoryKey') or category(record)
     duration=(date.fromisoformat(end)-date.fromisoformat(start)).days
     prov={k:record.get(k) for k in ('url','recordId','title','startDate','endDate','startTime','endTime','dateText','timeText','location','organizer')}
@@ -117,7 +121,7 @@ def event(source,record,stamp):
         'title':record['title'],'url':record['url'],'icalUrl':record.get('icalUrl'),'region':record.get('region') or source['region'],'city':None,
         'categoryKey':cat,'category':CATEGORIES.get(cat,{'theater':'Theater & Bühne'}.get(cat,'Stadtleben')),'description':record.get('description') or (('Veranstalter: '+record['organizer']) if record.get('organizer') else ''),
         'organizer':record.get('organizer',''),'location':record.get('location',''),
-        'start':datetime.fromisoformat(start+'T'+(begin or '00:00')).replace(tzinfo=BERLIN).isoformat(),
+        'start':record.get('startIso') or datetime.fromisoformat(start+'T'+(begin or '00:00')).replace(tzinfo=BERLIN).isoformat(),
         'end':record.get('endIso') or (datetime.fromisoformat(end+'T'+(finish or '00:00')).replace(tzinfo=BERLIN).isoformat() if finish or end!=start else None),
         'startDate':start,'endDate':end,'startTime':begin,'endTime':finish,'timeKnown':bool(begin),
         'allDay':record.get('allDay',False),'longRunning':record.get('longRunning',duration>=7),'scheduleNote':note,
@@ -206,8 +210,8 @@ def weingarten_entries(raw):
 def fetch_source(source_id,stamp,fetch=download,root=ROOT):
     source=SOURCES[source_id]
     if source_id not in ('durlach','weingarten'):
-        if source_id in {'naturtreff-groetzingen','awo-groetzingen','hagsfeld','stutensee','bergdoerfer','karlsbad','koenigsbach-stein'} or source_id.startswith('vhs-karlsruhe-land-'):
-            from publisher_sources import (naturtreff_records,awo_records,hagsfeld_records,stutensee_records,
+        if source_id in PUBLISHER_SOURCE_IDS:
+            from publisher_sources import (naturtreff_records,hagsfeld_records,stutensee_records,
                                            bergdoerfer_records,karlsbad_records,koenigsbach_records,vhs_land_records)
             if source_id=='naturtreff-groetzingen':
                 records,extra=naturtreff_records(fetch('https://naturtreff-groetzingen.de/?nt_ics=feed'))
@@ -218,14 +222,12 @@ def fetch_source(source_id,stamp,fetch=download,root=ROOT):
                 route=source_url(source['url'],only(matches,'vhs Karlsruhe Land Außenstellen-Kursliste'))
                 records,extra=vhs_land_records(fetch(route),route)
                 extra['landingPage']=source['url']
-            elif source_id=='awo-groetzingen':
-                records,extra=awo_records(fetch(source['url']),source['url'])
             elif source_id=='hagsfeld':
                 records,extra=hagsfeld_records(fetch(source['url']),source['url'])
             elif source_id=='stutensee':
                 records,extra=stutensee_records(fetch(source['url']),source['url'],fetch)
             elif source_id=='bergdoerfer':
-                records,extra=bergdoerfer_records(fetch(source['url']),source['url'])
+                records,extra=bergdoerfer_records(fetch(source['url']),source['url'],fetch)
             elif source_id=='karlsbad':
                 records,extra=karlsbad_records(fetch(source['url']))
             else:
@@ -287,7 +289,10 @@ def fetch_source(source_id,stamp,fetch=download,root=ROOT):
     return {'source':metadata,'events':events}
 
 def refresh(source_id,stamp,previous=None,fetch=download,root=ROOT):
-    try:return fetch_source(source_id,stamp,fetch,root),None
+    try:
+        snapshot=fetch_source(source_id,stamp,fetch,root)
+        validate_events(snapshot['events'],{source_id})
+        return snapshot,None
     except Exception as exc:
         message=type(exc).__name__+': '+str(exc)
         if previous is None:return None,message

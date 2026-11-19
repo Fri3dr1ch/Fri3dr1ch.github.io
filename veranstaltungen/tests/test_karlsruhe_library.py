@@ -36,7 +36,7 @@ class KarlsruheLibraryTests(unittest.TestCase):
         new_source = {'id': 'karlsruhe', 'status': 'ok', 'lastSuccessAt': '2026-11-18T12:00:00+00:00'}
         result = karlsruhe.supplement_groetzingen_library(current_events, previous, fail, new_source)
         self.assertEqual(result['listingStatus'], 'error')
-        self.assertEqual(result['status'], 'partial')
+        self.assertEqual(result['status'], 'ok')
         self.assertEqual([e['id'] for e in current_events], [old_event['id']])
         # Once the event appears in RSS it wins even if the supplement fails.
         current_events = [deepcopy(old_event)]
@@ -55,6 +55,40 @@ class KarlsruheLibraryTests(unittest.TestCase):
         source = karlsruhe.supplement_groetzingen_library(events, previous, fetch, {'id': 'karlsruhe', 'status': 'ok'})
         self.assertEqual(source['listingStatus'], 'ok')
         self.assertEqual([e['id'] for e in events], [current['id']])
+
+    def test_confirmed_empty_location_list_clears_only_its_members(self):
+        records = [{'url': 'https://kalender.karlsruhe.de/db/termine/literatur/bibliothek',
+                    'title': 'Vorlesezeit in Grötzingen', 'categoryKey': 'literatur'}]
+        old = karlsruhe.library_ical_record(records[0], ics())
+        city = dict(old, id='rss-other', sourceGuid='ka other',
+                    url='https://kalender.karlsruhe.de/db/termine/literatur/other')
+        city.pop('librarySupplement')
+        source = {'id': 'karlsruhe', 'status': 'ok'}
+        previous = {'sources': [source], 'events': [old, city]}
+        empty = '<html><head><title>Stadtteilbibliothek Grötzingen</title></head><main>Keine Veranstaltungen</main></html>'.encode()
+        events = [deepcopy(city)]
+        result = karlsruhe.supplement_groetzingen_library(events, previous, lambda _: empty, source)
+        self.assertEqual(result['listingStatus'], 'ok')
+        self.assertEqual(result['listingRecordCount'], 0)
+        self.assertEqual(events, [city])
+        with self.assertRaises(ValueError):
+            karlsruhe.library_listing(empty.replace(b'Keine Veranstaltungen', b'Neue Seitenstruktur'))
+
+    def test_listing_membership_survives_rss_entry_and_eviction(self):
+        url = 'https://kalender.karlsruhe.de/db/termine/literatur/bibliothek'
+        old = karlsruhe.library_ical_record({'url': url, 'title': 'Vorlesezeit in Grötzingen', 'categoryKey': 'literatur'}, ics())
+        source = {'id': 'karlsruhe', 'status': 'ok', 'listingStatus': 'ok', 'listingLastSuccessAt': karlsruhe.stamp()}
+        def unexpected_fetch(url):
+            self.fail('unexpected request: ' + url)
+        rss = deepcopy(old)
+        rss.pop('librarySupplement')
+        events = [rss]
+        karlsruhe.supplement_groetzingen_library(events, {'sources': [source], 'events': [old]}, unexpected_fetch, source)
+        self.assertEqual(len(events), 1)
+        self.assertEqual(events[0]['librarySupplement'], karlsruhe.LIBRARY_ID)
+        restored = []
+        karlsruhe.supplement_groetzingen_library(restored, {'sources': [source], 'events': events}, unexpected_fetch, source)
+        self.assertEqual([e['id'] for e in restored], [old['id']])
 
 
 if __name__ == '__main__':

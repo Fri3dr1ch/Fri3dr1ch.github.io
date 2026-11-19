@@ -1,7 +1,7 @@
 """Small adapters for official regional event lists and publisher calendars."""
 from __future__ import annotations
 
-from datetime import date, datetime, time, timedelta
+from datetime import date, datetime, timedelta
 import hashlib
 import re
 from urllib.parse import parse_qs, urljoin, urlsplit
@@ -57,11 +57,28 @@ def _times(text):
     return values
 
 
+def _ical_status(item):
+    status = str(item.get('STATUS', '')).strip().upper()
+    if status == 'CANCELLED':
+        return 'cancelled'
+    if status == 'POSTPONED' or str(item.get('X-STATUS', '')).upper() == 'POSTPONED':
+        return 'postponed'
+    return None
+
+
+def _calendar_events(raw, source_name, prodid):
+    calendar = Calendar.from_ical(raw)
+    events = calendar.walk('VEVENT')
+    known_empty = (str(calendar.get('VERSION', '')) == '2.0'
+                   and str(calendar.get('PRODID', '')) == prodid
+                   and all(component.name == 'VTIMEZONE' for component in calendar.subcomponents))
+    if calendar.errors or (not events and not known_empty):
+        raise ValueError(source_name + ': iCalendar-Feed nicht erkannt')
+    return events
+
+
 def naturtreff_records(raw):
-    cal = Calendar.from_ical(raw)
-    components = cal.walk('VEVENT')
-    if not components or cal.errors:
-        raise ValueError('Naturtreff: iCalendar enthält keine verlässlichen Termine')
+    components = _calendar_events(raw, 'Naturtreff', '-//Naturtreff Veranstaltungen//DE')
     records, seen = [], set()
     for item in components:
         if item.errors or item.get('RRULE') or item.get('RDATE') or item.get('RECURRENCE-ID'):
@@ -73,11 +90,17 @@ def naturtreff_records(raw):
         seen.add(uid)
         start_value = item.decoded('DTSTART')
         finish_value = item.decoded('DTEND') if item.get('DTEND') else None
+        start_iso = None
         if isinstance(start_value, datetime):
             start = start_value.replace(tzinfo=BERLIN) if start_value.tzinfo is None else start_value.astimezone(BERLIN)
+            start_iso = start.isoformat()
             end = None
-            if finish_value:
+            if finish_value is not None:
+                if not isinstance(finish_value, datetime):
+                    raise ValueError('Naturtreff: widersprüchliche iCalendar-Datumstypen')
                 finish = finish_value.replace(tzinfo=BERLIN) if finish_value.tzinfo is None else finish_value.astimezone(BERLIN)
+                if finish.timestamp() < start.timestamp():
+                    raise ValueError('Naturtreff: umgekehrte iCalendar-Zeitspanne')
                 end = finish.isoformat()
             begin_date, begin_time = start.date(), start.strftime('%H:%M')
             finish_time = finish.strftime('%H:%M') if finish_value else None
@@ -94,15 +117,15 @@ def naturtreff_records(raw):
         records.append({'recordId': uid, 'title': title, 'url': url or 'https://naturtreff-groetzingen.de/veranstaltungen/',
             'icalUrl': 'https://naturtreff-groetzingen.de/?nt_ics=feed', 'startDate': begin_date.isoformat(),
             'endDate': finish_date.isoformat(), 'startTime': begin_time, 'endTime': finish_time,
-            'endIso': end, 'location': str(item.get('LOCATION', '')).strip(),
+            'startIso': start_iso, 'endIso': end, 'location': str(item.get('LOCATION', '')).strip(),
             'description': str(item.get('DESCRIPTION', '')).strip(), 'allDay': isinstance(start_value, date) and not isinstance(start_value, datetime),
-            'categoryKey': 'stadtleben', 'dataQuality': 'ical-feed'})
-    return records, {'coverageKind': 'ical-feed', 'coverageNote': 'Alle einzeln veröffentlichten Termine im Naturtreff-iCalendar-Feed.'}
+            'status': _ical_status(item), 'categoryKey': 'stadtleben', 'dataQuality': 'ical-feed'})
+    return records, {'coverageKind': 'ical-feed', 'allowEmpty': True,
+                     'coverageNote': 'Alle einzeln veröffentlichten Termine im Naturtreff-iCalendar-Feed.'}
 
 
 def vhs_land_records(raw, base_url):
     tree = _doc(raw)
-    cards = tree.xpath('//div[contains(@class,"course") or contains(@class,"kurs")]')
     # KuferWeb changes wrapper class names between installations; use the card's
     # stable course-detail URL and require one exact start and duration field.
     candidates = []
@@ -119,16 +142,16 @@ def vhs_land_records(raw, base_url):
             parent = parent.getparent()
             value = _text(parent)
             if 'Beginn' in value and 'Dauer' in value and 'Kursort' in value:
-                candidates.append((parent, link, course_id.group(1)))
+                candidates.append((parent, link, course_id.group(1), detail_url))
                 break
     # Distinct course ids may be linked more than once from navigation/footer.
     unique = {}
-    for card, link, course_id in candidates:
-        unique.setdefault(course_id, (card, link))
+    for card, link, course_id, detail_url in candidates:
+        unique.setdefault(course_id, (card, link, detail_url))
     if not unique:
         raise ValueError('vhs Karlsruhe Land: Kursliste oder Kurskarten nicht erkannt')
     records = []
-    for course_id, (card, link) in unique.items():
+    for course_id, (card, link, detail_url) in unique.items():
         text = _text(card)
         title = _text(link)
         if not title or title.lower() in {'mehr erfahren', 'details', 'weitere infos'}:
@@ -141,54 +164,18 @@ def vhs_land_records(raw, base_url):
         place_match = re.search(r'Kursort\s*:?\s*(.+?)(?:\s+Gebühr\b|\s+Preis\s*:|\s+Status\s*:|$)', text, re.I)
         if not start_match or not duration_match:
             raise ValueError('vhs Karlsruhe Land: Beginn oder Dauer nicht eindeutig')
-        day = _parse_date(start_match.group(1))
-        clocks = _times(start_match.group(2))
-        begin_time = clocks[0] if clocks else None
         # A one-session filter is the low-maintenance boundary. Series remain
         # out even where their first meeting happens to be in the area.
         if int(duration_match.group(1)) != 1:
             continue
+        day = _parse_date(start_match.group(1))
+        clocks = _times(start_match.group(2))
+        begin_time = clocks[0] if clocks else None
         location = re.sub(r'\s+', ' ', place_match.group(1)).strip(' :') if place_match else ''
         records.append({'recordId': course_id, 'title': title, 'url': detail_url,
             'startDate': day.isoformat(), 'startTime': begin_time, 'endTime': clocks[1] if len(clocks) > 1 else None, 'location': location,
             'description': 'Einzelveranstaltung aus dem veröffentlichten Kursangebot der vhs Karlsruhe Land.'})
-    if not records and not unique:
-        raise ValueError('vhs Karlsruhe Land: leere oder nicht erkannte Kursliste')
     return records, {'coverageKind': 'html-list', 'coverageNote': 'Alle aktuell veröffentlichten Einzelveranstaltungen (Dauer: 1 Termin); mehrteilige Kurse bleiben außen vor.', 'allowEmpty': True, 'pagesFetched': 1}
-
-
-def awo_records(raw, source_url):
-    tree = _doc(raw)
-    body = ' '.join(tree.text_content().split())
-    # The public page exposes two finite, explicitly dated lists. Do not expand
-    # its indefinite weekly/third-Tuesday descriptions into future recurrences.
-    match = re.search(r'Stuhl-Yoga\s*[–-]\s*jeden\s+3\.\s+Dienstag\s+im\s+Monat\s+um\s+(\d{1,2}:\d{2})\s+Uhr\s*:\s*(.+?)\s+Donnerstags', body, re.I)
-    if not match:
-        raise ValueError('AWO Grötzingen: ausdrücklich datierte Yoga-Liste nicht erkannt')
-    year_matches = re.findall(r'\b(20\d{2})\b', match.group(2))
-    if not year_matches:
-        raise ValueError('AWO Grötzingen: Bezugsjahr der Yoga-Liste fehlt')
-    yoga_year = int(year_matches[-1])
-    yoga_dates = re.findall(r'(?<!\d)(\d{1,2})\s*\.\s*(\d{1,2})\s*\.(?:\s*(20\d{2}))?', match.group(2))
-    if len(yoga_dates) < 2:
-        raise ValueError('AWO Grötzingen: datierte Yoga-Termine nicht erkannt')
-    records = []
-    for day, month, explicit_year in yoga_dates:
-        parsed = date(int(explicit_year or yoga_year), int(month), int(day))
-        records.append({'recordId': f'stuhl-yoga-{parsed.isoformat()}', 'title': 'Stuhl-Yoga', 'url': source_url,
-            'startDate': parsed.isoformat(), 'startTime': match.group(1), 'location': 'Begegnungsstätte Grötzingen, Niddastraße 9',
-            'organizer': 'AWO Ortsverein Grötzingen', 'categoryKey': 'stadtleben'})
-    history = re.search(r'Grötzinger\s+AWO\s+Geschichtsstammtisch\s*[–-]\s*immer\s+dienstags,\s*von\s+(\d{1,2}:\d{2})\s+bis\s+(\d{1,2}:\d{2})\s+Uhr\s*:\s*(.+?)\s+Ausflüge', body, re.I)
-    if not history:
-        raise ValueError('AWO Grötzingen: datierte Geschichtsstammtisch-Liste nicht erkannt')
-    for date_text, title in re.findall(r'(\d{2}\.\d{2}\.\d{4})\s*:\s*([^:]+?)(?=\s+\d{2}\.\d{2}\.\d{4}\s*:|$)', history.group(3)):
-        parsed = _parse_date(date_text)
-        records.append({'recordId': f'geschichtsstammtisch-{parsed.isoformat()}', 'title': 'Grötzinger AWO Geschichtsstammtisch: ' + title.strip(),
-            'url': source_url, 'startDate': parsed.isoformat(), 'startTime': history.group(1), 'endTime': history.group(2),
-            'location': 'Begegnungsstätte Grötzingen, Niddastraße 9', 'organizer': 'AWO Ortsverein Grötzingen', 'categoryKey': 'literatur'})
-    if len(records) < 4:
-        raise ValueError('AWO Grötzingen: datierte Veranstaltungslisten unerwartet kurz')
-    return records, {'coverageKind': 'html-list', 'coverageNote': 'Nur die endlich und ausdrücklich datierten Yoga- und Geschichtsstammtisch-Termine; keine wöchentlichen Reihen.'}
 
 
 def hagsfeld_records(raw, base_url):
@@ -224,7 +211,7 @@ def hagsfeld_records(raw, base_url):
         seen.add(slug)
         records.append({'recordId': slug, 'title': _text(link), 'url': url,
             'startDate': start.date().isoformat(), 'endDate': end_date.isoformat(),
-            'startTime': start.strftime('%H:%M') if when.time() != time.min else None,
+            'startTime': start.strftime('%H:%M') if 'T' in time_node.get('datetime') else None,
             'dateText': label, 'location': '', 'categoryKey': 'stadtleben'})
     return records, {'coverageKind': 'html-list', 'coverageNote': f'Alle {len(records)} Einträge der offiziellen Vorschau „Nächste Termine“; die veröffentlichte Liste ist auf acht Einträge begrenzt.', 'pagesFetched': 1}
 
@@ -305,7 +292,7 @@ def stutensee_records(raw, base_url, fetch):
     return records, {'coverageKind': 'html-list', 'coverageNote': 'Alle veröffentlichten Webtermine; der separate Jahres-PDF-Kalender wird nicht eingelesen.', 'pagesFetched': 1 + len(offsets)}
 
 
-def bergdoerfer_records(raw, base_url):
+def bergdoerfer_page(raw, base_url):
     tree = _doc(raw)
     cards = tree.xpath('//div[contains(concat(" ",normalize-space(@class)," ")," v-kachel ") and .//div[contains(concat(" ",normalize-space(@class)," ")," v-kachel-titel ")]]')
     if not cards:
@@ -322,7 +309,8 @@ def bergdoerfer_records(raw, base_url):
         date_text = _text(_one(card.xpath('.//div[contains(concat(" ",normalize-space(@class)," ")," date ")]'), 'Bergdörfer Datum'))
         date_match = re.search(r'\b(\d{1,2}\.\d{1,2}\.\d{4})\b', date_text)
         if not date_match: raise ValueError('Bergdörfer: Datum nicht erkannt')
-        day = _parse_date(date_match.group(1))
+        days = [_parse_date(value) for value in re.findall(r'\b\d{1,2}\.\d{1,2}\.\d{4}\b', date_text)]
+        day = days[0]
         time_nodes = card.xpath('.//div[contains(concat(" ",normalize-space(@class)," ")," time ")]')
         time_text = _text(time_nodes[0]) if time_nodes else ''
         times = _times(time_text)
@@ -335,16 +323,23 @@ def bergdoerfer_records(raw, base_url):
         if record_id in seen: raise ValueError('Bergdörfer: doppelte Termin-ID in Übersicht')
         seen.add(record_id)
         records.append({'recordId': record_id, 'title': _text(title_node), 'url': url,
-            'startDate': day.isoformat(), 'startTime': times[0] if times else None,
+            'startDate': day.isoformat(), 'endDate': days[-1].isoformat(), 'startTime': times[0] if times else None,
             'endTime': times[1] if len(times) > 1 else None, 'location': location, 'categoryKey': 'stadtleben'})
-    return records, {'coverageKind': 'html-list', 'coverageNote': f'Alle {len(records)} ausdrücklich veröffentlichten Termine der zentralen Terminübersicht.'}
+    return records
+
+
+def bergdoerfer_records(raw, base_url, fetch):
+    from eki_calendar import fetch_listing_pages
+
+    records, pages = fetch_listing_pages(raw, fetch, base_url, lambda page: bergdoerfer_page(page, base_url))
+    if len({r['recordId'] for r in records}) != len(records):
+        raise ValueError('Bergdörfer: doppelte Termin-ID über mehrere Ergebnisseiten')
+    return records, {'coverageKind': 'html-list', 'pagesFetched': pages,
+                     'coverageNote': f'Alle {len(records)} veröffentlichten Termine auf {pages} Ergebnisseiten der zentralen Terminübersicht.'}
 
 
 def karlsbad_records(raw):
-    cal = Calendar.from_ical(raw)
-    components = cal.walk('VEVENT')
-    if not components or cal.errors:
-        raise ValueError('Karlsbad: iCalendar-Feed leer oder nicht lesbar')
+    components = _calendar_events(raw, 'Karlsbad', '-//KLIK//EventCalendar//DE')
     records, ids = [], set()
     for item in components:
         if item.errors or item.get('RRULE') or item.get('RDATE') or item.get('RECURRENCE-ID'):
@@ -356,32 +351,41 @@ def karlsbad_records(raw):
         begin_component = item['DTSTART']
         begin = item.decoded('DTSTART')
         date_only = str(begin_component.params.get('VALUE', '')).upper() == 'DATE'
+        start_iso = end_iso = end_time = None
         if isinstance(begin, datetime) and not date_only:
             start = begin.replace(tzinfo=BERLIN) if begin.tzinfo is None else begin.astimezone(BERLIN)
             day, begin_time = start.date(), start.strftime('%H:%M')
+            start_iso = start.isoformat()
         elif isinstance(begin, date) or date_only:
             day = begin.date() if isinstance(begin, datetime) else begin
             begin_time = None
         else: raise ValueError('Karlsbad: unbekannter DTSTART-Typ')
         end_value = item.decoded('DTEND') if item.get('DTEND') else None
         end_day = day
-        if isinstance(end_value, date) and not isinstance(end_value, datetime) and end_value > day:
+        if isinstance(end_value, datetime) and start_iso:
+            end = end_value.replace(tzinfo=BERLIN) if end_value.tzinfo is None else end_value.astimezone(BERLIN)
+            if end.timestamp() < start.timestamp():
+                raise ValueError('Karlsbad: umgekehrte iCalendar-Zeitspanne')
+            end_day, end_time, end_iso = end.date(), end.strftime('%H:%M'), end.isoformat()
+        elif isinstance(end_value, date) and not isinstance(end_value, datetime) and end_value > day:
             end_day = end_value - timedelta(days=1)
         # The municipality's subscription exports all DTSTART values as dates;
         # infer a clock only from an explicit clock phrase in the published title.
         if begin_time is None:
             match = re.search(r'\b(?:ab|um)\s+(\d{1,2}[:.]\d{2})\s*Uhr\b', title, re.I)
             if match:
-                begin_time = match.group(1).replace('.', ':')
+                begin_time = _times(match.group(1).replace('.', ':'))[0]
         location = str(item.get('LOCATION', '')).strip()
         url = str(item.get('URL', '')).strip() or 'https://www.karlsbad.de/eventcalendar'
         if urlsplit(url).hostname != 'www.karlsbad.de': raise ValueError('Karlsbad: unerwartete Original-URL')
         records.append({'recordId': uid, 'title': title, 'url': url, 'startDate': day.isoformat(),
-            'endDate': end_day.isoformat(), 'startTime': begin_time, 'location': location,
+            'endDate': end_day.isoformat(), 'startTime': begin_time, 'endTime': end_time,
+            'startIso': start_iso, 'endIso': end_iso, 'location': location,
             'organizer': str(item.get('ORGANIZER', '')).strip(), 'categoryKey': 'stadtleben',
-            'dataQuality': 'ical-feed',
+            'status': _ical_status(item), 'dataQuality': 'ical-feed',
             'scheduleNote': '' if begin_time else 'Die Kalender-Abo-Datei veröffentlicht keine Uhrzeit.'})
-    return records, {'coverageKind': 'ical-feed', 'coverageNote': 'Alle Termine des kommunalen iCalendar-Abos; Uhrzeiten werden nur übernommen, wenn sie ausdrücklich im Titel stehen.'}
+    return records, {'coverageKind': 'ical-feed', 'allowEmpty': True,
+                     'coverageNote': 'Alle Termine des kommunalen iCalendar-Abos; Uhrzeiten werden aus Zeitwerten oder ausdrücklichen Angaben im Titel übernommen.'}
 
 
 def koenigsbach_page(raw, base_url):
@@ -397,8 +401,6 @@ def koenigsbach_page(raw, base_url):
         day = _parse_date(match.group(1))
         times = _times(text)
         venue_nodes = card.xpath('.//li[contains(@class,"items-center")][contains(.,"bx-map") or .//span[contains(@class,"bx-map")]]')
-        if not venue_nodes:
-            venue_nodes = card.xpath('.//li[position()=2]')
         if len(venue_nodes) > 1: raise ValueError('Königsbach-Stein: Veranstaltungsort mehrdeutig')
         venue = _text(venue_nodes[0]) if venue_nodes else ''
         organizers = card.xpath('.//a[@aria-label]')

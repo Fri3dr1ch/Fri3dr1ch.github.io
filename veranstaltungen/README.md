@@ -6,7 +6,7 @@ automatisch ergänzt; offene Fälle blockieren die Karte nicht. Einmal bestätig
 Orte gelten auch für neue Termine. Ablauf und Entscheidungsexport sind in
 [docs/ORTSZUORDNUNG.md](docs/ORTSZUORDNUNG.md) beschrieben.
 
-Statischer Kalender aus 26 getrennt nachvollziehbaren Quellen. Der gemeinsame
+Statischer Kalender aus 25 getrennt nachvollziehbaren Quellen. Der gemeinsame
 Produktionsaufruf aktualisiert RSS/iCalendar, regionale Kalender und die
 Änderungsprüfungen der manuell kontrollierten Grötzinger Quellen. Die
 GitHub-Übernahme und Aktivierung sind in [DEPLOYMENT.md](DEPLOYMENT.md) beschrieben.
@@ -42,7 +42,7 @@ python scripts/sync_github_issues.py --repo Fri3dr1ch/Fri3dr1ch.github.io --dry-
 
 `--source` akzeptiert alle IDs in `scripts/import_local_calendars.py` sowie
 `karlsruhe`, `pdfs` und `regional`. Ohne Option laufen alle Quellen.
-`--source regional` aktualisiert die 23 regionalen Quellen und die beiden
+`--source regional` aktualisiert die 22 regionalen Quellen und die beiden
 PDF-Änderungsprüfungen, falls Karlsruhe bereits separat aktualisiert wurde.
 Der bisherige Aufruf `import_local_calendars.py` delegiert an denselben Produktionsablauf.
 `--offline` setzt gespeicherte Daten zusammen und validiert sie; es bestätigt
@@ -71,12 +71,11 @@ keinen neuen Abruf und verschiebt keine Sichtprüfung.
 | Waldpädagogik Karlsruhe | Öffentliches Jahresprogramm mit allen verlinkten Monatsseiten, auch kurzfristigen Absagen und ausgebuchten Durchgängen. Bei Kursreihen ohne einzeln ausgewiesene Folgetermine wird der veröffentlichte Beginn übernommen. |
 | Naturtreff Grötzingen | Öffentlicher iCalendar-Feed mit stabilen UIDs, belegten Zeiten, Orten und Einzellinks. „Naturparadies Rheinauen“ bleibt bei der bestehenden Karlsruher RSS/PDF-Identität; der Themenabend „Neobiota“ wird mit dem städtischen PDF-Eintrag verknüpft. Ein zweiter Karlsruher RSS-Eintrag für „Naturparadies Rheinauen“ wird auf die ältere kanonische RSS-Identität zurückgeführt. Titel- und Raumvarianten bleiben als Herkunftsbelege erhalten. |
 | vhs Karlsruhe Land · Pfinztal, Weingarten, Walzbachtal | Gemeinsamer KuferWeb-Importer für alle veröffentlichten Angebote mit exakt einem Termin. Kursreihen werden nicht als Einzeltermin ausgegeben. Beim Live-Abruf standen in Pfinztal und Weingarten keine Einmaltermine; Walzbachtal veröffentlichte fünf. |
-| AWO Ortsverein Grötzingen | Nur ausdrücklich einzeln datierte Stuhl-Yoga- und Geschichtsstammtisch-Termine. Unbestimmte wöchentliche Treffen werden nicht fortgeschrieben; die jährliche Ferienpause braucht daher keine errechneten Ausnahmen. |
 | Bürgerkommission Hagsfeld | Alle aktuell sichtbaren Einträge der offiziellen Vorschau „Nächste Termine“ (höchstens acht). Unterschiedliche Veranstaltungs-URLs erhalten eigene Identitäten; unbekannte Orte und Endzeiten bleiben leer. |
 | Stadt Stutensee | Alle veröffentlichten Webtermine einschließlich der vollständigen Offset-Seitenfolge. Der zusätzlich angebotene Jahres-PDF-Kalender wird nicht eingelesen. |
 | Evangelische Gemeinde Bergdörfer | Alle veröffentlichten Termin-Kacheln mit numerischer Detail-ID, Datum, Uhrzeit und ausdrücklich genanntem Ortsteil/Veranstaltungsort. |
-| Gemeinde Karlsbad | Öffentliches iCalendar-Abo. Da DTSTART dort als Datum und nicht als Uhrzeit ausgegeben wird, stammen Uhrzeiten nur aus einer ausdrücklich genannten „ab/um HH:MM Uhr“-Angabe im Titel. |
-| Gemeinde Königsbach-Stein | Alle Einträge der vollständigen vierseitigen Gemeindeliste. Die Karten enthalten keine stabilen Detail-IDs; die Importidentität folgt Titel, Datum, Zeit, Ort und Veranstalter. |
+| Gemeinde Karlsbad | Öffentliches iCalendar-Abo. Bei reinen Datumsangaben bleibt die Uhrzeit offen, sofern der Titel keine ausdrückliche Startzeit nennt. Absagen und Terminänderungen werden über dieselbe UID zugeordnet. |
+| Gemeinde Königsbach-Stein | Alle veröffentlichten Seiten der Gemeindeliste. Die Karten enthalten keine stabilen Detail-IDs. Die Importidentität folgt Titel, Datum, Zeit, Ort und Veranstalter und kann sich bei einer Änderung dieser Felder ändern. |
 
 Aktuelle Zahlen und Abdeckungszeiträume stehen in `dist/events.json` und nach
 einem Lauf in `.etl/summary.md`. Die Quellenzahlen enthalten Überschneidungen.
@@ -89,14 +88,17 @@ Originalquellen bleiben bei jedem Termin sichtbar.
 | --- | --- |
 | vhs Karlsruhe · „Raus ins Freie“ | Die aktuelle Kursliste lädt weitere Einträge über eine JavaScript-Schaltfläche. Der öffentliche Seitenabruf ließ die vollständige Folgeseite nicht reproduzierbar abrufen; der Einmalimport einzelner sichtbarer Kurse wäre unvollständig. |
 | Freundeskreis Badisches Malerdorf / Galerie N6 | Die WordPress-Seite mischt Ankündigungen, Ausstellungslaufzeiten, Rückblicke und noch kommende Begleitveranstaltungen innerhalb desselben Beitrags. Ohne maschinenlesbare Ereignisgrenzen würden Rückblicke wieder als Termine erscheinen. |
+| AWO Ortsverein Grötzingen | Die datierten Treffen und Ferienausnahmen stehen in redaktionellem Freitext. Schon kleine Änderungen am Wortlaut ließen den Import ausfallen oder eine ausdrücklich abgesagte Veranstaltung als geplant erscheinen. |
 | NABU Karlsruhe | Die verlinkte zentrale Terminübersicht war aus der Veranstalterseite nicht als öffentlicher Feed oder Veranstaltungsliste erreichbar. Das Halbjahresprogramm wird als PDF veröffentlicht; ein Dauerimport bräuchte wiederkehrende PDF/OCR-Auswertung und manuelle Kontrolle. |
 | NAJU Karlsruhe | Das Kinder- und Jugendprogramm ist Freitext, der auf derselben Seite mit Rückblicken vermischt ist. Ein Teil der aktuellen Einträge war beim Abruf bereits abgelaufen und für kommende Termine ist der konkrete Treffpunkt nicht je Veranstaltung ausgewiesen. |
 
-Die täglichen HTML-Quellen mit `refreshHours: 24` werden bei einem sechsstündlichen
-Produktionslauf übersprungen, solange ihr letzter erfolgreicher Stand jünger als
-24 Stunden ist. Fehlerhafte oder unvollständige Quellen werden beim nächsten
-Lauf erneut versucht. Der Karlsruher RSS-Feed bleibt im bestehenden sechsstündlichen
-Rhythmus; die zusätzliche Bibliotheksliste wird höchstens einmal täglich geladen.
+Die ergänzenden Quellen werden im sechsstündlichen Produktionsworkflow täglich
+abgerufen. Bei einem Fehler versucht der nächste Lauf den Abruf erneut. Der
+Karlsruher RSS-Feed bleibt im sechsstündlichen Rhythmus und führt den Abrufstatus
+der Bibliotheksliste getrennt. Ein bestätigter Leerstand ersetzt den vorherigen
+Bestand. Ein fehlender oder ungültiger Abruf behält den letzten gültigen Bestand
+und erscheint im Laufbericht. Die Ergänzungen erzeugen dabei keine zugewiesenen
+Abruf- oder Ortsprüfissues. Unsichere Orte bleiben ohne Kartenpunkt sichtbar.
 
 ## Verhalten bei Fehlern und Änderungen
 

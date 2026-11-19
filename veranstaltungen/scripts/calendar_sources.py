@@ -7,12 +7,13 @@ import re
 import unicodedata
 from zoneinfo import ZoneInfo
 
+PUBLISHER_SOURCE_IDS=('naturtreff-groetzingen','vhs-karlsruhe-land-pfinztal',
+                      'vhs-karlsruhe-land-weingarten','vhs-karlsruhe-land-walzbachtal',
+                      'hagsfeld','stutensee','bergdoerfer','karlsbad','koenigsbach-stein')
 LOCAL_SOURCE_IDS=('durlach','weingarten','pfinztal','pfinztal-vereine','remchingen',
                   'kulturhalle-remchingen','eki-groetzingen','pfinztal-haus-begegnungen',
                   'naturfreunde-berghausen','naturfreunde-soellingen','naturfreunde-groetzingen','walzbachtal',
-                  'waldpaedagogik-karlsruhe','naturtreff-groetzingen',
-                  'vhs-karlsruhe-land-pfinztal','vhs-karlsruhe-land-weingarten','vhs-karlsruhe-land-walzbachtal',
-                  'awo-groetzingen','hagsfeld','stutensee','bergdoerfer','karlsbad','koenigsbach-stein')
+                  'waldpaedagogik-karlsruhe',*PUBLISHER_SOURCE_IDS)
 
 def normalized(text):
     text=unicodedata.normalize('NFKD',(text or '').replace('ß','ss')).encode('ascii','ignore').decode().lower()

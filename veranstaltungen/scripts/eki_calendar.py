@@ -69,7 +69,7 @@ def parse_listing(raw, *, allow_pagination=False):
     return records
 
 
-def pagination(raw):
+def pagination(raw, url=URL):
     tree=html.fromstring(raw.decode('utf-8') if isinstance(raw,bytes) else raw)
     pagers=tree.xpath('//*['+has_class('termine-pager')+']')
     if not pagers:return None
@@ -84,9 +84,9 @@ def pagination(raw):
     if not 1 <= start <= end <= total <= 10_000:
         raise ValueError('EKI: ungültiger Paginierungsumfang')
     pages={};keys=set();active=[]
-    origin=urlsplit(URL)
+    origin=urlsplit(url)
     for link in links:
-        target=urlsplit(urljoin(URL,link.get('href')))
+        target=urlsplit(urljoin(url,link.get('href')))
         # The CMS advertises the same calendar both with and without its final
         # slash. Accept those exact two paths, never prefixes or other routes.
         if ((target.scheme,target.netloc)!=(origin.scheme,origin.netloc)
@@ -99,7 +99,8 @@ def pagination(raw):
         if number>100:raise ValueError('EKI: zu viele Ergebnisseiten')
         keys.add(key)
         pages[number]=urlunsplit((origin.scheme,origin.netloc,origin.path,target.query,''))
-        if link.get('aria-current')=='page':active.append(number)
+        if link.get('aria-current')=='page' or 'pager-active-page' in (link.get('class') or '').split():
+            active.append(number)
     if links and (len(keys)!=1 or len(active)!=1):
         raise ValueError('EKI: Paginierungskennung oder aktive Seite ist mehrdeutig')
     if not links and (start!=1 or end!=total):
@@ -108,10 +109,9 @@ def pagination(raw):
             'key':next(iter(keys),None),'current':active[0] if active else 1}
 
 
-def fetch_records(fetch):
-    first=fetch(URL)
-    info=pagination(first)
-    first_records=parse_listing(first,allow_pagination=True)
+def fetch_listing_pages(first, fetch, url, parse_page):
+    info=pagination(first,url)
+    first_records=parse_page(first)
     pages={1:first_records}
     if info:
         size=info['end']
@@ -132,19 +132,24 @@ def fetch_records(fetch):
         while pending:
             number=min(pending)
             raw=fetch(pending.pop(number))
-            records=parse_listing(raw,allow_pagination=True)
-            page=pagination(raw)
+            records=parse_page(raw)
+            page=pagination(raw,url)
             pages[number]=records
             inspect(page,number,records)
         if set(pages)!=set(range(1,count+1)):
             raise ValueError('EKI: nicht alle Ergebnisseiten sind verlinkt oder erreichbar')
-    records=[record for number in sorted(pages) for record in pages[number]]
+    return [record for number in sorted(pages) for record in pages[number]],len(pages)
+
+
+def fetch_records(fetch):
+    records,pages_fetched=fetch_listing_pages(fetch(URL),fetch,URL,
+                                             lambda raw:parse_listing(raw,allow_pagination=True))
     identities=[(r['recordId'],r['startDate'],r['startTime']) for r in records]
     if len(identities)!=len(set(identities)):
         raise ValueError('EKI: doppelte Termine über mehrere Ergebnisseiten')
-    metadata={'coverageKind':'html-list','pagesFetched':len(pages),'refreshHours':24,
+    metadata={'coverageKind':'html-list','pagesFetched':pages_fetched,'refreshHours':24,
         'coverageStart':min(r['startDate'] for r in records),
         'coverageEnd':max(r['endDate'] for r in records),
-        'coverageNote':f'Alle {len(records)} ausdrücklich datierten Einträge von {len(pages)} veröffentlichten Ergebnisseiten. Keine selbst erzeugten Wiederholungen; Orte nur soweit ausdrücklich erkennbar.',
+        'coverageNote':f'Alle {len(records)} ausdrücklich datierten Einträge von {pages_fetched} veröffentlichten Ergebnisseiten. Keine selbst erzeugten Wiederholungen; Orte nur soweit ausdrücklich erkennbar.',
         'extractionMethod':'deterministic-html','llmRequired':False}
     return records,metadata
