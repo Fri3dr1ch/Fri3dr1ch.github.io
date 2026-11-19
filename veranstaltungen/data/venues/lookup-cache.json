@@ -17851,6 +17851,390 @@
           "houseNumber": "13-17"
         }
       ]
+    },
+    "Walzbachtal-Jöhlingen, Neue Schule, Raum 206, Jöhlingen": {
+      "checkedAt": "2026-11-19T13:46:26+00:00",
+      "places": []
+    },
+    "Schultheiß-Kiefer-Straße 6, Grötzingen": {
+      "checkedAt": "2026-11-19T13:46:26+00:00",
+      "places": [
+        {
+          "id": "osm-way-151363703",
+          "name": "Heimatfreunde Grötzingen",
+          "latitude": 49.0077223,
+          "longitude": 8.4963967,
+          "address": "Schultheiß-Kiefer-Straße 6, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151363703",
+          "category": "club",
+          "type": "history",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Schultheiß-Kiefer-Straße",
+          "houseNumber": "6"
+        }
+      ]
+    },
+    "Karl straße 10, Karlsruhe": {
+      "checkedAt": "2026-11-19T13:46:26+00:00",
+      "places": [
+        {
+          "id": "osm-relation-1333212",
+          "name": "Rathaus",
+          "latitude": 49.0085962,
+          "longitude": 8.4032425,
+          "address": "Karl-Friedrich-Straße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/1333212",
+          "category": "amenity",
+          "type": "townhall",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Karl-Friedrich-Straße",
+          "houseNumber": "10"
+        },
+        {
+          "id": "osm-way-344828738",
+          "name": "Karl-Flößer-Straße 10",
+          "latitude": 48.9842689,
+          "longitude": 8.3574024,
+          "address": "Karl-Flößer-Straße 10, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/344828738",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Oberreut",
+          "locality": "Waldlage",
+          "street": "Karl-Flößer-Straße",
+          "houseNumber": "10"
+        },
+        {
+          "id": "osm-way-109730525",
+          "name": "Karl-Wilhelm-Straße 10",
+          "latitude": 49.0101927,
+          "longitude": 8.4208276,
+          "address": "Karl-Wilhelm-Straße 10, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/109730525",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Westlicher Teil",
+          "street": "Karl-Wilhelm-Straße",
+          "houseNumber": "10"
+        },
+        {
+          "id": "osm-way-238292031",
+          "name": "Karl-Schrempp-Straße 10",
+          "latitude": 49.0183155,
+          "longitude": 8.3832036,
+          "address": "Karl-Schrempp-Straße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/238292031",
+          "category": "building",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Nordstadt",
+          "locality": "Hardtwaldsiedlung",
+          "street": "Karl-Schrempp-Straße",
+          "houseNumber": "10"
+        },
+        {
+          "id": "osm-way-151387813",
+          "name": "Karl-Leopold-Straße 10",
+          "latitude": 49.0108248,
+          "longitude": 8.4942782,
+          "address": "Karl-Leopold-Straße 10, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151387813",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Karl-Leopold-Straße",
+          "houseNumber": "10"
+        }
+      ]
+    },
+    "Naturfreundehaus Obermühle, Durlach": {
+      "checkedAt": "2026-11-19T13:46:26+00:00",
+      "places": [
+        {
+          "id": "osm-node-4450190383",
+          "name": "Naturfreundehaus Obermühle",
+          "latitude": 49.003248,
+          "longitude": 8.4783631,
+          "address": "Alte Weingartener Straße 37, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4450190383",
+          "category": "club",
+          "type": "nature",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Alte Weingartener Straße",
+          "houseNumber": "37"
+        }
+      ]
+    },
+    "Linkenheimer Land straße 133 A, Karlsruhe": {
+      "checkedAt": "2026-11-19T13:46:26+00:00",
+      "places": [
+        {
+          "id": "osm-way-112976844",
+          "name": "Linkenheimer Landstraße 133a",
+          "latitude": 49.0454088,
+          "longitude": 8.39044,
+          "address": "Linkenheimer Landstraße 133a, 76149 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/112976844",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Neureut",
+          "locality": "Neureut Nördlicher Teil",
+          "street": "Linkenheimer Landstraße",
+          "houseNumber": "133a"
+        },
+        {
+          "id": "osm-node-9248250149",
+          "name": "Ev. Brunhilde-Baur-Kindertagesstätte",
+          "latitude": 49.0457597,
+          "longitude": 8.3908926,
+          "address": "Linkenheimer Landstraße 133a, 76149 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/9248250149",
+          "category": "amenity",
+          "type": "kindergarten",
+          "city": "Karlsruhe",
+          "district": "Neureut",
+          "locality": "Neureut Nördlicher Teil",
+          "street": "Linkenheimer Landstraße",
+          "houseNumber": "133a"
+        },
+        {
+          "id": "osm-node-9248268966",
+          "name": "Linkenheimer Landstraße 133a",
+          "latitude": 49.0455663,
+          "longitude": 8.3910374,
+          "address": "Linkenheimer Landstraße 133a, 76149 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/9248268966",
+          "category": "amenity",
+          "type": "social_facility",
+          "city": "Karlsruhe",
+          "district": "Neureut",
+          "locality": "Neureut Nördlicher Teil",
+          "street": "Linkenheimer Landstraße",
+          "houseNumber": "133a"
+        },
+        {
+          "id": "osm-node-9248250150",
+          "name": "Kinder- und Familienzentrum",
+          "latitude": 49.045474,
+          "longitude": 8.3904849,
+          "address": "Linkenheimer Landstraße 133a, 76149 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/9248250150",
+          "category": "amenity",
+          "type": "community_centre",
+          "city": "Karlsruhe",
+          "district": "Neureut",
+          "locality": "Neureut Nördlicher Teil",
+          "street": "Linkenheimer Landstraße",
+          "houseNumber": "133a"
+        },
+        {
+          "id": "osm-node-9248250151",
+          "name": "Mehrgenerationenhaus Karlsruhe",
+          "latitude": 49.0454986,
+          "longitude": 8.3908255,
+          "address": "Linkenheimer Landstraße 133a, 76149 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/9248250151",
+          "category": "amenity",
+          "type": "social_facility",
+          "city": "Karlsruhe",
+          "district": "Neureut",
+          "locality": "Neureut Nördlicher Teil",
+          "street": "Linkenheimer Landstraße",
+          "houseNumber": "133a"
+        }
+      ]
+    },
+    "Lamm straße 13-17, Karlsruhe": {
+      "checkedAt": "2026-11-19T13:46:26+00:00",
+      "places": [
+        {
+          "id": "osm-node-4225635194",
+          "name": "Industrie- und Handelskammer Karlsruhe",
+          "latitude": 49.0076959,
+          "longitude": 8.4018195,
+          "address": "Lammstraße 13-17, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4225635194",
+          "category": "office",
+          "type": "chamber",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Lammstraße",
+          "houseNumber": "13-17"
+        }
+      ]
+    },
+    "Karlsruhe Hbf, Karlsruhe": {
+      "checkedAt": "2026-11-19T13:46:26+00:00",
+      "places": [
+        {
+          "id": "osm-node-2958859135",
+          "name": "Karlsruhe-Durlach",
+          "latitude": 49.0021033,
+          "longitude": 8.4623351,
+          "address": "76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/2958859135",
+          "category": "railway",
+          "type": "stop",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-2288130419",
+          "name": "Karlsruhe-Durlach",
+          "latitude": 49.0020232,
+          "longitude": 8.4624774,
+          "address": "Hauptbahnstraße, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/2288130419",
+          "category": "railway",
+          "type": "stop",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Hauptbahnstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-4040952278",
+          "name": "Karlsruhe-Durlach",
+          "latitude": 49.0021672,
+          "longitude": 8.4629473,
+          "address": "Hauptbahnstraße, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4040952278",
+          "category": "railway",
+          "type": "stop",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Hauptbahnstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-333303132",
+          "name": "Karlsruhe-Durlach",
+          "latitude": 49.0021473,
+          "longitude": 8.4623168,
+          "address": "76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/333303132",
+          "category": "railway",
+          "type": "stop",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-2958859136",
+          "name": "Karlsruhe-Durlach",
+          "latitude": 49.0020956,
+          "longitude": 8.4622543,
+          "address": "76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/2958859136",
+          "category": "railway",
+          "type": "station",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Herrenstraße 7, Karlsruhe": {
+      "checkedAt": "2026-11-19T13:46:26+00:00",
+      "places": [
+        {
+          "id": "osm-node-3491408437",
+          "name": "Gravity Venue - Black Sheep Club",
+          "latitude": 49.0107292,
+          "longitude": 8.4007469,
+          "address": "Herrenstraße 7, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3491408437",
+          "category": "amenity",
+          "type": "events_venue",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Herrenstraße",
+          "houseNumber": "7"
+        },
+        {
+          "id": "osm-way-497870890",
+          "name": "Herrenstraße",
+          "latitude": 49.008287,
+          "longitude": 8.3976817,
+          "address": "76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/497870890",
+          "category": "highway",
+          "type": "residential",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-378166406",
+          "name": "Herrenstraße",
+          "latitude": 49.010133,
+          "longitude": 8.3998661,
+          "address": "76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/378166406",
+          "category": "highway",
+          "type": "pedestrian",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-531785377",
+          "name": "Herrenstraße",
+          "latitude": 49.0111703,
+          "longitude": 8.4011042,
+          "address": "76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/531785377",
+          "category": "highway",
+          "type": "secondary",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-4622541509",
+          "name": "Team 7",
+          "latitude": 49.0090878,
+          "longitude": 8.3984328,
+          "address": "Herrenstraße 26, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4622541509",
+          "category": "shop",
+          "type": "furniture",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Herrenstraße",
+          "houseNumber": "26"
+        }
+      ]
     }
   },
   "attribution": {

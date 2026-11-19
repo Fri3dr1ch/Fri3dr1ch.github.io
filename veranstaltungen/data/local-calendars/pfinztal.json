@@ -5,8 +5,8 @@
     "region": "Pfinztal",
     "url": "https://pfinztal.de/aktuelles-blog/termine-und-veranstaltungen/",
     "status": "ok",
-    "lastAttemptAt": "2026-11-19T07:32:31+00:00",
-    "lastSuccessAt": "2026-11-19T07:32:31+00:00",
+    "lastAttemptAt": "2026-11-19T13:44:59+00:00",
+    "lastSuccessAt": "2026-11-19T13:44:59+00:00",
     "refreshHours": 24,
     "recordCount": 3,
     "eventCount": 3,
@@ -49,7 +49,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:31+00:00",
+      "detailCheckedAt": "2026-11-19T13:44:59+00:00",
       "sources": [
         {
           "url": "https://pfinztal.de/events/wintergeheimnis-mit-maerchenerzaehlerin-jutta-scherzinger/",
@@ -61,10 +61,12 @@
           "endTime": "21:00",
           "dateText": "19.11.2026",
           "timeText": "19:00 - 21:00(GMT+01:00)",
+          "location": "Bürgerhaus Söllingen, Hauptstr. 57",
+          "organizer": "",
           "sourceId": "pfinztal",
           "sourceName": "Pfinztal · Gemeindetermine",
           "reportedTitle": "Wintergeheimnis mit Märchenerzählerin Jutta Scherzinger",
-          "checkedAt": "2026-11-19T07:32:31+00:00",
+          "checkedAt": "2026-11-19T13:44:59+00:00",
           "priority": 2
         }
       ],
@@ -99,7 +101,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:31+00:00",
+      "detailCheckedAt": "2026-11-19T13:44:59+00:00",
       "sources": [
         {
           "url": "https://pfinztal.de/events/digital-unterwegs-und-sicher-im-alltag-informationsveranstaltung-fuer-seniorinnen-und-senioren/",
@@ -111,10 +113,12 @@
           "endTime": "18:00",
           "dateText": "26.11.2026",
           "timeText": "16:30 - 18:00(GMT+01:00)",
+          "location": "Pfarrsaal der Kath. Kirchengemeinde Wöschbach, Saldingerstr. 7",
+          "organizer": "",
           "sourceId": "pfinztal",
           "sourceName": "Pfinztal · Gemeindetermine",
           "reportedTitle": "Digital unterwegs und sicher im Alltag - Informationsveranstaltung für Seniorinnen und Senioren",
-          "checkedAt": "2026-11-19T07:32:31+00:00",
+          "checkedAt": "2026-11-19T13:44:59+00:00",
           "priority": 2
         }
       ],
@@ -149,7 +153,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:31+00:00",
+      "detailCheckedAt": "2026-11-19T13:44:59+00:00",
       "sources": [
         {
           "url": "https://pfinztal.de/events/pfinztaler-weihnachtsmarkt/",
@@ -161,10 +165,12 @@
           "endTime": "19:00",
           "dateText": "28.11.2026 bis 29.11.2026",
           "timeText": "15:00 - 19:00 (29)(GMT+01:00)",
+          "location": "Bildungszentrum Berghausen, Schlossgartenstr. 11, 76327 Pfinztal",
+          "organizer": "",
           "sourceId": "pfinztal",
           "sourceName": "Pfinztal · Gemeindetermine",
           "reportedTitle": "Pfinztaler Weihnachtsmarkt",
-          "checkedAt": "2026-11-19T07:32:31+00:00",
+          "checkedAt": "2026-11-19T13:44:59+00:00",
           "priority": 2
         }
       ],

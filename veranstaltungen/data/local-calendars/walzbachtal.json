@@ -5,17 +5,17 @@
     "region": "Walzbachtal",
     "url": "https://www.walzbachtal.de/veranstaltung",
     "status": "ok",
-    "lastAttemptAt": "2026-11-19T07:32:48+00:00",
-    "lastSuccessAt": "2026-11-19T07:32:48+00:00",
+    "lastAttemptAt": "2026-11-19T13:45:24+00:00",
+    "lastSuccessAt": "2026-11-19T13:45:24+00:00",
     "refreshHours": 24,
-    "recordCount": 207,
-    "eventCount": 207,
+    "recordCount": 208,
+    "eventCount": 208,
     "undatedCount": 0,
     "coverageKind": "public-json-html",
     "license": null,
     "allowEmpty": true,
     "pagesFetched": 2,
-    "publishedOccurrenceCount": 207,
+    "publishedOccurrenceCount": 208,
     "requestedFrom": "2026-11-01",
     "extractionMethod": "deterministic-public-calendar",
     "llmRequired": false,
@@ -53,7 +53,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Offener-Stammtisch-Treff-60-event-appointment5546",
@@ -65,10 +65,12 @@
           "endTime": "17:00",
           "dateText": "Mittwoch04. November",
           "timeText": "15:00 Uhr - 17:00 Uhr",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Offener Stammtisch-Treff 60+",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -103,7 +105,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Roemer-am-Oberrhein-Villen-und-Wohnkultur-event-appointment5448",
@@ -115,10 +117,12 @@
           "endTime": "20:30",
           "dateText": "Montag09. November",
           "timeText": "19:00 Uhr - 20:30 Uhr",
+          "location": "",
+          "organizer": "Heimat- und Kulturverein Walzbachtal e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "\"Römer am Oberrhein - Villen und Wohnkultur\"",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -153,7 +157,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Gemeinschaftskonzert-am-Volkstrauertag-event-appointment4815",
@@ -165,10 +169,12 @@
           "endTime": "19:00",
           "dateText": "Sonntag15. November",
           "timeText": "17:00 Uhr - 19:00 Uhr",
+          "location": "Aussegnungshalle Jöhlingen, Walzbachtal",
+          "organizer": "Gemeinde Walzbachtal - Rathaus",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Gemeinschaftskonzert am Volkstrauertag",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -203,7 +209,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Mittagstisch-im-Buergertreff-Joehlingen-event-appointment4661",
@@ -215,10 +221,12 @@
           "endTime": "13:30",
           "dateText": "Heute19. November",
           "timeText": "12:00 Uhr - 13:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Mittagstisch im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -253,7 +261,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Line-Dance-Party-event-appointment4795",
@@ -265,10 +273,12 @@
           "endTime": null,
           "dateText": "Samstag21. November",
           "timeText": "ganztägig",
+          "location": "Jahnhalle Jöhlingen, Walzbachtal",
+          "organizer": "TSV Jöhlingen 1890 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Line Dance Party",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -303,7 +313,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Reparaturtreff-im-Buergertreff-Joehlingen-event-appointment4649",
@@ -315,10 +325,12 @@
           "endTime": "13:00",
           "dateText": "Samstag21. November",
           "timeText": "10:00 Uhr - 13:00 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Reparaturtreff im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -353,7 +365,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Rostbratenfest-event-appointment5794",
@@ -365,10 +377,12 @@
           "endTime": "17:59",
           "dateText": "Samstag21. November",
           "timeText": "12:00 Uhr - 17:59 Uhr",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Rostbratenfest",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -403,7 +417,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Cafeteria-im-Kronengarten-event-appointment5417",
@@ -415,10 +429,12 @@
           "endTime": null,
           "dateText": "Sonntag22. November",
           "timeText": "14:30 Uhr",
+          "location": "Seniorenzentrum \"Im Kronengarten\", Walzbachtal",
+          "organizer": "christlicher Krankenpflegeverein Wössingen e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Cafeteria im Kronengarten",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -453,7 +469,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Maultaschen-Kuerbissuppen-Essen-event-appointment6144",
@@ -465,10 +481,12 @@
           "endTime": "14:00",
           "dateText": "Dienstag24. November",
           "timeText": "12:00 Uhr - 14:00 Uhr",
+          "location": "Wössinger Hof, Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Maultaschen- & Kürbissuppen-Essen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -503,7 +521,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Walzbachtaler-Weihnachtsmarkt-Rund-um-den-Speyerer-Hof-event-appointment4812",
@@ -515,10 +533,12 @@
           "endTime": "22:00",
           "dateText": "Samstag28. November",
           "timeText": "16:00 Uhr - 22:00 Uhr",
+          "location": "Kirchplatz Jöhlingen , Walzbachtal",
+          "organizer": "Gemeinde Walzbachtal",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Walzbachtaler Weihnachtsmarkt - Rund um den Speyerer Hof",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -553,7 +573,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Walzbachtaler-Weihnachtsmarkt-Rund-um-den-Speyerer-Hof-event-appointment4813",
@@ -565,10 +585,12 @@
           "endTime": "20:00",
           "dateText": "Sonntag29. November",
           "timeText": "13:00 Uhr - 20:00 Uhr",
+          "location": "Kirchplatz Jöhlingen , Walzbachtal",
+          "organizer": "Gemeinde Walzbachtal",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Walzbachtaler Weihnachtsmarkt - Rund um den Speyerer Hof",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -603,7 +625,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Trauercafe-im-Buergertreff-Joehlingen-event-appointment4630",
@@ -615,10 +637,12 @@
           "endTime": "16:30",
           "dateText": "Sonntag29. November",
           "timeText": "15:00 Uhr - 16:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Trauercafé im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -653,7 +677,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Offener-Stammtisch-Treff-60-event-appointment5547",
@@ -665,10 +689,12 @@
           "endTime": "17:00",
           "dateText": "Mittwoch02. Dezember",
           "timeText": "15:00 Uhr - 17:00 Uhr",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Offener Stammtisch-Treff 60+",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -703,7 +729,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Nikolausfeier-event-appointment5258",
@@ -715,10 +741,12 @@
           "endTime": "17:00",
           "dateText": "Samstag05. Dezember",
           "timeText": "14:00 Uhr - 17:00 Uhr",
+          "location": "Böhnlichhalle, Walzbachtal",
+          "organizer": "Freie Gymnastikgruppe Walzbachtal e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Nikolausfeier",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -753,7 +781,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Nikolaus-Lichterfahrt-2026-event-appointment4531",
@@ -765,10 +793,12 @@
           "endTime": "22:00",
           "dateText": "Samstag05. Dezember",
           "timeText": "17:00 Uhr - 22:00 Uhr",
+          "location": "Rathausplatz, Walzbachtal",
+          "organizer": "Bulldog-Oldtimer-Team Wössingen e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Nikolaus Lichterfahrt 2026",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -803,7 +833,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Weihnachtsfeier-des-TSV-Joehlingen-event-appointment4582",
@@ -815,10 +845,12 @@
           "endTime": "17:00",
           "dateText": "Sonntag06. Dezember",
           "timeText": "14:30 Uhr - 17:00 Uhr",
+          "location": "Jahnhalle Jöhlingen, Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Weihnachtsfeier des TSV Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -853,7 +885,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Adventslesung-event-appointment4459",
@@ -865,10 +897,12 @@
           "endTime": "17:00",
           "dateText": "Sonntag06. Dezember",
           "timeText": "15:00 Uhr - 17:00 Uhr",
+          "location": "",
+          "organizer": "Heimat- und Kulturverein Walzbachtal e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Adventslesung",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -903,7 +937,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Genussmarkt-Woessingen-event-appointment4568",
@@ -915,10 +949,64 @@
           "endTime": "19:00",
           "dateText": "Montag07. Dezember",
           "timeText": "15:30 Uhr - 19:00 Uhr",
+          "location": "Rathausplatz, Walzbachtal",
+          "organizer": "Gemeinde Walzbachtal - Rathaus",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Genussmarkt Wössingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
+          "priority": 2
+        }
+      ],
+      "conflicts": []
+    },
+    {
+      "id": "walzbachtal-6189-2026-12-07-1530",
+      "sourceId": "walzbachtal",
+      "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
+      "title": "3. Wössinger Adventsmarkt",
+      "url": "https://www.walzbachtal.de/veranstaltung/3-Woessinger-Adventsmarkt-event-appointment6189",
+      "icalUrl": null,
+      "region": "Walzbachtal",
+      "city": null,
+      "categoryKey": "stadtleben",
+      "category": "Stadtleben",
+      "description": "Veranstalter: Gemeinde Walzbachtal - Rathaus",
+      "organizer": "Gemeinde Walzbachtal - Rathaus",
+      "location": "Wössinger Hof, Walzbachtal",
+      "start": "2026-12-07T15:30:00+01:00",
+      "end": "2026-12-07T18:30:00+01:00",
+      "startDate": "2026-12-07",
+      "endDate": "2026-12-07",
+      "startTime": "15:30",
+      "endTime": "18:30",
+      "timeKnown": true,
+      "allDay": false,
+      "longRunning": false,
+      "scheduleNote": "",
+      "openingSchedule": null,
+      "openingOccurrences": null,
+      "status": "scheduled",
+      "dataQuality": "html-calendar",
+      "availability": null,
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
+      "sources": [
+        {
+          "url": "https://www.walzbachtal.de/veranstaltung/3-Woessinger-Adventsmarkt-event-appointment6189",
+          "recordId": "6189",
+          "title": "3. Wössinger Adventsmarkt",
+          "startDate": "2026-12-07",
+          "endDate": "2026-12-07",
+          "startTime": "15:30",
+          "endTime": "18:30",
+          "dateText": "Montag07. Dezember",
+          "timeText": "15:30 Uhr - 18:30 Uhr",
+          "location": "Wössinger Hof, Walzbachtal",
+          "organizer": "Gemeinde Walzbachtal - Rathaus",
+          "sourceId": "walzbachtal",
+          "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
+          "reportedTitle": "3. Wössinger Adventsmarkt",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -953,7 +1041,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Spieleabend-mit-Walzbachtal-Hilft-event-appointment4555",
@@ -965,10 +1053,12 @@
           "endTime": "20:00",
           "dateText": "Donnerstag10. Dezember",
           "timeText": "18:00 Uhr - 20:00 Uhr",
+          "location": "JuZe Walzbachtal, Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Spieleabend mit Walzbachtal Hilft!",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -1003,7 +1093,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Theaterabende-event-appointment4762",
@@ -1015,10 +1105,12 @@
           "endTime": null,
           "dateText": "Freitag11. Dezember",
           "timeText": "19:30 Uhr",
+          "location": "Martinussaal Jöhlingen , Walzbachtal",
+          "organizer": "FC Viktoria Jöhlingen 1911 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Theaterabende",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -1053,7 +1145,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/FV04-Jugendweihnachtsmarkt-event-appointment4495",
@@ -1065,10 +1157,12 @@
           "endTime": "18:00",
           "dateText": "Samstag12. Dezember",
           "timeText": "14:00 Uhr - 18:00 Uhr",
+          "location": "",
+          "organizer": "FV04 Wössingen e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "FV04 Jugendweihnachtsmarkt",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -1103,7 +1197,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Theaterabende-event-appointment4763",
@@ -1115,10 +1209,12 @@
           "endTime": null,
           "dateText": "Samstag12. Dezember",
           "timeText": "19:30 Uhr",
+          "location": "Martinussaal Jöhlingen , Walzbachtal",
+          "organizer": "FC Viktoria Jöhlingen 1911 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Theaterabende",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -1153,7 +1249,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Weihnachtsfeier-Gesangverein-Frohsinn-event-appointment4605",
@@ -1165,10 +1261,12 @@
           "endTime": "18:00",
           "dateText": "Sonntag13. Dezember",
           "timeText": "15:00 Uhr - 18:00 Uhr",
+          "location": "Lammsaal Jöhlingen , Walzbachtal",
+          "organizer": "Gesangverein Frohsinn 1868 Jöhlingen e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Weihnachtsfeier Gesangverein Frohsinn",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -1203,7 +1301,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Theatercafe-event-appointment4765",
@@ -1215,10 +1313,12 @@
           "endTime": "19:00",
           "dateText": "Sonntag13. Dezember",
           "timeText": "15:00 Uhr - 19:00 Uhr",
+          "location": "Martinussaal Jöhlingen , Walzbachtal",
+          "organizer": "FC Viktoria Jöhlingen 1911 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Theatercafe",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -1253,7 +1353,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Mittagstisch-im-Buergertreff-Joehlingen-event-appointment4662",
@@ -1265,10 +1365,12 @@
           "endTime": "13:30",
           "dateText": "Donnerstag17. Dezember",
           "timeText": "12:00 Uhr - 13:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Mittagstisch im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -1303,7 +1405,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Weihnachtliche-Klaenge-auf-dem-Neuen-Friedhof-Joehlingen-event-appointment4614",
@@ -1315,10 +1417,12 @@
           "endTime": "16:45",
           "dateText": "Donnerstag24. Dezember",
           "timeText": "16:15 Uhr - 16:45 Uhr",
+          "location": "Neuer Friedhof Jöhlingen, Walzbachtal-Jöhlingen",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Weihnachtliche Klänge auf dem Neuen Friedhof Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -1353,7 +1457,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Sonntagscafe-im-Buergertreff-Joehlingen-event-appointment6015",
@@ -1365,10 +1469,12 @@
           "endTime": "17:00",
           "dateText": "Sonntag03. Januar",
           "timeText": "14:00 Uhr - 17:00 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Sonntagscafé im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -1403,7 +1509,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Sternsingeraktion-event-appointment5862",
@@ -1415,10 +1521,12 @@
           "endTime": null,
           "dateText": "Mittwoch06. Januar",
           "timeText": "ganztägig",
+          "location": "Kath. Kirche St. Martin Jöhlingen, Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Sternsingeraktion",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -1453,7 +1561,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Narrenbaumstellen-event-appointment5890",
@@ -1465,10 +1573,12 @@
           "endTime": null,
           "dateText": "Samstag09. Januar",
           "timeText": "14:11 Uhr",
+          "location": "Rathausplatz, Walzbachtal",
+          "organizer": "TV Wössingen 1896 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Narrenbaumstellen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -1503,7 +1613,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Neujahrsempfang-TSV-Joehlingen-event-appointment6048",
@@ -1515,10 +1625,12 @@
           "endTime": "12:30",
           "dateText": "Sonntag10. Januar",
           "timeText": "10:30 Uhr - 12:30 Uhr",
+          "location": "Jahnhalle Jöhlingen, Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Neujahrsempfang TSV Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -1553,7 +1665,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Narrenkappe-stellen-Elferrat-d-Kreizkepf-event-appointment6050",
@@ -1565,10 +1677,12 @@
           "endTime": null,
           "dateText": "Sonntag10. Januar",
           "timeText": "15:11 Uhr",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Narrenkappe stellen Elferrat d'Kreizkepf",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -1603,7 +1717,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Frohsinn-Fasching-event-appointment6110",
@@ -1615,10 +1729,12 @@
           "endTime": null,
           "dateText": "Samstag16. Januar",
           "timeText": "19:31 Uhr",
+          "location": "Martinussaal Jöhlingen , Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Frohsinn-Fasching",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -1653,7 +1769,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Koronare-Herzkrankheit-und-Herzinfarkt-event-appointment5612",
@@ -1665,10 +1781,12 @@
           "endTime": "21:00",
           "dateText": "Mittwoch20. Januar",
           "timeText": "19:00 Uhr - 21:00 Uhr",
+          "location": "Martinussaal Jöhlingen , Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Koronare Herzkrankheit und Herzinfarkt",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -1703,7 +1821,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Mittagstisch-im-Buergertreff-Joehlingen-event-appointment5979",
@@ -1715,10 +1833,12 @@
           "endTime": "13:30",
           "dateText": "Donnerstag21. Januar",
           "timeText": "12:00 Uhr - 13:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Mittagstisch im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -1753,7 +1873,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Reparaturtreff-im-Buergertreff-Joehlingen-event-appointment5992",
@@ -1765,10 +1885,12 @@
           "endTime": "13:00",
           "dateText": "Samstag23. Januar",
           "timeText": "10:00 Uhr - 13:00 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Reparaturtreff im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -1803,7 +1925,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Gluehweinfest-OGV-Woessingen-in-Kooperation-mit-der-Gemeinde-event-appointment3487",
@@ -1815,10 +1937,12 @@
           "endTime": "19:00",
           "dateText": "Sonntag24. Januar",
           "timeText": "11:30 Uhr - 19:00 Uhr",
+          "location": "Rathausplatz, Walzbachtal",
+          "organizer": "Gemeinde Walzbachtal - Rathaus",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Glühweinfest OGV Wössingen in Kooperation mit der Gemeinde",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -1853,7 +1977,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Trauercafe-im-Buergertreff-Joehlingen-event-appointment6004",
@@ -1865,10 +1989,12 @@
           "endTime": "16:30",
           "dateText": "Sonntag24. Januar",
           "timeText": "15:00 Uhr - 16:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Trauercafé im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -1903,7 +2029,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Schuld-macht-Sinn-Schuldvorwuerfe-in-Trauerprozessen-neu-verstehen-event-appointment5509",
@@ -1915,10 +2041,12 @@
           "endTime": "22:00",
           "dateText": "Mittwoch27. Januar",
           "timeText": "19:00 Uhr - 22:00 Uhr",
+          "location": "Ev. Kirche Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Schuld macht Sinn! Schuldvorwürfe in Trauerprozessen neu verstehen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -1953,7 +2081,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Prunksitzung-des-TSV-Joehlingen-event-appointment6052",
@@ -1965,10 +2093,12 @@
           "endTime": null,
           "dateText": "Freitag29. Januar",
           "timeText": "20:11 Uhr",
+          "location": "Jahnhalle Jöhlingen, Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Prunksitzung des TSV Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -2003,7 +2133,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Prunksitzung-des-TSV-Joehlingen-event-appointment6053",
@@ -2015,10 +2145,12 @@
           "endTime": null,
           "dateText": "Samstag30. Januar",
           "timeText": "20:11 Uhr",
+          "location": "Jahnhalle Jöhlingen, Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Prunksitzung des TSV Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -2053,7 +2185,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Prunksitzung-des-TV-Woessingen-event-appointment5892",
@@ -2065,10 +2197,12 @@
           "endTime": null,
           "dateText": "Freitag05. Februar",
           "timeText": "19:11 Uhr",
+          "location": "Böhnlichhalle, Walzbachtal",
+          "organizer": "TV Wössingen 1896 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Prunksitzung des TV Wössingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -2103,7 +2237,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Prunksitzung-des-TV-Woessingen-event-appointment5893",
@@ -2115,10 +2249,12 @@
           "endTime": null,
           "dateText": "Samstag06. Februar",
           "timeText": "19:11 Uhr",
+          "location": "Böhnlichhalle, Walzbachtal",
+          "organizer": "TV Wössingen 1896 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Prunksitzung des TV Wössingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -2153,7 +2289,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Sonntagscafe-im-Buergertreff-Joehlingen-event-appointment6166",
@@ -2165,10 +2301,12 @@
           "endTime": "17:00",
           "dateText": "Sonntag07. Februar",
           "timeText": "14:00 Uhr - 17:00 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Sonntagscafé im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -2203,7 +2341,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Kinderfasching-des-TSV-Joehlingen-event-appointment6055",
@@ -2215,10 +2353,12 @@
           "endTime": "17:00",
           "dateText": "Sonntag07. Februar",
           "timeText": "14:31 Uhr - 17:00 Uhr",
+          "location": "Jahnhalle Jöhlingen, Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Kinderfasching des TSV Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -2253,7 +2393,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Kinderfasching-des-TV-Woessingen-event-appointment5895",
@@ -2265,10 +2405,12 @@
           "endTime": null,
           "dateText": "Sonntag07. Februar",
           "timeText": "15:11 Uhr",
+          "location": "Böhnlichhalle, Walzbachtal",
+          "organizer": "TV Wössingen 1896 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Kinderfasching des TV Wössingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -2303,7 +2445,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Informationsabend-Asiatische-Hornisse-event-appointment6171",
@@ -2315,10 +2457,12 @@
           "endTime": null,
           "dateText": "Dienstag16. Februar",
           "timeText": "19:00 Uhr",
+          "location": "Wössinger Hof, Walzbachtal",
+          "organizer": "Gemeinde Walzbachtal - Rathaus",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Informationsabend Asiatische Hornisse",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -2353,7 +2497,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Mittagstisch-im-Buergertreff-Joehlingen-event-appointment5980",
@@ -2365,10 +2509,12 @@
           "endTime": "13:30",
           "dateText": "Donnerstag18. Februar",
           "timeText": "12:00 Uhr - 13:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Mittagstisch im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -2403,7 +2549,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Blutspende-in-Joehlingen-event-appointment5783",
@@ -2415,10 +2561,12 @@
           "endTime": "19:30",
           "dateText": "Freitag19. Februar",
           "timeText": "14:30 Uhr - 19:30 Uhr",
+          "location": "Schulsporthalle Jöhlingen, Walzbachtal",
+          "organizer": "Deutsches Rotes Kreuz Ortsverein Jöhlingen (DRK)",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Blutspende in Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -2453,7 +2601,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Reparaturtreff-im-Buergertreff-Joehlingen-event-appointment5993",
@@ -2465,10 +2613,12 @@
           "endTime": "13:00",
           "dateText": "Samstag20. Februar",
           "timeText": "10:00 Uhr - 13:00 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Reparaturtreff im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -2503,7 +2653,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Jahreshauptversammlung-2027-event-appointment5804",
@@ -2515,10 +2665,12 @@
           "endTime": "22:00",
           "dateText": "Freitag26. Februar",
           "timeText": "19:00 Uhr - 22:00 Uhr",
+          "location": "Vereinsheim Bulldog und Oldtimer Team WÖ, Walzbachtal",
+          "organizer": "Bulldog-Oldtimer-Team Wössingen e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Jahreshauptversammlung 2027",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -2553,7 +2705,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Fastenessen-event-appointment5865",
@@ -2565,10 +2717,12 @@
           "endTime": null,
           "dateText": "Sonntag28. Februar",
           "timeText": "10:30 Uhr",
+          "location": "Kath. Kirche St. Martin Jöhlingen, Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Fastenessen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -2603,7 +2757,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Trauercafe-im-Buergertreff-Joehlingen-event-appointment6005",
@@ -2615,10 +2769,12 @@
           "endTime": "16:30",
           "dateText": "Sonntag28. Februar",
           "timeText": "15:00 Uhr - 16:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Trauercafé im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -2653,7 +2809,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Genussmarkt-Joehlingen-event-appointment5719",
@@ -2665,10 +2821,12 @@
           "endTime": "19:00",
           "dateText": "Montag01. März",
           "timeText": "15:30 Uhr - 19:00 Uhr",
+          "location": "Kirchplatz Jöhlingen , Walzbachtal",
+          "organizer": "Gemeinde Walzbachtal - Rathaus",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Genussmarkt Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -2703,7 +2861,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Psychische-Krisen-Wie-Sie-Warnsignale-erkennen-und-Hilfe-finden-koennen-event-appointment5590",
@@ -2715,10 +2873,12 @@
           "endTime": "21:00",
           "dateText": "Mittwoch03. März",
           "timeText": "19:00 Uhr - 21:00 Uhr",
+          "location": "Martinussaal Jöhlingen , Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Psychische Krisen – Wie Sie Warnsignale erkennen und Hilfe finden können",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -2753,7 +2913,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Oekumenischer-Weltgebetstag-der-Frauen-event-appointment5867",
@@ -2765,10 +2925,12 @@
           "endTime": "17:00",
           "dateText": "Freitag05. März",
           "timeText": "14:30 Uhr - 17:00 Uhr",
+          "location": "Ev. Kirche Wössingen , Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Ökumenischer Weltgebetstag der Frauen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -2803,7 +2965,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/FV04-Rostbratenfest-event-appointment5796",
@@ -2815,10 +2977,12 @@
           "endTime": "17:59",
           "dateText": "Samstag06. März",
           "timeText": "12:00 Uhr - 17:59 Uhr",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "FV04 Rostbratenfest",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -2853,7 +3017,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Sonntagscafe-im-Buergertreff-Joehlingen-event-appointment6017",
@@ -2865,10 +3029,12 @@
           "endTime": "17:00",
           "dateText": "Sonntag07. März",
           "timeText": "14:00 Uhr - 17:00 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Sonntagscafé im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -2903,7 +3069,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Buergerinformationsveranstaltung-zur-Biotopverbundplanung-event-appointment6173",
@@ -2915,10 +3081,12 @@
           "endTime": "21:00",
           "dateText": "Mittwoch10. März",
           "timeText": "19:00 Uhr - 21:00 Uhr",
+          "location": "Gemeinde Walzbachtal - Rathaus, Walzbachtal",
+          "organizer": "Gemeinde Walzbachtal - Rathaus",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Bürgerinformationsveranstaltung zur Biotopverbundplanung",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -2953,7 +3121,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Jahreshauptversammlung-TV-Woessingen-event-appointment5958",
@@ -2965,10 +3133,12 @@
           "endTime": null,
           "dateText": "Freitag12. März",
           "timeText": "19:00 Uhr",
+          "location": "TV Halle des TV Wössingen , Walzbachtal",
+          "organizer": "TV Wössingen 1896 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Jahreshauptversammlung TV Wössingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -3003,7 +3173,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Mitliederversammlung-OGV-Joehlingen-event-appointment6084",
@@ -3015,10 +3185,12 @@
           "endTime": null,
           "dateText": "Freitag12. März",
           "timeText": "19:00 Uhr",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Mitliederversammlung OGV Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -3053,7 +3225,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Schnittkurs-Obstbaeume-OGV-Joehlingen-event-appointment5969",
@@ -3065,10 +3237,12 @@
           "endTime": "12:00",
           "dateText": "Samstag13. März",
           "timeText": "10:00 Uhr - 12:00 Uhr",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Schnittkurs Obstbäume OGV Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -3103,7 +3277,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Jubelkonfirmation-Walzbachtal-event-appointment6031",
@@ -3115,10 +3289,12 @@
           "endTime": "12:00",
           "dateText": "Sonntag14. März",
           "timeText": "09:30 Uhr - 12:00 Uhr",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Jubelkonfirmation Walzbachtal",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -3153,7 +3329,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Osterbrunnenfest-event-appointment5942",
@@ -3165,10 +3341,12 @@
           "endTime": "17:00",
           "dateText": "Sonntag14. März",
           "timeText": "14:00 Uhr - 17:00 Uhr",
+          "location": "",
+          "organizer": "Heimat- und Kulturverein Walzbachtal e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Osterbrunnenfest",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -3203,7 +3381,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Mitgliederversammlung-im-Naturfreundehaus-event-appointment5921",
@@ -3215,10 +3393,12 @@
           "endTime": null,
           "dateText": "Montag15. März",
           "timeText": "18:00 Uhr",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Mitgliederversammlung im Naturfreundehaus",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -3253,7 +3433,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Mitgliederversammlung-event-appointment5934",
@@ -3265,10 +3445,12 @@
           "endTime": "20:30",
           "dateText": "Dienstag16. März",
           "timeText": "19:00 Uhr - 20:30 Uhr",
+          "location": "",
+          "organizer": "Heimat- und Kulturverein Walzbachtal e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Mitgliederversammlung",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -3303,7 +3485,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Wie-E-Akte-und-E-Rezept-die-Zukunft-gestalten-event-appointment6152",
@@ -3315,10 +3497,12 @@
           "endTime": "19:30",
           "dateText": "Mittwoch17. März",
           "timeText": "18:00 Uhr - 19:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Wie E-Akte und E-Rezept die Zukunft gestalten",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -3353,7 +3537,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Mittagstisch-im-Buergertreff-Joehlingen-event-appointment5981",
@@ -3365,10 +3549,12 @@
           "endTime": "13:30",
           "dateText": "Donnerstag18. März",
           "timeText": "12:00 Uhr - 13:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Mittagstisch im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -3403,7 +3589,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Walzbachtaler-Ehrenabend-event-appointment5813",
@@ -3415,10 +3601,12 @@
           "endTime": null,
           "dateText": "Freitag19. März",
           "timeText": "ganztägig",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Walzbachtaler Ehrenabend",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -3453,7 +3641,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Jahreshauptversammlung-event-appointment5799",
@@ -3465,10 +3653,12 @@
           "endTime": null,
           "dateText": "Freitag19. März",
           "timeText": "18:30 Uhr",
+          "location": "Clubhaus FV04 Wössingen, Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Jahreshauptversammlung",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -3503,7 +3693,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Reparaturtreff-im-Buergertreff-Joehlingen-event-appointment5994",
@@ -3515,10 +3705,12 @@
           "endTime": "13:00",
           "dateText": "Samstag20. März",
           "timeText": "10:00 Uhr - 13:00 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Reparaturtreff im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -3553,7 +3745,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Fruehjahrskonzert-Feuerwehrkapelle-Joehlingen-event-appointment6098",
@@ -3565,10 +3757,12 @@
           "endTime": "23:00",
           "dateText": "Samstag20. März",
           "timeText": "19:00 Uhr - 23:00 Uhr",
+          "location": "Jahnhalle Jöhlingen, Walzbachtal",
+          "organizer": "Feuerwehrkapelle Jöhlingen",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Frühjahrskonzert Feuerwehrkapelle Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -3603,7 +3797,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Feier-der-Osternacht-event-appointment5869",
@@ -3615,10 +3809,12 @@
           "endTime": "11:00",
           "dateText": "Sonntag28. März",
           "timeText": "07:00 Uhr - 11:00 Uhr",
+          "location": "Kath. Kirche St. Martin Jöhlingen, Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Feier der Osternacht",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -3653,7 +3849,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Osterkonzert-event-appointment6129",
@@ -3665,10 +3861,12 @@
           "endTime": "22:00",
           "dateText": "Sonntag28. März",
           "timeText": "19:30 Uhr - 22:00 Uhr",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Osterkonzert",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -3703,7 +3901,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/E-Rezept-und-ePa-verstehen-und-nutzen-event-appointment6154",
@@ -3715,10 +3913,12 @@
           "endTime": "20:00",
           "dateText": "Mittwoch31. März",
           "timeText": "18:00 Uhr - 20:00 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "E-Rezept und ePa verstehen und nutzen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -3753,7 +3953,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Sonntagscafe-im-Buergertreff-Joehlingen-event-appointment6019",
@@ -3765,10 +3965,12 @@
           "endTime": "17:00",
           "dateText": "Sonntag04. April",
           "timeText": "14:00 Uhr - 17:00 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Sonntagscafé im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -3803,7 +4005,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Genussmarkt-Woessingen-event-appointment5716",
@@ -3815,10 +4017,12 @@
           "endTime": "19:00",
           "dateText": "Montag05. April",
           "timeText": "15:30 Uhr - 19:00 Uhr",
+          "location": "Rathausplatz, Walzbachtal",
+          "organizer": "Gemeinde Walzbachtal - Rathaus",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Genussmarkt Wössingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -3853,7 +4057,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Mitgliederversammlung-Frohsinn-Joehlingen-event-appointment6112",
@@ -3865,10 +4069,12 @@
           "endTime": "21:00",
           "dateText": "Donnerstag08. April",
           "timeText": "19:30 Uhr - 21:00 Uhr",
+          "location": "Lammsaal Jöhlingen , Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Mitgliederversammlung Frohsinn Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -3903,7 +4109,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Tag-der-aelteren-Generation-Heute-aktiv-Morgen-mobil-event-appointment5909",
@@ -3915,10 +4121,12 @@
           "endTime": "18:00",
           "dateText": "Samstag10. April",
           "timeText": "12:00 Uhr - 18:00 Uhr",
+          "location": "TV Halle des TV Wössingen , Walzbachtal",
+          "organizer": "TV Wössingen 1896 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Tag der älteren Generation | Heute aktiv - Morgen mobil",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -3953,7 +4161,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Sporttag%2509-event-appointment6122",
@@ -3965,10 +4173,12 @@
           "endTime": "17:00",
           "dateText": "Samstag10. April",
           "timeText": "14:00 Uhr - 17:00 Uhr",
+          "location": "Böhnlichhalle, Walzbachtal",
+          "organizer": "Freie Gymnastikgruppe Walzbachtal e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Sporttag",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -4003,7 +4213,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Feier-der-Tauferneuerung-event-appointment5872",
@@ -4015,10 +4225,12 @@
           "endTime": "18:00",
           "dateText": "Samstag10. April",
           "timeText": "17:00 Uhr - 18:00 Uhr",
+          "location": "Kath. Kirche St. Martin, Jöhlingen, Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Feier der Tauferneuerung",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -4053,7 +4265,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Familienfest-event-appointment5815",
@@ -4065,10 +4277,12 @@
           "endTime": null,
           "dateText": "Sonntag11. April",
           "timeText": "ganztägig",
+          "location": "",
+          "organizer": "Gemeinde Walzbachtal",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Familienfest",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -4103,7 +4317,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Feierliche-Kommunion-event-appointment5874",
@@ -4115,10 +4329,12 @@
           "endTime": "12:00",
           "dateText": "Sonntag11. April",
           "timeText": "10:00 Uhr - 12:00 Uhr",
+          "location": "Kath. Kirche St. Martin Jöhlingen, Walzbachtal",
+          "organizer": "Kath. Kirche St. Martin Jöhlingen",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Feierliche Kommunion",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -4153,7 +4369,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Mittagstisch-im-Buergertreff-Joehlingen-event-appointment5982",
@@ -4165,10 +4381,12 @@
           "endTime": "13:30",
           "dateText": "Donnerstag15. April",
           "timeText": "12:00 Uhr - 13:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Mittagstisch im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -4203,7 +4421,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/FV04-Altpapiersammlung-event-appointment5826",
@@ -4215,10 +4433,12 @@
           "endTime": "14:59",
           "dateText": "Freitag16. April",
           "timeText": "09:00 Uhr - 14:59 Uhr",
+          "location": "",
+          "organizer": "FV04 Wössingen e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "FV04 Altpapiersammlung",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -4253,7 +4473,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Generalversammlung-des-TSV-Joehlingen-event-appointment6057",
@@ -4265,10 +4485,12 @@
           "endTime": null,
           "dateText": "Freitag16. April",
           "timeText": "19:00 Uhr",
+          "location": "Jahnhalle Jöhlingen, Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Generalversammlung des TSV Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -4303,7 +4525,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Mitgliederversammlung-2027-event-appointment5833",
@@ -4315,10 +4537,12 @@
           "endTime": null,
           "dateText": "Freitag16. April",
           "timeText": "20:00 Uhr",
+          "location": "Restaurant Viktoria , Walzbachtal",
+          "organizer": "FC Viktoria Jöhlingen 1911 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Mitgliederversammlung 2027",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -4353,7 +4577,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Geburtenwald-event-appointment5757",
@@ -4365,10 +4589,12 @@
           "endTime": "13:00",
           "dateText": "Samstag17. April",
           "timeText": "10:00 Uhr - 13:00 Uhr",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Geburtenwald",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -4403,7 +4629,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Reparaturtreff-im-Buergertreff-Joehlingen-event-appointment5995",
@@ -4415,10 +4641,12 @@
           "endTime": "13:00",
           "dateText": "Samstag17. April",
           "timeText": "10:00 Uhr - 13:00 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Reparaturtreff im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -4453,7 +4681,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Blaesergottesdienst-event-appointment5770",
@@ -4465,10 +4693,12 @@
           "endTime": "11:30",
           "dateText": "Sonntag18. April",
           "timeText": "10:00 Uhr - 11:30 Uhr",
+          "location": "Ev. Kirche Wössingen , Walzbachtal",
+          "organizer": "Posaunenchor Wössingen",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Bläsergottesdienst",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -4503,7 +4733,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Die-sieben-Geschenke-der-Erinnerung-was-uns-unsere-Lebenserinnerungen-heute-schenken-wollen-event-appointment5635",
@@ -4515,10 +4745,12 @@
           "endTime": "21:00",
           "dateText": "Mittwoch21. April",
           "timeText": "19:00 Uhr - 21:00 Uhr",
+          "location": "Martinussaal Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Die sieben Geschenke der Erinnerung - was uns unsere Lebenserinnerungen heute schenken wollen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -4553,7 +4785,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Kraeuterwanderung-OGVs-Woessingen-Joehlingen-event-appointment5971",
@@ -4565,10 +4797,12 @@
           "endTime": null,
           "dateText": "Samstag24. April",
           "timeText": "ganztägig",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Kräuterwanderung OGVs Wössingen & Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -4603,7 +4837,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Fruehstueck-Auszeit-event-appointment5876",
@@ -4615,10 +4849,12 @@
           "endTime": "13:00",
           "dateText": "Samstag24. April",
           "timeText": "09:00 Uhr - 13:00 Uhr",
+          "location": "Martinussaal Jöhlingen , Walzbachtal",
+          "organizer": "Kath. Kirche St. Martin Jöhlingen",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Frühstück Auszeit",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -4653,7 +4889,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Vogelstimmenwanderung-Joehlingen-Naturfreunde-OGV-Joehlingen-event-appointment6086",
@@ -4665,10 +4901,12 @@
           "endTime": "09:00",
           "dateText": "Sonntag25. April",
           "timeText": "07:00 Uhr - 09:00 Uhr",
+          "location": "",
+          "organizer": "Naturfreundehaus \"Alm\" der Naturfreunde Jöhlingen; Obst- und Gartenbau Verein Jöhlingen e. V",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Vogelstimmenwanderung Jöhlingen Naturfreunde&OGV Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -4703,7 +4941,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Trauercafe-im-Buergertreff-Joehlingen-event-appointment6006",
@@ -4715,10 +4953,12 @@
           "endTime": "16:30",
           "dateText": "Sonntag25. April",
           "timeText": "15:00 Uhr - 16:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Trauercafé im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -4753,7 +4993,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Konzert-Trompete-und-Orgel-event-appointment5820",
@@ -4765,10 +5005,12 @@
           "endTime": "18:30",
           "dateText": "Sonntag25. April",
           "timeText": "17:00 Uhr - 18:30 Uhr",
+          "location": "Ev. Kirche Wössingen , Walzbachtal",
+          "organizer": "Posaunenchor Wössingen",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Konzert Trompete und Orgel",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -4803,7 +5045,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Maifest-Woessinger-Hof-event-appointment6131",
@@ -4815,10 +5057,12 @@
           "endTime": "22:00",
           "dateText": "Freitag30. Aprilbis 01. Mai",
           "timeText": "17:00 Uhr - 22:00 Uhr",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Maifest Wössinger-Hof",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -4853,7 +5097,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Maibaumstellen-event-appointment5759",
@@ -4865,10 +5109,12 @@
           "endTime": "18:30",
           "dateText": "Freitag30. April",
           "timeText": "17:30 Uhr - 18:30 Uhr",
+          "location": "",
+          "organizer": "Gemeinde Walzbachtal; Gemeinde Walzbachtal - Rathaus",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Maibaumstellen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -4903,7 +5149,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Maibaumstellen-event-appointment5760",
@@ -4915,10 +5161,12 @@
           "endTime": "19:30",
           "dateText": "Freitag30. April",
           "timeText": "18:30 Uhr - 19:30 Uhr",
+          "location": "",
+          "organizer": "Gemeinde Walzbachtal; Gemeinde Walzbachtal - Rathaus",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Maibaumstellen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -4953,7 +5201,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Fest-im-Gruenen-am-Naturfreundehaus-event-appointment5923",
@@ -4965,10 +5213,12 @@
           "endTime": null,
           "dateText": "Samstag01. Mai",
           "timeText": "10:00 Uhr",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Fest im Grünen am Naturfreundehaus",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -5003,7 +5253,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Konfirmation-Walzbachtal-event-appointment6033",
@@ -5015,10 +5265,12 @@
           "endTime": null,
           "dateText": "Sonntag02. Mai",
           "timeText": "ganztägig",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Konfirmation Walzbachtal",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -5053,7 +5305,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Sonntagscafe-im-Buergertreff-Joehlingen-event-appointment6021",
@@ -5065,10 +5317,12 @@
           "endTime": "17:00",
           "dateText": "Sonntag02. Mai",
           "timeText": "14:00 Uhr - 17:00 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Sonntagscafé im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -5103,7 +5357,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Genussmarkt-Joehlingen-event-appointment5720",
@@ -5115,10 +5369,12 @@
           "endTime": "19:00",
           "dateText": "Montag03. Mai",
           "timeText": "15:30 Uhr - 19:00 Uhr",
+          "location": "Kirchplatz Jöhlingen , Walzbachtal",
+          "organizer": "Gemeinde Walzbachtal - Rathaus",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Genussmarkt Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -5153,7 +5409,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Christi-Himmelfahrt-event-appointment5878",
@@ -5165,10 +5421,12 @@
           "endTime": "19:30",
           "dateText": "Mittwoch05. Mai",
           "timeText": "17:30 Uhr - 19:30 Uhr",
+          "location": "Kath. Kapelle, Walzbachtal, Walzbachtal",
+          "organizer": "Kath. Kirche St. Martin Jöhlingen",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Christi Himmelfahrt",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -5203,7 +5461,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Sporttag-mit-Himmelfahrtslauf-event-appointment5899",
@@ -5215,10 +5473,12 @@
           "endTime": null,
           "dateText": "Donnerstag06. Mai",
           "timeText": "ganztägig",
+          "location": "TV Halle des TV Wössingen , Walzbachtal",
+          "organizer": "TV Wössingen 1896 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Sporttag mit Himmelfahrtslauf",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -5253,7 +5513,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Bei-jedem-Wetter-Tag-der-offenen-Tuer-des-Schuetzenvereins-am-Vatertag-event-appointment5915",
@@ -5265,10 +5525,12 @@
           "endTime": "18:00",
           "dateText": "Donnerstag06. Mai",
           "timeText": "10:00 Uhr - 18:00 Uhr",
+          "location": "big.schützenhalle, Walzbachtal",
+          "organizer": "Schützenverein Walzbachtal-Jöhlingen e.V. Bogensportgruppe",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Bei jedem Wetter: Tag der offenen Tür des Schützenvereins am Vatertag",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -5303,7 +5565,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Vatertagsfest-an-Christi-Himmelfahrt-der-HG-Gruppe-event-appointment5927",
@@ -5315,10 +5577,12 @@
           "endTime": null,
           "dateText": "Donnerstag06. Mai",
           "timeText": "14:00 Uhr",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Vatertagsfest an Christi Himmelfahrt der HG-Gruppe",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -5353,7 +5617,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Fruehlingesfest-OGV-Joehlingen-event-appointment5977",
@@ -5365,10 +5629,12 @@
           "endTime": "21:00",
           "dateText": "Sonntag09. Mai",
           "timeText": "11:00 Uhr - 21:00 Uhr",
+          "location": "Speyerer Hof Jöhlingen, Walzbachtal",
+          "organizer": "Obst- und Gartenbau Verein Jöhlingen e. V",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Frühlingesfest OGV Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -5403,7 +5669,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Blutspende-in-Joehlingen-event-appointment5784",
@@ -5415,10 +5681,12 @@
           "endTime": "19:30",
           "dateText": "Freitag14. Mai",
           "timeText": "14:30 Uhr - 19:30 Uhr",
+          "location": "Schulsporthalle Jöhlingen, Walzbachtal",
+          "organizer": "Deutsches Rotes Kreuz Ortsverein Jöhlingen (DRK)",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Blutspende in Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -5453,7 +5721,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Pfingstsportfest-2027-event-appointment5835",
@@ -5465,10 +5733,12 @@
           "endTime": "02:00",
           "dateText": "Freitag14. Maibis 15. Mai",
           "timeText": "18:30 Uhr - 02:00 Uhr",
+          "location": "Sportgelände FC Viktoria Jöhlingen , Walzbachtal",
+          "organizer": "FC Viktoria Jöhlingen 1911 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Pfingstsportfest 2027",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -5503,7 +5773,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Pfingstsportfest-2027-event-appointment5836",
@@ -5515,10 +5785,12 @@
           "endTime": "02:00",
           "dateText": "Samstag15. Maibis 16. Mai",
           "timeText": "15:00 Uhr - 02:00 Uhr",
+          "location": "Sportgelände FC Viktoria Jöhlingen , Walzbachtal",
+          "organizer": "FC Viktoria Jöhlingen 1911 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Pfingstsportfest 2027",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -5553,7 +5825,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Pfingstsportfest-2027-event-appointment5837",
@@ -5565,10 +5837,12 @@
           "endTime": "02:00",
           "dateText": "Sonntag16. Maibis 17. Mai",
           "timeText": "11:00 Uhr - 02:00 Uhr",
+          "location": "Sportgelände FC Viktoria Jöhlingen , Walzbachtal",
+          "organizer": "FC Viktoria Jöhlingen 1911 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Pfingstsportfest 2027",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -5603,7 +5877,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Mittagstisch-im-Buergertreff-Joehlingen-event-appointment5983",
@@ -5615,10 +5889,12 @@
           "endTime": "13:30",
           "dateText": "Donnerstag20. Mai",
           "timeText": "12:00 Uhr - 13:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Mittagstisch im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -5653,7 +5929,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Reparaturtreff-im-Buergertreff-Joehlingen-event-appointment5996",
@@ -5665,10 +5941,12 @@
           "endTime": "13:00",
           "dateText": "Samstag22. Mai",
           "timeText": "10:00 Uhr - 13:00 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Reparaturtreff im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -5703,7 +5981,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Pflanzentauschboerse-Joehlingen-event-appointment6092",
@@ -5715,10 +5993,12 @@
           "endTime": "13:00",
           "dateText": "Samstag22. Mai",
           "timeText": "10:30 Uhr - 13:00 Uhr",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Pflanzentauschbörse Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -5753,7 +6033,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Tag-der-offenen-Tuer-mit-Ausstellung-Idema-Bausteine-event-appointment5945",
@@ -5765,10 +6045,12 @@
           "endTime": "18:00",
           "dateText": "Sonntag23. Mai",
           "timeText": "11:00 Uhr - 18:00 Uhr",
+          "location": "Heimatstube im Pfarrhaus, Heimat- & Kulturverein Walzbachtal e.V., Walzbachtal",
+          "organizer": "Heimat- und Kulturverein Walzbachtal e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Tag der offenen Tür mit Ausstellung \"Idema-Bausteine\"",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -5803,7 +6085,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Festgottesdienst-zu-Fronleichnam-event-appointment5880",
@@ -5815,10 +6097,12 @@
           "endTime": "13:00",
           "dateText": "Donnerstag27. Mai",
           "timeText": "10:00 Uhr - 13:00 Uhr",
+          "location": "Kath. Kindergarten St. Elisabeth Jöhlingen, Walzbachtal-Jöhlingen",
+          "organizer": "Kath. Kirche St. Martin Jöhlingen",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Festgottesdienst zu Fronleichnam",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -5853,7 +6137,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Trauercafe-im-Buergertreff-Joehlingen-event-appointment6007",
@@ -5865,10 +6149,12 @@
           "endTime": "16:30",
           "dateText": "Sonntag30. Mai",
           "timeText": "15:00 Uhr - 16:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Trauercafé im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -5903,7 +6189,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Sportfest-des-FV04-Woessingen-event-appointment5789",
@@ -5915,10 +6201,12 @@
           "endTime": null,
           "dateText": "Freitag04. Juni",
           "timeText": "ganztägig",
+          "location": "Vereinsgelände FV04 Wössingen , Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Sportfest des FV04 Wössingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -5953,7 +6241,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Sportfest-des-FV04-Woessingen-event-appointment5791",
@@ -5965,10 +6253,12 @@
           "endTime": null,
           "dateText": "Samstag05. Juni",
           "timeText": "ganztägig",
+          "location": "Vereinsgelände FV04 Wössingen , Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Sportfest des FV04 Wössingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -6003,7 +6293,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Sportfest-des-FV04-Woessingen-event-appointment5790",
@@ -6015,10 +6305,12 @@
           "endTime": null,
           "dateText": "Sonntag06. Juni",
           "timeText": "ganztägig",
+          "location": "Vereinsgelände FV04 Wössingen , Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Sportfest des FV04 Wössingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -6053,7 +6345,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Sonntagscafe-im-Buergertreff-Joehlingen-event-appointment6023",
@@ -6065,10 +6357,12 @@
           "endTime": "17:00",
           "dateText": "Sonntag06. Juni",
           "timeText": "14:00 Uhr - 17:00 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Sonntagscafé im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -6103,7 +6397,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Genussmarkt-Woessingen-event-appointment5717",
@@ -6115,10 +6409,12 @@
           "endTime": "19:00",
           "dateText": "Montag07. Juni",
           "timeText": "15:30 Uhr - 19:00 Uhr",
+          "location": "Rathausplatz, Walzbachtal",
+          "organizer": "Gemeinde Walzbachtal - Rathaus",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Genussmarkt Wössingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -6153,7 +6449,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/30-Jahre-Kita-Arche-event-appointment6043",
@@ -6165,10 +6461,12 @@
           "endTime": null,
           "dateText": "Samstag12. Juni",
           "timeText": "ganztägig",
+          "location": "Kinderhaus Arche, Walzbachtal-Jöhlingen",
+          "organizer": "Kinderhaus Arche",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "30 Jahre Kita Arche",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -6203,7 +6501,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/5-Festival-der-modernen-Choere-event-appointment5673",
@@ -6215,10 +6513,12 @@
           "endTime": "21:00",
           "dateText": "Samstag12. Juni",
           "timeText": "14:30 Uhr - 21:00 Uhr",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "5. Festival der modernen Chöre",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -6253,7 +6553,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/30-Jahre-Kita-Moby-Dick-event-appointment5811",
@@ -6265,10 +6565,12 @@
           "endTime": null,
           "dateText": "Sonntag13. Juni",
           "timeText": "ganztägig",
+          "location": "Kindertagesstätte Moby Dick, Walzbachtal",
+          "organizer": "Kindertagesstätte Moby Dick",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "30 Jahre Kita Moby Dick",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -6303,7 +6605,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Mittagstisch-im-Buergertreff-Joehlingen-event-appointment5984",
@@ -6315,10 +6617,12 @@
           "endTime": "13:30",
           "dateText": "Donnerstag17. Juni",
           "timeText": "12:00 Uhr - 13:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Mittagstisch im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -6353,7 +6657,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Fuehrung-Historische-Wirtschaften-in-Joehlingen-event-appointment6179",
@@ -6365,10 +6669,12 @@
           "endTime": null,
           "dateText": "Freitag18. Juni",
           "timeText": "17:00 Uhr",
+          "location": "",
+          "organizer": "Heimat- und Kulturverein Walzbachtal e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Führung \"Historische Wirtschaften in Jöhlingen\"",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -6403,7 +6709,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Reparaturtreff-im-Buergertreff-Joehlingen-event-appointment5997",
@@ -6415,10 +6721,12 @@
           "endTime": "13:00",
           "dateText": "Samstag19. Juni",
           "timeText": "10:00 Uhr - 13:00 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Reparaturtreff im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -6453,7 +6761,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Volleyball-Ortsturnier-des-TSV-Joehlingen-event-appointment6059",
@@ -6465,10 +6773,12 @@
           "endTime": null,
           "dateText": "Samstag26. Juni",
           "timeText": "13:00 Uhr",
+          "location": "Jahnhalle Jöhlingen, Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Volleyball Ortsturnier des TSV Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -6503,7 +6813,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Sonnwendfeier-mit-Feuerrede-Fackellauf-und-entzuenden-eines-Holzstapels-event-appointment5925",
@@ -6515,10 +6825,12 @@
           "endTime": null,
           "dateText": "Samstag26. Juni",
           "timeText": "18:00 Uhr",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Sonnwendfeier mit Feuerrede, Fackellauf und entzünden eines Holzstapels",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -6553,7 +6865,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Konzert-Feuerwehrkapelle-event-appointment6100",
@@ -6565,10 +6877,12 @@
           "endTime": "23:00",
           "dateText": "Samstag26. Juni",
           "timeText": "19:00 Uhr - 23:00 Uhr",
+          "location": "",
+          "organizer": "Feuerwehrkapelle Jöhlingen",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Konzert Feuerwehrkapelle",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -6603,7 +6917,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Buergermeisterwahl-event-appointment6118",
@@ -6615,10 +6929,12 @@
           "endTime": "18:00",
           "dateText": "Sonntag27. Juni",
           "timeText": "08:00 Uhr - 18:00 Uhr",
+          "location": "",
+          "organizer": "Gemeindeverwaltung",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Bürgermeisterwahl",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -6653,7 +6969,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Trauercafe-im-Buergertreff-Joehlingen-event-appointment6008",
@@ -6665,10 +6981,12 @@
           "endTime": "16:30",
           "dateText": "Sonntag27. Juni",
           "timeText": "15:00 Uhr - 16:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Trauercafé im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -6703,7 +7021,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Telemedizin-verstehen-und-nutzen-event-appointment6156",
@@ -6715,10 +7033,12 @@
           "endTime": "19:30",
           "dateText": "Mittwoch30. Juni",
           "timeText": "18:00 Uhr - 19:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Telemedizin verstehen und nutzen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -6753,7 +7073,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Alteisensammlung-des-TW-Woessingen-event-appointment5907",
@@ -6765,10 +7085,12 @@
           "endTime": null,
           "dateText": "Samstag03. Juli",
           "timeText": "ganztägig",
+          "location": "",
+          "organizer": "TV Wössingen 1896 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Alteisensammlung des TW Wössingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -6803,7 +7125,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Vereinsausflug-event-appointment5929",
@@ -6815,10 +7137,12 @@
           "endTime": null,
           "dateText": "Sonntag04. Juli",
           "timeText": "ganztägig",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Vereinsausflug",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -6853,7 +7177,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Genussmarkt-Joehlingen-event-appointment5721",
@@ -6865,10 +7189,12 @@
           "endTime": "19:00",
           "dateText": "Montag05. Juli",
           "timeText": "15:30 Uhr - 19:00 Uhr",
+          "location": "Kirchplatz Jöhlingen , Walzbachtal",
+          "organizer": "Gemeinde Walzbachtal - Rathaus",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Genussmarkt Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -6903,7 +7229,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Vortrag-Hexen-verfolgung-im-Kraichgau-event-appointment6181",
@@ -6915,10 +7241,12 @@
           "endTime": null,
           "dateText": "Dienstag06. Juli",
           "timeText": "19:00 Uhr",
+          "location": "Heimatstube im Pfarrhaus, Heimat- & Kulturverein Walzbachtal e.V., Walzbachtal",
+          "organizer": "Heimat- und Kulturverein Walzbachtal e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Vortrag \"Hexen(-verfolgung) im Kraichgau\"",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -6953,7 +7281,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Sportfest-beim-TV-Woessingen-event-appointment5901",
@@ -6965,10 +7293,12 @@
           "endTime": null,
           "dateText": "Freitag09. Juli",
           "timeText": "ganztägig",
+          "location": "TV Halle des TV Wössingen , Walzbachtal",
+          "organizer": "TV Wössingen 1896 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Sportfest beim TV Wössingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -7003,7 +7333,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Sportfest-beim-TV-Woessingen-event-appointment5902",
@@ -7015,10 +7345,12 @@
           "endTime": null,
           "dateText": "Samstag10. Juli",
           "timeText": "ganztägig",
+          "location": "TV Halle des TV Wössingen , Walzbachtal",
+          "organizer": "TV Wössingen 1896 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Sportfest beim TV Wössingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -7053,7 +7385,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Sportfest-beim-TV-Woessingen-event-appointment5903",
@@ -7065,10 +7397,12 @@
           "endTime": null,
           "dateText": "Sonntag11. Juli",
           "timeText": "ganztägig",
+          "location": "TV Halle des TV Wössingen , Walzbachtal",
+          "organizer": "TV Wössingen 1896 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Sportfest beim TV Wössingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -7103,7 +7437,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Buergermeisterwahl-evtl-Stichwahl-event-appointment6045",
@@ -7115,10 +7449,12 @@
           "endTime": null,
           "dateText": "Sonntag11. Juli",
           "timeText": "ganztägig",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Bürgermeisterwahl - evtl. Stichwahl",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -7153,7 +7489,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Mittagstisch-im-Buergertreff-Joehlingen-event-appointment5985",
@@ -7165,10 +7501,12 @@
           "endTime": "13:30",
           "dateText": "Donnerstag15. Juli",
           "timeText": "12:00 Uhr - 13:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Mittagstisch im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -7203,7 +7541,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Sportwoche-des-TSV-Joehlingen-event-appointment6062",
@@ -7215,10 +7553,12 @@
           "endTime": null,
           "dateText": "Freitag16. Juli",
           "timeText": "ganztägig",
+          "location": "Jahnhalle Jöhlingen, Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Sportwoche des TSV Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -7253,7 +7593,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Sportwoche-des-TSV-Joehlingen-event-appointment6063",
@@ -7265,10 +7605,12 @@
           "endTime": null,
           "dateText": "Samstag17. Juli",
           "timeText": "ganztägig",
+          "location": "Jahnhalle Jöhlingen, Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Sportwoche des TSV Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -7303,7 +7645,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Reparaturtreff-im-Buergertreff-Joehlingen-event-appointment5998",
@@ -7315,10 +7657,12 @@
           "endTime": "13:00",
           "dateText": "Samstag17. Juli",
           "timeText": "10:00 Uhr - 13:00 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Reparaturtreff im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -7353,7 +7697,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Rathausplatz-Konzert-event-appointment6134",
@@ -7365,10 +7709,12 @@
           "endTime": "21:00",
           "dateText": "Samstag17. Juli",
           "timeText": "19:00 Uhr - 21:00 Uhr",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Rathausplatz-Konzert",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -7403,7 +7749,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Sportwoche-des-TSV-Joehlingen-event-appointment6064",
@@ -7415,10 +7761,12 @@
           "endTime": null,
           "dateText": "Sonntag18. Juli",
           "timeText": "ganztägig",
+          "location": "Jahnhalle Jöhlingen, Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Sportwoche des TSV Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -7453,7 +7801,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/FV04-Altpapiersammlung-event-appointment5827",
@@ -7465,10 +7813,12 @@
           "endTime": "15:00",
           "dateText": "Samstag24. Juli",
           "timeText": "09:00 Uhr - 15:00 Uhr",
+          "location": "",
+          "organizer": "FV04 Wössingen e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "FV04 Altpapiersammlung",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -7503,7 +7853,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Speyerer-Hof-Fest-2027-event-appointment6096",
@@ -7515,10 +7865,12 @@
           "endTime": "23:00",
           "dateText": "Samstag24. Julibis 26. Juli",
           "timeText": "17:00 Uhr - 23:00 Uhr",
+          "location": "Speyerer Hof Jöhlingen, Walzbachtal",
+          "organizer": "Feuerwehrkapelle Jöhlingen",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Speyerer-Hof-Fest 2027",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -7553,7 +7905,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Trauercafe-im-Buergertreff-Joehlingen-event-appointment6009",
@@ -7565,10 +7917,12 @@
           "endTime": "16:30",
           "dateText": "Sonntag25. Juli",
           "timeText": "15:00 Uhr - 16:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Trauercafé im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -7603,7 +7957,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Ferienspass-2027-event-appointment6038",
@@ -7615,10 +7969,12 @@
           "endTime": null,
           "dateText": "Donnerstag29. Julibis 12. September",
           "timeText": "ganztägig",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Ferienspaß 2027",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -7653,7 +8009,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Ferienspass-beim-TSV-Joehlingen-event-appointment6065",
@@ -7665,10 +8021,12 @@
           "endTime": "13:00",
           "dateText": "Freitag30. Juli",
           "timeText": "10:00 Uhr - 13:00 Uhr",
+          "location": "Jahnhalle Jöhlingen, Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Ferienspaß beim TSV Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -7703,7 +8061,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Volleyball-Beachturnier-des-TSV-Joehlingen-event-appointment6067",
@@ -7715,10 +8073,12 @@
           "endTime": null,
           "dateText": "Samstag31. Juli",
           "timeText": "ganztägig",
+          "location": "Jahnhalle Jöhlingen, Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Volleyball Beachturnier des TSV Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -7753,7 +8113,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Sommer-Activ-Wochen-des-TSV-Joehlingen-event-appointment6082",
@@ -7765,10 +8125,12 @@
           "endTime": null,
           "dateText": "Sonntag01. Augustbis 12. September",
           "timeText": "ganztägig",
+          "location": "Jahnhalle Jöhlingen, Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Sommer Activ Wochen des TSV Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -7803,7 +8165,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Gemeindefest-event-appointment5772",
@@ -7815,10 +8177,12 @@
           "endTime": "20:00",
           "dateText": "Sonntag01. August",
           "timeText": "10:00 Uhr - 20:00 Uhr",
+          "location": "Ev. Kirche Wössingen , Walzbachtal",
+          "organizer": "Posaunenchor Wössingen",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Gemeindefest",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -7853,7 +8217,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/FC-Jugencamp-2027-event-appointment5839",
@@ -7865,10 +8229,12 @@
           "endTime": "16:00",
           "dateText": "Montag02. August",
           "timeText": "10:00 Uhr - 16:00 Uhr",
+          "location": "Sportgelände FC Viktoria Jöhlingen , Walzbachtal",
+          "organizer": "FC Viktoria Jöhlingen 1911 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "FC-Jugencamp 2027",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -7903,7 +8269,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/FC-Jugencamp-2027-event-appointment5840",
@@ -7915,10 +8281,12 @@
           "endTime": "16:00",
           "dateText": "Dienstag03. August",
           "timeText": "10:00 Uhr - 16:00 Uhr",
+          "location": "Sportgelände FC Viktoria Jöhlingen , Walzbachtal",
+          "organizer": "FC Viktoria Jöhlingen 1911 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "FC-Jugencamp 2027",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -7953,7 +8321,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/FC-Jugencamp-2027-event-appointment5841",
@@ -7965,10 +8333,12 @@
           "endTime": "16:00",
           "dateText": "Mittwoch04. August",
           "timeText": "10:00 Uhr - 16:00 Uhr",
+          "location": "Sportgelände FC Viktoria Jöhlingen , Walzbachtal",
+          "organizer": "FC Viktoria Jöhlingen 1911 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "FC-Jugencamp 2027",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -8003,7 +8373,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Ferienspass-Der-Natur-auf-der-Spur-event-appointment5854",
@@ -8015,10 +8385,12 @@
           "endTime": "17:00",
           "dateText": "Mittwoch04. August",
           "timeText": "14:00 Uhr - 17:00 Uhr",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Ferienspass \"Der Natur auf der Spur\"",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -8053,7 +8425,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/FC-Jugencamp-2027-event-appointment5842",
@@ -8065,10 +8437,12 @@
           "endTime": "16:00",
           "dateText": "Donnerstag05. August",
           "timeText": "10:00 Uhr - 16:00 Uhr",
+          "location": "Sportgelände FC Viktoria Jöhlingen , Walzbachtal",
+          "organizer": "FC Viktoria Jöhlingen 1911 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "FC-Jugencamp 2027",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -8103,7 +8477,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/FC-Jugencamp-2027-event-appointment5843",
@@ -8115,10 +8489,12 @@
           "endTime": "16:00",
           "dateText": "Freitag06. August",
           "timeText": "10:00 Uhr - 16:00 Uhr",
+          "location": "Sportgelände FC Viktoria Jöhlingen , Walzbachtal",
+          "organizer": "FC Viktoria Jöhlingen 1911 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "FC-Jugencamp 2027",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -8153,7 +8529,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Das-Fest-beim-OGV-Woessingen-event-appointment5850",
@@ -8165,10 +8541,12 @@
           "endTime": null,
           "dateText": "Samstag07. Augustbis 08. August",
           "timeText": "ganztägig",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Das Fest beim OGV Wössingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -8203,7 +8581,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Blutspende-in-Joehlingen-event-appointment5785",
@@ -8215,10 +8593,12 @@
           "endTime": "19:30",
           "dateText": "Freitag13. August",
           "timeText": "14:30 Uhr - 19:30 Uhr",
+          "location": "Schulsporthalle Jöhlingen, Walzbachtal",
+          "organizer": "Deutsches Rotes Kreuz Ortsverein Jöhlingen (DRK)",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Blutspende in Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -8253,7 +8633,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Mittagstisch-im-Buergertreff-Joehlingen-event-appointment5986",
@@ -8265,10 +8645,12 @@
           "endTime": "13:30",
           "dateText": "Donnerstag19. August",
           "timeText": "12:00 Uhr - 13:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Mittagstisch im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -8303,7 +8685,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Reparaturtreff-im-Buergertreff-Joehlingen-event-appointment5999",
@@ -8315,10 +8697,12 @@
           "endTime": "13:00",
           "dateText": "Samstag21. August",
           "timeText": "10:00 Uhr - 13:00 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Reparaturtreff im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -8353,7 +8737,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Trauercafe-im-Buergertreff-Joehlingen-event-appointment6010",
@@ -8365,10 +8749,12 @@
           "endTime": "16:30",
           "dateText": "Sonntag29. August",
           "timeText": "15:00 Uhr - 16:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Trauercafé im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -8403,7 +8789,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Sonntagscafe-im-Buergertreff-Joehlingen-event-appointment6025",
@@ -8415,10 +8801,12 @@
           "endTime": "17:00",
           "dateText": "Sonntag05. September",
           "timeText": "14:00 Uhr - 17:00 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Sonntagscafé im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -8453,7 +8841,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Mittagstisch-im-Buergertreff-Joehlingen-event-appointment5987",
@@ -8465,10 +8853,12 @@
           "endTime": "13:30",
           "dateText": "Donnerstag16. September",
           "timeText": "12:00 Uhr - 13:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Mittagstisch im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -8503,7 +8893,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Reparaturtreff-im-Buergertreff-Joehlingen-event-appointment6000",
@@ -8515,10 +8905,12 @@
           "endTime": "13:00",
           "dateText": "Samstag18. September",
           "timeText": "10:00 Uhr - 13:00 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Reparaturtreff im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -8553,7 +8945,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Trauercafe-im-Buergertreff-Joehlingen-event-appointment6011",
@@ -8565,10 +8957,12 @@
           "endTime": "16:30",
           "dateText": "Sonntag26. September",
           "timeText": "15:00 Uhr - 16:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Trauercafé im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -8603,7 +8997,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Genussmarkt-Woessingen-event-appointment5718",
@@ -8615,10 +9009,12 @@
           "endTime": "19:00",
           "dateText": "Montag04. Oktober",
           "timeText": "15:30 Uhr - 19:00 Uhr",
+          "location": "Rathausplatz, Walzbachtal",
+          "organizer": "Gemeinde Walzbachtal - Rathaus",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Genussmarkt Wössingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -8653,7 +9049,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Nachtwaechterrundgang-event-appointment5941",
@@ -8665,10 +9061,12 @@
           "endTime": "19:30",
           "dateText": "Freitag15. Oktober",
           "timeText": "18:00 Uhr - 19:30 Uhr",
+          "location": "",
+          "organizer": "Heimat- und Kulturverein Walzbachtal e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Nachtwächterrundgang",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -8703,7 +9101,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Run-Burn-Challenge-des-TSV-Joehlingen-event-appointment6072",
@@ -8715,10 +9113,12 @@
           "endTime": null,
           "dateText": "Samstag16. Oktober",
           "timeText": "13:00 Uhr",
+          "location": "Jahnhalle Jöhlingen, Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Run & Burn Challenge des TSV Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -8753,7 +9153,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Kirchweih-Joehlingen-event-appointment5882",
@@ -8765,10 +9165,12 @@
           "endTime": "19:30",
           "dateText": "Samstag16. Oktober",
           "timeText": "18:30 Uhr - 19:30 Uhr",
+          "location": "Kath. Kirche St. Martin Jöhlingen, Walzbachtal",
+          "organizer": "Kath. Kirche St. Martin Jöhlingen",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Kirchweih Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -8803,7 +9205,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Sonntagscafe-am-Kirchweihsonntag-im-Buergertreff-Joehlingen-event-appointment6027",
@@ -8815,10 +9217,12 @@
           "endTime": "17:00",
           "dateText": "Sonntag17. Oktober",
           "timeText": "14:00 Uhr - 17:00 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Sonntagscafé am Kirchweihsonntag im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -8853,7 +9257,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Geistliche-Abendmusik-event-appointment5774",
@@ -8865,10 +9269,12 @@
           "endTime": "19:30",
           "dateText": "Sonntag17. Oktober",
           "timeText": "18:00 Uhr - 19:30 Uhr",
+          "location": "Ev. Kirche Wössingen , Walzbachtal",
+          "organizer": "Posaunenchor Wössingen",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Geistliche Abendmusik",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -8903,7 +9309,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Mittagstisch-im-Buergertreff-Joehlingen-event-appointment5988",
@@ -8915,10 +9321,12 @@
           "endTime": "13:30",
           "dateText": "Donnerstag21. Oktober",
           "timeText": "12:00 Uhr - 13:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Mittagstisch im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -8953,7 +9361,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Reparaturtreff-im-Buergertreff-Joehlingen-event-appointment6001",
@@ -8965,10 +9373,12 @@
           "endTime": "13:00",
           "dateText": "Samstag23. Oktober",
           "timeText": "10:00 Uhr - 13:00 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Reparaturtreff im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -9003,7 +9413,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Tag-der-offenen-Tuer-im-Rathaus-event-appointment6162",
@@ -9015,10 +9425,12 @@
           "endTime": "17:00",
           "dateText": "Sonntag24. Oktober",
           "timeText": "13:00 Uhr - 17:00 Uhr",
+          "location": "Gemeinde Walzbachtal - Rathaus, Walzbachtal",
+          "organizer": "Gemeinde Walzbachtal - Rathaus",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Tag der offenen Tür im Rathaus",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -9053,7 +9465,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Trauercafe-im-Buergertreff-Joehlingen-event-appointment6012",
@@ -9065,10 +9477,12 @@
           "endTime": "16:30",
           "dateText": "Sonntag31. Oktober",
           "timeText": "15:00 Uhr - 16:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Trauercafé im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -9103,7 +9517,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Gesundheits-Apps-verstehen-und-nutzen-event-appointment6158",
@@ -9115,10 +9529,12 @@
           "endTime": "19:30",
           "dateText": "Mittwoch03. November",
           "timeText": "18:00 Uhr - 19:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Gesundheits-Apps verstehen und nutzen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -9153,7 +9569,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/FV04-Rostbratenfest-event-appointment5797",
@@ -9165,10 +9581,12 @@
           "endTime": "17:59",
           "dateText": "Samstag06. November",
           "timeText": "12:00 Uhr - 17:59 Uhr",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "FV04 Rostbratenfest",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -9203,7 +9621,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Patrozinium-event-appointment5884",
@@ -9215,10 +9633,12 @@
           "endTime": "19:00",
           "dateText": "Samstag06. November",
           "timeText": "18:00 Uhr - 19:00 Uhr",
+          "location": "",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Patrozinium",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -9253,7 +9673,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Sonntagscafe-im-Buergertreff-Joehlingen-event-appointment6029",
@@ -9265,10 +9685,12 @@
           "endTime": "17:00",
           "dateText": "Sonntag07. November",
           "timeText": "14:00 Uhr - 17:00 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Sonntagscafé im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -9303,7 +9725,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Genussmarkt-Joehlingen-event-appointment5722",
@@ -9315,10 +9737,12 @@
           "endTime": "19:00",
           "dateText": "Montag08. November",
           "timeText": "15:30 Uhr - 19:00 Uhr",
+          "location": "Kirchplatz Jöhlingen , Walzbachtal",
+          "organizer": "Gemeinde Walzbachtal - Rathaus",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Genussmarkt Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -9353,7 +9777,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Martinsfest-event-appointment5886",
@@ -9365,10 +9789,12 @@
           "endTime": "19:00",
           "dateText": "Donnerstag11. November",
           "timeText": "17:00 Uhr - 19:00 Uhr",
+          "location": "Kath. Kirche St. Martin Jöhlingen, Walzbachtal",
+          "organizer": "Kath. Kirche St. Martin Jöhlingen",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Martinsfest",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -9403,7 +9829,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Volkstrauertag-event-appointment5888",
@@ -9415,10 +9841,12 @@
           "endTime": null,
           "dateText": "Sonntag14. November",
           "timeText": "ganztägig",
+          "location": "Aussegnungshalle Jöhlingen, Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Volkstrauertag",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -9453,7 +9881,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Gemeinschaftskonzert-am-Volkstrauertag-event-appointment5715",
@@ -9465,10 +9893,12 @@
           "endTime": "19:00",
           "dateText": "Sonntag14. November",
           "timeText": "17:00 Uhr - 19:00 Uhr",
+          "location": "Aussegnungshalle Jöhlingen, Walzbachtal",
+          "organizer": "Gemeinde Walzbachtal - Rathaus",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Gemeinschaftskonzert am Volkstrauertag",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -9503,7 +9933,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Roemer-am-Oberrhein-Villen-und-Wohnkultur-event-appointment6183",
@@ -9515,10 +9945,12 @@
           "endTime": null,
           "dateText": "Montag15. November",
           "timeText": "19:00 Uhr",
+          "location": "",
+          "organizer": "Heimat- und Kulturverein Walzbachtal e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "\"Römer am Oberrhein - Villen und Wohnkultur\"",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -9553,7 +9985,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Mittagstisch-im-Buergertreff-Joehlingen-event-appointment5989",
@@ -9565,10 +9997,12 @@
           "endTime": "13:30",
           "dateText": "Donnerstag18. November",
           "timeText": "12:00 Uhr - 13:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Mittagstisch im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -9603,7 +10037,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/FV04-Altpapiersammlung-event-appointment5828",
@@ -9615,10 +10049,12 @@
           "endTime": "14:59",
           "dateText": "Samstag20. November",
           "timeText": "09:00 Uhr - 14:59 Uhr",
+          "location": "",
+          "organizer": "FV04 Wössingen e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "FV04 Altpapiersammlung",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -9653,7 +10089,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Reparaturtreff-im-Buergertreff-Joehlingen-event-appointment6002",
@@ -9665,10 +10101,12 @@
           "endTime": "13:00",
           "dateText": "Samstag20. November",
           "timeText": "10:00 Uhr - 13:00 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Reparaturtreff im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -9703,7 +10141,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Walzbachtaler-Weihnachtsmarkt-2027-Rund-um-den-Speyerer-Hof-event-appointment6136",
@@ -9715,10 +10153,12 @@
           "endTime": "22:00",
           "dateText": "Samstag27. November",
           "timeText": "16:00 Uhr - 22:00 Uhr",
+          "location": "Speyerer Hof Jöhlingen, Walzbachtal",
+          "organizer": "Gemeinde Walzbachtal - Rathaus; Gemeinde Walzbachtal",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Walzbachtaler Weihnachtsmarkt 2027 - Rund um den Speyerer Hof",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -9753,7 +10193,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Walzbachtaler-Weihnachtsmarkt-2027-Rund-um-den-Speyerer-Hof-event-appointment6137",
@@ -9765,10 +10205,12 @@
           "endTime": "20:00",
           "dateText": "Sonntag28. November",
           "timeText": "13:00 Uhr - 20:00 Uhr",
+          "location": "Speyerer Hof Jöhlingen, Walzbachtal",
+          "organizer": "Gemeinde Walzbachtal - Rathaus; Gemeinde Walzbachtal",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Walzbachtaler Weihnachtsmarkt 2027 - Rund um den Speyerer Hof",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -9803,7 +10245,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Trauercafe-im-Buergertreff-Joehlingen-event-appointment6013",
@@ -9815,10 +10257,12 @@
           "endTime": "16:30",
           "dateText": "Sonntag28. November",
           "timeText": "15:00 Uhr - 16:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Trauercafé im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -9853,7 +10297,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Nikolausfeier-event-appointment6124",
@@ -9865,10 +10309,12 @@
           "endTime": "17:00",
           "dateText": "Samstag04. Dezember",
           "timeText": "14:00 Uhr - 17:00 Uhr",
+          "location": "Böhnlichhalle, Walzbachtal",
+          "organizer": "Freie Gymnastikgruppe Walzbachtal e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Nikolausfeier",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -9903,7 +10349,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Weihnachtsfeier-des-TSV-Joehlingen-event-appointment6077",
@@ -9915,10 +10361,12 @@
           "endTime": null,
           "dateText": "Sonntag05. Dezember",
           "timeText": "14:30 Uhr",
+          "location": "Jahnhalle Jöhlingen, Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Weihnachtsfeier des TSV Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -9953,7 +10401,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Adventslesung-event-appointment5940",
@@ -9965,10 +10413,12 @@
           "endTime": "17:00",
           "dateText": "Sonntag05. Dezember",
           "timeText": "15:00 Uhr - 17:00 Uhr",
+          "location": "Heimatstube im Pfarrhaus, Heimat- & Kulturverein Walzbachtal e.V., Walzbachtal",
+          "organizer": "Heimat- und Kulturverein Walzbachtal e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Adventslesung",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -10003,7 +10453,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Nikolaus-Lichterfahrt-2027-event-appointment5801",
@@ -10015,10 +10465,12 @@
           "endTime": "22:00",
           "dateText": "Montag06. Dezember",
           "timeText": "18:00 Uhr - 22:00 Uhr",
+          "location": "Gemeinde Walzbachtal - Rathaus, Walzbachtal",
+          "organizer": "Bulldog-Oldtimer-Team Wössingen e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Nikolaus Lichterfahrt 2027",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -10053,7 +10505,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/FC-Theaterabende-2027-event-appointment5845",
@@ -10065,10 +10517,12 @@
           "endTime": null,
           "dateText": "Freitag10. Dezember",
           "timeText": "19:30 Uhr",
+          "location": "Martinussaal Jöhlingen , Walzbachtal",
+          "organizer": "FC Viktoria Jöhlingen 1911 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "FC-Theaterabende 2027",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -10103,7 +10557,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/FV04-Jugendweihnachtsmarkt-event-appointment5829",
@@ -10115,10 +10569,12 @@
           "endTime": null,
           "dateText": "Samstag11. Dezember",
           "timeText": "ganztägig",
+          "location": "",
+          "organizer": "FV04 Wössingen e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "FV04 Jugendweihnachtsmarkt",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -10153,7 +10609,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Weihnachtsfeier-Frohsinn-Joehlingen-event-appointment6114",
@@ -10165,10 +10621,12 @@
           "endTime": "19:30",
           "dateText": "Samstag11. Dezember",
           "timeText": "15:00 Uhr - 19:30 Uhr",
+          "location": "Lammsaal Jöhlingen , Walzbachtal",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Weihnachtsfeier Frohsinn Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -10203,7 +10661,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/FC-Theaterabende-2027-event-appointment5846",
@@ -10215,10 +10673,12 @@
           "endTime": null,
           "dateText": "Samstag11. Dezember",
           "timeText": "19:30 Uhr",
+          "location": "Martinussaal Jöhlingen , Walzbachtal",
+          "organizer": "FC Viktoria Jöhlingen 1911 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "FC-Theaterabende 2027",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -10253,7 +10713,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/FC-Theatercafe-2027-event-appointment5849",
@@ -10265,10 +10725,12 @@
           "endTime": "21:00",
           "dateText": "Sonntag12. Dezember",
           "timeText": "15:00 Uhr - 21:00 Uhr",
+          "location": "Martinussaal Jöhlingen , Walzbachtal",
+          "organizer": "FC Viktoria Jöhlingen 1911 e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "FC-Theatercafe 2027",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -10303,7 +10765,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Mittagstisch-im-Buergertreff-Joehlingen-event-appointment5990",
@@ -10315,10 +10777,12 @@
           "endTime": "13:30",
           "dateText": "Donnerstag16. Dezember",
           "timeText": "12:00 Uhr - 13:30 Uhr",
+          "location": "Bürgertreff Jöhlingen , Walzbachtal",
+          "organizer": "Förderverein für caritativ-diakonische Dienste e.V.",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Mittagstisch im Bürgertreff Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],
@@ -10353,7 +10817,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-19T07:32:48+00:00",
+      "detailCheckedAt": "2026-11-19T13:45:24+00:00",
       "sources": [
         {
           "url": "https://www.walzbachtal.de/veranstaltung/Weihnachtliche-Klaenge-auf-dem-Neuen-Friedhof-Joehlingen-event-appointment6116",
@@ -10365,10 +10829,12 @@
           "endTime": "16:45",
           "dateText": "Freitag24. Dezember",
           "timeText": "16:15 Uhr - 16:45 Uhr",
+          "location": "Neuer Friedhof Jöhlingen, Walzbachtal-Jöhlingen",
+          "organizer": "",
           "sourceId": "walzbachtal",
           "sourceName": "Walzbachtal · Jöhlingen und Wössingen",
           "reportedTitle": "Weihnachtliche Klänge auf dem Neuen Friedhof Jöhlingen",
-          "checkedAt": "2026-11-19T07:32:48+00:00",
+          "checkedAt": "2026-11-19T13:45:24+00:00",
           "priority": 2
         }
       ],

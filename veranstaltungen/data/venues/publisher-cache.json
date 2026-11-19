@@ -1549,6 +1549,50 @@
           "url": "https://kalender.karlsruhe.de/db/termine/architektur/2_denkmalkongress_baden_wurttemberg"
         }
       ]
+    },
+    "venue-ca5fb2a9ec247a814a45": {
+      "checkedAt": "2026-11-19T13:46:26+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Schultheiß-Kiefer-Straße 6",
+          "city": "Grötzingen",
+          "postalCode": "76229",
+          "address": "Schultheiß-Kiefer-Straße 6, 76229 Grötzingen",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/adventskalender"
+        }
+      ]
+    },
+    "venue-539b5d805c42fde4fe22": {
+      "checkedAt": "2026-11-19T13:46:26+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-59bcfbbcd4d21a7adaac": {
+      "checkedAt": "2026-11-19T13:46:26+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Herrenstraße 7",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Herrenstraße 7, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/solartlab_projekt_straengeist-3"
+        }
+      ]
+    },
+    "venue-5a2dfda32f597cce2f8f": {
+      "checkedAt": "2026-11-19T13:46:26+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Kaiserpassage 6",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Kaiserpassage 6, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/abgesagt_monotape"
+        }
+      ]
     }
   }
 }
