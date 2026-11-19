@@ -1,0 +1,23 @@
+{
+  "source": {
+    "id": "vhs-karlsruhe-land-pfinztal",
+    "name": "vhs Karlsruhe Land · Außenstelle Pfinztal",
+    "region": "Pfinztal",
+    "url": "https://www.vhs-karlsruhe-land.de/standorte/pfinztal/",
+    "status": "ok",
+    "lastAttemptAt": "2026-11-19T13:18:48+00:00",
+    "lastSuccessAt": "2026-11-19T13:18:48+00:00",
+    "refreshHours": 24,
+    "recordCount": 0,
+    "eventCount": 0,
+    "undatedCount": 0,
+    "coverageKind": "html-list",
+    "license": null,
+    "coverageNote": "Alle aktuell veröffentlichten Einzelveranstaltungen (Dauer: 1 Termin); mehrteilige Kurse bleiben außen vor.",
+    "allowEmpty": true,
+    "pagesFetched": 1,
+    "landingPage": "https://www.vhs-karlsruhe-land.de/standorte/pfinztal/"
+  },
+  "events": [],
+  "undatedEvents": []
+}

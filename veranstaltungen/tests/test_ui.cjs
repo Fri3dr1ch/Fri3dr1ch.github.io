@@ -36,6 +36,31 @@ test('current embedded production data loads and renders independently of fixtur
   assert.ok(doc.querySelectorAll('.day').length>=28);
  }finally{live.window.close();}
 });
+test('new publisher domains open the exact published detail and provenance links',()=>{
+ const domains=['naturtreff-groetzingen.de','www.vhs-karlsruhe-land.de','www.hagsfeld.de','www.stutensee.de','www.bergdoerfer.info','www.karlsbad.de','www.koenigsbach-stein.de'];
+ const sample=structuredClone(scenario);
+ sample.events=domains.map((host,i)=>{
+  const e={...scenario.events[0],id:'new-source-'+i,title:'Termin '+i,startDate:'2026-11-19',endDate:'2026-11-19',url:'https://'+host+'/termine/'+i,longRunning:false,openingOccurrences:null};
+  e.sources=[{sourceId:e.sourceId,sourceName:e.sourceName,url:e.url}];return e;
+ });
+ const page=liveHtml.replace(/(<script id="event-data" type="application\/json">)[\s\S]*?(<\/script><!-- \/event-data -->)/,
+  (_,a,b)=>a+JSON.stringify(sample).replace(/</g,'\\u003c')+b);
+ const demo=new JSDOM(page,{runScripts:'dangerously',url:'https://calendar.example/',beforeParse(w){
+  dialogSupport(w);
+  const NativeDate=w.Date,fixed=NativeDate.parse('2026-11-19T12:00:00Z');
+  w.Date=class extends NativeDate{constructor(...args){super(...(args.length?args:[fixed]));}static now(){return fixed;}};
+ }});
+ try{
+  const doc=demo.window.document;
+  doc.querySelector('[data-day="2026-11-19"]').click();
+  for(const e of sample.events){
+   doc.querySelector('#agenda-events [data-event="'+e.id+'"]').click();
+   assert.equal(doc.querySelector('#detail-original').href,e.url);
+   assert.equal(doc.querySelector('#detail-source-links a').href,e.url);
+   doc.querySelector('#close-dialog').click();
+  }
+ }finally{demo.window.close();}
+});
 test('all sources load and calendar renders',()=>{
  assert.equal(errors.length,0);assert.equal($('source-count').textContent,`${dataset.events.length} Termine · ${dataset.sources.length} Quellen`);
  assert.equal(inputs('source-filter').length,dataset.sources.length);assert.ok(inputs('source-filter').every(i=>i.checked));assert.ok(d.querySelectorAll('.day').length>=28);
