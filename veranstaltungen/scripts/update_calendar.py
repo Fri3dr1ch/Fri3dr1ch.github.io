@@ -22,6 +22,20 @@ def now():
     return datetime.now(timezone.utc).isoformat(timespec='seconds')
 
 
+def source_due(source, at=None):
+    """Use publisher refresh intervals; retry partial sources on the next run."""
+    hours = source.get('refreshHours')
+    last = source.get('lastSuccessAt')
+    if not hours or not last or source.get('status') != 'ok':
+        return True
+    try:
+        checked = datetime.fromisoformat(last.replace('Z', '+00:00'))
+        at = at or datetime.now(timezone.utc)
+        return (at - checked.astimezone(timezone.utc)).total_seconds() >= float(hours) * 3600
+    except (TypeError, ValueError):
+        return True
+
+
 def write_json(path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_suffix(path.suffix + '.tmp')
@@ -107,24 +121,29 @@ def run(root, selected='all', offline=False, jobs=3, client=None, report_dir=Non
             if sid == 'karlsruhe':
                 path = root / 'data/karlsruhe-rss.json'
                 result = karlsruhe.refresh(read_json(path), client)
-                return sid, path, result
+                return sid, path, result, True
             path = root / 'data/local-calendars' / (sid + '.json')
-            result, error = refresh(sid, now(), read_json(path), client, root=root)
+            previous = read_json(path)
+            if selected in {'all','regional'} and previous and not source_due(previous['source']):
+                print(sid + ': übersprungen; bestätigter Stand jünger als ' + str(previous['source'].get('refreshHours')) + ' Stunden', flush=True)
+                return sid, path, previous, False
+            result, error = refresh(sid, now(), previous, client, root=root)
             if result is None:
                 # The delivered seed data normally prevents this case. A missing
                 # first source is still a failure, never an empty successful feed.
                 result = {'source': {**SOURCES[sid], 'status': 'error', 'lastAttemptAt': now(),
                                      'lastError': error}, 'events': [], 'undatedEvents': []}
-            return sid, path, result
+            return sid, path, result, True
         wanted = ['karlsruhe', *SOURCES] if selected == 'all' else list(SOURCES) if selected == 'regional' else ([] if selected == 'pdfs' else [selected])
         with ThreadPoolExecutor(max_workers=jobs) as pool:
             futures = [pool.submit(load, sid) for sid in wanted]
             for future in as_completed(futures):
-                sid, path, result = future.result()
-                write_json(path, result)
-                attempted.append(sid)
+                sid, path, result, fetched = future.result()
+                if fetched: write_json(path, result)
+                if fetched: attempted.append(sid)
                 source = result['sources'][0] if sid == 'karlsruhe' else result['source']
-                print(sid + ': ' + source['status'] + ', ' + str(len(result['events'])) + ' Einträge', flush=True)
+                if fetched and sid=='karlsruhe' and source.get('listingLastAttemptAt'): attempted.append('stadtteilbibliothek-groetzingen')
+                print(sid + ': ' + source['status'] + ', ' + str(len(result['events'])) + ' Einträge' + ('' if fetched else ', Stand noch frisch'), flush=True)
         if selected in {'all', 'regional', 'pdfs'}:
             path = root / 'data/source-checks.json'
             checks = check_pdfs(root, client, current['sources'], read_json(path, {}))

@@ -10,7 +10,9 @@ from zoneinfo import ZoneInfo
 LOCAL_SOURCE_IDS=('durlach','weingarten','pfinztal','pfinztal-vereine','remchingen',
                   'kulturhalle-remchingen','eki-groetzingen','pfinztal-haus-begegnungen',
                   'naturfreunde-berghausen','naturfreunde-soellingen','naturfreunde-groetzingen','walzbachtal',
-                  'waldpaedagogik-karlsruhe')
+                  'waldpaedagogik-karlsruhe','naturtreff-groetzingen',
+                  'vhs-karlsruhe-land-pfinztal','vhs-karlsruhe-land-weingarten','vhs-karlsruhe-land-walzbachtal',
+                  'awo-groetzingen','hagsfeld','stutensee','bergdoerfer','karlsbad','koenigsbach-stein')
 
 def normalized(text):
     text=unicodedata.normalize('NFKD',(text or '').replace('ß','ss')).encode('ascii','ignore').decode().lower()

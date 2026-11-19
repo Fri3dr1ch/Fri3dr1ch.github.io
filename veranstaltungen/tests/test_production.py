@@ -38,6 +38,11 @@ def ics(start='20261113T190000', finish='20261113T210000', extra='', uid='123'):
             'END:VEVENT\r\nEND:VCALENDAR\r\n').encode()
 
 
+def library_listing():
+    return ('<html><title>Stadtteilbibliothek Grötzingen</title>'
+            '<a href="https://kalender.karlsruhe.de/db/termine/ausstellungen/test">Ausstellung</a></html>').encode()
+
+
 class KarlsruheTests(unittest.TestCase):
     def setUp(self):
         self.record = karlsruhe.parse_feed(rss())[0][0]
@@ -115,7 +120,8 @@ class KarlsruheTests(unittest.TestCase):
         event['icalEtag'] = 'etag1'
         previous = {'sources': [{'id': 'karlsruhe'}], 'events': [event]}
         class Client:
-            def __call__(self, url): return rss().replace(b'Ausstellung', b'Neuer Titel')
+            def __call__(self, url):
+                return library_listing() if url == karlsruhe.GROETZINGEN_LIBRARY else rss().replace(b'Ausstellung', b'Neuer Titel')
             def request(inner, url, headers):
                 self.assertEqual(headers['If-None-Match'], 'etag1')
                 return Response(b'', 304, {})
@@ -128,7 +134,7 @@ class KarlsruheTests(unittest.TestCase):
         event = karlsruhe.detail(self.record, ics(), karlsruhe.stamp())
         previous = {'sources': [{'id': 'karlsruhe'}], 'events': [event]}
         class Client:
-            def __call__(self, url): return rss()
+            def __call__(self, url): return library_listing() if url == karlsruhe.GROETZINGEN_LIBRARY else rss()
             def request(self, *args, **kwargs): raise AssertionError('recent unchanged detail must be reused')
         result = karlsruhe.refresh(previous, Client())
         self.assertEqual(result['sources'][0]['status'], 'ok')

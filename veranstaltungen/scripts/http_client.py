@@ -16,6 +16,9 @@ ALLOWED_HOSTS = frozenset({
     'www.naturfreunde-groetzingen.de', 'www.naturfreunde-berghausen.de',
     'www.naturfreunde-soellingen.de', 'calendar.google.com',
     'www.walzbachtal.de', 'www.waldpaedagogik-karlsruhe.de',
+    'naturtreff-groetzingen.de', 'www.vhs-karlsruhe-land.de', 'www.awo-karlsruhe.de',
+    'www.hagsfeld.de', 'www.stutensee.de', 'www.bergdoerfer.info', 'www.karlsbad.de',
+    'www.koenigsbach-stein.de',
 })
 
 
