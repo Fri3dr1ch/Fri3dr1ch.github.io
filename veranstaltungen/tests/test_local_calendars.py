@@ -9,7 +9,7 @@ from unittest.mock import patch
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
 import import_local_calendars as imp
-from import_groetzingen import build_dataset
+from import_groetzingen import build_dataset, NATURPARADIES_RSS_ALIAS, NATURPARADIES_RSS_CANONICAL
 from calendar_sources import combine_local_sources,saved_sources
 
 STAMP='2026-11-12T09:00:00+00:00'
@@ -85,7 +85,12 @@ class LocalCalendarTests(unittest.TestCase):
         data=imp.build_current(ROOT,STAMP);again=imp.build_current(ROOT,STAMP)
         self.assertEqual(data,again)
         old=json.loads((ROOT/'data/karlsruhe-rss.json').read_text())
-        self.assertTrue({e['id'] for e in old['events']}<={e['id'] for e in data['events']})
+        output_ids={e['id'] for e in data['events']}
+        removed={e['id'] for e in old['events']}-output_ids
+        self.assertTrue(removed<={NATURPARADIES_RSS_ALIAS})
+        if removed:
+            original=next(e for e in data['events'] if e['id']==NATURPARADIES_RSS_CANONICAL)
+            self.assertIn(NATURPARADIES_RSS_ALIAS,{s.get('recordId') for s in original['sources']})
         self.assertEqual(len({e['id'] for e in data['events']}),len(data['events']))
         current=json.loads((ROOT/'dist/events.json').read_text())
         for name in ('groetzingen-jahresprogramm','groetzingen-kultur-natur'):

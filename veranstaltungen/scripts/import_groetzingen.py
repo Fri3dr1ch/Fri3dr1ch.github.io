@@ -23,6 +23,8 @@ BERLIN=ZoneInfo('Europe/Berlin')
 BEGIN='<script id="event-data" type="application/json">'
 END='</script><!-- /event-data -->'
 PDF_SOURCE_IDS={'groetzingen-jahresprogramm','groetzingen-kultur-natur'}
+NATURPARADIES_RSS_ALIAS='karlsruhe-ef3eb8362b74e956'
+NATURPARADIES_RSS_CANONICAL='karlsruhe-5c2d39707b07917f'
 RSS_IDENTITIES={
  'karlsruhe-35df20f3f134b600':'neobiota',
  'karlsruhe-5c2d39707b07917f':'naturparadies-rheinauen-naturtreff-grotzingen',
@@ -169,6 +171,12 @@ def merge_events(events):
 
 def build_dataset(base,snapshots,stamp,today):
     events=[];undated=[];sources=list(base['sources'])
+    # The publisher listed the same visit under two GUIDs. Keep the original
+    # identity only while both records still match the reviewed visit.
+    naturparadies_ids={e['id'] for e in base['events'] if
+        (e['title'],e['startDate'],e.get('startTime'),e.get('location'),e.get('status'))==
+        ('Naturparadies Rheinauen','2026-11-19','19:00','Begegnungsstätte Grötzingen','scheduled')}
+    merge_naturparadies_alias={NATURPARADIES_RSS_CANONICAL,NATURPARADIES_RSS_ALIAS}<=naturparadies_ids
     # Downloading an unchanged PDF is not a new editorial review. A due reminder
     # remains due until the reviewed extracts themselves carry a new review date.
     reviewed_on=min(date.fromisoformat(s['reviewedOn']) for s in snapshots)
@@ -181,7 +189,10 @@ def build_dataset(base,snapshots,stamp,today):
         reviewed=REVIEWED_RSS_IDENTITIES.get(original['id'])
         if reviewed and all((normalize(original.get(field,''))==normalize(reviewed[field]) if field in ('title','location') else original.get(field)==reviewed[field]) for field in ('startDate','startTime','title','location')):
             event['_identity']=reviewed['identity']
-        event['_priority']=3;event['conflicts']=[]
+        is_reviewed_alias=merge_naturparadies_alias and original['id']==NATURPARADIES_RSS_ALIAS
+        if is_reviewed_alias:event['_identity']=RSS_IDENTITIES[NATURPARADIES_RSS_CANONICAL]
+        event['_priority']=2 if is_reviewed_alias else 3
+        event['conflicts']=[]
         events.append(event)
     for priority,source in enumerate(snapshots,1):
         for record in source['records']:

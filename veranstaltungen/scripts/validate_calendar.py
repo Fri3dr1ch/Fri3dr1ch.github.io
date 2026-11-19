@@ -24,8 +24,18 @@ def validate(data):
         if source.get('lastSuccessAt') and datetime.fromisoformat(source['lastSuccessAt']).tzinfo is None:
             raise ValueError('Quellenabruf hat keine Zeitzone')
     events = data['events']
-    if not events or len({e['id'] for e in events}) != len(events):
-        raise ValueError('Kalender ist leer oder enthält doppelte IDs')
+    if not events:
+        raise ValueError('Kalender ist leer')
+    validate_events(events, ids)
+    if data['importStats']['eventCount'] != len(events):
+        raise ValueError('Eintragszahl stimmt nicht mit dem Kalender überein')
+    return data
+
+
+def validate_events(events, ids):
+    """Use the same event contract before saving a source and building the calendar."""
+    if len({e['id'] for e in events}) != len(events):
+        raise ValueError('Kalender enthält doppelte IDs')
     for event in events:
         start, end = date.fromisoformat(event['startDate']), date.fromisoformat(event['endDate'])
         if not event['title'].strip() or end < start:
@@ -37,7 +47,8 @@ def validate(data):
         for key in ('startTime', 'endTime'):
             if event.get(key): datetime.strptime(event[key], '%H:%M')
         for report in event['sources']:
-            if report['sourceId'] not in ids or urlsplit(report['url']).scheme != 'https':
+            url = urlsplit(report['url'])
+            if report['sourceId'] not in ids or url.scheme != 'https' or not url.hostname or url.username or url.password:
                 raise ValueError('Unbekannte oder unsichere Originalquelle')
         for opening in event.get('openingOccurrences') or []:
             day = date.fromisoformat(opening['startDate'])
@@ -51,9 +62,6 @@ def validate(data):
                 raise ValueError('Unbekannter Ortszuordnungsstatus')
             if venue['status'] == 'resolved': validate_place(venue['place'])
             elif venue.get('place') is not None: raise ValueError('Ungeprüfter Ort hat einen Kartenpunkt')
-    if data['importStats']['eventCount'] != len(events):
-        raise ValueError('Eintragszahl stimmt nicht mit dem Kalender überein')
-    return data
 
 
 def validate_files(root):

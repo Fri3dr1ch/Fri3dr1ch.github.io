@@ -10,6 +10,7 @@ from pathlib import Path
 import sys
 
 from http_client import HttpClient
+from calendar_sources import PUBLISHER_SOURCE_IDS
 from import_groetzingen import ROOT, BERLIN, check_review, next_review, save_dataset
 from import_local_calendars import SOURCES, refresh, build_current
 import karlsruhe
@@ -20,6 +21,20 @@ from venue_locations import enrich as locate_venues, render_review, review_probl
 
 def now():
     return datetime.now(timezone.utc).isoformat(timespec='seconds')
+
+
+def source_due(source, at=None):
+    """Use publisher refresh intervals; retry partial sources on the next run."""
+    hours = source.get('refreshHours')
+    last = source.get('lastSuccessAt')
+    if not hours or not last or source.get('status') != 'ok':
+        return True
+    try:
+        checked = datetime.fromisoformat(last.replace('Z', '+00:00'))
+        at = at or datetime.now(timezone.utc)
+        return (at - checked.astimezone(timezone.utc)).total_seconds() >= float(hours) * 3600
+    except (TypeError, ValueError):
+        return True
 
 
 def write_json(path, value):
@@ -33,8 +48,9 @@ def read_json(path, default=None):
     return json.loads(path.read_text()) if path.exists() else default
 
 
-def problems(data, today):
+def problems(data, today, at=None):
     active, resolved = [], []
+    at = at or datetime.now(timezone.utc)
     pdf_ids = {'groetzingen-jahresprogramm', 'groetzingen-kultur-natur'}
     for source in data['sources']:
         sid = source['id']
@@ -42,10 +58,13 @@ def problems(data, today):
                 'lastSuccessAt': source.get('lastSuccessAt')}
         error_key, review_key = 'error:' + sid, 'review:' + sid
         last_check = source.get('lastCheckedAt') or source.get('lastSuccessAt')
+        # A daily refresh can miss the next six-hour slot by a few seconds.
+        # Allow one scheduling interval before reporting stale data.
         stale = bool(source.get('refreshHours') and last_check and
-                     (datetime.now(timezone.utc) - datetime.fromisoformat(last_check)).total_seconds() > source['refreshHours'] * 3600)
+                     (at - datetime.fromisoformat(last_check)).total_seconds() > (source['refreshHours'] + 6) * 3600)
         if source['status'] in {'error', 'partial'} or stale:
             active.append({**base, 'key': error_key, 'kind': 'error',
+                           'reportOnly': sid in PUBLISHER_SOURCE_IDS,
                            'reason': source.get('lastError') or ('Quellenstand ist älter als das vorgesehene Abrufintervall.' if stale else 'Quellenabruf unvollständig.')})
         else:
             resolved.append(error_key)
@@ -60,16 +79,24 @@ def problems(data, today):
                            'lastReviewedAt': source.get('lastReviewedAt')})
         elif source['status'] not in {'error', 'partial'}:
             resolved.append(review_key)
+        if sid == 'karlsruhe' and source.get('listingStatus') in {'error', 'partial'}:
+            active.append({'sourceId': karlsruhe.LIBRARY_ID, 'sourceName': 'Stadtteilbibliothek Grötzingen',
+                           'key': 'error:' + karlsruhe.LIBRARY_ID, 'kind': 'error', 'reportOnly': True,
+                           'url': source.get('listingUrl'), 'lastSuccessAt': source.get('listingLastSuccessAt'),
+                           'reason': source.get('listingLastError') or 'Bibliotheksliste unvollständig.'})
     return active, resolved
 
 
 def report_for(data, started, attempted):
-    active, resolved = problems(data, datetime.now(BERLIN).date())
+    at = datetime.fromisoformat(started)
+    active, resolved = problems(data, at.astimezone(BERLIN).date(), at=at)
+    warnings = [item for item in active if item.get('reportOnly')]
+    issues = [item for item in active if not item.get('reportOnly')]
     return {'schemaVersion': 1, 'startedAt': started, 'finishedAt': now(),
             'generatedAt': data['generatedAt'], 'eventCount': len(data['events']),
             'attemptedSources': attempted, 'sources': data['sources'],
-            'issues': active, 'resolvedKeys': resolved,
-            'errors': [i for i in active if i['kind'] == 'error'], 'validationPassed': True}
+            'issues': issues, 'resolvedKeys': resolved, 'sourceWarnings': warnings,
+            'errors': [i for i in issues if i['kind'] == 'error'], 'validationPassed': True}
 
 
 def markdown(report):
@@ -89,8 +116,13 @@ def markdown(report):
         for item in report['issues']:
             reason = item['reason'].replace('\n', ' ').replace('@', '@\u200b')[:1200]
             lines.append('- **' + item['sourceName'] + '**: ' + reason)
-    else:
+    elif not report.get('sourceWarnings'):
         lines += ['', 'Keine fälligen Quellenprüfungen und keine Abruffehler.']
+    if report.get('sourceWarnings'):
+        lines += ['', '## Abrufwarnungen zu ergänzenden Quellen', '']
+        for item in report['sourceWarnings']:
+            reason = item['reason'].replace('\n', ' ').replace('@', '@\u200b')[:1200]
+            lines.append('- **' + item['sourceName'] + '**: ' + reason)
     return '\n'.join(lines) + '\n'
 
 
@@ -107,24 +139,31 @@ def run(root, selected='all', offline=False, jobs=3, client=None, report_dir=Non
             if sid == 'karlsruhe':
                 path = root / 'data/karlsruhe-rss.json'
                 result = karlsruhe.refresh(read_json(path), client)
-                return sid, path, result
+                return sid, path, result, True
             path = root / 'data/local-calendars' / (sid + '.json')
-            result, error = refresh(sid, now(), read_json(path), client, root=root)
+            previous = read_json(path)
+            if (selected in {'all', 'regional'} and sid in PUBLISHER_SOURCE_IDS
+                    and previous and not source_due(previous['source'], datetime.fromisoformat(started))):
+                print(sid + ': übersprungen; bestätigter Stand jünger als ' + str(previous['source'].get('refreshHours')) + ' Stunden', flush=True)
+                return sid, path, previous, False
+            result, error = refresh(sid, now(), previous, client, root=root)
             if result is None:
                 # The delivered seed data normally prevents this case. A missing
                 # first source is still a failure, never an empty successful feed.
                 result = {'source': {**SOURCES[sid], 'status': 'error', 'lastAttemptAt': now(),
                                      'lastError': error}, 'events': [], 'undatedEvents': []}
-            return sid, path, result
+            return sid, path, result, True
         wanted = ['karlsruhe', *SOURCES] if selected == 'all' else list(SOURCES) if selected == 'regional' else ([] if selected == 'pdfs' else [selected])
         with ThreadPoolExecutor(max_workers=jobs) as pool:
             futures = [pool.submit(load, sid) for sid in wanted]
             for future in as_completed(futures):
-                sid, path, result = future.result()
-                write_json(path, result)
-                attempted.append(sid)
+                sid, path, result, fetched = future.result()
+                if fetched: write_json(path, result)
+                if fetched: attempted.append(sid)
                 source = result['sources'][0] if sid == 'karlsruhe' else result['source']
-                print(sid + ': ' + source['status'] + ', ' + str(len(result['events'])) + ' Einträge', flush=True)
+                if fetched and sid == 'karlsruhe' and (source.get('listingLastAttemptAt') or '') >= started:
+                    attempted.append(karlsruhe.LIBRARY_ID)
+                print(sid + ': ' + source['status'] + ', ' + str(len(result['events'])) + ' Einträge' + ('' if fetched else ', Stand noch frisch'), flush=True)
         if selected in {'all', 'regional', 'pdfs'}:
             path = root / 'data/source-checks.json'
             checks = check_pdfs(root, client, current['sources'], read_json(path, {}))
@@ -142,7 +181,8 @@ def run(root, selected='all', offline=False, jobs=3, client=None, report_dir=Non
         report['venueStats'] = venue_review['stats']
         report['venueLookup'] = venue_review['lookup']
         config = read_json(root / 'data/venues/config.json')
-        problem = review_problem(venue_review, config['reviewUrl'])
+        problem = review_problem(venue_review, config['reviewUrl'],
+                                 optional_sources={*PUBLISHER_SOURCE_IDS, karlsruhe.LIBRARY_ID})
         if problem: report['issues'].append(problem)
         else: report['resolvedKeys'].append('review:venues')
     folder = report_dir or root / '.etl'
