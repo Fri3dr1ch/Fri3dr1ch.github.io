@@ -1671,6 +1671,55 @@
           "url": "https://kalender.karlsruhe.de/db/termine/literatur/junge_talente_wissenschaft_und_musik-3"
         }
       ]
+    },
+    "venue-15bd65a142355116f9a8": {
+      "checkedAt": "2026-11-20T07:24:54+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-a2b43dc51fd9581b418c": {
+      "checkedAt": "2026-11-20T07:24:54+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Rathausstraße 2a",
+          "city": "Karlsruhe-Wolfartsweier",
+          "postalCode": "76228",
+          "address": "Rathausstraße 2a, 76228 Karlsruhe-Wolfartsweier",
+          "url": "https://kalender.karlsruhe.de/db/termine/architektur/wohnen_in_karlsruhe_ausstellung_und-1"
+        }
+      ]
+    },
+    "venue-a3d426e89dc556e698b3": {
+      "checkedAt": "2026-11-20T07:24:54+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Markgrafenstraße 14",
+          "city": "Karlsruhe",
+          "postalCode": "76131",
+          "address": "Markgrafenstraße 14, 76131 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/100_jahre_gedok_das_archiv_kunstlerinnen"
+        }
+      ]
+    },
+    "venue-a8597da58146bdbdf3ca": {
+      "checkedAt": "2026-11-20T07:24:54+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-ab68408b496382bf2330": {
+      "checkedAt": "2026-11-20T07:24:54+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Waldstraße 3",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Waldstraße 3, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/raum_musik_fur_saxophone"
+        }
+      ]
     }
   }
 }

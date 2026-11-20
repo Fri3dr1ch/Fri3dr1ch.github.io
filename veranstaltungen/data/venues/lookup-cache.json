@@ -18505,6 +18505,416 @@
           "houseNumber": "56"
         }
       ]
+    },
+    "Karlsruhe Messplatz, Karlsruhe": {
+      "checkedAt": "2026-11-20T07:24:54+00:00",
+      "places": [
+        {
+          "id": "osm-way-134631705",
+          "name": "Messplatz",
+          "latitude": 49.004681,
+          "longitude": 8.4346101,
+          "address": "Durlacher Allee, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/134631705",
+          "category": "amenity",
+          "type": "parking",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "Durlacher Allee",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-252297880",
+          "name": "BE-Fläche Messplatz",
+          "latitude": 49.003586,
+          "longitude": 8.4332302,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/252297880",
+          "category": "landuse",
+          "type": "construction",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Gerwig straße 2, Karlsruhe": {
+      "checkedAt": "2026-11-20T07:24:54+00:00",
+      "places": [
+        {
+          "id": "osm-node-28140019",
+          "name": "Polizeiposten Karlsruhe-Hagsfeld",
+          "latitude": 49.0291978,
+          "longitude": 8.4575483,
+          "address": "Julius-Bender-Straße 2, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/28140019",
+          "category": "amenity",
+          "type": "police",
+          "city": "Karlsruhe",
+          "district": "Hagsfeld",
+          "locality": "Alt-Hagsfeld",
+          "street": "Julius-Bender-Straße",
+          "houseNumber": "2"
+        },
+        {
+          "id": "osm-way-186368641",
+          "name": "Karlsruher Straße 2",
+          "latitude": 49.0307243,
+          "longitude": 8.4581274,
+          "address": "Karlsruher Straße 2, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/186368641",
+          "category": "building",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Hagsfeld",
+          "locality": "Alt-Hagsfeld",
+          "street": "Karlsruher Straße",
+          "houseNumber": "2"
+        },
+        {
+          "id": "osm-node-1725396607",
+          "name": "Alte Karlsruher Straße 2",
+          "latitude": 49.0030113,
+          "longitude": 8.4621815,
+          "address": "Alte Karlsruher Straße 2, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1725396607",
+          "category": "place",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Untermühlsiedlung",
+          "street": "Alte Karlsruher Straße",
+          "houseNumber": "2"
+        },
+        {
+          "id": "osm-way-317990202",
+          "name": "KIT-Bibliothek",
+          "latitude": 49.0111548,
+          "longitude": 8.4163751,
+          "address": "Straße am Forum 2, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/317990202",
+          "category": "amenity",
+          "type": "library",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Nordöstlicher Teil",
+          "street": "Straße am Forum",
+          "houseNumber": "2"
+        },
+        {
+          "id": "osm-way-188284626",
+          "name": "Alte Karlsruher Straße 2a",
+          "latitude": 49.0032171,
+          "longitude": 8.4624829,
+          "address": "Alte Karlsruher Straße 2a, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/188284626",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Untermühlsiedlung",
+          "street": "Alte Karlsruher Straße",
+          "houseNumber": "2a"
+        }
+      ]
+    },
+    "Kaiser straße 131, Karlsruhe": {
+      "checkedAt": "2026-11-20T07:24:54+00:00",
+      "places": [
+        {
+          "id": "osm-way-313796468",
+          "name": "Karlsruher Straße 131",
+          "latitude": 48.9852064,
+          "longitude": 8.3277045,
+          "address": "Karlsruher Straße 131, 76287 Rheinstetten",
+          "url": "https://www.openstreetmap.org/way/313796468",
+          "category": "building",
+          "type": "house",
+          "city": "Rheinstetten",
+          "district": "Forchheim",
+          "locality": "",
+          "street": "Karlsruher Straße",
+          "houseNumber": "131"
+        },
+        {
+          "id": "osm-way-242629850",
+          "name": "Karlsruher Straße 131",
+          "latitude": 49.0013267,
+          "longitude": 8.5295941,
+          "address": "Karlsruher Straße 131, 76327 Berghausen",
+          "url": "https://www.openstreetmap.org/way/242629850",
+          "category": "building",
+          "type": "yes",
+          "city": "Berghausen",
+          "district": "Berghausen",
+          "locality": "",
+          "street": "Karlsruher Straße",
+          "houseNumber": "131"
+        },
+        {
+          "id": "osm-node-60247928",
+          "name": "Deutscher Kaiser",
+          "latitude": 49.0535104,
+          "longitude": 8.383718,
+          "address": "Teutschneureuter Straße 30, 76149 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/60247928",
+          "category": "tourism",
+          "type": "guest_house",
+          "city": "Karlsruhe",
+          "district": "Neureut",
+          "locality": "Neureut Nördlicher Teil",
+          "street": "Teutschneureuter Straße",
+          "houseNumber": "30"
+        },
+        {
+          "id": "osm-way-123258294",
+          "name": "Daxlander Straße 131",
+          "latitude": 49.007151,
+          "longitude": 8.341435,
+          "address": "Daxlander Straße 131, 76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/123258294",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Grünwinkel",
+          "locality": "Albsiedlung",
+          "street": "Daxlander Straße",
+          "houseNumber": "131"
+        }
+      ]
+    },
+    "Hermann-von-Helmholtz-Platz 1, Eggenstein-Leopoldshafen": {
+      "checkedAt": "2026-11-20T07:24:54+00:00",
+      "places": [
+        {
+          "id": "osm-node-7028532196",
+          "name": "n.able GmbH",
+          "latitude": 49.0981823,
+          "longitude": 8.4327136,
+          "address": "Hermann-von-Helmholtz-Platz 1, 76344 Eggenstein-Leopoldshafen",
+          "url": "https://www.openstreetmap.org/node/7028532196",
+          "category": "office",
+          "type": "company",
+          "city": "Eggenstein-Leopoldshafen",
+          "district": "Leopoldshafen",
+          "locality": "",
+          "street": "Hermann-von-Helmholtz-Platz",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-node-1846896956",
+          "name": "Hermann-von-Helmholtz-Platz 1",
+          "latitude": 49.0919228,
+          "longitude": 8.4283874,
+          "address": "Hermann-von-Helmholtz-Platz 1, 76344 Eggenstein-Leopoldshafen",
+          "url": "https://www.openstreetmap.org/node/1846896956",
+          "category": "place",
+          "type": "house",
+          "city": "Eggenstein-Leopoldshafen",
+          "district": "Leopoldshafen",
+          "locality": "",
+          "street": "Hermann-von-Helmholtz-Platz",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-way-173943848",
+          "name": "Nanos!",
+          "latitude": 49.0907625,
+          "longitude": 8.431013,
+          "address": "Hermann-von-Helmholtz-Platz 1, 76344 Eggenstein-Leopoldshafen",
+          "url": "https://www.openstreetmap.org/way/173943848",
+          "category": "amenity",
+          "type": "kindergarten",
+          "city": "Eggenstein-Leopoldshafen",
+          "district": "Leopoldshafen",
+          "locality": "",
+          "street": "Hermann-von-Helmholtz-Platz",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-way-228439432",
+          "name": "KIT Casino - Campus Nord",
+          "latitude": 49.0930903,
+          "longitude": 8.4291672,
+          "address": "Hermann-von-Helmholtz-Platz 1, 76344 Eggenstein-Leopoldshafen",
+          "url": "https://www.openstreetmap.org/way/228439432",
+          "category": "amenity",
+          "type": "canteen",
+          "city": "Eggenstein-Leopoldshafen",
+          "district": "Leopoldshafen",
+          "locality": "",
+          "street": "Hermann-von-Helmholtz-Platz",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-way-675669204",
+          "name": "KIT-Campus Nord",
+          "latitude": 49.0907277,
+          "longitude": 8.4285387,
+          "address": "Hermann-von-Helmholtz-Platz 1, 76344 Eggenstein-Leopoldshafen",
+          "url": "https://www.openstreetmap.org/way/675669204",
+          "category": "amenity",
+          "type": "car_sharing",
+          "city": "Eggenstein-Leopoldshafen",
+          "district": "Leopoldshafen",
+          "locality": "",
+          "street": "Hermann-von-Helmholtz-Platz",
+          "houseNumber": "1"
+        }
+      ]
+    },
+    "Rathausstraße 2a, Karlsruhe-Wolfartsweier": {
+      "checkedAt": "2026-11-20T07:24:54+00:00",
+      "places": [
+        {
+          "id": "osm-way-104143842",
+          "name": "Begegnungsstätte Wolfartsweier",
+          "latitude": 48.9749071,
+          "longitude": 8.4525249,
+          "address": "Rathausstraße 2a, 76228 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/104143842",
+          "category": "amenity",
+          "type": "community_centre",
+          "city": "Karlsruhe",
+          "district": "Wolfartsweier",
+          "locality": "",
+          "street": "Rathausstraße",
+          "houseNumber": "2a"
+        }
+      ]
+    },
+    "Markgrafenstraße 14, Karlsruhe": {
+      "checkedAt": "2026-11-20T07:24:54+00:00",
+      "places": [
+        {
+          "id": "osm-node-6009863968",
+          "name": "Lokale Agenda 21 e.V.",
+          "latitude": 49.007842,
+          "longitude": 8.4108001,
+          "address": "Markgrafenstraße 14, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/6009863968",
+          "category": "club",
+          "type": "sustainability",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Markgrafenstraße",
+          "houseNumber": "14"
+        },
+        {
+          "id": "osm-way-238175615",
+          "name": "Markgrafenstraße 14",
+          "latitude": 49.0078673,
+          "longitude": 8.4104912,
+          "address": "Markgrafenstraße 14, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/238175615",
+          "category": "building",
+          "type": "office",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Markgrafenstraße",
+          "houseNumber": "14"
+        },
+        {
+          "id": "osm-node-3686189863",
+          "name": "Gedok Künstlerinnenforum",
+          "latitude": 49.0078222,
+          "longitude": 8.4104745,
+          "address": "Markgrafenstraße 14, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3686189863",
+          "category": "amenity",
+          "type": "arts_centre",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Markgrafenstraße",
+          "houseNumber": "14"
+        }
+      ]
+    },
+    "Waldstraße 3, Karlsruhe": {
+      "checkedAt": "2026-11-20T07:24:54+00:00",
+      "places": [
+        {
+          "id": "osm-way-91367125",
+          "name": "Badischer Kunstverein",
+          "latitude": 49.0110182,
+          "longitude": 8.3999026,
+          "address": "Waldstraße 3, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/91367125",
+          "category": "amenity",
+          "type": "arts_centre",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Waldstraße",
+          "houseNumber": "3"
+        },
+        {
+          "id": "osm-way-223696922",
+          "name": "Waldstraße 3",
+          "latitude": 49.0475249,
+          "longitude": 8.4616253,
+          "address": "Waldstraße 3, 76297 Blankenloch",
+          "url": "https://www.openstreetmap.org/way/223696922",
+          "category": "building",
+          "type": "house",
+          "city": "Blankenloch",
+          "district": "Büchig",
+          "locality": "",
+          "street": "Waldstraße",
+          "houseNumber": "3"
+        },
+        {
+          "id": "osm-way-218450504",
+          "name": "Waldstraße 3",
+          "latitude": 48.9315883,
+          "longitude": 8.4603282,
+          "address": "Waldstraße 3, 76337 Waldbronn",
+          "url": "https://www.openstreetmap.org/way/218450504",
+          "category": "building",
+          "type": "yes",
+          "city": "Waldbronn",
+          "district": "Busenbach",
+          "locality": "",
+          "street": "Waldstraße",
+          "houseNumber": "3"
+        },
+        {
+          "id": "osm-way-218657843",
+          "name": "Waldstraße 3",
+          "latitude": 49.0985811,
+          "longitude": 8.3959409,
+          "address": "Waldstraße 3, 76344 Eggenstein-Leopoldshafen",
+          "url": "https://www.openstreetmap.org/way/218657843",
+          "category": "building",
+          "type": "yes",
+          "city": "Eggenstein-Leopoldshafen",
+          "district": "Leopoldshafen",
+          "locality": "Leopoldshafen",
+          "street": "Waldstraße",
+          "houseNumber": "3"
+        },
+        {
+          "id": "osm-way-72747805",
+          "name": "Waldstraße 3",
+          "latitude": 48.9336929,
+          "longitude": 8.422976,
+          "address": "Waldstraße 3, 76275 Ettlingen",
+          "url": "https://www.openstreetmap.org/way/72747805",
+          "category": "building",
+          "type": "detached",
+          "city": "Ettlingen",
+          "district": "Ettlingen",
+          "locality": "",
+          "street": "Waldstraße",
+          "houseNumber": "3"
+        }
+      ]
     }
   },
   "attribution": {
