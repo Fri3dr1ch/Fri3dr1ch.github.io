@@ -18915,6 +18915,339 @@
           "houseNumber": "3"
         }
       ]
+    },
+    "NF-Haus 'Am Hopfenberg', Berghausen Pfinztal": {
+      "checkedAt": "2026-11-20T20:28:45+00:00",
+      "places": []
+    },
+    "Amthausstraße 17, Karlsruhe": {
+      "checkedAt": "2026-11-20T20:28:45+00:00",
+      "places": [
+        {
+          "id": "osm-way-97135212",
+          "name": "Amthausstraße 17",
+          "latitude": 48.9979953,
+          "longitude": 8.471372,
+          "address": "Amthausstraße 17, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/97135212",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Amthausstraße",
+          "houseNumber": "17"
+        },
+        {
+          "id": "osm-node-12458900137",
+          "name": "Orgelfabrik Verein",
+          "latitude": 48.9978389,
+          "longitude": 8.4715895,
+          "address": "Amthausstraße 17-19, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12458900137",
+          "category": "club",
+          "type": "history",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Amthausstraße",
+          "houseNumber": "17-19"
+        },
+        {
+          "id": "osm-node-12458900143",
+          "name": "Die Spiegelfechter",
+          "latitude": 48.9977931,
+          "longitude": 8.4715332,
+          "address": "Amthausstraße 17-19, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12458900143",
+          "category": "club",
+          "type": "theatre",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Amthausstraße",
+          "houseNumber": "17-19"
+        }
+      ]
+    },
+    "Berghausen, Berghausen Pfinztal": {
+      "checkedAt": "2026-11-20T20:28:45+00:00",
+      "places": [
+        {
+          "id": "osm-way-27090492",
+          "name": "Freiwilligen Feuerwehr Pfinztal / Abt. Berghausen",
+          "latitude": 49.0060944,
+          "longitude": 8.5266973,
+          "address": "Steinwiesenstraße 11, 76327 Berghausen",
+          "url": "https://www.openstreetmap.org/way/27090492",
+          "category": "amenity",
+          "type": "fire_station",
+          "city": "Berghausen",
+          "district": "Berghausen",
+          "locality": "",
+          "street": "Steinwiesenstraße",
+          "houseNumber": "11"
+        },
+        {
+          "id": "osm-node-280310090",
+          "name": "Evangelisches Pfarramt Berghausen",
+          "latitude": 49.0028705,
+          "longitude": 8.5261566,
+          "address": "Kiefernstraße 5, 76327 Berghausen",
+          "url": "https://www.openstreetmap.org/node/280310090",
+          "category": "office",
+          "type": "religion",
+          "city": "Berghausen",
+          "district": "",
+          "locality": "",
+          "street": "Kiefernstraße",
+          "houseNumber": "5"
+        },
+        {
+          "id": "osm-node-1454771837",
+          "name": "CVJM Berghausen e.V.",
+          "latitude": 49.0032512,
+          "longitude": 8.525989,
+          "address": "Alte Pfarrhausgasse 3, 76327 Berghausen",
+          "url": "https://www.openstreetmap.org/node/1454771837",
+          "category": "amenity",
+          "type": "cvjm",
+          "city": "Berghausen",
+          "district": "",
+          "locality": "",
+          "street": "Alte Pfarrhausgasse",
+          "houseNumber": "3"
+        },
+        {
+          "id": "osm-way-25138667",
+          "name": "Gewerbepark T.I.P.P. - Technologie-und Innovationspark Pfinztal",
+          "latitude": 49.0043982,
+          "longitude": 8.5359156,
+          "address": "Berghausen",
+          "url": "https://www.openstreetmap.org/way/25138667",
+          "category": "landuse",
+          "type": "industrial",
+          "city": "Berghausen",
+          "district": "",
+          "locality": "",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-443674973",
+          "name": "Pflanzschule Pfinztal",
+          "latitude": 49.0231134,
+          "longitude": 8.5255629,
+          "address": "Berghausen",
+          "url": "https://www.openstreetmap.org/way/443674973",
+          "category": "landuse",
+          "type": "plant_nursery",
+          "city": "Berghausen",
+          "district": "",
+          "locality": "",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Rathaus straße 2a, Karlsruhe-Wolfartsweier": {
+      "checkedAt": "2026-11-20T20:28:45+00:00",
+      "places": [
+        {
+          "id": "osm-way-104143842",
+          "name": "Begegnungsstätte Wolfartsweier",
+          "latitude": 48.9749071,
+          "longitude": 8.4525249,
+          "address": "Rathausstraße 2a, 76228 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/104143842",
+          "category": "amenity",
+          "type": "community_centre",
+          "city": "Karlsruhe",
+          "district": "Wolfartsweier",
+          "locality": "",
+          "street": "Rathausstraße",
+          "houseNumber": "2a"
+        },
+        {
+          "id": "osm-way-104527162",
+          "name": "Max-Born-Straße 2a",
+          "latitude": 48.9793852,
+          "longitude": 8.4599354,
+          "address": "Max-Born-Straße 2a, 76228 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/104527162",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Wolfartsweier",
+          "locality": "",
+          "street": "Max-Born-Straße",
+          "houseNumber": "2a"
+        }
+      ]
+    },
+    "Markgrafen straße 14, Karlsruhe": {
+      "checkedAt": "2026-11-20T20:28:45+00:00",
+      "places": [
+        {
+          "id": "osm-way-288924750",
+          "name": "Karlsruher Straße 14",
+          "latitude": 49.0300709,
+          "longitude": 8.4577531,
+          "address": "Karlsruher Straße 14, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/288924750",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Hagsfeld",
+          "locality": "Alt-Hagsfeld",
+          "street": "Karlsruher Straße",
+          "houseNumber": "14"
+        },
+        {
+          "id": "osm-node-369737094",
+          "name": "Alte Karlsruher Straße 14",
+          "latitude": 49.0035238,
+          "longitude": 8.4607855,
+          "address": "Alte Karlsruher Straße 14, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/369737094",
+          "category": "place",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Untermühlsiedlung",
+          "street": "Alte Karlsruher Straße",
+          "houseNumber": "14"
+        },
+        {
+          "id": "osm-way-288924790",
+          "name": "Karlsruher Straße 14a",
+          "latitude": 49.0300006,
+          "longitude": 8.4576761,
+          "address": "Karlsruher Straße 14a, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/288924790",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Hagsfeld",
+          "locality": "Alt-Hagsfeld",
+          "street": "Karlsruher Straße",
+          "houseNumber": "14a"
+        },
+        {
+          "id": "osm-way-291506777",
+          "name": "Karlsruher Straße 14",
+          "latitude": 48.9722057,
+          "longitude": 8.3099447,
+          "address": "Karlsruher Straße 14, 76287 Rheinstetten",
+          "url": "https://www.openstreetmap.org/way/291506777",
+          "category": "building",
+          "type": "apartments",
+          "city": "Rheinstetten",
+          "district": "Forchheim",
+          "locality": "Dammfeldsiedlung",
+          "street": "Karlsruher Straße",
+          "houseNumber": "14"
+        },
+        {
+          "id": "osm-node-873793124",
+          "name": "Karlsruher Straße 14",
+          "latitude": 48.9445986,
+          "longitude": 8.407916,
+          "address": "Karlsruher Straße 14, 76275 Ettlingen",
+          "url": "https://www.openstreetmap.org/node/873793124",
+          "category": "place",
+          "type": "house",
+          "city": "Ettlingen",
+          "district": "Ettlingen",
+          "locality": "",
+          "street": "Karlsruher Straße",
+          "houseNumber": "14"
+        }
+      ]
+    },
+    "Wald straße 3, Karlsruhe": {
+      "checkedAt": "2026-11-20T20:28:45+00:00",
+      "places": [
+        {
+          "id": "osm-way-1148009364",
+          "name": "Kolberger Straße 3-5",
+          "latitude": 49.0401763,
+          "longitude": 8.4397981,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1148009364",
+          "category": "landuse",
+          "type": "construction",
+          "city": "Karlsruhe",
+          "district": "Waldstadt",
+          "locality": "Waldstadt Waldlage",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-111825608",
+          "name": "Waldenburger Straße 3",
+          "latitude": 49.0280791,
+          "longitude": 8.4456168,
+          "address": "Waldenburger Straße 3, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/111825608",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Waldstadt",
+          "locality": "Waldstadt Feldlage",
+          "street": "Waldenburger Straße",
+          "houseNumber": "3"
+        },
+        {
+          "id": "osm-way-243349141",
+          "name": "Braunsberger Straße 3",
+          "latitude": 49.0396132,
+          "longitude": 8.437285,
+          "address": "Braunsberger Straße 3, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/243349141",
+          "category": "building",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Waldstadt",
+          "locality": "Waldstadt Waldlage",
+          "street": "Braunsberger Straße",
+          "houseNumber": "3"
+        },
+        {
+          "id": "osm-way-111812661",
+          "name": "Oppelner Straße 3",
+          "latitude": 49.028409,
+          "longitude": 8.4436722,
+          "address": "Oppelner Straße 3, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/111812661",
+          "category": "building",
+          "type": "detached",
+          "city": "Karlsruhe",
+          "district": "Waldstadt",
+          "locality": "Waldstadt Feldlage",
+          "street": "Oppelner Straße",
+          "houseNumber": "3"
+        },
+        {
+          "id": "osm-way-243349128",
+          "name": "Friedlander Straße 3",
+          "latitude": 49.0396025,
+          "longitude": 8.4385923,
+          "address": "Friedlander Straße 3, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/243349128",
+          "category": "building",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Waldstadt",
+          "locality": "Waldstadt Waldlage",
+          "street": "Friedlander Straße",
+          "houseNumber": "3"
+        }
+      ]
+    },
+    "Walzbachtal-Jöhlingen, Bürgertreff, vorderer Raum, Jöhlingen": {
+      "checkedAt": "2026-11-20T20:28:45+00:00",
+      "places": []
     }
   },
   "attribution": {

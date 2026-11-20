@@ -1720,6 +1720,55 @@
           "url": "https://kalender.karlsruhe.de/db/termine/musik/raum_musik_fur_saxophone"
         }
       ]
+    },
+    "venue-c65d1627b77d241cc6cd": {
+      "checkedAt": "2026-11-20T20:28:45+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Amthausstraße 17",
+          "city": "Karlsruhe",
+          "postalCode": "76227",
+          "address": "Amthausstraße 17, 76227 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/artvent24_im_jahr2026n"
+        }
+      ]
+    },
+    "venue-ad0ee08322b9af87db62": {
+      "checkedAt": "2026-11-20T20:28:45+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-b27ea5af38ee2618d806": {
+      "checkedAt": "2026-11-20T20:28:45+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-b6953482e880d20312fb": {
+      "checkedAt": "2026-11-20T20:28:45+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Lorenzstraße 19",
+          "city": "Karlsruhe",
+          "postalCode": "76135",
+          "address": "Lorenzstraße 19, 76135 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/playdisplay_symposium_zu_spiel_museum"
+        }
+      ]
+    },
+    "venue-be4338ec517740f0366d": {
+      "checkedAt": "2026-11-20T20:28:45+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Leopoldstr. 9",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Leopoldstr. 9, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/karate_abend_fur_neugierige_ab40n"
+        }
+      ]
     }
   }
 }
