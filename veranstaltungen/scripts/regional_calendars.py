@@ -8,10 +8,15 @@ from datetime import date,datetime
 import json
 import re
 from urllib.parse import urljoin,urlsplit,parse_qs,urlencode
+from urllib.error import URLError
 from uuid import uuid4
+from zoneinfo import ZoneInfo
 from lxml import html
 
 REMCHINGEN='https://www.remchingen.de/veranstaltungen/'
+REMCHINGEN_API=urljoin(REMCHINGEN,'/api/cms/veranstaltungen')
+REMCHINGEN_PAGE_SIZE=500
+BERLIN=ZoneInfo('Europe/Berlin')
 KULTURHALLE='https://www.kulturhalle-remchingen.de/events/'
 
 def cls(token):return 'contains(concat(" ",normalize-space(@class)," ")," '+token+' ")'
@@ -34,6 +39,62 @@ def clock_values(value):
     if len(values)>2:raise ValueError('Mehrdeutige Uhrzeit: '+value)
     for v in values:datetime.strptime(v,'%H:%M')
     return values
+
+
+def remchingen_api_records(raw):
+    payload = json.loads(raw)
+    if not isinstance(payload, dict) or not isinstance(payload.get('data'), list):
+        raise ValueError('Remchingen: Antwort des Veranstaltungskalenders ist ungültig')
+    rows = payload['data']
+    # A single complete response avoids mixing separately cached pages.
+    if str(payload.get('seiten')) != '1' or str(payload.get('anzahl')) != str(len(rows)) or not rows:
+        raise RemchingenPaginationError('Remchingen: API liefert keine vollständige Ergebnisseite')
+
+    def local_datetime(value):
+        stamp = datetime.fromisoformat(value)
+        if stamp.tzinfo is None:
+            raise ValueError('Remchingen: Datum ohne Zeitzone')
+        return stamp.astimezone(BERLIN)
+
+    def label(value):
+        return ' '.join(value.split()) if value else ''
+
+    records = []
+    for row in rows:
+        identifier = str(row['id'])
+        title = label(row['titel'])
+        if row['freigabe'] is not True or not identifier.isdigit() or not title:
+            raise ValueError('Remchingen: ungültiger Veranstaltungseintrag in der API')
+        category_links = {
+            link(REMCHINGEN, item['detailURL']) for item in row['rubriken']
+            if item.get('taggingpfad') in {'/veranstaltungen/', '/ratstermine/'}
+        }
+        url = one(sorted(category_links), 'Remchingen: Veranstaltungslink aus der API')
+        if not re.fullmatch(r'/(?:veranstaltungen|ratstermine)/[^/]+-id_'+identifier+r'/', urlsplit(url).path):
+            raise ValueError('Remchingen: Veranstaltungslink passt nicht zur ID')
+
+        start = local_datetime(row['datum_von'])
+        end_value = row.get('datum_bis')
+        end = local_datetime(end_value) if end_value else start
+        # The CMS encodes an unspecified time as local midnight. An equal
+        # end timestamp represents an event with a start time only.
+        start_time = start.strftime('%H:%M') if (start.hour, start.minute) != (0, 0) else None
+        end_time = end.strftime('%H:%M') if end > start and (end.hour, end.minute) != (0, 0) else None
+        days = [start.date(), max(start.date(), end.date())]
+        records.append({
+            'recordId': identifier, 'title': title, 'url': url,
+            'startDate': days[0].isoformat(), 'endDate': days[1].isoformat(),
+            'startTime': start_time, 'endTime': end_time,
+            'dateText': ' - '.join(day.strftime('%d.%m.%Y') for day in dict.fromkeys(days)),
+            'timeText': ' - '.join(clock+' Uhr' for clock in (start_time,end_time) if clock),
+            'location': label(row.get('veranstaltungsort')) or label((row.get('brancheneintrag_veranstaltungsort') or {}).get('titel')),
+            'organizer': label(row.get('veranstalter')) or label((row.get('brancheneintrag_veranstalter') or {}).get('titel')),
+            'allDay': False,
+            'availability': 'sold-out' if re.search('ausverkauft',title,re.I) else None,
+        })
+    if len({row['recordId'] for row in records}) != len(records):
+        raise RemchingenPaginationError('Remchingen: API liefert doppelte Veranstaltungs-IDs')
+    return records
 
 def remchingen_listing(raw):
     tree=doc(raw);records=[]
@@ -121,13 +182,32 @@ def remchingen_snapshot(fetch,refresh_token=None):
         'extractionMethod':'deterministic-html','llmRequired':False}
 
 
-def fetch_remchingen(fetch):
+def fetch_remchingen_html(fetch):
     try:return remchingen_snapshot(fetch)
     except RemchingenPaginationError:
         # An event expiring can shift page boundaries while the CDN still
         # serves older neighbouring pages. Retry the WHOLE list once with a
         # shared fresh cache key; never repair it by dropping duplicate rows.
         return remchingen_snapshot(fetch,uuid4().hex)
+
+
+def fetch_remchingen(fetch):
+    # The municipality's own public calendar calls this CMS endpoint. Keep
+    # its publication and category filters and request the entire list.
+    params = {
+        'aktiv': 'true', 'sprache': 'de', 'exclude_rubriken[]': 75,
+        'order[]': '`datum_von` ASC', 'seite': 1, 'pro_seite': REMCHINGEN_PAGE_SIZE,
+    }
+    try:
+        records = remchingen_api_records(fetch(REMCHINGEN_API+'?'+urlencode(params)))
+    except (ValueError, KeyError, TypeError, AttributeError, URLError, TimeoutError, ConnectionError) as api_error:
+        print('Remchingen: CMS-Abruf fehlgeschlagen, HTML-Ersatzabruf:', api_error, flush=True)
+        return fetch_remchingen_html(fetch)
+    return records, {
+        'coverageKind': 'public-json', 'pagesFetched': 1, 'refreshHours': 24,
+        'coverageNote': 'Vollständige Ergebnisliste der Gemeinde, einschließlich öffentlicher Ratstermine.',
+        'extractionMethod': 'structured-json', 'llmRequired': False,
+    }
 
 def kulturhalle_listing(raw):
     tree=doc(raw);records=[]
