@@ -1870,6 +1870,50 @@
           "url": "https://kalender.karlsruhe.de/db/termine/architektur/rechte_raume_vortrag_von_stephan_truby"
         }
       ]
+    },
+    "venue-2e83b89c535820e97134": {
+      "checkedAt": "2026-11-21T19:23:19+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Eichelbergstrasse 34",
+          "city": "Karlsruhe",
+          "postalCode": "76189",
+          "address": "Eichelbergstrasse 34, 76189 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/nikolausball"
+        }
+      ]
+    },
+    "venue-5161aa7406f7e2efff8e": {
+      "checkedAt": "2026-11-21T19:23:19+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Alter Schlachthof 19",
+          "city": "Karlsruhe",
+          "postalCode": "76131",
+          "address": "Alter Schlachthof 19, 76131 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/karlsunruhe_alljoines_still_boys_stikkie"
+        }
+      ]
+    },
+    "venue-5e8abe67cb6a3083668c": {
+      "checkedAt": "2026-11-21T19:23:19+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-ac4ff54e526da6e9c9a9": {
+      "checkedAt": "2026-11-21T19:23:19+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Neureuter Hauptstraße 84",
+          "city": "Karlsruhe",
+          "postalCode": "76149",
+          "address": "Neureuter Hauptstraße 84, 76149 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/weihnachts_gospelkonzert"
+        }
+      ]
     }
   }
 }

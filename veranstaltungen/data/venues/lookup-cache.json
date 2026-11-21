@@ -20047,6 +20047,306 @@
           "houseNumber": "93"
         }
       ]
+    },
+    "Freibad Wolfartsweier (Wölfle), Durlach": {
+      "checkedAt": "2026-11-21T19:23:19+00:00",
+      "places": [
+        {
+          "id": "osm-way-4626528",
+          "name": "Freibad Wolfartsweier",
+          "latitude": 48.9723555,
+          "longitude": 8.4534423,
+          "address": "Schlossbergstraße, 76228 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/4626528",
+          "category": "leisure",
+          "type": "sports_centre",
+          "city": "Karlsruhe",
+          "district": "Wolfartsweier",
+          "locality": "",
+          "street": "Schlossbergstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-13325820786",
+          "name": "16 Freibad Wölfle",
+          "latitude": 48.9727169,
+          "longitude": 8.4543848,
+          "address": "Schlossbergstraße, 76228 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/13325820786",
+          "category": "information",
+          "type": "map_board",
+          "city": "Karlsruhe",
+          "district": "Wolfartsweier",
+          "locality": "",
+          "street": "Schlossbergstraße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Eichelbergstrasse 34, Karlsruhe": {
+      "checkedAt": "2026-11-21T19:23:19+00:00",
+      "places": [
+        {
+          "id": "osm-node-1446160806",
+          "name": "TSC Rot-Weiss Karlsruhe e.V.",
+          "latitude": 48.9983612,
+          "longitude": 8.3484513,
+          "address": "Eichelbergstraße 34, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1446160806",
+          "category": "leisure",
+          "type": "dance",
+          "city": "Karlsruhe",
+          "district": "Grünwinkel",
+          "locality": "Heidenstückersiedlung",
+          "street": "Eichelbergstraße",
+          "houseNumber": "34"
+        },
+        {
+          "id": "osm-node-4392524689",
+          "name": "Neff",
+          "latitude": 48.9986709,
+          "longitude": 8.3488426,
+          "address": "Eichelbergstraße 34, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4392524689",
+          "category": "shop",
+          "type": "bakery",
+          "city": "Karlsruhe",
+          "district": "Grünwinkel",
+          "locality": "Heidenstückersiedlung",
+          "street": "Eichelbergstraße",
+          "houseNumber": "34"
+        },
+        {
+          "id": "osm-node-12177452524",
+          "name": "Karadag's Feinkost",
+          "latitude": 48.998731,
+          "longitude": 8.3489114,
+          "address": "Eichelbergstraße 34, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12177452524",
+          "category": "shop",
+          "type": "deli",
+          "city": "Karlsruhe",
+          "district": "Grünwinkel",
+          "locality": "Heidenstückersiedlung",
+          "street": "Eichelbergstraße",
+          "houseNumber": "34"
+        },
+        {
+          "id": "osm-node-25624675",
+          "name": "Tankstelle am Hit-Markt",
+          "latitude": 48.9981832,
+          "longitude": 8.3495813,
+          "address": "Eichelbergstraße 34, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/25624675",
+          "category": "amenity",
+          "type": "fuel",
+          "city": "Karlsruhe",
+          "district": "Grünwinkel",
+          "locality": "Heidenstückersiedlung",
+          "street": "Eichelbergstraße",
+          "houseNumber": "34"
+        },
+        {
+          "id": "osm-way-11012401",
+          "name": "HIT",
+          "latitude": 48.9981931,
+          "longitude": 8.3489715,
+          "address": "Eichelbergstraße 34, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/11012401",
+          "category": "shop",
+          "type": "supermarket",
+          "city": "Karlsruhe",
+          "district": "Grünwinkel",
+          "locality": "Heidenstückersiedlung",
+          "street": "Eichelbergstraße",
+          "houseNumber": "34"
+        }
+      ]
+    },
+    "Alter Schlachthof 19, Karlsruhe": {
+      "checkedAt": "2026-11-21T19:23:19+00:00",
+      "places": [
+        {
+          "id": "osm-way-115564781",
+          "name": "Substage",
+          "latitude": 49.0052774,
+          "longitude": 8.429731,
+          "address": "Alter Schlachthof 19, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/115564781",
+          "category": "amenity",
+          "type": "nightclub",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Kreativpark Alter Schlachthof",
+          "street": "Alter Schlachthof",
+          "houseNumber": "19"
+        },
+        {
+          "id": "osm-node-4348572877",
+          "name": "ausgeschlachtet e.V.",
+          "latitude": 49.0053421,
+          "longitude": 8.4295645,
+          "address": "Alter Schlachthof 19, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4348572877",
+          "category": "office",
+          "type": "association",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Kreativpark Alter Schlachthof",
+          "street": "Alter Schlachthof",
+          "houseNumber": "19"
+        },
+        {
+          "id": "osm-way-645691489",
+          "name": "MINESTRONE",
+          "latitude": 49.0052824,
+          "longitude": 8.4297144,
+          "address": "Alter Schlachthof 19, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/645691489",
+          "category": "amenity",
+          "type": "restaurant",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Kreativpark Alter Schlachthof",
+          "street": "Alter Schlachthof",
+          "houseNumber": "19"
+        }
+      ]
+    },
+    "Karlsruher Weihnachtscircus, Karlsruhe": {
+      "checkedAt": "2026-11-21T19:23:19+00:00",
+      "places": [
+        {
+          "id": "osm-relation-3350207",
+          "name": "Karlsruher Institut für Technologie",
+          "latitude": 49.1018534,
+          "longitude": 8.4331202,
+          "address": "89584 Ehingen (Donau)",
+          "url": "https://www.openstreetmap.org/relation/3350207",
+          "category": "amenity",
+          "type": "university",
+          "city": "Ehingen (Donau)",
+          "district": "",
+          "locality": "",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-1252366805",
+          "name": "Die Autobahn GmbH des Bundes, Autobahnmeisterei Karlsruhe-Durlach",
+          "latitude": 49.0050838,
+          "longitude": 8.4568477,
+          "address": "Alte Karlsruher Straße 40, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1252366805",
+          "category": "building",
+          "type": "office",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Untermühlsiedlung",
+          "street": "Alte Karlsruher Straße",
+          "houseNumber": "40"
+        },
+        {
+          "id": "osm-node-11275962341",
+          "name": "Denkmal Karlsruher Lokalbahn „Lobberle“",
+          "latitude": 49.0051409,
+          "longitude": 8.402872,
+          "address": "Kriegsstraße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/11275962341",
+          "category": "historic",
+          "type": "memorial",
+          "city": "Karlsruhe",
+          "district": "Südweststadt",
+          "locality": "Südweststadt Östlicher Teil",
+          "street": "Kriegsstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-relation-1667804",
+          "name": "Karlsruher Lebensversicherung AG",
+          "latitude": 48.9988432,
+          "longitude": 8.398336,
+          "address": "Friedrich-Scholl-Platz 1, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/1667804",
+          "category": "office",
+          "type": "company",
+          "city": "Karlsruhe",
+          "district": "Südweststadt",
+          "locality": "Südweststadt Östlicher Teil",
+          "street": "Friedrich-Scholl-Platz",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-relation-62518",
+          "name": "Karlsruhe",
+          "latitude": 49.0068705,
+          "longitude": 8.4034195,
+          "address": "",
+          "url": "https://www.openstreetmap.org/relation/62518",
+          "category": "place",
+          "type": "city",
+          "city": "",
+          "district": "",
+          "locality": "",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Neureuter Hauptstraße 84, Karlsruhe": {
+      "checkedAt": "2026-11-21T19:23:19+00:00",
+      "places": [
+        {
+          "id": "osm-way-131239288",
+          "name": "Waldenserkirche",
+          "latitude": 49.0469174,
+          "longitude": 8.3712028,
+          "address": "Neureuter Hauptstraße 84, 76149 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/131239288",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "city": "Karlsruhe",
+          "district": "Neureut",
+          "locality": "Neureut Südlicher Teil",
+          "street": "Neureuter Hauptstraße",
+          "houseNumber": "84"
+        }
+      ]
+    },
+    "Saal, Begegnungsstätte Grötzingen, Grötzingen": {
+      "checkedAt": "2026-11-21T19:23:19+00:00",
+      "places": [
+        {
+          "id": "osm-way-151345436",
+          "name": "Begegnungsstätte Grötzingen",
+          "latitude": 49.0070922,
+          "longitude": 8.4951326,
+          "address": "Niddastraße 9, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151345436",
+          "category": "amenity",
+          "type": "community_centre",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Niddastraße",
+          "houseNumber": "9"
+        },
+        {
+          "id": "osm-way-151484045",
+          "name": "AWO-Begegnungsstätte Grötzingen",
+          "latitude": 49.0099031,
+          "longitude": 8.4954708,
+          "address": "Niddastraße 30, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151484045",
+          "category": "building",
+          "type": "terrace",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Niddastraße",
+          "houseNumber": "30"
+        }
+      ]
     }
   },
   "attribution": {
