@@ -482,9 +482,11 @@ def enrich(data,root,today,online=False,budget=None,fetch=None,source_fetch=None
     # Reuse known places across name variants and publishers. This also exposes
     # competing same-name objects already found elsewhere instead of hiding them.
     known={p['id']:p for entry in sorted(cache['queries'].values(),key=lambda x:x.get('checkedAt','')) for p in entry.get('places',[])}
-    # Confirmations remain usable even when their original lookup has expired.
-    # Room aliases use the same confirmed building, never a freshly guessed one.
-    known.update({r['place']['id']:r['place'] for r in rules if r['decision']=='place'})
+    # A review can give an OSM object a venue-specific name and address. Use it
+    # for that rule without replacing the geocoder's record for other venues.
+    for rule in rules:
+        if rule['decision'] == 'place':
+            known.setdefault(rule['place']['id'], rule['place'])
     rows=[]
     for g in groups.values():
         location,scope,key=g['location'],g['scope'],g['key']

@@ -101,6 +101,25 @@ class VenueTests(unittest.TestCase):
         data,_ = self.build([{**original, 'location':'Ein neuer Veranstaltungsort'}])
         self.assertIsNone(data['events'][0]['venue']['place'])
 
+    def test_reviewed_alias_keeps_cached_name_for_other_venues_at_same_osm_object(self):
+        hall = event('Stadthalle', eid='hall')
+        side_room = event('Stadthalle Kleiner Saal', eid='side-room')
+        cached = point(hall['location'])
+        alias = {**cached, 'name': side_room['location']}
+        self.cache(hall, [cached])
+        key, location, scope = identity(side_room)
+        write(self.root/'data/venues/reviewed.json', {
+            'schemaVersion': 1,
+            'rules': [{'key': key, 'location': location, 'scope': scope, 'decision': 'place', 'place': alias}],
+        })
+
+        data, _ = self.build([hall, side_room])
+        first, second = [e['venue'] for e in data['events']]
+        self.assertEqual(first['method'], 'automatic')
+        self.assertEqual(first['place']['name'], hall['location'])
+        self.assertEqual(second['method'], 'reviewed')
+        self.assertEqual(second['place']['name'], side_room['location'])
+
     def test_source_address_fetch_and_geocoding_share_budget_and_are_reused(self):
         e={**event('Imagine','Karlsruhe und Umgebung','karlsruhe'),'url':'https://kalender.karlsruhe.de/db/termine/theater/test'}
         raw='<div id="box_ort"><h5>Imagine</h5><span class="street-address">Ettlinger Str.5</span><span class="locality">Karlsruhe</span></div>'

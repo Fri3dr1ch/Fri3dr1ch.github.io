@@ -50,10 +50,10 @@ class RegionalTests(unittest.TestCase):
         def fetch(url):
             seen.append(url)
             return self.fixture('regional-remchingen-2.html' if '?seite=2' in url else 'regional-remchingen.html')
-        records,metadata=regional.fetch_remchingen(fetch)
+        records,metadata=regional.fetch_remchingen_html(fetch)
         self.assertEqual(len(records),10);self.assertEqual(metadata['pagesFetched'],2);self.assertEqual(len(seen),2)
         with self.assertRaisesRegex(ValueError,'wiederholen'):
-            regional.fetch_remchingen(lambda url:self.fixture('regional-remchingen.html'))
+            regional.fetch_remchingen_html(lambda url:self.fixture('regional-remchingen.html'))
 
     def test_remchingen_retries_the_whole_list_when_cached_page_boundaries_overlap(self):
         seen=[]
@@ -62,7 +62,7 @@ class RegionalTests(unittest.TestCase):
             seen.append(query)
             # The first page has expired an event, while page 2 is still cached.
             return self.remchingen_page(number,shifted=number==1 or '_calendar_refresh' in query)
-        records,metadata=regional.fetch_remchingen(fetch)
+        records,metadata=regional.fetch_remchingen_html(fetch)
         self.assertEqual(len(records),10);self.assertEqual(metadata['pagesFetched'],2)
         self.assertEqual(len({r['recordId'] for r in records}),10)
         self.assertIn('9999',{r['recordId'] for r in records})
@@ -76,7 +76,7 @@ class RegionalTests(unittest.TestCase):
         def fetch(url):
             query=parse_qs(urlsplit(url).query);number=int(query.get('seite',['1'])[0]);seen.append(query)
             return self.remchingen_page(number,total=9 if number==2 and '_calendar_refresh' not in query else 10)
-        records,_=regional.fetch_remchingen(fetch)
+        records,_=regional.fetch_remchingen_html(fetch)
         self.assertEqual(len(records),10);self.assertEqual(len(seen),4)
 
     def test_remchingen_persistent_gaps_keep_the_last_valid_snapshot(self):
@@ -84,6 +84,8 @@ class RegionalTests(unittest.TestCase):
         previous=imp.snapshot_from_records(imp.SOURCES['remchingen'],records,'2026-11-14T15:00:00Z')
         seen=[]
         def fetch(url):
+            if url.startswith(regional.REMCHINGEN_API):
+                return b'{"data":[],"anzahl":"10","seiten":"2"}'
             query=parse_qs(urlsplit(url).query);number=int(query.get('seite',['1'])[0]);seen.append(query)
             return self.remchingen_page(number,missing=number==2)
         retained,error=imp.refresh('remchingen','2026-11-14T20:00:00Z',previous,fetch)
@@ -96,13 +98,39 @@ class RegionalTests(unittest.TestCase):
         seen=[]
         def fetch(url):seen.append(url);return self.remchingen_page(1)
         with self.assertRaisesRegex(ValueError,'Seitennummer'):
-            regional.fetch_remchingen(fetch)
+            regional.fetch_remchingen_html(fetch)
         self.assertEqual(len(seen),4)
 
     def test_remchingen_malformed_public_counts_are_not_silently_ignored(self):
         raw=self.remchingen_page(1).replace(b'"anzahl": 3',b'"anzahl": -1')
         with self.assertRaisesRegex(ValueError,'Seitenmetadaten'):
-            regional.fetch_remchingen(lambda url:raw)
+            regional.fetch_remchingen_html(lambda url:raw)
+
+    def test_remchingen_uses_one_complete_cms_response(self):
+        entry = {
+            'id': 1234, 'titel': 'Ratssitzung AUSVERKAUFT', 'freigabe': True,
+            'datum_von': '2027-06-05T21:30:00Z', 'datum_bis': '2027-06-06T00:00:00Z',
+            'rubriken': [{'taggingpfad': '/ratstermine/', 'detailURL': '/ratstermine/ratssitzung-id_1234/'}],
+            'brancheneintrag_veranstaltungsort': {'titel': 'Kulturhalle Remchingen'},
+        }
+        seen = []
+
+        def fetch(url):
+            seen.append(url)
+            return json.dumps({'data': [entry], 'anzahl': '1', 'seiten': '1'})
+
+        records, metadata = regional.fetch_remchingen(fetch)
+        self.assertEqual(len(seen), 1)
+        self.assertTrue(seen[0].startswith(regional.REMCHINGEN_API+'?'))
+        self.assertEqual(parse_qs(urlsplit(seen[0]).query)['seite'], ['1'])
+        self.assertEqual(metadata['pagesFetched'], 1)
+        record = records[0]
+        self.assertEqual((record['startDate'], record['endDate']), ('2027-06-05', '2027-06-06'))
+        self.assertEqual((record['startTime'], record['endTime']), ('23:30', '02:00'))
+        self.assertEqual(record['location'], 'Kulturhalle Remchingen')
+        self.assertEqual(record['availability'], 'sold-out')
+        with self.assertRaises(regional.RemchingenPaginationError):
+            regional.remchingen_api_records(json.dumps({'data': [entry, entry], 'anzahl': 2, 'seiten': 1}))
 
     def test_kulturhalle_respects_structured_year_and_separate_performances(self):
         records=regional.kulturhalle_listing(self.fixture('kulturhalle-list.html'))
