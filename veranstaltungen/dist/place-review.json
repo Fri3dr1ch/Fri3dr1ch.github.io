@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T19:23:19+00:00",
+  "generatedAt": "2026-11-21T20:23:41+00:00",
   "attribution": {
     "text": "© OpenStreetMap contributors · ODbL",
     "url": "https://www.openstreetmap.org/copyright"
   },
   "stats": {
-    "venues": 408,
+    "venues": 409,
     "venueStatuses": {
       "missing": 14,
-      "review": 21,
       "online": 4,
       "excluded": 9,
+      "review": 13,
       "queued": 1,
-      "resolved": 359
+      "resolved": 368
     },
-    "upcomingEvents": 1403,
+    "upcomingEvents": 1405,
     "eventStatuses": {
-      "resolved": 1142,
-      "review": 25,
+      "resolved": 1156,
+      "review": 13,
       "excluded": 10,
       "missing": 218,
       "online": 7,
@@ -26,7 +26,7 @@
     }
   },
   "lookup": {
-    "requested": 10,
+    "requested": 1,
     "failures": []
   },
   "rows": [
@@ -271,54 +271,6 @@
       ]
     },
     {
-      "key": "venue-ebadb41a085e0ae2d623",
-      "location": "Kirchgasse, Spielberg",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "review",
-      "reason": "Kein ausreichend bestimmter Ortskontext.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 4,
-      "reviewNote": "Die Marktankündigung nennt die Kirchgasse in Spielberg. Die Straße ist kartiert, der Abschnitt mit den Marktständen ist nicht belegt.",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsbad"
-      ],
-      "sources": [
-        "Gemeinde Karlsbad"
-      ],
-      "examples": [
-        {
-          "id": "karlsbad-ca2ad713-2f78-3672-adc1-76294e54b96c",
-          "title": "Wochenmarkt Spielberg",
-          "date": "2026-11-25",
-          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12672"
-        },
-        {
-          "id": "karlsbad-60ee5f31-1142-3a1f-a184-24162cc7cba1",
-          "title": "Wochenmarkt Spielberg",
-          "date": "2026-12-02",
-          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12673"
-        },
-        {
-          "id": "karlsbad-1174f88b-ba53-30ec-87e5-0ccee9dea1ec",
-          "title": "Wochenmarkt Spielberg",
-          "date": "2026-12-09",
-          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12674"
-        },
-        {
-          "id": "karlsbad-dff3a33e-3705-3b01-b8a4-17dc85a2551e",
-          "title": "Wochenmarkt Spielberg",
-          "date": "2026-12-16",
-          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12675"
-        }
-      ]
-    },
-    {
       "key": "venue-e2941f5904341cb0c855",
       "location": "",
       "scope": "berghausen",
@@ -471,42 +423,6 @@
           "title": "OWGV JHV",
           "date": "2027-03-12",
           "url": "https://www.naturfreunde-soellingen.de/kalender/"
-        }
-      ]
-    },
-    {
-      "key": "venue-8f183b64f2ef1169e8fe",
-      "location": "Vereinsheim/Vereinsgelände",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "review",
-      "reason": "Kein ausreichend bestimmter Ortskontext.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 2,
-      "reviewNote": "Die Stadt nennt zwei unterschiedliche Veranstalter in Spöck bzw. Stutensee. Die gemeinsame Bezeichnung „Vereinsheim/Vereinsgelände“ identifiziert weder das Gebäude der Eintracht Spöck noch das der Piraten eindeutig.",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "stutensee"
-      ],
-      "sources": [
-        "Stadt Stutensee · Veranstaltungskalender"
-      ],
-      "examples": [
-        {
-          "id": "stutensee-2834",
-          "title": "Nikolausfeier",
-          "date": "2026-12-06",
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2834"
-        },
-        {
-          "id": "stutensee-2843",
-          "title": "Glühweinfeschdle",
-          "date": "2026-12-30",
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2843"
         }
       ]
     },
@@ -840,7 +756,7 @@
       "place": null,
       "candidates": [],
       "eventCount": 1,
-      "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "reviewNote": "Der Verein nennt für die Scheune am Fluckenberg die Mutschelbacher Straße. Die Murgstraße 14 ist die Kontaktanschrift. Der genaue Ort der Scheune an der Mutschelbacher Straße bleibt offen.",
       "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
@@ -856,36 +772,6 @@
           "title": "5. Remchinger Mopedtreffen",
           "date": "2027-07-31",
           "url": "https://www.remchingen.de/veranstaltungen/5-remchinger-mopedtreffen-id_3390/"
-        }
-      ]
-    },
-    {
-      "key": "venue-a8d231e0a06d30149db1",
-      "location": "Auerbach",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "review",
-      "reason": "Kein ausreichend bestimmter Ortskontext.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "Der Gesangverein kündigt Weihnachtssingen im Dorf an. Die Gemeinde nennt als Ort nur den Ortsteil Auerbach.",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsbad"
-      ],
-      "sources": [
-        "Gemeinde Karlsbad"
-      ],
-      "examples": [
-        {
-          "id": "karlsbad-1b5e6523-28dd-35cd-a5d8-3ca500c87a68",
-          "title": "Weihnachtssingen im Dorf",
-          "date": "2026-12-15",
-          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12562"
         }
       ]
     },
@@ -920,153 +806,6 @@
       ]
     },
     {
-      "key": "venue-b03a84e2e11ebee786f7",
-      "location": "Festplatz, Ittersbach",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "review",
-      "reason": "Kein ausreichend bestimmter Ortskontext.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "Der Verein belegt den Festplatz neben dem Schulhof und dem OGV-Heim. Die verfügbaren Kartenobjekte unterscheiden die Festfläche nicht eindeutig von Schulhof und benachbarten Parkflächen.",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsbad"
-      ],
-      "sources": [
-        "Gemeinde Karlsbad"
-      ],
-      "examples": [
-        {
-          "id": "karlsbad-0822e513-571c-3b47-8290-a0c57e97bb66",
-          "title": "Garagenglühen",
-          "date": "2026-11-28",
-          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12545"
-        }
-      ]
-    },
-    {
-      "key": "venue-23558b3bfb5bc1277dad",
-      "location": "Freibad Wolfartsweier (Wölfle)",
-      "scope": "durlach",
-      "scopeLabel": "Durlach",
-      "status": "review",
-      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
-      "method": null,
-      "place": null,
-      "candidates": [
-        {
-          "id": "osm-node-5290543052",
-          "name": "Wolfartsweier Freibad",
-          "latitude": 48.9726617,
-          "longitude": 8.4544113,
-          "address": "Schlossbergstraße, 76228 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/5290543052",
-          "category": "information",
-          "type": "guidepost",
-          "street": "Schlossbergstraße",
-          "houseNumber": "",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-4626528",
-          "name": "Freibad Wolfartsweier",
-          "latitude": 48.9723555,
-          "longitude": 8.4534423,
-          "address": "Schlossbergstraße, 76228 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/4626528",
-          "category": "leisure",
-          "type": "sports_centre",
-          "city": "Karlsruhe",
-          "district": "Wolfartsweier",
-          "locality": "",
-          "street": "Schlossbergstraße",
-          "houseNumber": "",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-13325820786",
-          "name": "16 Freibad Wölfle",
-          "latitude": 48.9727169,
-          "longitude": 8.4543848,
-          "address": "Schlossbergstraße, 76228 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/13325820786",
-          "category": "information",
-          "type": "map_board",
-          "city": "Karlsruhe",
-          "district": "Wolfartsweier",
-          "locality": "",
-          "street": "Schlossbergstraße",
-          "houseNumber": "",
-          "score": 0.622,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-104685112",
-          "name": "St. Margaretha Wolfartsweier",
-          "latitude": 48.9781316,
-          "longitude": 8.45398,
-          "address": "Hörgelstraße 13, 76228 Karlsruhe-Wolfartsweier",
-          "url": "https://www.openstreetmap.org/way/104685112",
-          "category": "amenity",
-          "type": "place_of_worship",
-          "street": "Hörgelstraße",
-          "houseNumber": "13",
-          "city": "Karlsruhe",
-          "district": "Wolfartsweier",
-          "score": 0.618,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-104143842",
-          "name": "Begegnungsstätte Wolfartsweier",
-          "latitude": 48.9749071,
-          "longitude": 8.4525249,
-          "address": "Rathausstraße 2a, 76228 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/104143842",
-          "category": "amenity",
-          "type": "community_centre",
-          "city": "Karlsruhe",
-          "district": "Wolfartsweier",
-          "locality": "",
-          "street": "Rathausstraße",
-          "houseNumber": "2a",
-          "score": 0.552,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "durlach"
-      ],
-      "sources": [
-        "Durlacher.de · Durlacher Kalender"
-      ],
-      "examples": [
-        {
-          "id": "durlach-12093-2026-11-21-1600",
-          "title": "Benefizfest: „Wölfle, Wurst und Wein“",
-          "date": "2026-11-21",
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12093&tx_events2_events%5Btimestamp%5D=1795273200&cHash=0fb37030950d9226b8c683fd22105e9e"
-        }
-      ]
-    },
-    {
       "key": "venue-a32a67ac05fa51ceb1d0",
       "location": "Gleiszellen",
       "scope": null,
@@ -1093,337 +832,6 @@
           "title": "Vereinsausfug Weinfest Gleiszellen",
           "date": null,
           "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/017_Stadtteile_und_Umgebung/Groetzingen/Jahresprogramm_Groetzingen_2026_im_CD_sem.pdf#page=9"
-        }
-      ]
-    },
-    {
-      "key": "venue-7bd93e3c877119cbbfa1",
-      "location": "Karlsruhe Hauptbahnhof - Halle Treffpunkt",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "review",
-      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
-      "method": null,
-      "place": null,
-      "candidates": [
-        {
-          "id": "osm-node-2541436126",
-          "name": "Karlsruhe Hauptbahnhof",
-          "latitude": 48.9931917,
-          "longitude": 8.4017106,
-          "address": "Hinterm Hauptbahnhof, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/2541436126",
-          "category": "railway",
-          "type": "stop",
-          "street": "Hinterm Hauptbahnhof",
-          "houseNumber": "",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-25443575",
-          "name": "Karlsruhe Hauptbahnhof",
-          "latitude": 48.9940078,
-          "longitude": 8.4016492,
-          "address": "Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/25443575",
-          "category": "railway",
-          "type": "stop",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-3216079568",
-          "name": "Karlsruhe Hauptbahnhof",
-          "latitude": 48.9933687,
-          "longitude": 8.4021034,
-          "address": "Hinterm Hauptbahnhof, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/3216079568",
-          "category": "railway",
-          "type": "stop",
-          "street": "Hinterm Hauptbahnhof",
-          "houseNumber": "",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-402589279",
-          "name": "Karlsruhe Hauptbahnhof",
-          "latitude": 48.9937234,
-          "longitude": 8.4018652,
-          "address": "Bahnhofplatz, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/402589279",
-          "category": "railway",
-          "type": "stop",
-          "street": "Bahnhofplatz",
-          "houseNumber": "",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-402589288",
-          "name": "Karlsruhe Hauptbahnhof",
-          "latitude": 48.9932895,
-          "longitude": 8.4020941,
-          "address": "Hinterm Hauptbahnhof, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/402589288",
-          "category": "railway",
-          "type": "stop",
-          "street": "Hinterm Hauptbahnhof",
-          "houseNumber": "",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-0d85f8d63e038b2f",
-          "title": "Zur Seeweihnacht am Breitnauer See",
-          "date": "2026-12-05",
-          "url": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/zur_seeweihnacht_am_breitnauer_see"
-        }
-      ]
-    },
-    {
-      "key": "venue-a8597da58146bdbdf3ca",
-      "location": "Karlsruher Oststadt",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "review",
-      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
-      "method": null,
-      "place": null,
-      "candidates": [
-        {
-          "id": "osm-node-7154542819",
-          "name": "Karlsruher Tafel e.V.",
-          "latitude": 49.0171309,
-          "longitude": 8.3448324,
-          "address": "Nördliche Uferstraße 8, 76189 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/7154542819",
-          "category": "amenity",
-          "type": "social_facility",
-          "street": "Nördliche Uferstraße",
-          "houseNumber": "8",
-          "score": 0.743,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-288924761",
-          "name": "Karlsruher Straße 12a",
-          "latitude": 49.0301364,
-          "longitude": 8.4578172,
-          "address": "Karlsruher Straße 12a, 76139 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/288924761",
-          "category": "building",
-          "type": "apartments",
-          "city": "Karlsruhe",
-          "district": "Hagsfeld",
-          "locality": "Alt-Hagsfeld",
-          "street": "Karlsruher Straße",
-          "houseNumber": "12a",
-          "score": 0.732,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-288924790",
-          "name": "Karlsruher Straße 14a",
-          "latitude": 49.0300006,
-          "longitude": 8.4576761,
-          "address": "Karlsruher Straße 14a, 76139 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/288924790",
-          "category": "building",
-          "type": "apartments",
-          "city": "Karlsruhe",
-          "district": "Hagsfeld",
-          "locality": "Alt-Hagsfeld",
-          "street": "Karlsruher Straße",
-          "houseNumber": "14a",
-          "score": 0.732,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-186368641",
-          "name": "Karlsruher Straße 2",
-          "latitude": 49.0307243,
-          "longitude": 8.4581274,
-          "address": "Karlsruher Straße 2, 76139 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/186368641",
-          "category": "building",
-          "type": "house",
-          "city": "Karlsruhe",
-          "district": "Hagsfeld",
-          "locality": "Alt-Hagsfeld",
-          "street": "Karlsruher Straße",
-          "houseNumber": "2",
-          "score": 0.718,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-288924794",
-          "name": "Karlsruher Straße 6",
-          "latitude": 49.0305187,
-          "longitude": 8.4574967,
-          "address": "Karlsruher Straße 6, 76139 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/288924794",
-          "category": "building",
-          "type": "yes",
-          "city": "Karlsruhe",
-          "district": "Hagsfeld",
-          "locality": "Alt-Hagsfeld",
-          "street": "Karlsruher Straße",
-          "houseNumber": "6",
-          "score": 0.718,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "Die Beschreibung nennt die großen Buchstaben „Alter Schlachthof“ an der Durlacher Allee. Der Schriftzug hat im Kartenmaterial keinen eindeutigen Punkt.",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-f139a7d8db659631",
-          "title": "Rundgang Areal Alter Schlachthof Karlsruhe",
-          "date": "2026-12-01",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/rundgang_areal_alter_schlachthof_karlsruhe-305"
-        }
-      ]
-    },
-    {
-      "key": "venue-5e8abe67cb6a3083668c",
-      "location": "Karlsruher Weihnachtscircus",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "review",
-      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
-      "method": null,
-      "place": null,
-      "candidates": [
-        {
-          "id": "osm-relation-1667804",
-          "name": "Karlsruher Lebensversicherung AG",
-          "latitude": 48.9988432,
-          "longitude": 8.398336,
-          "address": "Friedrich-Scholl-Platz 1, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/relation/1667804",
-          "category": "office",
-          "type": "company",
-          "city": "Karlsruhe",
-          "district": "Südweststadt",
-          "locality": "Südweststadt Östlicher Teil",
-          "street": "Friedrich-Scholl-Platz",
-          "houseNumber": "1",
-          "score": 0.576,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-61183835",
-          "name": "Karlsruher Rheinklub Alemannia e.V.",
-          "latitude": 49.0173969,
-          "longitude": 8.3422207,
-          "address": "Nördliche Uferstraße, 76189 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/61183835",
-          "category": "leisure",
-          "type": "sports_centre",
-          "street": "Nördliche Uferstraße",
-          "houseNumber": "",
-          "score": 0.561,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-7154542819",
-          "name": "Karlsruher Tafel e.V.",
-          "latitude": 49.0171309,
-          "longitude": 8.3448324,
-          "address": "Nördliche Uferstraße 8, 76189 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/7154542819",
-          "category": "amenity",
-          "type": "social_facility",
-          "street": "Nördliche Uferstraße",
-          "houseNumber": "8",
-          "score": 0.558,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-4799843361",
-          "name": "Karlsruher Fächer Werkstatt",
-          "latitude": 49.0046328,
-          "longitude": 8.4298027,
-          "address": "Alter Schlachthof 29, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/4799843361",
-          "category": "craft",
-          "type": "workshop",
-          "street": "Alter Schlachthof",
-          "houseNumber": "29",
-          "score": 0.556,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-371774193",
-          "name": "Karlsruher Sport-Club",
-          "latitude": 49.0193776,
-          "longitude": 8.4119291,
-          "address": "Adenauerring 17, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/371774193",
-          "category": "leisure",
-          "type": "sports_centre",
-          "street": "Adenauerring",
-          "houseNumber": "17",
-          "score": 0.542,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-f1dcae18fa6c5d44",
-          "title": "Benefizkonzert - Modern Church Band & Voices",
-          "date": "2026-12-05",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/benefizkonzert_modern_church_band_voices-1"
         }
       ]
     },
@@ -2654,12 +2062,6 @@
       ],
       "examples": [
         {
-          "id": "karlsruhe-29f526b99b47121e",
-          "title": "Black Marble - Die Erde bei Nacht",
-          "date": "2026-11-21",
-          "url": "https://kalender.karlsruhe.de/db/termine/wirtschaft/black_marble_die_erde_bei_nacht-1"
-        },
-        {
           "id": "karlsruhe-c0f1aaf96649acfa",
           "title": "NEU: Fritz Fliege fliegt ins Weltall",
           "date": "2026-11-22",
@@ -2676,6 +2078,12 @@
           "title": "Musik & Kosmos: \"Stars of Classic\"",
           "date": "2026-11-22",
           "url": "https://kalender.karlsruhe.de/db/termine/musik/musik_kosmos_stars_of_classic-57"
+        },
+        {
+          "id": "karlsruhe-cf4052481088d2a3",
+          "title": "Zeitreise - Vom Urknall zum Menschen",
+          "date": "2026-11-23",
+          "url": "https://kalender.karlsruhe.de/db/termine/wirtschaft/zeitreise_vom_urknall_zum_menschen-100"
         }
       ]
     },
@@ -7699,6 +7107,96 @@
       ]
     },
     {
+      "key": "venue-40662d6a549a7dc477ca",
+      "location": "Jubez - Jugend- und Begegnungszentrum",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-node-3148259369",
+        "name": "jubez",
+        "latitude": 49.0083572,
+        "longitude": 8.4096338,
+        "address": "Kronenplatz 1, 76133 Karlsruhe",
+        "url": "https://www.openstreetmap.org/node/3148259369",
+        "category": "amenity",
+        "type": "arts_centre",
+        "street": "Kronenplatz",
+        "houseNumber": "1"
+      },
+      "candidates": [
+        {
+          "id": "osm-node-3148259369",
+          "name": "jubez",
+          "latitude": 49.0083572,
+          "longitude": 8.4096338,
+          "address": "Kronenplatz 1, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3148259369",
+          "category": "amenity",
+          "type": "arts_centre",
+          "street": "Kronenplatz",
+          "houseNumber": "1",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-5168018882",
+          "name": "Internationales Begegnungszentrum",
+          "latitude": 49.0112896,
+          "longitude": 8.3766608,
+          "address": "Kaiserallee 12d, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/5168018882",
+          "category": "amenity",
+          "type": "community_centre",
+          "street": "Kaiserallee",
+          "houseNumber": "12d",
+          "score": 0.597,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 4,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-1ce67d1de65607f8",
+          "title": "El Flecha Negra + La Nefera",
+          "date": "2026-11-28",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/el_flecha_negra_la_nefera"
+        },
+        {
+          "id": "karlsruhe-3952ab8ddbfd1d4f",
+          "title": "El Flecha Negra | Support: La Nefera",
+          "date": "2026-11-28",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/el_flecha_negra_support_la_nefera"
+        },
+        {
+          "id": "karlsruhe-b7f4794baf067d9a",
+          "title": "Etceteral jubez @ jazzclub",
+          "date": "2026-12-03",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/etceteral_jubez_jazzclub"
+        },
+        {
+          "id": "karlsruhe-1b01d8b132a326b1",
+          "title": "FATCAT",
+          "date": "2026-12-05",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/fatcat-1"
+        }
+      ]
+    },
+    {
       "key": "venue-2259ee6eb4390af22c2b",
       "location": "Kinemathek Karlsruhe e.V.",
       "scope": "karlsruhe",
@@ -7821,6 +7319,63 @@
           "title": "Was an Empfindsamkeit bleibt",
           "date": "2026-11-29",
           "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/was_an_empfindsamkeit_bleibt"
+        }
+      ]
+    },
+    {
+      "key": "venue-ebadb41a085e0ae2d623",
+      "location": "Kirchgasse, Spielberg",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-265986914",
+        "name": "Evangelische Kirche an der Kirchgasse",
+        "address": "Kirchgasse, 76307 Karlsbad-Spielberg",
+        "latitude": 48.8974673,
+        "longitude": 8.4718541,
+        "url": "https://www.openstreetmap.org/way/265986914",
+        "category": "amenity",
+        "type": "place_of_worship"
+      },
+      "candidates": [],
+      "eventCount": 4,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsbad"
+      ],
+      "sources": [
+        "Gemeinde Karlsbad"
+      ],
+      "examples": [
+        {
+          "id": "karlsbad-ca2ad713-2f78-3672-adc1-76294e54b96c",
+          "title": "Wochenmarkt Spielberg",
+          "date": "2026-11-25",
+          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12672"
+        },
+        {
+          "id": "karlsbad-60ee5f31-1142-3a1f-a184-24162cc7cba1",
+          "title": "Wochenmarkt Spielberg",
+          "date": "2026-12-02",
+          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12673"
+        },
+        {
+          "id": "karlsbad-1174f88b-ba53-30ec-87e5-0ccee9dea1ec",
+          "title": "Wochenmarkt Spielberg",
+          "date": "2026-12-09",
+          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12674"
+        },
+        {
+          "id": "karlsbad-dff3a33e-3705-3b01-b8a4-17dc85a2551e",
+          "title": "Wochenmarkt Spielberg",
+          "date": "2026-12-16",
+          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12675"
         }
       ]
     },
@@ -8534,12 +8089,6 @@
       ],
       "examples": [
         {
-          "id": "karlsruhe-9b68f786f3beb18c",
-          "title": "90ER VS. 2000ER PARTY",
-          "date": "2026-11-21",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/90er_vs_2000er_party"
-        },
-        {
           "id": "karlsruhe-38fa8412139367cd",
           "title": "BOSSE",
           "date": "2026-11-27",
@@ -8556,6 +8105,12 @@
           "title": "TERROR",
           "date": "2026-12-04",
           "url": "https://kalender.karlsruhe.de/db/termine/musik/terror"
+        },
+        {
+          "id": "karlsruhe-65d4fac189dda488",
+          "title": "SIX-PACK PARTY",
+          "date": "2026-12-05",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/six_pack_party"
         }
       ]
     },
@@ -9202,6 +8757,104 @@
       ]
     },
     {
+      "key": "venue-aaf6c7163d41740efa42",
+      "location": "Café NUN",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-node-1669073010",
+        "name": "nun Kaffeehaus",
+        "latitude": 49.0068065,
+        "longitude": 8.4207765,
+        "address": "Gottesauer Straße 35, 76131 Karlsruhe",
+        "url": "https://www.openstreetmap.org/node/1669073010",
+        "category": "amenity",
+        "type": "bar",
+        "street": "Gottesauer Straße",
+        "houseNumber": "35"
+      },
+      "candidates": [
+        {
+          "id": "osm-node-1669073010",
+          "name": "nun Kaffeehaus",
+          "latitude": 49.0068065,
+          "longitude": 8.4207765,
+          "address": "Gottesauer Straße 35, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1669073010",
+          "category": "amenity",
+          "type": "bar",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Westlicher Teil",
+          "street": "Gottesauer Straße",
+          "houseNumber": "35",
+          "score": 0.333,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-108832351",
+          "name": "Gottesauer Straße 35",
+          "latitude": 49.0068154,
+          "longitude": 8.4208005,
+          "address": "Gottesauer Straße 35, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/108832351",
+          "category": "building",
+          "type": "residential",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Westlicher Teil",
+          "street": "Gottesauer Straße",
+          "houseNumber": "35",
+          "score": 0.207,
+          "exact": true,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 3,
+      "reviewNote": "Originalquelle nennt Gottesauerstraße 35, 76131 Karlsruhe. Noch keinen eindeutigen passenden Kartenpunkt bestätigt. Beleg: https://kalender.karlsruhe.de/db/termine/musik/schragfest_9_mit_frederik_tebbe_julian",
+      "sourceAddresses": [
+        {
+          "street": "Gottesauerstraße 35",
+          "city": "Karlsruhe",
+          "postalCode": "76131",
+          "address": "Gottesauerstraße 35, 76131 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/schragfest_9_mit_frederik_tebbe_julian"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-82717ec7b836a584",
+          "title": "NUN-Märchenzeit: Tischlein deck dich mit Markus Finkler",
+          "date": "2026-11-29",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/nun_marchenzeit_tischlein_deck_dich_mit_markus_finkler"
+        },
+        {
+          "id": "karlsruhe-7a7631f44aa076b6",
+          "title": "Konzert: Low Key Orchestra | Café NUN",
+          "date": "2026-12-04",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/konzert_low_key_orchestra_cafe_nun"
+        },
+        {
+          "id": "karlsruhe-719db92242ecc8e8",
+          "title": "Konzert: LENER",
+          "date": "2026-12-05",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/konzert_lener"
+        }
+      ]
+    },
+    {
       "key": "venue-dbca6d1a776f464357d4",
       "location": "Evangelische Kirche Weingarten",
       "scope": "weingarten",
@@ -9716,90 +9369,6 @@
           "title": "Schnupperworkshop Theaterspielen für Jugendliche von 14-17 Jahren",
           "date": "2026-11-28",
           "url": "https://kalender.karlsruhe.de/db/termine/theater/schnupperworkshop_theaterspielen_fur"
-        }
-      ]
-    },
-    {
-      "key": "venue-40662d6a549a7dc477ca",
-      "location": "Jubez - Jugend- und Begegnungszentrum",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-node-3148259369",
-        "name": "jubez",
-        "latitude": 49.0083572,
-        "longitude": 8.4096338,
-        "address": "Kronenplatz 1, 76133 Karlsruhe",
-        "url": "https://www.openstreetmap.org/node/3148259369",
-        "category": "amenity",
-        "type": "arts_centre",
-        "street": "Kronenplatz",
-        "houseNumber": "1"
-      },
-      "candidates": [
-        {
-          "id": "osm-node-3148259369",
-          "name": "jubez",
-          "latitude": 49.0083572,
-          "longitude": 8.4096338,
-          "address": "Kronenplatz 1, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/3148259369",
-          "category": "amenity",
-          "type": "arts_centre",
-          "street": "Kronenplatz",
-          "houseNumber": "1",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-5168018882",
-          "name": "Internationales Begegnungszentrum",
-          "latitude": 49.0112896,
-          "longitude": 8.3766608,
-          "address": "Kaiserallee 12d, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/5168018882",
-          "category": "amenity",
-          "type": "community_centre",
-          "street": "Kaiserallee",
-          "houseNumber": "12d",
-          "score": 0.597,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 3,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-1ce67d1de65607f8",
-          "title": "El Flecha Negra + La Nefera",
-          "date": "2026-11-28",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/el_flecha_negra_la_nefera"
-        },
-        {
-          "id": "karlsruhe-3952ab8ddbfd1d4f",
-          "title": "El Flecha Negra | Support: La Nefera",
-          "date": "2026-11-28",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/el_flecha_negra_support_la_nefera"
-        },
-        {
-          "id": "karlsruhe-b7f4794baf067d9a",
-          "title": "Etceteral jubez @ jazzclub",
-          "date": "2026-12-03",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/etceteral_jubez_jazzclub"
         }
       ]
     },
@@ -11963,98 +11532,6 @@
           "title": "Figurentheater: Der kleine König feiert Weihnachten",
           "date": "2026-11-29",
           "url": "https://kalender.karlsruhe.de/db/termine/theater/figurentheater_der_kleine_konig_feiert_weihnachten-1"
-        }
-      ]
-    },
-    {
-      "key": "venue-aaf6c7163d41740efa42",
-      "location": "Café NUN",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-node-1669073010",
-        "name": "nun Kaffeehaus",
-        "latitude": 49.0068065,
-        "longitude": 8.4207765,
-        "address": "Gottesauer Straße 35, 76131 Karlsruhe",
-        "url": "https://www.openstreetmap.org/node/1669073010",
-        "category": "amenity",
-        "type": "bar",
-        "street": "Gottesauer Straße",
-        "houseNumber": "35"
-      },
-      "candidates": [
-        {
-          "id": "osm-node-1669073010",
-          "name": "nun Kaffeehaus",
-          "latitude": 49.0068065,
-          "longitude": 8.4207765,
-          "address": "Gottesauer Straße 35, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/1669073010",
-          "category": "amenity",
-          "type": "bar",
-          "city": "Karlsruhe",
-          "district": "Oststadt",
-          "locality": "Oststadt Westlicher Teil",
-          "street": "Gottesauer Straße",
-          "houseNumber": "35",
-          "score": 0.333,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-108832351",
-          "name": "Gottesauer Straße 35",
-          "latitude": 49.0068154,
-          "longitude": 8.4208005,
-          "address": "Gottesauer Straße 35, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/108832351",
-          "category": "building",
-          "type": "residential",
-          "city": "Karlsruhe",
-          "district": "Oststadt",
-          "locality": "Oststadt Westlicher Teil",
-          "street": "Gottesauer Straße",
-          "houseNumber": "35",
-          "score": 0.207,
-          "exact": true,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 2,
-      "reviewNote": "Originalquelle nennt Gottesauerstraße 35, 76131 Karlsruhe. Noch keinen eindeutigen passenden Kartenpunkt bestätigt. Beleg: https://kalender.karlsruhe.de/db/termine/musik/schragfest_9_mit_frederik_tebbe_julian",
-      "sourceAddresses": [
-        {
-          "street": "Gottesauerstraße 35",
-          "city": "Karlsruhe",
-          "postalCode": "76131",
-          "address": "Gottesauerstraße 35, 76131 Karlsruhe",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/schragfest_9_mit_frederik_tebbe_julian"
-        }
-      ],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-82717ec7b836a584",
-          "title": "NUN-Märchenzeit: Tischlein deck dich mit Markus Finkler",
-          "date": "2026-11-29",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/nun_marchenzeit_tischlein_deck_dich_mit_markus_finkler"
-        },
-        {
-          "id": "karlsruhe-7a7631f44aa076b6",
-          "title": "Konzert: Low Key Orchestra | Café NUN",
-          "date": "2026-12-04",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/konzert_low_key_orchestra_cafe_nun"
         }
       ]
     },
@@ -20024,6 +19501,49 @@
       ]
     },
     {
+      "key": "venue-b03a84e2e11ebee786f7",
+      "location": "Festplatz, Ittersbach",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-node-529370499",
+        "name": "Festplatz Ittersbach bei der Grundschule",
+        "address": "Belchenstraße 29, 76307 Karlsbad-Ittersbach",
+        "latitude": 48.8619422,
+        "longitude": 8.5040234,
+        "url": "https://www.openstreetmap.org/node/529370499",
+        "category": "amenity",
+        "type": "school",
+        "city": "Karlsbad",
+        "street": "Belchenstraße",
+        "houseNumber": "29",
+        "district": "Ittersbach"
+      },
+      "candidates": [],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsbad"
+      ],
+      "sources": [
+        "Gemeinde Karlsbad"
+      ],
+      "examples": [
+        {
+          "id": "karlsbad-0822e513-571c-3b47-8290-a0c57e97bb66",
+          "title": "Garagenglühen",
+          "date": "2026-11-28",
+          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12545"
+        }
+      ]
+    },
+    {
       "key": "venue-813cfdd7eda9d04d69cb",
       "location": "Feuerwehrhaus",
       "scope": "soellingen",
@@ -20190,6 +19710,134 @@
           "title": "Benefizkinoabend \"22 Bahnen\"",
           "date": "2026-11-24",
           "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/benefizkinoabend_22_bahnen"
+        }
+      ]
+    },
+    {
+      "key": "venue-23558b3bfb5bc1277dad",
+      "location": "Freibad Wolfartsweier (Wölfle)",
+      "scope": "durlach",
+      "scopeLabel": "Durlach",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-node-5290543052",
+        "name": "Wolfartsweier Freibad",
+        "latitude": 48.9726617,
+        "longitude": 8.4544113,
+        "address": "Schlossbergstraße, 76228 Karlsruhe",
+        "url": "https://www.openstreetmap.org/node/5290543052",
+        "category": "information",
+        "type": "guidepost",
+        "street": "Schlossbergstraße",
+        "houseNumber": ""
+      },
+      "candidates": [
+        {
+          "id": "osm-node-5290543052",
+          "name": "Wolfartsweier Freibad",
+          "latitude": 48.9726617,
+          "longitude": 8.4544113,
+          "address": "Schlossbergstraße, 76228 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/5290543052",
+          "category": "information",
+          "type": "guidepost",
+          "street": "Schlossbergstraße",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-4626528",
+          "name": "Freibad Wolfartsweier",
+          "latitude": 48.9723555,
+          "longitude": 8.4534423,
+          "address": "Schlossbergstraße, 76228 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/4626528",
+          "category": "leisure",
+          "type": "sports_centre",
+          "city": "Karlsruhe",
+          "district": "Wolfartsweier",
+          "locality": "",
+          "street": "Schlossbergstraße",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-13325820786",
+          "name": "16 Freibad Wölfle",
+          "latitude": 48.9727169,
+          "longitude": 8.4543848,
+          "address": "Schlossbergstraße, 76228 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/13325820786",
+          "category": "information",
+          "type": "map_board",
+          "city": "Karlsruhe",
+          "district": "Wolfartsweier",
+          "locality": "",
+          "street": "Schlossbergstraße",
+          "houseNumber": "",
+          "score": 0.622,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-104685112",
+          "name": "St. Margaretha Wolfartsweier",
+          "latitude": 48.9781316,
+          "longitude": 8.45398,
+          "address": "Hörgelstraße 13, 76228 Karlsruhe-Wolfartsweier",
+          "url": "https://www.openstreetmap.org/way/104685112",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Hörgelstraße",
+          "houseNumber": "13",
+          "city": "Karlsruhe",
+          "district": "Wolfartsweier",
+          "score": 0.618,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-104143842",
+          "name": "Begegnungsstätte Wolfartsweier",
+          "latitude": 48.9749071,
+          "longitude": 8.4525249,
+          "address": "Rathausstraße 2a, 76228 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/104143842",
+          "category": "amenity",
+          "type": "community_centre",
+          "city": "Karlsruhe",
+          "district": "Wolfartsweier",
+          "locality": "",
+          "street": "Rathausstraße",
+          "houseNumber": "2a",
+          "score": 0.552,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "durlach"
+      ],
+      "sources": [
+        "Durlacher.de · Durlacher Kalender"
+      ],
+      "examples": [
+        {
+          "id": "durlach-12093-2026-11-21-1600",
+          "title": "Benefizfest: „Wölfle, Wurst und Wein“",
+          "date": "2026-11-21",
+          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12093&tx_events2_events%5Btimestamp%5D=1795273200&cHash=0fb37030950d9226b8c683fd22105e9e"
         }
       ]
     },
@@ -22829,6 +22477,119 @@
       ]
     },
     {
+      "key": "venue-7bd93e3c877119cbbfa1",
+      "location": "Karlsruhe Hauptbahnhof - Halle Treffpunkt",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-node-2889922863",
+        "name": "Hauptbahnhof Karlsruhe, Eingang zur Bahnhofshalle",
+        "address": "Bahnhofplatz 1a, 76137 Karlsruhe",
+        "latitude": 48.9942104,
+        "longitude": 8.4003785,
+        "url": "https://www.openstreetmap.org/node/2889922863",
+        "category": "railway",
+        "type": "train_station_entrance"
+      },
+      "candidates": [
+        {
+          "id": "osm-node-2541436126",
+          "name": "Karlsruhe Hauptbahnhof",
+          "latitude": 48.9931917,
+          "longitude": 8.4017106,
+          "address": "Hinterm Hauptbahnhof, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/2541436126",
+          "category": "railway",
+          "type": "stop",
+          "street": "Hinterm Hauptbahnhof",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-25443575",
+          "name": "Karlsruhe Hauptbahnhof",
+          "latitude": 48.9940078,
+          "longitude": 8.4016492,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/25443575",
+          "category": "railway",
+          "type": "stop",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-3216079568",
+          "name": "Karlsruhe Hauptbahnhof",
+          "latitude": 48.9933687,
+          "longitude": 8.4021034,
+          "address": "Hinterm Hauptbahnhof, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3216079568",
+          "category": "railway",
+          "type": "stop",
+          "street": "Hinterm Hauptbahnhof",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-402589279",
+          "name": "Karlsruhe Hauptbahnhof",
+          "latitude": 48.9937234,
+          "longitude": 8.4018652,
+          "address": "Bahnhofplatz, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/402589279",
+          "category": "railway",
+          "type": "stop",
+          "street": "Bahnhofplatz",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-402589288",
+          "name": "Karlsruhe Hauptbahnhof",
+          "latitude": 48.9932895,
+          "longitude": 8.4020941,
+          "address": "Hinterm Hauptbahnhof, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/402589288",
+          "category": "railway",
+          "type": "stop",
+          "street": "Hinterm Hauptbahnhof",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-0d85f8d63e038b2f",
+          "title": "Zur Seeweihnacht am Breitnauer See",
+          "date": "2026-12-05",
+          "url": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/zur_seeweihnacht_am_breitnauer_see"
+        }
+      ]
+    },
+    {
       "key": "venue-539b5d805c42fde4fe22",
       "location": "Karlsruhe Hbf",
       "scope": "karlsruhe",
@@ -23063,6 +22824,124 @@
           "title": "Junge Talente - Wissenschaft und Musik",
           "date": "2026-12-03",
           "url": "https://kalender.karlsruhe.de/db/termine/literatur/junge_talente_wissenschaft_und_musik-3"
+        }
+      ]
+    },
+    {
+      "key": "venue-5e8abe67cb6a3083668c",
+      "location": "Karlsruher Weihnachtscircus",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-134631705",
+        "name": "Messplatz Karlsruhe",
+        "address": "Durlacher Allee 66, 76137 Karlsruhe",
+        "latitude": 49.0047498,
+        "longitude": 8.4345175,
+        "url": "https://www.openstreetmap.org/way/134631705",
+        "category": "landuse",
+        "type": "events"
+      },
+      "candidates": [
+        {
+          "id": "osm-relation-1667804",
+          "name": "Karlsruher Lebensversicherung AG",
+          "latitude": 48.9988432,
+          "longitude": 8.398336,
+          "address": "Friedrich-Scholl-Platz 1, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/1667804",
+          "category": "office",
+          "type": "company",
+          "city": "Karlsruhe",
+          "district": "Südweststadt",
+          "locality": "Südweststadt Östlicher Teil",
+          "street": "Friedrich-Scholl-Platz",
+          "houseNumber": "1",
+          "score": 0.576,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-61183835",
+          "name": "Karlsruher Rheinklub Alemannia e.V.",
+          "latitude": 49.0173969,
+          "longitude": 8.3422207,
+          "address": "Nördliche Uferstraße, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/61183835",
+          "category": "leisure",
+          "type": "sports_centre",
+          "street": "Nördliche Uferstraße",
+          "houseNumber": "",
+          "score": 0.561,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-7154542819",
+          "name": "Karlsruher Tafel e.V.",
+          "latitude": 49.0171309,
+          "longitude": 8.3448324,
+          "address": "Nördliche Uferstraße 8, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/7154542819",
+          "category": "amenity",
+          "type": "social_facility",
+          "street": "Nördliche Uferstraße",
+          "houseNumber": "8",
+          "score": 0.558,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-4799843361",
+          "name": "Karlsruher Fächer Werkstatt",
+          "latitude": 49.0046328,
+          "longitude": 8.4298027,
+          "address": "Alter Schlachthof 29, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4799843361",
+          "category": "craft",
+          "type": "workshop",
+          "street": "Alter Schlachthof",
+          "houseNumber": "29",
+          "score": 0.556,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-371774193",
+          "name": "Karlsruher Sport-Club",
+          "latitude": 49.0193776,
+          "longitude": 8.4119291,
+          "address": "Adenauerring 17, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/371774193",
+          "category": "leisure",
+          "type": "sports_centre",
+          "street": "Adenauerring",
+          "houseNumber": "17",
+          "score": 0.542,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-f1dcae18fa6c5d44",
+          "title": "Benefizkonzert - Modern Church Band & Voices",
+          "date": "2026-12-05",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/benefizkonzert_modern_church_band_voices-1"
         }
       ]
     },
@@ -25622,6 +25501,49 @@
           "title": "Sant Jordi",
           "date": "2027-04-23",
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1040/sant-jordi"
+        }
+      ]
+    },
+    {
+      "key": "venue-11092b5a5950d91b8f24",
+      "location": "Ortsmitte Karlsbad-Auerbach",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-215290627",
+        "name": "Ortsmitte Auerbach am Rathaus",
+        "address": "Remchinger Straße 68, 76307 Karlsbad-Auerbach",
+        "latitude": 48.9141968,
+        "longitude": 8.5319365,
+        "url": "https://www.openstreetmap.org/way/215290627",
+        "category": "amenity",
+        "type": "townhall",
+        "city": "Karlsbad",
+        "street": "Remchinger Straße",
+        "houseNumber": "68",
+        "district": "Auerbach"
+      },
+      "candidates": [],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsbad"
+      ],
+      "sources": [
+        "Gemeinde Karlsbad"
+      ],
+      "examples": [
+        {
+          "id": "karlsbad-1b5e6523-28dd-35cd-a5d8-3ca500c87a68",
+          "title": "Weihnachtssingen im Dorf",
+          "date": "2026-12-15",
+          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12562"
         }
       ]
     },
@@ -28866,6 +28788,131 @@
       ]
     },
     {
+      "key": "venue-347a6ac42276b3d47993",
+      "location": "Tullastraße/Alter Schlachthof (Treffpunkt Rundgang)",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-node-12650255545",
+        "name": "Haltestelle Tullastraße/Alter Schlachthof",
+        "address": "Durlacher Allee, 76131 Karlsruhe",
+        "latitude": 49.0061371,
+        "longitude": 8.4315933,
+        "url": "https://www.openstreetmap.org/node/12650255545",
+        "category": "public_transport",
+        "type": "platform"
+      },
+      "candidates": [
+        {
+          "id": "osm-way-134765925",
+          "name": "Alter Schlachthof",
+          "latitude": 49.0059712,
+          "longitude": 8.4305647,
+          "address": "76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/134765925",
+          "category": "highway",
+          "type": "pedestrian",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Kreativpark Alter Schlachthof",
+          "street": "",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-252297878",
+          "name": "Alter Schlachthof",
+          "latitude": 49.0035091,
+          "longitude": 8.434195,
+          "address": "76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/252297878",
+          "category": "highway",
+          "type": "unclassified",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-835852681",
+          "name": "Alter Schlachthof",
+          "latitude": 49.0058088,
+          "longitude": 8.4295665,
+          "address": "76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/835852681",
+          "category": "highway",
+          "type": "unclassified",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Kreativpark Alter Schlachthof",
+          "street": "",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-12650255545",
+          "name": "Haltestelle Tullastraße/Alter Schlachthof",
+          "address": "Durlacher Allee, 76131 Karlsruhe",
+          "latitude": 49.0061371,
+          "longitude": 8.4315933,
+          "url": "https://www.openstreetmap.org/node/12650255545",
+          "category": "public_transport",
+          "type": "platform",
+          "score": 0.652,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-102302455",
+          "name": "Kreativpark Alter Schlachthof",
+          "latitude": 49.0053385,
+          "longitude": 8.4311032,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/102302455",
+          "category": "landuse",
+          "type": "commercial",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "",
+          "street": "",
+          "houseNumber": "",
+          "score": 0.532,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-f139a7d8db659631",
+          "title": "Rundgang Areal Alter Schlachthof Karlsruhe",
+          "date": "2026-12-01",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/rundgang_areal_alter_schlachthof_karlsruhe-305"
+        }
+      ]
+    },
+    {
       "key": "venue-34a6acc0221453617905",
       "location": "Turmberg Weingarten (Baden)",
       "scope": "weingarten",
@@ -29280,6 +29327,88 @@
           "title": "Nikolausfeier/Winterfeier",
           "date": "2026-12-05",
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2831"
+        }
+      ]
+    },
+    {
+      "key": "venue-5988885af2678449104d",
+      "location": "Vereinsheim/Vereinsgelände",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-25776280",
+        "name": "Pfarrweg zum Sängerheim der Eintracht Spöck",
+        "address": "Pfarrweg, 76297 Stutensee-Spöck",
+        "latitude": 49.10833,
+        "longitude": 8.5140097,
+        "url": "https://www.openstreetmap.org/way/25776280",
+        "category": "highway",
+        "type": "unclassified"
+      },
+      "candidates": [],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "Gesangverein \"Eintracht 1887\" Spöck e.V.",
+      "sourceContext": null,
+      "sourceIds": [
+        "stutensee"
+      ],
+      "sources": [
+        "Stadt Stutensee · Veranstaltungskalender"
+      ],
+      "examples": [
+        {
+          "id": "stutensee-2834",
+          "title": "Nikolausfeier",
+          "date": "2026-12-06",
+          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2834"
+        }
+      ]
+    },
+    {
+      "key": "venue-5a5be07949024858aadb",
+      "location": "Vereinsheim/Vereinsgelände",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-221356203",
+        "name": "Vereinsheim des Karnevalsclubs Die Piraten",
+        "address": "Seegrabenweg 9, 76297 Stutensee-Blankenloch",
+        "latitude": 49.0704208,
+        "longitude": 8.476363,
+        "url": "https://www.openstreetmap.org/way/221356203",
+        "category": "building",
+        "type": "yes",
+        "city": "Stutensee",
+        "street": "Seegrabenweg",
+        "houseNumber": "9",
+        "district": "Blankenloch"
+      },
+      "candidates": [],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "Karnevalsclub \"Die Piraten\" Stutensee e.V.",
+      "sourceContext": null,
+      "sourceIds": [
+        "stutensee"
+      ],
+      "sources": [
+        "Stadt Stutensee · Veranstaltungskalender"
+      ],
+      "examples": [
+        {
+          "id": "stutensee-2843",
+          "title": "Glühweinfeschdle",
+          "date": "2026-12-30",
+          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2843"
         }
       ]
     },

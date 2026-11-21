@@ -5,8 +5,8 @@
     "region": "Weingarten (Baden)",
     "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/seite-1/suche-none",
     "status": "ok",
-    "lastAttemptAt": "2026-11-21T19:21:39+00:00",
-    "lastSuccessAt": "2026-11-21T19:21:39+00:00",
+    "lastAttemptAt": "2026-11-21T20:22:24+00:00",
+    "lastSuccessAt": "2026-11-21T20:22:24+00:00",
     "refreshHours": 24,
     "recordCount": 177,
     "eventCount": 177,
@@ -47,7 +47,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/840/schauturnen-fuer-gross-und-klein",
@@ -64,7 +64,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Schauturnen für Groß und Klein",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -99,7 +99,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1088/turn-und-showabend",
@@ -116,7 +116,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Turn- und Showabend",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -151,7 +151,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/918/abseits-des-alltaeglichen-auch-ganz-nahe-der-heimat",
@@ -168,7 +168,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Abseits des Alltäglichen – auch ganz nahe der Heimat.",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -203,7 +203,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/809/125-jahre-cvjm-weingarten-konzert-2-fluegel",
@@ -220,7 +220,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "125 Jahre CVJM-Weingarten – Konzert „2 Flügel“",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -255,7 +255,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/859/der-andere-weihnachtsmarkt",
@@ -272,7 +272,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Der andere Weihnachtsmarkt",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -307,7 +307,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/832/adventskonzert",
@@ -324,7 +324,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Adventskonzert",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -359,7 +359,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/749/oeffentliche-sitzung-gemeinderat",
@@ -376,7 +376,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Öffentliche Sitzung: Gemeinderat",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -411,7 +411,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/928/heiraten-in-weingarten-baden-angebot-trausamstag",
@@ -428,7 +428,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Heiraten in Weingarten (Baden) - Angebot Trausamstag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -463,7 +463,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1090/nikolaus-vorlesestunde",
@@ -480,7 +480,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Nikolaus Vorlesestunde",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -515,7 +515,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/882/wintergluehen",
@@ -532,7 +532,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Winterglühen",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -567,7 +567,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/750/oeffentliche-sitzung-technischer-ausschuss",
@@ -584,7 +584,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Öffentliche Sitzung: Technischer Ausschuss",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -619,7 +619,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/751/oeffentliche-sitzung-verwaltungsausschuss",
@@ -636,7 +636,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Öffentliche Sitzung: Verwaltungsausschuss",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -671,7 +671,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/980/kvv-fahrkartenverkauf",
@@ -688,7 +688,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "KVV Fahrkartenverkauf",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -723,7 +723,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/819/weihnachtsfeier-musikverein",
@@ -740,7 +740,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Weihnachtsfeier Musikverein",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -775,7 +775,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/752/oeffentliche-sitzung-gemeinderat",
@@ -792,7 +792,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Öffentliche Sitzung: Gemeinderat",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -827,7 +827,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/753/oeffentliche-sitzung-gemeinderat",
@@ -844,7 +844,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Öffentliche Sitzung: Gemeinderat",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -879,7 +879,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/992/weingartner-musiktage-sonderkonzert-mit-maxjoseph",
@@ -896,7 +896,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Weingartner Musiktage - Sonderkonzert mit MAXJOSEPH",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -931,7 +931,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1002/kurrende-blasen-des-posaunenchors",
@@ -948,7 +948,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Kurrende-Blasen des Posaunenchors",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -983,7 +983,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/817/weihnachtsklaenge-auf-dem-friedhof",
@@ -1000,7 +1000,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Weihnachtsklänge auf dem Friedhof",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -1035,7 +1035,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/833/blutspendeveranstaltung-mit-dem-drk-blutspendedienst",
@@ -1052,7 +1052,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Blutspendeveranstaltung mit dem DRK-Blutspendedienst",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -1087,7 +1087,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1004/choraele-zum-jahresausklang",
@@ -1104,7 +1104,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Choräle zum Jahresausklang",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -1139,7 +1139,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1012/neujahrsempfang-der-gemeinde-weingarten-baden",
@@ -1156,7 +1156,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Neujahrsempfang der Gemeinde Weingarten (Baden)",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -1191,7 +1191,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1005/christbaumsammlung",
@@ -1208,7 +1208,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Christbaumsammlung",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -1243,7 +1243,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/957/altpapiersammlung-bring-system-der-kjg-weingarten",
@@ -1260,7 +1260,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Altpapiersammlung (Bring-System) der KjG Weingarten",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -1295,7 +1295,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1050/turnier-bezirksrangliste",
@@ -1312,7 +1312,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Turnier Bezirksrangliste",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -1347,7 +1347,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1050/turnier-bezirksrangliste",
@@ -1364,7 +1364,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Turnier Bezirksrangliste",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -1399,7 +1399,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/928/heiraten-in-weingarten-baden-angebot-trausamstag",
@@ -1416,7 +1416,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Heiraten in Weingarten (Baden) - Angebot Trausamstag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -1451,7 +1451,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/990/repair-cafe",
@@ -1468,7 +1468,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Repair-Café",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -1503,7 +1503,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/925/2-weingartner-charity-eisbaden",
@@ -1520,7 +1520,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "2. Weingartner Charity Eisbaden",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -1555,7 +1555,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1031/jahresmeisterfeier-boxenstopp-",
@@ -1572,7 +1572,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Jahresmeisterfeier -Boxenstopp-",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -1607,7 +1607,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/942/musik-und-wort-das-kleine-konzert-in-der-evangelischen-kirche-weingarten",
@@ -1624,7 +1624,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Musik und Wort Das Kleine Konzert in der Evangelischen Kirche Weingarten",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -1659,7 +1659,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/928/heiraten-in-weingarten-baden-angebot-trausamstag",
@@ -1676,7 +1676,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Heiraten in Weingarten (Baden) - Angebot Trausamstag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -1711,7 +1711,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/974/kalif-storch-theaterstueck-fuer-alle-ab-5-jahren",
@@ -1728,7 +1728,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "\"Kalif Storch\" - Theaterstück für alle ab 5 Jahren",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -1763,7 +1763,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/958/fvgg-jugend-hallenturnier",
@@ -1780,7 +1780,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "FVgg Jugend-Hallenturnier",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -1815,7 +1815,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/974/kalif-storch-theaterstueck-fuer-alle-ab-5-jahren",
@@ -1832,7 +1832,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "\"Kalif Storch\" - Theaterstück für alle ab 5 Jahren",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -1867,7 +1867,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1051/pokal-final-four",
@@ -1884,7 +1884,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Pokal Final Four",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -1919,7 +1919,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/958/fvgg-jugend-hallenturnier",
@@ -1936,7 +1936,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "FVgg Jugend-Hallenturnier",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -1971,7 +1971,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/974/kalif-storch-theaterstueck-fuer-alle-ab-5-jahren",
@@ -1988,7 +1988,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "\"Kalif Storch\" - Theaterstück für alle ab 5 Jahren",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -2023,7 +2023,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/928/heiraten-in-weingarten-baden-angebot-trausamstag",
@@ -2040,7 +2040,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Heiraten in Weingarten (Baden) - Angebot Trausamstag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -2075,7 +2075,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/990/repair-cafe",
@@ -2092,7 +2092,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Repair-Café",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -2127,7 +2127,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/974/kalif-storch-theaterstueck-fuer-alle-ab-5-jahren",
@@ -2144,7 +2144,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "\"Kalif Storch\" - Theaterstück für alle ab 5 Jahren",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -2179,7 +2179,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1017/4-weingartener-poetry-slam",
@@ -2196,7 +2196,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "4. Weingartener Poetry Slam",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -2231,7 +2231,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/943/musik-und-wort-das-kleine-konzert-in-der-evangelischen-kirche-weingarten",
@@ -2248,7 +2248,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Musik und Wort Das Kleine Konzert in der Evangelischen Kirche Weingarten",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -2283,7 +2283,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/994/kindersachen-flohmarkt",
@@ -2300,7 +2300,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Kindersachen Flohmarkt",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -2335,7 +2335,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/923/apres-ski-party",
@@ -2352,7 +2352,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Apres Ski Party",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -2387,7 +2387,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/928/heiraten-in-weingarten-baden-angebot-trausamstag",
@@ -2404,7 +2404,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Heiraten in Weingarten (Baden) - Angebot Trausamstag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -2439,7 +2439,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/994/kindersachen-flohmarkt",
@@ -2456,7 +2456,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Kindersachen Flohmarkt",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -2491,7 +2491,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1032/motorrad-event-alcaras",
@@ -2508,7 +2508,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Motorrad Event Alcaras",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -2543,7 +2543,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/991/irish-folk-abend",
@@ -2560,7 +2560,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Irish-Folk Abend",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -2595,7 +2595,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1021/osterbrunnen-schmuecken-mit-kuchenverkauf",
@@ -2612,7 +2612,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Osterbrunnen schmücken mit Kuchenverkauf",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -2647,7 +2647,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/928/heiraten-in-weingarten-baden-angebot-trausamstag",
@@ -2664,7 +2664,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Heiraten in Weingarten (Baden) - Angebot Trausamstag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -2699,7 +2699,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/990/repair-cafe",
@@ -2716,7 +2716,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Repair-Café",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -2751,7 +2751,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1023/jubelkonfirmation",
@@ -2768,7 +2768,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Jubelkonfirmation",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -2803,7 +2803,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/965/55-fruehjahrskonzert-des-musikvereins",
@@ -2820,7 +2820,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "55. Frühjahrskonzert des Musikvereins",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -2855,7 +2855,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1028/drk-blutspendeveranstaltung-mit-dem-drk-blutspendedienst",
@@ -2872,7 +2872,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "DRK Blutspendeveranstaltung mit dem DRK-Blutspendedienst",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -2907,7 +2907,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1001/auferstehungsfeier-mit-dem-posaunenchor",
@@ -2924,7 +2924,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Auferstehungsfeier mit dem Posaunenchor",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -2959,7 +2959,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/944/musik-und-wort-das-kleine-konzert-in-der-evangelischen-kirche-weingarten",
@@ -2976,7 +2976,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Musik und Wort Das Kleine Konzert in der Evangelischen Kirche Weingarten",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -3011,7 +3011,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1033/automobilslalom-auf-dem-hockenheimring",
@@ -3028,7 +3028,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Automobilslalom auf dem Hockenheimring",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -3063,7 +3063,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/928/heiraten-in-weingarten-baden-angebot-trausamstag",
@@ -3080,7 +3080,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Heiraten in Weingarten (Baden) - Angebot Trausamstag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -3115,7 +3115,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/928/heiraten-in-weingarten-baden-angebot-trausamstag",
@@ -3132,7 +3132,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Heiraten in Weingarten (Baden) - Angebot Trausamstag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -3167,7 +3167,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/990/repair-cafe",
@@ -3184,7 +3184,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Repair-Café",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -3219,7 +3219,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/967/musikverein-erlebnistag",
@@ -3236,7 +3236,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Musikverein Erlebnistag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -3271,7 +3271,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1048/3-fruehlingsfest",
@@ -3288,7 +3288,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "3. Frühlingsfest",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -3323,7 +3323,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1034/e-bikepedelac-sicherheitstraining",
@@ -3340,7 +3340,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "E-Bike/Pedelac Sicherheitstraining",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -3375,7 +3375,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/971/wwwtraeublelaufde",
@@ -3392,7 +3392,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Träublelauf des TSV Weingarten",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -3427,7 +3427,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/969/kirchenkonzert",
@@ -3444,7 +3444,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Kirchenkonzert",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -3479,7 +3479,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1007/komm-ich-zeig-dir-die-natur-wald-mit-allen-sinnen-erleben",
@@ -3496,7 +3496,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Komm ich zeig dir die Natur: Wald mit allen Sinnen erleben",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -3531,7 +3531,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1040/sant-jordi",
@@ -3548,7 +3548,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Sant Jordi",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -3583,7 +3583,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1006/fvgg-schwimmfest",
@@ -3600,7 +3600,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "FVgg Schwimmfest",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -3635,7 +3635,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/929/22-weingartner-lebenslauf",
@@ -3652,7 +3652,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "22. Weingartner Lebenslauf",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -3687,7 +3687,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/996/weingartner-musiktage-junger-kuenstler-2027-sonderkonzerte",
@@ -3704,7 +3704,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Weingartner Musiktage Junger Künstler 2027-Sonderkonzerte",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -3739,7 +3739,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1024/konfirmation",
@@ -3756,7 +3756,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Konfirmation",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -3791,7 +3791,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/996/weingartner-musiktage-junger-kuenstler-2027-sonderkonzerte",
@@ -3808,7 +3808,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Weingartner Musiktage Junger Künstler 2027-Sonderkonzerte",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -3843,7 +3843,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/945/musik-und-wort-das-kleine-konzert-in-der-evangelischen-kirche-weingarten",
@@ -3860,7 +3860,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Musik und Wort Das Kleine Konzert in der Evangelischen Kirche Weingarten",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -3895,7 +3895,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1010/maibaum-stellen",
@@ -3912,7 +3912,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Maibaum stellen",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -3947,7 +3947,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/972/1-mai-fest",
@@ -3964,7 +3964,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "1. Mai-Fest",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -3999,7 +3999,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/966/musikhock-im-sohl",
@@ -4016,7 +4016,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Musikhock im Sohl",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -4051,7 +4051,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/993/turmfest",
@@ -4068,7 +4068,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Turmfest",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -4103,7 +4103,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1026/turmfest",
@@ -4120,7 +4120,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Turmfest",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -4155,7 +4155,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1008/komm-ich-zeig-dir-die-natur-bluehender-moorwald-erleben",
@@ -4172,7 +4172,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Komm ich zeig dir die Natur: Blühender Moorwald erleben",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -4207,7 +4207,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/928/heiraten-in-weingarten-baden-angebot-trausamstag",
@@ -4224,7 +4224,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Heiraten in Weingarten (Baden) - Angebot Trausamstag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -4259,7 +4259,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1035/jugendkartslalom",
@@ -4276,7 +4276,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Jugendkartslalom",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -4311,7 +4311,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/946/musik-und-wort-das-kleine-konzert-in-der-evangelischen-kirche-weingarten",
@@ -4328,7 +4328,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Musik und Wort Das Kleine Konzert in der Evangelischen Kirche Weingarten",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -4363,7 +4363,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/959/fvgg-sportfest",
@@ -4380,7 +4380,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "FVgg Sportfest",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -4415,7 +4415,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/928/heiraten-in-weingarten-baden-angebot-trausamstag",
@@ -4432,7 +4432,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Heiraten in Weingarten (Baden) - Angebot Trausamstag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -4467,7 +4467,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/959/fvgg-sportfest",
@@ -4484,7 +4484,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "FVgg Sportfest",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -4519,7 +4519,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/959/fvgg-sportfest",
@@ -4536,7 +4536,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "FVgg Sportfest",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -4571,7 +4571,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/941/frauenkreativmarkt",
@@ -4588,7 +4588,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Frauenkreativmarkt Vitamin F",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -4623,7 +4623,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/967/musikverein-erlebnistag",
@@ -4640,7 +4640,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Musikverein Erlebnistag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -4675,7 +4675,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1036/34-haxenfest",
@@ -4692,7 +4692,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "34. Haxenfest",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -4727,7 +4727,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/928/heiraten-in-weingarten-baden-angebot-trausamstag",
@@ -4744,7 +4744,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Heiraten in Weingarten (Baden) - Angebot Trausamstag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -4779,7 +4779,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/990/repair-cafe",
@@ -4796,7 +4796,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Repair-Café",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -4831,7 +4831,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1025/schlacht-und-wiesenfest",
@@ -4848,7 +4848,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Schlacht- und Wiesenfest",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -4883,7 +4883,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/754/komm-ich-zeig-dir-die-natur-wald-spielerisch-erleben",
@@ -4900,7 +4900,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Komm ich zeig dir die Natur: Wald spielerisch erleben",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -4935,7 +4935,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1071/fete-de-la-musique",
@@ -4952,7 +4952,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Fête de la Musique",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -4987,7 +4987,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1025/schlacht-und-wiesenfest",
@@ -5004,7 +5004,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Schlacht- und Wiesenfest",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -5039,7 +5039,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1025/schlacht-und-wiesenfest",
@@ -5056,7 +5056,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Schlacht- und Wiesenfest",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -5091,7 +5091,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/947/musik-und-wort-das-kleine-konzert-in-der-evangelischen-kirche-weingarten",
@@ -5108,7 +5108,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Musik und Wort Das Kleine Konzert in der Evangelischen Kirche Weingarten",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -5143,7 +5143,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/928/heiraten-in-weingarten-baden-angebot-trausamstag",
@@ -5160,7 +5160,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Heiraten in Weingarten (Baden) - Angebot Trausamstag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -5195,7 +5195,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1018/2-wein-und-worte-open-air",
@@ -5212,7 +5212,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "2. Wein & Worte Open Air",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -5247,7 +5247,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/975/fischers-fest-2027",
@@ -5264,7 +5264,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Fischer's Fest 2027",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -5299,7 +5299,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/976/fischers-fest-2027",
@@ -5316,7 +5316,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Fischer's Fest 2027",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -5351,7 +5351,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/977/fischers-fest-2027",
@@ -5368,7 +5368,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Fischer's Fest 2027",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -5403,7 +5403,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1042/wein-und-strassenfest",
@@ -5420,7 +5420,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Wein- und Straßenfest",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -5455,7 +5455,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/953/wein-und-strassenfest-2027",
@@ -5472,7 +5472,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Wein- & Straßenfest 2027",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -5507,7 +5507,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1042/wein-und-strassenfest",
@@ -5524,7 +5524,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Wein- und Straßenfest",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -5559,7 +5559,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/990/repair-cafe",
@@ -5576,7 +5576,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Repair-Café",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -5611,7 +5611,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/953/wein-und-strassenfest-2027",
@@ -5628,7 +5628,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Wein- & Straßenfest 2027",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -5663,7 +5663,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1042/wein-und-strassenfest",
@@ -5680,7 +5680,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Wein- und Straßenfest",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -5715,7 +5715,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/953/wein-und-strassenfest-2027",
@@ -5732,7 +5732,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Wein- & Straßenfest 2027",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -5767,7 +5767,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/989/flohmarkt-von-kind-zu-kind",
@@ -5784,7 +5784,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Flohmarkt von Kind zu Kind",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -5819,7 +5819,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/948/musik-und-wort-das-kleine-konzert-in-der-evangelischen-kirche-weingarten",
@@ -5836,7 +5836,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Musik und Wort Das Kleine Konzert in der Evangelischen Kirche Weingarten",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -5871,7 +5871,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1037/adac-racing-weekend-redbullring",
@@ -5888,7 +5888,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "ADAC Racing Weekend RedBullRing",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -5923,7 +5923,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1028/drk-blutspendeveranstaltung-mit-dem-drk-blutspendedienst",
@@ -5940,7 +5940,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "DRK Blutspendeveranstaltung mit dem DRK-Blutspendedienst",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -5975,7 +5975,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1013/clubhausfest-mc-white-horses",
@@ -5992,7 +5992,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Clubhausfest MC White Horses",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -6027,7 +6027,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/928/heiraten-in-weingarten-baden-angebot-trausamstag",
@@ -6044,7 +6044,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Heiraten in Weingarten (Baden) - Angebot Trausamstag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -6079,7 +6079,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1014/clubhausfest-mc-white-horses",
@@ -6096,7 +6096,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Clubhausfest MC White Horses",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -6131,7 +6131,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/928/heiraten-in-weingarten-baden-angebot-trausamstag",
@@ -6148,7 +6148,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Heiraten in Weingarten (Baden) - Angebot Trausamstag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -6183,7 +6183,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/963/musik-und-wein-hitparade-und-weinwandertag",
@@ -6200,7 +6200,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Musik und Wein - Hitparade und Weinwandertag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -6235,7 +6235,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/963/musik-und-wein-hitparade-und-weinwandertag",
@@ -6252,7 +6252,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Musik und Wein - Hitparade und Weinwandertag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -6287,7 +6287,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1027/musikalischer-kuchenverkauf",
@@ -6304,7 +6304,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Musikalischer Kuchenverkauf",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -6339,7 +6339,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1020/sommerfest-2027-vogelpark-waldbruecke",
@@ -6356,7 +6356,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Sommerfest 2027 Vogelpark Waldbrücke",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -6391,7 +6391,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1020/sommerfest-2027-vogelpark-waldbruecke",
@@ -6408,7 +6408,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Sommerfest 2027 Vogelpark Waldbrücke",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -6443,7 +6443,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/928/heiraten-in-weingarten-baden-angebot-trausamstag",
@@ -6460,7 +6460,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Heiraten in Weingarten (Baden) - Angebot Trausamstag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -6495,7 +6495,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1009/komm-ich-zeig-dir-die-natur-frag-die-foersterin",
@@ -6512,7 +6512,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Komm ich zeig dir die Natur: Frag die Försterin",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -6547,7 +6547,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1044/muehlenfest",
@@ -6564,7 +6564,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Mühlenfest",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -6599,7 +6599,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/931/tag-der-rettungskraefte",
@@ -6616,7 +6616,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Tag der Rettungskräfte",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -6651,7 +6651,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/990/repair-cafe",
@@ -6668,7 +6668,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Repair-Café",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -6703,7 +6703,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1000/tag-der-offenen-tuer-zielen-treffen-spass-haben",
@@ -6720,7 +6720,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Tag der offenen Tür - Zielen, treffen, Spaß haben",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -6755,7 +6755,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/949/musik-und-wort-das-kleine-konzert-in-der-evangelischen-kirche-weingarten",
@@ -6772,7 +6772,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Musik und Wort Das Kleine Konzert in der Evangelischen Kirche Weingarten",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -6807,7 +6807,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1038/adac-racing-weekend-hockenheimring",
@@ -6824,7 +6824,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "ADAC Racing Weekend Hockenheimring",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -6859,7 +6859,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1011/schlagernachmittag",
@@ -6876,7 +6876,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Schlagernachmittag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -6911,7 +6911,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1039/dtm-hockenheimring",
@@ -6928,7 +6928,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "DTM Hockenheimring",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -6963,7 +6963,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/997/weingartner-musiktage-junger-kuenstler-2027",
@@ -6980,7 +6980,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Weingartner Musiktage Junger Künstler 2027",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -7015,7 +7015,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/928/heiraten-in-weingarten-baden-angebot-trausamstag",
@@ -7032,7 +7032,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Heiraten in Weingarten (Baden) - Angebot Trausamstag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -7067,7 +7067,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/932/wehrhauptuebung-der-feuerwehr",
@@ -7084,7 +7084,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Wehrhauptübung der Feuerwehr",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -7119,7 +7119,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/997/weingartner-musiktage-junger-kuenstler-2027",
@@ -7136,7 +7136,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Weingartner Musiktage Junger Künstler 2027",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -7171,7 +7171,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/997/weingartner-musiktage-junger-kuenstler-2027",
@@ -7188,7 +7188,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Weingartner Musiktage Junger Künstler 2027",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -7223,7 +7223,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1028/drk-blutspendeveranstaltung-mit-dem-drk-blutspendedienst",
@@ -7240,7 +7240,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "DRK Blutspendeveranstaltung mit dem DRK-Blutspendedienst",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -7275,7 +7275,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/997/weingartner-musiktage-junger-kuenstler-2027",
@@ -7292,7 +7292,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Weingartner Musiktage Junger Künstler 2027",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -7327,7 +7327,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/997/weingartner-musiktage-junger-kuenstler-2027",
@@ -7344,7 +7344,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Weingartner Musiktage Junger Künstler 2027",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -7379,7 +7379,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/997/weingartner-musiktage-junger-kuenstler-2027",
@@ -7396,7 +7396,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Weingartner Musiktage Junger Künstler 2027",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -7431,7 +7431,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/860/verkaufsoffener-sonntag",
@@ -7448,7 +7448,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Verkaufsoffener Sonntag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -7483,7 +7483,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/846/einwohnerversammlung-gemeinde-weingarten-baden",
@@ -7500,7 +7500,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Einwohnerversammlung Gemeinde Weingarten (Baden)",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -7535,7 +7535,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/928/heiraten-in-weingarten-baden-angebot-trausamstag",
@@ -7552,7 +7552,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Heiraten in Weingarten (Baden) - Angebot Trausamstag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -7587,7 +7587,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/990/repair-cafe",
@@ -7604,7 +7604,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Repair-Café",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -7639,7 +7639,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1046/konzert",
@@ -7656,7 +7656,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Konzert",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -7691,7 +7691,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/950/musik-und-wort-das-kleine-konzert-in-der-evangelischen-kirche-weingarten",
@@ -7708,7 +7708,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Musik und Wort Das Kleine Konzert in der Evangelischen Kirche Weingarten",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -7743,7 +7743,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/928/heiraten-in-weingarten-baden-angebot-trausamstag",
@@ -7760,7 +7760,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Heiraten in Weingarten (Baden) - Angebot Trausamstag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -7795,7 +7795,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1019/2-trauern-bangen-hoffen-menschenskind-lesebuehne-fuer-menschenfreundlichkeit",
@@ -7812,7 +7812,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "2. trauern - bangen - hoffen - MENSCHENSKIND! - Lesebühne für Menschenfreundlichkeit",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -7847,7 +7847,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/928/heiraten-in-weingarten-baden-angebot-trausamstag",
@@ -7864,7 +7864,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Heiraten in Weingarten (Baden) - Angebot Trausamstag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -7899,7 +7899,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/973/schauturnen",
@@ -7916,7 +7916,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Schauturnen",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -7951,7 +7951,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/990/repair-cafe",
@@ -7968,7 +7968,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Repair-Café",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -8003,7 +8003,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/951/musik-und-wort-das-kleine-konzert-in-der-evangelischen-kirche-weingarten",
@@ -8020,7 +8020,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Musik und Wort Das Kleine Konzert in der Evangelischen Kirche Weingarten",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -8055,7 +8055,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1089/der-andere-weihnachtsmarkt",
@@ -8072,7 +8072,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Der andere Weihnachtsmarkt",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -8107,7 +8107,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1022/adventskonzert",
@@ -8124,7 +8124,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Adventskonzert",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -8159,7 +8159,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/928/heiraten-in-weingarten-baden-angebot-trausamstag",
@@ -8176,7 +8176,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Heiraten in Weingarten (Baden) - Angebot Trausamstag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -8211,7 +8211,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1043/lichterfahrt-der-landwirte-und-winzer",
@@ -8228,7 +8228,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Lichterfahrt der Landwirte und Winzer",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -8263,7 +8263,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/862/wintergluehen",
@@ -8280,7 +8280,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Winterglühen",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -8315,7 +8315,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/998/weingartner-musiktage-junger-kuenstler-sonderkonzert",
@@ -8332,7 +8332,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Weingartner Musiktage Junger Künstler-Sonderkonzert",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -8367,7 +8367,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1041/konzert-kath-kirchenchor",
@@ -8384,7 +8384,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Konzert Kath. Kirchenchor",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -8419,7 +8419,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/964/weihnachtsfeier-musikverein",
@@ -8436,7 +8436,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Weihnachtsfeier Musikverein",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -8471,7 +8471,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/928/heiraten-in-weingarten-baden-angebot-trausamstag",
@@ -8488,7 +8488,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Heiraten in Weingarten (Baden) - Angebot Trausamstag",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -8523,7 +8523,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1003/kurrende-blasen-des-posaunenchors",
@@ -8540,7 +8540,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Kurrende-Blasen des Posaunenchors",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -8575,7 +8575,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/952/musik-und-wort-das-kleine-konzert-in-der-evangelischen-kirche-weingarten",
@@ -8592,7 +8592,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Musik und Wort Das Kleine Konzert in der Evangelischen Kirche Weingarten",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -8627,7 +8627,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/962/weihnachtsklaenge-auf-dem-friedhof",
@@ -8644,7 +8644,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Weihnachtsklänge auf dem Friedhof",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -8679,7 +8679,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1028/drk-blutspendeveranstaltung-mit-dem-drk-blutspendedienst",
@@ -8696,7 +8696,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "DRK Blutspendeveranstaltung mit dem DRK-Blutspendedienst",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -8731,7 +8731,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1004/choraele-zum-jahresausklang",
@@ -8748,7 +8748,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Choräle zum Jahresausklang",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -8783,7 +8783,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1004/choraele-zum-jahresausklang",
@@ -8800,7 +8800,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Choräle zum Jahresausklang",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -8835,7 +8835,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1004/choraele-zum-jahresausklang",
@@ -8852,7 +8852,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Choräle zum Jahresausklang",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -8887,7 +8887,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1004/choraele-zum-jahresausklang",
@@ -8904,7 +8904,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Choräle zum Jahresausklang",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -8939,7 +8939,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1004/choraele-zum-jahresausklang",
@@ -8956,7 +8956,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Choräle zum Jahresausklang",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -8991,7 +8991,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1004/choraele-zum-jahresausklang",
@@ -9008,7 +9008,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Choräle zum Jahresausklang",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -9043,7 +9043,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1004/choraele-zum-jahresausklang",
@@ -9060,7 +9060,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Choräle zum Jahresausklang",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -9095,7 +9095,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1004/choraele-zum-jahresausklang",
@@ -9112,7 +9112,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Choräle zum Jahresausklang",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -9147,7 +9147,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1004/choraele-zum-jahresausklang",
@@ -9164,7 +9164,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Choräle zum Jahresausklang",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],
@@ -9199,7 +9199,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:21:39+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:24+00:00",
       "sources": [
         {
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1004/choraele-zum-jahresausklang",
@@ -9216,7 +9216,7 @@
           "sourceId": "weingarten",
           "sourceName": "Gemeinde Weingarten (Baden)",
           "reportedTitle": "Choräle zum Jahresausklang",
-          "checkedAt": "2026-11-21T19:21:39+00:00",
+          "checkedAt": "2026-11-21T20:22:24+00:00",
           "priority": 2
         }
       ],

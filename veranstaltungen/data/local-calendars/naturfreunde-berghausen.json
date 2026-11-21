@@ -5,8 +5,8 @@
     "region": "Pfinztal-Berghausen",
     "url": "https://www.naturfreunde-berghausen.de/",
     "status": "ok",
-    "lastAttemptAt": "2026-11-21T19:22:14+00:00",
-    "lastSuccessAt": "2026-11-21T19:22:14+00:00",
+    "lastAttemptAt": "2026-11-21T20:22:39+00:00",
+    "lastSuccessAt": "2026-11-21T20:22:39+00:00",
     "refreshHours": 24,
     "recordCount": 6,
     "eventCount": 6,
@@ -51,7 +51,7 @@
       "status": "postponed",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:22:14+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:39+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/21/991/-/baumpflanzaktion-termin-verschoben",
@@ -68,7 +68,7 @@
           "sourceId": "naturfreunde-berghausen",
           "sourceName": "NaturFreunde Berghausen",
           "reportedTitle": "Baumpflanzaktion - Termin verschoben",
-          "checkedAt": "2026-11-21T19:22:14+00:00",
+          "checkedAt": "2026-11-21T20:22:39+00:00",
           "priority": 2
         }
       ],
@@ -103,7 +103,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:22:14+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:39+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/22/995/-/froebelsterne-basteln",
@@ -120,7 +120,7 @@
           "sourceId": "naturfreunde-berghausen",
           "sourceName": "NaturFreunde Berghausen",
           "reportedTitle": "Fröbelsterne basteln",
-          "checkedAt": "2026-11-21T19:22:14+00:00",
+          "checkedAt": "2026-11-21T20:22:39+00:00",
           "priority": 2
         }
       ],
@@ -155,7 +155,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:22:14+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:39+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/24/994/-/an-der-pfinz-entlang-von-berghausen-nach-durlach",
@@ -172,7 +172,7 @@
           "sourceId": "naturfreunde-berghausen",
           "sourceName": "NaturFreunde Berghausen",
           "reportedTitle": "An der Pfinz entlang von Berghausen nach Durlach",
-          "checkedAt": "2026-11-21T19:22:14+00:00",
+          "checkedAt": "2026-11-21T20:22:39+00:00",
           "priority": 2
         }
       ],
@@ -207,7 +207,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:22:14+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:39+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/25/996/-/weihnachtsbasteleien-mit-petra",
@@ -224,7 +224,7 @@
           "sourceId": "naturfreunde-berghausen",
           "sourceName": "NaturFreunde Berghausen",
           "reportedTitle": "Weihnachtsbasteleien mit Petra",
-          "checkedAt": "2026-11-21T19:22:14+00:00",
+          "checkedAt": "2026-11-21T20:22:39+00:00",
           "priority": 2
         }
       ],
@@ -259,7 +259,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:22:14+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:39+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/27/997/-/adventsgestecke-anfertigen",
@@ -276,7 +276,7 @@
           "sourceId": "naturfreunde-berghausen",
           "sourceName": "NaturFreunde Berghausen",
           "reportedTitle": "Adventsgestecke anfertigen",
-          "checkedAt": "2026-11-21T19:22:14+00:00",
+          "checkedAt": "2026-11-21T20:22:39+00:00",
           "priority": 2
         }
       ],
@@ -311,7 +311,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T19:22:14+00:00",
+      "detailCheckedAt": "2026-11-21T20:22:39+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/28/998/-/pflanzung-des-baum-des-jahres",
@@ -328,7 +328,7 @@
           "sourceId": "naturfreunde-berghausen",
           "sourceName": "NaturFreunde Berghausen",
           "reportedTitle": "Pflanzung des \"Baum des Jahres\"",
-          "checkedAt": "2026-11-21T19:22:14+00:00",
+          "checkedAt": "2026-11-21T20:22:39+00:00",
           "priority": 2
         }
       ],

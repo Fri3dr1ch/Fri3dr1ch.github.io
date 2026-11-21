@@ -20347,6 +20347,26 @@
           "houseNumber": "30"
         }
       ]
+    },
+    "Neureuter Haupt straße 84, Karlsruhe": {
+      "checkedAt": "2026-11-21T20:23:41+00:00",
+      "places": [
+        {
+          "id": "osm-way-131239288",
+          "name": "Waldenserkirche",
+          "latitude": 49.0469174,
+          "longitude": 8.3712028,
+          "address": "Neureuter Hauptstraße 84, 76149 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/131239288",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "city": "Karlsruhe",
+          "district": "Neureut",
+          "locality": "Neureut Südlicher Teil",
+          "street": "Neureuter Hauptstraße",
+          "houseNumber": "84"
+        }
+      ]
     }
   },
   "attribution": {
