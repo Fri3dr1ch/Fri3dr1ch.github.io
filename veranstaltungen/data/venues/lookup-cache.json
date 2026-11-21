@@ -19902,6 +19902,151 @@
           "houseNumber": "3a"
         }
       ]
+    },
+    "Schloßberg straße 12, Karlsruhe": {
+      "checkedAt": "2026-11-21T08:38:55+00:00",
+      "places": [
+        {
+          "id": "osm-node-369737093",
+          "name": "Alte Karlsruher Straße 12",
+          "latitude": 49.0034417,
+          "longitude": 8.4609294,
+          "address": "Alte Karlsruher Straße 12, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/369737093",
+          "category": "place",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Untermühlsiedlung",
+          "street": "Alte Karlsruher Straße",
+          "houseNumber": "12"
+        },
+        {
+          "id": "osm-way-326157197",
+          "name": "Karlsruher Straße 12",
+          "latitude": 49.0301986,
+          "longitude": 8.4578801,
+          "address": "Karlsruher Straße 12, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/326157197",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Hagsfeld",
+          "locality": "Alt-Hagsfeld",
+          "street": "Karlsruher Straße",
+          "houseNumber": "12"
+        },
+        {
+          "id": "osm-way-288924761",
+          "name": "Karlsruher Straße 12a",
+          "latitude": 49.0301364,
+          "longitude": 8.4578172,
+          "address": "Karlsruher Straße 12a, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/288924761",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Hagsfeld",
+          "locality": "Alt-Hagsfeld",
+          "street": "Karlsruher Straße",
+          "houseNumber": "12a"
+        },
+        {
+          "id": "osm-way-90349110",
+          "name": "Straße 12",
+          "latitude": 49.0582065,
+          "longitude": 8.3335538,
+          "address": "76187 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/90349110",
+          "category": "highway",
+          "type": "service",
+          "city": "Karlsruhe",
+          "district": "Knielingen",
+          "locality": "Neu-Knielingen",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-290963959",
+          "name": "Karlsruher Straße 12",
+          "latitude": 48.9720733,
+          "longitude": 8.3097672,
+          "address": "Karlsruher Straße 12, 76287 Rheinstetten",
+          "url": "https://www.openstreetmap.org/way/290963959",
+          "category": "building",
+          "type": "yes",
+          "city": "Rheinstetten",
+          "district": "Forchheim",
+          "locality": "Dammfeldsiedlung",
+          "street": "Karlsruher Straße",
+          "houseNumber": "12"
+        }
+      ]
+    },
+    "Kaiser straße 93, Karlsruhe": {
+      "checkedAt": "2026-11-21T08:38:55+00:00",
+      "places": [
+        {
+          "id": "osm-way-160238660",
+          "name": "Karlsruher Straße 93",
+          "latitude": 49.0254123,
+          "longitude": 8.4519843,
+          "address": "Karlsruher Straße 93, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/160238660",
+          "category": "building",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Hagsfeld",
+          "locality": "Hagsfeld Westlicher Teil",
+          "street": "Karlsruher Straße",
+          "houseNumber": "93"
+        },
+        {
+          "id": "osm-node-60247928",
+          "name": "Deutscher Kaiser",
+          "latitude": 49.0535104,
+          "longitude": 8.383718,
+          "address": "Teutschneureuter Straße 30, 76149 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/60247928",
+          "category": "tourism",
+          "type": "guest_house",
+          "city": "Karlsruhe",
+          "district": "Neureut",
+          "locality": "Neureut Nördlicher Teil",
+          "street": "Teutschneureuter Straße",
+          "houseNumber": "30"
+        },
+        {
+          "id": "osm-way-242456188",
+          "name": "Karlsruher Straße 93",
+          "latitude": 49.0033968,
+          "longitude": 8.5279335,
+          "address": "Karlsruher Straße 93, 76327 Berghausen",
+          "url": "https://www.openstreetmap.org/way/242456188",
+          "category": "building",
+          "type": "yes",
+          "city": "Berghausen",
+          "district": "Berghausen",
+          "locality": "",
+          "street": "Karlsruher Straße",
+          "houseNumber": "93"
+        },
+        {
+          "id": "osm-way-238597271",
+          "name": "Eggensteiner Straße 93",
+          "latitude": 49.0390465,
+          "longitude": 8.3463135,
+          "address": "Eggensteiner Straße 93, 76187 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/238597271",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Knielingen",
+          "locality": "Knielingen 2.0",
+          "street": "Eggensteiner Straße",
+          "houseNumber": "93"
+        }
+      ]
     }
   },
   "attribution": {

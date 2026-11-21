@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T07:23:32+00:00",
+  "generatedAt": "2026-11-21T08:38:54+00:00",
   "attribution": {
     "text": "© OpenStreetMap contributors · ODbL",
     "url": "https://www.openstreetmap.org/copyright"
@@ -26,7 +26,7 @@
     }
   },
   "lookup": {
-    "requested": 8,
+    "requested": 2,
     "failures": []
   },
   "rows": [
@@ -1109,6 +1109,24 @@
           "outsideContext": false
         },
         {
+          "id": "osm-way-288924761",
+          "name": "Karlsruher Straße 12a",
+          "latitude": 49.0301364,
+          "longitude": 8.4578172,
+          "address": "Karlsruher Straße 12a, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/288924761",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Hagsfeld",
+          "locality": "Alt-Hagsfeld",
+          "street": "Karlsruher Straße",
+          "houseNumber": "12a",
+          "score": 0.732,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
           "id": "osm-way-288924790",
           "name": "Karlsruher Straße 14a",
           "latitude": 49.0300006,
@@ -1159,24 +1177,6 @@
           "street": "Karlsruher Straße",
           "houseNumber": "6",
           "score": 0.718,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-134627646",
-          "name": "Karlsruher Straße 79",
-          "latitude": 49.0259498,
-          "longitude": 8.4528751,
-          "address": "Karlsruher Straße 79, 76139 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/134627646",
-          "category": "building",
-          "type": "house",
-          "city": "Karlsruhe",
-          "district": "Hagsfeld",
-          "locality": "Hagsfeld Westlicher Teil",
-          "street": "Karlsruher Straße",
-          "houseNumber": "79",
-          "score": 0.7,
           "exact": false,
           "outsideContext": false
         }
@@ -17114,123 +17114,6 @@
       ]
     },
     {
-      "key": "venue-ffb04cfb13c0bd39f329",
-      "location": "Albtalbahnhof Abfahrtstreffpunkt",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-node-2574283873",
-        "name": "Albtalbahnhof",
-        "latitude": 48.9936597,
-        "longitude": 8.3960901,
-        "address": "Schwarzwaldstraße, 76137 Karlsruhe",
-        "url": "https://www.openstreetmap.org/node/2574283873",
-        "category": "railway",
-        "type": "station",
-        "street": "Schwarzwaldstraße",
-        "houseNumber": ""
-      },
-      "candidates": [
-        {
-          "id": "osm-node-2574283873",
-          "name": "Albtalbahnhof",
-          "latitude": 48.9936597,
-          "longitude": 8.3960901,
-          "address": "Schwarzwaldstraße, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/2574283873",
-          "category": "railway",
-          "type": "station",
-          "street": "Schwarzwaldstraße",
-          "houseNumber": "",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-2931020704",
-          "name": "Albtalbahnhof",
-          "latitude": 48.9937006,
-          "longitude": 8.3961945,
-          "address": "Schwarzwaldstraße, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/2931020704",
-          "category": "railway",
-          "type": "stop",
-          "street": "Schwarzwaldstraße",
-          "houseNumber": "",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-relation-19162249",
-          "name": "Albtalbahnhof",
-          "latitude": 48.9935101,
-          "longitude": 8.3959041,
-          "address": "Schwarzwaldstraße, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/relation/19162249",
-          "category": "railway",
-          "type": "platform",
-          "street": "Schwarzwaldstraße",
-          "houseNumber": "",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-111792053",
-          "name": "Albtalbahnhof",
-          "latitude": 48.993909,
-          "longitude": 8.3954472,
-          "address": "Beiertheimer Allee, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/111792053",
-          "category": "highway",
-          "type": "platform",
-          "street": "Beiertheimer Allee",
-          "houseNumber": "",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-238211978",
-          "name": "Albtalbahnhof",
-          "latitude": 48.9935156,
-          "longitude": 8.3961959,
-          "address": "Schwarzwaldstraße, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/238211978",
-          "category": "railway",
-          "type": "platform",
-          "street": "Schwarzwaldstraße",
-          "houseNumber": "",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-2634aa028215abac",
-          "title": "Auf dem Weisenbacher Steig",
-          "date": "2026-11-21",
-          "url": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/auf_dem_weisenbacher_steig"
-        }
-      ]
-    },
-    {
       "key": "venue-4a063ef506020e70f946",
       "location": "Alte Durlacher Brauerei",
       "scope": "durlach",
@@ -24453,6 +24336,67 @@
           "title": "DENIS SCHECK und WOLFGANG ABENDSCHÖN und AKZENTE. Konzert-Lesung",
           "date": "2026-12-01",
           "url": "https://kalender.karlsruhe.de/db/termine/musik/denis_scheck_und_wolfgang_abendschon"
+        }
+      ]
+    },
+    {
+      "key": "venue-f02bdab4de479de5b93c",
+      "location": "Kleingartenanlage Sandäcker, vor dem Vereinsheim",
+      "scope": "groetzingen",
+      "scopeLabel": "Grötzingen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-23199164",
+        "name": "Kleingartenanlage Sandäcker",
+        "latitude": 49.0218179,
+        "longitude": 8.5027688,
+        "address": "Bruchwaldstraße 76, 76229 Karlsruhe-Grötzingen",
+        "url": "https://www.openstreetmap.org/way/23199164",
+        "category": "landuse",
+        "type": "allotments",
+        "city": "Karlsruhe",
+        "district": "Grötzingen",
+        "street": "Bruchwaldstraße",
+        "houseNumber": "76"
+      },
+      "candidates": [
+        {
+          "id": "osm-way-23199164",
+          "name": "Kleingartenanlage Sandäcker",
+          "latitude": 49.0218179,
+          "longitude": 8.5027688,
+          "address": "Bruchwaldstraße 76, 76229 Karlsruhe-Grötzingen",
+          "url": "https://www.openstreetmap.org/way/23199164",
+          "category": "landuse",
+          "type": "allotments",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "street": "Bruchwaldstraße",
+          "houseNumber": "76",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "aushang-groetzingen"
+      ],
+      "sources": [
+        "Vereinsaushang Grötzingen"
+      ],
+      "examples": [
+        {
+          "id": "aushang-groetzingen-owg-gluehweinfestle-2026-2026-11-29-1500",
+          "title": "Glühweinfestle des OWG Grötzingen",
+          "date": "2026-11-29",
+          "url": "https://github.com/Fri3dr1ch/Fri3dr1ch.github.io/blob/main/veranstaltungen/data/local-calendars/aushang-groetzingen.json"
         }
       ]
     },
