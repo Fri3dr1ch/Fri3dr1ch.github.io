@@ -1818,6 +1818,58 @@
       "checkedAt": "2026-11-21T07:17:46+00:00",
       "places": [],
       "addresses": []
+    },
+    "venue-e6955a25666cc9dad107": {
+      "checkedAt": "2026-11-21T07:23:33+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Schloßbergstraße 12",
+          "city": "Karlsruhe",
+          "postalCode": "76228",
+          "address": "Schloßbergstraße 12, 76228 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/wolfle_wurst_wein"
+        }
+      ]
+    },
+    "venue-f3869bdedad31cc8ef08": {
+      "checkedAt": "2026-11-21T07:23:33+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Hermann-Schneider-Allee 1",
+          "city": "Karlsruhe - Daxlanden",
+          "postalCode": "76189",
+          "address": "Hermann-Schneider-Allee 1, 76189 Karlsruhe - Daxlanden",
+          "url": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/hundetraining_beim_reitsportclub_daxlanden_ev"
+        }
+      ]
+    },
+    "venue-f80c053fcd1551a5c644": {
+      "checkedAt": "2026-11-21T07:23:33+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Kaiserstraße 93",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Kaiserstraße 93, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/krampus_bunter_kram"
+        }
+      ]
+    },
+    "venue-f9d8997d43dce97985f6": {
+      "checkedAt": "2026-11-21T07:23:33+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Nördliche Hildapromenade 3",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Nördliche Hildapromenade 3, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/architektur/rechte_raume_vortrag_von_stephan_truby"
+        }
+      ]
     }
   }
 }

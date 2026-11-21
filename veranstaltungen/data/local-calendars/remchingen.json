@@ -5,17 +5,17 @@
     "region": "Remchingen",
     "url": "https://www.remchingen.de/veranstaltungen/",
     "status": "ok",
-    "lastAttemptAt": "2026-11-21T07:16:29+00:00",
-    "lastSuccessAt": "2026-11-21T07:16:29+00:00",
+    "lastAttemptAt": "2026-11-21T07:22:08+00:00",
+    "lastSuccessAt": "2026-11-21T07:22:08+00:00",
     "refreshHours": 24,
     "recordCount": 76,
     "eventCount": 76,
     "undatedCount": 0,
-    "coverageKind": "html-list",
+    "coverageKind": "public-json",
     "license": null,
-    "pagesFetched": 16,
-    "coverageNote": "Alle 16 veröffentlichten Ergebnisseiten des Gemeindekalenders, einschließlich öffentlicher Ratstermine.",
-    "extractionMethod": "deterministic-html",
+    "pagesFetched": 1,
+    "coverageNote": "Vollständige Ergebnisliste der Gemeinde, einschließlich öffentlicher Ratstermine.",
+    "extractionMethod": "structured-json",
     "llmRequired": false,
     "coverageStart": "2026-11-21",
     "coverageEnd": "2028-02-18"
@@ -50,7 +50,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/remchinger-adventsmarkt-hobby-und-kunsthandwerk-rund-um-die-kulturhalle-id_3407/",
@@ -60,14 +60,14 @@
           "endDate": "2026-11-21",
           "startTime": "13:00",
           "endTime": "18:00",
-          "dateText": "Sa. 21.11.2026",
+          "dateText": "21.11.2026",
           "timeText": "13:00 Uhr - 18:00 Uhr",
           "location": "Kulturhalle Remchingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Remchinger Adventsmarkt Hobby- und Kunsthandwerk rund um die Kulturhalle",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -102,7 +102,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/remchinger-adventsmarkt-hobby-und-kunsthandwerk-rund-um-die-kulturhalle-id_3408/",
@@ -112,14 +112,14 @@
           "endDate": "2026-11-22",
           "startTime": "11:00",
           "endTime": "18:00",
-          "dateText": "So. 22.11.2026",
+          "dateText": "22.11.2026",
           "timeText": "11:00 Uhr - 18:00 Uhr",
           "location": "Kulturhalle Remchingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Remchinger Adventsmarkt Hobby- und Kunsthandwerk rund um die Kulturhalle",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -154,7 +154,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/einwohnerversammlung-id_3402/",
@@ -164,14 +164,14 @@
           "endDate": "2026-11-23",
           "startTime": "19:00",
           "endTime": null,
-          "dateText": "Mo. 23.11.2026",
+          "dateText": "23.11.2026",
           "timeText": "19:00 Uhr",
           "location": "Kulturhalle Remchingen",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Einwohnerversammlung",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -206,7 +206,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/suedtirol-and-dolomiten-im-zauberreich-der-leuchtenden-berge-3d-id_3128/",
@@ -216,14 +216,14 @@
           "endDate": "2026-11-25",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Mi. 25.11.2026",
+          "dateText": "25.11.2026",
           "timeText": "20:00 Uhr",
           "location": "Kulturhalle Remchingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Südtirol & Dolomiten - im Zauberreich der leuchtenden Berge - 3D!",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -258,7 +258,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": "sold-out",
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/fisch-sucht-fahrrad-komoedie-von-peter-quilter-aboveranstaltung-ausverkauft-id_3294/",
@@ -268,14 +268,14 @@
           "endDate": "2026-11-26",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Do. 26.11.2026",
+          "dateText": "26.11.2026",
           "timeText": "20:00 Uhr",
           "location": "Kulturhalle Remchingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Fisch sucht Fahrrad - Komödie von Peter Quilter / Aboveranstaltung AUSVERKAUFT!",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -310,7 +310,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/remchinger-weihnachtsdorf-ein-stimmungsvoller-treffpunkt-fuer-familien-freunde-und-alle-die-weihnachten-lieben-id_3409/",
@@ -320,14 +320,14 @@
           "endDate": "2026-11-27",
           "startTime": "16:00",
           "endTime": "22:00",
-          "dateText": "Fr. 27.11.2026",
+          "dateText": "27.11.2026",
           "timeText": "16:00 Uhr - 22:00 Uhr",
           "location": "San-Biagio-Platani-Platz",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Remchinger Weihnachtsdorf Ein stimmungsvoller Treffpunkt für Familien, Freunde und alle, die Weihnachten lieben.",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -362,7 +362,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/trampolin-gaumeisterschaften-des-turngau-pforzheim-enz-id_3398/",
@@ -372,14 +372,14 @@
           "endDate": "2026-11-28",
           "startTime": "09:00",
           "endTime": "18:00",
-          "dateText": "Sa. 28.11.2026",
+          "dateText": "28.11.2026",
           "timeText": "09:00 Uhr - 18:00 Uhr",
           "location": "Sporthalle TVN",
           "organizer": "Turnverein Nöttingen e. V.",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Trampolin Gaumeisterschaften des Turngau Pforzheim-Enz",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -414,7 +414,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/remchinger-weihnachtsdorf-ein-stimmungsvoller-treffpunkt-fuer-familien-freunde-und-alle-die-weihnachten-lieben-id_3410/",
@@ -424,14 +424,14 @@
           "endDate": "2026-11-28",
           "startTime": "16:00",
           "endTime": "22:00",
-          "dateText": "Sa. 28.11.2026",
+          "dateText": "28.11.2026",
           "timeText": "16:00 Uhr - 22:00 Uhr",
           "location": "San-Biagio-Platani-Platz",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Remchinger Weihnachtsdorf Ein stimmungsvoller Treffpunkt für Familien, Freunde und alle, die Weihnachten lieben.",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -466,7 +466,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/remchinger-weihnachtsdorf-ein-stimmungsvoller-treffpunkt-fuer-familien-freunde-und-alle-die-weihnachten-lieben-id_3411/",
@@ -476,14 +476,14 @@
           "endDate": "2026-11-29",
           "startTime": "12:00",
           "endTime": "19:00",
-          "dateText": "So. 29.11.2026",
+          "dateText": "29.11.2026",
           "timeText": "12:00 Uhr - 19:00 Uhr",
           "location": "",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Remchinger Weihnachtsdorf Ein stimmungsvoller Treffpunkt für Familien, Freunde und alle, die Weihnachten lieben.",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -518,7 +518,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/ratstermine/oeffentliche-gemeinderatssitzung-2026-12-1-id_3374/",
@@ -528,14 +528,14 @@
           "endDate": "2026-12-10",
           "startTime": "19:30",
           "endTime": "22:00",
-          "dateText": "Do. 10.12.2026",
+          "dateText": "10.12.2026",
           "timeText": "19:30 Uhr - 22:00 Uhr",
           "location": "Ratssaal",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Öffentliche Gemeinderatssitzung / 2026 - 12-1",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -570,7 +570,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/kieran-goss-and-annie-kinsella-the-song-your-heart-is-singing-id_3237/",
@@ -580,14 +580,14 @@
           "endDate": "2026-12-11",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Fr. 11.12.2026",
+          "dateText": "11.12.2026",
           "timeText": "20:00 Uhr",
           "location": "Löwensaal Nöttingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Kieran Goss and Annie Kinsella - The Song Your Heart Is Singing",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -622,7 +622,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/weihnachtsbaumverkauf-id_3247/",
@@ -632,14 +632,14 @@
           "endDate": "2026-12-12",
           "startTime": "08:30",
           "endTime": "12:00",
-          "dateText": "Sa. 12.12.2026",
+          "dateText": "12.12.2026",
           "timeText": "08:30 Uhr - 12:00 Uhr",
           "location": "Feldbergstraße 18, 75196 Remchingen",
           "organizer": "Bürgerverein Darmsbach e.V.",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Weihnachtsbaumverkauf",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -674,7 +674,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/abendunterhaltung-id_3399/",
@@ -684,14 +684,14 @@
           "endDate": "2026-12-12",
           "startTime": "19:30",
           "endTime": null,
-          "dateText": "Sa. 12.12.2026",
+          "dateText": "12.12.2026",
           "timeText": "19:30 Uhr",
           "location": "Sporthalle TVN",
           "organizer": "Turnverein Nöttingen e. V.",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Abendunterhaltung",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -726,7 +726,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/kinderadventsfeier-id_3400/",
@@ -736,14 +736,14 @@
           "endDate": "2026-12-13",
           "startTime": "14:00",
           "endTime": "17:30",
-          "dateText": "So. 13.12.2026",
+          "dateText": "13.12.2026",
           "timeText": "14:00 Uhr - 17:30 Uhr",
           "location": "Sporthalle TVN",
           "organizer": "Turnverein Nöttingen e. V.",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Kinderadventsfeier",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -778,7 +778,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/im-schein-der-kerzen-chormusik-zum-advent-id_3412/",
@@ -788,14 +788,14 @@
           "endDate": "2026-12-13",
           "startTime": "16:00",
           "endTime": "17:30",
-          "dateText": "So. 13.12.2026",
+          "dateText": "13.12.2026",
           "timeText": "16:00 Uhr - 17:30 Uhr",
           "location": "Alte ev. Kirche Wilferdingen, Kirchstr. 19",
           "organizer": "Kinderchor Remchingen e.V. - Chor für Kinder und Jugendliche",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Im Schein der Kerzen - Chormusik zum Advent",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -830,7 +830,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/drei-haselnuesse-fuer-aschenbroedel-familienmusical-in-drei-akten-id_3295/",
@@ -840,14 +840,14 @@
           "endDate": "2026-12-16",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Mi. 16.12.2026",
+          "dateText": "16.12.2026",
           "timeText": "20:00 Uhr",
           "location": "Kulturhalle Remchingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Drei Haselnüsse für Aschenbrödel - Familienmusical in drei Akten",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -882,7 +882,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/ratstermine/oeffentliche-gemeinderatssitzung-2026-12-2-id_3143/",
@@ -892,14 +892,14 @@
           "endDate": "2026-12-17",
           "startTime": "19:30",
           "endTime": "22:00",
-          "dateText": "Do. 17.12.2026",
+          "dateText": "17.12.2026",
           "timeText": "19:30 Uhr - 22:00 Uhr",
           "location": "Ratssaal",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Öffentliche Gemeinderatssitzung / 2026 - 12-2",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -934,7 +934,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/repair-cafe-id_3348/",
@@ -944,14 +944,14 @@
           "endDate": "2026-12-18",
           "startTime": "15:00",
           "endTime": "18:00",
-          "dateText": "Fr. 18.12.2026",
+          "dateText": "18.12.2026",
           "timeText": "15:00 Uhr - 18:00 Uhr",
           "location": "Alte RemBar (Altes Rathaus Nöttingen)",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Repair-Café",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -986,7 +986,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/improvisationstheater-springmaus-merry-christmaus-id_3196/",
@@ -996,14 +996,14 @@
           "endDate": "2026-12-19",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Sa. 19.12.2026",
+          "dateText": "19.12.2026",
           "timeText": "20:00 Uhr",
           "location": "Kulturhalle Remchingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Improvisationstheater Springmaus - Merry Christmaus",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -1038,7 +1038,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/neujahrskonzert-thomas-hoffmann-and-seine-brass-band-berlin-id_3200/",
@@ -1048,14 +1048,14 @@
           "endDate": "2027-01-08",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Fr. 08.01.2027",
+          "dateText": "08.01.2027",
           "timeText": "20:00 Uhr",
           "location": "",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Neujahrskonzert - Thomas Hoffmann & seine BRASS BAND BERLIN",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -1090,7 +1090,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/physik-event-die-einzige-physikshow-in-4-d-id_3194/",
@@ -1100,14 +1100,14 @@
           "endDate": "2027-01-10",
           "startTime": "11:00",
           "endTime": null,
-          "dateText": "So. 10.01.2027",
+          "dateText": "10.01.2027",
           "timeText": "11:00 Uhr",
           "location": "Kulturhalle Remchingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Physik-Event - Die einzige Physikshow in 4 D",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -1142,7 +1142,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/physik-event-die-einzige-physikshow-in-4-d-id_3195/",
@@ -1152,14 +1152,14 @@
           "endDate": "2027-01-10",
           "startTime": "16:00",
           "endTime": null,
-          "dateText": "So. 10.01.2027",
+          "dateText": "10.01.2027",
           "timeText": "16:00 Uhr",
           "location": "Kulturhalle Remchingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Physik-Event - Die einzige Physikshow in 4 D",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -1194,7 +1194,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/kanada-und-alaska-3000-km-wildnis-und-freiheit-am-yukon-id_3236/",
@@ -1204,14 +1204,14 @@
           "endDate": "2027-01-12",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Di. 12.01.2027",
+          "dateText": "12.01.2027",
           "timeText": "20:00 Uhr",
           "location": "Kulturhalle Remchingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Kanada und Alaska - 3000 km Wildnis und Freiheit am Yukon",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -1246,7 +1246,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/repair-cafe-id_3397/",
@@ -1256,14 +1256,14 @@
           "endDate": "2027-01-15",
           "startTime": "15:00",
           "endTime": "18:00",
-          "dateText": "Fr. 15.01.2027",
+          "dateText": "15.01.2027",
           "timeText": "15:00 Uhr - 18:00 Uhr",
           "location": "Alte RemBar (Altes Rathaus Nöttingen)",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Repair-Café",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -1298,7 +1298,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/moby-dick-schauspiel-in-einer-dramatisierung-des-weltromans-von-herman-melville-aboveranstaltung-id_3296/",
@@ -1308,14 +1308,14 @@
           "endDate": "2027-01-19",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Di. 19.01.2027",
+          "dateText": "19.01.2027",
           "timeText": "20:00 Uhr",
           "location": "",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Moby Dick - Schauspiel in einer Dramatisierung des Weltromans von Herman Melville / Aboveranstaltung",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -1350,7 +1350,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/gwennyn-and-band-musique-de-la-bretagne-id_3240/",
@@ -1360,14 +1360,14 @@
           "endDate": "2027-01-22",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Fr. 22.01.2027",
+          "dateText": "22.01.2027",
           "timeText": "20:00 Uhr",
           "location": "Löwensaal Nöttingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "GWENNYN & Band - Musique de la Bretagne",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -1402,7 +1402,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/ratstermine/oeffentliche-gemeinderatssitzung-2027-01-id_3332/",
@@ -1412,14 +1412,14 @@
           "endDate": "2027-01-28",
           "startTime": "19:30",
           "endTime": "22:00",
-          "dateText": "Do. 28.01.2027",
+          "dateText": "28.01.2027",
           "timeText": "19:30 Uhr - 22:00 Uhr",
           "location": "Ratssaal",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Öffentliche Gemeinderatssitzung / 2027 - 01",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -1454,7 +1454,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/lachen-machen-arthur-senkrecht-erklaert-komik-id_3275/",
@@ -1464,14 +1464,14 @@
           "endDate": "2027-02-05",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Fr. 05.02.2027",
+          "dateText": "05.02.2027",
           "timeText": "20:00 Uhr",
           "location": "",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "LACHEN MACHEN!!! - Arthur Senkrecht erklärt Komik",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -1506,7 +1506,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/ratstermine/oeffentliche-gemeinderatssitzung-2027-02-id_3333/",
@@ -1516,14 +1516,14 @@
           "endDate": "2027-02-18",
           "startTime": "19:30",
           "endTime": "22:00",
-          "dateText": "Do. 18.02.2027",
+          "dateText": "18.02.2027",
           "timeText": "19:30 Uhr - 22:00 Uhr",
           "location": "Ratssaal",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Öffentliche Gemeinderatssitzung / 2027 - 02",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -1558,7 +1558,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/my-fair-lady-der-musical-klassiker-von-f-loewe-aboveranstaltung-id_3297/",
@@ -1568,14 +1568,14 @@
           "endDate": "2027-02-18",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Do. 18.02.2027",
+          "dateText": "18.02.2027",
           "timeText": "20:00 Uhr",
           "location": "Kulturhalle Remchingen",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "My Fair Lady - Der Musical-Klassiker von F. Loewe / Aboveranstaltung",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -1610,7 +1610,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/cossu-we-are-the-germans-stand-up-comedy-id_3166/",
@@ -1620,14 +1620,14 @@
           "endDate": "2027-02-19",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Fr. 19.02.2027",
+          "dateText": "19.02.2027",
           "timeText": "20:00 Uhr",
           "location": "Kulturhalle Remchingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "COSSU - WE ARE THE GERMANS – Stand-Up Comedy",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -1662,7 +1662,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/norwegen-live-show-von-und-mit-petra-und-gerhard-zwerger-schoner-id_3201/",
@@ -1672,14 +1672,14 @@
           "endDate": "2027-02-24",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Mi. 24.02.2027",
+          "dateText": "24.02.2027",
           "timeText": "20:00 Uhr",
           "location": "Kulturhalle Remchingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Norwegen - Live-Show von und mit Petra und Gerhard Zwerger-Schoner",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -1714,7 +1714,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/schlachtfest-id_3253/",
@@ -1724,14 +1724,14 @@
           "endDate": "2027-02-27",
           "startTime": "11:00",
           "endTime": "13:30",
-          "dateText": "Sa. 27.02.2027",
+          "dateText": "27.02.2027",
           "timeText": "11:00 Uhr - 13:30 Uhr",
           "location": "Feldbergstraße 18, 75196 Remchingen",
           "organizer": "Bürgerverein Darmsbach e.V.",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Schlachtfest",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -1766,7 +1766,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/noah-leonne-symphonic-rock-id_3276/",
@@ -1776,14 +1776,14 @@
           "endDate": "2027-02-27",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Sa. 27.02.2027",
+          "dateText": "27.02.2027",
           "timeText": "20:00 Uhr",
           "location": "Kulturhalle Remchingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "NOAH LEONNE - Symphonic Rock",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -1818,7 +1818,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/magier-ralf-gagel-kinder-zauber-theater-id_3229/",
@@ -1828,14 +1828,14 @@
           "endDate": "2027-03-04",
           "startTime": "14:30",
           "endTime": null,
-          "dateText": "Do. 04.03.2027",
+          "dateText": "04.03.2027",
           "timeText": "14:30 Uhr",
           "location": "Kulturhalle Remchingen - Foyer",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Magier Ralf Gagel - Kinder-Zauber-Theater",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -1870,7 +1870,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/marianne-schaetzle-s-schaetzle-packt-aus-id_3292/",
@@ -1880,14 +1880,14 @@
           "endDate": "2027-03-05",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Fr. 05.03.2027",
+          "dateText": "05.03.2027",
           "timeText": "20:00 Uhr",
           "location": "Löwensaal Nöttingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Marianne Schätzle - s‘ SCHÄTZLE PACKT AUS",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -1922,7 +1922,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/der-zerbrochne-krug-lustspiel-von-heinrich-von-kleist-id_3234/",
@@ -1932,14 +1932,14 @@
           "endDate": "2027-03-10",
           "startTime": "19:00",
           "endTime": null,
-          "dateText": "Mi. 10.03.2027",
+          "dateText": "10.03.2027",
           "timeText": "19:00 Uhr",
           "location": "Kulturhalle Remchingen - Foyer",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "DER ZERBROCHNE KRUG - Lustspiel von Heinrich von Kleist",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -1974,7 +1974,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/3-remchinger-lachnacht-ole-lehmann-jens-heinrich-claassen-kerim-pamuk-marie-diot-and-serhat-dogan-id_3177/",
@@ -1984,14 +1984,14 @@
           "endDate": "2027-03-13",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Sa. 13.03.2027",
+          "dateText": "13.03.2027",
           "timeText": "20:00 Uhr",
           "location": "Kulturhalle Remchingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "3. Remchinger Lachnacht - Ole Lehmann, Jens Heinrich Claassen, Kerim Pamuk, Marie Diot & Serhat Dogan",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -2026,7 +2026,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/in-80-tagen-um-die-welt-schauspiel-spektakel-von-soeren-voima-nach-jules-verne-aboveranstaltung-id_3298/",
@@ -2036,14 +2036,14 @@
           "endDate": "2027-03-16",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Di. 16.03.2027",
+          "dateText": "16.03.2027",
           "timeText": "20:00 Uhr",
           "location": "Kulturhalle Remchingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "In 80 Tagen um die Welt - Schauspiel-Spektakel von Soeren Voima nach Jules Verne / Aboveranstaltung",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -2078,7 +2078,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/ratstermine/oeffentliche-gemeinderatssitzung-2027-03-id_3334/",
@@ -2088,14 +2088,14 @@
           "endDate": "2027-03-18",
           "startTime": "19:30",
           "endTime": "22:00",
-          "dateText": "Do. 18.03.2027",
+          "dateText": "18.03.2027",
           "timeText": "19:30 Uhr - 22:00 Uhr",
           "location": "Ratssaal",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Öffentliche Gemeinderatssitzung / 2027 - 03",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -2130,7 +2130,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/calling-mr-vain-nosie-katzmann-and-daniel-helfrich-id_3170/",
@@ -2140,14 +2140,14 @@
           "endDate": "2027-03-19",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Fr. 19.03.2027",
+          "dateText": "19.03.2027",
           "timeText": "20:00 Uhr",
           "location": "Löwensaal Nöttingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Calling Mr. Vain - Nosie Katzmann & Daniel Helfrich",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -2182,7 +2182,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/radbasar-id_3393/",
@@ -2192,14 +2192,14 @@
           "endDate": "2027-03-20",
           "startTime": "11:00",
           "endTime": "16:00",
-          "dateText": "Sa. 20.03.2027",
+          "dateText": "20.03.2027",
           "timeText": "11:00 Uhr - 16:00 Uhr",
           "location": "Kulturhalle Remchingen",
           "organizer": "Ski-Club Remchingen e.V.",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Radbasar",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -2234,7 +2234,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/opportunity-acoustic-groove-trio-id_3215/",
@@ -2244,14 +2244,14 @@
           "endDate": "2027-04-09",
           "startTime": null,
           "endTime": null,
-          "dateText": "Fr. 09.04.2027",
+          "dateText": "09.04.2027",
           "timeText": "",
           "location": "Löwensaal Nöttingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Opportunity - Acoustic Groove Trio",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -2286,7 +2286,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/ratstermine/oeffentliche-gemeinderatssitzung-2027-04-id_3335/",
@@ -2296,14 +2296,14 @@
           "endDate": "2027-04-15",
           "startTime": "19:30",
           "endTime": "22:00",
-          "dateText": "Do. 15.04.2027",
+          "dateText": "15.04.2027",
           "timeText": "19:30 Uhr - 22:00 Uhr",
           "location": "Ratssaal",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Öffentliche Gemeinderatssitzung / 2027 - 04",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -2338,7 +2338,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/auf-der-such-nach-italien-highlights-aus-15-jahren-italien-reisen-id_3403/",
@@ -2348,14 +2348,14 @@
           "endDate": "2027-04-21",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Mi. 21.04.2027",
+          "dateText": "21.04.2027",
           "timeText": "20:00 Uhr",
           "location": "Kulturhalle Remchingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Auf der Such nach ITALIEN - Highlights aus 15 Jahren ITALIEN-REISEN",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -2390,7 +2390,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/maibaumstellen-id_3254/",
@@ -2400,14 +2400,14 @@
           "endDate": "2027-04-24",
           "startTime": "17:00",
           "endTime": "21:00",
-          "dateText": "Sa. 24.04.2027",
+          "dateText": "24.04.2027",
           "timeText": "17:00 Uhr - 21:00 Uhr",
           "location": "Feldbergstraße 18, 75196 Remchingen",
           "organizer": "Bürgerverein Darmsbach e.V.",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Maibaumstellen",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -2442,7 +2442,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/fruehlingsparty-start-zum-jubilaeumsjahr-2027-id_3414/",
@@ -2452,14 +2452,14 @@
           "endDate": "2027-04-25",
           "startTime": "20:00",
           "endTime": "02:00",
-          "dateText": "Sa. 24.04.2027 - So. 25.04.2027",
+          "dateText": "24.04.2027 - 25.04.2027",
           "timeText": "20:00 Uhr - 02:00 Uhr",
           "location": "TBW-Sommerhalle, Jahnstraße 6, 75196 Remchingen",
           "organizer": "Turnerbund Wilferdingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Frühlingsparty - Start zum Jubiläumsjahr 2027",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -2494,7 +2494,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/freundschaft-von-gilla-cremer-aboveranstaltung-id_3299/",
@@ -2504,14 +2504,14 @@
           "endDate": "2027-04-27",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Di. 27.04.2027",
+          "dateText": "27.04.2027",
           "timeText": "20:00 Uhr",
           "location": "Kulturhalle Remchingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "#Freundschaft - Von Gilla Cremer / Aboveranstaltung",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -2546,7 +2546,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/bernd-stelter-sonne-im-herzen-bloedsinn-im-kopp-tour-2027-id_3217/",
@@ -2556,14 +2556,14 @@
           "endDate": "2027-04-29",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Do. 29.04.2027",
+          "dateText": "29.04.2027",
           "timeText": "20:00 Uhr",
           "location": "Kulturhalle Remchingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Bernd Stelter - \"Sonne im Herzen, Blödsinn im Kopp!“ Tour 2027",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -2598,7 +2598,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/1-maifest-id_3391/",
@@ -2608,14 +2608,14 @@
           "endDate": "2027-05-01",
           "startTime": "10:00",
           "endTime": "19:00",
-          "dateText": "Sa. 01.05.2027",
+          "dateText": "01.05.2027",
           "timeText": "10:00 Uhr - 19:00 Uhr",
           "location": "Ski-Club Gelände in Nöttingen",
           "organizer": "Ski-Club Remchingen e.V.",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "1. Maifest",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -2650,7 +2650,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/ratstermine/oeffentliche-gemeinderatssitzung-2027-05-id_3336/",
@@ -2660,14 +2660,14 @@
           "endDate": "2027-05-13",
           "startTime": "19:30",
           "endTime": "22:00",
-          "dateText": "Do. 13.05.2027",
+          "dateText": "13.05.2027",
           "timeText": "19:30 Uhr - 22:00 Uhr",
           "location": "Ratssaal",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Öffentliche Gemeinderatssitzung / 2027 - 05",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -2702,7 +2702,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/auffuehrung-der-ballettschule-remchingen-10-uhr-id_3404/",
@@ -2712,14 +2712,14 @@
           "endDate": "2027-06-05",
           "startTime": "10:00",
           "endTime": null,
-          "dateText": "Sa. 05.06.2027",
+          "dateText": "05.06.2027",
           "timeText": "10:00 Uhr",
           "location": "",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Aufführung der Ballettschule Remchingen 10 Uhr",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -2754,7 +2754,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/auffuehrung-der-ballettschule-remchingen-15-uhr-id_3405/",
@@ -2764,14 +2764,14 @@
           "endDate": "2027-06-05",
           "startTime": "15:00",
           "endTime": null,
-          "dateText": "Sa. 05.06.2027",
+          "dateText": "05.06.2027",
           "timeText": "15:00 Uhr",
           "location": "Kulturhalle Remchingen",
           "organizer": "Ballettschule Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Aufführung der Ballettschule Remchingen 15 Uhr",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -2806,7 +2806,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/ratstermine/oeffentliche-gemeinderatssitzung-2027-06-id_3337/",
@@ -2816,14 +2816,14 @@
           "endDate": "2027-06-10",
           "startTime": "19:30",
           "endTime": "22:00",
-          "dateText": "Do. 10.06.2027",
+          "dateText": "10.06.2027",
           "timeText": "19:30 Uhr - 22:00 Uhr",
           "location": "Ratssaal",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Öffentliche Gemeinderatssitzung / 2027 - 06",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -2858,7 +2858,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/schaschlikfest-id_3255/",
@@ -2868,14 +2868,14 @@
           "endDate": "2027-06-12",
           "startTime": "12:00",
           "endTime": null,
-          "dateText": "Sa. 12.06.2027",
+          "dateText": "12.06.2027",
           "timeText": "12:00 Uhr",
           "location": "Feldbergstraße 18, 75196 Remchingen",
           "organizer": "Bürgerverein Darmsbach e.V.",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Schaschlikfest",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -2910,7 +2910,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/spendenlauf-beneflizz-18-auflage-id_3392/",
@@ -2920,14 +2920,14 @@
           "endDate": "2027-07-03",
           "startTime": "15:00",
           "endTime": "17:00",
-          "dateText": "Sa. 03.07.2027",
+          "dateText": "03.07.2027",
           "timeText": "15:00 Uhr - 17:00 Uhr",
           "location": "Ski-Club-Gelände in Nöttingen",
           "organizer": "Ski-Club Remchingen e.V.",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Spendenlauf Beneflizz 18. Auflage",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -2962,7 +2962,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/ratstermine/oeffentliche-gemeinderatssitzung-2027-07-id_3338/",
@@ -2972,14 +2972,14 @@
           "endDate": "2027-07-08",
           "startTime": "19:30",
           "endTime": "22:00",
-          "dateText": "Do. 08.07.2027",
+          "dateText": "08.07.2027",
           "timeText": "19:30 Uhr - 22:00 Uhr",
           "location": "Ratssaal",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Öffentliche Gemeinderatssitzung / 2027 - 07",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -3014,7 +3014,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/5-remchinger-mopedtreffen-id_3390/",
@@ -3024,14 +3024,14 @@
           "endDate": "2027-08-01",
           "startTime": "16:00",
           "endTime": "18:00",
-          "dateText": "Sa. 31.07.2027 - So. 01.08.2027",
+          "dateText": "31.07.2027 - 01.08.2027",
           "timeText": "16:00 Uhr - 18:00 Uhr",
           "location": "Am Fluckenberg",
           "organizer": "Die Remchinger Mopedos e.V.",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "5. Remchinger Mopedtreffen",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -3066,7 +3066,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/ratstermine/oeffentliche-gemeinderatssitzung-2027-09-id_3339/",
@@ -3076,14 +3076,14 @@
           "endDate": "2027-09-23",
           "startTime": "19:30",
           "endTime": "22:00",
-          "dateText": "Do. 23.09.2027",
+          "dateText": "23.09.2027",
           "timeText": "19:30 Uhr - 22:00 Uhr",
           "location": "Ratssaal",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Öffentliche Gemeinderatssitzung / 2027 - 09",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -3118,7 +3118,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/harald-schmidt-schwaetzt-mit-bernd-gnann-ein-unvorbereiteter-abend-id_3214/",
@@ -3128,14 +3128,14 @@
           "endDate": "2027-09-30",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Do. 30.09.2027",
+          "dateText": "30.09.2027",
           "timeText": "20:00 Uhr",
           "location": "",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Harald Schmidt schwätzt mit Bernd Gnann - Ein unvorbereiteter Abend",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -3170,7 +3170,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/ass-dur-bruderliebe-id_3351/",
@@ -3180,14 +3180,14 @@
           "endDate": "2027-10-13",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Mi. 13.10.2027",
+          "dateText": "13.10.2027",
           "timeText": "20:00 Uhr",
           "location": "",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "ASS-DUR - Bruderliebe",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -3222,7 +3222,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/ratstermine/oeffentliche-gemeinderatssitzung-2027-10-id_3340/",
@@ -3232,14 +3232,14 @@
           "endDate": "2027-10-21",
           "startTime": "19:30",
           "endTime": "22:00",
-          "dateText": "Do. 21.10.2027",
+          "dateText": "21.10.2027",
           "timeText": "19:30 Uhr - 22:00 Uhr",
           "location": "Ratssaal",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Öffentliche Gemeinderatssitzung / 2027 - 10",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -3274,7 +3274,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/nacht-der-gitarren-feat-alexandr-misko-matheus-donato-pedro-joia-kaki-king-id_3413/",
@@ -3284,14 +3284,14 @@
           "endDate": "2027-10-21",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Do. 21.10.2027",
+          "dateText": "21.10.2027",
           "timeText": "20:00 Uhr",
           "location": "Kulturhalle Remchingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "NACHT DER GITARREN - feat. Alexandr Misko, Matheus Donato, Pedro Jóia, Kaki King",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -3326,7 +3326,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/starbugs-comedy-crash-boom-bang-id_3350/",
@@ -3336,14 +3336,14 @@
           "endDate": "2027-10-22",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Fr. 22.10.2027",
+          "dateText": "22.10.2027",
           "timeText": "20:00 Uhr",
           "location": "",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "STARBUGS COMEDY - CRASH BOOM BANG",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -3378,7 +3378,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/phil-the-genesis-and-phil-collins-tribute-show-id_3228/",
@@ -3388,14 +3388,14 @@
           "endDate": "2027-10-23",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Sa. 23.10.2027",
+          "dateText": "23.10.2027",
           "timeText": "20:00 Uhr",
           "location": "Kulturhalle Remchingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Phil - THE GENESIS & PHIL COLLINS TRIBUTE SHOW",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -3430,7 +3430,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/gunzi-heil-solo-id_3354/",
@@ -3440,14 +3440,14 @@
           "endDate": "2027-10-29",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Fr. 29.10.2027",
+          "dateText": "29.10.2027",
           "timeText": "20:00 Uhr",
           "location": "Löwensaal Nöttingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Gunzi Heil - Solo",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -3482,7 +3482,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/ratstermine/oeffentliche-gemeinderatssitzung-2027-11-id_3342/",
@@ -3492,14 +3492,14 @@
           "endDate": "2027-11-11",
           "startTime": "19:30",
           "endTime": "22:00",
-          "dateText": "Do. 11.11.2027",
+          "dateText": "11.11.2027",
           "timeText": "19:30 Uhr - 22:00 Uhr",
           "location": "Ratssaal",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Öffentliche Gemeinderatssitzung / 2027 - 11",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -3534,7 +3534,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/doris-reichenauer-jetzt-isst-er-sogar-brokkoli-id_3239/",
@@ -3544,14 +3544,14 @@
           "endDate": "2027-11-25",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Do. 25.11.2027",
+          "dateText": "25.11.2027",
           "timeText": "20:00 Uhr",
           "location": "Kulturhalle Remchingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Doris Reichenauer - Jetzt isst er sogar Brokkoli",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -3586,7 +3586,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/andreas-langsch-schoene-bescherung-id_3349/",
@@ -3596,14 +3596,14 @@
           "endDate": "2027-11-28",
           "startTime": "19:00",
           "endTime": null,
-          "dateText": "So. 28.11.2027",
+          "dateText": "28.11.2027",
           "timeText": "19:00 Uhr",
           "location": "",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Andreas Langsch - Schöne Bescherung!",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -3638,7 +3638,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/eine-magische-elfenmission-familien-zaubershow-mit-linus-faber-id_3238/",
@@ -3648,14 +3648,14 @@
           "endDate": "2027-11-30",
           "startTime": "16:00",
           "endTime": null,
-          "dateText": "Di. 30.11.2027",
+          "dateText": "30.11.2027",
           "timeText": "16:00 Uhr",
           "location": "Kulturhalle Remchingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Eine magische Elfenmission - Familien-Zaubershow mit Linus Faber",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -3690,7 +3690,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/ratstermine/oeffentliche-gemeinderatssitzung-2027-12-1-id_3341/",
@@ -3700,14 +3700,14 @@
           "endDate": "2027-12-02",
           "startTime": "19:30",
           "endTime": "22:00",
-          "dateText": "Do. 02.12.2027",
+          "dateText": "02.12.2027",
           "timeText": "19:30 Uhr - 22:00 Uhr",
           "location": "Ratssaal",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Öffentliche Gemeinderatssitzung / 2027 - 12-1",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -3742,7 +3742,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/weihnachtsbaumverkauf-id_3256/",
@@ -3752,14 +3752,14 @@
           "endDate": "2027-12-11",
           "startTime": "09:00",
           "endTime": "12:00",
-          "dateText": "Sa. 11.12.2027",
+          "dateText": "11.12.2027",
           "timeText": "09:00 Uhr - 12:00 Uhr",
           "location": "Feldbergstraße 18, 75196 Remchingen",
           "organizer": "Bürgerverein Darmsbach e.V.",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Weihnachtsbaumverkauf",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -3794,7 +3794,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/ratstermine/oeffentliche-gemeinderatssitzung-2027-12-2-id_3345/",
@@ -3804,14 +3804,14 @@
           "endDate": "2027-12-16",
           "startTime": "19:30",
           "endTime": "22:00",
-          "dateText": "Do. 16.12.2027",
+          "dateText": "16.12.2027",
           "timeText": "19:30 Uhr - 22:00 Uhr",
           "location": "Ratssaal",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Öffentliche Gemeinderatssitzung / 2027 - 12-2",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -3846,7 +3846,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/cinderella-ballett-in-2-akten-musik-von-sergej-prokofiew-id_3291/",
@@ -3856,14 +3856,14 @@
           "endDate": "2027-12-17",
           "startTime": "19:00",
           "endTime": null,
-          "dateText": "Fr. 17.12.2027",
+          "dateText": "17.12.2027",
           "timeText": "19:00 Uhr",
           "location": "",
           "organizer": "",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "CINDERELLA - Ballett in 2 Akten, Musik von Sergej Prokofiew",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -3898,7 +3898,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/the-best-of-tina-turner-tribute-show-live-id_3415/",
@@ -3908,14 +3908,14 @@
           "endDate": "2028-02-12",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Sa. 12.02.2028",
+          "dateText": "12.02.2028",
           "timeText": "20:00 Uhr",
           "location": "Kulturhalle Remchingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "The Best of Tina Turner - Tribute Show - LIVE",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],
@@ -3950,7 +3950,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-21T07:16:29+00:00",
+      "detailCheckedAt": "2026-11-21T07:22:08+00:00",
       "sources": [
         {
           "url": "https://www.remchingen.de/veranstaltungen/michael-krebs-ein-sehr-emotionales-gefuehl-id_3383/",
@@ -3960,14 +3960,14 @@
           "endDate": "2028-02-18",
           "startTime": "20:00",
           "endTime": null,
-          "dateText": "Fr. 18.02.2028",
+          "dateText": "18.02.2028",
           "timeText": "20:00 Uhr",
           "location": "Löwensaal Nöttingen",
           "organizer": "Kulturhalle Remchingen",
           "sourceId": "remchingen",
           "sourceName": "Gemeinde Remchingen",
           "reportedTitle": "Michael Krebs - Ein sehr emotionales Gefühl",
-          "checkedAt": "2026-11-21T07:16:29+00:00",
+          "checkedAt": "2026-11-21T07:22:08+00:00",
           "priority": 2
         }
       ],

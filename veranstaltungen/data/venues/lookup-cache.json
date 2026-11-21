@@ -19687,6 +19687,221 @@
           "houseNumber": "10"
         }
       ]
+    },
+    "Schloßbergstraße 12, Karlsruhe": {
+      "checkedAt": "2026-11-21T07:23:33+00:00",
+      "places": [
+        {
+          "id": "osm-way-98866240",
+          "name": "Hermann-Ringwald-Halle",
+          "latitude": 48.9724101,
+          "longitude": 8.4544403,
+          "address": "Schlossbergstraße 12, 76228 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/98866240",
+          "category": "amenity",
+          "type": "community_centre",
+          "city": "Karlsruhe",
+          "district": "Wolfartsweier",
+          "locality": "",
+          "street": "Schlossbergstraße",
+          "houseNumber": "12"
+        }
+      ]
+    },
+    "Hermann-Schneider-Allee 1, Karlsruhe - Daxlanden": {
+      "checkedAt": "2026-11-21T07:23:33+00:00",
+      "places": [
+        {
+          "id": "osm-way-160221371",
+          "name": "Hermann-Schneider-Allee",
+          "latitude": 49.0043879,
+          "longitude": 8.3212277,
+          "address": "76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/160221371",
+          "category": "highway",
+          "type": "unclassified",
+          "city": "Karlsruhe",
+          "district": "Daxlanden",
+          "locality": "Alt-Daxlanden",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-670321018",
+          "name": "Hermann-Schneider-Allee",
+          "latitude": 48.9978652,
+          "longitude": 8.2995748,
+          "address": "76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/670321018",
+          "category": "highway",
+          "type": "service",
+          "city": "Karlsruhe",
+          "district": "Daxlanden",
+          "locality": "Alt-Daxlanden",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-121071281",
+          "name": "TSV Daxlanden",
+          "latitude": 49.0038371,
+          "longitude": 8.3212229,
+          "address": "Hermann-Schneider-Allee 3, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/121071281",
+          "category": "club",
+          "type": "sport",
+          "city": "Karlsruhe",
+          "district": "Daxlanden",
+          "locality": "Alt-Daxlanden",
+          "street": "Hermann-Schneider-Allee",
+          "houseNumber": "3"
+        }
+      ]
+    },
+    "Kaiserstraße 93, Karlsruhe": {
+      "checkedAt": "2026-11-21T07:23:33+00:00",
+      "places": [
+        {
+          "id": "osm-node-3590582644",
+          "name": "Kaiserstraße 93",
+          "latitude": 49.0092562,
+          "longitude": 8.408867,
+          "address": "Kaiserstraße 93, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3590582644",
+          "category": "place",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "93"
+        },
+        {
+          "id": "osm-node-524555510",
+          "name": "TRIANGEL Transfer | Kultur | Raum",
+          "latitude": 49.0091927,
+          "longitude": 8.4088572,
+          "address": "Kaiserstraße 93, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/524555510",
+          "category": "amenity",
+          "type": "events_venue",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "93"
+        },
+        {
+          "id": "osm-node-14093912840",
+          "name": "TRIANGEL – Werkstatt",
+          "latitude": 49.009235,
+          "longitude": 8.4087499,
+          "address": "Kaiserstraße 93, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/14093912840",
+          "category": "amenity",
+          "type": "events_venue",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "93"
+        },
+        {
+          "id": "osm-node-14093912839",
+          "name": "TRIANGEL – Space",
+          "latitude": 49.009122,
+          "longitude": 8.4089018,
+          "address": "Kaiserstraße 93, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/14093912839",
+          "category": "amenity",
+          "type": "events_venue",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "93"
+        },
+        {
+          "id": "osm-way-156619883",
+          "name": "Kollegiengebäude am Kronenplatz",
+          "latitude": 49.0090019,
+          "longitude": 8.4097611,
+          "address": "Kaiserstraße 89-93, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/156619883",
+          "category": "building",
+          "type": "university",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "89-93"
+        }
+      ]
+    },
+    "Nördliche Hildapromenade 3, Karlsruhe": {
+      "checkedAt": "2026-11-21T07:23:33+00:00",
+      "places": [
+        {
+          "id": "osm-way-332479017",
+          "name": "Nördliche Hildapromenade 3",
+          "latitude": 49.0131725,
+          "longitude": 8.3828213,
+          "address": "Nördliche Hildapromenade 3, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/332479017",
+          "category": "building",
+          "type": "archiv",
+          "city": "Karlsruhe",
+          "district": "Weststadt",
+          "locality": "Weststadt Mittlerer Teil",
+          "street": "Nördliche Hildapromenade",
+          "houseNumber": "3"
+        },
+        {
+          "id": "osm-relation-13528738",
+          "name": "Nördliche Hildapromenade 3",
+          "latitude": 49.0132691,
+          "longitude": 8.3827681,
+          "address": "Nördliche Hildapromenade 3, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/13528738",
+          "category": "place",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Weststadt",
+          "locality": "Weststadt Mittlerer Teil",
+          "street": "Nördliche Hildapromenade",
+          "houseNumber": "3"
+        },
+        {
+          "id": "osm-node-10055268855",
+          "name": "Generallandesarchiv Karlsruhe",
+          "latitude": 49.0131446,
+          "longitude": 8.3828024,
+          "address": "Nördliche Hildapromenade 3, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/10055268855",
+          "category": "office",
+          "type": "government",
+          "city": "Karlsruhe",
+          "district": "Weststadt",
+          "locality": "Weststadt Mittlerer Teil",
+          "street": "Nördliche Hildapromenade",
+          "houseNumber": "3"
+        },
+        {
+          "id": "osm-way-195801373",
+          "name": "Nördliche Hildapromenade 3a",
+          "latitude": 49.0131656,
+          "longitude": 8.3824126,
+          "address": "Nördliche Hildapromenade 3a, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/195801373",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Weststadt",
+          "locality": "Weststadt Mittlerer Teil",
+          "street": "Nördliche Hildapromenade",
+          "houseNumber": "3a"
+        }
+      ]
     }
   },
   "attribution": {
