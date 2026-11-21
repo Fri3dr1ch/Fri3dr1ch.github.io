@@ -239,14 +239,16 @@ class VenueTests(unittest.TestCase):
             {**point('Praxis für Kinder und Jugendlichenpsychotherapie'), 'latitude':49.01,'longitude':8.4}]),[])
 
     def test_confirmation_of_a_generic_clubhouse_does_not_assign_another_club(self):
-        a={**event('Clubhaus','Pfinztal-Wöschbach'),'organizer':'Verein A'}
-        b={**a,'id':'different-club','organizer':'Verein B'}
-        p={**point('Clubhaus',lat=49.015,lon=8.59),'address':'Wöschbach'}
-        self.cache(a,[p]);_,review=self.build([a,b]);render_review(self.root,review)
-        row=next(r for r in review['rows'] if r['organizer']=='Verein A')
-        d={k:row[k] for k in ('key','location','scope')};d.update(decision='place',placeId=p['id'])
-        apply_decisions(self.root,{'schemaVersion':1,'decisions':[d]},TODAY)
-        data,_=self.build([a,b]);self.assertEqual([e['venue']['status'] for e in data['events']],['resolved','review'])
+        for location in ('Clubhaus', 'Vereinsheim/Vereinsgelände'):
+            with self.subTest(location=location):
+                a={**event(location,'Pfinztal-Wöschbach'),'organizer':'Verein A'}
+                b={**a,'id':'different-club','organizer':'Verein B'}
+                p={**point(location,lat=49.015,lon=8.59),'address':'Wöschbach'}
+                self.cache(a,[p]);_,review=self.build([a,b]);render_review(self.root,review)
+                row=next(r for r in review['rows'] if r['organizer']=='Verein A')
+                d={k:row[k] for k in ('key','location','scope')};d.update(decision='place',placeId=p['id'])
+                apply_decisions(self.root,{'schemaVersion':1,'decisions':[d]},TODAY)
+                data,_=self.build([a,b]);self.assertEqual([e['venue']['status'] for e in data['events']],['resolved','review'])
 
     def test_source_coordinates_are_preferred_and_out_of_context_source_points_need_review(self):
         e=event('Jahnhalle Jöhlingen, Walzbachtal','Walzbachtal-Jöhlingen','walzbachtal');e['url']='https://www.walzbachtal.de/veranstaltung/test-event-appointment1'

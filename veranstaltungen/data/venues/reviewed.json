@@ -6022,6 +6022,209 @@
         "street": "Bruchwaldstraße",
         "houseNumber": "76"
       }
+    },
+    {
+      "key": "venue-ebadb41a085e0ae2d623",
+      "location": "Kirchgasse, Spielberg",
+      "scope": null,
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-21",
+      "note": "Die Gemeinde nennt die Kirchgasse. Die evangelische Kirche dient als Orientierung für den Wochenmarkt.",
+      "sourceUrl": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12672",
+      "place": {
+        "id": "osm-way-265986914",
+        "name": "Evangelische Kirche an der Kirchgasse",
+        "address": "Kirchgasse, 76307 Karlsbad-Spielberg",
+        "latitude": 48.8974673,
+        "longitude": 8.4718541,
+        "url": "https://www.openstreetmap.org/way/265986914",
+        "category": "amenity",
+        "type": "place_of_worship"
+      }
+    },
+    {
+      "key": "venue-5988885af2678449104d",
+      "location": "Vereinsheim/Vereinsgelände",
+      "scope": null,
+      "organizer": "Gesangverein \"Eintracht 1887\" Spöck e.V.",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-21",
+      "note": "Die Eintracht kündigt den Nikolaus beim Sängerheim an und nennt den Pfarrweg als Adresse. Der Kartenpunkt dient der Orientierung am Pfarrweg.",
+      "sourceUrl": "https://www.eintracht-spoeck.de/termine/",
+      "place": {
+        "id": "osm-way-25776280",
+        "name": "Pfarrweg zum Sängerheim der Eintracht Spöck",
+        "address": "Pfarrweg, 76297 Stutensee-Spöck",
+        "latitude": 49.10833,
+        "longitude": 8.5140097,
+        "url": "https://www.openstreetmap.org/way/25776280",
+        "category": "highway",
+        "type": "unclassified"
+      }
+    },
+    {
+      "key": "venue-5a5be07949024858aadb",
+      "location": "Vereinsheim/Vereinsgelände",
+      "scope": null,
+      "organizer": "Karnevalsclub \"Die Piraten\" Stutensee e.V.",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-21",
+      "note": "Die Stadt führt das Vereinsheim der Piraten am Seegrabenweg 9. Die Zuordnung gilt für diesen Veranstalter.",
+      "sourceUrl": "https://www.stutensee.de/Vereine/Verein?id=1105&item=club&view=publish",
+      "place": {
+        "id": "osm-way-221356203",
+        "name": "Vereinsheim des Karnevalsclubs Die Piraten",
+        "address": "Seegrabenweg 9, 76297 Stutensee-Blankenloch",
+        "latitude": 49.0704208,
+        "longitude": 8.476363,
+        "url": "https://www.openstreetmap.org/way/221356203",
+        "category": "building",
+        "type": "yes",
+        "city": "Stutensee",
+        "street": "Seegrabenweg",
+        "houseNumber": "9",
+        "district": "Blankenloch"
+      }
+    },
+    {
+      "key": "venue-11092b5a5950d91b8f24",
+      "location": "Ortsmitte Karlsbad-Auerbach",
+      "scope": null,
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-21",
+      "note": "Die Gemeinde nennt Auerbach für das Weihnachtssingen. Der Kartenpunkt am Rathaus dient als Orientierung in der Ortsmitte.",
+      "sourceUrl": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12562",
+      "place": {
+        "id": "osm-way-215290627",
+        "name": "Ortsmitte Auerbach am Rathaus",
+        "address": "Remchinger Straße 68, 76307 Karlsbad-Auerbach",
+        "latitude": 48.9141968,
+        "longitude": 8.5319365,
+        "url": "https://www.openstreetmap.org/way/215290627",
+        "category": "amenity",
+        "type": "townhall",
+        "city": "Karlsbad",
+        "street": "Remchinger Straße",
+        "houseNumber": "68",
+        "district": "Auerbach"
+      }
+    },
+    {
+      "key": "venue-b03a84e2e11ebee786f7",
+      "location": "Festplatz, Ittersbach",
+      "scope": null,
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-21",
+      "note": "Die Grundschule dient als Orientierung für den Festplatz am Schulhof.",
+      "sourceUrl": "https://www.vfr-ittersbach.de/2025/06/22/kuckucksfest-2025-wir-sind-mit-dabei/",
+      "place": {
+        "id": "osm-node-529370499",
+        "name": "Festplatz Ittersbach bei der Grundschule",
+        "address": "Belchenstraße 29, 76307 Karlsbad-Ittersbach",
+        "latitude": 48.8619422,
+        "longitude": 8.5040234,
+        "url": "https://www.openstreetmap.org/node/529370499",
+        "category": "amenity",
+        "type": "school",
+        "city": "Karlsbad",
+        "street": "Belchenstraße",
+        "houseNumber": "29",
+        "district": "Ittersbach"
+      }
+    },
+    {
+      "key": "venue-23558b3bfb5bc1277dad",
+      "location": "Freibad Wolfartsweier (Wölfle)",
+      "scope": "durlach",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-21",
+      "note": "Die Ortsentscheidung verwendet den ausgewählten Wegweiser am Freibad Wölfle als Referenz.",
+      "sourceUrl": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12093&tx_events2_events%5Btimestamp%5D=1795273200&cHash=0fb37030950d9226b8c683fd22105e9e",
+      "place": {
+        "id": "osm-node-5290543052",
+        "name": "Wolfartsweier Freibad",
+        "latitude": 48.9726617,
+        "longitude": 8.4544113,
+        "address": "Schlossbergstraße, 76228 Karlsruhe",
+        "url": "https://www.openstreetmap.org/node/5290543052",
+        "category": "information",
+        "type": "guidepost",
+        "street": "Schlossbergstraße",
+        "houseNumber": ""
+      }
+    },
+    {
+      "key": "venue-7bd93e3c877119cbbfa1",
+      "location": "Karlsruhe Hauptbahnhof - Halle Treffpunkt",
+      "scope": "karlsruhe",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-21",
+      "note": "Der Veranstalter nennt die Bahnhofshalle als Treffpunkt. Der Kartenpunkt markiert den Eingang vom Bahnhofplatz. Die vorausgewählte OSM-Koordinate bezeichnet Gleis 4.",
+      "sourceUrl": "https://www.bahnhof.de/downloads/station-plans/3107.pdf",
+      "place": {
+        "id": "osm-node-2889922863",
+        "name": "Hauptbahnhof Karlsruhe, Eingang zur Bahnhofshalle",
+        "address": "Bahnhofplatz 1a, 76137 Karlsruhe",
+        "latitude": 48.9942104,
+        "longitude": 8.4003785,
+        "url": "https://www.openstreetmap.org/node/2889922863",
+        "category": "railway",
+        "type": "train_station_entrance"
+      }
+    },
+    {
+      "key": "venue-347a6ac42276b3d47993",
+      "location": "Tullastraße/Alter Schlachthof (Treffpunkt Rundgang)",
+      "scope": "karlsruhe",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-21",
+      "note": "Der Veranstalter nennt den Schriftzug an der Ecke Durlacher Allee und Tullastraße. Die nahe Haltestelle dient als Orientierung für diesen Rundgang.",
+      "sourceUrl": "https://kalender.karlsruhe.de/db/termine/stadtleben/rundgang_areal_alter_schlachthof_karlsruhe-305",
+      "place": {
+        "id": "osm-node-12650255545",
+        "name": "Haltestelle Tullastraße/Alter Schlachthof",
+        "address": "Durlacher Allee, 76131 Karlsruhe",
+        "latitude": 49.0061371,
+        "longitude": 8.4315933,
+        "url": "https://www.openstreetmap.org/node/12650255545",
+        "category": "public_transport",
+        "type": "platform"
+      }
+    },
+    {
+      "key": "venue-5e8abe67cb6a3083668c",
+      "location": "Karlsruher Weihnachtscircus",
+      "scope": "karlsruhe",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-21",
+      "note": "Der Veranstalter nennt den Messplatz an der Durlacher Allee als Standort des Weihnachtscircus.",
+      "sourceUrl": "https://karlsruher-weihnachtscircus.de/preise-info/",
+      "place": {
+        "id": "osm-way-134631705",
+        "name": "Messplatz Karlsruhe",
+        "address": "Durlacher Allee 66, 76137 Karlsruhe",
+        "latitude": 49.0047498,
+        "longitude": 8.4345175,
+        "url": "https://www.openstreetmap.org/way/134631705",
+        "category": "landuse",
+        "type": "events"
+      }
     }
   ],
   "notes": {
@@ -6106,8 +6309,9 @@
     "venue-7c8ed3f0364f6564fdef": {
       "location": "Am Fluckenberg",
       "scope": "remchingen",
-      "note": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
-      "reviewedOn": "2026-11-17"
+      "note": "Der Verein nennt für die Scheune am Fluckenberg die Mutschelbacher Straße. Die Murgstraße 14 ist die Kontaktanschrift. Der genaue Ort der Scheune an der Mutschelbacher Straße bleibt offen.",
+      "reviewedOn": "2026-11-21",
+      "sourceUrl": "https://www.die-mopedos-remchingen.de/mitglieder-info"
     },
     "venue-40f34999333d042180f4": {
       "location": "Bahnhofstraße, Ecke Bahnhofplatz",
@@ -6350,38 +6554,17 @@
       "reviewedOn": "2026-11-21",
       "sourceUrl": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1111861-oek-friedensgebet/?vt=1&cb-id=193413"
     },
-    "venue-ebadb41a085e0ae2d623": {
-      "location": "Kirchgasse, Spielberg",
-      "scope": null,
-      "note": "Die Marktankündigung nennt die Kirchgasse in Spielberg. Die Straße ist kartiert, der Abschnitt mit den Marktständen ist nicht belegt.",
-      "reviewedOn": "2026-11-21",
-      "sourceUrl": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12672"
-    },
-    "venue-8f183b64f2ef1169e8fe": {
-      "location": "Vereinsheim/Vereinsgelände",
-      "scope": null,
-      "note": "Die Stadt nennt zwei unterschiedliche Veranstalter in Spöck bzw. Stutensee. Die gemeinsame Bezeichnung „Vereinsheim/Vereinsgelände“ identifiziert weder das Gebäude der Eintracht Spöck noch das der Piraten eindeutig.",
-      "reviewedOn": "2026-11-21",
-      "sourceUrl": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2834"
-    },
     "venue-a8d231e0a06d30149db1": {
       "location": "Auerbach",
       "scope": null,
-      "note": "Der Gesangverein kündigt Weihnachtssingen im Dorf an. Die Gemeinde nennt als Ort nur den Ortsteil Auerbach.",
+      "note": "Die Gemeinde nennt Auerbach für das Weihnachtssingen. Der Kartenpunkt am Rathaus dient als Orientierung in der Ortsmitte.",
       "reviewedOn": "2026-11-21",
       "sourceUrl": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12562"
-    },
-    "venue-b03a84e2e11ebee786f7": {
-      "location": "Festplatz, Ittersbach",
-      "scope": null,
-      "note": "Der Verein belegt den Festplatz neben dem Schulhof und dem OGV-Heim. Die verfügbaren Kartenobjekte unterscheiden die Festfläche nicht eindeutig von Schulhof und benachbarten Parkflächen.",
-      "reviewedOn": "2026-11-21",
-      "sourceUrl": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12545"
     },
     "venue-a8597da58146bdbdf3ca": {
       "location": "Karlsruher Oststadt",
       "scope": "karlsruhe",
-      "note": "Die Beschreibung nennt die großen Buchstaben „Alter Schlachthof“ an der Durlacher Allee. Der Schriftzug hat im Kartenmaterial keinen eindeutigen Punkt.",
+      "note": "Der Veranstalter nennt den Schriftzug an der Ecke Durlacher Allee und Tullastraße. Die nahe Haltestelle dient als Orientierung für diesen Rundgang.",
       "reviewedOn": "2026-11-21",
       "sourceUrl": "https://kalender.karlsruhe.de/db/termine/stadtleben/rundgang_areal_alter_schlachthof_karlsruhe-305"
     },
@@ -6536,6 +6719,16 @@
       "originalVenueKey": "venue-c6fe6e3f9078ff79c64c",
       "reviewedVenueKey": "venue-87c2a8e91e05e417e76f",
       "sourceUrl": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/28/998/-/pflanzung-des-baum-des-jahres"
+    },
+    "karlsbad-1b5e6523-28dd-35cd-a5d8-3ca500c87a68": {
+      "originalVenueKey": "venue-a8d231e0a06d30149db1",
+      "reviewedVenueKey": "venue-11092b5a5950d91b8f24",
+      "sourceUrl": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12562"
+    },
+    "karlsruhe-f139a7d8db659631": {
+      "originalVenueKey": "venue-a8597da58146bdbdf3ca",
+      "reviewedVenueKey": "venue-347a6ac42276b3d47993",
+      "sourceUrl": "https://kalender.karlsruhe.de/db/termine/stadtleben/rundgang_areal_alter_schlachthof_karlsruhe-305"
     }
   }
 }
