@@ -5997,6 +5997,31 @@
       "reviewedOn": "2026-11-21",
       "note": "Das Choralblasen ist mit „im Ort“ angekündigt. Ein einzelner Treffpunkt ist nicht angegeben.",
       "sourceUrl": "https://pfinztal.de/wp-content/uploads/2026/02/Kopie-von-Finaler-Veranstaltungskalender_2026_Stand_09.12.2025.pdf#page=5"
+    },
+    {
+      "key": "venue-f02bdab4de479de5b93c",
+      "location": "Kleingartenanlage Sandäcker, vor dem Vereinsheim",
+      "scope": "groetzingen",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-21",
+      "note": "Der Karlsruher Veranstaltungskalender belegt Bruchwaldstraße 76 für die Kleingartenanlage des OWG. Der Kartenpunkt bezeichnet die Anlage; der Aushang nennt den Platz vor dem Vereinsheim.",
+      "sourceUrl": "https://kalender.karlsruhe.de/db/termine/stadtleben/herzliche_einladung_zu_unserem_traditionellen",
+      "place": {
+        "id": "osm-way-23199164",
+        "name": "Kleingartenanlage Sandäcker",
+        "latitude": 49.0218179,
+        "longitude": 8.5027688,
+        "address": "Bruchwaldstraße 76, 76229 Karlsruhe-Grötzingen",
+        "url": "https://www.openstreetmap.org/way/23199164",
+        "category": "landuse",
+        "type": "allotments",
+        "city": "Karlsruhe",
+        "district": "Grötzingen",
+        "street": "Bruchwaldstraße",
+        "houseNumber": "76"
+      }
     }
   ],
   "notes": {
