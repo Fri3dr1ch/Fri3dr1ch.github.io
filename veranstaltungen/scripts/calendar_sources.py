@@ -13,7 +13,7 @@ PUBLISHER_SOURCE_IDS=('naturtreff-groetzingen','vhs-karlsruhe-land-pfinztal',
 LOCAL_SOURCE_IDS=('durlach','weingarten','pfinztal','pfinztal-vereine','remchingen',
                   'kulturhalle-remchingen','eki-groetzingen','pfinztal-haus-begegnungen',
                   'naturfreunde-berghausen','naturfreunde-soellingen','naturfreunde-groetzingen','walzbachtal',
-                  'waldpaedagogik-karlsruhe',*PUBLISHER_SOURCE_IDS)
+                  'waldpaedagogik-karlsruhe',*PUBLISHER_SOURCE_IDS,'aushang-groetzingen')
 
 def normalized(text):
     text=unicodedata.normalize('NFKD',(text or '').replace('ß','ss')).encode('ascii','ignore').decode().lower()
