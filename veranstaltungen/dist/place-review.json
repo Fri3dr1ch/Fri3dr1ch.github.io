@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T20:28:45+00:00",
+  "generatedAt": "2026-11-21T07:17:46+00:00",
   "attribution": {
     "text": "© OpenStreetMap contributors · ODbL",
     "url": "https://www.openstreetmap.org/copyright"
   },
   "stats": {
-    "venues": 412,
+    "venues": 409,
     "venueStatuses": {
       "missing": 14,
-      "review": 133,
+      "review": 130,
       "online": 4,
-      "queued": 9,
-      "resolved": 252
+      "queued": 7,
+      "resolved": 254
     },
-    "upcomingEvents": 1422,
+    "upcomingEvents": 1412,
     "eventStatuses": {
       "resolved": 885,
-      "review": 299,
-      "missing": 221,
-      "queued": 10,
+      "review": 292,
+      "missing": 220,
+      "queued": 8,
       "online": 7
     }
   },
@@ -38,7 +38,7 @@
       "method": null,
       "place": null,
       "candidates": [],
-      "eventCount": 105,
+      "eventCount": 104,
       "reviewNote": "",
       "sourceAddresses": [],
       "organizer": "",
@@ -50,12 +50,6 @@
         "Evangelische Kirche Grötzingen"
       ],
       "examples": [
-        {
-          "id": "eki-groetzingen-1035633-2026-11-20-2000",
-          "title": "Posaunenchor",
-          "date": "2026-11-20",
-          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1035633-posaunenchor/?vt=1&cb-id=118282"
-        },
         {
           "id": "eki-groetzingen-1060984-2026-11-22-1000",
           "title": "Gottesdienst mit Abendmahl am Ewigkeitssonntag mit Gedenken der im Kirchenjahr Verstorbenen; mit dem Posaunenchor",
@@ -73,6 +67,12 @@
           "title": "Regenbogenchor",
           "date": "2026-11-24",
           "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1064316-regenbogenchor/?vt=1&cb-id=118282"
+        },
+        {
+          "id": "eki-groetzingen-1003554-2026-11-26-1430",
+          "title": "Treff bei Luther im MLH: \"Wenn die Tage kürzer werden, tut es gut, für die Seele zu sorgen\" (Referentin Monika Roth, Fachstelle LiA Leben im Alter )",
+          "date": "2026-11-26",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1003554-treff-bei-luther-im-mlh-wenn-die-tage-kuerzer-werden-tut-es-gut-fuer-die-seele-zu-sorgen-referentin-monika-roth-fachstelle-lia-leben-im-alter/?vt=1&cb-id=118282"
         }
       ]
     },
@@ -797,54 +797,6 @@
       ]
     },
     {
-      "key": "venue-6f24757dc655b7239fe5",
-      "location": "Begegnungszentrum Regenbogen",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "review",
-      "reason": "Kein ausreichend bestimmter Ortskontext.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 4,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "stutensee"
-      ],
-      "sources": [
-        "Stadt Stutensee · Veranstaltungskalender"
-      ],
-      "examples": [
-        {
-          "id": "stutensee-2710",
-          "title": "Spieleabend",
-          "date": "2026-11-20",
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2710"
-        },
-        {
-          "id": "stutensee-2867",
-          "title": "Strickeria",
-          "date": "2026-11-25",
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2867"
-        },
-        {
-          "id": "stutensee-2555",
-          "title": "Kaffee Treff",
-          "date": "2026-12-08",
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2555"
-        },
-        {
-          "id": "stutensee-2838",
-          "title": "Nikolausfeier für Kinder",
-          "date": "2026-12-12",
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2838"
-        }
-      ]
-    },
-    {
       "key": "venue-415de67c5b4c19fd5987",
       "location": "City Tour durch Karlsruhe",
       "scope": "karlsruhe",
@@ -989,54 +941,6 @@
       ]
     },
     {
-      "key": "venue-388e8928129790b8c716",
-      "location": "GrauBau/Jugendzentrum Stutensee",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "review",
-      "reason": "Kein ausreichend bestimmter Ortskontext.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 4,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "stutensee"
-      ],
-      "sources": [
-        "Stadt Stutensee · Veranstaltungskalender"
-      ],
-      "examples": [
-        {
-          "id": "stutensee-2892",
-          "title": "Kindertheaterstück „Wieder Ärger in Lazy Town“",
-          "date": "2026-11-20",
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2892"
-        },
-        {
-          "id": "stutensee-2893",
-          "title": "Kindertheaterstück „Wieder Ärger in Lazy Town“",
-          "date": "2026-11-21",
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2893"
-        },
-        {
-          "id": "stutensee-2894",
-          "title": "Kindertheaterstück „Wieder Ärger in Lazy Town“",
-          "date": "2026-11-22",
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2894"
-        },
-        {
-          "id": "stutensee-2876",
-          "title": "LiteraturKino im GrauBau",
-          "date": "2026-11-27",
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2876"
-        }
-      ]
-    },
-    {
       "key": "venue-ebadb41a085e0ae2d623",
       "location": "Kirchgasse, Spielberg",
       "scope": null,
@@ -1081,54 +985,6 @@
           "title": "Wochenmarkt Spielberg",
           "date": "2026-12-16",
           "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12675"
-        }
-      ]
-    },
-    {
-      "key": "venue-3ab1ef44e1af49324ed1",
-      "location": "Rathausplatz, Langensteinbach",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "review",
-      "reason": "Kein ausreichend bestimmter Ortskontext.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 4,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsbad"
-      ],
-      "sources": [
-        "Gemeinde Karlsbad"
-      ],
-      "examples": [
-        {
-          "id": "karlsbad-24c8d606-451b-39b7-8ec0-7624c78be8a9",
-          "title": "Wochenmarkt Langensteinbach",
-          "date": "2026-11-20",
-          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12621"
-        },
-        {
-          "id": "karlsbad-be101e32-dca4-3d71-a154-609526487eed",
-          "title": "Wochenmarkt Langensteinbach",
-          "date": "2026-11-27",
-          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12622"
-        },
-        {
-          "id": "karlsbad-2e4a1887-b64d-3a74-9730-3722f06ad8ed",
-          "title": "Wochenmarkt Langensteinbach",
-          "date": "2026-12-11",
-          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12624"
-        },
-        {
-          "id": "karlsbad-5f72cdf4-8758-3d58-8877-5f59a6ef823b",
-          "title": "Wochenmarkt Langensteinbach",
-          "date": "2026-12-18",
-          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12625"
         }
       ]
     },
@@ -1271,8 +1127,8 @@
       ]
     },
     {
-      "key": "venue-c2a234fcd2f89f7ca4bf",
-      "location": "Familienzentrum Friedrichstal - Kult Café im Alten Rathaus",
+      "key": "venue-6f24757dc655b7239fe5",
+      "location": "Begegnungszentrum Regenbogen",
       "scope": null,
       "scopeLabel": "Ortskontext offen",
       "status": "review",
@@ -1293,22 +1149,64 @@
       ],
       "examples": [
         {
-          "id": "stutensee-2873",
-          "title": "Erzählabend im Herbst \"Wenn die Schwere Flügel kriegt\"",
-          "date": "2026-11-20",
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2873"
+          "id": "stutensee-2867",
+          "title": "Strickeria",
+          "date": "2026-11-25",
+          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2867"
         },
         {
-          "id": "stutensee-2902",
-          "title": "Trio Sonido - musikalische Souvenirs aus dem Süden",
-          "date": "2026-12-04",
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2902"
+          "id": "stutensee-2555",
+          "title": "Kaffee Treff",
+          "date": "2026-12-08",
+          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2555"
         },
         {
-          "id": "stutensee-2349",
-          "title": "Reparatur-Treff",
+          "id": "stutensee-2838",
+          "title": "Nikolausfeier für Kinder",
           "date": "2026-12-12",
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2349"
+          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2838"
+        }
+      ]
+    },
+    {
+      "key": "venue-388e8928129790b8c716",
+      "location": "GrauBau/Jugendzentrum Stutensee",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "review",
+      "reason": "Kein ausreichend bestimmter Ortskontext.",
+      "method": null,
+      "place": null,
+      "candidates": [],
+      "eventCount": 3,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "stutensee"
+      ],
+      "sources": [
+        "Stadt Stutensee · Veranstaltungskalender"
+      ],
+      "examples": [
+        {
+          "id": "stutensee-2893",
+          "title": "Kindertheaterstück „Wieder Ärger in Lazy Town“",
+          "date": "2026-11-21",
+          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2893"
+        },
+        {
+          "id": "stutensee-2894",
+          "title": "Kindertheaterstück „Wieder Ärger in Lazy Town“",
+          "date": "2026-11-22",
+          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2894"
+        },
+        {
+          "id": "stutensee-2876",
+          "title": "LiteraturKino im GrauBau",
+          "date": "2026-11-27",
+          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2876"
         }
       ]
     },
@@ -1435,6 +1333,48 @@
           "title": "Wie kommen wir gut durch die Autonomiephase und bleiben trotzdem entspannt?",
           "date": "2026-12-03",
           "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/wie_kommen_wir_gut_durch_die_autonomiephase-2"
+        }
+      ]
+    },
+    {
+      "key": "venue-3ab1ef44e1af49324ed1",
+      "location": "Rathausplatz, Langensteinbach",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "review",
+      "reason": "Kein ausreichend bestimmter Ortskontext.",
+      "method": null,
+      "place": null,
+      "candidates": [],
+      "eventCount": 3,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsbad"
+      ],
+      "sources": [
+        "Gemeinde Karlsbad"
+      ],
+      "examples": [
+        {
+          "id": "karlsbad-be101e32-dca4-3d71-a154-609526487eed",
+          "title": "Wochenmarkt Langensteinbach",
+          "date": "2026-11-27",
+          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12622"
+        },
+        {
+          "id": "karlsbad-2e4a1887-b64d-3a74-9730-3722f06ad8ed",
+          "title": "Wochenmarkt Langensteinbach",
+          "date": "2026-12-11",
+          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12624"
+        },
+        {
+          "id": "karlsbad-5f72cdf4-8758-3d58-8877-5f59a6ef823b",
+          "title": "Wochenmarkt Langensteinbach",
+          "date": "2026-12-18",
+          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12625"
         }
       ]
     },
@@ -1746,6 +1686,42 @@
           "title": "Familienzeit mit der Kirchenmaus",
           "date": "2027-02-06",
           "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1101861-familienzeit-mit-der-kirchenmaus/?vt=1&cb-id=118282"
+        }
+      ]
+    },
+    {
+      "key": "venue-c2a234fcd2f89f7ca4bf",
+      "location": "Familienzentrum Friedrichstal - Kult Café im Alten Rathaus",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "review",
+      "reason": "Kein ausreichend bestimmter Ortskontext.",
+      "method": null,
+      "place": null,
+      "candidates": [],
+      "eventCount": 2,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "stutensee"
+      ],
+      "sources": [
+        "Stadt Stutensee · Veranstaltungskalender"
+      ],
+      "examples": [
+        {
+          "id": "stutensee-2902",
+          "title": "Trio Sonido - musikalische Souvenirs aus dem Süden",
+          "date": "2026-12-04",
+          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2902"
+        },
+        {
+          "id": "stutensee-2349",
+          "title": "Reparatur-Treff",
+          "date": "2026-12-12",
+          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2349"
         }
       ]
     },
@@ -2841,36 +2817,6 @@
       ]
     },
     {
-      "key": "venue-999a0424b72d75eaaff3",
-      "location": "Altes Rathaus Friedrichstal",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "review",
-      "reason": "Kein ausreichend bestimmter Ortskontext.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "stutensee"
-      ],
-      "sources": [
-        "Stadt Stutensee · Veranstaltungskalender"
-      ],
-      "examples": [
-        {
-          "id": "stutensee-2904",
-          "title": "Vorlesetag: Aktion in Friedrichstal",
-          "date": "2026-11-20",
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2904"
-        }
-      ]
-    },
-    {
       "key": "venue-7c8ed3f0364f6564fdef",
       "location": "Am Fluckenberg",
       "scope": "remchingen",
@@ -3271,36 +3217,6 @@
       ]
     },
     {
-      "key": "venue-e427599f997cfc7afa80",
-      "location": "Berghalle, Spielberg",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "review",
-      "reason": "Kein ausreichend bestimmter Ortskontext.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsbad"
-      ],
-      "sources": [
-        "Gemeinde Karlsbad"
-      ],
-      "examples": [
-        {
-          "id": "karlsbad-29dd1660-a066-3297-ae5c-5cd1b2eaa46e",
-          "title": "Adventssteckkurs",
-          "date": "2026-11-20",
-          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12536"
-        }
-      ]
-    },
-    {
       "key": "venue-1d5245df2addb28c8753",
       "location": "Berghausen",
       "scope": "berghausen",
@@ -3327,66 +3243,6 @@
           "title": "An der Pfinz entlang von Berghausen nach Durlach",
           "date": "2026-11-24",
           "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/24/994/-/an-der-pfinz-entlang-von-berghausen-nach-durlach"
-        }
-      ]
-    },
-    {
-      "key": "venue-c6fe6e3f9078ff79c64c",
-      "location": "Berghausen - Hummelberg",
-      "scope": "berghausen",
-      "scopeLabel": "Pfinztal-Berghausen",
-      "status": "queued",
-      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "naturfreunde-berghausen"
-      ],
-      "sources": [
-        "NaturFreunde Berghausen"
-      ],
-      "examples": [
-        {
-          "id": "naturfreunde-berghausen-998-2026-11-28-1000",
-          "title": "Pflanzung des \"Baum des Jahres\"",
-          "date": "2026-11-28",
-          "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/28/998/-/pflanzung-des-baum-des-jahres"
-        }
-      ]
-    },
-    {
-      "key": "venue-ce645adcd3f7e795602c",
-      "location": "Bergwald (siehe Beschreibung)",
-      "scope": "durlach",
-      "scopeLabel": "Durlach",
-      "status": "review",
-      "reason": "Mehrere mögliche Orte oder Verweis auf eine Beschreibung; Treffpunkt prüfen.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "Nachprüfung: Kein einzelner fester Veranstaltungs- bzw. Treffpunkt aus der Ortsangabe ableitbar. Genauen Treffpunkt in der Originalquelle klären; keine Ortsmitte als Ersatz verwenden.",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "durlach"
-      ],
-      "sources": [
-        "Durlacher.de · Durlacher Kalender"
-      ],
-      "examples": [
-        {
-          "id": "durlach-11684-2026-11-20-0700",
-          "title": "Altpapiersammlung (Bergwald)",
-          "date": "2026-11-20",
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11684&tx_events2_events%5Btimestamp%5D=1795154400&cHash=b117b16065f2ab5f0599479c375a98a8"
         }
       ]
     },
@@ -4227,6 +4083,112 @@
       ]
     },
     {
+      "key": "venue-7bd93e3c877119cbbfa1",
+      "location": "Karlsruhe Hauptbahnhof - Halle Treffpunkt",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "review",
+      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
+      "method": null,
+      "place": null,
+      "candidates": [
+        {
+          "id": "osm-node-2541436126",
+          "name": "Karlsruhe Hauptbahnhof",
+          "latitude": 48.9931917,
+          "longitude": 8.4017106,
+          "address": "Hinterm Hauptbahnhof, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/2541436126",
+          "category": "railway",
+          "type": "stop",
+          "street": "Hinterm Hauptbahnhof",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-3216079568",
+          "name": "Karlsruhe Hauptbahnhof",
+          "latitude": 48.9933687,
+          "longitude": 8.4021034,
+          "address": "Hinterm Hauptbahnhof, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3216079568",
+          "category": "railway",
+          "type": "stop",
+          "street": "Hinterm Hauptbahnhof",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-402589279",
+          "name": "Karlsruhe Hauptbahnhof",
+          "latitude": 48.9937234,
+          "longitude": 8.4018652,
+          "address": "Bahnhofplatz, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/402589279",
+          "category": "railway",
+          "type": "stop",
+          "street": "Bahnhofplatz",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-402589288",
+          "name": "Karlsruhe Hauptbahnhof",
+          "latitude": 48.9932895,
+          "longitude": 8.4020941,
+          "address": "Hinterm Hauptbahnhof, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/402589288",
+          "category": "railway",
+          "type": "stop",
+          "street": "Hinterm Hauptbahnhof",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-402589292",
+          "name": "Karlsruhe Hauptbahnhof",
+          "latitude": 48.9931508,
+          "longitude": 8.4020752,
+          "address": "Hinterm Hauptbahnhof, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/402589292",
+          "category": "railway",
+          "type": "stop",
+          "street": "Hinterm Hauptbahnhof",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-0d85f8d63e038b2f",
+          "title": "Zur Seeweihnacht am Breitnauer See",
+          "date": "2026-12-05",
+          "url": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/zur_seeweihnacht_am_breitnauer_see"
+        }
+      ]
+    },
+    {
       "key": "venue-539b5d805c42fde4fe22",
       "location": "Karlsruhe Hbf",
       "scope": "karlsruhe",
@@ -4795,6 +4757,44 @@
       ]
     },
     {
+      "key": "venue-048569c1acc31d2db11f",
+      "location": "Kongresszentrum Karlsruhe",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "queued",
+      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
+      "method": null,
+      "place": null,
+      "candidates": [],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [
+        {
+          "street": "Festplatz 9",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Festplatz 9, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/die_welt_abba_show"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-e97a932792f59713",
+          "title": "Die Welt-ABBA-Show",
+          "date": "2026-12-05",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/die_welt_abba_show"
+        }
+      ]
+    },
+    {
       "key": "venue-99f28e8dc10d5541f1ed",
       "location": "Lehrgarten",
       "scope": "woeschbach",
@@ -5120,8 +5120,8 @@
       "location": "Musentempel im Kulturzentrum Tempel",
       "scope": "karlsruhe",
       "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "queued",
-      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
+      "status": "review",
+      "reason": "Mehrere gleich gut passende Kartenobjekte; Auswahl erforderlich.",
       "method": null,
       "place": null,
       "candidates": [
@@ -5140,7 +5140,7 @@
           "street": "Hardtstraße",
           "houseNumber": "37a",
           "score": 0.93,
-          "exact": false,
+          "exact": true,
           "outsideContext": false
         },
         {
@@ -5158,28 +5158,75 @@
           "street": "Hardtstraße",
           "houseNumber": "37a",
           "score": 0.93,
-          "exact": false,
+          "exact": true,
           "outsideContext": false
         },
         {
-          "id": "osm-way-538119613",
-          "name": "Weinbrenner-Tempel",
-          "latitude": 49.0171662,
-          "longitude": 8.4017642,
-          "address": "Ahaweg, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/538119613",
-          "category": "building",
-          "type": "yes",
-          "street": "Ahaweg",
-          "houseNumber": "",
-          "score": 0.513,
-          "exact": false,
+          "id": "osm-node-4437009881",
+          "name": "Naosgalerie",
+          "latitude": 49.0140784,
+          "longitude": 8.3576074,
+          "address": "Hardtstraße 37a, 76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4437009881",
+          "category": "tourism",
+          "type": "gallery",
+          "city": "Karlsruhe",
+          "district": "Mühlburg",
+          "locality": "Alt-Mühlburg",
+          "street": "Hardtstraße",
+          "houseNumber": "37a",
+          "score": 0.188,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-3415427466",
+          "name": "Vanguarde",
+          "latitude": 49.0138534,
+          "longitude": 8.3577817,
+          "address": "Hardtstraße 37a, 76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3415427466",
+          "category": "amenity",
+          "type": "nightclub",
+          "city": "Karlsruhe",
+          "district": "Mühlburg",
+          "locality": "Alt-Mühlburg",
+          "street": "Hardtstraße",
+          "houseNumber": "37a",
+          "score": 0.133,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-7769164733",
+          "name": "Vanguarde",
+          "latitude": 49.0138934,
+          "longitude": 8.3577817,
+          "address": "Hardtstraße 37a, 76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/7769164733",
+          "category": "amenity",
+          "type": "cafe",
+          "city": "Karlsruhe",
+          "district": "Mühlburg",
+          "locality": "Alt-Mühlburg",
+          "street": "Hardtstraße",
+          "houseNumber": "37a",
+          "score": 0.133,
+          "exact": true,
           "outsideContext": false
         }
       ],
       "eventCount": 1,
       "reviewNote": "",
-      "sourceAddresses": [],
+      "sourceAddresses": [
+        {
+          "street": "Hardtstraße 37a",
+          "city": "Karlsruhe",
+          "postalCode": "76185",
+          "address": "Hardtstraße 37a, 76185 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/jolanta_wolters_korze_bez_ktorej"
+        }
+      ],
       "organizer": "",
       "sourceContext": null,
       "sourceIds": [
@@ -5593,118 +5640,6 @@
           "title": "Adventschoralblasen",
           "date": "2026-12-20",
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2337"
-        }
-      ]
-    },
-    {
-      "key": "venue-c98ffa10430fd384c990",
-      "location": "Rathaus Karlsruhe",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "review",
-      "reason": "Ein Ortsbeleg liegt außerhalb des erwarteten Ortskontexts. Ortsteil und Koordinate ausdrücklich prüfen.",
-      "method": null,
-      "place": null,
-      "candidates": [
-        {
-          "id": "osm-node-5173147821",
-          "name": "Rathaus Remchingen",
-          "latitude": 48.9521732,
-          "longitude": 8.5706958,
-          "address": "San-Biagio-Platani-Platz 8, 75196 Wilferdingen",
-          "url": "https://www.openstreetmap.org/node/5173147821",
-          "category": "amenity",
-          "type": "townhall",
-          "street": "San-Biagio-Platani-Platz",
-          "houseNumber": "8",
-          "score": 1.0,
-          "exact": false,
-          "outsideContext": true
-        },
-        {
-          "id": "osm-relation-1333212",
-          "name": "Rathaus",
-          "latitude": 49.0085962,
-          "longitude": 8.4032425,
-          "address": "Karl-Friedrich-Straße 10, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/relation/1333212",
-          "category": "amenity",
-          "type": "townhall",
-          "city": "Karlsruhe",
-          "district": "Innenstadt-Ost",
-          "locality": "Innenstadt-Ost Südwestlicher Teil",
-          "street": "Karl-Friedrich-Straße",
-          "houseNumber": "10",
-          "score": 1.0,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-229552340",
-          "name": "Rathaus Walzbachtal",
-          "latitude": 49.0113036,
-          "longitude": 8.6116123,
-          "address": "Wössinger Straße 26-28, 75045 Wössingen",
-          "url": "https://www.openstreetmap.org/way/229552340",
-          "category": "amenity",
-          "type": "townhall",
-          "street": "Wössinger Straße",
-          "houseNumber": "26-28",
-          "score": 1.0,
-          "exact": false,
-          "outsideContext": true
-        },
-        {
-          "id": "osm-way-103379603",
-          "name": "Altes Rathaus",
-          "latitude": 48.9670279,
-          "longitude": 8.3991144,
-          "address": "Lange Straße 69, 76199 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/103379603",
-          "category": "building",
-          "type": "apartments",
-          "city": "Karlsruhe",
-          "district": "Rüppurr",
-          "locality": "Alt-Rüppurr",
-          "street": "Lange Straße",
-          "houseNumber": "69",
-          "score": 0.7,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-25000999",
-          "name": "Rathaus Durlach",
-          "latitude": 48.9990789,
-          "longitude": 8.4709664,
-          "address": "Pfinztalstraße 33, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/25000999",
-          "category": "amenity",
-          "type": "townhall",
-          "street": "Pfinztalstraße",
-          "houseNumber": "33",
-          "score": 0.636,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-0ee598b31dbfb10b",
-          "title": "Karlsruher Engagement-Campus",
-          "date": "2026-12-04",
-          "url": "https://kalender.karlsruhe.de/db/termine/messen_und_kongresse/karlsruher_engagement_campus"
         }
       ]
     },
@@ -6235,44 +6170,6 @@
       ]
     },
     {
-      "key": "venue-be4338ec517740f0366d",
-      "location": "Turnhalle der Leopold-Schule",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "queued",
-      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [
-        {
-          "street": "Leopoldstr. 9",
-          "city": "Karlsruhe",
-          "postalCode": "76133",
-          "address": "Leopoldstr. 9, 76133 Karlsruhe",
-          "url": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/karate_abend_fur_neugierige_ab40n"
-        }
-      ],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-a367513ed49bf0b7",
-          "title": "Karate-Abend für Neugierige ab 40",
-          "date": "2026-12-03",
-          "url": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/karate_abend_fur_neugierige_ab40n"
-        }
-      ]
-    },
-    {
       "key": "venue-e6729b5f7b2bafbf1c31",
       "location": "Veranstaltungsraum Turmberg-Terrasse",
       "scope": "karlsruhe",
@@ -6684,36 +6581,6 @@
           "title": "Weihnachtsfeier",
           "date": "2026-12-05",
           "url": "https://www.koenigsbach-stein.de/veranstaltungen/"
-        }
-      ]
-    },
-    {
-      "key": "venue-e235fb2d62f2f88c74fd",
-      "location": "ev. Gememeindehaus Blankenloch, Gymnasiumstraße 27",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "review",
-      "reason": "Kein ausreichend bestimmter Ortskontext.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "stutensee"
-      ],
-      "sources": [
-        "Stadt Stutensee · Veranstaltungskalender"
-      ],
-      "examples": [
-        {
-          "id": "stutensee-2903",
-          "title": "\"Ein Haus voller Geschichten\" - Vorlesetag im Gemeindehaus",
-          "date": "2026-11-20",
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2903"
         }
       ]
     },
@@ -7663,82 +7530,6 @@
       ]
     },
     {
-      "key": "venue-9acdf7c05c7ed74f5b02",
-      "location": "Löwensaal Nöttingen",
-      "scope": "remchingen",
-      "scopeLabel": "Remchingen",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-257827549",
-        "name": "Löwensaal",
-        "latitude": 48.9290659,
-        "longitude": 8.5693872,
-        "address": "Ellmendinger Straße 4, 75196 Nöttingen",
-        "url": "https://www.openstreetmap.org/way/257827549",
-        "category": "amenity",
-        "type": "events_venue",
-        "street": "Ellmendinger Straße",
-        "houseNumber": "4",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-way-257827549",
-          "name": "Löwensaal",
-          "latitude": 48.9290659,
-          "longitude": 8.5693872,
-          "address": "Ellmendinger Straße 4, 75196 Nöttingen",
-          "url": "https://www.openstreetmap.org/way/257827549",
-          "category": "amenity",
-          "type": "events_venue",
-          "street": "Ellmendinger Straße",
-          "houseNumber": "4",
-          "outsideContext": false,
-          "score": 0.93,
-          "exact": false
-        }
-      ],
-      "eventCount": 14,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "kulturhalle-remchingen"
-      ],
-      "sources": [
-        "Kulturhalle Remchingen"
-      ],
-      "examples": [
-        {
-          "id": "remchingen-3172-2026-11-20-2000",
-          "title": "Sing A Song - Live-Karaoke mit Chessy !Ausverkauft !",
-          "date": "2026-11-20",
-          "url": "https://www.kulturhalle-remchingen.de/events/konzerte/sing-a-song-2025"
-        },
-        {
-          "id": "kulturhalle-remchingen-michel-feiert-weihnachten-2026-12-01-1500",
-          "title": "Michel feiert Weihnachten",
-          "date": "2026-12-01",
-          "url": "https://www.kulturhalle-remchingen.de/events/kinderprogramm/michel-feiert-weihnachten"
-        },
-        {
-          "id": "remchingen-3237-2026-12-11-2000",
-          "title": "Kieran Goss and Annie Kinsella - The Song Your Heart Is Singing",
-          "date": "2026-12-11",
-          "url": "https://www.kulturhalle-remchingen.de/events/konzerte/goss-kinsella-2026"
-        },
-        {
-          "id": "remchingen-3240-2027-01-22-2000",
-          "title": "GWENNYN & Band - Musique de la Bretagne",
-          "date": "2027-01-22",
-          "url": "https://www.kulturhalle-remchingen.de/events/konzerte/gwennyn-2027"
-        }
-      ]
-    },
-    {
       "key": "venue-3fae26f22e49b283790b",
       "location": "Ratssaal",
       "scope": "remchingen",
@@ -8006,6 +7797,82 @@
           "title": "Das Mädchen aus der Streichholzfabrik",
           "date": "2026-11-25",
           "url": "https://kalender.karlsruhe.de/db/termine/theater/das_madchen_aus_der_streichholzfabrik"
+        }
+      ]
+    },
+    {
+      "key": "venue-9acdf7c05c7ed74f5b02",
+      "location": "Löwensaal Nöttingen",
+      "scope": "remchingen",
+      "scopeLabel": "Remchingen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-257827549",
+        "name": "Löwensaal",
+        "latitude": 48.9290659,
+        "longitude": 8.5693872,
+        "address": "Ellmendinger Straße 4, 75196 Nöttingen",
+        "url": "https://www.openstreetmap.org/way/257827549",
+        "category": "amenity",
+        "type": "events_venue",
+        "street": "Ellmendinger Straße",
+        "houseNumber": "4",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "osm-way-257827549",
+          "name": "Löwensaal",
+          "latitude": 48.9290659,
+          "longitude": 8.5693872,
+          "address": "Ellmendinger Straße 4, 75196 Nöttingen",
+          "url": "https://www.openstreetmap.org/way/257827549",
+          "category": "amenity",
+          "type": "events_venue",
+          "street": "Ellmendinger Straße",
+          "houseNumber": "4",
+          "outsideContext": false,
+          "score": 0.93,
+          "exact": false
+        }
+      ],
+      "eventCount": 13,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "kulturhalle-remchingen"
+      ],
+      "sources": [
+        "Kulturhalle Remchingen"
+      ],
+      "examples": [
+        {
+          "id": "kulturhalle-remchingen-michel-feiert-weihnachten-2026-12-01-1500",
+          "title": "Michel feiert Weihnachten",
+          "date": "2026-12-01",
+          "url": "https://www.kulturhalle-remchingen.de/events/kinderprogramm/michel-feiert-weihnachten"
+        },
+        {
+          "id": "remchingen-3237-2026-12-11-2000",
+          "title": "Kieran Goss and Annie Kinsella - The Song Your Heart Is Singing",
+          "date": "2026-12-11",
+          "url": "https://www.kulturhalle-remchingen.de/events/konzerte/goss-kinsella-2026"
+        },
+        {
+          "id": "remchingen-3240-2027-01-22-2000",
+          "title": "GWENNYN & Band - Musique de la Bretagne",
+          "date": "2027-01-22",
+          "url": "https://www.kulturhalle-remchingen.de/events/konzerte/gwennyn-2027"
+        },
+        {
+          "id": "remchingen-3275-2027-02-05-2000",
+          "title": "LACHEN MACHEN!!! - Arthur Senkrecht erklärt Komik",
+          "date": "2027-02-05",
+          "url": "https://www.kulturhalle-remchingen.de/events/comedy-kabarett/arthur-senkrecht-2027"
         }
       ]
     },
@@ -12577,70 +12444,6 @@
       ]
     },
     {
-      "key": "venue-785ee87a97bd2b95c5d2",
-      "location": "Alte RemBar (Altes Rathaus Nöttingen)",
-      "scope": "remchingen",
-      "scopeLabel": "Remchingen",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-233899006",
-        "name": "Frauenwaldstraße 6",
-        "latitude": 48.9295449,
-        "longitude": 8.5729205,
-        "address": "Frauenwaldstraße 6, 75196 Remchingen",
-        "url": "https://www.openstreetmap.org/way/233899006",
-        "category": "building",
-        "type": "public",
-        "city": "Remchingen",
-        "district": "",
-        "locality": "",
-        "street": "Frauenwaldstraße",
-        "houseNumber": "6"
-      },
-      "candidates": [],
-      "eventCount": 3,
-      "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
-      "sourceAddresses": [
-        {
-          "street": "Frauenwaldstraße 6",
-          "city": "Remchingen",
-          "postalCode": "75196",
-          "address": "Frauenwaldstraße 6, 75196 Remchingen",
-          "url": "https://www.remchingen.de/veranstaltungen/repair-cafe-id_3347/"
-        }
-      ],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "remchingen"
-      ],
-      "sources": [
-        "Gemeinde Remchingen"
-      ],
-      "examples": [
-        {
-          "id": "remchingen-3347-2026-11-20-1500",
-          "title": "Repair-Café",
-          "date": "2026-11-20",
-          "url": "https://www.remchingen.de/veranstaltungen/repair-cafe-id_3347/"
-        },
-        {
-          "id": "remchingen-3348-2026-12-18-1500",
-          "title": "Repair-Café",
-          "date": "2026-12-18",
-          "url": "https://www.remchingen.de/veranstaltungen/repair-cafe-id_3348/"
-        },
-        {
-          "id": "remchingen-3397-2027-01-15-1500",
-          "title": "Repair-Café",
-          "date": "2027-01-15",
-          "url": "https://www.remchingen.de/veranstaltungen/repair-cafe-id_3397/"
-        }
-      ]
-    },
-    {
       "key": "venue-ba6c570364e74bbb1d24",
       "location": "Augustaraum, Begegnungsstätte Grötzingen",
       "scope": "groetzingen",
@@ -14944,6 +14747,64 @@
       ]
     },
     {
+      "key": "venue-785ee87a97bd2b95c5d2",
+      "location": "Alte RemBar (Altes Rathaus Nöttingen)",
+      "scope": "remchingen",
+      "scopeLabel": "Remchingen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-233899006",
+        "name": "Frauenwaldstraße 6",
+        "latitude": 48.9295449,
+        "longitude": 8.5729205,
+        "address": "Frauenwaldstraße 6, 75196 Remchingen",
+        "url": "https://www.openstreetmap.org/way/233899006",
+        "category": "building",
+        "type": "public",
+        "city": "Remchingen",
+        "district": "",
+        "locality": "",
+        "street": "Frauenwaldstraße",
+        "houseNumber": "6"
+      },
+      "candidates": [],
+      "eventCount": 2,
+      "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [
+        {
+          "street": "Frauenwaldstraße 6",
+          "city": "Remchingen",
+          "postalCode": "75196",
+          "address": "Frauenwaldstraße 6, 75196 Remchingen",
+          "url": "https://www.remchingen.de/veranstaltungen/repair-cafe-id_3347/"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "remchingen"
+      ],
+      "sources": [
+        "Gemeinde Remchingen"
+      ],
+      "examples": [
+        {
+          "id": "remchingen-3348-2026-12-18-1500",
+          "title": "Repair-Café",
+          "date": "2026-12-18",
+          "url": "https://www.remchingen.de/veranstaltungen/repair-cafe-id_3348/"
+        },
+        {
+          "id": "remchingen-3397-2027-01-15-1500",
+          "title": "Repair-Café",
+          "date": "2027-01-15",
+          "url": "https://www.remchingen.de/veranstaltungen/repair-cafe-id_3397/"
+        }
+      ]
+    },
+    {
       "key": "venue-e64043d3b94fb3835d60",
       "location": "Anne-Frank-Haus",
       "scope": "karlsruhe",
@@ -16005,16 +15866,16 @@
       ],
       "examples": [
         {
-          "id": "karlsruhe-0032a403bc453d47",
-          "title": "Begegnungscafé für Jung und Alt",
-          "date": "2026-11-27",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/begegnungscafe_fur_jung_und_alt-6"
-        },
-        {
           "id": "karlsruhe-3589dc0e044d134a",
           "title": "Begegnungscafé für Jung und Alt",
           "date": "2026-11-27",
           "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/begegnungscafe_fur_jung_und_alt-4"
+        },
+        {
+          "id": "karlsruhe-0032a403bc453d47",
+          "title": "Begegnungscafé für Jung und Alt",
+          "date": "2026-11-27",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/begegnungscafe_fur_jung_und_alt-6"
         }
       ]
     },
@@ -18353,129 +18214,6 @@
       ]
     },
     {
-      "key": "venue-4f61ccb99c680d19394b",
-      "location": "Schwarzwaldhalle / Kongresszentrum Karlsruhe",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-241087987",
-        "name": "Schwarzwaldhalle",
-        "latitude": 49.001931,
-        "longitude": 8.4010812,
-        "address": "Festplatz 5, 76137 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/241087987",
-        "category": "amenity",
-        "type": "exhibition_hall",
-        "street": "Festplatz",
-        "houseNumber": "5"
-      },
-      "candidates": [
-        {
-          "id": "osm-node-1743183719",
-          "name": "Kongresszentrum",
-          "latitude": 49.0038047,
-          "longitude": 8.4040211,
-          "address": "Baumeisterstraße, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/1743183719",
-          "category": "railway",
-          "type": "stop",
-          "street": "Baumeisterstraße",
-          "houseNumber": "",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-1743183720",
-          "name": "Kongresszentrum",
-          "latitude": 49.0038388,
-          "longitude": 8.4038511,
-          "address": "Baumeisterstraße, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/1743183720",
-          "category": "railway",
-          "type": "stop",
-          "street": "Baumeisterstraße",
-          "houseNumber": "",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-241087987",
-          "name": "Schwarzwaldhalle",
-          "latitude": 49.001931,
-          "longitude": 8.4010812,
-          "address": "Festplatz 5, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/241087987",
-          "category": "amenity",
-          "type": "exhibition_hall",
-          "street": "Festplatz",
-          "houseNumber": "5",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-12529534371",
-          "name": "Kongresszentrum (U)",
-          "latitude": 49.0020956,
-          "longitude": 8.4031036,
-          "address": "Ettlinger Straße, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/12529534371",
-          "category": "railway",
-          "type": "stop",
-          "street": "Ettlinger Straße",
-          "houseNumber": "",
-          "score": 0.612,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-12529534372",
-          "name": "Kongresszentrum (U)",
-          "latitude": 49.0030479,
-          "longitude": 8.4032357,
-          "address": "Ettlinger Straße, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/12529534372",
-          "category": "railway",
-          "type": "stop",
-          "street": "Ettlinger Straße",
-          "houseNumber": "",
-          "score": 0.612,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 2,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-19816794c4273be3",
-          "title": "Mario Barth 2026",
-          "date": "2026-11-20",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/mario_barth2026n"
-        },
-        {
-          "id": "karlsruhe-64c3970f27487ed0",
-          "title": "Hazel Brugger",
-          "date": "2026-11-22",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/hazel_brugger"
-        }
-      ]
-    },
-    {
       "key": "venue-dfbc03c1a8286a055359",
       "location": "Stadtbibliothek Karlsruhe - Stadtteilbibliothek Durlach",
       "scope": "durlach",
@@ -18772,6 +18510,99 @@
           "title": "VORLESEZEIT in Neureut -- ENTFÄLLT --",
           "date": "2026-12-04",
           "url": "https://kalender.karlsruhe.de/db/termine/literatur/vorlesezeit_in_neureut_entfallt_-9"
+        }
+      ]
+    },
+    {
+      "key": "venue-b78bffd9affaea9a150a",
+      "location": "Stephanplatz",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-557072881",
+        "name": "Stephanplatz",
+        "latitude": 49.0085873,
+        "longitude": 8.3940855,
+        "address": "76133 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/557072881",
+        "category": "highway",
+        "type": "pedestrian",
+        "street": "",
+        "houseNumber": ""
+      },
+      "candidates": [
+        {
+          "id": "osm-way-162539268",
+          "name": "Stephanplatz",
+          "latitude": 49.0084419,
+          "longitude": 8.3941593,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/162539268",
+          "category": "place",
+          "type": "square",
+          "street": "",
+          "houseNumber": "",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-557072881",
+          "name": "Stephanplatz",
+          "latitude": 49.0085873,
+          "longitude": 8.3940855,
+          "address": "76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/557072881",
+          "category": "highway",
+          "type": "pedestrian",
+          "street": "",
+          "houseNumber": "",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-1749651556",
+          "name": "Stephanplatz",
+          "latitude": 49.0080986,
+          "longitude": 8.3927228,
+          "address": "Amalienstraße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1749651556",
+          "category": "amenity",
+          "type": "parking",
+          "street": "Amalienstraße",
+          "houseNumber": "",
+          "score": 1.0,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 2,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-9296f2b59f6b2129",
+          "title": "Wochenmarkt Stephanplatz",
+          "date": "2025-11-19",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/wochenmarkt_stephanplatz"
+        },
+        {
+          "id": "karlsruhe-cde1d6ffe3bb98a9",
+          "title": "City-Flohmarkt",
+          "date": "2026-12-05",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/city_flohmarkt-18"
         }
       ]
     },
@@ -20065,6 +19896,124 @@
           "title": "Il maestro e lo scolare",
           "date": "2026-11-21",
           "url": "https://kalender.karlsruhe.de/db/termine/musik/il_maestro_e_lo_scolare"
+        }
+      ]
+    },
+    {
+      "key": "venue-c6fe6e3f9078ff79c64c",
+      "location": "Berghausen - Hummelberg",
+      "scope": "berghausen",
+      "scopeLabel": "Pfinztal-Berghausen",
+      "status": "resolved",
+      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
+      "method": "automatic",
+      "place": {
+        "id": "osm-node-2581967188",
+        "name": "Hummelberg",
+        "latitude": 49.015445,
+        "longitude": 8.5235593,
+        "address": "76327 Berghausen",
+        "url": "https://www.openstreetmap.org/node/2581967188",
+        "category": "natural",
+        "type": "peak",
+        "city": "Berghausen",
+        "district": "",
+        "locality": "",
+        "street": "",
+        "houseNumber": "",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "osm-node-2581967188",
+          "name": "Hummelberg",
+          "latitude": 49.015445,
+          "longitude": 8.5235593,
+          "address": "76327 Berghausen",
+          "url": "https://www.openstreetmap.org/node/2581967188",
+          "category": "natural",
+          "type": "peak",
+          "city": "Berghausen",
+          "district": "",
+          "locality": "",
+          "street": "",
+          "houseNumber": "",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-420046912",
+          "name": "Hummelberg",
+          "latitude": 49.0095137,
+          "longitude": 8.5231933,
+          "address": "Weiherstraße, 76327 Berghausen",
+          "url": "https://www.openstreetmap.org/node/420046912",
+          "category": "information",
+          "type": "guidepost",
+          "city": "Berghausen",
+          "district": "",
+          "locality": "",
+          "street": "Weiherstraße",
+          "houseNumber": "",
+          "score": 1.0,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-47889007",
+          "name": "Berghausen Hummelberg",
+          "latitude": 49.0097402,
+          "longitude": 8.526606,
+          "address": "Joseph-von-Fraunhofer-Straße, 76327 Berghausen",
+          "url": "https://www.openstreetmap.org/node/47889007",
+          "category": "railway",
+          "type": "halt",
+          "city": "Berghausen",
+          "district": "",
+          "locality": "",
+          "street": "Joseph-von-Fraunhofer-Straße",
+          "houseNumber": "",
+          "score": 1.0,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-210244453",
+          "name": "Forschungs- und Technologiepark Hummelberg",
+          "latitude": 49.0148028,
+          "longitude": 8.5225042,
+          "address": "Berghausen",
+          "url": "https://www.openstreetmap.org/way/210244453",
+          "category": "landuse",
+          "type": "industrial",
+          "city": "Berghausen",
+          "district": "",
+          "locality": "",
+          "street": "",
+          "houseNumber": "",
+          "score": 0.392,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "naturfreunde-berghausen"
+      ],
+      "sources": [
+        "NaturFreunde Berghausen"
+      ],
+      "examples": [
+        {
+          "id": "naturfreunde-berghausen-998-2026-11-28-1000",
+          "title": "Pflanzung des \"Baum des Jahres\"",
+          "date": "2026-11-28",
+          "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/28/998/-/pflanzung-des-baum-des-jahres"
         }
       ]
     },
@@ -26032,6 +25981,78 @@
       ]
     },
     {
+      "key": "venue-c98ffa10430fd384c990",
+      "location": "Rathaus Karlsruhe",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
+      "method": "automatic",
+      "place": {
+        "id": "osm-relation-1333212",
+        "name": "Rathaus",
+        "latitude": 49.0085962,
+        "longitude": 8.4032425,
+        "address": "Karl-Friedrich-Straße 10, 76133 Karlsruhe",
+        "url": "https://www.openstreetmap.org/relation/1333212",
+        "category": "amenity",
+        "type": "townhall",
+        "city": "Karlsruhe",
+        "district": "Innenstadt-Ost",
+        "locality": "Innenstadt-Ost Südwestlicher Teil",
+        "street": "Karl-Friedrich-Straße",
+        "houseNumber": "10",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "osm-relation-1333212",
+          "name": "Rathaus",
+          "latitude": 49.0085962,
+          "longitude": 8.4032425,
+          "address": "Karl-Friedrich-Straße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/1333212",
+          "category": "amenity",
+          "type": "townhall",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Karl-Friedrich-Straße",
+          "houseNumber": "10",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [
+        {
+          "street": "Karl-Friedrich-Str. 10",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Karl-Friedrich-Str. 10, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/messen_und_kongresse/karlsruher_engagement_campus"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-0ee598b31dbfb10b",
+          "title": "Karlsruher Engagement-Campus",
+          "date": "2026-12-04",
+          "url": "https://kalender.karlsruhe.de/db/termine/messen_und_kongresse/karlsruher_engagement_campus"
+        }
+      ]
+    },
+    {
       "key": "venue-0e915ffa25fe557d3857",
       "location": "Regierungspräsidium Karlsruhe am Rondellplatz",
       "scope": "karlsruhe",
@@ -26399,79 +26420,6 @@
       ]
     },
     {
-      "key": "venue-b27ea5af38ee2618d806",
-      "location": "Römermuseum Remchingen",
-      "scope": "remchingen",
-      "scopeLabel": "Remchingen",
-      "status": "resolved",
-      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
-      "method": "automatic",
-      "place": {
-        "id": "osm-way-267676211",
-        "name": "Römermuseum",
-        "latitude": 48.9403782,
-        "longitude": 8.5704938,
-        "address": "Niemandsberg 4, 75196 Wilferdingen",
-        "url": "https://www.openstreetmap.org/way/267676211",
-        "category": "tourism",
-        "type": "museum",
-        "street": "Niemandsberg",
-        "houseNumber": "4",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-way-267676211",
-          "name": "Römermuseum",
-          "latitude": 48.9403782,
-          "longitude": 8.5704938,
-          "address": "Niemandsberg 4, 75196 Wilferdingen",
-          "url": "https://www.openstreetmap.org/way/267676211",
-          "category": "tourism",
-          "type": "museum",
-          "street": "Niemandsberg",
-          "houseNumber": "4",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-2161577105",
-          "name": "Wilferdingen Römermuseum",
-          "latitude": 48.9405146,
-          "longitude": 8.5716272,
-          "address": "Nöttinger Straße, 75196 Wilferdingen",
-          "url": "https://www.openstreetmap.org/node/2161577105",
-          "category": "highway",
-          "type": "bus_stop",
-          "street": "Nöttinger Straße",
-          "houseNumber": "",
-          "score": 0.629,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "remchingen"
-      ],
-      "sources": [
-        "Gemeinde Remchingen"
-      ],
-      "examples": [
-        {
-          "id": "remchingen-3380-2026-11-20-1900",
-          "title": "Vortrag: Faszination Terra Sigillata: Wirtschaftliche, technische und soziale Aspekte der Rheinzaberner Großproduktion und ihr wissenschaftliches Erbe.",
-          "date": "2026-11-20",
-          "url": "https://www.remchingen.de/veranstaltungen/vortrag-faszination-terra-sigillata-wirtschaftliche-technische-und-soziale-aspekte-der-rheinzaberner-grossproduktion-und-ihr-wissenschaftliches-erbe-id_3380/"
-        }
-      ]
-    },
-    {
       "key": "venue-ad0ee08322b9af87db62",
       "location": "Saumarkt Durlach",
       "scope": "durlach",
@@ -26526,6 +26474,123 @@
           "title": "Bauernmarkt",
           "date": "2025-11-19",
           "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/bauernmarkt"
+        }
+      ]
+    },
+    {
+      "key": "venue-4f61ccb99c680d19394b",
+      "location": "Schwarzwaldhalle / Kongresszentrum Karlsruhe",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-241087987",
+        "name": "Schwarzwaldhalle",
+        "latitude": 49.001931,
+        "longitude": 8.4010812,
+        "address": "Festplatz 5, 76137 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/241087987",
+        "category": "amenity",
+        "type": "exhibition_hall",
+        "street": "Festplatz",
+        "houseNumber": "5"
+      },
+      "candidates": [
+        {
+          "id": "osm-node-1743183719",
+          "name": "Kongresszentrum",
+          "latitude": 49.0038047,
+          "longitude": 8.4040211,
+          "address": "Baumeisterstraße, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1743183719",
+          "category": "railway",
+          "type": "stop",
+          "street": "Baumeisterstraße",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-1743183720",
+          "name": "Kongresszentrum",
+          "latitude": 49.0038388,
+          "longitude": 8.4038511,
+          "address": "Baumeisterstraße, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1743183720",
+          "category": "railway",
+          "type": "stop",
+          "street": "Baumeisterstraße",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-241087987",
+          "name": "Schwarzwaldhalle",
+          "latitude": 49.001931,
+          "longitude": 8.4010812,
+          "address": "Festplatz 5, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/241087987",
+          "category": "amenity",
+          "type": "exhibition_hall",
+          "street": "Festplatz",
+          "houseNumber": "5",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-12529534371",
+          "name": "Kongresszentrum (U)",
+          "latitude": 49.0020956,
+          "longitude": 8.4031036,
+          "address": "Ettlinger Straße, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12529534371",
+          "category": "railway",
+          "type": "stop",
+          "street": "Ettlinger Straße",
+          "houseNumber": "",
+          "score": 0.612,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-12529534372",
+          "name": "Kongresszentrum (U)",
+          "latitude": 49.0030479,
+          "longitude": 8.4032357,
+          "address": "Ettlinger Straße, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12529534372",
+          "category": "railway",
+          "type": "stop",
+          "street": "Ettlinger Straße",
+          "houseNumber": "",
+          "score": 0.612,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-64c3970f27487ed0",
+          "title": "Hazel Brugger",
+          "date": "2026-11-22",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/hazel_brugger"
         }
       ]
     },
@@ -27228,93 +27293,6 @@
       ]
     },
     {
-      "key": "venue-b78bffd9affaea9a150a",
-      "location": "Stephanplatz",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-557072881",
-        "name": "Stephanplatz",
-        "latitude": 49.0085873,
-        "longitude": 8.3940855,
-        "address": "76133 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/557072881",
-        "category": "highway",
-        "type": "pedestrian",
-        "street": "",
-        "houseNumber": ""
-      },
-      "candidates": [
-        {
-          "id": "osm-way-162539268",
-          "name": "Stephanplatz",
-          "latitude": 49.0084419,
-          "longitude": 8.3941593,
-          "address": "Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/162539268",
-          "category": "place",
-          "type": "square",
-          "street": "",
-          "houseNumber": "",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-557072881",
-          "name": "Stephanplatz",
-          "latitude": 49.0085873,
-          "longitude": 8.3940855,
-          "address": "76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/557072881",
-          "category": "highway",
-          "type": "pedestrian",
-          "street": "",
-          "houseNumber": "",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-1749651556",
-          "name": "Stephanplatz",
-          "latitude": 49.0080986,
-          "longitude": 8.3927228,
-          "address": "Amalienstraße, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/1749651556",
-          "category": "amenity",
-          "type": "parking",
-          "street": "Amalienstraße",
-          "houseNumber": "",
-          "score": 1.0,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-9296f2b59f6b2129",
-          "title": "Wochenmarkt Stephanplatz",
-          "date": "2025-11-19",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/wochenmarkt_stephanplatz"
-        }
-      ]
-    },
-    {
       "key": "venue-208841e8a0bf37d49aa7",
       "location": "Sängerheim Aue",
       "scope": "durlach",
@@ -27964,6 +27942,78 @@
           "title": "Abseits des Alltäglichen – auch ganz nahe der Heimat.",
           "date": "2026-11-27",
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/918/abseits-des-alltaeglichen-auch-ganz-nahe-der-heimat"
+        }
+      ]
+    },
+    {
+      "key": "venue-be4338ec517740f0366d",
+      "location": "Turnhalle der Leopold-Schule",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
+      "method": "automatic",
+      "place": {
+        "id": "osm-way-109602793",
+        "name": "Leopoldstraße 9",
+        "latitude": 49.0083227,
+        "longitude": 8.390117,
+        "address": "Leopoldstraße 9, 76133 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/109602793",
+        "category": "building",
+        "type": "school",
+        "city": "Karlsruhe",
+        "district": "Innenstadt-West",
+        "locality": "Innenstadt-West Westlicher Teil",
+        "street": "Leopoldstraße",
+        "houseNumber": "9",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "osm-way-109602793",
+          "name": "Leopoldstraße 9",
+          "latitude": 49.0083227,
+          "longitude": 8.390117,
+          "address": "Leopoldstraße 9, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/109602793",
+          "category": "building",
+          "type": "school",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Leopoldstraße",
+          "houseNumber": "9",
+          "score": 0.364,
+          "exact": true,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [
+        {
+          "street": "Leopoldstr. 9",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Leopoldstr. 9, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/karate_abend_fur_neugierige_ab40n"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-a367513ed49bf0b7",
+          "title": "Karate-Abend für Neugierige ab 40",
+          "date": "2026-12-03",
+          "url": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/karate_abend_fur_neugierige_ab40n"
         }
       ]
     },

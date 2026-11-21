@@ -1769,6 +1769,55 @@
           "url": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/karate_abend_fur_neugierige_ab40n"
         }
       ]
+    },
+    "venue-048569c1acc31d2db11f": {
+      "checkedAt": "2026-11-21T07:17:46+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Festplatz 9",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Festplatz 9, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/die_welt_abba_show"
+        }
+      ]
+    },
+    "venue-7bd93e3c877119cbbfa1": {
+      "checkedAt": "2026-11-21T07:17:46+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-bec29c63be252d75e11f": {
+      "checkedAt": "2026-11-21T07:17:46+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Hardtstraße 37a",
+          "city": "Karlsruhe",
+          "postalCode": "76185",
+          "address": "Hardtstraße 37a, 76185 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/jolanta_wolters_korze_bez_ktorej"
+        }
+      ]
+    },
+    "venue-c98ffa10430fd384c990": {
+      "checkedAt": "2026-11-21T07:17:46+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Karl-Friedrich-Str. 10",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Karl-Friedrich-Str. 10, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/messen_und_kongresse/karlsruher_engagement_campus"
+        }
+      ]
+    },
+    "venue-ce0f3e2630d6610ed5b2": {
+      "checkedAt": "2026-11-21T07:17:46+00:00",
+      "places": [],
+      "addresses": []
     }
   }
 }
