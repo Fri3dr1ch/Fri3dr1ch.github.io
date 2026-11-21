@@ -33,7 +33,8 @@ SCOPES = {
     'karlsruhe': ('Karlsruhe und Umgebung', (8.27,48.93,8.54,49.12)),
 }
 GENERIC = {'kirche','evangelische kirche','katholische kirche','gemeindehaus','evangelisches gemeindehaus',
-           'katholisches gemeindehaus','naturfreundehaus','clubhaus','vereinsheim','sporthalle','mehrzweckhalle',
+           'katholisches gemeindehaus','naturfreundehaus','clubhaus','vereinsheim','vereinsheim vereinsgelande',
+           'sporthalle','mehrzweckhalle',
            'kulturhalle','rathaus','ratssaal','burgersaal','friedhof','hasenheim','restaurant','sportplatz'}
 SEARCH_FILLER={'der','die','das','im','in','am','an','fur','und','e','v','st','kath','ev','vor','beim',
                'kinder','jugendliche','jugendlichen','zentrum','schule','haus','halle','karlsruhe','nottingen',
