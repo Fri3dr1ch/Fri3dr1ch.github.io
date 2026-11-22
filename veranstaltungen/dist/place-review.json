@@ -1,131 +1,33 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T11:43:17+00:00",
+  "generatedAt": "2026-11-22T12:28:10+00:00",
   "attribution": {
     "text": "© OpenStreetMap contributors · ODbL",
     "url": "https://www.openstreetmap.org/copyright"
   },
   "stats": {
-    "venues": 399,
+    "venues": 419,
     "venueStatuses": {
-      "missing": 10,
+      "missing": 8,
       "online": 4,
-      "excluded": 8,
-      "review": 1,
-      "queued": 1,
-      "resolved": 375
+      "excluded": 10,
+      "review": 5,
+      "resolved": 392
     },
     "upcomingEvents": 1383,
     "eventStatuses": {
-      "resolved": 1155,
-      "excluded": 9,
-      "missing": 210,
+      "resolved": 1268,
+      "excluded": 11,
       "online": 7,
-      "queued": 1,
-      "review": 1
+      "missing": 92,
+      "review": 5
     }
   },
   "lookup": {
-    "requested": 3,
+    "requested": 11,
     "failures": []
   },
   "rows": [
-    {
-      "key": "venue-b456dcb0bb9af8055b5b",
-      "location": "",
-      "scope": "groetzingen",
-      "scopeLabel": "Grötzingen",
-      "status": "missing",
-      "reason": "Die Quelle nennt keinen Veranstaltungsort. Keine Zuordnung aus dem Herausgeber ableiten.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 104,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "eki-groetzingen"
-      ],
-      "sources": [
-        "Evangelische Kirche Grötzingen"
-      ],
-      "examples": [
-        {
-          "id": "eki-groetzingen-1060984-2026-11-22-1000",
-          "title": "Gottesdienst mit Abendmahl am Ewigkeitssonntag mit Gedenken der im Kirchenjahr Verstorbenen; mit dem Posaunenchor",
-          "date": "2026-11-22",
-          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1060984-gottesdienst-mit-abendmahl-am-ewigkeitssonntag-mit-gedenken-der-im-kirchenjahr-verstorbenen-mit-dem-posaunenchor/?vt=1&cb-id=118282"
-        },
-        {
-          "id": "eki-groetzingen-1093036-2026-11-24-1700",
-          "title": "Dienstagstreff: \"Auf der Suche nach Gott in gottloser Zeit\" - aus Briefen und Tagebüchern der Elly Hillesum",
-          "date": "2026-11-24",
-          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1093036-dienstagstreff-auf-der-suche-nach-gott-in-gottloser-zeit-aus-briefen-und-tagebuechern-der-elly-hillesum/?vt=1&cb-id=118282"
-        },
-        {
-          "id": "eki-groetzingen-1064316-2026-11-24-2000",
-          "title": "Regenbogenchor",
-          "date": "2026-11-24",
-          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1064316-regenbogenchor/?vt=1&cb-id=118282"
-        },
-        {
-          "id": "eki-groetzingen-1003554-2026-11-26-1430",
-          "title": "Treff bei Luther im MLH: \"Wenn die Tage kürzer werden, tut es gut, für die Seele zu sorgen\" (Referentin Monika Roth, Fachstelle LiA Leben im Alter )",
-          "date": "2026-11-26",
-          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1003554-treff-bei-luther-im-mlh-wenn-die-tage-kuerzer-werden-tut-es-gut-fuer-die-seele-zu-sorgen-referentin-monika-roth-fachstelle-lia-leben-im-alter/?vt=1&cb-id=118282"
-        }
-      ]
-    },
-    {
-      "key": "venue-ffe49f6ae22fadb991d3",
-      "location": "",
-      "scope": "walzbachtal",
-      "scopeLabel": "Walzbachtal",
-      "status": "missing",
-      "reason": "Die Quelle nennt keinen Veranstaltungsort. Keine Zuordnung aus dem Herausgeber ableiten.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 45,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "walzbachtal"
-      ],
-      "sources": [
-        "Walzbachtal · Jöhlingen und Wössingen"
-      ],
-      "examples": [
-        {
-          "id": "walzbachtal-5547-2026-12-02-1500",
-          "title": "Offener Stammtisch-Treff 60+",
-          "date": "2026-12-02",
-          "url": "https://www.walzbachtal.de/veranstaltung/Offener-Stammtisch-Treff-60-event-appointment5547"
-        },
-        {
-          "id": "walzbachtal-4459-2026-12-06-1500",
-          "title": "Adventslesung",
-          "date": "2026-12-06",
-          "url": "https://www.walzbachtal.de/veranstaltung/Adventslesung-event-appointment4459"
-        },
-        {
-          "id": "walzbachtal-4495-2026-12-12-1400",
-          "title": "FV04 Jugendweihnachtsmarkt",
-          "date": "2026-12-12",
-          "url": "https://www.walzbachtal.de/veranstaltung/FV04-Jugendweihnachtsmarkt-event-appointment4495"
-        },
-        {
-          "id": "walzbachtal-6050-2027-01-10-1511",
-          "title": "Narrenkappe stellen Elferrat d'Kreizkepf",
-          "date": "2027-01-10",
-          "url": "https://www.walzbachtal.de/veranstaltung/Narrenkappe-stellen-Elferrat-d-Kreizkepf-event-appointment6050"
-        }
-      ]
-    },
     {
       "key": "venue-6c8dc1ce467653f5aa9c",
       "location": "",
@@ -136,7 +38,7 @@
       "method": null,
       "place": null,
       "candidates": [],
-      "eventCount": 44,
+      "eventCount": 43,
       "reviewNote": "",
       "sourceAddresses": [],
       "organizer": "",
@@ -171,6 +73,54 @@
           "title": "Jahresmeisterfeier -Boxenstopp-",
           "date": "2027-01-30",
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1031/jahresmeisterfeier-boxenstopp-"
+        }
+      ]
+    },
+    {
+      "key": "venue-ffe49f6ae22fadb991d3",
+      "location": "",
+      "scope": "walzbachtal",
+      "scopeLabel": "Walzbachtal",
+      "status": "missing",
+      "reason": "Die Quelle nennt keinen Veranstaltungsort. Keine Zuordnung aus dem Herausgeber ableiten.",
+      "method": null,
+      "place": null,
+      "candidates": [],
+      "eventCount": 33,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "walzbachtal"
+      ],
+      "sources": [
+        "Walzbachtal · Jöhlingen und Wössingen"
+      ],
+      "examples": [
+        {
+          "id": "walzbachtal-4495-2026-12-12-1400",
+          "title": "FV04 Jugendweihnachtsmarkt",
+          "date": "2026-12-12",
+          "url": "https://www.walzbachtal.de/veranstaltung/FV04-Jugendweihnachtsmarkt-event-appointment4495"
+        },
+        {
+          "id": "walzbachtal-5796-2027-03-06-1200",
+          "title": "FV04 Rostbratenfest",
+          "date": "2027-03-06",
+          "url": "https://www.walzbachtal.de/veranstaltung/FV04-Rostbratenfest-event-appointment5796"
+        },
+        {
+          "id": "walzbachtal-6084-2027-03-12-1900",
+          "title": "Mitliederversammlung OGV Jöhlingen",
+          "date": "2027-03-12",
+          "url": "https://www.walzbachtal.de/veranstaltung/Mitliederversammlung-OGV-Joehlingen-event-appointment6084"
+        },
+        {
+          "id": "walzbachtal-5969-2027-03-13-1000",
+          "title": "Schnittkurs Obstbäume OGV Jöhlingen",
+          "date": "2027-03-13",
+          "url": "https://www.walzbachtal.de/veranstaltung/Schnittkurs-Obstbaeume-OGV-Joehlingen-event-appointment5969"
         }
       ]
     },
@@ -542,36 +492,6 @@
       ]
     },
     {
-      "key": "venue-96cfdab160c7f30bc4ef",
-      "location": "",
-      "scope": "groetzingen",
-      "scopeLabel": "Grötzingen",
-      "status": "missing",
-      "reason": "Die Quelle nennt keinen Veranstaltungsort. Keine Zuordnung aus dem Herausgeber ableiten.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "groetzingen-jahresprogramm"
-      ],
-      "sources": [
-        "Grötzingen · Jahresprogramm"
-      ],
-      "examples": [
-        {
-          "id": "groetzingen-jahresprogramm-annual-2026-138",
-          "title": "Adventslieder singen",
-          "date": "2026-11-29",
-          "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/017_Stadtteile_und_Umgebung/Groetzingen/Jahresprogramm_Groetzingen_2026_im_CD_sem.pdf#page=11"
-        }
-      ]
-    },
-    {
       "key": "venue-1a26ef246c1de2911202",
       "location": "",
       "scope": "groetzingen",
@@ -662,6 +582,131 @@
       ]
     },
     {
+      "key": "venue-be747d019b3cbff89596",
+      "location": "Kirchplatz Jöhlingen",
+      "scope": "joehlingen",
+      "scopeLabel": "Walzbachtal-Jöhlingen",
+      "status": "review",
+      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
+      "method": null,
+      "place": null,
+      "candidates": [
+        {
+          "id": "osm-node-6383257865",
+          "name": "Jöhlingen Kirchplatz",
+          "latitude": 49.0320747,
+          "longitude": 8.5748251,
+          "address": "Jöhlinger Straße, 75045 Jöhlingen",
+          "url": "https://www.openstreetmap.org/node/6383257865",
+          "category": "highway",
+          "type": "bus_stop",
+          "city": "Jöhlingen",
+          "district": "",
+          "locality": "",
+          "street": "Jöhlinger Straße",
+          "houseNumber": "",
+          "score": 1.0,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "walzbachtal"
+      ],
+      "sources": [
+        "Walzbachtal · Jöhlingen und Wössingen"
+      ],
+      "examples": [
+        {
+          "id": "walzbachtal-6050-2027-01-10-1511",
+          "title": "Narrenkappe stellen Elferrat d'Kreizkepf",
+          "date": "2027-01-10",
+          "url": "https://www.walzbachtal.de/veranstaltung/Narrenkappe-stellen-Elferrat-d-Kreizkepf-event-appointment6050"
+        }
+      ]
+    },
+    {
+      "key": "venue-7146e831d36842aef6a4",
+      "location": "Kirchplatz hinter der St. Martin-Kirche am Wendelinusbrunnen",
+      "scope": "walzbachtal",
+      "scopeLabel": "Walzbachtal",
+      "status": "review",
+      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
+      "method": null,
+      "place": null,
+      "candidates": [
+        {
+          "id": "osm-node-3359945822",
+          "name": "St. Martin",
+          "latitude": 49.031055,
+          "longitude": 8.5759305,
+          "address": "Jöhlinger Straße 73, 75045 Jöhlingen",
+          "url": "https://www.openstreetmap.org/node/3359945822",
+          "category": "amenity",
+          "type": "pharmacy",
+          "street": "Jöhlinger Straße",
+          "houseNumber": "73",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-316468917",
+          "name": "St. Martin",
+          "latitude": 49.0321471,
+          "longitude": 8.5731299,
+          "address": "Jöhlinger Straße 107, 75045 Jöhlingen",
+          "url": "https://www.openstreetmap.org/way/316468917",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Jöhlinger Straße",
+          "houseNumber": "107",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-549008222",
+          "name": "Katholisches Gemeindezentrum St. Martin",
+          "latitude": 49.0319545,
+          "longitude": 8.5732544,
+          "address": "Bahnhofstraße, 75045 Jöhlingen",
+          "url": "https://www.openstreetmap.org/way/549008222",
+          "category": "building",
+          "type": "yes",
+          "street": "Bahnhofstraße",
+          "houseNumber": "",
+          "score": 0.412,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "walzbachtal"
+      ],
+      "sources": [
+        "Walzbachtal · Jöhlingen und Wössingen"
+      ],
+      "examples": [
+        {
+          "id": "walzbachtal-5942-2027-03-14-1400",
+          "title": "Osterbrunnenfest",
+          "date": "2027-03-14",
+          "url": "https://www.walzbachtal.de/veranstaltung/Osterbrunnenfest-event-appointment5942"
+        }
+      ]
+    },
+    {
       "key": "venue-3c6b35bd0e3437f7a0af",
       "location": "Mehrere Orten",
       "scope": "karlsruhe",
@@ -688,55 +733,6 @@
           "title": "„Arrangierte Welten“",
           "date": "2026-10-22",
           "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/arrangierte_welten"
-        }
-      ]
-    },
-    {
-      "key": "venue-e307b5685e71b041e67d",
-      "location": "Naturfreundehaus Hopfenberg",
-      "scope": "berghausen",
-      "scopeLabel": "Pfinztal-Berghausen",
-      "status": "review",
-      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
-      "method": null,
-      "place": null,
-      "candidates": [
-        {
-          "id": "osm-node-563834301",
-          "name": "Naturfreundehaus Am Hopfenberg",
-          "latitude": 49.0008503,
-          "longitude": 8.5265647,
-          "address": "Touristenweg 11, 76327 Berghausen",
-          "url": "https://www.openstreetmap.org/node/563834301",
-          "category": "amenity",
-          "type": "restaurant",
-          "city": "Berghausen",
-          "district": "Berghausen",
-          "locality": "",
-          "street": "Touristenweg",
-          "houseNumber": "11",
-          "score": 0.87,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "naturfreunde-berghausen"
-      ],
-      "sources": [
-        "NaturFreunde Berghausen"
-      ],
-      "examples": [
-        {
-          "id": "naturfreunde-berghausen-999-2027-01-03-1500",
-          "title": "Die Grüne Stunde in den Rau(c)h-Nächten",
-          "date": "2027-01-03",
-          "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2027/01/03/999/-/die-gruene-stunde-in-den-rau-c-h-naechten"
         }
       ]
     },
@@ -797,6 +793,140 @@
           "title": "Neujahrsempfang der Gemeinde Weingarten (Baden)",
           "date": "2027-01-08",
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1012/neujahrsempfang-der-gemeinde-weingarten-baden"
+        }
+      ]
+    },
+    {
+      "key": "venue-c08660ef4904154a3a73",
+      "location": "Pfarrsaal der Katholiken",
+      "scope": "groetzingen",
+      "scopeLabel": "Grötzingen",
+      "status": "review",
+      "reason": "Kein eindeutig passender Spielort gefunden.",
+      "method": null,
+      "place": null,
+      "candidates": [],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "eki-groetzingen"
+      ],
+      "sources": [
+        "Evangelische Kirche Grötzingen"
+      ],
+      "examples": [
+        {
+          "id": "eki-groetzingen-1101859-2027-01-27-1930",
+          "title": "Ökumenisches Glaubensgespräch Gem.haus Kath.Gem.",
+          "date": "2027-01-27",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1101859-oekumenisches-glaubensgespraech-gem-haus-kath-gem/?vt=1&cb-id=118282"
+        }
+      ]
+    },
+    {
+      "key": "venue-234f2cc5cfd0ac59ec49",
+      "location": "Rathausplatz Wössingen",
+      "scope": "woessingen",
+      "scopeLabel": "Walzbachtal-Wössingen",
+      "status": "review",
+      "reason": "Ein Ortsbeleg liegt außerhalb des erwarteten Ortskontexts. Ortsteil und Koordinate ausdrücklich prüfen.",
+      "method": null,
+      "place": null,
+      "candidates": [
+        {
+          "id": "osm-way-221068024",
+          "name": "Rathausplatz",
+          "latitude": 49.0073431,
+          "longitude": 8.4958747,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/221068024",
+          "category": "place",
+          "type": "square",
+          "street": "",
+          "houseNumber": "",
+          "score": 1.0,
+          "exact": false,
+          "outsideContext": true
+        },
+        {
+          "id": "osm-way-401763983",
+          "name": "Rathausplatz",
+          "latitude": 48.9437813,
+          "longitude": 8.5343249,
+          "address": "Karlsbad-Mutschelbach",
+          "url": "https://www.openstreetmap.org/way/401763983",
+          "category": "highway",
+          "type": "pedestrian",
+          "score": 1.0,
+          "exact": false,
+          "outsideContext": true
+        },
+        {
+          "id": "osm-way-60198509",
+          "name": "Rathausplatz",
+          "latitude": 49.0519442,
+          "longitude": 8.5312365,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/way/60198509",
+          "category": "highway",
+          "type": "pedestrian",
+          "street": "",
+          "houseNumber": "",
+          "score": 1.0,
+          "exact": false,
+          "outsideContext": true
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "walzbachtal"
+      ],
+      "sources": [
+        "Walzbachtal · Jöhlingen und Wössingen"
+      ],
+      "examples": [
+        {
+          "id": "walzbachtal-6134-2027-07-17-1900",
+          "title": "Rathausplatz-Konzert",
+          "date": "2027-07-17",
+          "url": "https://www.walzbachtal.de/veranstaltung/Rathausplatz-Konzert-event-appointment6134"
+        }
+      ]
+    },
+    {
+      "key": "venue-88fe188bf98d3a9c7d46",
+      "location": "Teffpunkt Toreinfahrt Alte Schule Jöhlingen",
+      "scope": "joehlingen",
+      "scopeLabel": "Walzbachtal-Jöhlingen",
+      "status": "review",
+      "reason": "Kein eindeutig passender Spielort gefunden.",
+      "method": null,
+      "place": null,
+      "candidates": [],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "walzbachtal"
+      ],
+      "sources": [
+        "Walzbachtal · Jöhlingen und Wössingen"
+      ],
+      "examples": [
+        {
+          "id": "walzbachtal-5941-2027-10-15-1800",
+          "title": "Nachtwächterrundgang",
+          "date": "2027-10-15",
+          "url": "https://www.walzbachtal.de/veranstaltung/Nachtwaechterrundgang-event-appointment5941"
         }
       ]
     },
@@ -862,40 +992,62 @@
       ]
     },
     {
-      "key": "venue-0f1c7a750e0dcc4a968e",
-      "location": "Zoologischer Stadtgarten. Treffpunkt Kasse Nord Nancyhalle.",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "queued",
-      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
+      "key": "venue-0cf513e953172736feca",
+      "location": "Walzbachtal Wahlräume",
+      "scope": "walzbachtal",
+      "scopeLabel": "Walzbachtal",
+      "status": "excluded",
+      "reason": "Die Wahl findet in mehreren Wahlräumen statt. Welcher gilt, hängt vom Wahlbezirk ab.",
       "method": null,
       "place": null,
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "",
-      "sourceAddresses": [
-        {
-          "street": "Lammstraße 7 a",
-          "city": "Karlsruhe",
-          "postalCode": "76133",
-          "address": "Lammstraße 7 a, 76133 Karlsruhe",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/der_stadtgarten_im_winter_fuhrung_durch"
-        }
-      ],
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sourceIds": [
-        "karlsruhe"
+        "walzbachtal"
       ],
       "sources": [
-        "Stadt Karlsruhe"
+        "Walzbachtal · Jöhlingen und Wössingen"
       ],
       "examples": [
         {
-          "id": "karlsruhe-583f1cca8832acdc",
-          "title": "Der Stadtgarten im Winter - Führung durch die Stadtgartenfreunde",
-          "date": "2026-12-06",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/der_stadtgarten_im_winter_fuhrung_durch"
+          "id": "walzbachtal-6118-2027-06-27-0800",
+          "title": "Bürgermeisterwahl",
+          "date": "2027-06-27",
+          "url": "https://www.walzbachtal.de/veranstaltung/Buergermeisterwahl-event-appointment6118"
+        }
+      ]
+    },
+    {
+      "key": "venue-4839128fd7854e5fa686",
+      "location": "Zu Hause",
+      "scope": "groetzingen",
+      "scopeLabel": "Grötzingen",
+      "status": "excluded",
+      "reason": "Das ökumenische Hausgebet wird zu Hause gefeiert.",
+      "method": null,
+      "place": null,
+      "candidates": [],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "eki-groetzingen"
+      ],
+      "sources": [
+        "Evangelische Kirche Grötzingen"
+      ],
+      "examples": [
+        {
+          "id": "eki-groetzingen-1101430-2026-12-07-1930",
+          "title": "Ökumenisches Hausgebet",
+          "date": "2026-12-07",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1101430-oekumenisches-hausgebet/?vt=1&cb-id=118282"
         }
       ]
     },
@@ -1188,6 +1340,103 @@
       ]
     },
     {
+      "key": "venue-710b7077a148998d3e54",
+      "location": "Gemeindehaus Kirchstraße",
+      "scope": "groetzingen",
+      "scopeLabel": "Grötzingen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-150797691",
+        "name": "Evangelisches Gemeindehaus Grötzingen",
+        "latitude": 49.0033742,
+        "longitude": 8.4990103,
+        "address": "Kirchstraße 15, 76229 Karlsruhe-Grötzingen",
+        "url": "https://www.openstreetmap.org/way/150797691",
+        "category": "building",
+        "type": "yes",
+        "street": "Kirchstraße",
+        "houseNumber": "15",
+        "city": "Karlsruhe",
+        "district": "Grötzingen"
+      },
+      "candidates": [
+        {
+          "id": "osm-way-150797688",
+          "name": "Kirchstraße 13",
+          "latitude": 49.0040063,
+          "longitude": 8.4981452,
+          "address": "Kirchstraße 13, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/150797688",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Südlich der Pfinz",
+          "street": "Kirchstraße",
+          "houseNumber": "13",
+          "score": 0.6,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-150797691",
+          "name": "Evangelisches Gemeindehaus Grötzingen",
+          "latitude": 49.0033742,
+          "longitude": 8.4990103,
+          "address": "Kirchstraße 15, 76229 Karlsruhe-Grötzingen",
+          "url": "https://www.openstreetmap.org/way/150797691",
+          "category": "building",
+          "type": "yes",
+          "street": "Kirchstraße",
+          "houseNumber": "15",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "score": 0.471,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 45,
+      "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "eki-groetzingen"
+      ],
+      "sources": [
+        "Evangelische Kirche Grötzingen"
+      ],
+      "examples": [
+        {
+          "id": "eki-groetzingen-1064316-2026-11-24-2000",
+          "title": "Regenbogenchor",
+          "date": "2026-11-24",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1064316-regenbogenchor/?vt=1&cb-id=118282"
+        },
+        {
+          "id": "eki-groetzingen-974049-2026-11-26-2000",
+          "title": "Kirchenchor",
+          "date": "2026-11-26",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/974049-kirchenchor/?vt=1&cb-id=118282"
+        },
+        {
+          "id": "eki-groetzingen-1096799-2026-11-28-1000",
+          "title": "AdventsWerkstatt",
+          "date": "2026-11-28",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1096799-adventswerkstatt/?vt=1&cb-id=118282"
+        },
+        {
+          "id": "eki-groetzingen-1064317-2026-12-01-2000",
+          "title": "Regenbogenchor",
+          "date": "2026-12-01",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1064317-regenbogenchor/?vt=1&cb-id=118282"
+        }
+      ]
+    },
+    {
       "key": "venue-b23888d3703099f546d1",
       "location": "Kulturhalle Remchingen",
       "scope": "remchingen",
@@ -1399,6 +1648,99 @@
           "title": "Von der Erde zum Universum",
           "date": "2026-11-26",
           "url": "https://kalender.karlsruhe.de/db/termine/wirtschaft/von_der_erde_zum_universum-46"
+        }
+      ]
+    },
+    {
+      "key": "venue-efd82466a882a2dada35",
+      "location": "Martin-Luther-Haus",
+      "scope": "groetzingen",
+      "scopeLabel": "Grötzingen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-151371405",
+        "name": "Martin-Luther-Haus",
+        "latitude": 49.0099084,
+        "longitude": 8.4917932,
+        "address": "Fröbelstraße 5, 76229 Karlsruhe-Grötzingen",
+        "url": "https://www.openstreetmap.org/way/151371405",
+        "category": "building",
+        "type": "yes",
+        "street": "Fröbelstraße",
+        "houseNumber": "5"
+      },
+      "candidates": [
+        {
+          "id": "osm-way-151371405",
+          "name": "Martin-Luther-Haus",
+          "latitude": 49.0099084,
+          "longitude": 8.4917932,
+          "address": "Fröbelstraße 5, 76229 Karlsruhe-Grötzingen",
+          "url": "https://www.openstreetmap.org/way/151371405",
+          "category": "building",
+          "type": "yes",
+          "street": "Fröbelstraße",
+          "houseNumber": "5",
+          "score": 1.0,
+          "exact": false,
+          "outsideContext": true
+        },
+        {
+          "id": "osm-way-151073902",
+          "name": "Karl-Martin-Graff-Straße 13",
+          "latitude": 49.0034458,
+          "longitude": 8.5048223,
+          "address": "Karl-Martin-Graff-Straße 13, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151073902",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Gewann Am Wasserfall",
+          "street": "Karl-Martin-Graff-Straße",
+          "houseNumber": "13",
+          "score": 0.435,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 34,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "eki-groetzingen"
+      ],
+      "sources": [
+        "Evangelische Kirche Grötzingen"
+      ],
+      "examples": [
+        {
+          "id": "eki-groetzingen-1093036-2026-11-24-1700",
+          "title": "Dienstagstreff: \"Auf der Suche nach Gott in gottloser Zeit\" - aus Briefen und Tagebüchern der Elly Hillesum",
+          "date": "2026-11-24",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1093036-dienstagstreff-auf-der-suche-nach-gott-in-gottloser-zeit-aus-briefen-und-tagebuechern-der-elly-hillesum/?vt=1&cb-id=118282"
+        },
+        {
+          "id": "eki-groetzingen-1003554-2026-11-26-1430",
+          "title": "Treff bei Luther im MLH: \"Wenn die Tage kürzer werden, tut es gut, für die Seele zu sorgen\" (Referentin Monika Roth, Fachstelle LiA Leben im Alter )",
+          "date": "2026-11-26",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1003554-treff-bei-luther-im-mlh-wenn-die-tage-kuerzer-werden-tut-es-gut-fuer-die-seele-zu-sorgen-referentin-monika-roth-fachstelle-lia-leben-im-alter/?vt=1&cb-id=118282"
+        },
+        {
+          "id": "eki-groetzingen-1035634-2026-11-27-2000",
+          "title": "Posaunenchor",
+          "date": "2026-11-27",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1035634-posaunenchor/?vt=1&cb-id=118282"
+        },
+        {
+          "id": "eki-groetzingen-1035635-2026-12-04-2000",
+          "title": "Posaunenchor",
+          "date": "2026-12-04",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1035635-posaunenchor/?vt=1&cb-id=118282"
         }
       ]
     },
@@ -2016,6 +2358,111 @@
           "title": "Prunksitzung des TSV Jöhlingen",
           "date": "2027-01-30",
           "url": "https://www.walzbachtal.de/veranstaltung/Prunksitzung-des-TSV-Joehlingen-event-appointment6053"
+        }
+      ]
+    },
+    {
+      "key": "venue-ac6922d27c0ddaae0fe4",
+      "location": "Evangelische Kirche Grötzingen",
+      "scope": "groetzingen",
+      "scopeLabel": "Grötzingen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-150797686",
+        "name": "Evangelische Kirche Grötzingen",
+        "latitude": 49.003271,
+        "longitude": 8.4983825,
+        "address": "Kirchstraße 17, 76229 Karlsruhe-Grötzingen",
+        "url": "https://www.openstreetmap.org/way/150797686",
+        "category": "amenity",
+        "type": "place_of_worship",
+        "street": "Kirchstraße",
+        "houseNumber": "17"
+      },
+      "candidates": [
+        {
+          "id": "osm-way-298048732",
+          "name": "Evangelische Kirche",
+          "latitude": 49.1106628,
+          "longitude": 8.5138714,
+          "address": "Stutensee-Spöck",
+          "url": "https://www.openstreetmap.org/way/298048732",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "score": 1.0,
+          "exact": false,
+          "outsideContext": true
+        },
+        {
+          "id": "osm-way-319638926",
+          "name": "Evangelische Kirche",
+          "latitude": 49.0121634,
+          "longitude": 8.6109225,
+          "address": "Weinbrennerstraße 6, 75045 Wössingen",
+          "url": "https://www.openstreetmap.org/way/319638926",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Weinbrennerstraße",
+          "houseNumber": "6",
+          "score": 1.0,
+          "exact": false,
+          "outsideContext": true
+        },
+        {
+          "id": "osm-way-98775712",
+          "name": "Evangelische Kirche",
+          "latitude": 48.9651924,
+          "longitude": 8.4771339,
+          "address": "Kirchplatz 2, 76228 Karlsruhe-Hohenwettersbach",
+          "url": "https://www.openstreetmap.org/way/98775712",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Kirchplatz",
+          "houseNumber": "2",
+          "city": "Karlsruhe",
+          "district": "Hohenwettersbach",
+          "score": 1.0,
+          "exact": false,
+          "outsideContext": true
+        }
+      ],
+      "eventCount": 15,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "eki-groetzingen"
+      ],
+      "sources": [
+        "Evangelische Kirche Grötzingen"
+      ],
+      "examples": [
+        {
+          "id": "eki-groetzingen-1060984-2026-11-22-1000",
+          "title": "Gottesdienst mit Abendmahl am Ewigkeitssonntag mit Gedenken der im Kirchenjahr Verstorbenen; mit dem Posaunenchor",
+          "date": "2026-11-22",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1060984-gottesdienst-mit-abendmahl-am-ewigkeitssonntag-mit-gedenken-der-im-kirchenjahr-verstorbenen-mit-dem-posaunenchor/?vt=1&cb-id=118282"
+        },
+        {
+          "id": "eki-groetzingen-1068054-2026-11-29-1000",
+          "title": "Gottesdienst am 1. Advent; mit dem Regenbogenchor",
+          "date": "2026-11-29",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1068054-gottesdienst-am-1-advent-mit-dem-regenbogenchor/?vt=1&cb-id=118282"
+        },
+        {
+          "id": "eki-groetzingen-1101394-2026-12-06-1000",
+          "title": "Familiengottesdienst mit den Kitas: mit den Kitas: Bischof Nikolaus kommt am 2. Advent",
+          "date": "2026-12-06",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1101394-familiengottesdienst-mit-den-kitas-mit-den-kitas-bischof-nikolaus-kommt-am-2-advent/?vt=1&cb-id=118282"
+        },
+        {
+          "id": "eki-groetzingen-1101395-2026-12-13-1900",
+          "title": "Abendgottesdienst im Advent; mit dem Posaunenchor",
+          "date": "2026-12-13",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1101395-abendgottesdienst-im-advent-mit-dem-posaunenchor/?vt=1&cb-id=118282"
         }
       ]
     },
@@ -5439,6 +5886,116 @@
       ]
     },
     {
+      "key": "venue-990d989f75d480926f5e",
+      "location": "Rathausplatz Grötzingen",
+      "scope": "groetzingen",
+      "scopeLabel": "Grötzingen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-221068024",
+        "name": "Rathausplatz",
+        "latitude": 49.0073431,
+        "longitude": 8.4958747,
+        "address": "Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/221068024",
+        "category": "place",
+        "type": "square",
+        "street": "",
+        "houseNumber": "",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "osm-way-221068024",
+          "name": "Rathausplatz",
+          "latitude": 49.0073431,
+          "longitude": 8.4958747,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/221068024",
+          "category": "place",
+          "type": "square",
+          "street": "",
+          "houseNumber": "",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-401763983",
+          "name": "Rathausplatz",
+          "latitude": 48.9437813,
+          "longitude": 8.5343249,
+          "address": "Karlsbad-Mutschelbach",
+          "url": "https://www.openstreetmap.org/way/401763983",
+          "category": "highway",
+          "type": "pedestrian",
+          "score": 1.0,
+          "exact": false,
+          "outsideContext": true
+        },
+        {
+          "id": "osm-way-60198509",
+          "name": "Rathausplatz",
+          "latitude": 49.0519442,
+          "longitude": 8.5312365,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/way/60198509",
+          "category": "highway",
+          "type": "pedestrian",
+          "street": "",
+          "houseNumber": "",
+          "score": 1.0,
+          "exact": false,
+          "outsideContext": true
+        }
+      ],
+      "eventCount": 5,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "eki-groetzingen",
+        "groetzingen-jahresprogramm",
+        "groetzingen-kultur-natur",
+        "karlsruhe"
+      ],
+      "sources": [
+        "Evangelische Kirche Grötzingen",
+        "Grötzingen · Jahresprogramm",
+        "Grötzingen · Kultur-Natur-Termine",
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "groetzingen-kultur-natur-nature-2026-004",
+          "title": "Grötzingen glüht",
+          "date": "2026-11-28",
+          "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/017_Stadtteile_und_Umgebung/Groetzingen/Programm_Kulturbroschuere_2_HJ_2026_26-0485_Digitalversion.end.pdf#page=1"
+        },
+        {
+          "id": "karlsruhe-e1c97b2e3289ff0b",
+          "title": "Grötzingen glüht!",
+          "date": "2026-11-28",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/grotzingen_gluht"
+        },
+        {
+          "id": "groetzingen-jahresprogramm-annual-2026-138",
+          "title": "Adventslieder singen",
+          "date": "2026-11-29",
+          "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/017_Stadtteile_und_Umgebung/Groetzingen/Jahresprogramm_Groetzingen_2026_im_CD_sem.pdf#page=11"
+        },
+        {
+          "id": "eki-groetzingen-1068056-2026-11-29-1800",
+          "title": "Adventsliedersingen auf dem Rathausplatz mit dem Posaunenchor Grötzingen",
+          "date": "2026-11-29",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1068056-adventsliedersingen-auf-dem-rathausplatz-mit-dem-posaunenchor-groetzingen/?vt=1&cb-id=118282"
+        }
+      ]
+    },
+    {
       "key": "venue-ad93901dc1ea4849d8bf",
       "location": "Zentrum für Kunst und Medien (ZKM)",
       "scope": "karlsruhe",
@@ -8457,6 +9014,144 @@
       ]
     },
     {
+      "key": "venue-6b4584c982119fd8506f",
+      "location": "Hanne-Landgraf-Haus (Grötzingen)",
+      "scope": "groetzingen",
+      "scopeLabel": "Grötzingen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-772939790",
+        "name": "Hanne-Landgraf-Haus",
+        "latitude": 49.007879,
+        "longitude": 8.4927108,
+        "address": "Grezzostraße 7, 76229 Karlsruhe-Grötzingen",
+        "url": "https://www.openstreetmap.org/way/772939790",
+        "category": "amenity",
+        "type": "social_facility",
+        "street": "Grezzostraße",
+        "houseNumber": "7"
+      },
+      "candidates": [
+        {
+          "id": "osm-way-772939790",
+          "name": "Hanne-Landgraf-Haus",
+          "latitude": 49.007879,
+          "longitude": 8.4927108,
+          "address": "Grezzostraße 7, 76229 Karlsruhe-Grötzingen",
+          "url": "https://www.openstreetmap.org/way/772939790",
+          "category": "amenity",
+          "type": "social_facility",
+          "street": "Grezzostraße",
+          "houseNumber": "7",
+          "score": 1.0,
+          "exact": false,
+          "outsideContext": true
+        }
+      ],
+      "eventCount": 3,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "eki-groetzingen"
+      ],
+      "sources": [
+        "Evangelische Kirche Grötzingen"
+      ],
+      "examples": [
+        {
+          "id": "eki-groetzingen-1101424-2026-12-10-1530",
+          "title": "Senioren-Gottesdienst im Hanne-Landgraf-Haus (Diakonin Aydt)",
+          "date": "2026-12-10",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1101424-senioren-gottesdienst-im-hanne-landgraf-haus-diakonin-aydt/?vt=1&cb-id=118282"
+        },
+        {
+          "id": "eki-groetzingen-1101425-2027-01-21-1530",
+          "title": "Senioren-Gottesdienst im Hanne-Landgraf-Haus (Diakonin Aydt)",
+          "date": "2027-01-21",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1101425-senioren-gottesdienst-im-hanne-landgraf-haus-diakonin-aydt/?vt=1&cb-id=118282"
+        },
+        {
+          "id": "eki-groetzingen-1101426-2027-02-18-1530",
+          "title": "Senioren-Gottesdienst im Hanne-Landgraf-Haus (Diakonin Aydt)",
+          "date": "2027-02-18",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1101426-senioren-gottesdienst-im-hanne-landgraf-haus-diakonin-aydt/?vt=1&cb-id=118282"
+        }
+      ]
+    },
+    {
+      "key": "venue-0ddf4c8cd819f4070bbf",
+      "location": "Haus Pamina",
+      "scope": "groetzingen",
+      "scopeLabel": "Grötzingen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-149599537",
+        "name": "Haus Pamina",
+        "latitude": 49.0051168,
+        "longitude": 8.499596,
+        "address": "Eisenbahnstraße 10, 76229 Karlsruhe-Grötzingen",
+        "url": "https://www.openstreetmap.org/way/149599537",
+        "category": "building",
+        "type": "apartments",
+        "street": "Eisenbahnstraße",
+        "houseNumber": "10"
+      },
+      "candidates": [
+        {
+          "id": "osm-way-149599537",
+          "name": "Haus Pamina",
+          "latitude": 49.0051168,
+          "longitude": 8.499596,
+          "address": "Eisenbahnstraße 10, 76229 Karlsruhe-Grötzingen",
+          "url": "https://www.openstreetmap.org/way/149599537",
+          "category": "building",
+          "type": "apartments",
+          "street": "Eisenbahnstraße",
+          "houseNumber": "10",
+          "score": 1.0,
+          "exact": false,
+          "outsideContext": true
+        }
+      ],
+      "eventCount": 3,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "eki-groetzingen"
+      ],
+      "sources": [
+        "Evangelische Kirche Grötzingen"
+      ],
+      "examples": [
+        {
+          "id": "eki-groetzingen-1101864-2026-12-01-1500",
+          "title": "Senioren-Gottesdienst im Haus PAMINA (Diakonin Aydt)",
+          "date": "2026-12-01",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1101864-senioren-gottesdienst-im-haus-pamina-diakonin-aydt/?vt=1&cb-id=118282"
+        },
+        {
+          "id": "eki-groetzingen-1101863-2027-01-12-1500",
+          "title": "Senioren-Gottesdienst im Haus PAMINA (Diakonin Aydt)",
+          "date": "2027-01-12",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1101863-senioren-gottesdienst-im-haus-pamina-diakonin-aydt/?vt=1&cb-id=118282"
+        },
+        {
+          "id": "eki-groetzingen-1101862-2027-02-02-1500",
+          "title": "Senioren-Gottesdienst im Haus PAMINA (Diakonin Aydt)",
+          "date": "2027-02-02",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1101862-senioren-gottesdienst-im-haus-pamina-diakonin-aydt/?vt=1&cb-id=118282"
+        }
+      ]
+    },
+    {
       "key": "venue-b077ecb517bd583b4e46",
       "location": "Heimatstube im Pfarrhaus, Heimat- & Kulturverein Walzbachtal e.V., Walzbachtal",
       "scope": "walzbachtal",
@@ -9347,108 +10042,6 @@
           "title": "ARTVENT#24: Kunst & Handwerk – Handwerk & Kunst",
           "date": "2026-11-28",
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12029&tx_events2_events%5Btimestamp%5D=1795860000&cHash=b5de43a4da948d3df955edc9d7e94d85"
-        }
-      ]
-    },
-    {
-      "key": "venue-990d989f75d480926f5e",
-      "location": "Rathausplatz Grötzingen",
-      "scope": "groetzingen",
-      "scopeLabel": "Grötzingen",
-      "status": "resolved",
-      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
-      "method": "automatic",
-      "place": {
-        "id": "osm-way-221068024",
-        "name": "Rathausplatz",
-        "latitude": 49.0073431,
-        "longitude": 8.4958747,
-        "address": "Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/221068024",
-        "category": "place",
-        "type": "square",
-        "street": "",
-        "houseNumber": "",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-way-221068024",
-          "name": "Rathausplatz",
-          "latitude": 49.0073431,
-          "longitude": 8.4958747,
-          "address": "Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/221068024",
-          "category": "place",
-          "type": "square",
-          "street": "",
-          "houseNumber": "",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-401763983",
-          "name": "Rathausplatz",
-          "latitude": 48.9437813,
-          "longitude": 8.5343249,
-          "address": "Karlsbad-Mutschelbach",
-          "url": "https://www.openstreetmap.org/way/401763983",
-          "category": "highway",
-          "type": "pedestrian",
-          "score": 1.0,
-          "exact": false,
-          "outsideContext": true
-        },
-        {
-          "id": "osm-way-60198509",
-          "name": "Rathausplatz",
-          "latitude": 49.0519442,
-          "longitude": 8.5312365,
-          "address": "76356 Weingarten",
-          "url": "https://www.openstreetmap.org/way/60198509",
-          "category": "highway",
-          "type": "pedestrian",
-          "street": "",
-          "houseNumber": "",
-          "score": 1.0,
-          "exact": false,
-          "outsideContext": true
-        }
-      ],
-      "eventCount": 3,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "groetzingen-jahresprogramm",
-        "groetzingen-kultur-natur",
-        "karlsruhe"
-      ],
-      "sources": [
-        "Grötzingen · Jahresprogramm",
-        "Grötzingen · Kultur-Natur-Termine",
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "groetzingen-kultur-natur-nature-2026-004",
-          "title": "Grötzingen glüht",
-          "date": "2026-11-28",
-          "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/017_Stadtteile_und_Umgebung/Groetzingen/Programm_Kulturbroschuere_2_HJ_2026_26-0485_Digitalversion.end.pdf#page=1"
-        },
-        {
-          "id": "karlsruhe-e1c97b2e3289ff0b",
-          "title": "Grötzingen glüht!",
-          "date": "2026-11-28",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/grotzingen_gluht"
-        },
-        {
-          "id": "groetzingen-jahresprogramm-annual-2026-141",
-          "title": "Glühweinmarkt",
-          "date": "2026-12-19",
-          "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/017_Stadtteile_und_Umgebung/Groetzingen/Jahresprogramm_Groetzingen_2026_im_CD_sem.pdf#page=11"
         }
       ]
     },
@@ -11164,133 +11757,6 @@
           "title": "Christvesper mit Krippenspiel",
           "date": "2026-12-24",
           "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12565"
-        }
-      ]
-    },
-    {
-      "key": "venue-710b7077a148998d3e54",
-      "location": "Evangelisches Gemeindehaus",
-      "scope": "groetzingen",
-      "scopeLabel": "Grötzingen",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-150797691",
-        "name": "Evangelisches Gemeindehaus Grötzingen",
-        "latitude": 49.0033742,
-        "longitude": 8.4990103,
-        "address": "Kirchstraße 15, 76229 Karlsruhe-Grötzingen",
-        "url": "https://www.openstreetmap.org/way/150797691",
-        "category": "building",
-        "type": "yes",
-        "street": "Kirchstraße",
-        "houseNumber": "15",
-        "city": "Karlsruhe",
-        "district": "Grötzingen"
-      },
-      "candidates": [
-        {
-          "id": "osm-way-100292911",
-          "name": "Evangelisches Gemeindehaus",
-          "latitude": 48.9456511,
-          "longitude": 8.4818419,
-          "address": "Waldenserstraße 25, 76228 Karlsruhe-Palmbach",
-          "url": "https://www.openstreetmap.org/way/100292911",
-          "category": "building",
-          "type": "yes",
-          "street": "Waldenserstraße",
-          "houseNumber": "25",
-          "city": "Karlsruhe",
-          "district": "Palmbach",
-          "score": 1.0,
-          "exact": false,
-          "outsideContext": true
-        },
-        {
-          "id": "osm-way-119305137",
-          "name": "Evangelisches Gemeindehaus",
-          "latitude": 48.9653163,
-          "longitude": 8.6148452,
-          "address": "Königsbach-Stein, Ortsteil Königsbach",
-          "url": "https://www.openstreetmap.org/way/119305137",
-          "category": "building",
-          "type": "yes",
-          "score": 1.0,
-          "exact": false,
-          "outsideContext": true
-        },
-        {
-          "id": "osm-way-150797691",
-          "name": "Evangelisches Gemeindehaus Grötzingen",
-          "latitude": 49.0033742,
-          "longitude": 8.4990103,
-          "address": "Kirchstraße 15, 76229 Karlsruhe-Grötzingen",
-          "url": "https://www.openstreetmap.org/way/150797691",
-          "category": "building",
-          "type": "yes",
-          "street": "Kirchstraße",
-          "houseNumber": "15",
-          "city": "Karlsruhe",
-          "district": "Grötzingen",
-          "score": 1.0,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-152250690",
-          "name": "Evangelisches Gemeindehaus",
-          "latitude": 49.0031673,
-          "longitude": 8.5257537,
-          "address": "Alte Pfarrhausgasse 4, 76327 Berghausen",
-          "url": "https://www.openstreetmap.org/way/152250690",
-          "category": "building",
-          "type": "civic",
-          "street": "Alte Pfarrhausgasse",
-          "houseNumber": "4",
-          "score": 1.0,
-          "exact": false,
-          "outsideContext": true
-        },
-        {
-          "id": "osm-way-180619861",
-          "name": "Evangelisches Gemeindehaus",
-          "latitude": 49.0508645,
-          "longitude": 8.5310717,
-          "address": "Marktplatz 12, 76356 Weingarten",
-          "url": "https://www.openstreetmap.org/way/180619861",
-          "category": "amenity",
-          "type": "community_centre",
-          "street": "Marktplatz",
-          "houseNumber": "12",
-          "score": 1.0,
-          "exact": false,
-          "outsideContext": true
-        }
-      ],
-      "eventCount": 2,
-      "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
-      "sourceAddresses": [],
-      "organizer": "Evangelische Kirche in Grötzingen",
-      "sourceContext": null,
-      "sourceIds": [
-        "eki-groetzingen"
-      ],
-      "sources": [
-        "Evangelische Kirche Grötzingen"
-      ],
-      "examples": [
-        {
-          "id": "eki-groetzingen-1096799-2026-11-28-1000",
-          "title": "AdventsWerkstatt",
-          "date": "2026-11-28",
-          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1096799-adventswerkstatt/?vt=1&cb-id=118282"
-        },
-        {
-          "id": "eki-groetzingen-1101861-2027-02-06-1000",
-          "title": "Familienzeit mit der Kirchenmaus",
-          "date": "2027-02-06",
-          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1101861-familienzeit-mit-der-kirchenmaus/?vt=1&cb-id=118282"
         }
       ]
     },
@@ -17367,6 +17833,47 @@
       ]
     },
     {
+      "key": "venue-0c027dff93e96b5e840c",
+      "location": "Böhnlich-Halle Wössingen",
+      "scope": "woessingen",
+      "scopeLabel": "Walzbachtal-Wössingen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-165967043",
+        "name": "Böhnlichhalle",
+        "latitude": 49.0121131,
+        "longitude": 8.6124913,
+        "address": "Seilerweg 5, 75045 Walzbachtal-Wössingen",
+        "url": "https://www.openstreetmap.org/way/165967043",
+        "category": "leisure",
+        "type": "sports_centre",
+        "street": "Seilerweg",
+        "houseNumber": "5"
+      },
+      "candidates": [],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "walzbachtal"
+      ],
+      "sources": [
+        "Walzbachtal · Jöhlingen und Wössingen"
+      ],
+      "examples": [
+        {
+          "id": "walzbachtal-6129-2027-03-28-1930",
+          "title": "Osterkonzert",
+          "date": "2027-03-28",
+          "url": "https://www.walzbachtal.de/veranstaltung/Osterkonzert-event-appointment6129"
+        }
+      ]
+    },
+    {
       "key": "venue-cd2d86abd9111a567a4b",
       "location": "Bürgerzentrum Mühlburg",
       "scope": "karlsruhe",
@@ -18220,6 +18727,88 @@
       ]
     },
     {
+      "key": "venue-2ba5f585294fa10090d8",
+      "location": "Ev. Weinbrennerkirche Wössingen",
+      "scope": "woessingen",
+      "scopeLabel": "Walzbachtal-Wössingen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-319638926",
+        "name": "Weinbrennerkirche Wössingen",
+        "latitude": 49.0121583,
+        "longitude": 8.6109212,
+        "address": "Weinbrennerstraße, 75045 Walzbachtal-Wössingen",
+        "url": "https://www.openstreetmap.org/way/319638926",
+        "category": "amenity",
+        "type": "place_of_worship",
+        "street": "Weinbrennerstraße",
+        "houseNumber": ""
+      },
+      "candidates": [],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "walzbachtal"
+      ],
+      "sources": [
+        "Walzbachtal · Jöhlingen und Wössingen"
+      ],
+      "examples": [
+        {
+          "id": "walzbachtal-6033-2027-05-02-unknown",
+          "title": "Konfirmation Walzbachtal",
+          "date": "2027-05-02",
+          "url": "https://www.walzbachtal.de/veranstaltung/Konfirmation-Walzbachtal-event-appointment6033"
+        }
+      ]
+    },
+    {
+      "key": "venue-e5e6edfae3603912bc5d",
+      "location": "Ev.-meth. Christuskapelle, Mühlstraße",
+      "scope": "groetzingen",
+      "scopeLabel": "Grötzingen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-151399279",
+        "name": "Evangelisch-methodistische Christuskapelle",
+        "latitude": 49.0061471,
+        "longitude": 8.4983381,
+        "address": "Mühlstraße 1, 76229 Karlsruhe-Grötzingen",
+        "url": "https://www.openstreetmap.org/way/151399279",
+        "category": "building",
+        "type": "yes",
+        "street": "Mühlstraße",
+        "houseNumber": "1"
+      },
+      "candidates": [],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "eki-groetzingen"
+      ],
+      "sources": [
+        "Evangelische Kirche Grötzingen"
+      ],
+      "examples": [
+        {
+          "id": "eki-groetzingen-1101415-2027-01-31-1030",
+          "title": "Ökumenischer Gottesdienst zum Glaubensgespräch (EMK)",
+          "date": "2027-01-31",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1101415-oekumenischer-gottesdienst-zum-glaubensgespraech-emk/?vt=1&cb-id=118282"
+        }
+      ]
+    },
+    {
       "key": "venue-e4193865f6db4faafec1",
       "location": "Evang. Gemeindehaus",
       "scope": "berghausen",
@@ -18982,6 +19571,88 @@
           "title": "Weihnachtslieder auf dem Friedhof",
           "date": "2026-12-24",
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2842"
+        }
+      ]
+    },
+    {
+      "key": "venue-c4c29921c9ed6fa318f5",
+      "location": "Friedhof Grötzingen",
+      "scope": "groetzingen",
+      "scopeLabel": "Grötzingen",
+      "status": "resolved",
+      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
+      "method": "automatic",
+      "place": {
+        "id": "osm-way-4410160",
+        "name": "Friedhof Grötzingen",
+        "latitude": 49.0035125,
+        "longitude": 8.5112466,
+        "address": "Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/4410160",
+        "category": "landuse",
+        "type": "cemetery",
+        "city": "Karlsruhe",
+        "district": "Grötzingen",
+        "locality": "Südlich der Pfinz",
+        "street": "",
+        "houseNumber": "",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "osm-way-4410160",
+          "name": "Friedhof Grötzingen",
+          "latitude": 49.0035125,
+          "longitude": 8.5112466,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/4410160",
+          "category": "landuse",
+          "type": "cemetery",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Südlich der Pfinz",
+          "street": "",
+          "houseNumber": "",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-188321102",
+          "name": "Alter Jüdischer Friedhof",
+          "latitude": 49.0150071,
+          "longitude": 8.4985612,
+          "address": "Am Liepoldsacker, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/188321102",
+          "category": "amenity",
+          "type": "grave_yard",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Am Liepoldsacker",
+          "houseNumber": "",
+          "score": 0.5,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "eki-groetzingen"
+      ],
+      "sources": [
+        "Evangelische Kirche Grötzingen"
+      ],
+      "examples": [
+        {
+          "id": "eki-groetzingen-1101399-2026-12-24-1630",
+          "title": "Andacht auf dem Friedhof; mit dem Posaunenchor",
+          "date": "2026-12-24",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1101399-andacht-auf-dem-friedhof-mit-dem-posaunenchor/?vt=1&cb-id=118282"
         }
       ]
     },
@@ -20319,6 +20990,63 @@
       ]
     },
     {
+      "key": "venue-be8ca4a03799437ce375",
+      "location": "Heimatstube im Pfarrhaus, Kreuzstraße 2, 75045 Walzbachtal",
+      "scope": "walzbachtal",
+      "scopeLabel": "Walzbachtal",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-549008225",
+        "name": "Heimatstube im Pfarrhaus",
+        "latitude": 49.0318214,
+        "longitude": 8.5733777,
+        "address": "Kreuzstraße 2, 75045 Walzbachtal-Jöhlingen",
+        "url": "https://www.openstreetmap.org/way/549008225",
+        "category": "building",
+        "type": "yes",
+        "street": "Kreuzstraße",
+        "houseNumber": "2"
+      },
+      "candidates": [
+        {
+          "id": "osm-way-549008225",
+          "name": "Heimatstube im Pfarrhaus",
+          "latitude": 49.0318214,
+          "longitude": 8.5733777,
+          "address": "Kreuzstraße 2, 75045 Walzbachtal-Jöhlingen",
+          "url": "https://www.openstreetmap.org/way/549008225",
+          "category": "building",
+          "type": "yes",
+          "street": "Kreuzstraße",
+          "houseNumber": "2",
+          "score": 0.93,
+          "exact": true,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "walzbachtal"
+      ],
+      "sources": [
+        "Walzbachtal · Jöhlingen und Wössingen"
+      ],
+      "examples": [
+        {
+          "id": "walzbachtal-4459-2026-12-06-1500",
+          "title": "Adventslesung",
+          "date": "2026-12-06",
+          "url": "https://www.walzbachtal.de/veranstaltung/Adventslesung-event-appointment4459"
+        }
+      ]
+    },
+    {
       "key": "venue-1483184c1028dc1e32a0",
       "location": "Hochschule für Musik",
       "scope": "karlsruhe",
@@ -20433,6 +21161,69 @@
           "title": "Eröffnung: Hidden on Tape. Frühe Videokunst in Europa",
           "date": "2026-11-27",
           "url": "https://kalender.karlsruhe.de/db/termine/theater/eroffnung_hidden_on_tape_fruhe_videokunst_in_europa"
+        }
+      ]
+    },
+    {
+      "key": "venue-f771350a0e9b98aecb6c",
+      "location": "Hotel-Restaurant \"Zum Lamm\", Nebensaal, Jöhlingen",
+      "scope": "joehlingen",
+      "scopeLabel": "Walzbachtal-Jöhlingen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-555542597",
+        "name": "Jöhlinger Straße 104",
+        "latitude": 49.0323469,
+        "longitude": 8.5745361,
+        "address": "Jöhlinger Straße 104, 75045 Walzbachtal",
+        "url": "https://www.openstreetmap.org/way/555542597",
+        "category": "building",
+        "type": "retail",
+        "city": "Walzbachtal",
+        "district": "Jöhlingen",
+        "locality": "",
+        "street": "Jöhlinger Straße",
+        "houseNumber": "104"
+      },
+      "candidates": [
+        {
+          "id": "osm-node-5912428880",
+          "name": "Hotel & Restaurant zum Lamm",
+          "latitude": 49.0323302,
+          "longitude": 8.5745626,
+          "address": "Jöhlinger Straße 104, 75045 Walzbachtal",
+          "url": "https://www.openstreetmap.org/node/5912428880",
+          "category": "tourism",
+          "type": "hotel",
+          "city": "Walzbachtal",
+          "district": "Jöhlingen",
+          "locality": "",
+          "street": "Jöhlinger Straße",
+          "houseNumber": "104",
+          "score": 0.781,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "walzbachtal"
+      ],
+      "sources": [
+        "Walzbachtal · Jöhlingen und Wössingen"
+      ],
+      "examples": [
+        {
+          "id": "walzbachtal-5934-2027-03-16-1900",
+          "title": "Mitgliederversammlung",
+          "date": "2027-03-16",
+          "url": "https://www.walzbachtal.de/veranstaltung/Mitgliederversammlung-event-appointment5934"
         }
       ]
     },
@@ -24374,6 +25165,68 @@
       ]
     },
     {
+      "key": "venue-e307b5685e71b041e67d",
+      "location": "Naturfreundehaus Hopfenberg",
+      "scope": "berghausen",
+      "scopeLabel": "Pfinztal-Berghausen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-node-563834301",
+        "name": "Naturfreundehaus Am Hopfenberg",
+        "latitude": 49.0008503,
+        "longitude": 8.5265647,
+        "address": "Touristenweg 11, 76327 Pfinztal-Berghausen",
+        "url": "https://www.openstreetmap.org/node/563834301",
+        "category": "amenity",
+        "type": "restaurant",
+        "street": "Touristenweg",
+        "houseNumber": "11",
+        "city": "Pfinztal",
+        "district": "Berghausen"
+      },
+      "candidates": [
+        {
+          "id": "osm-node-563834301",
+          "name": "Naturfreundehaus Am Hopfenberg",
+          "latitude": 49.0008503,
+          "longitude": 8.5265647,
+          "address": "Touristenweg 11, 76327 Berghausen",
+          "url": "https://www.openstreetmap.org/node/563834301",
+          "category": "amenity",
+          "type": "restaurant",
+          "city": "Berghausen",
+          "district": "Berghausen",
+          "locality": "",
+          "street": "Touristenweg",
+          "houseNumber": "11",
+          "score": 0.87,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "naturfreunde-berghausen"
+      ],
+      "sources": [
+        "NaturFreunde Berghausen"
+      ],
+      "examples": [
+        {
+          "id": "naturfreunde-berghausen-999-2027-01-03-1500",
+          "title": "Die Grüne Stunde in den Rau(c)h-Nächten",
+          "date": "2027-01-03",
+          "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2027/01/03/999/-/die-gruene-stunde-in-den-rau-c-h-naechten"
+        }
+      ]
+    },
+    {
       "key": "venue-ef40c94812ec05556387",
       "location": "Naturfreundehaus Pfinztalblick, Am Neuen Berg, Pfinztal-Söllingen",
       "scope": "soellingen",
@@ -25358,6 +26211,63 @@
           "title": "Kloistoibacher Weihnachtsmärktle",
           "date": "2026-12-04",
           "url": "https://pfinztal.de/wp-content/uploads/2026/02/Kopie-von-Finaler-Veranstaltungskalender_2026_Stand_09.12.2025.pdf#page=10"
+        }
+      ]
+    },
+    {
+      "key": "venue-64703e1b2b6166a111fb",
+      "location": "Pizzeria Gemelli",
+      "scope": "walzbachtal",
+      "scopeLabel": "Walzbachtal",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-298858706",
+        "name": "Ristorante Pizzeria Gemelli",
+        "latitude": 49.0153015,
+        "longitude": 8.600918,
+        "address": "Wössinger Straße 119, 75045 Walzbachtal-Wössingen",
+        "url": "https://www.openstreetmap.org/way/298858706",
+        "category": "amenity",
+        "type": "restaurant",
+        "street": "Wössinger Straße",
+        "houseNumber": "119"
+      },
+      "candidates": [
+        {
+          "id": "osm-way-298858706",
+          "name": "Ristorante Pizzeria Gemelli",
+          "latitude": 49.0153015,
+          "longitude": 8.600918,
+          "address": "Wössinger Straße 119, 75045 Walzbachtal-Wössingen",
+          "url": "https://www.openstreetmap.org/way/298858706",
+          "category": "amenity",
+          "type": "restaurant",
+          "street": "Wössinger Straße",
+          "houseNumber": "119",
+          "score": 0.744,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "walzbachtal"
+      ],
+      "sources": [
+        "Walzbachtal · Jöhlingen und Wössingen"
+      ],
+      "examples": [
+        {
+          "id": "walzbachtal-5547-2026-12-02-1500",
+          "title": "Offener Stammtisch-Treff 60+",
+          "date": "2026-12-02",
+          "url": "https://www.walzbachtal.de/veranstaltung/Offener-Stammtisch-Treff-60-event-appointment5547"
         }
       ]
     },
@@ -26983,6 +27893,64 @@
       ]
     },
     {
+      "key": "venue-5dee77c9ebeb946a0ab0",
+      "location": "Sohlsiedlung 7, 76356 Weingarten",
+      "scope": "weingarten",
+      "scopeLabel": "Weingarten (Baden)",
+      "status": "resolved",
+      "reason": "Koordinate ausdrücklich auf der Originalseite dieses Spielorts angegeben.",
+      "method": "publisher",
+      "place": {
+        "id": "weingarten-location-966",
+        "name": "Sohlsiedlung 7, 76356 Weingarten",
+        "latitude": 49.061691254028325,
+        "longitude": 8.556697089863132,
+        "address": "Sohlsiedlung 7  76356 Weingarten",
+        "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/966/musikhock-im-sohl",
+        "eventUrl": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/966/musikhock-im-sohl",
+        "category": "publisher",
+        "type": "venue",
+        "provenance": "publisher",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "weingarten-location-966",
+          "name": "Sohlsiedlung 7, 76356 Weingarten",
+          "latitude": 49.061691254028325,
+          "longitude": 8.556697089863132,
+          "address": "Sohlsiedlung 7  76356 Weingarten",
+          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/966/musikhock-im-sohl",
+          "eventUrl": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/966/musikhock-im-sohl",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "weingarten"
+      ],
+      "sources": [
+        "Gemeinde Weingarten (Baden)"
+      ],
+      "examples": [
+        {
+          "id": "weingarten-966-2027-05-01-1100",
+          "title": "Musikhock im Sohl",
+          "date": "2027-05-01",
+          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/966/musikhock-im-sohl"
+        }
+      ]
+    },
+    {
       "key": "venue-0944f5518ba0f9808c14",
       "location": "Spechaahalle Spöck",
       "scope": null,
@@ -27978,6 +28946,63 @@
           "title": "Glühweinabend",
           "date": "2026-12-30",
           "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12572"
+        }
+      ]
+    },
+    {
+      "key": "venue-3f7ef489d52a23f50dd0",
+      "location": "Treffpunkt Bahnhof Grötzingen",
+      "scope": "groetzingen",
+      "scopeLabel": "Grötzingen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-node-2847096861",
+        "name": "Bahnhof Grötzingen",
+        "latitude": 49.0061339,
+        "longitude": 8.4927936,
+        "address": "Bahnhof Grötzingen, Karlsruhe",
+        "url": "https://www.openstreetmap.org/node/2847096861",
+        "category": "railway",
+        "type": "station",
+        "street": "",
+        "houseNumber": ""
+      },
+      "candidates": [
+        {
+          "id": "osm-node-2847096861",
+          "name": "Bahnhof Grötzingen",
+          "latitude": 49.0061339,
+          "longitude": 8.4927936,
+          "address": "Bahnhof Grötzingen, Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/2847096861",
+          "category": "railway",
+          "type": "station",
+          "street": "",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "eki-groetzingen"
+      ],
+      "sources": [
+        "Evangelische Kirche Grötzingen"
+      ],
+      "examples": [
+        {
+          "id": "eki-groetzingen-966401-2026-12-18-0800",
+          "title": "Wanderung der Wandergruppe",
+          "date": "2026-12-18",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/966401-wanderung-der-wandergruppe/?vt=1&cb-id=118282"
         }
       ]
     },
@@ -29483,6 +30508,47 @@
       ]
     },
     {
+      "key": "venue-4ca7f2c6395628648a32",
+      "location": "Weinbrennerkirche Wössingen",
+      "scope": "woessingen",
+      "scopeLabel": "Walzbachtal-Wössingen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-319638926",
+        "name": "Weinbrennerkirche Wössingen",
+        "latitude": 49.0121583,
+        "longitude": 8.6109212,
+        "address": "Weinbrennerstraße, 75045 Walzbachtal-Wössingen",
+        "url": "https://www.openstreetmap.org/way/319638926",
+        "category": "amenity",
+        "type": "place_of_worship",
+        "street": "Weinbrennerstraße",
+        "houseNumber": ""
+      },
+      "candidates": [],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "walzbachtal"
+      ],
+      "sources": [
+        "Walzbachtal · Jöhlingen und Wössingen"
+      ],
+      "examples": [
+        {
+          "id": "walzbachtal-6031-2027-03-14-0930",
+          "title": "Jubelkonfirmation Walzbachtal",
+          "date": "2027-03-14",
+          "url": "https://www.walzbachtal.de/veranstaltung/Jubelkonfirmation-Walzbachtal-event-appointment6031"
+        }
+      ]
+    },
+    {
       "key": "venue-db4ffdaca27ce1ca8da1",
       "location": "Weingartner Weinberg oberhalb Parkplatz Liverdunplatz",
       "scope": "weingarten",
@@ -29721,6 +30787,96 @@
       ]
     },
     {
+      "key": "venue-dde9e5d855e6bbe356ff",
+      "location": "Wössinger-Hof",
+      "scope": "walzbachtal",
+      "scopeLabel": "Walzbachtal",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-319638123",
+        "name": "Wössinger Hof",
+        "latitude": 49.010675,
+        "longitude": 8.6109074,
+        "address": "Wössinger Straße 27, 75045 Walzbachtal-Wössingen",
+        "url": "https://www.openstreetmap.org/way/319638123",
+        "category": "building",
+        "type": "yes",
+        "street": "Wössinger Straße",
+        "houseNumber": "27"
+      },
+      "candidates": [
+        {
+          "id": "osm-way-319638123",
+          "name": "Wössinger Hof",
+          "latitude": 49.0106649,
+          "longitude": 8.6108503,
+          "address": "Wössinger Straße 27, 75045 Wössingen",
+          "url": "https://www.openstreetmap.org/way/319638123",
+          "category": "building",
+          "type": "yes",
+          "street": "Wössinger Straße",
+          "houseNumber": "27",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-38004129",
+          "name": "Wössinger Straße",
+          "latitude": 49.0101883,
+          "longitude": 8.6114919,
+          "address": "75045 Wössingen",
+          "url": "https://www.openstreetmap.org/way/38004129",
+          "category": "highway",
+          "type": "secondary",
+          "city": "Wössingen",
+          "district": "",
+          "locality": "",
+          "street": "",
+          "houseNumber": "",
+          "score": 0.667,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-351747474",
+          "name": "Speyerer Hof",
+          "latitude": 49.0324866,
+          "longitude": 8.5727042,
+          "address": "Kirchplatz 14, 75045 Jöhlingen",
+          "url": "https://www.openstreetmap.org/way/351747474",
+          "category": "building",
+          "type": "public",
+          "street": "Kirchplatz",
+          "houseNumber": "14",
+          "score": 0.56,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "walzbachtal"
+      ],
+      "sources": [
+        "Walzbachtal · Jöhlingen und Wössingen"
+      ],
+      "examples": [
+        {
+          "id": "walzbachtal-6131-2027-04-30-1700",
+          "title": "Maifest Wössinger-Hof",
+          "date": "2027-04-30",
+          "url": "https://www.walzbachtal.de/veranstaltung/Maifest-Woessinger-Hof-event-appointment6131"
+        }
+      ]
+    },
+    {
       "key": "venue-220e9bc5b4b4cec82569",
       "location": "ZKM │ Zentrum für Kunst und Medien Karlsruhe, Medientheater",
       "scope": "karlsruhe",
@@ -29933,6 +31089,55 @@
           "title": "Play/Display: Symposium zu Spiel, Museum und kuratorischer Praxis",
           "date": "2026-11-26",
           "url": "https://kalender.karlsruhe.de/db/termine/literatur/playdisplay_symposium_zu_spiel_museum"
+        }
+      ]
+    },
+    {
+      "key": "venue-0f1c7a750e0dcc4a968e",
+      "location": "Zoologischer Stadtgarten. Treffpunkt Kasse Nord Nancyhalle.",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-node-6603791230",
+        "name": "Kasse Nord, Zoologischer Stadtgarten",
+        "latitude": 49.0015776,
+        "longitude": 8.4002344,
+        "address": "Festplatz, Karlsruhe",
+        "url": "https://www.openstreetmap.org/node/6603791230",
+        "category": "shop",
+        "type": "ticket",
+        "street": "",
+        "houseNumber": ""
+      },
+      "candidates": [],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [
+        {
+          "street": "Lammstraße 7 a",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Lammstraße 7 a, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/der_stadtgarten_im_winter_fuhrung_durch"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-583f1cca8832acdc",
+          "title": "Der Stadtgarten im Winter - Führung durch die Stadtgartenfreunde",
+          "date": "2026-12-06",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/der_stadtgarten_im_winter_fuhrung_durch"
         }
       ]
     },

@@ -20467,6 +20467,228 @@
           "houseNumber": "11"
         }
       ]
+    },
+    "Rathausplatz Wössingen, Wössingen": {
+      "checkedAt": "2026-11-22T12:28:11+00:00",
+      "places": [
+        {
+          "id": "osm-node-3479108447",
+          "name": "Flurbereinigung Wössingen-Dürrenbüchig (B 293) 1975-2008",
+          "latitude": 49.0106778,
+          "longitude": 8.6436161,
+          "address": "Jagdhüttenweg, 75015 Bretten",
+          "url": "https://www.openstreetmap.org/node/3479108447",
+          "category": "historic",
+          "type": "memorial",
+          "city": "Bretten",
+          "district": "Dürrenbüchig",
+          "locality": "",
+          "street": "Jagdhüttenweg",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-38004129",
+          "name": "Wössinger Straße",
+          "latitude": 49.0101883,
+          "longitude": 8.6114919,
+          "address": "75045 Wössingen",
+          "url": "https://www.openstreetmap.org/way/38004129",
+          "category": "highway",
+          "type": "secondary",
+          "city": "Wössingen",
+          "district": "",
+          "locality": "",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-relation-358055",
+          "name": "Wössingen",
+          "latitude": 49.0108681,
+          "longitude": 8.6104294,
+          "address": "75045",
+          "url": "https://www.openstreetmap.org/relation/358055",
+          "category": "place",
+          "type": "village",
+          "city": "",
+          "district": "",
+          "locality": "",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-36873097",
+          "name": "Zementwerk Wössingen",
+          "latitude": 49.0149358,
+          "longitude": 8.6284997,
+          "address": "Wössingen",
+          "url": "https://www.openstreetmap.org/way/36873097",
+          "category": "landuse",
+          "type": "quarry",
+          "city": "Wössingen",
+          "district": "",
+          "locality": "",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-36873096",
+          "name": "Zementwerk Wössingen",
+          "latitude": 49.0166624,
+          "longitude": 8.6146169,
+          "address": "Wössingen",
+          "url": "https://www.openstreetmap.org/way/36873096",
+          "category": "landuse",
+          "type": "industrial",
+          "city": "Wössingen",
+          "district": "",
+          "locality": "",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Kirchplatz hinter der St. Martin-Kirche am Wendelinusbrunnen, Walzbachtal": {
+      "checkedAt": "2026-11-22T12:28:11+00:00",
+      "places": []
+    },
+    "Teffpunkt Toreinfahrt Alte Schule Jöhlingen, Jöhlingen": {
+      "checkedAt": "2026-11-22T12:28:11+00:00",
+      "places": []
+    },
+    "Kirchplatz Jöhlingen, Jöhlingen": {
+      "checkedAt": "2026-11-22T12:28:11+00:00",
+      "places": [
+        {
+          "id": "osm-node-6383257865",
+          "name": "Jöhlingen Kirchplatz",
+          "latitude": 49.0320747,
+          "longitude": 8.5748251,
+          "address": "Jöhlinger Straße, 75045 Jöhlingen",
+          "url": "https://www.openstreetmap.org/node/6383257865",
+          "category": "highway",
+          "type": "bus_stop",
+          "city": "Jöhlingen",
+          "district": "",
+          "locality": "",
+          "street": "Jöhlinger Straße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-5971289401",
+          "name": "Schachklub 1929 Jöhlingen (Vereinsraum)",
+          "latitude": 49.0325547,
+          "longitude": 8.5727305,
+          "address": "Kirchplatz 14, 75045 Jöhlingen",
+          "url": "https://www.openstreetmap.org/node/5971289401",
+          "category": "club",
+          "type": "yes",
+          "city": "Jöhlingen",
+          "district": "Jöhlingen",
+          "locality": "",
+          "street": "Kirchplatz",
+          "houseNumber": "14"
+        },
+        {
+          "id": "osm-node-13372171900",
+          "name": "Schülerhort Jöhlingen",
+          "latitude": 49.0324425,
+          "longitude": 8.5723229,
+          "address": "Kirchplatz 16, 75045 Jöhlingen",
+          "url": "https://www.openstreetmap.org/node/13372171900",
+          "category": "amenity",
+          "type": "childcare",
+          "city": "Jöhlingen",
+          "district": "Jöhlingen",
+          "locality": "",
+          "street": "Kirchplatz",
+          "houseNumber": "16"
+        },
+        {
+          "id": "osm-way-1372455957",
+          "name": "Grund- und Werkrealschule Jöhlingen",
+          "latitude": 49.0326156,
+          "longitude": 8.5719695,
+          "address": "Kirchplatz 18, 75045 Jöhlingen",
+          "url": "https://www.openstreetmap.org/way/1372455957",
+          "category": "amenity",
+          "type": "school",
+          "city": "Jöhlingen",
+          "district": "Jöhlingen",
+          "locality": "",
+          "street": "Kirchplatz",
+          "houseNumber": "18"
+        },
+        {
+          "id": "osm-node-1490561774",
+          "name": "Bürgerbüro Jöhlingen",
+          "latitude": 49.0324645,
+          "longitude": 8.572279,
+          "address": "Kirchplatz 11, 75045 Jöhlingen",
+          "url": "https://www.openstreetmap.org/node/1490561774",
+          "category": "amenity",
+          "type": "townhall",
+          "city": "Jöhlingen",
+          "district": "Jöhlingen",
+          "locality": "",
+          "street": "Kirchplatz",
+          "houseNumber": "11"
+        }
+      ]
+    },
+    "Pfarrsaal der Katholiken, Grötzingen": {
+      "checkedAt": "2026-11-22T12:28:11+00:00",
+      "places": []
+    },
+    "Friedhof Grötzingen, Grötzingen": {
+      "checkedAt": "2026-11-22T12:28:11+00:00",
+      "places": [
+        {
+          "id": "osm-way-4410160",
+          "name": "Friedhof Grötzingen",
+          "latitude": 49.0035125,
+          "longitude": 8.5112466,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/4410160",
+          "category": "landuse",
+          "type": "cemetery",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Südlich der Pfinz",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-188321102",
+          "name": "Alter Jüdischer Friedhof",
+          "latitude": 49.0150071,
+          "longitude": 8.4985612,
+          "address": "Am Liepoldsacker, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/188321102",
+          "category": "amenity",
+          "type": "grave_yard",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Am Liepoldsacker",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-10814841781",
+          "name": "Rathaus 3 (Bauamt, Friedhofsverwaltung, Bauhof)",
+          "latitude": 49.0075058,
+          "longitude": 8.4966619,
+          "address": "Rathausgasse 2, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/10814841781",
+          "category": "amenity",
+          "type": "townhall",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Rathausgasse",
+          "houseNumber": "2"
+        }
+      ]
     }
   },
   "attribution": {

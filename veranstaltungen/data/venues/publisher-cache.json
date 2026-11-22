@@ -1927,6 +1927,44 @@
           "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/der_stadtgarten_im_winter_fuhrung_durch"
         }
       ]
+    },
+    "venue-234f2cc5cfd0ac59ec49": {
+      "checkedAt": "2026-11-22T12:28:11+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-5dee77c9ebeb946a0ab0": {
+      "checkedAt": "2026-11-22T12:28:11+00:00",
+      "places": [
+        {
+          "id": "weingarten-location-966",
+          "name": "Sohlsiedlung 7, 76356 Weingarten",
+          "latitude": 49.061691254028325,
+          "longitude": 8.556697089863132,
+          "address": "Sohlsiedlung 7  76356 Weingarten",
+          "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/966/musikhock-im-sohl",
+          "eventUrl": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/966/musikhock-im-sohl",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ],
+      "addresses": []
+    },
+    "venue-7146e831d36842aef6a4": {
+      "checkedAt": "2026-11-22T12:28:11+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-88fe188bf98d3a9c7d46": {
+      "checkedAt": "2026-11-22T12:28:11+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-be747d019b3cbff89596": {
+      "checkedAt": "2026-11-22T12:28:11+00:00",
+      "places": [],
+      "addresses": []
     }
   }
 }
