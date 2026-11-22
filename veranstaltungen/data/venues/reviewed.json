@@ -6225,6 +6225,124 @@
         "category": "landuse",
         "type": "events"
       }
+    },
+    {
+      "key": "venue-cfdf7fd670e82998a761",
+      "location": "Kirche",
+      "scope": "soellingen",
+      "decision": "place",
+      "organizer": "Männergesangverein",
+      "sourceContext": null,
+      "reviewedOn": "2026-11-22",
+      "note": "Auswahl aus der Ortsprüfung. Der Vereinskalender nennt als Ortsangabe nur „Kirche“.",
+      "place": {
+        "id": "osm-way-248354166",
+        "name": "Neuapostolische Kirche",
+        "latitude": 48.9830724,
+        "longitude": 8.5495045,
+        "address": "Hauptstraße 143, 76327 Söllingen",
+        "url": "https://www.openstreetmap.org/way/248354166",
+        "category": "amenity",
+        "type": "place_of_worship",
+        "street": "Hauptstraße",
+        "houseNumber": "143"
+      },
+      "sourceUrl": "https://pfinztal.de/wp-content/uploads/2026/02/Kopie-von-Finaler-Veranstaltungskalender_2026_Stand_09.12.2025.pdf#page=5"
+    },
+    {
+      "key": "venue-0f53d877e0de390c5ca6",
+      "location": "Kirche",
+      "scope": "soellingen",
+      "decision": "place",
+      "organizer": "Posaunenchor",
+      "sourceContext": null,
+      "reviewedOn": "2026-11-22",
+      "note": "Auswahl aus der Ortsprüfung. Der Vereinskalender nennt als Ortsangabe nur „Kirche“.",
+      "place": {
+        "id": "osm-way-248354166",
+        "name": "Neuapostolische Kirche",
+        "latitude": 48.9830724,
+        "longitude": 8.5495045,
+        "address": "Hauptstraße 143, 76327 Söllingen",
+        "url": "https://www.openstreetmap.org/way/248354166",
+        "category": "amenity",
+        "type": "place_of_worship",
+        "street": "Hauptstraße",
+        "houseNumber": "143"
+      },
+      "sourceUrl": "https://pfinztal.de/wp-content/uploads/2026/02/Kopie-von-Finaler-Veranstaltungskalender_2026_Stand_09.12.2025.pdf#page=5"
+    },
+    {
+      "key": "venue-5161aa7406f7e2efff8e",
+      "location": "Minestrone (ex Substage Café)",
+      "scope": "karlsruhe",
+      "decision": "place",
+      "organizer": "",
+      "sourceContext": null,
+      "reviewedOn": "2026-11-22",
+      "note": "Der Stadtkalender nennt Alter Schlachthof 19. Die Auswahl bezeichnet Minestrone an dieser Adresse.",
+      "place": {
+        "id": "osm-way-645691489",
+        "name": "MINESTRONE",
+        "latitude": 49.0052824,
+        "longitude": 8.4297144,
+        "address": "Alter Schlachthof 19, 76131 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/645691489",
+        "category": "amenity",
+        "type": "restaurant",
+        "city": "Karlsruhe",
+        "district": "Oststadt",
+        "locality": "Kreativpark Alter Schlachthof",
+        "street": "Alter Schlachthof",
+        "houseNumber": "19"
+      },
+      "sourceUrl": "https://kalender.karlsruhe.de/db/termine/musik/karlsunruhe_alljoines_still_boys_stikkie"
+    },
+    {
+      "key": "venue-d06a02763ca924883a2e",
+      "location": "Am Fluckenberg, Orientierung Ortsmitte Mutschelbach",
+      "scope": "remchingen",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-22",
+      "note": "Auf Wunsch dient der Rathausplatz in Mutschelbach als Orientierung für dieses Mopedtreffen. Die Ankündigung nennt Am Fluckenberg in Remchingen als Veranstaltungsort.",
+      "sourceUrl": "https://www.remchingen.de/veranstaltungen/5-remchinger-mopedtreffen-id_3390/",
+      "place": {
+        "id": "osm-way-979777743",
+        "name": "Ortsmitte Mutschelbach (Orientierung für Am Fluckenberg)",
+        "latitude": 48.9438244,
+        "longitude": 8.534376,
+        "address": "Rathausplatz, Karlsbad-Mutschelbach. Veranstaltungsgelände: Am Fluckenberg, Remchingen.",
+        "url": "https://www.openstreetmap.org/way/979777743",
+        "category": "highway",
+        "type": "living_street"
+      }
+    },
+    {
+      "key": "venue-f3869bdedad31cc8ef08",
+      "location": "Reitsportclub Daxlanden e.V.",
+      "scope": "karlsruhe",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-22",
+      "note": "Der Stadtkalender nennt Hermann-Schneider-Allee 1 für die Vereinsanlage. Das OSM-Objekt ist als Reitsportclub Daxlanden benannt.",
+      "sourceUrl": "https://kalender.karlsruhe.de/db/termine/reitsportclub_daxlanden_ev/",
+      "place": {
+        "id": "osm-way-121071276",
+        "name": "Reitsportclub Daxlanden",
+        "latitude": 49.0025301,
+        "longitude": 8.3182957,
+        "address": "Hermann-Schneider-Allee 1, 76189 Karlsruhe-Daxlanden",
+        "url": "https://www.openstreetmap.org/way/121071276",
+        "category": "club",
+        "type": "sport",
+        "street": "Hermann-Schneider-Allee",
+        "houseNumber": "1",
+        "city": "Karlsruhe",
+        "district": "Daxlanden"
+      }
     }
   ],
   "notes": {
@@ -6309,8 +6427,8 @@
     "venue-7c8ed3f0364f6564fdef": {
       "location": "Am Fluckenberg",
       "scope": "remchingen",
-      "note": "Der Verein nennt für die Scheune am Fluckenberg die Mutschelbacher Straße. Die Murgstraße 14 ist die Kontaktanschrift. Der genaue Ort der Scheune an der Mutschelbacher Straße bleibt offen.",
-      "reviewedOn": "2026-11-21",
+      "note": "Der Verein nennt die Scheune am Fluckenberg an der Mutschelbacher Straße. Das 5. Remchinger Mopedtreffen hat den gewünschten Orientierungspunkt in der Ortsmitte von Mutschelbach.",
+      "reviewedOn": "2026-11-22",
       "sourceUrl": "https://www.die-mopedos-remchingen.de/mitglieder-info"
     },
     "venue-40f34999333d042180f4": {
@@ -6400,18 +6518,6 @@
     "venue-5577de689b8d6c2ca718": {
       "location": "Kath. Kirche",
       "scope": "weingarten",
-      "note": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
-      "reviewedOn": "2026-11-17"
-    },
-    "venue-cfdf7fd670e82998a761": {
-      "location": "Kirche",
-      "scope": "soellingen",
-      "note": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
-      "reviewedOn": "2026-11-17"
-    },
-    "venue-0f53d877e0de390c5ca6": {
-      "location": "Kirche",
-      "scope": "soellingen",
       "note": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
       "reviewedOn": "2026-11-17"
     },
@@ -6550,9 +6656,9 @@
     "venue-ef2dad7582f27b43ee5f": {
       "location": "Gottesdienst an einem anderen Ort - siehe Ankündigung",
       "scope": null,
-      "note": "Die Gemeinde verwendet diese Angabe für wechselnde Gottesdienstorte. Belegte Einzeltermine erhalten ihren jeweiligen Treffpunkt.",
-      "reviewedOn": "2026-11-21",
-      "sourceUrl": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1111861-oek-friedensgebet/?vt=1&cb-id=193413"
+      "note": "Diese Angabe steht für wechselnde Orte. Das Friedensgebet am 19. Februar 2027 findet laut eigener Terminbeschreibung in St. Margaretha Wolfartsweier statt.",
+      "reviewedOn": "2026-11-22",
+      "sourceUrl": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1120729-oek-friedensgebet/?vt=1&cb-id=193413"
     },
     "venue-a8d231e0a06d30149db1": {
       "location": "Auerbach",
@@ -6729,6 +6835,16 @@
       "originalVenueKey": "venue-a8597da58146bdbdf3ca",
       "reviewedVenueKey": "venue-347a6ac42276b3d47993",
       "sourceUrl": "https://kalender.karlsruhe.de/db/termine/stadtleben/rundgang_areal_alter_schlachthof_karlsruhe-305"
+    },
+    "remchingen-3390-2027-07-31-1600": {
+      "originalVenueKey": "venue-7c8ed3f0364f6564fdef",
+      "reviewedVenueKey": "venue-d06a02763ca924883a2e",
+      "sourceUrl": "https://www.remchingen.de/veranstaltungen/5-remchinger-mopedtreffen-id_3390/"
+    },
+    "bergdoerfer-1120729": {
+      "originalVenueKey": "venue-ef2dad7582f27b43ee5f",
+      "reviewedVenueKey": "venue-ab75c87f7fdf5664b11b",
+      "sourceUrl": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1120729-oek-friedensgebet/?vt=1&cb-id=193413"
     }
   }
 }
