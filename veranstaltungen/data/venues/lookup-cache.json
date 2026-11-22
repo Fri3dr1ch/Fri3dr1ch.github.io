@@ -20689,6 +20689,85 @@
           "houseNumber": "2"
         }
       ]
+    },
+    "Durlacher Allee 23, Karlsruhe-Oststadt": {
+      "checkedAt": "2026-11-22T19:46:42+00:00",
+      "places": [
+        {
+          "id": "osm-way-195066765",
+          "name": "Lutherkirche",
+          "latitude": 49.0081125,
+          "longitude": 8.4235137,
+          "address": "Durlacher Allee 23, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/195066765",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Westlicher Teil",
+          "street": "Durlacher Allee",
+          "houseNumber": "23"
+        },
+        {
+          "id": "osm-node-276852680",
+          "name": "Durlacher Allee 23",
+          "latitude": 49.0079827,
+          "longitude": 8.423462,
+          "address": "Durlacher Allee 23, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/276852680",
+          "category": "place",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Westlicher Teil",
+          "street": "Durlacher Allee",
+          "houseNumber": "23"
+        }
+      ]
+    },
+    "Erbprinzenstraße 14, Karlsruhe": {
+      "checkedAt": "2026-11-22T19:46:42+00:00",
+      "places": [
+        {
+          "id": "osm-way-90033144",
+          "name": "Erbprinzenstraße 14",
+          "latitude": 49.0085603,
+          "longitude": 8.4000766,
+          "address": "Erbprinzenstraße 14, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/90033144",
+          "category": "place",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Erbprinzenstraße",
+          "houseNumber": "14"
+        }
+      ]
+    },
+    "vor dem Ex-Reisezentrum/Hbf-Halle, Karlsruhe": {
+      "checkedAt": "2026-11-22T19:46:42+00:00",
+      "places": []
+    },
+    "Marienstraße 12, Karlsruhe": {
+      "checkedAt": "2026-11-22T19:46:42+00:00",
+      "places": [
+        {
+          "id": "osm-way-99161356",
+          "name": "Marienstraße 12",
+          "latitude": 49.0034363,
+          "longitude": 8.4078124,
+          "address": "Marienstraße 12, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/99161356",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Südstadt",
+          "locality": "Südstadt Nördlicher Teil",
+          "street": "Marienstraße",
+          "houseNumber": "12"
+        }
+      ]
     }
   },
   "attribution": {

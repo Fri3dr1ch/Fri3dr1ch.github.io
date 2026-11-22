@@ -1965,6 +1965,50 @@
       "checkedAt": "2026-11-22T12:28:11+00:00",
       "places": [],
       "addresses": []
+    },
+    "venue-053cc52f34eeb83e37ff": {
+      "checkedAt": "2026-11-22T19:46:42+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Durlacher Allee 23",
+          "city": "Karlsruhe-Oststadt",
+          "postalCode": "76131",
+          "address": "Durlacher Allee 23, 76131 Karlsruhe-Oststadt",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/winterkonzert_des_collegium_a_rhythmicum"
+        }
+      ]
+    },
+    "venue-5b4a97fdf711b6b3a619": {
+      "checkedAt": "2026-11-22T19:46:42+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Erbprinzenstr. 14",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Erbprinzenstr. 14, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/adventliche_orgelmusik-2"
+        }
+      ]
+    },
+    "venue-becf76c2fff6b84b2a41": {
+      "checkedAt": "2026-11-22T19:46:42+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-e5f1a712fff7cc90e94f": {
+      "checkedAt": "2026-11-22T19:46:42+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Marienstr. 12",
+          "city": "Karlsruhe",
+          "postalCode": "76137",
+          "address": "Marienstr. 12, 76137 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/finissage_der_ausstellung_lotus_von_valentina_jaffe"
+        }
+      ]
     }
   }
 }
