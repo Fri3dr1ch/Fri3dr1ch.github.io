@@ -6343,6 +6343,259 @@
         "city": "Karlsruhe",
         "district": "Daxlanden"
       }
+    },
+    {
+      "key": "venue-8e7c2a929dcc57d107f5",
+      "location": "Mehrzweckhalle",
+      "scope": "woeschbach",
+      "organizer": "Akkordeonring 1963 Wöschbach",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-22",
+      "place": {
+        "id": "osm-way-243492434",
+        "name": "Mehrzweckhalle Wöschbach",
+        "latitude": 48.9974842,
+        "longitude": 8.5670688,
+        "address": "Im Eigen 10, 76327 Wöschbach",
+        "url": "https://www.openstreetmap.org/way/243492434",
+        "category": "building",
+        "type": "school",
+        "street": "Im Eigen",
+        "houseNumber": "10"
+      },
+      "note": "Die Gemeindeverwaltung nennt Im Eigen 10. Laut TTC Wöschbach liegt die Halle hinter der Grundschule. Zufahrt über die Hegenbergstraße.",
+      "sourceUrl": "https://booking.locaboo.com/de/pfinztal/mehrzweckhalle-woeschbach"
+    },
+    {
+      "key": "venue-db4ee6533d8ecd25c937",
+      "location": "Mehrzweckhalle",
+      "scope": "woeschbach",
+      "organizer": "Musikverein Frohsinn Wöschbach 1901",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-22",
+      "place": {
+        "id": "osm-way-243492434",
+        "name": "Mehrzweckhalle Wöschbach",
+        "latitude": 48.9974842,
+        "longitude": 8.5670688,
+        "address": "Im Eigen 10, 76327 Wöschbach",
+        "url": "https://www.openstreetmap.org/way/243492434",
+        "category": "building",
+        "type": "school",
+        "street": "Im Eigen",
+        "houseNumber": "10"
+      },
+      "note": "Die Gemeindeverwaltung nennt Im Eigen 10. Laut TTC Wöschbach liegt die Halle hinter der Grundschule. Zufahrt über die Hegenbergstraße.",
+      "sourceUrl": "https://booking.locaboo.com/de/pfinztal/mehrzweckhalle-woeschbach"
+    },
+    {
+      "key": "venue-2a2f6d195ffcc8eb56e1",
+      "location": "Pfarrhof",
+      "scope": "woeschbach",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-22",
+      "place": {
+        "id": "osm-way-243446554",
+        "name": "Pfarrhof Wöschbach (Adresse)",
+        "latitude": 48.9989098,
+        "longitude": 8.5682304,
+        "address": "Wesostraße 32, 76327 Wöschbach",
+        "url": "https://www.openstreetmap.org/way/243446554",
+        "category": "building",
+        "type": "yes",
+        "street": "Wesostraße",
+        "houseNumber": "32"
+      },
+      "note": "Die Kirchengemeinde nennt für das Adventsliederspielen des Musikvereins im Pfarrhof die Wesostraße 32. Der Kartenpunkt markiert die Adresse.",
+      "sourceUrl": "https://www.kath-pforzheim.de/media/download/variant/1131626/weihnachtspfarrbrief-2023.pdf"
+    },
+    {
+      "key": "venue-c02140adca300eb8e217",
+      "location": "Pfarrsaal",
+      "scope": "woeschbach",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-22",
+      "place": {
+        "id": "osm-way-243100249",
+        "name": "Pfarrsaal Wöschbach (Adresse)",
+        "latitude": 48.9997866,
+        "longitude": 8.5660234,
+        "address": "Saldingerstraße 7, 76327 Wöschbach",
+        "url": "https://www.openstreetmap.org/way/243100249",
+        "category": "amenity",
+        "type": "kindergarten",
+        "street": "Saldingerstraße",
+        "houseNumber": "7"
+      },
+      "note": "Die Gemeinde nennt Saldingerstraße 7 für den Pfarrsaal der katholischen Kirchengemeinde. Der Kartenpunkt markiert die gemeinsame Adresse.",
+      "sourceUrl": "https://pfinztal.de/events/digital-unterwegs-und-sicher-im-alltag-informationsveranstaltung-fuer-seniorinnen-und-senioren/"
+    },
+    {
+      "key": "venue-99f28e8dc10d5541f1ed",
+      "location": "Lehrgarten",
+      "scope": "woeschbach",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-22",
+      "place": {
+        "id": "osm-way-320347049",
+        "name": "Lehrgarten Wöschbach (Orientierung: Friedhofsparkplatz)",
+        "latitude": 48.999617,
+        "longitude": 8.5692252,
+        "address": "Parkplatz am Friedhof, 76327 Wöschbach",
+        "url": "https://www.openstreetmap.org/way/320347049",
+        "category": "amenity",
+        "type": "parking",
+        "street": "",
+        "houseNumber": ""
+      },
+      "note": "Der Verein nennt den Friedhof als Parkmöglichkeit für seinen lebendigen Adventskalender. Laut Ferienprogramm liegt der Lehrgarten bei der Wössinger Straße. Der Punkt markiert den Parkplatz als Orientierung.",
+      "sourceUrl": "https://www.nussbaum.de/entdecken/news/termine-zum-jahreswechsel-3131811"
+    },
+    {
+      "key": "venue-2d8daad3ca143d0110e0",
+      "location": "Johannes-Brahms-Saal, Stadthalle Karlsruhe",
+      "scope": "karlsruhe",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-22",
+      "place": {
+        "id": "osm-way-15526554",
+        "name": "Stadthalle",
+        "latitude": 49.0034181,
+        "longitude": 8.4012497,
+        "address": "Festplatz 4, 76137 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/15526554",
+        "category": "amenity",
+        "type": "exhibition_hall",
+        "street": "Festplatz",
+        "houseNumber": "4"
+      },
+      "note": "Die veranstaltungsbezogenen Ticketseiten nennen den Johannes-Brahms-Saal. Die Messe Karlsruhe führt den Brahmssaal in der Stadthalle. Der Kartenpunkt markiert das Gebäude.",
+      "sourceUrl": "https://www.eventim.de/event/abba-dancing-queen-show-stadthalle-karlsruhe-21890194/"
+    },
+    {
+      "key": "venue-7b4d3d137f75e2263adb",
+      "location": "Vereinsgelände des Kleintierzuchtvereins C 182 Söllingen",
+      "scope": "soellingen",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-22",
+      "place": {
+        "id": "osm-node-1329579839",
+        "name": "Kleintierzuchtverein C 182 Söllingen",
+        "latitude": 48.9796279,
+        "longitude": 8.5353861,
+        "address": "Am Bruch (verlängerte Rittnertstraße), 76327 Söllingen",
+        "url": "https://www.openstreetmap.org/node/1329579839",
+        "category": "tourism",
+        "type": "zoo",
+        "street": "Am Bruch",
+        "houseNumber": ""
+      },
+      "note": "Das Vereinsgelände liegt laut BUND Pfinztal an der verlängerten Rittnertstraße am Bruch. OSM verzeichnet dort den Kleintierzuchtverein.",
+      "sourceUrl": "https://tag-der-artenvielfalt-bw.de/tda/was-waechst-kreucht-und-fleucht-im-feuchtbiotop-am-bruch/"
+    },
+    {
+      "key": "venue-24e68165334ab289a212",
+      "location": "Evangelische Michaelskirche Söllingen",
+      "scope": "soellingen",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-22",
+      "place": {
+        "id": "osm-way-29227015",
+        "name": "Evangelische Michaelskirche Söllingen",
+        "latitude": 48.9856801,
+        "longitude": 8.5404585,
+        "address": "Kirchhofstraße, 76327 Söllingen",
+        "url": "https://www.openstreetmap.org/way/29227015",
+        "category": "amenity",
+        "type": "place_of_worship",
+        "street": "Kirchhofstraße",
+        "houseNumber": ""
+      },
+      "note": "Die Landeskirche bestätigt für den Termin am 29. November die Michaelskirche in Söllingen.",
+      "sourceUrl": "https://www.evangelisch-in-bw.de/aktuelles/gottesdienste-veranstaltungen/detail/termin/id/1126694-1-advent-rund-um-die-michaelskirche-soellingen/?cb-id=228543&vt=1"
+    },
+    {
+      "key": "venue-683176fe5c21fd0e6b7e",
+      "location": "Gemeindehaus Am Zwinger, Durlach",
+      "scope": "durlach",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-22",
+      "place": {
+        "id": "osm-way-103358944",
+        "name": "Evangelisches Gemeindehaus Am Zwinger",
+        "latitude": 48.9983431,
+        "longitude": 8.4708514,
+        "address": "Am Zwinger 5, 76227 Karlsruhe-Durlach",
+        "url": "https://www.openstreetmap.org/way/103358944",
+        "category": "amenity",
+        "type": "community_centre",
+        "street": "Am Zwinger",
+        "houseNumber": "5"
+      },
+      "note": "Die Stadtkirchengemeinde nennt für den Minigottesdienst den Großen Saal ihres Gemeindehauses am Zwinger. Der veröffentlichte Dezembertermin ist dort gelistet.",
+      "sourceUrl": "https://www.stadtkirche-durlach.de/gottesdienste/minigottesdienst/"
+    },
+    {
+      "key": "venue-834d194ca1d3e5f090e8",
+      "location": "Waldstraße 106, Stutensee-Büchig",
+      "scope": null,
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-22",
+      "place": {
+        "id": "osm-way-304287450",
+        "name": "Waldstraße 106, Stutensee-Büchig",
+        "latitude": 49.0497057,
+        "longitude": 8.4746987,
+        "address": "Waldstraße 106, 76297 Stutensee-Büchig",
+        "url": "https://www.openstreetmap.org/way/304287450",
+        "category": "building",
+        "type": "detached",
+        "street": "Waldstraße",
+        "houseNumber": "106"
+      },
+      "note": "Der Veranstaltungseintrag nennt am 11. Dezember die Waldstraße 106 in Büchig.",
+      "sourceUrl": "https://www.meinstutensee.de/veranstaltungen/adventsfest-in-buechig/"
+    },
+    {
+      "key": "venue-3312467a40c317543d93",
+      "location": "Weihnachtsbaumverkauf beim Waldklassenzimmer",
+      "scope": "karlsruhe",
+      "organizer": "",
+      "sourceContext": null,
+      "decision": "place",
+      "reviewedOn": "2026-11-22",
+      "place": {
+        "id": "osm-way-135510435",
+        "name": "Waldklassenzimmer (Orientierung: Weihnachtsbaumverkauf)",
+        "latitude": 49.0286172,
+        "longitude": 8.4088693,
+        "address": "Kanalweg, 76131 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/135510435",
+        "category": "building",
+        "type": "yes",
+        "street": "Kanalweg",
+        "houseNumber": ""
+      },
+      "note": "Der Veranstalter nennt die angrenzenden Christbaumkulturen beim Waldklassenzimmer. Der Punkt markiert das Waldklassenzimmer als Orientierung.",
+      "sourceUrl": "https://www.waldpaedagogik-karlsruhe.de/veranstaltungen-im-dezember#1805332639"
     }
   ],
   "notes": {
@@ -6521,28 +6774,10 @@
       "note": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
       "reviewedOn": "2026-11-17"
     },
-    "venue-99f28e8dc10d5541f1ed": {
-      "location": "Lehrgarten",
-      "scope": "woeschbach",
-      "note": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
-      "reviewedOn": "2026-11-17"
-    },
     "venue-3c6b35bd0e3437f7a0af": {
       "location": "Mehrere Orten",
       "scope": "karlsruhe",
       "note": "Nachprüfung: Kein einzelner fester Veranstaltungs- bzw. Treffpunkt aus der Ortsangabe ableitbar. Genauen Treffpunkt in der Originalquelle klären; keine Ortsmitte als Ersatz verwenden.",
-      "reviewedOn": "2026-11-17"
-    },
-    "venue-8e7c2a929dcc57d107f5": {
-      "location": "Mehrzweckhalle",
-      "scope": "woeschbach",
-      "note": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
-      "reviewedOn": "2026-11-17"
-    },
-    "venue-db4ee6533d8ecd25c937": {
-      "location": "Mehrzweckhalle",
-      "scope": "woeschbach",
-      "note": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
       "reviewedOn": "2026-11-17"
     },
     "venue-7aa571964792bc00b87c": {
@@ -6567,18 +6802,6 @@
       "location": "Ort wird noch bekannt gegeben",
       "scope": "weingarten",
       "note": "Nachprüfung: Kein einzelner fester Veranstaltungs- bzw. Treffpunkt aus der Ortsangabe ableitbar. Genauen Treffpunkt in der Originalquelle klären; keine Ortsmitte als Ersatz verwenden.",
-      "reviewedOn": "2026-11-17"
-    },
-    "venue-2a2f6d195ffcc8eb56e1": {
-      "location": "Pfarrhof",
-      "scope": "woeschbach",
-      "note": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
-      "reviewedOn": "2026-11-17"
-    },
-    "venue-c02140adca300eb8e217": {
-      "location": "Pfarrsaal",
-      "scope": "woeschbach",
-      "note": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
       "reviewedOn": "2026-11-17"
     },
     "venue-01f5a4d9361d3b2cecea": {
@@ -6620,8 +6843,9 @@
     "venue-3ac48088052968bb0570": {
       "location": "Vereinsgelände",
       "scope": "soellingen",
-      "note": "Nachprüfung: Kein einzelner fester Veranstaltungs- bzw. Treffpunkt aus der Ortsangabe ableitbar. Genauen Treffpunkt in der Originalquelle klären; keine Ortsmitte als Ersatz verwenden.",
-      "reviewedOn": "2026-11-17"
+      "note": "Der Vereinskalender verwendet „Vereinsgelände“ für unterschiedliche Vereine. Die Winterfeier des Kleintierzuchtvereins hat eine terminbezogene Zuordnung.",
+      "reviewedOn": "2026-11-22",
+      "sourceUrl": "https://tag-der-artenvielfalt-bw.de/tda/was-waechst-kreucht-und-fleucht-im-feuchtbiotop-am-bruch/"
     },
     "venue-7d0753641531aa472f86": {
       "location": "Verschiedene Orte",
@@ -6845,6 +7069,51 @@
       "originalVenueKey": "venue-ef2dad7582f27b43ee5f",
       "reviewedVenueKey": "venue-ab75c87f7fdf5664b11b",
       "sourceUrl": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1120729-oek-friedensgebet/?vt=1&cb-id=193413"
+    },
+    "karlsruhe-e97a932792f59713": {
+      "originalVenueKey": "venue-048569c1acc31d2db11f",
+      "reviewedVenueKey": "venue-2d8daad3ca143d0110e0",
+      "sourceUrl": "https://www.eventim.de/event/abba-dancing-queen-show-stadthalle-karlsruhe-21890194/"
+    },
+    "karlsruhe-e7e560eb6fd08bdb": {
+      "originalVenueKey": "venue-048569c1acc31d2db11f",
+      "reviewedVenueKey": "venue-2d8daad3ca143d0110e0",
+      "sourceUrl": "https://www.eventim.de/event/the-dark-tenor-akustische-weihnachten-stadthalle-karlsruhe-20960834/"
+    },
+    "pfinztal-vereine-pdf-2026-söllingen-p05-r027-2026-11-29-1500": {
+      "originalVenueKey": "venue-3ac48088052968bb0570",
+      "reviewedVenueKey": "venue-7b4d3d137f75e2263adb",
+      "sourceUrl": "https://tag-der-artenvielfalt-bw.de/tda/was-waechst-kreucht-und-fleucht-im-feuchtbiotop-am-bruch/"
+    },
+    "pfinztal-vereine-pdf-2026-söllingen-p05-r028-2026-11-29-unknown": {
+      "originalVenueKey": "venue-5fc8861e63703488dc2f",
+      "reviewedVenueKey": "venue-24e68165334ab289a212",
+      "sourceUrl": "https://www.evangelisch-in-bw.de/aktuelles/gottesdienste-veranstaltungen/detail/termin/id/1126694-1-advent-rund-um-die-michaelskirche-soellingen/?cb-id=228543&vt=1"
+    },
+    "durlach-11987-2026-12-05-1100": {
+      "originalVenueKey": "venue-d6d340c2c7ce6e51b67a",
+      "reviewedVenueKey": "venue-683176fe5c21fd0e6b7e",
+      "sourceUrl": "https://www.stadtkirche-durlach.de/gottesdienste/minigottesdienst/"
+    },
+    "stutensee-2836": {
+      "originalVenueKey": "venue-4870c61f17dd4d8d0187",
+      "reviewedVenueKey": "venue-834d194ca1d3e5f090e8",
+      "sourceUrl": "https://www.meinstutensee.de/veranstaltungen/adventsfest-in-buechig/"
+    },
+    "waldpaedagogik-karlsruhe-1932681348-2026-12-05-1000": {
+      "originalVenueKey": "venue-403a16c01ab7c992f19e",
+      "reviewedVenueKey": "venue-1759dcd24969122d0cab",
+      "sourceUrl": "https://www.waldpaedagogik-karlsruhe.de/veranstaltungen-im-dezember#1932681348"
+    },
+    "waldpaedagogik-karlsruhe-1932681348-2026-12-05-1200": {
+      "originalVenueKey": "venue-403a16c01ab7c992f19e",
+      "reviewedVenueKey": "venue-1759dcd24969122d0cab",
+      "sourceUrl": "https://www.waldpaedagogik-karlsruhe.de/veranstaltungen-im-dezember#1932681348"
+    },
+    "waldpaedagogik-karlsruhe-1805332639-2026-12-12-0900": {
+      "originalVenueKey": "venue-403a16c01ab7c992f19e",
+      "reviewedVenueKey": "venue-3312467a40c317543d93",
+      "sourceUrl": "https://www.waldpaedagogik-karlsruhe.de/veranstaltungen-im-dezember#1805332639"
     }
   }
 }
