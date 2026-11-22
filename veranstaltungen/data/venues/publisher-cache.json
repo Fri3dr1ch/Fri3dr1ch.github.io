@@ -1914,6 +1914,19 @@
           "url": "https://kalender.karlsruhe.de/db/termine/musik/weihnachts_gospelkonzert"
         }
       ]
+    },
+    "venue-0f1c7a750e0dcc4a968e": {
+      "checkedAt": "2026-11-22T11:43:18+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Lammstraße 7 a",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Lammstraße 7 a, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/der_stadtgarten_im_winter_fuhrung_durch"
+        }
+      ]
     }
   }
 }

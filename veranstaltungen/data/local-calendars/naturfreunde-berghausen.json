@@ -5,21 +5,21 @@
     "region": "Pfinztal-Berghausen",
     "url": "https://www.naturfreunde-berghausen.de/",
     "status": "ok",
-    "lastAttemptAt": "2026-11-22T06:57:07+00:00",
-    "lastSuccessAt": "2026-11-22T06:57:07+00:00",
+    "lastAttemptAt": "2026-11-22T11:42:04+00:00",
+    "lastSuccessAt": "2026-11-22T11:42:04+00:00",
     "refreshHours": 24,
-    "recordCount": 5,
-    "eventCount": 5,
+    "recordCount": 6,
+    "eventCount": 6,
     "undatedCount": 0,
     "coverageKind": "html-list",
     "license": null,
     "allowEmpty": true,
-    "pagesFetched": 8,
+    "pagesFetched": 9,
     "coverageNote": "Veröffentlichte Programmlisten des laufenden und des nächsten Kalenderjahres einschließlich verschobener Termine. Derzeit kurze Vorschau, kein vollständiger Jahresplan.",
     "extractionMethod": "deterministic-html",
     "llmRequired": false,
     "coverageStart": "2026-11-22",
-    "coverageEnd": "2026-11-28"
+    "coverageEnd": "2027-01-03"
   },
   "events": [
     {
@@ -51,7 +51,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-22T06:57:07+00:00",
+      "detailCheckedAt": "2026-11-22T11:42:04+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/22/995/-/froebelsterne-basteln",
@@ -68,7 +68,7 @@
           "sourceId": "naturfreunde-berghausen",
           "sourceName": "NaturFreunde Berghausen",
           "reportedTitle": "Fröbelsterne basteln",
-          "checkedAt": "2026-11-22T06:57:07+00:00",
+          "checkedAt": "2026-11-22T11:42:04+00:00",
           "priority": 2
         }
       ],
@@ -103,7 +103,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-22T06:57:07+00:00",
+      "detailCheckedAt": "2026-11-22T11:42:04+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/24/994/-/an-der-pfinz-entlang-von-berghausen-nach-durlach",
@@ -120,7 +120,7 @@
           "sourceId": "naturfreunde-berghausen",
           "sourceName": "NaturFreunde Berghausen",
           "reportedTitle": "An der Pfinz entlang von Berghausen nach Durlach",
-          "checkedAt": "2026-11-22T06:57:07+00:00",
+          "checkedAt": "2026-11-22T11:42:04+00:00",
           "priority": 2
         }
       ],
@@ -155,7 +155,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-22T06:57:07+00:00",
+      "detailCheckedAt": "2026-11-22T11:42:04+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/25/996/-/weihnachtsbasteleien-mit-petra",
@@ -172,7 +172,7 @@
           "sourceId": "naturfreunde-berghausen",
           "sourceName": "NaturFreunde Berghausen",
           "reportedTitle": "Weihnachtsbasteleien mit Petra",
-          "checkedAt": "2026-11-22T06:57:07+00:00",
+          "checkedAt": "2026-11-22T11:42:04+00:00",
           "priority": 2
         }
       ],
@@ -207,7 +207,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-22T06:57:07+00:00",
+      "detailCheckedAt": "2026-11-22T11:42:04+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/27/997/-/adventsgestecke-anfertigen",
@@ -224,7 +224,7 @@
           "sourceId": "naturfreunde-berghausen",
           "sourceName": "NaturFreunde Berghausen",
           "reportedTitle": "Adventsgestecke anfertigen",
-          "checkedAt": "2026-11-22T06:57:07+00:00",
+          "checkedAt": "2026-11-22T11:42:04+00:00",
           "priority": 2
         }
       ],
@@ -259,7 +259,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-22T06:57:07+00:00",
+      "detailCheckedAt": "2026-11-22T11:42:04+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/28/998/-/pflanzung-des-baum-des-jahres",
@@ -276,7 +276,59 @@
           "sourceId": "naturfreunde-berghausen",
           "sourceName": "NaturFreunde Berghausen",
           "reportedTitle": "Pflanzung des \"Baum des Jahres\"",
-          "checkedAt": "2026-11-22T06:57:07+00:00",
+          "checkedAt": "2026-11-22T11:42:04+00:00",
+          "priority": 2
+        }
+      ],
+      "conflicts": []
+    },
+    {
+      "id": "naturfreunde-berghausen-999-2027-01-03-1500",
+      "sourceId": "naturfreunde-berghausen",
+      "sourceName": "NaturFreunde Berghausen",
+      "title": "Die Grüne Stunde in den Rau(c)h-Nächten",
+      "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2027/01/03/999/-/die-gruene-stunde-in-den-rau-c-h-naechten",
+      "icalUrl": null,
+      "region": "Pfinztal-Berghausen",
+      "city": null,
+      "categoryKey": "stadtleben",
+      "category": "Stadtleben",
+      "description": "Veranstalter: NaturFreunde Berghausen",
+      "organizer": "NaturFreunde Berghausen",
+      "location": "Naturfreundehaus Hopfenberg",
+      "start": "2027-01-03T15:00:00+01:00",
+      "end": "2027-01-03T17:00:00+01:00",
+      "startDate": "2027-01-03",
+      "endDate": "2027-01-03",
+      "startTime": "15:00",
+      "endTime": "17:00",
+      "timeKnown": true,
+      "allDay": false,
+      "longRunning": false,
+      "scheduleNote": "",
+      "openingSchedule": null,
+      "openingOccurrences": null,
+      "status": "scheduled",
+      "dataQuality": "html-calendar",
+      "availability": null,
+      "detailCheckedAt": "2026-11-22T11:42:04+00:00",
+      "sources": [
+        {
+          "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2027/01/03/999/-/die-gruene-stunde-in-den-rau-c-h-naechten",
+          "recordId": "999",
+          "title": "Die Grüne Stunde in den Rau(c)h-Nächten",
+          "startDate": "2027-01-03",
+          "endDate": "2027-01-03",
+          "startTime": "15:00",
+          "endTime": "17:00",
+          "dateText": "Sonntag, 03. Januar 2027, 15:00 - 17:00",
+          "timeText": null,
+          "location": "Naturfreundehaus Hopfenberg",
+          "organizer": "NaturFreunde Berghausen",
+          "sourceId": "naturfreunde-berghausen",
+          "sourceName": "NaturFreunde Berghausen",
+          "reportedTitle": "Die Grüne Stunde in den Rau(c)h-Nächten",
+          "checkedAt": "2026-11-22T11:42:04+00:00",
           "priority": 2
         }
       ],

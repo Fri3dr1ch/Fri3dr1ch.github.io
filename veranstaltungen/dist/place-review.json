@@ -1,32 +1,32 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T06:57:58+00:00",
+  "generatedAt": "2026-11-22T11:43:17+00:00",
   "attribution": {
     "text": "© OpenStreetMap contributors · ODbL",
     "url": "https://www.openstreetmap.org/copyright"
   },
   "stats": {
-    "venues": 398,
+    "venues": 399,
     "venueStatuses": {
-      "missing": 13,
+      "missing": 10,
       "online": 4,
-      "queued": 1,
       "excluded": 8,
-      "review": 12,
-      "resolved": 360
+      "review": 1,
+      "queued": 1,
+      "resolved": 375
     },
-    "upcomingEvents": 1386,
+    "upcomingEvents": 1383,
     "eventStatuses": {
-      "resolved": 1140,
-      "review": 12,
+      "resolved": 1155,
       "excluded": 9,
-      "missing": 216,
+      "missing": 210,
       "online": 7,
-      "queued": 2
+      "queued": 1,
+      "review": 1
     }
   },
   "lookup": {
-    "requested": 0,
+    "requested": 3,
     "failures": []
   },
   "rows": [
@@ -223,54 +223,6 @@
       ]
     },
     {
-      "key": "venue-403a16c01ab7c992f19e",
-      "location": "",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "missing",
-      "reason": "Die Quelle nennt keinen Veranstaltungsort. Keine Zuordnung aus dem Herausgeber ableiten.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 4,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "waldpaedagogik-karlsruhe"
-      ],
-      "sources": [
-        "Waldpädagogik Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "waldpaedagogik-karlsruhe-1932681348-2026-12-05-1000",
-          "title": "Weihnachtsgeschenke für die Tiere",
-          "date": "2026-12-05",
-          "url": "https://www.waldpaedagogik-karlsruhe.de/veranstaltungen-im-dezember#1932681348"
-        },
-        {
-          "id": "waldpaedagogik-karlsruhe-1997920750-2026-12-05-1000",
-          "title": "Weihnachtskrippen selbst gebaut",
-          "date": "2026-12-05",
-          "url": "https://www.waldpaedagogik-karlsruhe.de/veranstaltungen-im-dezember#1997920750"
-        },
-        {
-          "id": "waldpaedagogik-karlsruhe-1932681348-2026-12-05-1200",
-          "title": "Weihnachtsgeschenke für die Tiere",
-          "date": "2026-12-05",
-          "url": "https://www.waldpaedagogik-karlsruhe.de/veranstaltungen-im-dezember#1932681348"
-        },
-        {
-          "id": "waldpaedagogik-karlsruhe-1805332639-2026-12-12-0900",
-          "title": "Weihnachtsbaumverkauf",
-          "date": "2026-12-12",
-          "url": "https://www.waldpaedagogik-karlsruhe.de/veranstaltungen-im-dezember#1805332639"
-        }
-      ]
-    },
-    {
       "key": "venue-e2941f5904341cb0c855",
       "location": "",
       "scope": "berghausen",
@@ -387,50 +339,6 @@
           "title": "OWGV JHV",
           "date": "2027-03-12",
           "url": "https://www.naturfreunde-soellingen.de/kalender/"
-        }
-      ]
-    },
-    {
-      "key": "venue-048569c1acc31d2db11f",
-      "location": "Kongresszentrum Karlsruhe",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "queued",
-      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 2,
-      "reviewNote": "",
-      "sourceAddresses": [
-        {
-          "street": "Festplatz 9",
-          "city": "Karlsruhe",
-          "postalCode": "76133",
-          "address": "Festplatz 9, 76133 Karlsruhe",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/die_welt_abba_show"
-        }
-      ],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-e97a932792f59713",
-          "title": "Die Welt-ABBA-Show",
-          "date": "2026-12-05",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/die_welt_abba_show"
-        },
-        {
-          "id": "karlsruhe-e7e560eb6fd08bdb",
-          "title": "The Dark Tenor XMAS",
-          "date": "2026-12-06",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/the_dark_tenor_xmas"
         }
       ]
     },
@@ -574,10 +482,10 @@
       ]
     },
     {
-      "key": "venue-5fc8861e63703488dc2f",
+      "key": "venue-403a16c01ab7c992f19e",
       "location": "",
-      "scope": "soellingen",
-      "scopeLabel": "Pfinztal-Söllingen",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
       "status": "missing",
       "reason": "Die Quelle nennt keinen Veranstaltungsort. Keine Zuordnung aus dem Herausgeber ableiten.",
       "method": null,
@@ -589,17 +497,17 @@
       "organizer": "",
       "sourceContext": null,
       "sourceIds": [
-        "pfinztal-vereine"
+        "waldpaedagogik-karlsruhe"
       ],
       "sources": [
-        "Pfinztal · Vereinskalender"
+        "Waldpädagogik Karlsruhe"
       ],
       "examples": [
         {
-          "id": "pfinztal-vereine-pdf-2026-söllingen-p05-r028-2026-11-29-unknown",
-          "title": "Advent rund um die Kirche",
-          "date": "2026-11-29",
-          "url": "https://pfinztal.de/wp-content/uploads/2026/02/Kopie-von-Finaler-Veranstaltungskalender_2026_Stand_09.12.2025.pdf#page=5"
+          "id": "waldpaedagogik-karlsruhe-1997920750-2026-12-05-1000",
+          "title": "Weihnachtskrippen selbst gebaut",
+          "date": "2026-12-05",
+          "url": "https://www.waldpaedagogik-karlsruhe.de/veranstaltungen-im-dezember#1997920750"
         }
       ]
     },
@@ -694,96 +602,6 @@
       ]
     },
     {
-      "key": "venue-d6d340c2c7ce6e51b67a",
-      "location": "",
-      "scope": "durlach",
-      "scopeLabel": "Durlach",
-      "status": "missing",
-      "reason": "Die Quelle nennt keinen Veranstaltungsort. Keine Zuordnung aus dem Herausgeber ableiten.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "durlach"
-      ],
-      "sources": [
-        "Durlacher.de · Durlacher Kalender"
-      ],
-      "examples": [
-        {
-          "id": "durlach-11987-2026-12-05-1100",
-          "title": "Minigottesdienst der Stadtkirche Durlach",
-          "date": "2026-12-05",
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11987&tx_events2_events%5Btimestamp%5D=1796464800&cHash=4e1d13b8139146776c31f889a6b0c27b"
-        }
-      ]
-    },
-    {
-      "key": "venue-4870c61f17dd4d8d0187",
-      "location": "",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "missing",
-      "reason": "Die Quelle nennt keinen Veranstaltungsort. Keine Zuordnung aus dem Herausgeber ableiten.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "stutensee"
-      ],
-      "sources": [
-        "Stadt Stutensee · Veranstaltungskalender"
-      ],
-      "examples": [
-        {
-          "id": "stutensee-2836",
-          "title": "Adventsfest",
-          "date": "2026-12-11",
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2836"
-        }
-      ]
-    },
-    {
-      "key": "venue-7c8ed3f0364f6564fdef",
-      "location": "Am Fluckenberg",
-      "scope": "remchingen",
-      "scopeLabel": "Remchingen",
-      "status": "review",
-      "reason": "Kein eindeutig passender Spielort gefunden.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "Der Verein nennt für die Scheune am Fluckenberg die Mutschelbacher Straße. Die Murgstraße 14 ist die Kontaktanschrift. Der genaue Ort der Scheune an der Mutschelbacher Straße bleibt offen.",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "remchingen"
-      ],
-      "sources": [
-        "Gemeinde Remchingen"
-      ],
-      "examples": [
-        {
-          "id": "remchingen-3390-2027-07-31-1600",
-          "title": "5. Remchinger Mopedtreffen",
-          "date": "2027-07-31",
-          "url": "https://www.remchingen.de/veranstaltungen/5-remchinger-mopedtreffen-id_3390/"
-        }
-      ]
-    },
-    {
       "key": "venue-d3f9b4c8ca2a300099da",
       "location": "Durlach (siehe Beschreibung)",
       "scope": "durlach",
@@ -844,188 +662,6 @@
       ]
     },
     {
-      "key": "venue-ef2dad7582f27b43ee5f",
-      "location": "Gottesdienst an einem anderen Ort - siehe Ankündigung",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "review",
-      "reason": "Kein ausreichend bestimmter Ortskontext.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "Die Gemeinde verwendet diese Angabe für wechselnde Gottesdienstorte. Belegte Einzeltermine erhalten ihren jeweiligen Treffpunkt.",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "bergdoerfer"
-      ],
-      "sources": [
-        "Evangelische Gemeinde Bergdörfer"
-      ],
-      "examples": [
-        {
-          "id": "bergdoerfer-1120729",
-          "title": "Ök. Friedensgebet",
-          "date": "2027-02-19",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1120729-oek-friedensgebet/?vt=1&cb-id=193413"
-        }
-      ]
-    },
-    {
-      "key": "venue-cfdf7fd670e82998a761",
-      "location": "Kirche",
-      "scope": "soellingen",
-      "scopeLabel": "Pfinztal-Söllingen",
-      "status": "review",
-      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
-      "method": null,
-      "place": null,
-      "candidates": [
-        {
-          "id": "osm-way-248354166",
-          "name": "Neuapostolische Kirche",
-          "latitude": 48.9830724,
-          "longitude": 8.5495045,
-          "address": "Hauptstraße 143, 76327 Söllingen",
-          "url": "https://www.openstreetmap.org/way/248354166",
-          "category": "amenity",
-          "type": "place_of_worship",
-          "street": "Hauptstraße",
-          "houseNumber": "143",
-          "score": 0.5,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-248357309",
-          "name": "Katholische Kirche St. Pius X",
-          "latitude": 48.983086,
-          "longitude": 8.5475538,
-          "address": "Hauptstraße 146/1, 76327 Söllingen",
-          "url": "https://www.openstreetmap.org/way/248357309",
-          "category": "amenity",
-          "type": "place_of_worship",
-          "street": "Hauptstraße",
-          "houseNumber": "146/1",
-          "score": 0.353,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
-      "sourceAddresses": [],
-      "organizer": "Männergesangverein",
-      "sourceContext": null,
-      "sourceIds": [
-        "pfinztal-vereine"
-      ],
-      "sources": [
-        "Pfinztal · Vereinskalender"
-      ],
-      "examples": [
-        {
-          "id": "pfinztal-vereine-pdf-2026-söllingen-p05-r030-2026-12-06-unknown",
-          "title": "Weihnachtsliedersingen",
-          "date": "2026-12-06",
-          "url": "https://pfinztal.de/wp-content/uploads/2026/02/Kopie-von-Finaler-Veranstaltungskalender_2026_Stand_09.12.2025.pdf#page=5"
-        }
-      ]
-    },
-    {
-      "key": "venue-0f53d877e0de390c5ca6",
-      "location": "Kirche",
-      "scope": "soellingen",
-      "scopeLabel": "Pfinztal-Söllingen",
-      "status": "review",
-      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
-      "method": null,
-      "place": null,
-      "candidates": [
-        {
-          "id": "osm-way-248354166",
-          "name": "Neuapostolische Kirche",
-          "latitude": 48.9830724,
-          "longitude": 8.5495045,
-          "address": "Hauptstraße 143, 76327 Söllingen",
-          "url": "https://www.openstreetmap.org/way/248354166",
-          "category": "amenity",
-          "type": "place_of_worship",
-          "street": "Hauptstraße",
-          "houseNumber": "143",
-          "score": 0.5,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-248357309",
-          "name": "Katholische Kirche St. Pius X",
-          "latitude": 48.983086,
-          "longitude": 8.5475538,
-          "address": "Hauptstraße 146/1, 76327 Söllingen",
-          "url": "https://www.openstreetmap.org/way/248357309",
-          "category": "amenity",
-          "type": "place_of_worship",
-          "street": "Hauptstraße",
-          "houseNumber": "146/1",
-          "score": 0.353,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
-      "sourceAddresses": [],
-      "organizer": "Posaunenchor",
-      "sourceContext": null,
-      "sourceIds": [
-        "pfinztal-vereine"
-      ],
-      "sources": [
-        "Pfinztal · Vereinskalender"
-      ],
-      "examples": [
-        {
-          "id": "pfinztal-vereine-pdf-2026-söllingen-p05-r033-2026-12-12-1900",
-          "title": "Konzert im Advent",
-          "date": "2026-12-12",
-          "url": "https://pfinztal.de/wp-content/uploads/2026/02/Kopie-von-Finaler-Veranstaltungskalender_2026_Stand_09.12.2025.pdf#page=5"
-        }
-      ]
-    },
-    {
-      "key": "venue-99f28e8dc10d5541f1ed",
-      "location": "Lehrgarten",
-      "scope": "woeschbach",
-      "scopeLabel": "Pfinztal-Wöschbach",
-      "status": "review",
-      "reason": "Kein eindeutig passender Spielort gefunden.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "pfinztal-vereine"
-      ],
-      "sources": [
-        "Pfinztal · Vereinskalender"
-      ],
-      "examples": [
-        {
-          "id": "pfinztal-vereine-pdf-2026-wöschbach-p08-r025-2026-12-20-1700",
-          "title": "Lebender Adventskalender",
-          "date": "2026-12-20",
-          "url": "https://pfinztal.de/wp-content/uploads/2026/02/Kopie-von-Finaler-Veranstaltungskalender_2026_Stand_09.12.2025.pdf#page=8"
-        }
-      ]
-    },
-    {
       "key": "venue-3c6b35bd0e3437f7a0af",
       "location": "Mehrere Orten",
       "scope": "karlsruhe",
@@ -1056,155 +692,51 @@
       ]
     },
     {
-      "key": "venue-8e7c2a929dcc57d107f5",
-      "location": "Mehrzweckhalle",
-      "scope": "woeschbach",
-      "scopeLabel": "Pfinztal-Wöschbach",
+      "key": "venue-e307b5685e71b041e67d",
+      "location": "Naturfreundehaus Hopfenberg",
+      "scope": "berghausen",
+      "scopeLabel": "Pfinztal-Berghausen",
       "status": "review",
-      "reason": "Kein eindeutig passender Spielort gefunden.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
-      "sourceAddresses": [],
-      "organizer": "Akkordeonring 1963 Wöschbach",
-      "sourceContext": null,
-      "sourceIds": [
-        "pfinztal-vereine"
-      ],
-      "sources": [
-        "Pfinztal · Vereinskalender"
-      ],
-      "examples": [
-        {
-          "id": "pfinztal-vereine-pdf-2026-wöschbach-p08-r017-2026-11-29-1530",
-          "title": "Adventsfeier",
-          "date": "2026-11-29",
-          "url": "https://pfinztal.de/wp-content/uploads/2026/02/Kopie-von-Finaler-Veranstaltungskalender_2026_Stand_09.12.2025.pdf#page=8"
-        }
-      ]
-    },
-    {
-      "key": "venue-db4ee6533d8ecd25c937",
-      "location": "Mehrzweckhalle",
-      "scope": "woeschbach",
-      "scopeLabel": "Pfinztal-Wöschbach",
-      "status": "review",
-      "reason": "Kein eindeutig passender Spielort gefunden.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
-      "sourceAddresses": [],
-      "organizer": "Musikverein Frohsinn Wöschbach 1901",
-      "sourceContext": null,
-      "sourceIds": [
-        "pfinztal-vereine"
-      ],
-      "sources": [
-        "Pfinztal · Vereinskalender"
-      ],
-      "examples": [
-        {
-          "id": "pfinztal-vereine-pdf-2026-wöschbach-p08-r024-2026-12-19-1800",
-          "title": "Weihnachtsfeier",
-          "date": "2026-12-19",
-          "url": "https://pfinztal.de/wp-content/uploads/2026/02/Kopie-von-Finaler-Veranstaltungskalender_2026_Stand_09.12.2025.pdf#page=8"
-        }
-      ]
-    },
-    {
-      "key": "venue-5161aa7406f7e2efff8e",
-      "location": "Minestrone (ex Substage Café)",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "review",
-      "reason": "Mehrere gleich gut passende Kartenobjekte; Auswahl erforderlich.",
+      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
       "method": null,
       "place": null,
       "candidates": [
         {
-          "id": "osm-way-115564781",
-          "name": "Substage",
-          "latitude": 49.0052774,
-          "longitude": 8.429731,
-          "address": "Alter Schlachthof 19, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/115564781",
-          "category": "amenity",
-          "type": "nightclub",
-          "city": "Karlsruhe",
-          "district": "Oststadt",
-          "locality": "Kreativpark Alter Schlachthof",
-          "street": "Alter Schlachthof",
-          "houseNumber": "19",
-          "score": 0.93,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-645691489",
-          "name": "MINESTRONE",
-          "latitude": 49.0052824,
-          "longitude": 8.4297144,
-          "address": "Alter Schlachthof 19, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/645691489",
+          "id": "osm-node-563834301",
+          "name": "Naturfreundehaus Am Hopfenberg",
+          "latitude": 49.0008503,
+          "longitude": 8.5265647,
+          "address": "Touristenweg 11, 76327 Berghausen",
+          "url": "https://www.openstreetmap.org/node/563834301",
           "category": "amenity",
           "type": "restaurant",
-          "city": "Karlsruhe",
-          "district": "Oststadt",
-          "locality": "Kreativpark Alter Schlachthof",
-          "street": "Alter Schlachthof",
-          "houseNumber": "19",
-          "score": 0.93,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-4348572877",
-          "name": "ausgeschlachtet e.V.",
-          "latitude": 49.0053421,
-          "longitude": 8.4295645,
-          "address": "Alter Schlachthof 19, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/4348572877",
-          "category": "office",
-          "type": "association",
-          "city": "Karlsruhe",
-          "district": "Oststadt",
-          "locality": "Kreativpark Alter Schlachthof",
-          "street": "Alter Schlachthof",
-          "houseNumber": "19",
-          "score": 0.238,
-          "exact": true,
+          "city": "Berghausen",
+          "district": "Berghausen",
+          "locality": "",
+          "street": "Touristenweg",
+          "houseNumber": "11",
+          "score": 0.87,
+          "exact": false,
           "outsideContext": false
         }
       ],
       "eventCount": 1,
       "reviewNote": "",
-      "sourceAddresses": [
-        {
-          "street": "Alter Schlachthof 19",
-          "city": "Karlsruhe",
-          "postalCode": "76131",
-          "address": "Alter Schlachthof 19, 76131 Karlsruhe",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/karlsunruhe_alljoines_still_boys_stikkie"
-        }
-      ],
+      "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sourceIds": [
-        "karlsruhe"
+        "naturfreunde-berghausen"
       ],
       "sources": [
-        "Stadt Karlsruhe"
+        "NaturFreunde Berghausen"
       ],
       "examples": [
         {
-          "id": "karlsruhe-d14cb94f49ab0c52",
-          "title": "Karlsunruhe: alljoines, Still Boys & Stikkie",
-          "date": "2026-12-05",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/karlsunruhe_alljoines_still_boys_stikkie"
+          "id": "naturfreunde-berghausen-999-2027-01-03-1500",
+          "title": "Die Grüne Stunde in den Rau(c)h-Nächten",
+          "date": "2027-01-03",
+          "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2027/01/03/999/-/die-gruene-stunde-in-den-rau-c-h-naechten"
         }
       ]
     },
@@ -1269,134 +801,6 @@
       ]
     },
     {
-      "key": "venue-2a2f6d195ffcc8eb56e1",
-      "location": "Pfarrhof",
-      "scope": "woeschbach",
-      "scopeLabel": "Pfinztal-Wöschbach",
-      "status": "review",
-      "reason": "Kein eindeutig passender Spielort gefunden.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "pfinztal-vereine"
-      ],
-      "sources": [
-        "Pfinztal · Vereinskalender"
-      ],
-      "examples": [
-        {
-          "id": "pfinztal-vereine-pdf-2026-wöschbach-p08-r022-2026-12-13-1700",
-          "title": "Adventslieder spielen",
-          "date": "2026-12-13",
-          "url": "https://pfinztal.de/wp-content/uploads/2026/02/Kopie-von-Finaler-Veranstaltungskalender_2026_Stand_09.12.2025.pdf#page=8"
-        }
-      ]
-    },
-    {
-      "key": "venue-c02140adca300eb8e217",
-      "location": "Pfarrsaal",
-      "scope": "woeschbach",
-      "scopeLabel": "Pfinztal-Wöschbach",
-      "status": "review",
-      "reason": "Kein eindeutig passender Spielort gefunden.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "pfinztal-vereine"
-      ],
-      "sources": [
-        "Pfinztal · Vereinskalender"
-      ],
-      "examples": [
-        {
-          "id": "pfinztal-vereine-pdf-2026-wöschbach-p08-r015-2026-11-28-1400",
-          "title": "Senioren-Adventsfeier",
-          "date": "2026-11-28",
-          "url": "https://pfinztal.de/wp-content/uploads/2026/02/Kopie-von-Finaler-Veranstaltungskalender_2026_Stand_09.12.2025.pdf#page=8"
-        }
-      ]
-    },
-    {
-      "key": "venue-f3869bdedad31cc8ef08",
-      "location": "Reitsportclub Daxlanden e.V.",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "review",
-      "reason": "Kein eindeutig passender Spielort gefunden.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [
-        {
-          "street": "Hermann-Schneider-Allee 1",
-          "city": "Karlsruhe - Daxlanden",
-          "postalCode": "76189",
-          "address": "Hermann-Schneider-Allee 1, 76189 Karlsruhe - Daxlanden",
-          "url": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/hundetraining_beim_reitsportclub_daxlanden_ev"
-        }
-      ],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-7579cccac4254170",
-          "title": "Hundetraining beim Reitsportclub Daxlanden e.V.",
-          "date": "2026-08-05",
-          "url": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/hundetraining_beim_reitsportclub_daxlanden_ev"
-        }
-      ]
-    },
-    {
-      "key": "venue-3ac48088052968bb0570",
-      "location": "Vereinsgelände",
-      "scope": "soellingen",
-      "scopeLabel": "Pfinztal-Söllingen",
-      "status": "review",
-      "reason": "Kein eindeutig passender Spielort gefunden.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "Nachprüfung: Kein einzelner fester Veranstaltungs- bzw. Treffpunkt aus der Ortsangabe ableitbar. Genauen Treffpunkt in der Originalquelle klären; keine Ortsmitte als Ersatz verwenden.",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "pfinztal-vereine"
-      ],
-      "sources": [
-        "Pfinztal · Vereinskalender"
-      ],
-      "examples": [
-        {
-          "id": "pfinztal-vereine-pdf-2026-söllingen-p05-r027-2026-11-29-1500",
-          "title": "Winterfeier",
-          "date": "2026-11-29",
-          "url": "https://pfinztal.de/wp-content/uploads/2026/02/Kopie-von-Finaler-Veranstaltungskalender_2026_Stand_09.12.2025.pdf#page=5"
-        }
-      ]
-    },
-    {
       "key": "venue-7c4be39097b510ec9244",
       "location": "Von MegaForce bis Festplatz",
       "scope": "weingarten",
@@ -1454,6 +858,44 @@
           "title": "Lichterfahrt der Landwirte und Winzer",
           "date": "2027-12-05",
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1043/lichterfahrt-der-landwirte-und-winzer"
+        }
+      ]
+    },
+    {
+      "key": "venue-0f1c7a750e0dcc4a968e",
+      "location": "Zoologischer Stadtgarten. Treffpunkt Kasse Nord Nancyhalle.",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "queued",
+      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
+      "method": null,
+      "place": null,
+      "candidates": [],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [
+        {
+          "street": "Lammstraße 7 a",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Lammstraße 7 a, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/der_stadtgarten_im_winter_fuhrung_durch"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-583f1cca8832acdc",
+          "title": "Der Stadtgarten im Winter - Führung durch die Stadtgartenfreunde",
+          "date": "2026-12-06",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/der_stadtgarten_im_winter_fuhrung_durch"
         }
       ]
     },
@@ -1935,12 +1377,6 @@
       ],
       "examples": [
         {
-          "id": "karlsruhe-c0f1aaf96649acfa",
-          "title": "NEU: Fritz Fliege fliegt ins Weltall",
-          "date": "2026-11-22",
-          "url": "https://kalender.karlsruhe.de/db/termine/literatur/neu_fritz_fliege_fliegt_ins_weltall-12"
-        },
-        {
           "id": "karlsruhe-aed5b2474c3068da",
           "title": "Stups, die kleine Sternschnuppe",
           "date": "2026-11-22",
@@ -1957,6 +1393,12 @@
           "title": "Zeitreise - Vom Urknall zum Menschen",
           "date": "2026-11-23",
           "url": "https://kalender.karlsruhe.de/db/termine/wirtschaft/zeitreise_vom_urknall_zum_menschen-100"
+        },
+        {
+          "id": "karlsruhe-9ed5cf42f7d7d99c",
+          "title": "Von der Erde zum Universum",
+          "date": "2026-11-26",
+          "url": "https://kalender.karlsruhe.de/db/termine/wirtschaft/von_der_erde_zum_universum-46"
         }
       ]
     },
@@ -2061,12 +1503,6 @@
       ],
       "examples": [
         {
-          "id": "karlsruhe-73dc3f14871aa572",
-          "title": "Sonntagsführung für Familien: Was macht die Natur im Winter?",
-          "date": "2026-11-22",
-          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/sonntagsfuhrung_fur_familien_was_macht"
-        },
-        {
           "id": "karlsruhe-006b5dd981147603",
           "title": "Pilzberatung 2026",
           "date": "2026-11-23",
@@ -2083,6 +1519,12 @@
           "title": "Experimente (5–7 Jahre): Sehen und Hören",
           "date": "2026-11-24",
           "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/experimente_57_jahre_sehen_und_horen-1"
+        },
+        {
+          "id": "karlsruhe-bdc933cb1bcf73a8",
+          "title": "Experimente (5–7 Jahre): Sehen und Hören",
+          "date": "2026-11-26",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/experimente_57_jahre_sehen_und_horen-2"
         }
       ]
     },
@@ -4102,96 +3544,6 @@
       ]
     },
     {
-      "key": "venue-ca00d1f8165b07393a28",
-      "location": "Das Sandkorn Theater & Mehr",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-node-289245508",
-        "name": "Sandkorn-Theater",
-        "latitude": 49.0099865,
-        "longitude": 8.3841087,
-        "address": "Kaiserallee, 76133 Karlsruhe",
-        "url": "https://www.openstreetmap.org/node/289245508",
-        "category": "amenity",
-        "type": "theatre",
-        "street": "Kaiserallee",
-        "houseNumber": ""
-      },
-      "candidates": [
-        {
-          "id": "osm-node-289245508",
-          "name": "Sandkorn-Theater",
-          "latitude": 49.0099865,
-          "longitude": 8.3841087,
-          "address": "Kaiserallee, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/289245508",
-          "category": "amenity",
-          "type": "theatre",
-          "street": "Kaiserallee",
-          "houseNumber": "",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-4029945652",
-          "name": "Sandkorn Theater gGmbH",
-          "latitude": 49.010054,
-          "longitude": 8.3845843,
-          "address": "Kaiserallee 11b, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/4029945652",
-          "category": "shop",
-          "type": "ticket",
-          "street": "Kaiserallee",
-          "houseNumber": "11b",
-          "score": 0.745,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 9,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-f087eac4cdae69ed",
-          "title": "\"Jazz & More for Kids\" (und ALLE unter 100) . Im SANDKORN",
-          "date": "2026-11-22",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/jazz_more_for_kids_und_alle_unter_100_im_sandkorn-4"
-        },
-        {
-          "id": "karlsruhe-520465a8cf749938",
-          "title": "Jazz & More for Kids",
-          "date": "2026-11-22",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/jazz_more_for_kids-13"
-        },
-        {
-          "id": "karlsruhe-b63382b1b3f289c7",
-          "title": "12 tote Hühner",
-          "date": "2026-11-22",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/12_tote_huhner-4"
-        },
-        {
-          "id": "karlsruhe-aaf439f966e1688d",
-          "title": "Disco Queen - Im Fieber der 70er",
-          "date": "2026-11-27",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/disco_queen_im_fieber_der_70er-68"
-        }
-      ]
-    },
-    {
       "key": "venue-89f7a932d34da20c55f4",
       "location": "Evangelische Kirche",
       "scope": "weingarten",
@@ -4626,6 +3978,96 @@
           "title": "FC-Jugencamp 2027",
           "date": "2027-08-02",
           "url": "https://www.walzbachtal.de/veranstaltung/FC-Jugencamp-2027-event-appointment5839"
+        }
+      ]
+    },
+    {
+      "key": "venue-ca00d1f8165b07393a28",
+      "location": "Das Sandkorn Theater & Mehr",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-node-289245508",
+        "name": "Sandkorn-Theater",
+        "latitude": 49.0099865,
+        "longitude": 8.3841087,
+        "address": "Kaiserallee, 76133 Karlsruhe",
+        "url": "https://www.openstreetmap.org/node/289245508",
+        "category": "amenity",
+        "type": "theatre",
+        "street": "Kaiserallee",
+        "houseNumber": ""
+      },
+      "candidates": [
+        {
+          "id": "osm-node-289245508",
+          "name": "Sandkorn-Theater",
+          "latitude": 49.0099865,
+          "longitude": 8.3841087,
+          "address": "Kaiserallee, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/289245508",
+          "category": "amenity",
+          "type": "theatre",
+          "street": "Kaiserallee",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-4029945652",
+          "name": "Sandkorn Theater gGmbH",
+          "latitude": 49.010054,
+          "longitude": 8.3845843,
+          "address": "Kaiserallee 11b, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4029945652",
+          "category": "shop",
+          "type": "ticket",
+          "street": "Kaiserallee",
+          "houseNumber": "11b",
+          "score": 0.745,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 7,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-b63382b1b3f289c7",
+          "title": "12 tote Hühner",
+          "date": "2026-11-22",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/12_tote_huhner-4"
+        },
+        {
+          "id": "karlsruhe-aaf439f966e1688d",
+          "title": "Disco Queen - Im Fieber der 70er",
+          "date": "2026-11-27",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/disco_queen_im_fieber_der_70er-68"
+        },
+        {
+          "id": "karlsruhe-655ad12fdf07ebe9",
+          "title": "Disco Queen - Im Fieber der 70er",
+          "date": "2026-11-28",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/disco_queen_im_fieber_der_70er-71"
+        },
+        {
+          "id": "karlsruhe-63a312ed6734b994",
+          "title": "12 tote Hühner",
+          "date": "2026-11-29",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/12_tote_huhner-5"
         }
       ]
     },
@@ -5419,6 +4861,96 @@
           "title": "Sportfest beim TV Wössingen",
           "date": "2027-07-09",
           "url": "https://www.walzbachtal.de/veranstaltung/Sportfest-beim-TV-Woessingen-event-appointment5901"
+        }
+      ]
+    },
+    {
+      "key": "venue-1759dcd24969122d0cab",
+      "location": "Waldklassenzimmer",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-135510435",
+        "name": "Waldklassenzimmer",
+        "latitude": 49.0286172,
+        "longitude": 8.4088693,
+        "address": "Kanalweg, 76131 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/135510435",
+        "category": "building",
+        "type": "yes",
+        "street": "Kanalweg",
+        "houseNumber": ""
+      },
+      "candidates": [
+        {
+          "id": "osm-way-135510435",
+          "name": "Waldklassenzimmer",
+          "latitude": 49.0286172,
+          "longitude": 8.4088693,
+          "address": "Kanalweg, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/135510435",
+          "category": "building",
+          "type": "yes",
+          "street": "Kanalweg",
+          "houseNumber": "",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-6396660259",
+          "name": "Waldklassenzimmer",
+          "latitude": 49.0282823,
+          "longitude": 8.4086356,
+          "address": "Kanalweg, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/6396660259",
+          "category": "information",
+          "type": "map",
+          "street": "Kanalweg",
+          "houseNumber": "",
+          "score": 1.0,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 6,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "waldpaedagogik-karlsruhe"
+      ],
+      "sources": [
+        "Waldpädagogik Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "waldpaedagogik-karlsruhe-1940029987-2026-11-28-1000",
+          "title": "Krippenfiguren schnitzen in der Holzwerkstatt",
+          "date": "2026-11-28",
+          "url": "https://www.waldpaedagogik-karlsruhe.de/veranstaltungen-im-november#1940029987"
+        },
+        {
+          "id": "waldpaedagogik-karlsruhe-1932681348-2026-12-05-1000",
+          "title": "Weihnachtsgeschenke für die Tiere",
+          "date": "2026-12-05",
+          "url": "https://www.waldpaedagogik-karlsruhe.de/veranstaltungen-im-dezember#1932681348"
+        },
+        {
+          "id": "waldpaedagogik-karlsruhe-1932681348-2026-12-05-1200",
+          "title": "Weihnachtsgeschenke für die Tiere",
+          "date": "2026-12-05",
+          "url": "https://www.waldpaedagogik-karlsruhe.de/veranstaltungen-im-dezember#1932681348"
+        },
+        {
+          "id": "waldpaedagogik-karlsruhe-1716020271-2026-12-08-1700",
+          "title": "Lichterreise am Waldklassenzimmer",
+          "date": "2026-12-08",
+          "url": "https://www.waldpaedagogik-karlsruhe.de/veranstaltungen-im-dezember#1716020271"
         }
       ]
     },
@@ -7102,102 +6634,6 @@
       ]
     },
     {
-      "key": "venue-5bf7bd142d9fa26ab112",
-      "location": "Kulturhaus MIKADO",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-129200200",
-        "name": "Kulturhaus Mikado",
-        "latitude": 49.0330246,
-        "longitude": 8.3922699,
-        "address": "Kanalweg 52, 76149 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/129200200",
-        "category": "amenity",
-        "type": "arts_centre",
-        "street": "Kanalweg",
-        "houseNumber": "52"
-      },
-      "candidates": [
-        {
-          "id": "osm-node-11407059710",
-          "name": "Kulturhaus Mikado e.V.",
-          "latitude": 49.0330771,
-          "longitude": 8.3923142,
-          "address": "Kanalweg 52, 76149 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/11407059710",
-          "category": "club",
-          "type": "culture",
-          "city": "Karlsruhe",
-          "district": "Nordstadt",
-          "locality": "Amerikanersiedlung",
-          "street": "Kanalweg",
-          "houseNumber": "52",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-129200200",
-          "name": "Kulturhaus Mikado",
-          "latitude": 49.0330246,
-          "longitude": 8.3922699,
-          "address": "Kanalweg 52, 76149 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/129200200",
-          "category": "amenity",
-          "type": "arts_centre",
-          "city": "Karlsruhe",
-          "district": "Nordstadt",
-          "locality": "Amerikanersiedlung",
-          "street": "Kanalweg",
-          "houseNumber": "52",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 4,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-13e434da086b6e4e",
-          "title": "Mikado Kunstausstellung",
-          "date": "2026-11-22",
-          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/mikado_kunstausstellung-1"
-        },
-        {
-          "id": "karlsruhe-5d7c00f6062e88a2",
-          "title": "The Cat's Back",
-          "date": "2026-11-28",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/the_cats_back"
-        },
-        {
-          "id": "karlsruhe-e45a860336ff43d7",
-          "title": "Rabbitears",
-          "date": "2026-12-04",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/rabbitears"
-        },
-        {
-          "id": "karlsruhe-2af37170f94fb0e7",
-          "title": "KarlsUke",
-          "date": "2026-12-05",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/karlsuke-7"
-        }
-      ]
-    },
-    {
       "key": "venue-78defb2823c4adeb7f63",
       "location": "Marktplatz Karlsruhe",
       "scope": "karlsruhe",
@@ -7644,6 +7080,67 @@
       ]
     },
     {
+      "key": "venue-ab75c87f7fdf5664b11b",
+      "location": "St. Margaretha Wolfartsweier, Karlsruhe-Wolfartsweier",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-104685112",
+        "name": "St. Margaretha Wolfartsweier",
+        "latitude": 48.9781316,
+        "longitude": 8.45398,
+        "address": "Hörgelstraße 13, 76228 Karlsruhe-Wolfartsweier",
+        "url": "https://www.openstreetmap.org/way/104685112",
+        "category": "amenity",
+        "type": "place_of_worship",
+        "street": "Hörgelstraße",
+        "houseNumber": "13",
+        "city": "Karlsruhe",
+        "district": "Wolfartsweier"
+      },
+      "candidates": [],
+      "eventCount": 4,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "bergdoerfer"
+      ],
+      "sources": [
+        "Evangelische Gemeinde Bergdörfer"
+      ],
+      "examples": [
+        {
+          "id": "bergdoerfer-1124113",
+          "title": "Ök. Friedensgebet",
+          "date": "2026-12-04",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1124113-oek-friedensgebet/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-1120725",
+          "title": "Ök. Friedensgebet",
+          "date": "2027-01-22",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1120725-oek-friedensgebet/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-1120727",
+          "title": "Ök. Friedensgebet",
+          "date": "2027-02-05",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1120727-oek-friedensgebet/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-1120729",
+          "title": "Ök. Friedensgebet",
+          "date": "2027-02-19",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1120729-oek-friedensgebet/?vt=1&cb-id=193413"
+        }
+      ]
+    },
+    {
       "key": "venue-2dc0ff27c4d2135c9118",
       "location": "Stadtbibliothek Karlsruhe - Stadtteilbibliothek Grötzingen",
       "scope": "groetzingen",
@@ -7833,96 +7330,6 @@
           "title": "SIX-PACK PARTY",
           "date": "2026-12-05",
           "url": "https://kalender.karlsruhe.de/db/termine/musik/six_pack_party"
-        }
-      ]
-    },
-    {
-      "key": "venue-1759dcd24969122d0cab",
-      "location": "Waldklassenzimmer",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-135510435",
-        "name": "Waldklassenzimmer",
-        "latitude": 49.0286172,
-        "longitude": 8.4088693,
-        "address": "Kanalweg, 76131 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/135510435",
-        "category": "building",
-        "type": "yes",
-        "street": "Kanalweg",
-        "houseNumber": ""
-      },
-      "candidates": [
-        {
-          "id": "osm-way-135510435",
-          "name": "Waldklassenzimmer",
-          "latitude": 49.0286172,
-          "longitude": 8.4088693,
-          "address": "Kanalweg, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/135510435",
-          "category": "building",
-          "type": "yes",
-          "street": "Kanalweg",
-          "houseNumber": "",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-6396660259",
-          "name": "Waldklassenzimmer",
-          "latitude": 49.0282823,
-          "longitude": 8.4086356,
-          "address": "Kanalweg, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/6396660259",
-          "category": "information",
-          "type": "map",
-          "street": "Kanalweg",
-          "houseNumber": "",
-          "score": 1.0,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 4,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "waldpaedagogik-karlsruhe"
-      ],
-      "sources": [
-        "Waldpädagogik Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "waldpaedagogik-karlsruhe-1940029987-2026-11-28-1000",
-          "title": "Krippenfiguren schnitzen in der Holzwerkstatt",
-          "date": "2026-11-28",
-          "url": "https://www.waldpaedagogik-karlsruhe.de/veranstaltungen-im-november#1940029987"
-        },
-        {
-          "id": "waldpaedagogik-karlsruhe-1716020271-2026-12-08-1700",
-          "title": "Lichterreise am Waldklassenzimmer",
-          "date": "2026-12-08",
-          "url": "https://www.waldpaedagogik-karlsruhe.de/veranstaltungen-im-dezember#1716020271"
-        },
-        {
-          "id": "waldpaedagogik-karlsruhe-1716020271-2026-12-09-1700",
-          "title": "Lichterreise am Waldklassenzimmer",
-          "date": "2026-12-09",
-          "url": "https://www.waldpaedagogik-karlsruhe.de/veranstaltungen-im-dezember#1716020271"
-        },
-        {
-          "id": "waldpaedagogik-karlsruhe-1716020271-2026-12-10-1700",
-          "title": "Lichterreise am Waldklassenzimmer",
-          "date": "2026-12-10",
-          "url": "https://www.waldpaedagogik-karlsruhe.de/veranstaltungen-im-dezember#1716020271"
         }
       ]
     },
@@ -9360,6 +8767,96 @@
       ]
     },
     {
+      "key": "venue-5bf7bd142d9fa26ab112",
+      "location": "Kulturhaus MIKADO",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-129200200",
+        "name": "Kulturhaus Mikado",
+        "latitude": 49.0330246,
+        "longitude": 8.3922699,
+        "address": "Kanalweg 52, 76149 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/129200200",
+        "category": "amenity",
+        "type": "arts_centre",
+        "street": "Kanalweg",
+        "houseNumber": "52"
+      },
+      "candidates": [
+        {
+          "id": "osm-node-11407059710",
+          "name": "Kulturhaus Mikado e.V.",
+          "latitude": 49.0330771,
+          "longitude": 8.3923142,
+          "address": "Kanalweg 52, 76149 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/11407059710",
+          "category": "club",
+          "type": "culture",
+          "city": "Karlsruhe",
+          "district": "Nordstadt",
+          "locality": "Amerikanersiedlung",
+          "street": "Kanalweg",
+          "houseNumber": "52",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-129200200",
+          "name": "Kulturhaus Mikado",
+          "latitude": 49.0330246,
+          "longitude": 8.3922699,
+          "address": "Kanalweg 52, 76149 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/129200200",
+          "category": "amenity",
+          "type": "arts_centre",
+          "city": "Karlsruhe",
+          "district": "Nordstadt",
+          "locality": "Amerikanersiedlung",
+          "street": "Kanalweg",
+          "houseNumber": "52",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 3,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-5d7c00f6062e88a2",
+          "title": "The Cat's Back",
+          "date": "2026-11-28",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/the_cats_back"
+        },
+        {
+          "id": "karlsruhe-e45a860336ff43d7",
+          "title": "Rabbitears",
+          "date": "2026-12-04",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/rabbitears"
+        },
+        {
+          "id": "karlsruhe-2af37170f94fb0e7",
+          "title": "KarlsUke",
+          "date": "2026-12-05",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/karlsuke-7"
+        }
+      ]
+    },
+    {
       "key": "venue-1f83c837aa89ab87fec5",
       "location": "Lammsaal Jöhlingen , Walzbachtal",
       "scope": "joehlingen",
@@ -9528,14 +9025,15 @@
           "name": "Naturfreundehaus Am Hopfenberg",
           "latitude": 49.0008503,
           "longitude": 8.5265647,
-          "address": "Touristenweg 11, 76327 Pfinztal-Berghausen",
+          "address": "Touristenweg 11, 76327 Berghausen",
           "url": "https://www.openstreetmap.org/node/563834301",
           "category": "amenity",
           "type": "restaurant",
+          "city": "Berghausen",
+          "district": "Berghausen",
+          "locality": "",
           "street": "Touristenweg",
           "houseNumber": "11",
-          "city": "Pfinztal",
-          "district": "Berghausen",
           "score": 0.93,
           "exact": false,
           "outsideContext": false
@@ -10160,61 +9658,6 @@
       ]
     },
     {
-      "key": "venue-ab75c87f7fdf5664b11b",
-      "location": "St. Margaretha Wolfartsweier, Karlsruhe-Wolfartsweier",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-104685112",
-        "name": "St. Margaretha Wolfartsweier",
-        "latitude": 48.9781316,
-        "longitude": 8.45398,
-        "address": "Hörgelstraße 13, 76228 Karlsruhe-Wolfartsweier",
-        "url": "https://www.openstreetmap.org/way/104685112",
-        "category": "amenity",
-        "type": "place_of_worship",
-        "street": "Hörgelstraße",
-        "houseNumber": "13",
-        "city": "Karlsruhe",
-        "district": "Wolfartsweier"
-      },
-      "candidates": [],
-      "eventCount": 3,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "bergdoerfer"
-      ],
-      "sources": [
-        "Evangelische Gemeinde Bergdörfer"
-      ],
-      "examples": [
-        {
-          "id": "bergdoerfer-1124113",
-          "title": "Ök. Friedensgebet",
-          "date": "2026-12-04",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1124113-oek-friedensgebet/?vt=1&cb-id=193413"
-        },
-        {
-          "id": "bergdoerfer-1120725",
-          "title": "Ök. Friedensgebet",
-          "date": "2027-01-22",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1120725-oek-friedensgebet/?vt=1&cb-id=193413"
-        },
-        {
-          "id": "bergdoerfer-1120727",
-          "title": "Ök. Friedensgebet",
-          "date": "2027-02-05",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1120727-oek-friedensgebet/?vt=1&cb-id=193413"
-        }
-      ]
-    },
-    {
       "key": "venue-fa1c74c566bfb80be20d",
       "location": "Stadtbibliothek Karlsruhe - Amerikanische Bibliothek",
       "scope": "karlsruhe",
@@ -10506,62 +9949,6 @@
           "title": "Winterkonzert",
           "date": "2026-12-13",
           "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12537"
-        }
-      ]
-    },
-    {
-      "key": "venue-e1033ef541c0212261ef",
-      "location": "TanzAreal Karlsruhe",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-119792090",
-        "name": "Kulturzentrum Tempel",
-        "latitude": 49.013903,
-        "longitude": 8.3578352,
-        "address": "Hardtstraße 37a, 76185 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/119792090",
-        "category": "amenity",
-        "type": "arts_centre",
-        "city": "Karlsruhe",
-        "district": "Mühlburg",
-        "locality": "Alt-Mühlburg",
-        "street": "Hardtstraße",
-        "houseNumber": "37a"
-      },
-      "candidates": [],
-      "eventCount": 3,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-cb696fec7a35afb9",
-          "title": "Pina Bausch Lab mit Luiza Braz Batista",
-          "date": "2026-11-22",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/pina_bausch_lab_mit_luiza_braz_batista"
-        },
-        {
-          "id": "karlsruhe-8884601ff437f799",
-          "title": "Lisa Bless (DE) “EHRENPREIS: Für Otto”",
-          "date": "2026-11-26",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/lisa_bless_de_ehrenpreis_fur_otto"
-        },
-        {
-          "id": "karlsruhe-e697f337081bc3d8",
-          "title": "Open Stage im TanzAreal",
-          "date": "2026-11-29",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/open_stage_im_tanzareal-1"
         }
       ]
     },
@@ -12694,6 +12081,69 @@
           "title": "PRIMA Abend Viola",
           "date": "2026-11-30",
           "url": "https://kalender.karlsruhe.de/db/termine/musik/prima_abend_viola"
+        }
+      ]
+    },
+    {
+      "key": "venue-2d8daad3ca143d0110e0",
+      "location": "Johannes-Brahms-Saal, Stadthalle Karlsruhe",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-15526554",
+        "name": "Stadthalle",
+        "latitude": 49.0034181,
+        "longitude": 8.4012497,
+        "address": "Festplatz 4, 76137 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/15526554",
+        "category": "amenity",
+        "type": "exhibition_hall",
+        "street": "Festplatz",
+        "houseNumber": "4"
+      },
+      "candidates": [
+        {
+          "id": "osm-way-15526554",
+          "name": "Stadthalle",
+          "latitude": 49.0034181,
+          "longitude": 8.4012497,
+          "address": "Festplatz 4, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/15526554",
+          "category": "amenity",
+          "type": "exhibition_hall",
+          "street": "Festplatz",
+          "houseNumber": "4",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 2,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-e97a932792f59713",
+          "title": "Die Welt-ABBA-Show",
+          "date": "2026-12-05",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/die_welt_abba_show"
+        },
+        {
+          "id": "karlsruhe-e7e560eb6fd08bdb",
+          "title": "The Dark Tenor XMAS",
+          "date": "2026-12-06",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/the_dark_tenor_xmas"
         }
       ]
     },
@@ -15688,6 +15138,56 @@
       ]
     },
     {
+      "key": "venue-e1033ef541c0212261ef",
+      "location": "TanzAreal Karlsruhe",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-119792090",
+        "name": "Kulturzentrum Tempel",
+        "latitude": 49.013903,
+        "longitude": 8.3578352,
+        "address": "Hardtstraße 37a, 76185 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/119792090",
+        "category": "amenity",
+        "type": "arts_centre",
+        "city": "Karlsruhe",
+        "district": "Mühlburg",
+        "locality": "Alt-Mühlburg",
+        "street": "Hardtstraße",
+        "houseNumber": "37a"
+      },
+      "candidates": [],
+      "eventCount": 2,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-8884601ff437f799",
+          "title": "Lisa Bless (DE) “EHRENPREIS: Für Otto”",
+          "date": "2026-11-26",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/lisa_bless_de_ehrenpreis_fur_otto"
+        },
+        {
+          "id": "karlsruhe-e697f337081bc3d8",
+          "title": "Open Stage im TanzAreal",
+          "date": "2026-11-29",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/open_stage_im_tanzareal-1"
+        }
+      ]
+    },
+    {
       "key": "venue-29f2752d0c1e4a97ace2",
       "location": "Tanzsportzentrum des TSC Rot-Weiss Karlsruhe e.V.",
       "scope": "karlsruhe",
@@ -16818,6 +16318,76 @@
           "title": "Im Schein der Kerzen - Chormusik zum Advent",
           "date": "2026-12-13",
           "url": "https://www.remchingen.de/veranstaltungen/im-schein-der-kerzen-chormusik-zum-advent-id_3412/"
+        }
+      ]
+    },
+    {
+      "key": "venue-d06a02763ca924883a2e",
+      "location": "Am Fluckenberg, Orientierung Ortsmitte Mutschelbach",
+      "scope": "remchingen",
+      "scopeLabel": "Remchingen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-979777743",
+        "name": "Ortsmitte Mutschelbach (Orientierung für Am Fluckenberg)",
+        "latitude": 48.9438244,
+        "longitude": 8.534376,
+        "address": "Rathausplatz, Karlsbad-Mutschelbach. Veranstaltungsgelände: Am Fluckenberg, Remchingen.",
+        "url": "https://www.openstreetmap.org/way/979777743",
+        "category": "highway",
+        "type": "living_street"
+      },
+      "candidates": [
+        {
+          "id": "osm-way-979777743",
+          "name": "Ortsmitte Mutschelbach (Orientierung für Am Fluckenberg)",
+          "latitude": 48.9438244,
+          "longitude": 8.534376,
+          "address": "Rathausplatz, Karlsbad-Mutschelbach. Veranstaltungsgelände: Am Fluckenberg, Remchingen.",
+          "url": "https://www.openstreetmap.org/way/979777743",
+          "category": "highway",
+          "type": "living_street",
+          "score": 0.833,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-249779939",
+          "name": "Backhaus am Rathaus Mutschelbach",
+          "latitude": 48.9436731,
+          "longitude": 8.5345829,
+          "address": "Bockstalstraße 74, 76307 Karlsbad-Mutschelbach",
+          "url": "https://www.openstreetmap.org/way/249779939",
+          "category": "amenity",
+          "type": "townhall",
+          "street": "Bockstalstraße",
+          "houseNumber": "74",
+          "city": "Karlsbad",
+          "district": "Mutschelbach",
+          "score": 0.439,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "remchingen"
+      ],
+      "sources": [
+        "Gemeinde Remchingen"
+      ],
+      "examples": [
+        {
+          "id": "remchingen-3390-2027-07-31-1600",
+          "title": "5. Remchinger Mopedtreffen",
+          "date": "2027-07-31",
+          "url": "https://www.remchingen.de/veranstaltungen/5-remchinger-mopedtreffen-id_3390/"
         }
       ]
     },
@@ -18301,59 +17871,6 @@
       ]
     },
     {
-      "key": "venue-c7cfe3e9c43824b66568",
-      "location": "Ecke Bahnhofstraße / Bahnhofplatz, Karlsruhe",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-node-14794705",
-        "name": "Ecke Bahnhofstraße / Bahnhofplatz",
-        "latitude": 48.9946567,
-        "longitude": 8.400107,
-        "address": "Karlsruhe",
-        "url": "https://www.openstreetmap.org/node/14794705",
-        "category": "highway",
-        "type": "crossing"
-      },
-      "candidates": [
-        {
-          "id": "osm-node-14794705",
-          "name": "Ecke Bahnhofstraße / Bahnhofplatz",
-          "latitude": 48.9946567,
-          "longitude": 8.400107,
-          "address": "Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/14794705",
-          "category": "highway",
-          "type": "crossing",
-          "score": 1.0,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-b001c325f5f48725",
-          "title": "Der Karlsruher Hauptbahnhof - Route 2 (Fürstenbahnhof, Posttunnel, Bunkeranlagen u.a.)",
-          "date": "2026-11-22",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/der_karlsruher_hauptbahnhof_route_-3"
-        }
-      ]
-    },
-    {
       "key": "venue-2e5741fd1f2656f98c1e",
       "location": "Elsässer Platz",
       "scope": "karlsruhe",
@@ -18935,6 +18452,63 @@
           "title": "125 Jahre CVJM-Weingarten – Konzert „2 Flügel“",
           "date": "2026-11-27",
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/809/125-jahre-cvjm-weingarten-konzert-2-fluegel"
+        }
+      ]
+    },
+    {
+      "key": "venue-24e68165334ab289a212",
+      "location": "Evangelische Michaelskirche Söllingen",
+      "scope": "soellingen",
+      "scopeLabel": "Pfinztal-Söllingen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-29227015",
+        "name": "Evangelische Michaelskirche Söllingen",
+        "latitude": 48.9856801,
+        "longitude": 8.5404585,
+        "address": "Kirchhofstraße, 76327 Söllingen",
+        "url": "https://www.openstreetmap.org/way/29227015",
+        "category": "amenity",
+        "type": "place_of_worship",
+        "street": "Kirchhofstraße",
+        "houseNumber": ""
+      },
+      "candidates": [
+        {
+          "id": "osm-way-29227015",
+          "name": "Evangelische Michaelskirche Söllingen",
+          "latitude": 48.9856801,
+          "longitude": 8.5404585,
+          "address": "Kirchhofstraße, 76327 Söllingen",
+          "url": "https://www.openstreetmap.org/way/29227015",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Kirchhofstraße",
+          "houseNumber": "",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "pfinztal-vereine"
+      ],
+      "sources": [
+        "Pfinztal · Vereinskalender"
+      ],
+      "examples": [
+        {
+          "id": "pfinztal-vereine-pdf-2026-söllingen-p05-r028-2026-11-29-unknown",
+          "title": "Advent rund um die Kirche",
+          "date": "2026-11-29",
+          "url": "https://pfinztal.de/wp-content/uploads/2026/02/Kopie-von-Finaler-Veranstaltungskalender_2026_Stand_09.12.2025.pdf#page=5"
         }
       ]
     },
@@ -19773,6 +19347,66 @@
           "title": "Nikolaus Vorlesestunde",
           "date": "2026-12-05",
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1090/nikolaus-vorlesestunde"
+        }
+      ]
+    },
+    {
+      "key": "venue-683176fe5c21fd0e6b7e",
+      "location": "Gemeindehaus Am Zwinger, Durlach",
+      "scope": "durlach",
+      "scopeLabel": "Durlach",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-103358944",
+        "name": "Evangelisches Gemeindehaus Am Zwinger",
+        "latitude": 48.9983431,
+        "longitude": 8.4708514,
+        "address": "Am Zwinger 5, 76227 Karlsruhe-Durlach",
+        "url": "https://www.openstreetmap.org/way/103358944",
+        "category": "amenity",
+        "type": "community_centre",
+        "street": "Am Zwinger",
+        "houseNumber": "5"
+      },
+      "candidates": [
+        {
+          "id": "osm-way-103358943",
+          "name": "Am Zwinger 5",
+          "latitude": 48.998531,
+          "longitude": 8.4707975,
+          "address": "Am Zwinger 5, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/103358943",
+          "category": "building",
+          "type": "office",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Am Zwinger",
+          "houseNumber": "5",
+          "score": 0.571,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "durlach"
+      ],
+      "sources": [
+        "Durlacher.de · Durlacher Kalender"
+      ],
+      "examples": [
+        {
+          "id": "durlach-11987-2026-12-05-1100",
+          "title": "Minigottesdienst der Stadtkirche Durlach",
+          "date": "2026-12-05",
+          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11987&tx_events2_events%5Btimestamp%5D=1796464800&cHash=4e1d13b8139146776c31f889a6b0c27b"
         }
       ]
     },
@@ -22947,6 +22581,150 @@
       ]
     },
     {
+      "key": "venue-cfdf7fd670e82998a761",
+      "location": "Kirche",
+      "scope": "soellingen",
+      "scopeLabel": "Pfinztal-Söllingen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-248354166",
+        "name": "Neuapostolische Kirche",
+        "latitude": 48.9830724,
+        "longitude": 8.5495045,
+        "address": "Hauptstraße 143, 76327 Söllingen",
+        "url": "https://www.openstreetmap.org/way/248354166",
+        "category": "amenity",
+        "type": "place_of_worship",
+        "street": "Hauptstraße",
+        "houseNumber": "143"
+      },
+      "candidates": [
+        {
+          "id": "osm-way-248354166",
+          "name": "Neuapostolische Kirche",
+          "latitude": 48.9830724,
+          "longitude": 8.5495045,
+          "address": "Hauptstraße 143, 76327 Söllingen",
+          "url": "https://www.openstreetmap.org/way/248354166",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Hauptstraße",
+          "houseNumber": "143",
+          "score": 0.5,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-248357309",
+          "name": "Katholische Kirche St. Pius X",
+          "latitude": 48.983086,
+          "longitude": 8.5475538,
+          "address": "Hauptstraße 146/1, 76327 Söllingen",
+          "url": "https://www.openstreetmap.org/way/248357309",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Hauptstraße",
+          "houseNumber": "146/1",
+          "score": 0.353,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "Männergesangverein",
+      "sourceContext": null,
+      "sourceIds": [
+        "pfinztal-vereine"
+      ],
+      "sources": [
+        "Pfinztal · Vereinskalender"
+      ],
+      "examples": [
+        {
+          "id": "pfinztal-vereine-pdf-2026-söllingen-p05-r030-2026-12-06-unknown",
+          "title": "Weihnachtsliedersingen",
+          "date": "2026-12-06",
+          "url": "https://pfinztal.de/wp-content/uploads/2026/02/Kopie-von-Finaler-Veranstaltungskalender_2026_Stand_09.12.2025.pdf#page=5"
+        }
+      ]
+    },
+    {
+      "key": "venue-0f53d877e0de390c5ca6",
+      "location": "Kirche",
+      "scope": "soellingen",
+      "scopeLabel": "Pfinztal-Söllingen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-248354166",
+        "name": "Neuapostolische Kirche",
+        "latitude": 48.9830724,
+        "longitude": 8.5495045,
+        "address": "Hauptstraße 143, 76327 Söllingen",
+        "url": "https://www.openstreetmap.org/way/248354166",
+        "category": "amenity",
+        "type": "place_of_worship",
+        "street": "Hauptstraße",
+        "houseNumber": "143"
+      },
+      "candidates": [
+        {
+          "id": "osm-way-248354166",
+          "name": "Neuapostolische Kirche",
+          "latitude": 48.9830724,
+          "longitude": 8.5495045,
+          "address": "Hauptstraße 143, 76327 Söllingen",
+          "url": "https://www.openstreetmap.org/way/248354166",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Hauptstraße",
+          "houseNumber": "143",
+          "score": 0.5,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-248357309",
+          "name": "Katholische Kirche St. Pius X",
+          "latitude": 48.983086,
+          "longitude": 8.5475538,
+          "address": "Hauptstraße 146/1, 76327 Söllingen",
+          "url": "https://www.openstreetmap.org/way/248357309",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "street": "Hauptstraße",
+          "houseNumber": "146/1",
+          "score": 0.353,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "Posaunenchor",
+      "sourceContext": null,
+      "sourceIds": [
+        "pfinztal-vereine"
+      ],
+      "sources": [
+        "Pfinztal · Vereinskalender"
+      ],
+      "examples": [
+        {
+          "id": "pfinztal-vereine-pdf-2026-söllingen-p05-r033-2026-12-12-1900",
+          "title": "Konzert im Advent",
+          "date": "2026-12-12",
+          "url": "https://pfinztal.de/wp-content/uploads/2026/02/Kopie-von-Finaler-Veranstaltungskalender_2026_Stand_09.12.2025.pdf#page=5"
+        }
+      ]
+    },
+    {
       "key": "venue-aeee2bfbcaa2d1dc822a",
       "location": "Kirchplatz St. Stephan",
       "scope": "karlsruhe",
@@ -23462,6 +23240,63 @@
       ]
     },
     {
+      "key": "venue-99f28e8dc10d5541f1ed",
+      "location": "Lehrgarten",
+      "scope": "woeschbach",
+      "scopeLabel": "Pfinztal-Wöschbach",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-320347049",
+        "name": "Lehrgarten Wöschbach (Orientierung: Friedhofsparkplatz)",
+        "latitude": 48.999617,
+        "longitude": 8.5692252,
+        "address": "Parkplatz am Friedhof, 76327 Wöschbach",
+        "url": "https://www.openstreetmap.org/way/320347049",
+        "category": "amenity",
+        "type": "parking",
+        "street": "",
+        "houseNumber": ""
+      },
+      "candidates": [
+        {
+          "id": "osm-way-320347049",
+          "name": "Lehrgarten Wöschbach (Orientierung: Friedhofsparkplatz)",
+          "latitude": 48.999617,
+          "longitude": 8.5692252,
+          "address": "Parkplatz am Friedhof, 76327 Wöschbach",
+          "url": "https://www.openstreetmap.org/way/320347049",
+          "category": "amenity",
+          "type": "parking",
+          "street": "",
+          "houseNumber": "",
+          "score": 0.385,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "pfinztal-vereine"
+      ],
+      "sources": [
+        "Pfinztal · Vereinskalender"
+      ],
+      "examples": [
+        {
+          "id": "pfinztal-vereine-pdf-2026-wöschbach-p08-r025-2026-12-20-1700",
+          "title": "Lebender Adventskalender",
+          "date": "2026-12-20",
+          "url": "https://pfinztal.de/wp-content/uploads/2026/02/Kopie-von-Finaler-Veranstaltungskalender_2026_Stand_09.12.2025.pdf#page=8"
+        }
+      ]
+    },
+    {
       "key": "venue-a9934df6b1f3210fce93",
       "location": "Liebesbrunnen vor dem Durlacher Rathaus, Karlsruhe-Durlach",
       "scope": "durlach",
@@ -23943,6 +23778,120 @@
       ]
     },
     {
+      "key": "venue-8e7c2a929dcc57d107f5",
+      "location": "Mehrzweckhalle",
+      "scope": "woeschbach",
+      "scopeLabel": "Pfinztal-Wöschbach",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-243492434",
+        "name": "Mehrzweckhalle Wöschbach",
+        "latitude": 48.9974842,
+        "longitude": 8.5670688,
+        "address": "Im Eigen 10, 76327 Wöschbach",
+        "url": "https://www.openstreetmap.org/way/243492434",
+        "category": "building",
+        "type": "school",
+        "street": "Im Eigen",
+        "houseNumber": "10"
+      },
+      "candidates": [
+        {
+          "id": "osm-way-243492434",
+          "name": "Mehrzweckhalle Wöschbach",
+          "latitude": 48.9974842,
+          "longitude": 8.5670688,
+          "address": "Im Eigen 10, 76327 Wöschbach",
+          "url": "https://www.openstreetmap.org/way/243492434",
+          "category": "building",
+          "type": "school",
+          "street": "Im Eigen",
+          "houseNumber": "10",
+          "score": 1.0,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "Akkordeonring 1963 Wöschbach",
+      "sourceContext": null,
+      "sourceIds": [
+        "pfinztal-vereine"
+      ],
+      "sources": [
+        "Pfinztal · Vereinskalender"
+      ],
+      "examples": [
+        {
+          "id": "pfinztal-vereine-pdf-2026-wöschbach-p08-r017-2026-11-29-1530",
+          "title": "Adventsfeier",
+          "date": "2026-11-29",
+          "url": "https://pfinztal.de/wp-content/uploads/2026/02/Kopie-von-Finaler-Veranstaltungskalender_2026_Stand_09.12.2025.pdf#page=8"
+        }
+      ]
+    },
+    {
+      "key": "venue-db4ee6533d8ecd25c937",
+      "location": "Mehrzweckhalle",
+      "scope": "woeschbach",
+      "scopeLabel": "Pfinztal-Wöschbach",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-243492434",
+        "name": "Mehrzweckhalle Wöschbach",
+        "latitude": 48.9974842,
+        "longitude": 8.5670688,
+        "address": "Im Eigen 10, 76327 Wöschbach",
+        "url": "https://www.openstreetmap.org/way/243492434",
+        "category": "building",
+        "type": "school",
+        "street": "Im Eigen",
+        "houseNumber": "10"
+      },
+      "candidates": [
+        {
+          "id": "osm-way-243492434",
+          "name": "Mehrzweckhalle Wöschbach",
+          "latitude": 48.9974842,
+          "longitude": 8.5670688,
+          "address": "Im Eigen 10, 76327 Wöschbach",
+          "url": "https://www.openstreetmap.org/way/243492434",
+          "category": "building",
+          "type": "school",
+          "street": "Im Eigen",
+          "houseNumber": "10",
+          "score": 1.0,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "Musikverein Frohsinn Wöschbach 1901",
+      "sourceContext": null,
+      "sourceIds": [
+        "pfinztal-vereine"
+      ],
+      "sources": [
+        "Pfinztal · Vereinskalender"
+      ],
+      "examples": [
+        {
+          "id": "pfinztal-vereine-pdf-2026-wöschbach-p08-r024-2026-12-19-1800",
+          "title": "Weihnachtsfeier",
+          "date": "2026-12-19",
+          "url": "https://pfinztal.de/wp-content/uploads/2026/02/Kopie-von-Finaler-Veranstaltungskalender_2026_Stand_09.12.2025.pdf#page=8"
+        }
+      ]
+    },
+    {
       "key": "venue-6b9d02cc68edd97c03bc",
       "location": "Messe Karlsruhe - Messe gesamt",
       "scope": "karlsruhe",
@@ -24037,6 +23986,113 @@
           "title": "3. Frühlingsfest",
           "date": "2027-04-17",
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1048/3-fruehlingsfest"
+        }
+      ]
+    },
+    {
+      "key": "venue-5161aa7406f7e2efff8e",
+      "location": "Minestrone (ex Substage Café)",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-645691489",
+        "name": "MINESTRONE",
+        "latitude": 49.0052824,
+        "longitude": 8.4297144,
+        "address": "Alter Schlachthof 19, 76131 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/645691489",
+        "category": "amenity",
+        "type": "restaurant",
+        "city": "Karlsruhe",
+        "district": "Oststadt",
+        "locality": "Kreativpark Alter Schlachthof",
+        "street": "Alter Schlachthof",
+        "houseNumber": "19"
+      },
+      "candidates": [
+        {
+          "id": "osm-way-115564781",
+          "name": "Substage",
+          "latitude": 49.0052774,
+          "longitude": 8.429731,
+          "address": "Alter Schlachthof 19, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/115564781",
+          "category": "amenity",
+          "type": "nightclub",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Kreativpark Alter Schlachthof",
+          "street": "Alter Schlachthof",
+          "houseNumber": "19",
+          "score": 0.93,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-645691489",
+          "name": "MINESTRONE",
+          "latitude": 49.0052824,
+          "longitude": 8.4297144,
+          "address": "Alter Schlachthof 19, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/645691489",
+          "category": "amenity",
+          "type": "restaurant",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Kreativpark Alter Schlachthof",
+          "street": "Alter Schlachthof",
+          "houseNumber": "19",
+          "score": 0.93,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-4348572877",
+          "name": "ausgeschlachtet e.V.",
+          "latitude": 49.0053421,
+          "longitude": 8.4295645,
+          "address": "Alter Schlachthof 19, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4348572877",
+          "category": "office",
+          "type": "association",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Kreativpark Alter Schlachthof",
+          "street": "Alter Schlachthof",
+          "houseNumber": "19",
+          "score": 0.238,
+          "exact": true,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [
+        {
+          "street": "Alter Schlachthof 19",
+          "city": "Karlsruhe",
+          "postalCode": "76131",
+          "address": "Alter Schlachthof 19, 76131 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/karlsunruhe_alljoines_still_boys_stikkie"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-d14cb94f49ab0c52",
+          "title": "Karlsunruhe: alljoines, Still Boys & Stikkie",
+          "date": "2026-12-05",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/karlsunruhe_alljoines_still_boys_stikkie"
         }
       ]
     },
@@ -25077,6 +25133,104 @@
       ]
     },
     {
+      "key": "venue-2a2f6d195ffcc8eb56e1",
+      "location": "Pfarrhof",
+      "scope": "woeschbach",
+      "scopeLabel": "Pfinztal-Wöschbach",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-243446554",
+        "name": "Pfarrhof Wöschbach (Adresse)",
+        "latitude": 48.9989098,
+        "longitude": 8.5682304,
+        "address": "Wesostraße 32, 76327 Wöschbach",
+        "url": "https://www.openstreetmap.org/way/243446554",
+        "category": "building",
+        "type": "yes",
+        "street": "Wesostraße",
+        "houseNumber": "32"
+      },
+      "candidates": [
+        {
+          "id": "osm-way-243446554",
+          "name": "Pfarrhof Wöschbach (Adresse)",
+          "latitude": 48.9989098,
+          "longitude": 8.5682304,
+          "address": "Wesostraße 32, 76327 Wöschbach",
+          "url": "https://www.openstreetmap.org/way/243446554",
+          "category": "building",
+          "type": "yes",
+          "street": "Wesostraße",
+          "houseNumber": "32",
+          "score": 0.667,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "pfinztal-vereine"
+      ],
+      "sources": [
+        "Pfinztal · Vereinskalender"
+      ],
+      "examples": [
+        {
+          "id": "pfinztal-vereine-pdf-2026-wöschbach-p08-r022-2026-12-13-1700",
+          "title": "Adventslieder spielen",
+          "date": "2026-12-13",
+          "url": "https://pfinztal.de/wp-content/uploads/2026/02/Kopie-von-Finaler-Veranstaltungskalender_2026_Stand_09.12.2025.pdf#page=8"
+        }
+      ]
+    },
+    {
+      "key": "venue-c02140adca300eb8e217",
+      "location": "Pfarrsaal",
+      "scope": "woeschbach",
+      "scopeLabel": "Pfinztal-Wöschbach",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-243100249",
+        "name": "Pfarrsaal Wöschbach (Adresse)",
+        "latitude": 48.9997866,
+        "longitude": 8.5660234,
+        "address": "Saldingerstraße 7, 76327 Wöschbach",
+        "url": "https://www.openstreetmap.org/way/243100249",
+        "category": "amenity",
+        "type": "kindergarten",
+        "street": "Saldingerstraße",
+        "houseNumber": "7"
+      },
+      "candidates": [],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "pfinztal-vereine"
+      ],
+      "sources": [
+        "Pfinztal · Vereinskalender"
+      ],
+      "examples": [
+        {
+          "id": "pfinztal-vereine-pdf-2026-wöschbach-p08-r015-2026-11-28-1400",
+          "title": "Senioren-Adventsfeier",
+          "date": "2026-11-28",
+          "url": "https://pfinztal.de/wp-content/uploads/2026/02/Kopie-von-Finaler-Veranstaltungskalender_2026_Stand_09.12.2025.pdf#page=8"
+        }
+      ]
+    },
+    {
       "key": "venue-01f5a4d9361d3b2cecea",
       "location": "Pfarrsaal der Kath. Kirchengemeinde Wöschbach, Saldingerstr. 7",
       "scope": "woeschbach",
@@ -25905,6 +26059,57 @@
           "title": "BauSteinWelten",
           "date": "2026-10-30",
           "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/bausteinwelten-1"
+        }
+      ]
+    },
+    {
+      "key": "venue-f3869bdedad31cc8ef08",
+      "location": "Reitsportclub Daxlanden e.V.",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-121071276",
+        "name": "Reitsportclub Daxlanden",
+        "latitude": 49.0025301,
+        "longitude": 8.3182957,
+        "address": "Hermann-Schneider-Allee 1, 76189 Karlsruhe-Daxlanden",
+        "url": "https://www.openstreetmap.org/way/121071276",
+        "category": "club",
+        "type": "sport",
+        "street": "Hermann-Schneider-Allee",
+        "houseNumber": "1",
+        "city": "Karlsruhe",
+        "district": "Daxlanden"
+      },
+      "candidates": [],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [
+        {
+          "street": "Hermann-Schneider-Allee 1",
+          "city": "Karlsruhe - Daxlanden",
+          "postalCode": "76189",
+          "address": "Hermann-Schneider-Allee 1, 76189 Karlsruhe - Daxlanden",
+          "url": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/hundetraining_beim_reitsportclub_daxlanden_ev"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-7579cccac4254170",
+          "title": "Hundetraining beim Reitsportclub Daxlanden e.V.",
+          "date": "2026-08-05",
+          "url": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/hundetraining_beim_reitsportclub_daxlanden_ev"
         }
       ]
     },
@@ -28511,6 +28716,63 @@
       ]
     },
     {
+      "key": "venue-7b4d3d137f75e2263adb",
+      "location": "Vereinsgelände des Kleintierzuchtvereins C 182 Söllingen",
+      "scope": "soellingen",
+      "scopeLabel": "Pfinztal-Söllingen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-node-1329579839",
+        "name": "Kleintierzuchtverein C 182 Söllingen",
+        "latitude": 48.9796279,
+        "longitude": 8.5353861,
+        "address": "Am Bruch (verlängerte Rittnertstraße), 76327 Söllingen",
+        "url": "https://www.openstreetmap.org/node/1329579839",
+        "category": "tourism",
+        "type": "zoo",
+        "street": "Am Bruch",
+        "houseNumber": ""
+      },
+      "candidates": [
+        {
+          "id": "osm-node-1329579839",
+          "name": "Kleintierzuchtverein C 182 Söllingen",
+          "latitude": 48.9796279,
+          "longitude": 8.5353861,
+          "address": "Am Bruch (verlängerte Rittnertstraße), 76327 Söllingen",
+          "url": "https://www.openstreetmap.org/node/1329579839",
+          "category": "tourism",
+          "type": "zoo",
+          "street": "Am Bruch",
+          "houseNumber": "",
+          "score": 0.722,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "pfinztal-vereine"
+      ],
+      "sources": [
+        "Pfinztal · Vereinskalender"
+      ],
+      "examples": [
+        {
+          "id": "pfinztal-vereine-pdf-2026-söllingen-p05-r027-2026-11-29-1500",
+          "title": "Winterfeier",
+          "date": "2026-11-29",
+          "url": "https://pfinztal.de/wp-content/uploads/2026/02/Kopie-von-Finaler-Veranstaltungskalender_2026_Stand_09.12.2025.pdf#page=5"
+        }
+      ]
+    },
+    {
       "key": "venue-64c0926c6c1dabd42834",
       "location": "Vereinsheim Bulldog und Oldtimer Team WÖ, Walzbachtal",
       "scope": "walzbachtal",
@@ -28989,6 +29251,47 @@
       ]
     },
     {
+      "key": "venue-834d194ca1d3e5f090e8",
+      "location": "Waldstraße 106, Stutensee-Büchig",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-304287450",
+        "name": "Waldstraße 106, Stutensee-Büchig",
+        "latitude": 49.0497057,
+        "longitude": 8.4746987,
+        "address": "Waldstraße 106, 76297 Stutensee-Büchig",
+        "url": "https://www.openstreetmap.org/way/304287450",
+        "category": "building",
+        "type": "detached",
+        "street": "Waldstraße",
+        "houseNumber": "106"
+      },
+      "candidates": [],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "stutensee"
+      ],
+      "sources": [
+        "Stadt Stutensee · Veranstaltungskalender"
+      ],
+      "examples": [
+        {
+          "id": "stutensee-2836",
+          "title": "Adventsfest",
+          "date": "2026-12-11",
+          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2836"
+        }
+      ]
+    },
+    {
       "key": "venue-31b3c7db1e011e025a8c",
       "location": "Walzbachbad Weingarten",
       "scope": "weingarten",
@@ -29104,6 +29407,78 @@
           "title": "Kinder gesund ernähren (im Kindergartenalter) – einfach und alltagstauglich (Vortrag)",
           "date": "2026-12-08",
           "url": "https://www.vhs-karlsruhe-land.de/programm/gesundheit-ernaehrung/kw/bereich/kursdetails/kurs/M300H005WL/kursname/Kinder gesund ernaehren im Kindergartenalter einfach und alltagstauglich Vor/kategorie-id/7"
+        }
+      ]
+    },
+    {
+      "key": "venue-3312467a40c317543d93",
+      "location": "Weihnachtsbaumverkauf beim Waldklassenzimmer",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-135510435",
+        "name": "Waldklassenzimmer (Orientierung: Weihnachtsbaumverkauf)",
+        "latitude": 49.0286172,
+        "longitude": 8.4088693,
+        "address": "Kanalweg, 76131 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/135510435",
+        "category": "building",
+        "type": "yes",
+        "street": "Kanalweg",
+        "houseNumber": ""
+      },
+      "candidates": [
+        {
+          "id": "osm-node-6396660259",
+          "name": "Waldklassenzimmer",
+          "latitude": 49.0282823,
+          "longitude": 8.4086356,
+          "address": "Kanalweg, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/6396660259",
+          "category": "information",
+          "type": "map",
+          "street": "Kanalweg",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-135510435",
+          "name": "Waldklassenzimmer",
+          "latitude": 49.0286172,
+          "longitude": 8.4088693,
+          "address": "Kanalweg, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/135510435",
+          "category": "building",
+          "type": "yes",
+          "street": "Kanalweg",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "waldpaedagogik-karlsruhe"
+      ],
+      "sources": [
+        "Waldpädagogik Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "waldpaedagogik-karlsruhe-1805332639-2026-12-12-0900",
+          "title": "Weihnachtsbaumverkauf",
+          "date": "2026-12-12",
+          "url": "https://www.waldpaedagogik-karlsruhe.de/veranstaltungen-im-dezember#1805332639"
         }
       ]
     },

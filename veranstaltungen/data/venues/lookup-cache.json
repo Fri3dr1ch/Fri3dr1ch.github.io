@@ -20367,6 +20367,106 @@
           "houseNumber": "84"
         }
       ]
+    },
+    "Lammstraße 7 a, Karlsruhe": {
+      "checkedAt": "2026-11-22T11:43:18+00:00",
+      "places": [
+        {
+          "id": "osm-node-4199069886",
+          "name": "Weltladen",
+          "latitude": 49.0086897,
+          "longitude": 8.4023811,
+          "address": "Lammstraße 7a, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4199069886",
+          "category": "shop",
+          "type": "convenience",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Lammstraße",
+          "houseNumber": "7a"
+        },
+        {
+          "id": "osm-node-1688844087",
+          "name": "Confiserie Gordani Lasch",
+          "latitude": 49.0085476,
+          "longitude": 8.4023702,
+          "address": "Lammstraße 7a, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1688844087",
+          "category": "amenity",
+          "type": "cafe",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Lammstraße",
+          "houseNumber": "7a"
+        },
+        {
+          "id": "osm-way-108636465",
+          "name": "Lammstraße 7a",
+          "latitude": 49.0086964,
+          "longitude": 8.4024329,
+          "address": "Lammstraße 7a, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/108636465",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Lammstraße",
+          "houseNumber": "7a"
+        },
+        {
+          "id": "osm-node-3208936281",
+          "name": "Lammstraße 7a",
+          "latitude": 49.0086054,
+          "longitude": 8.4024786,
+          "address": "Lammstraße 7a, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3208936281",
+          "category": "place",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Lammstraße",
+          "houseNumber": "7a"
+        },
+        {
+          "id": "osm-node-4199070089",
+          "name": "Schöffel Lowa",
+          "latitude": 49.0087882,
+          "longitude": 8.4024241,
+          "address": "Lammstraße 7a, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4199070089",
+          "category": "shop",
+          "type": "outdoor",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Lammstraße",
+          "houseNumber": "7a"
+        }
+      ]
+    },
+    "Naturfreundehaus Hopfenberg, Berghausen Pfinztal": {
+      "checkedAt": "2026-11-22T11:43:18+00:00",
+      "places": [
+        {
+          "id": "osm-node-563834301",
+          "name": "Naturfreundehaus Am Hopfenberg",
+          "latitude": 49.0008503,
+          "longitude": 8.5265647,
+          "address": "Touristenweg 11, 76327 Berghausen",
+          "url": "https://www.openstreetmap.org/node/563834301",
+          "category": "amenity",
+          "type": "restaurant",
+          "city": "Berghausen",
+          "district": "Berghausen",
+          "locality": "",
+          "street": "Touristenweg",
+          "houseNumber": "11"
+        }
+      ]
     }
   },
   "attribution": {
