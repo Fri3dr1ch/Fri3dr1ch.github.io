@@ -13,6 +13,7 @@ from lxml import html
 
 from import_groetzingen import ROOT,build_dataset,save_dataset,check_review,category,CATEGORIES
 from calendar_sources import PUBLISHER_SOURCE_IDS,combine_local_sources,saved_sources
+from detail_locations import PARSERS, enrich_locations
 from validate_calendar import validate_events
 
 BERLIN=ZoneInfo('Europe/Berlin')
@@ -207,7 +208,19 @@ def weingarten_entries(raw):
     if not entries:raise ValueError('Keine Weingartener Termine erkannt; bisherigen Stand beibehalten')
     return entries
 
-def fetch_source(source_id,stamp,fetch=download,root=ROOT):
+def snapshot_with_locations(source, records, stamp, extra, fetch, previous):
+    source_id = source['id']
+    details = None
+    if source_id in PARSERS:
+        today = datetime.fromisoformat(stamp.replace('Z', '+00:00')).astimezone(BERLIN).date().isoformat()
+        details = enrich_locations(source_id, records, fetch, stamp, today, previous)
+    result = snapshot_from_records(source, records, stamp, extra)
+    if details is not None:
+        result['detailLocations'] = details
+    return result
+
+
+def fetch_source(source_id,stamp,fetch=download,root=ROOT,previous=None):
     source=SOURCES[source_id]
     if source_id not in ('durlach','weingarten'):
         if source_id in PUBLISHER_SOURCE_IDS:
@@ -259,7 +272,7 @@ def fetch_source(source_id,stamp,fetch=download,root=ROOT):
         else:
             from pfinztal_online import fetch_records
             records,extra=fetch_records(fetch,source_id=source_id)
-        return snapshot_from_records(source,records,stamp,extra)
+        return snapshot_with_locations(source,records,stamp,extra,fetch,previous)
     raw=fetch(source['url']);pages=1
     if source_id=='durlach':
         entries=durlach_entries(raw)
@@ -276,21 +289,11 @@ def fetch_source(source_id,stamp,fetch=download,root=ROOT):
             rest=list(pool.map(fetch,urls))
         records=[e for page in [raw,*rest] for e in weingarten_entries(page)]
         scope='Alle '+str(pages)+' zum Abrufzeitpunkt veröffentlichten Ergebnisseiten des Gemeindekalenders.'
-    events=[event(source,r,stamp) for r in records]
-    unique={}
-    for e in events:
-        if e['id'] in unique and e!=unique[e['id']]:raise ValueError('Mehrdeutige Veranstaltungs-ID')
-        unique[e['id']]=e
-    events=list(unique.values())
-    metadata={**source,'status':'ok','lastAttemptAt':stamp,'lastSuccessAt':stamp,'refreshHours':24,
-        'recordCount':len(events),'eventCount':len(events),'pagesFetched':pages,'coverageKind':'html-list',
-        'coverageStart':min(e['startDate'] for e in events),'coverageEnd':max(e['endDate'] for e in events),
-        'coverageNote':scope,'license':None}
-    return {'source':metadata,'events':events}
+    return snapshot_with_locations(source,records,stamp,{'pagesFetched':pages,'coverageNote':scope},fetch,previous)
 
 def refresh(source_id,stamp,previous=None,fetch=download,root=ROOT):
     try:
-        snapshot=fetch_source(source_id,stamp,fetch,root)
+        snapshot=fetch_source(source_id,stamp,fetch,root,previous)
         validate_events(snapshot['events'],{source_id})
         return snapshot,None
     except Exception as exc:

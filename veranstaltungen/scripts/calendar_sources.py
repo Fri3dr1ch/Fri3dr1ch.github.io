@@ -7,6 +7,8 @@ import re
 import unicodedata
 from zoneinfo import ZoneInfo
 
+from eki_calendar import title_location as eki_title_location
+
 PUBLISHER_SOURCE_IDS=('naturtreff-groetzingen','vhs-karlsruhe-land-pfinztal',
                       'vhs-karlsruhe-land-weingarten','vhs-karlsruhe-land-walzbachtal',
                       'hagsfeld','stutensee','bergdoerfer','karlsbad','koenigsbach-stein')
@@ -14,6 +16,8 @@ LOCAL_SOURCE_IDS=('durlach','weingarten','pfinztal','pfinztal-vereine','remching
                   'kulturhalle-remchingen','eki-groetzingen','pfinztal-haus-begegnungen',
                   'naturfreunde-berghausen','naturfreunde-soellingen','naturfreunde-groetzingen','walzbachtal',
                   'waldpaedagogik-karlsruhe',*PUBLISHER_SOURCE_IDS,'aushang-groetzingen')
+
+GROETZINGEN_CHURCH = 'Evangelische Kirche Grötzingen'
 
 def normalized(text):
     text=unicodedata.normalize('NFKD',(text or '').replace('ß','ss')).encode('ascii','ignore').decode().lower()
@@ -135,6 +139,19 @@ def combine_local_sources(data,snapshots):
                     conflicts.append({'field':field,'selected':winner.get(field),'alternatives':[
                         {'sourceName':s['sourceName'],'value':s[field]} for s in reports]})
             winner['conflicts']=conflicts
+    # This publisher-specific default also applies to older saved snapshots.
+    # Keep the original location in the publisher report and deduplicate only
+    # on locations that a source actually provided.
+    for event in events:
+        if event['sourceId'] != 'eki-groetzingen':
+            continue
+        if location := eki_title_location(event['title']):
+            event['location'] = location
+        elif not event.get('location'):
+            event['location'] = GROETZINGEN_CHURCH
+            event['scheduleNote'] = (
+                (event.get('scheduleNote') or '') + ' Die Kirche dient als Standardort, solange keine Ortsangabe vorliegt.'
+            ).strip()
     result['events']=sorted(events,key=lambda e:(e['startDate'],e.get('startTime') or '99:99',e['title'].lower()))
     inputs=data['importStats']['inputRecords']+sum(len(s['events']) for s in snapshots)
     result['importStats']={'inputRecords':inputs,'eventCount':len(events),
