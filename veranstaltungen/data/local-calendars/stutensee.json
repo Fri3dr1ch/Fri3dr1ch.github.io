@@ -5,436 +5,20 @@
     "region": "Stutensee und Umgebung",
     "url": "https://www.stutensee.de/veranstaltungen",
     "status": "ok",
-    "lastAttemptAt": "2026-11-20T20:28:18+00:00",
-    "lastSuccessAt": "2026-11-20T20:28:18+00:00",
+    "lastAttemptAt": "2026-11-22T06:57:34+00:00",
+    "lastSuccessAt": "2026-11-22T06:57:34+00:00",
     "refreshHours": 24,
-    "recordCount": 43,
-    "eventCount": 43,
+    "recordCount": 35,
+    "eventCount": 35,
     "undatedCount": 0,
     "coverageKind": "html-list",
     "license": null,
     "coverageNote": "Alle veröffentlichten Webtermine; der separate Jahres-PDF-Kalender wird nicht eingelesen.",
     "pagesFetched": 3,
-    "coverageStart": "2026-11-20",
+    "coverageStart": "2026-11-22",
     "coverageEnd": "2027-02-23"
   },
   "events": [
-    {
-      "id": "stutensee-2825",
-      "sourceId": "stutensee",
-      "sourceName": "Stadt Stutensee · Veranstaltungskalender",
-      "title": "Prunksitzung",
-      "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2825",
-      "icalUrl": null,
-      "region": "Stutensee und Umgebung",
-      "city": null,
-      "categoryKey": "stadtleben",
-      "category": "Stadtleben",
-      "description": "Veranstalter: Faschingsfreunde Mit Schmagges e.V.",
-      "organizer": "Faschingsfreunde Mit Schmagges e.V.",
-      "location": "Drais-Halle Staffort",
-      "start": "2026-11-20T00:00:00+01:00",
-      "end": "2026-11-21T00:00:00+01:00",
-      "startDate": "2026-11-20",
-      "endDate": "2026-11-21",
-      "startTime": null,
-      "endTime": null,
-      "timeKnown": false,
-      "allDay": false,
-      "longRunning": false,
-      "scheduleNote": "Zeitraum laut Quelle; konkrete Öffnungszeiten bitte auf der Originalseite prüfen.",
-      "openingSchedule": null,
-      "openingOccurrences": null,
-      "status": "scheduled",
-      "dataQuality": "html-calendar",
-      "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
-      "sources": [
-        {
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2825",
-          "recordId": "2825",
-          "title": "Prunksitzung",
-          "startDate": "2026-11-20",
-          "endDate": "2026-11-21",
-          "startTime": null,
-          "endTime": null,
-          "dateText": null,
-          "timeText": null,
-          "location": "Drais-Halle Staffort",
-          "organizer": "Faschingsfreunde Mit Schmagges e.V.",
-          "sourceId": "stutensee",
-          "sourceName": "Stadt Stutensee · Veranstaltungskalender",
-          "reportedTitle": "Prunksitzung",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
-          "priority": 2
-        }
-      ],
-      "conflicts": []
-    },
-    {
-      "id": "stutensee-2904",
-      "sourceId": "stutensee",
-      "sourceName": "Stadt Stutensee · Veranstaltungskalender",
-      "title": "Vorlesetag: Aktion in Friedrichstal",
-      "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2904",
-      "icalUrl": null,
-      "region": "Stutensee und Umgebung",
-      "city": null,
-      "categoryKey": "stadtleben",
-      "category": "Stadtleben",
-      "description": "Veranstalter: Familienzentrum Friedrichstal - Kult Café",
-      "organizer": "Familienzentrum Friedrichstal - Kult Café",
-      "location": "Altes Rathaus Friedrichstal",
-      "start": "2026-11-20T00:00:00+01:00",
-      "end": null,
-      "startDate": "2026-11-20",
-      "endDate": "2026-11-20",
-      "startTime": null,
-      "endTime": null,
-      "timeKnown": false,
-      "allDay": false,
-      "longRunning": false,
-      "scheduleNote": "",
-      "openingSchedule": null,
-      "openingOccurrences": null,
-      "status": "scheduled",
-      "dataQuality": "html-calendar",
-      "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
-      "sources": [
-        {
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2904",
-          "recordId": "2904",
-          "title": "Vorlesetag: Aktion in Friedrichstal",
-          "startDate": "2026-11-20",
-          "endDate": "2026-11-20",
-          "startTime": null,
-          "endTime": null,
-          "dateText": null,
-          "timeText": null,
-          "location": "Altes Rathaus Friedrichstal",
-          "organizer": "Familienzentrum Friedrichstal - Kult Café",
-          "sourceId": "stutensee",
-          "sourceName": "Stadt Stutensee · Veranstaltungskalender",
-          "reportedTitle": "Vorlesetag: Aktion in Friedrichstal",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
-          "priority": 2
-        }
-      ],
-      "conflicts": []
-    },
-    {
-      "id": "stutensee-2903",
-      "sourceId": "stutensee",
-      "sourceName": "Stadt Stutensee · Veranstaltungskalender",
-      "title": "\"Ein Haus voller Geschichten\" - Vorlesetag im Gemeindehaus",
-      "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2903",
-      "icalUrl": null,
-      "region": "Stutensee und Umgebung",
-      "city": null,
-      "categoryKey": "stadtleben",
-      "category": "Stadtleben",
-      "description": "Veranstalter: Stadtbibliothekev. Kirchengemeinde Blankenloch",
-      "organizer": "Stadtbibliothekev. Kirchengemeinde Blankenloch",
-      "location": "ev. Gememeindehaus Blankenloch, Gymnasiumstraße 27",
-      "start": "2026-11-20T09:30:00+01:00",
-      "end": "2026-11-20T21:00:00+01:00",
-      "startDate": "2026-11-20",
-      "endDate": "2026-11-20",
-      "startTime": "09:30",
-      "endTime": "21:00",
-      "timeKnown": true,
-      "allDay": false,
-      "longRunning": false,
-      "scheduleNote": "",
-      "openingSchedule": null,
-      "openingOccurrences": null,
-      "status": "scheduled",
-      "dataQuality": "html-calendar",
-      "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
-      "sources": [
-        {
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2903",
-          "recordId": "2903",
-          "title": "\"Ein Haus voller Geschichten\" - Vorlesetag im Gemeindehaus",
-          "startDate": "2026-11-20",
-          "endDate": "2026-11-20",
-          "startTime": "09:30",
-          "endTime": "21:00",
-          "dateText": null,
-          "timeText": null,
-          "location": "ev. Gememeindehaus Blankenloch, Gymnasiumstraße 27",
-          "organizer": "Stadtbibliothekev. Kirchengemeinde Blankenloch",
-          "sourceId": "stutensee",
-          "sourceName": "Stadt Stutensee · Veranstaltungskalender",
-          "reportedTitle": "\"Ein Haus voller Geschichten\" - Vorlesetag im Gemeindehaus",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
-          "priority": 2
-        }
-      ],
-      "conflicts": []
-    },
-    {
-      "id": "stutensee-2892",
-      "sourceId": "stutensee",
-      "sourceName": "Stadt Stutensee · Veranstaltungskalender",
-      "title": "Kindertheaterstück „Wieder Ärger in Lazy Town“",
-      "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2892",
-      "icalUrl": null,
-      "region": "Stutensee und Umgebung",
-      "city": null,
-      "categoryKey": "stadtleben",
-      "category": "Stadtleben",
-      "description": "Veranstalter: StageArt e.V.",
-      "organizer": "StageArt e.V.",
-      "location": "GrauBau/Jugendzentrum Stutensee",
-      "start": "2026-11-20T17:00:00+01:00",
-      "end": null,
-      "startDate": "2026-11-20",
-      "endDate": "2026-11-20",
-      "startTime": "17:00",
-      "endTime": null,
-      "timeKnown": true,
-      "allDay": false,
-      "longRunning": false,
-      "scheduleNote": "",
-      "openingSchedule": null,
-      "openingOccurrences": null,
-      "status": "scheduled",
-      "dataQuality": "html-calendar",
-      "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
-      "sources": [
-        {
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2892",
-          "recordId": "2892",
-          "title": "Kindertheaterstück „Wieder Ärger in Lazy Town“",
-          "startDate": "2026-11-20",
-          "endDate": "2026-11-20",
-          "startTime": "17:00",
-          "endTime": null,
-          "dateText": null,
-          "timeText": null,
-          "location": "GrauBau/Jugendzentrum Stutensee",
-          "organizer": "StageArt e.V.",
-          "sourceId": "stutensee",
-          "sourceName": "Stadt Stutensee · Veranstaltungskalender",
-          "reportedTitle": "Kindertheaterstück „Wieder Ärger in Lazy Town“",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
-          "priority": 2
-        }
-      ],
-      "conflicts": []
-    },
-    {
-      "id": "stutensee-2710",
-      "sourceId": "stutensee",
-      "sourceName": "Stadt Stutensee · Veranstaltungskalender",
-      "title": "Spieleabend",
-      "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2710",
-      "icalUrl": null,
-      "region": "Stutensee und Umgebung",
-      "city": null,
-      "categoryKey": "stadtleben",
-      "category": "Stadtleben",
-      "description": "Veranstalter: KulturRaum Regenbogen im BZ Regenbogen",
-      "organizer": "KulturRaum Regenbogen im BZ Regenbogen",
-      "location": "Begegnungszentrum Regenbogen",
-      "start": "2026-11-20T19:00:00+01:00",
-      "end": "2026-11-20T21:00:00+01:00",
-      "startDate": "2026-11-20",
-      "endDate": "2026-11-20",
-      "startTime": "19:00",
-      "endTime": "21:00",
-      "timeKnown": true,
-      "allDay": false,
-      "longRunning": false,
-      "scheduleNote": "",
-      "openingSchedule": null,
-      "openingOccurrences": null,
-      "status": "scheduled",
-      "dataQuality": "html-calendar",
-      "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
-      "sources": [
-        {
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2710",
-          "recordId": "2710",
-          "title": "Spieleabend",
-          "startDate": "2026-11-20",
-          "endDate": "2026-11-20",
-          "startTime": "19:00",
-          "endTime": "21:00",
-          "dateText": null,
-          "timeText": null,
-          "location": "Begegnungszentrum Regenbogen",
-          "organizer": "KulturRaum Regenbogen im BZ Regenbogen",
-          "sourceId": "stutensee",
-          "sourceName": "Stadt Stutensee · Veranstaltungskalender",
-          "reportedTitle": "Spieleabend",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
-          "priority": 2
-        }
-      ],
-      "conflicts": []
-    },
-    {
-      "id": "stutensee-2873",
-      "sourceId": "stutensee",
-      "sourceName": "Stadt Stutensee · Veranstaltungskalender",
-      "title": "Erzählabend im Herbst \"Wenn die Schwere Flügel kriegt\"",
-      "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2873",
-      "icalUrl": null,
-      "region": "Stutensee und Umgebung",
-      "city": null,
-      "categoryKey": "stadtleben",
-      "category": "Stadtleben",
-      "description": "Veranstalter: Familienzentrum Friedrichstal - Kult Café",
-      "organizer": "Familienzentrum Friedrichstal - Kult Café",
-      "location": "Familienzentrum Friedrichstal - Kult Café im Alten Rathaus",
-      "start": "2026-11-20T19:30:00+01:00",
-      "end": null,
-      "startDate": "2026-11-20",
-      "endDate": "2026-11-20",
-      "startTime": "19:30",
-      "endTime": null,
-      "timeKnown": true,
-      "allDay": false,
-      "longRunning": false,
-      "scheduleNote": "",
-      "openingSchedule": null,
-      "openingOccurrences": null,
-      "status": "scheduled",
-      "dataQuality": "html-calendar",
-      "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
-      "sources": [
-        {
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2873",
-          "recordId": "2873",
-          "title": "Erzählabend im Herbst \"Wenn die Schwere Flügel kriegt\"",
-          "startDate": "2026-11-20",
-          "endDate": "2026-11-20",
-          "startTime": "19:30",
-          "endTime": null,
-          "dateText": null,
-          "timeText": null,
-          "location": "Familienzentrum Friedrichstal - Kult Café im Alten Rathaus",
-          "organizer": "Familienzentrum Friedrichstal - Kult Café",
-          "sourceId": "stutensee",
-          "sourceName": "Stadt Stutensee · Veranstaltungskalender",
-          "reportedTitle": "Erzählabend im Herbst \"Wenn die Schwere Flügel kriegt\"",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
-          "priority": 2
-        }
-      ],
-      "conflicts": []
-    },
-    {
-      "id": "stutensee-1634",
-      "sourceId": "stutensee",
-      "sourceName": "Stadt Stutensee · Veranstaltungskalender",
-      "title": "Kinderflohmarkt und Ladys-Flohmarkt",
-      "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=1634",
-      "icalUrl": null,
-      "region": "Stutensee und Umgebung",
-      "city": null,
-      "categoryKey": "stadtleben",
-      "category": "Stadtleben",
-      "description": "Veranstalter: Städt. Kindergärten Lachwald und Märchenwald",
-      "organizer": "Städt. Kindergärten Lachwald und Märchenwald",
-      "location": "Festhalle Stutensee",
-      "start": "2026-11-21T00:00:00+01:00",
-      "end": null,
-      "startDate": "2026-11-21",
-      "endDate": "2026-11-21",
-      "startTime": null,
-      "endTime": null,
-      "timeKnown": false,
-      "allDay": false,
-      "longRunning": false,
-      "scheduleNote": "",
-      "openingSchedule": null,
-      "openingOccurrences": null,
-      "status": "scheduled",
-      "dataQuality": "html-calendar",
-      "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
-      "sources": [
-        {
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=1634",
-          "recordId": "1634",
-          "title": "Kinderflohmarkt und Ladys-Flohmarkt",
-          "startDate": "2026-11-21",
-          "endDate": "2026-11-21",
-          "startTime": null,
-          "endTime": null,
-          "dateText": null,
-          "timeText": null,
-          "location": "Festhalle Stutensee",
-          "organizer": "Städt. Kindergärten Lachwald und Märchenwald",
-          "sourceId": "stutensee",
-          "sourceName": "Stadt Stutensee · Veranstaltungskalender",
-          "reportedTitle": "Kinderflohmarkt und Ladys-Flohmarkt",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
-          "priority": 2
-        }
-      ],
-      "conflicts": []
-    },
-    {
-      "id": "stutensee-2893",
-      "sourceId": "stutensee",
-      "sourceName": "Stadt Stutensee · Veranstaltungskalender",
-      "title": "Kindertheaterstück „Wieder Ärger in Lazy Town“",
-      "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2893",
-      "icalUrl": null,
-      "region": "Stutensee und Umgebung",
-      "city": null,
-      "categoryKey": "stadtleben",
-      "category": "Stadtleben",
-      "description": "Veranstalter: StageArt e.V.",
-      "organizer": "StageArt e.V.",
-      "location": "GrauBau/Jugendzentrum Stutensee",
-      "start": "2026-11-21T16:00:00+01:00",
-      "end": null,
-      "startDate": "2026-11-21",
-      "endDate": "2026-11-21",
-      "startTime": "16:00",
-      "endTime": null,
-      "timeKnown": true,
-      "allDay": false,
-      "longRunning": false,
-      "scheduleNote": "",
-      "openingSchedule": null,
-      "openingOccurrences": null,
-      "status": "scheduled",
-      "dataQuality": "html-calendar",
-      "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
-      "sources": [
-        {
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2893",
-          "recordId": "2893",
-          "title": "Kindertheaterstück „Wieder Ärger in Lazy Town“",
-          "startDate": "2026-11-21",
-          "endDate": "2026-11-21",
-          "startTime": "16:00",
-          "endTime": null,
-          "dateText": null,
-          "timeText": null,
-          "location": "GrauBau/Jugendzentrum Stutensee",
-          "organizer": "StageArt e.V.",
-          "sourceId": "stutensee",
-          "sourceName": "Stadt Stutensee · Veranstaltungskalender",
-          "reportedTitle": "Kindertheaterstück „Wieder Ärger in Lazy Town“",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
-          "priority": 2
-        }
-      ],
-      "conflicts": []
-    },
     {
       "id": "stutensee-2826",
       "sourceId": "stutensee",
@@ -464,7 +48,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2826",
@@ -481,7 +65,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Totengedenken verstorbener Mitglieder",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -516,7 +100,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2894",
@@ -533,7 +117,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Kindertheaterstück „Wieder Ärger in Lazy Town“",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -568,7 +152,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2898",
@@ -585,7 +169,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Erzähltheater \"Der Grolltroll\"",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -620,7 +204,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2867",
@@ -637,7 +221,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Strickeria",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -672,7 +256,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2533",
@@ -689,7 +273,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Digitales Info-Café 50 +",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -724,7 +308,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2899",
@@ -741,7 +325,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Erzähltheater „Der Grolltroll\"",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -776,7 +360,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2876",
@@ -793,7 +377,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "LiteraturKino im GrauBau",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -828,7 +412,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2827",
@@ -845,7 +429,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Adventskonzert",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -880,7 +464,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2828",
@@ -897,7 +481,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Klingender Advent",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -932,7 +516,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2829",
@@ -949,7 +533,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Kinder-Nikolausfeier",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -984,7 +568,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2874",
@@ -1001,7 +585,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Konzert \"Irish Christmas\"",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -1036,7 +620,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2327",
@@ -1053,7 +637,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Kindernikolaus",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -1088,7 +672,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2902",
@@ -1105,7 +689,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Trio Sonido - musikalische Souvenirs aus dem Süden",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -1140,7 +724,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=1812",
@@ -1157,7 +741,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Friedrichstaler Weihnachtsmarkt",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -1192,7 +776,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2831",
@@ -1209,7 +793,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Nikolausfeier/Winterfeier",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -1244,7 +828,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2832",
@@ -1261,7 +845,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Seniorenweihnachtsfeier Spöck",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -1296,7 +880,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2833",
@@ -1313,7 +897,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "2. Adventszauber",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -1348,7 +932,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2834",
@@ -1365,7 +949,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Nikolausfeier",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -1400,7 +984,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2555",
@@ -1417,7 +1001,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Kaffee Treff",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -1452,7 +1036,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2857",
@@ -1469,7 +1053,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Vortrag von Ruth Lauer",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -1504,7 +1088,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2701",
@@ -1521,7 +1105,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Offene Sprechstunde der Psychologischen Beratungsstelle für Eltern, Kinder und Jugendliche des Landkreises Karlsruhe",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -1556,7 +1140,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2889",
@@ -1573,7 +1157,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Schutz der Identität im Internet - es darf eben nicht jeder alles von Ihnen wissen",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -1608,7 +1192,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2836",
@@ -1625,7 +1209,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Adventsfest",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -1660,7 +1244,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2334",
@@ -1677,7 +1261,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Blankenlocher Weihnachtsmarkt",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -1712,7 +1296,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2837",
@@ -1729,7 +1313,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Weihnachtsfeier",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -1764,7 +1348,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2838",
@@ -1781,7 +1365,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Nikolausfeier für Kinder",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -1816,7 +1400,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2839",
@@ -1833,7 +1417,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Adventskonzert",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -1868,7 +1452,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2841",
@@ -1885,7 +1469,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Weihnachtsfeier",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -1920,7 +1504,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2349",
@@ -1937,7 +1521,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Reparatur-Treff",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -1972,7 +1556,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2840",
@@ -1989,7 +1573,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Weihnachtskonzert",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -2024,7 +1608,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2337",
@@ -2041,7 +1625,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Adventschoralblasen",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -2076,7 +1660,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2842",
@@ -2093,7 +1677,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Weihnachtslieder auf dem Friedhof",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -2128,7 +1712,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2843",
@@ -2145,7 +1729,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Glühweinfeschdle",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -2180,7 +1764,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2796",
@@ -2197,7 +1781,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Gesundheits-Apps verstehen und nutzen",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
@@ -2232,7 +1816,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-20T20:28:18+00:00",
+      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
       "sources": [
         {
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2798",
@@ -2249,7 +1833,7 @@
           "sourceId": "stutensee",
           "sourceName": "Stadt Stutensee · Veranstaltungskalender",
           "reportedTitle": "Mit Technik leben – Das intelligente Wohnen von morgen",
-          "checkedAt": "2026-11-20T20:28:18+00:00",
+          "checkedAt": "2026-11-22T06:57:34+00:00",
           "priority": 2
         }
       ],
