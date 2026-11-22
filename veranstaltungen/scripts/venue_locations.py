@@ -73,6 +73,14 @@ def identity(event):
     # Empty locations may represent many venues within a publisher. Never allow
     # one review decision to assign all of these unrelated events to one point.
     label=norm(canonical_label(location))
+    if event.get('sourceId') == 'eki-groetzingen':
+        # The same buildings appear as short labels and full names in EKI.
+        label = {
+            'mlh': 'martin luther haus',
+            'martin luther haus grotzingen': 'martin luther haus',
+            'evang kirche grotzingen': 'evangelische kirche grotzingen',
+            'gemeindehaus kirchstrasse': 'evangelisches gemeindehaus',
+        }.get(label, label)
     basis=[label,scope] if location else ['missing',event['sourceId'],scope]
     # "Clubhaus" may mean different clubs within the same district. A saved
     # decision must never silently propagate across those organisers.

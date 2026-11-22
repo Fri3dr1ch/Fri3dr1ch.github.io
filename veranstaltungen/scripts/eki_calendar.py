@@ -13,6 +13,17 @@ URL='https://eki-groetzingen.de/terminkalender/'
 CMS_ALIAS='eki-groetzingen.eki-musterhausen.de'
 ORGANIZER='Evangelische Kirche in Grötzingen'
 
+def title_location(title):
+    # These titles name the actual venue. The CMS sometimes shows a general
+    # church or town hall entry alongside them.
+    if re.search(r'\bSenioren-Gottesdienst im Haus PAMINA\b', title, re.I):
+        return 'Haus Pamina'
+    if re.search(r'\bAdventsliedersingen auf dem Rathausplatz\b', title, re.I):
+        return 'Rathausplatz Grötzingen'
+    if re.fullmatch(r'Ökumenisches Hausgebet(?: im Advent)?', title, re.I):
+        return 'Zu Hause'
+    return ''
+
 def has_class(token):
     return 'contains(concat(" ",normalize-space(@class)," ")," '+token+' ")'
 
@@ -54,7 +65,9 @@ def parse_listing(raw, *, allow_pagination=False):
         # This is a generic subtitle field, not a location field. Only explicit
         # venue labels seen in the published calendar become a location; e.g.
         # "im Advent" must not be presented as a venue.
-        venue=subtitle if re.match(r'^(?:Friedhof|Evangelisches Gemeindehaus|Martin-Luther-Haus|Hanne-Landgraf-Haus|Bürgersaal)\b',subtitle) else ''
+        venue=subtitle if re.match(
+            r'^(?:Friedhof|Evangelisches Gemeindehaus|Gemeindehaus Kirchstraße|(?:Evang\.|Evangelische) Kirche|'
+            r'Martin[- ]Luther[- ]Haus|MLH|Hanne-Landgraf-Haus|Bürgersaal)\b',subtitle,re.I) else ''
         note='Zusatzangabe im Kalender: '+subtitle if subtitle and not venue else ''
         records.append({'recordId':id_match[1],'title':text(heading),'url':url,
             'startDate':day,'endDate':day,'startTime':match[2],'endTime':match[3],
@@ -150,6 +163,6 @@ def fetch_records(fetch):
     metadata={'coverageKind':'html-list','pagesFetched':pages_fetched,'refreshHours':24,
         'coverageStart':min(r['startDate'] for r in records),
         'coverageEnd':max(r['endDate'] for r in records),
-        'coverageNote':f'Alle {len(records)} ausdrücklich datierten Einträge von {pages_fetched} veröffentlichten Ergebnisseiten. Keine selbst erzeugten Wiederholungen; Orte nur soweit ausdrücklich erkennbar.',
+        'coverageNote':f'Alle {len(records)} ausdrücklich datierten Einträge von {pages_fetched} veröffentlichten Ergebnisseiten. Ortsangaben aus Übersicht und Termindetails.',
         'extractionMethod':'deterministic-html','llmRequired':False}
     return records,metadata

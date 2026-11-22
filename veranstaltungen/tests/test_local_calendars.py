@@ -62,10 +62,75 @@ class LocalCalendarTests(unittest.TestCase):
         seen=[]
         def fetch(url):
             seen.append(url)
+            if '/seite-' not in url:
+                from urllib.parse import urlsplit
+                record_id = urlsplit(url).path.rstrip('/').split('/')[-2]
+                return f'<div id="hwveranstaltung__show__{record_id}"></div>'.encode()
             return raw if 'seite-1/' in url else self.fixture('weingarten-11.html')
         data=imp.fetch_source('weingarten',STAMP,fetch)
-        self.assertEqual(len(seen),2);self.assertEqual(len(data['events']),20)
+        self.assertEqual(len([url for url in seen if '/seite-' in url]),2)
+        self.assertEqual(len(data['events']),20)
         self.assertEqual(data['source']['pagesFetched'],2)
+
+    def test_location_refresh_combines_detail_fields_and_keeps_cached_places_on_error(self):
+        base = 'https://www.walzbachtal.de/termin/Lesung-event-appointment123'
+        raw = b'''<main><article class="card--horizontal"><h1>Lesung</h1></article>
+            <div class="dgf-description-list location" hidden><dl><dd>Heimatstube</dd></dl></div></main>'''
+        def records():
+            return [{'url':base,'recordId':'123','startDate':'2026-12-12','location':''},
+                    {'url':base,'recordId':'123','startDate':'2026-12-13','location':''},
+                    {'url':base+'4','recordId':'1234','startDate':'2026-12-12','location':'Pfarrsaal'}]
+        from detail_locations import enrich_locations
+        items = records()
+        seen = []
+        def fetch(url):
+            seen.append(url)
+            return raw
+        cached = enrich_locations('walzbachtal',items,fetch,STAMP,'2026-11-12',None)
+        self.assertEqual(seen,[base])
+        self.assertEqual([r['location'] for r in items],['Heimatstube','Heimatstube','Pfarrsaal'])
+        def offline(url):
+            seen.append(url)
+            raise TimeoutError()
+        fresh = records()
+        enrich_locations('walzbachtal',fresh,offline,'2026-11-13T09:00:00+00:00','2026-11-13',
+                         {'detailLocations':cached})
+        self.assertEqual(seen,[base])
+        enrich_locations('walzbachtal',fresh := records(),offline,'2026-11-22T09:00:00+00:00',
+                         '2026-11-22',{'detailLocations':cached})
+        self.assertEqual(seen,[base,base])
+        self.assertEqual(fresh[0]['location'],'Heimatstube')
+
+    def test_detail_location_parsers_keep_event_context(self):
+        from detail_locations import eki_location,hagsfeld_location,weingarten_location,karlsbad_location
+        from venue_locations import identity
+        raw = b'''<h1 class="v-detail-titel">Treffen</h1><div class="v-detail-box-oertlichkeit">
+            <div class="v-detail-less-content"><div class="ortsname">MLH</div></div></div>'''
+        self.assertEqual(eki_location(raw, {}),'MLH')
+        event = {'sourceId':'eki-groetzingen','region':'Grötzingen'}
+        self.assertEqual(identity({**event,'location':'MLH'})[0],
+                         identity({**event,'location':'Martin-Luther-Haus'})[0])
+        self.assertEqual(hagsfeld_location(b'<main><div class="event layout_full"><p class="location">Laurentiuskirche</p></div></main>',{}),'Laurentiuskirche')
+        raw = b'''<div id="hwveranstaltung__show__966"><div id="hw_map_location__966"
+          data-strasse="Sohlsiedlung 7" data-plz="76356" data-ort="Weingarten"></div></div>
+          <div id="hw_map_location__123" data-strasse="Rathausplatz"></div>'''
+        self.assertEqual(weingarten_location(raw,{'recordId':'966'}),'Sohlsiedlung 7, 76356 Weingarten')
+        self.assertEqual(weingarten_location(raw.replace(b'hw_map_location__966', b'hw_map_location__777'),
+                                            {'recordId':'966'}),'')
+        raw = b'''<div id="event_12550"><div itemprop="description"><p>Treffpunkt: Gemeindehaus</p></div></div>'''
+        self.assertEqual(karlsbad_location(raw,{'url':'https://www.karlsbad.de/eventcalendar?event_id=12550'}),
+                         'Gemeindehaus')
+
+    def test_church_default_is_applied_only_to_missing_eki_locations(self):
+        record = {'url':'https://eki-groetzingen.de/terminkalender/','recordId':'sample',
+                  'title':'Treffen','startDate':'2026-12-01','startTime':'15:00','location':''}
+        source = imp.SOURCES['eki-groetzingen']
+        snapshot = imp.snapshot_from_records(source,[record,{**record,'recordId':'mlh','location':'MLH'}],STAMP)
+        data = {'events':[],'sources':[],'importStats':{'inputRecords':0}}
+        defaults = {e['sources'][0]['recordId']:e for e in combine_local_sources(data,[snapshot])['events']}
+        self.assertEqual(defaults['sample']['location'],'Evangelische Kirche Grötzingen')
+        self.assertEqual(defaults['sample']['sources'][0]['location'],'')
+        self.assertEqual(defaults['mlh']['location'],'MLH')
 
     def test_failed_or_changed_source_preserves_previous_events_and_success_date(self):
         previous=json.loads((ROOT/'data/local-calendars/weingarten.json').read_text())
