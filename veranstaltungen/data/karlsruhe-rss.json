@@ -11,10 +11,10 @@
       "license": "CC0",
       "licenseUrl": "https://transparenz.karlsruhe.de/dataset/veranstaltungskalender-stadt-karlsruhe",
       "timezone": "Europe/Berlin",
-      "lastAttemptAt": "2026-11-23T07:46:27+00:00",
+      "lastAttemptAt": "2026-11-23T11:49:09+00:00",
       "lastSuccessAt": "2026-11-23T07:47:15+00:00",
       "feedBuiltAt": "Mon, 23 Nov 2026 07:46:28 +0000",
-      "status": "ok",
+      "status": "error",
       "feedItemCount": 421,
       "eventCount": 422,
       "skippedCount": 0,
@@ -27,7 +27,8 @@
       "listingLastAttemptAt": "2026-11-23T07:47:15+00:00",
       "listingStatus": "ok",
       "listingLastSuccessAt": "2026-11-23T07:47:16+00:00",
-      "listingRecordCount": 4
+      "listingRecordCount": 4,
+      "lastError": "HTTPError: HTTP Error 503: Service Unavailable"
     }
   ],
   "events": [

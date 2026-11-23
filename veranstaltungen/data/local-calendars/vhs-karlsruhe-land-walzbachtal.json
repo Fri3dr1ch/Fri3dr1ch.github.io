@@ -4,9 +4,9 @@
     "name": "vhs Karlsruhe Land · Außenstelle Walzbachtal",
     "region": "Walzbachtal",
     "url": "https://www.vhs-karlsruhe-land.de/standorte/walzbachtal/",
-    "status": "error",
-    "lastAttemptAt": "2026-11-23T07:47:45+00:00",
-    "lastSuccessAt": "2026-11-22T06:57:31+00:00",
+    "status": "ok",
+    "lastAttemptAt": "2026-11-23T11:49:43+00:00",
+    "lastSuccessAt": "2026-11-23T11:49:43+00:00",
     "refreshHours": 24,
     "recordCount": 5,
     "eventCount": 5,
@@ -18,8 +18,7 @@
     "pagesFetched": 1,
     "landingPage": "https://www.vhs-karlsruhe-land.de/standorte/walzbachtal/",
     "coverageStart": "2026-12-02",
-    "coverageEnd": "2027-01-13",
-    "lastError": "URLError: <urlopen error timed out>"
+    "coverageEnd": "2027-01-13"
   },
   "events": [
     {
@@ -51,7 +50,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-22T06:57:31+00:00",
+      "detailCheckedAt": "2026-11-23T11:49:43+00:00",
       "sources": [
         {
           "url": "https://www.vhs-karlsruhe-land.de/programm/kultur-gestalten/kw/bereich/kursdetails/kurs/M829H003WL/kursname/Nassfilzen fuer Kinder - Kleines weihnachtliches Windlicht ab 6 Jahren/kategorie-id/1",
@@ -68,7 +67,7 @@
           "sourceId": "vhs-karlsruhe-land-walzbachtal",
           "sourceName": "vhs Karlsruhe Land · Außenstelle Walzbachtal",
           "reportedTitle": "Nassfilzen für Kinder - Kleines weihnachtliches Windlicht (ab 6 Jahren)",
-          "checkedAt": "2026-11-22T06:57:31+00:00",
+          "checkedAt": "2026-11-23T11:49:43+00:00",
           "priority": 2
         }
       ],
@@ -103,7 +102,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-22T06:57:31+00:00",
+      "detailCheckedAt": "2026-11-23T11:49:43+00:00",
       "sources": [
         {
           "url": "https://www.vhs-karlsruhe-land.de/programm/kultur-gestalten/kw/bereich/kursdetails/kurs/M209H001WL/kursname/Trockenfilzen - Verschiedene Tiere Erwachsene/kategorie-id/1",
@@ -120,7 +119,7 @@
           "sourceId": "vhs-karlsruhe-land-walzbachtal",
           "sourceName": "vhs Karlsruhe Land · Außenstelle Walzbachtal",
           "reportedTitle": "Trockenfilzen - Verschiedene Tiere (Erwachsene)",
-          "checkedAt": "2026-11-22T06:57:31+00:00",
+          "checkedAt": "2026-11-23T11:49:43+00:00",
           "priority": 2
         }
       ],
@@ -155,7 +154,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-22T06:57:31+00:00",
+      "detailCheckedAt": "2026-11-23T11:49:43+00:00",
       "sources": [
         {
           "url": "https://www.vhs-karlsruhe-land.de/programm/gesundheit-ernaehrung/kw/bereich/kursdetails/kurs/M300H005WL/kursname/Kinder gesund ernaehren im Kindergartenalter einfach und alltagstauglich Vor/kategorie-id/7",
@@ -172,7 +171,7 @@
           "sourceId": "vhs-karlsruhe-land-walzbachtal",
           "sourceName": "vhs Karlsruhe Land · Außenstelle Walzbachtal",
           "reportedTitle": "Kinder gesund ernähren (im Kindergartenalter) – einfach und alltagstauglich (Vortrag)",
-          "checkedAt": "2026-11-22T06:57:31+00:00",
+          "checkedAt": "2026-11-23T11:49:43+00:00",
           "priority": 2
         }
       ],
@@ -207,7 +206,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-22T06:57:31+00:00",
+      "detailCheckedAt": "2026-11-23T11:49:43+00:00",
       "sources": [
         {
           "url": "https://www.vhs-karlsruhe-land.de/programm/kultur-gestalten/kw/bereich/kursdetails/kurs/M828H001WL/kursname/Last-Minute-Weihnachtsgeschenke - Bastelwerkstatt fuer Kinder und Jugendliche/kategorie-id/1",
@@ -224,7 +223,7 @@
           "sourceId": "vhs-karlsruhe-land-walzbachtal",
           "sourceName": "vhs Karlsruhe Land · Außenstelle Walzbachtal",
           "reportedTitle": "Last-Minute-Weihnachtsgeschenke - Bastelwerkstatt für Kinder und Jugendliche (7 bis 13 Jahre)",
-          "checkedAt": "2026-11-22T06:57:31+00:00",
+          "checkedAt": "2026-11-23T11:49:43+00:00",
           "priority": 2
         }
       ],
@@ -259,7 +258,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-22T06:57:31+00:00",
+      "detailCheckedAt": "2026-11-23T11:49:43+00:00",
       "sources": [
         {
           "url": "https://www.vhs-karlsruhe-land.de/programm/kultur-gestalten/kw/bereich/kursdetails/kurs/M829H004WL/kursname/Nassfilzen fuer Kinder - Kleine Schneegloeckchen-Pueppchen ab 6 Jahren/kategorie-id/1",
@@ -276,7 +275,7 @@
           "sourceId": "vhs-karlsruhe-land-walzbachtal",
           "sourceName": "vhs Karlsruhe Land · Außenstelle Walzbachtal",
           "reportedTitle": "Nassfilzen für Kinder - Kleine Schneeglöckchen-Püppchen (ab 6 Jahren)",
-          "checkedAt": "2026-11-22T06:57:31+00:00",
+          "checkedAt": "2026-11-23T11:49:43+00:00",
           "priority": 2
         }
       ],

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T07:49:07+00:00",
+  "generatedAt": "2026-11-23T11:50:32+00:00",
   "attribution": {
     "text": "© OpenStreetMap contributors · ODbL",
     "url": "https://www.openstreetmap.org/copyright"
@@ -15,9 +15,9 @@
       "review": 7,
       "resolved": 386
     },
-    "upcomingEvents": 1363,
+    "upcomingEvents": 1364,
     "eventStatuses": {
-      "resolved": 1252,
+      "resolved": 1253,
       "online": 7,
       "missing": 86,
       "review": 7,
@@ -26,7 +26,7 @@
     }
   },
   "lookup": {
-    "requested": 2,
+    "requested": 0,
     "failures": []
   },
   "rows": [
@@ -192,7 +192,7 @@
       "examples": [
         {
           "id": "naturfreunde-soellingen-6163615aeb54bd193e1f2592-2026-11-29-unknown",
-          "title": "Martin, Traudel, Max",
+          "title": "Martin, Traudel, Max, Leonie, Hoschi",
           "date": "2026-11-29",
           "url": "https://www.naturfreunde-soellingen.de/kalender/"
         },
@@ -14444,6 +14444,69 @@
       ]
     },
     {
+      "key": "venue-64703e1b2b6166a111fb",
+      "location": "Pizzeria Gemelli",
+      "scope": "walzbachtal",
+      "scopeLabel": "Walzbachtal",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-298858706",
+        "name": "Ristorante Pizzeria Gemelli",
+        "latitude": 49.0153015,
+        "longitude": 8.600918,
+        "address": "Wössinger Straße 119, 75045 Walzbachtal-Wössingen",
+        "url": "https://www.openstreetmap.org/way/298858706",
+        "category": "amenity",
+        "type": "restaurant",
+        "street": "Wössinger Straße",
+        "houseNumber": "119"
+      },
+      "candidates": [
+        {
+          "id": "osm-way-298858706",
+          "name": "Ristorante Pizzeria Gemelli",
+          "latitude": 49.0153015,
+          "longitude": 8.600918,
+          "address": "Wössinger Straße 119, 75045 Walzbachtal-Wössingen",
+          "url": "https://www.openstreetmap.org/way/298858706",
+          "category": "amenity",
+          "type": "restaurant",
+          "street": "Wössinger Straße",
+          "houseNumber": "119",
+          "score": 0.744,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 2,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "walzbachtal"
+      ],
+      "sources": [
+        "Walzbachtal · Jöhlingen und Wössingen"
+      ],
+      "examples": [
+        {
+          "id": "walzbachtal-5547-2026-12-02-1500",
+          "title": "Offener Stammtisch-Treff 60+",
+          "date": "2026-12-02",
+          "url": "https://www.walzbachtal.de/veranstaltung/Offener-Stammtisch-Treff-60-event-appointment5547"
+        },
+        {
+          "id": "walzbachtal-6194-2027-01-13-1500",
+          "title": "Offener Stammtisch-Treff 60+",
+          "date": "2027-01-13",
+          "url": "https://www.walzbachtal.de/veranstaltung/Offener-Stammtisch-Treff-60-event-appointment6194"
+        }
+      ]
+    },
+    {
       "key": "venue-835536d3e7bf808269e5",
       "location": "Pädagogische Hochschule Karlsruhe (PHKA)",
       "scope": "karlsruhe",
@@ -26122,63 +26185,6 @@
           "title": "Kloistoibacher Weihnachtsmärktle",
           "date": "2026-12-04",
           "url": "https://pfinztal.de/wp-content/uploads/2026/02/Kopie-von-Finaler-Veranstaltungskalender_2026_Stand_09.12.2025.pdf#page=10"
-        }
-      ]
-    },
-    {
-      "key": "venue-64703e1b2b6166a111fb",
-      "location": "Pizzeria Gemelli",
-      "scope": "walzbachtal",
-      "scopeLabel": "Walzbachtal",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-298858706",
-        "name": "Ristorante Pizzeria Gemelli",
-        "latitude": 49.0153015,
-        "longitude": 8.600918,
-        "address": "Wössinger Straße 119, 75045 Walzbachtal-Wössingen",
-        "url": "https://www.openstreetmap.org/way/298858706",
-        "category": "amenity",
-        "type": "restaurant",
-        "street": "Wössinger Straße",
-        "houseNumber": "119"
-      },
-      "candidates": [
-        {
-          "id": "osm-way-298858706",
-          "name": "Ristorante Pizzeria Gemelli",
-          "latitude": 49.0153015,
-          "longitude": 8.600918,
-          "address": "Wössinger Straße 119, 75045 Walzbachtal-Wössingen",
-          "url": "https://www.openstreetmap.org/way/298858706",
-          "category": "amenity",
-          "type": "restaurant",
-          "street": "Wössinger Straße",
-          "houseNumber": "119",
-          "score": 0.744,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "walzbachtal"
-      ],
-      "sources": [
-        "Walzbachtal · Jöhlingen und Wössingen"
-      ],
-      "examples": [
-        {
-          "id": "walzbachtal-5547-2026-12-02-1500",
-          "title": "Offener Stammtisch-Treff 60+",
-          "date": "2026-12-02",
-          "url": "https://www.walzbachtal.de/veranstaltung/Offener-Stammtisch-Treff-60-event-appointment5547"
         }
       ]
     },
