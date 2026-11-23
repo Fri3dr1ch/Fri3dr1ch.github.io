@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Interaktive Weltkarte, auf der Höhen und Meerestiefen an Normalnull gespiegelt sind.">
+  <meta name="theme-color" content="#f6f5ef">
+  <title>Die invertierte Erde</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preload" href="terrain-invertiert-nord.webp" as="image">
+  <script type="module" src="map.js"></script>
+</head>
+<body>
+  <main>
+    <header class="page-heading">
+      <a class="home-link" href="../#spielereien">Friedrichs Projekte</a>
+      <h1>Die invertierte Erde</h1>
+      <p>Spiegelt man das Erdrelief an Normalnull, werden aus Meerestiefen Berge und aus Bergen Tiefen.</p>
+    </header>
+
+    <div class="layout">
+      <section class="map-panel" aria-labelledby="map-heading">
+        <div class="map-header">
+          <h2 id="map-heading">Weltkarte</h2>
+          <div class="mode-group" role="group" aria-label="Dargestelltes Relief">
+            <button type="button" id="inverted" aria-pressed="true">Invertiert</button>
+            <button type="button" id="original" aria-pressed="false">Original</button>
+          </div>
+        </div>
+
+        <div class="map-viewport" id="viewport">
+          <canvas id="map" tabindex="0" aria-label="Interaktive Weltkarte" aria-describedby="map-help keyboard-help"></canvas>
+          <p id="map-status" class="map-status" role="status">Karte wird geladen …</p>
+          <button type="button" class="map-pin high" id="pin-challenger" aria-label="Challengertief im Marianengraben auf der Karte" hidden>
+            <span class="pin-dot"></span><span class="pin-name">Challengertief</span>
+          </button>
+          <button type="button" class="map-pin low" id="pin-everest" aria-label="Mount Everest auf der Karte" hidden>
+            <span class="pin-dot"></span><span class="pin-name">Mount Everest</span>
+          </button>
+          <div class="zoom" role="group" aria-label="Kartenausschnitt">
+            <button type="button" id="zoom-in" aria-label="Vergrößern" title="Vergrößern">+</button>
+            <button type="button" id="zoom-out" aria-label="Verkleinern" title="Verkleinern" disabled>−</button>
+            <button type="button" id="reset" aria-label="Weltansicht zurücksetzen" title="Weltansicht zurücksetzen" disabled><span class="reset-icon" aria-hidden="true"></span></button>
+          </div>
+          <span class="projection" id="projection-label">Equal Earth · Nord oben</span>
+        </div>
+
+        <div class="map-footer">
+          <div class="legend" aria-label="Farbskala, Höhe relativ zu Normalnull">
+            <strong>Höhe relativ zu Normalnull</strong>
+            <div class="legend-ramp" aria-hidden="true"></div>
+            <div class="legend-ticks"><span>−9.000 m</span><span>−4.500</span><span>0</span><span>+5.500</span><span>+11.000 m</span></div>
+          </div>
+          <div class="map-instructions">
+            <div class="map-options">
+              <label class="map-option" id="rotation-control">
+                <input type="checkbox" id="rotate-map">
+                Karte drehen
+              </label>
+              <label class="map-option" id="land-line-control" hidden>
+                <input type="checkbox" id="show-land-line" checked>
+                Landlinie anzeigen
+              </label>
+            </div>
+            <p id="map-help">Punkt antippen oder anklicken, um seine Höhe abzulesen. Ziehen zum Verschieben.</p>
+          </div>
+          <p id="keyboard-help" class="visually-hidden">Mit Pfeiltasten verschieben, mit Plus und Minus zoomen und mit der Eingabetaste die Kartenmitte abfragen. Pos1 setzt die Ansicht zurück.</p>
+        </div>
+        <noscript><p class="no-script">Die interaktive Karte benötigt JavaScript.</p></noscript>
+      </section>
+
+      <aside class="map-sidebar" aria-label="Karteninformationen">
+        <section class="extremes" aria-labelledby="extreme-heading">
+          <h2 id="extreme-heading">Extrempunkte</h2>
+          <button type="button" class="place high" id="place-challenger" aria-pressed="false">
+            <span class="place-role" id="role-challenger">Höchster Punkt</span>
+            <span class="place-name">Challengertief</span>
+            <span class="place-area">Marianengraben</span>
+            <span class="place-value" id="value-challenger">ca. +10.935 m</span>
+          </button>
+          <button type="button" class="place low" id="place-everest" aria-pressed="false">
+            <span class="place-role" id="role-everest">Tiefster Punkt</span>
+            <span class="place-name">Mount Everest</span>
+            <span class="place-area">Himalaya</span>
+            <span class="place-value" id="value-everest">−8.849 m</span>
+          </button>
+        </section>
+        <section class="point-details" aria-labelledby="point-heading">
+          <h2 id="point-heading">Gewählter Kartenpunkt</h2>
+          <div id="point-data" aria-live="polite" aria-atomic="true">
+            <p id="point-empty">Wähle einen Punkt auf der Karte.</p>
+            <p id="point-coordinates" hidden></p>
+            <dl id="point-values" hidden>
+              <div><dt>Invertiert</dt><dd id="point-inverted"></dd></div>
+              <div><dt>Original</dt><dd id="point-original"></dd></div>
+            </dl>
+          </div>
+        </section>
+      </aside>
+    </div>
+
+    <section class="method" aria-labelledby="method-heading">
+      <h2 id="method-heading">Wie die Inversion funktioniert</h2>
+      <div class="method-copy">
+        <p>Für die Karte wird jede Höhe <var>h</var> durch <var>−h</var> ersetzt. Die geografische Position bleibt gleich, und alle Punkte auf der Nulllinie bleiben bei 0&nbsp;m. Blau markiert Bereiche unterhalb der Nulllinie. Als Nullniveau dient das Geoid EGM2008.</p>
+        <p>Der Flächenschwerpunkt der größten zusammenhängenden Landmasse liegt im Südpazifik und bildet die Kartenmitte. Mit „Karte drehen“ legst du den längsten im Höhenraster gefundenen Großkreisbogen waagerecht, der durch diesen Mittelpunkt und vollständig über Land verläuft.</p>
+        <p>Das Relief stammt aus <a href="https://www.ncei.noaa.gov/products/etopo-global-relief-model">NOAA ETOPO 2022</a> (Eisoberfläche), gemittelt auf ein Raster von 6&nbsp;Bogenminuten. An den beiden Markierungen stehen die separat vermessenen und gerundeten Werte für <a href="https://oceanservice.noaa.gov/facts/oceandepth.html">Challengertief</a> und <a href="https://www.guinnessworldrecords.com/world-records/highest-mountain">Mount Everest</a>.</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
