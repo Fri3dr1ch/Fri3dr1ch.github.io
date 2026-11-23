@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T19:46:14+00:00",
+  "generatedAt": "2026-11-23T07:47:16+00:00",
   "timezone": "Europe/Berlin",
   "sources": [
     {
@@ -11,22 +11,22 @@
       "license": "CC0",
       "licenseUrl": "https://transparenz.karlsruhe.de/dataset/veranstaltungskalender-stadt-karlsruhe",
       "timezone": "Europe/Berlin",
-      "lastAttemptAt": "2026-11-22T19:45:04+00:00",
-      "lastSuccessAt": "2026-11-22T19:46:14+00:00",
-      "feedBuiltAt": "Sun, 22 Nov 2026 19:45:05 +0000",
+      "lastAttemptAt": "2026-11-23T07:46:27+00:00",
+      "lastSuccessAt": "2026-11-23T07:47:15+00:00",
+      "feedBuiltAt": "Mon, 23 Nov 2026 07:46:28 +0000",
       "status": "ok",
       "feedItemCount": 421,
       "eventCount": 422,
       "skippedCount": 0,
       "detailFailures": 0,
-      "upcomingStartThrough": "2026-12-06",
+      "upcomingStartThrough": "2026-12-07",
       "coverageKind": "rss-selection",
       "refreshHours": 24,
       "listingUrl": "https://kalender.karlsruhe.de/db/termine/549983/",
       "listingRefreshHours": 24,
-      "listingLastAttemptAt": "2026-11-22T06:57:33+00:00",
+      "listingLastAttemptAt": "2026-11-23T07:47:15+00:00",
       "listingStatus": "ok",
-      "listingLastSuccessAt": "2026-11-22T06:57:34+00:00",
+      "listingLastSuccessAt": "2026-11-23T07:47:16+00:00",
       "listingRecordCount": 4
     }
   ],
@@ -56,7 +56,7 @@
       "location": "Zentrum für Kunst und Medien (ZKM)",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:14+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:15+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -86,7 +86,7 @@
       "location": "Saumarkt Durlach",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:14+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:15+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -116,7 +116,7 @@
       "location": "Marktplatz Durlach",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:14+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:15+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -146,7 +146,7 @@
       "location": "Heilig Geist Kirche Daxlanden",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:14+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:15+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -176,7 +176,7 @@
       "location": "Gottesauer Platz",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:14+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:15+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -206,7 +206,7 @@
       "location": "Gutenbergplatz, am Krautkopfbrunnen",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:14+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:15+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -236,7 +236,7 @@
       "location": "Rheinstraße am Entenfang",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:13+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:15+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -266,7 +266,7 @@
       "location": "Neureuter Platz an der Badnerlandhalle",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:13+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:15+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -296,7 +296,7 @@
       "location": "Walther-Rathenau-Platz",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:13+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:14+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -326,7 +326,7 @@
       "location": "Christ-König-Kirche",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:13+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:14+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -356,7 +356,7 @@
       "location": "Stephanplatz",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:13+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:14+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -386,7 +386,7 @@
       "location": "Werderplatz",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:13+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:14+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -416,7 +416,7 @@
       "location": "Elsässer Platz",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:13+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:14+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -446,7 +446,7 @@
       "location": "Marktplatz Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:12+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:14+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -476,7 +476,7 @@
       "location": "Kronenplatz",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:12+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:14+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -506,7 +506,7 @@
       "location": "Waldstadtzentrum",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:12+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:14+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -536,7 +536,7 @@
       "location": "Marktplatz Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:12+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:14+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -566,7 +566,7 @@
       "location": "Julius-Leber-Platz (Marktplatz Oberreut)",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:12+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:13+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -596,7 +596,7 @@
       "location": "Karlsruhe Institute of Technology",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:12+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:13+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -626,7 +626,7 @@
       "location": "Zentrum für Kunst und Medien ZKM",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:11+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:13+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -656,7 +656,7 @@
       "location": "Stadtmuseum im Prinz-Max-Palais",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:11+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:13+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -686,7 +686,7 @@
       "location": "Zentrum für Kunst und Medien ZKM",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:11+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:13+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -716,7 +716,7 @@
       "location": "Reitsportclub Daxlanden e.V.",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:11+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:13+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -746,7 +746,7 @@
       "location": "studio hö",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:11+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:13+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -776,7 +776,7 @@
       "location": "Schloss Neuenbürg",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:11+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:13+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -806,7 +806,7 @@
       "location": "Orangerie der Staatlichen Kunsthalle Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:11+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:13+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -836,7 +836,7 @@
       "location": "vhs Karlsruhe, Kaiserallee 12e",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:10+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:12+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -866,7 +866,7 @@
       "location": "vhs Karlsruhe, Kaiserallee 12e",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:10+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:12+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -896,7 +896,7 @@
       "location": "vhs Karlsruhe, Kaiserallee 12e",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:10+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:12+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -926,7 +926,7 @@
       "location": "vhs Karlsruhe, Kaiserallee 12e",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:10+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:12+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -956,7 +956,7 @@
       "location": "AktivioSport",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:10+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:12+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -986,7 +986,7 @@
       "location": "Junge Kunsthalle",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:10+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:12+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -1016,7 +1016,7 @@
       "location": "Kammertheater Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:10+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:12+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -1046,7 +1046,7 @@
       "location": "Kammertheater Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:09+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:12+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -1076,7 +1076,7 @@
       "location": "Regierungspräsidium Karlsruhe am Rondellplatz",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:09+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:12+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -1106,7 +1106,7 @@
       "location": "City Tour durch Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:09+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:11+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -1136,7 +1136,7 @@
       "location": "Badische Landesbibliothek",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:09+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:11+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -1166,7 +1166,7 @@
       "location": "Begegnungsstätte Grötzingen",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:09+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:11+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -1196,7 +1196,7 @@
       "location": "Stadtbibliothek Karlsruhe - Kinder- und Jugendbibliothek Karlsruhe im Prinz-Max-Palais",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:09+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:11+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -1226,7 +1226,7 @@
       "location": "Sammlungspräsentation der Staatlichen Kunsthalle Karlsruhe im ZKM",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:09+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:11+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -1256,7 +1256,7 @@
       "location": "Kinemathek Karlsruhe e.V.",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:08+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:11+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -1286,7 +1286,7 @@
       "location": "Kinemathek Karlsruhe e.V.",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:08+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:11+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -1316,7 +1316,7 @@
       "location": "VWA Baden in Karlsruhe e. V.",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:08+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:11+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -1346,7 +1346,7 @@
       "location": "GEDOK Künstlerinnenforum",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:08+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:11+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -1376,38 +1376,8 @@
       "location": "Pfinzgaumuseum Karlsburg Durlach",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:08+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:10+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
-      "icalEtag": null,
-      "icalLastModified": null
-    },
-    {
-      "id": "karlsruhe-64c3970f27487ed0",
-      "sourceId": "karlsruhe",
-      "sourceName": "Stadt Karlsruhe",
-      "sourceGuid": "ka 581631",
-      "title": "Hazel Brugger",
-      "url": "https://kalender.karlsruhe.de/db/termine/musik/hazel_brugger",
-      "icalUrl": "https://kalender.karlsruhe.de/db/termine/musik/hazel_brugger/ical",
-      "categoryKey": "musik",
-      "category": "Musik",
-      "description": "Schwarzwaldhalle / Kongresszentrum Karlsruhe - Good Evening Europe",
-      "region": "Karlsruhe und Umgebung",
-      "city": null,
-      "start": "2026-11-22T00:00:00+01:00",
-      "end": "2026-11-23T00:00:00+01:00",
-      "startDate": "2026-11-22",
-      "endDate": "2026-11-23",
-      "startTime": null,
-      "endTime": null,
-      "allDay": false,
-      "timeKnown": false,
-      "longRunning": false,
-      "location": "Schwarzwaldhalle / Kongresszentrum Karlsruhe",
-      "status": "scheduled",
-      "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:08+00:00",
-      "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
     },
@@ -1436,7 +1406,7 @@
       "location": "Hochschule für Musik, Genuit-Saal",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:07+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:10+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -1466,7 +1436,7 @@
       "location": "Marktplatz Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:07+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:10+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -1496,7 +1466,7 @@
       "location": "Kirchplatz St. Stephan",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:07+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:10+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -1526,7 +1496,7 @@
       "location": "Hochschule für Musik Karlsruhe, CampusOne, Wolfgang-Rihm-Forum",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:07+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:10+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -1556,7 +1526,7 @@
       "location": "Stadtbibliothek Karlsruhe - Stadtteilbibliothek Waldstadt",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:07+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:10+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -1586,7 +1556,7 @@
       "location": "Stadtbibliothek Karlsruhe - Stadtteilbibliothek Grötzingen",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:07+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:10+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null,
@@ -1617,7 +1587,7 @@
       "location": "Staatliches Museum für Naturkunde Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:06+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:10+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -1647,7 +1617,7 @@
       "location": "Hochschule für Musik, Velte-Saal",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:06+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:09+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -1677,7 +1647,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:06+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:09+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -1707,7 +1677,7 @@
       "location": "Staatstheater, siehe Beschreibung",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:06+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:09+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -1737,7 +1707,7 @@
       "location": "Kulturzentrum Tollhaus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:06+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:09+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -1767,7 +1737,7 @@
       "location": "Schlossplatz Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:07+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:10+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -1797,7 +1767,7 @@
       "location": "Stadtbibliothek Karlsruhe - Kinder- und Jugendbibliothek Karlsruhe im Prinz-Max-Palais",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:06+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:09+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -1827,7 +1797,7 @@
       "location": "Stadtbibliothek Karlsruhe - Zentralbibliothek im Neuen Ständehaus - Sprechstunde",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:06+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:09+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -1857,7 +1827,7 @@
       "location": "Stadtbibliothek Karlsruhe - Stadtteilbibliothek Grötzingen",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:05+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:09+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null,
@@ -1888,7 +1858,7 @@
       "location": "Staatliches Museum für Naturkunde Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:05+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:09+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -1918,7 +1888,7 @@
       "location": "Kaiserstraße 47, Kulturküche",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:05+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:09+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -1948,7 +1918,7 @@
       "location": "Staatliches Museum für Naturkunde Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:05+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:08+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -1978,7 +1948,7 @@
       "location": "Stadtbibliothek Karlsruhe - Stadtteilbibliothek Mühlburg",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:05+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:08+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2008,7 +1978,7 @@
       "location": "Badische Landesbibliothek",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:05+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:08+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2038,7 +2008,7 @@
       "location": "Stadtbibliothek Karlsruhe - Zentralbibliothek im Neuen Ständehaus - Buchclub",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:05+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:08+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2068,7 +2038,7 @@
       "location": "Filmtheater Schauburg, Marienstraße 16, 76137 Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:04+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:08+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2098,7 +2068,7 @@
       "location": "ZeSIA - Zentrum für sexuelle Gesundheit, Identität und Aufklärung Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:04+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:08+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2128,7 +2098,7 @@
       "location": "Hochschule für Musik, Velte-Saal",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:04+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:08+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2158,7 +2128,7 @@
       "location": "Badisches Staatstheater, INSEL",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:04+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:08+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2188,7 +2158,7 @@
       "location": "Badisches Staatstheater, Großes Haus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:04+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:08+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2218,7 +2188,7 @@
       "location": "Staatstheater, siehe Beschreibung",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:03+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:07+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2248,7 +2218,7 @@
       "location": "Ev. Stadtkirche Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:04+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:08+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2278,7 +2248,7 @@
       "location": "Karlsruhe Hauptbahnhof (Vordach)",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:03+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:07+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2308,7 +2278,7 @@
       "location": "Kinemathek",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:03+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:07+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2338,7 +2308,7 @@
       "location": "Vorplatz der Begegnungsstätte Wolfartsweier",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:03+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:07+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2368,7 +2338,7 @@
       "location": "Gemeindezentrum Durlach",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:02+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:06+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2398,7 +2368,7 @@
       "location": "Badisches Staatstheater, INSEL",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:02+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:07+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2428,7 +2398,7 @@
       "location": "Stadtbibliothek Karlsruhe - Zentralbibliothek im Neuen Ständehaus - Sprechstunde",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:03+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:07+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2458,7 +2428,7 @@
       "location": "Badisches Staatstheater, Kleines Haus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:02+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:07+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2488,7 +2458,7 @@
       "location": "Stadtbibliothek Karlsruhe - Kinder- und Jugendbibliothek Karlsruhe im Prinz-Max-Palais",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:02+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:06+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2518,7 +2488,7 @@
       "location": "Kleine Kirche Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:02+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:06+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2548,7 +2518,7 @@
       "location": "Sammlungspräsentation der Staatlichen Kunsthalle Karlsruhe im ZKM",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:02+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:06+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2578,7 +2548,7 @@
       "location": "Pädagogische Hochschule Karlsruhe (PHKA)",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:02+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:06+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2608,7 +2578,7 @@
       "location": "Neureuter Platz an der Badnerlandhalle",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:01+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:06+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2638,7 +2608,7 @@
       "location": "Stadtbibliothek Karlsruhe - Zentralbibliothek im Neuen Ständehaus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:01+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:06+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2668,7 +2638,7 @@
       "location": "Zentrum für Kunst und Medien ZKM",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:01+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:06+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2698,7 +2668,7 @@
       "location": "Stadtbibliothek Karlsruhe - Amerikanische Bibliothek",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:01+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:05+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2728,7 +2698,7 @@
       "location": "Stadtbibliothek Karlsruhe - Kinder- und Jugendbibliothek Karlsruhe im Prinz-Max-Palais",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:00+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:05+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2758,7 +2728,7 @@
       "location": "Stadtbibliothek Karlsruhe - Kinder- und Jugendbibliothek Karlsruhe im Prinz-Max-Palais",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:01+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:05+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2788,7 +2758,7 @@
       "location": "Stadtbibliothek Karlsruhe - Kinder- und Jugendbibliothek Karlsruhe im Prinz-Max-Palais",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:01+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:06+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2818,7 +2788,7 @@
       "location": "online ZEF21",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:00+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:05+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2848,7 +2818,7 @@
       "location": "Badisches Staatstheater, INSEL",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:00+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:05+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2878,7 +2848,7 @@
       "location": "Veranstaltungsraum Turmberg-Terrasse",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:00+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:05+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2908,7 +2878,7 @@
       "location": "BGV Badische Versicherung",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:00+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:05+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2938,7 +2908,7 @@
       "location": "Generallandesarchiv Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:00+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:05+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2968,7 +2938,7 @@
       "location": "Hochschule für Musik Karlsruhe, CampusOne, Wolfgang-Rihm-Forum",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:59+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:04+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -2998,7 +2968,7 @@
       "location": "Kulturzentrum Tollhaus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:00+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:05+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3028,7 +2998,7 @@
       "location": "Badisches Staatstheater, Kleines Haus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:59+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:04+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3058,7 +3028,7 @@
       "location": "Hemingway Lounge in Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:59+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:04+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3088,7 +3058,7 @@
       "location": "Lutherkirche (am Gottesauer Platz)",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:59+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:04+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3118,7 +3088,7 @@
       "location": "Stadtbibliothek Karlsruhe - Zentralbibliothek im Neuen Ständehaus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:59+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:04+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3148,7 +3118,7 @@
       "location": "Konzerthaus / Kongresszentrum Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:03+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:07+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3178,7 +3148,7 @@
       "location": "Gartenhalle / Kongresszentrum Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:46:03+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:07+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3208,7 +3178,7 @@
       "location": "Gemeindezentrum Durlach",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:58+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:04+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3238,7 +3208,7 @@
       "location": "Badisches Staatstheater, INSEL",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:58+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:04+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3268,7 +3238,7 @@
       "location": "IBZ (Internationales Begegnungszentrum), Kaiserallee 12 d, Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:58+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:04+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3298,7 +3268,7 @@
       "location": "Karlsruhe Hbf",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:58+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:04+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3328,7 +3298,7 @@
       "location": "Staatliches Museum für Naturkunde Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:58+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:03+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3358,7 +3328,7 @@
       "location": "Naturkundemuseum KA",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:58+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:03+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3388,7 +3358,7 @@
       "location": "Staatliches Museum für Naturkunde Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:58+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:03+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3418,7 +3388,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:57+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:03+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3448,7 +3418,7 @@
       "location": "Staatliches Museum für Naturkunde Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:57+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:03+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3478,7 +3448,7 @@
       "location": "Stadtbibliothek Karlsruhe - Stadtteilbibliothek Durlach",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:57+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:03+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3508,7 +3478,7 @@
       "location": "Stadtbibliothek Karlsruhe - Kinder- und Jugendbibliothek Karlsruhe im Prinz-Max-Palais",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:57+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:03+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3538,7 +3508,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:57+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:02+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3568,7 +3538,7 @@
       "location": "Kunstmuseum Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:57+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:03+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3598,7 +3568,7 @@
       "location": "Stadtbibliothek Karlsruhe - Zentralbibliothek im Neuen Ständehaus - Sprechstunde",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:57+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:03+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3628,7 +3598,7 @@
       "location": "Europäische Schule Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:56+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:02+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3658,7 +3628,7 @@
       "location": "Staatliches Museum für Naturkunde Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:56+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:02+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3688,7 +3658,7 @@
       "location": "Badische Landesbibliothek",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:56+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:02+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3718,7 +3688,7 @@
       "location": "digital",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:56+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:02+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3748,7 +3718,7 @@
       "location": "Orangerie der Staatlichen Kunsthalle Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:56+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:02+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3778,7 +3748,7 @@
       "location": "Kulturküche Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:56+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:02+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3808,7 +3778,7 @@
       "location": "Bürgerzentrum Mühlburg",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:56+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:02+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3838,7 +3808,7 @@
       "location": "Gemeindesaal Peter-und-Paul-Gemeinde",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:55+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:02+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3868,7 +3838,7 @@
       "location": "Hochschule für Musik, Velte-Saal",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:55+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:01+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3898,7 +3868,7 @@
       "location": "Badisches Staatstheater, Kleines Haus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:55+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:01+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3928,7 +3898,7 @@
       "location": "Staatstheater, siehe Beschreibung",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:54+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:01+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3958,7 +3928,7 @@
       "location": "TanzAreal Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:55+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:01+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -3988,7 +3958,7 @@
       "location": "Kulturzentrum Tollhaus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:55+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:01+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4018,7 +3988,7 @@
       "location": "Kulturzentrum Tollhaus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:55+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:01+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4048,7 +4018,7 @@
       "location": "Kinemathek Karlsruhe e.V.",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:54+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:01+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4078,7 +4048,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:54+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:01+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4108,7 +4078,7 @@
       "location": "Zentrum für Kunst und Medien (ZKM) | Vortragssaal",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:59+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:04+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4138,7 +4108,7 @@
       "location": "IHK Haus der Wirtschaft",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:54+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:01+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4168,7 +4138,7 @@
       "location": "Hans-und-Therese-Krille-Saal",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:54+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:00+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4198,7 +4168,7 @@
       "location": "Hans-und-Therese-Krille-Saal",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:54+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:00+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4228,7 +4198,7 @@
       "location": "Badisches Staatstheater, INSEL",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:54+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:00+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4258,7 +4228,7 @@
       "location": "Kunstmuseum Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:53+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:00+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4288,7 +4258,7 @@
       "location": "Kinemathek Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:53+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:00+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4318,7 +4288,7 @@
       "location": "Stadtbibliothek Karlsruhe - Kinder- und Jugendbibliothek Karlsruhe im Prinz-Max-Palais",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:53+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:00+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4348,7 +4318,7 @@
       "location": "Stadtbibliothek Karlsruhe - Stadtteilbibliothek Neureut",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:53+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:00+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4378,7 +4348,7 @@
       "location": "Humboldt-Gymnasium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:53+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:00+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4408,7 +4378,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:53+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:59+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4438,7 +4408,7 @@
       "location": "Orgelfabrik Halle",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:53+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:00+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4468,7 +4438,7 @@
       "location": "siehe Homepage",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:52+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:59+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4498,7 +4468,7 @@
       "location": "Centro = Schul- und Kulturzentrum der Deutsch-Italienischen Gesellschaft e.V. Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:52+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:59+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4528,7 +4498,7 @@
       "location": "Kronenplatz",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:52+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:59+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4558,7 +4528,7 @@
       "location": "Stadtbibliothek Karlsruhe - Amerikanische Bibliothek",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:52+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:59+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4588,7 +4558,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:51+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:58+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4618,7 +4588,7 @@
       "location": "Hochschule für Musik",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:51+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:58+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4648,7 +4618,7 @@
       "location": "Staatstheater, siehe Beschreibung",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:51+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:59+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4678,7 +4648,7 @@
       "location": "Staatliches Museum für Naturkunde Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:52+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:59+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4708,7 +4678,7 @@
       "location": "Badisches Staatstheater, Kleines Haus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:51+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:59+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4738,7 +4708,7 @@
       "location": "Rüppurrer Rathäusle",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:51+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:58+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4768,7 +4738,7 @@
       "location": "Staatliches Museum für Naturkunde Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:52+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:59+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4798,7 +4768,7 @@
       "location": "Das Sandkorn Theater & Mehr",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:51+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:58+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4828,7 +4798,7 @@
       "location": "Kleine Kirche Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:51+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:58+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4858,7 +4828,7 @@
       "location": "Kulturzentrum Tollhaus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:50+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:58+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4888,7 +4858,7 @@
       "location": "Substage Karlsruhe e.V.",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:50+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:58+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4918,7 +4888,7 @@
       "location": "Kulturzentrum Tollhaus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:50+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:58+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4948,7 +4918,7 @@
       "location": "Blauer Salon in der HfG Karlsruhe (EG, R012)",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:50+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:57+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -4978,7 +4948,7 @@
       "location": "ZKM │ Zentrum für Kunst und Medien Karlsruhe, Medientheater",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:50+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:57+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5008,7 +4978,7 @@
       "location": "Hemingway Lounge in Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:50+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:57+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5038,7 +5008,7 @@
       "location": "Rathaus Grötzingen, Bürgersaal",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:50+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:58+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5068,7 +5038,7 @@
       "location": "Badisch Bühn Mundarttheater",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:49+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:57+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5098,7 +5068,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:49+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:57+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5128,7 +5098,7 @@
       "location": "Staatstheater, siehe Beschreibung",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:49+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:57+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5158,7 +5128,7 @@
       "location": "Staatliches Museum für Naturkunde Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:49+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:57+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5188,7 +5158,7 @@
       "location": "Messe Karlsruhe - Messe gesamt",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:48+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:56+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5218,7 +5188,7 @@
       "location": "Kunstmuseum Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:48+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:56+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5248,7 +5218,7 @@
       "location": "Zentrum für Kunst und Medien (ZKM)",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:48+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:56+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -5278,7 +5248,7 @@
       "location": "Imagine, Schauspielschule für Kinder und Jugendliche",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:48+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:56+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5308,7 +5278,7 @@
       "location": "HWK Gärtnerei Grötzingen",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:47+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:55+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5338,7 +5308,7 @@
       "location": "Rüppurrer Rathäusle",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:47+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:55+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5368,7 +5338,7 @@
       "location": "Imagine, Schauspielschule für Kinder und Jugendliche",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:47+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:55+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5398,7 +5368,7 @@
       "location": "Hemingway Lounge in Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:46+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:55+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5428,7 +5398,7 @@
       "location": "Imagine, Schauspielschule für Kinder und Jugendliche",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:46+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:55+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5458,7 +5428,7 @@
       "location": "Staatstheater, siehe Beschreibung",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:45+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:55+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5488,7 +5458,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:45+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:55+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5518,7 +5488,7 @@
       "location": "vhs Karlsruhe, Kaiserallee 12e, Hofgebäude",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:45+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:55+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5548,7 +5518,7 @@
       "location": "Stadtbibliothek Karlsruhe - Amerikanische Bibliothek",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:45+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:55+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5578,7 +5548,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:45+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:54+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5608,7 +5578,7 @@
       "location": "vhs Karlsruhe, Kaiserallee 12e, Hofgebäude",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:45+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:54+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5638,7 +5608,7 @@
       "location": "Junge Kunsthalle",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:45+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:54+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5668,7 +5638,7 @@
       "location": "Heimatfreunde Grötzingen e.V.",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:44+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:54+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5698,7 +5668,7 @@
       "location": "Audimax - KIT Campus Süd",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:44+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:54+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5728,7 +5698,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:44+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:54+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5758,7 +5728,7 @@
       "location": "Badisches Staatstheater, INSEL",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:44+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:54+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5788,7 +5758,7 @@
       "location": "Rathausplatz Grötzingen",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:44+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:54+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5818,7 +5788,7 @@
       "location": "Badisches Staatstheater, Kleines Haus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:44+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:54+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5848,7 +5818,7 @@
       "location": "Kath. Pfarrkirche St. Cyriakus, Bulach",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:43+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:53+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5878,7 +5848,7 @@
       "location": "Substage Karlsruhe e.V.",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:43+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:53+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5908,7 +5878,7 @@
       "location": "Badisches Staatstheater, Großes Haus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:43+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:53+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5938,7 +5908,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:43+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:53+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5968,7 +5938,7 @@
       "location": "Das Sandkorn Theater & Mehr",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:43+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:53+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -5998,7 +5968,7 @@
       "location": "Kulturzentrum Tollhaus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:43+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:53+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6028,7 +5998,7 @@
       "location": "Jubez - Jugend- und Begegnungszentrum",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:42+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:52+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6058,7 +6028,7 @@
       "location": "Jubez - Jugend- und Begegnungszentrum",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:43+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:53+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6088,7 +6058,7 @@
       "location": "Kulturzentrum Tollhaus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:43+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:53+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6118,7 +6088,7 @@
       "location": "Gerthsen-Hörsaal, Engesserstr. 9, KIT Karlsruhe, Campus Süd",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:42+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:52+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6148,7 +6118,7 @@
       "location": "Kulturzentrum Tempel / Scenario Halle",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:42+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:53+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6178,7 +6148,7 @@
       "location": "Badischer Kunstverein",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:42+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:52+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6208,7 +6178,7 @@
       "location": "Kulturhaus MIKADO",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:42+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:52+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6238,7 +6208,7 @@
       "location": "Kabarett in der Orgelfabrik - die Spiegelfechter",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:42+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:52+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6268,7 +6238,7 @@
       "location": "Badisch Bühn Mundarttheater",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:41+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:52+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6298,7 +6268,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:41+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:52+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6328,7 +6298,7 @@
       "location": "Staatstheater, siehe Beschreibung",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:41+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:52+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6358,7 +6328,7 @@
       "location": "Pfinzgaumuseum Karlsburg Durlach",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:48+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:56+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -6388,7 +6358,7 @@
       "location": "Konzerthaus / Kongresszentrum Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:49+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:56+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6418,7 +6388,7 @@
       "location": "Stadthalle / Kongresszentrum Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:49+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:57+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6448,7 +6418,7 @@
       "location": "Messe Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:49+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:57+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6478,7 +6448,7 @@
       "location": "Badisches Staatstheater, Kleines Haus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:41+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:52+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6508,7 +6478,7 @@
       "location": "Bürgerzentrum Südwerk Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:41+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:51+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6538,7 +6508,7 @@
       "location": "Platz der Grundrechte",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:41+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:51+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6568,7 +6538,7 @@
       "location": "KIT Botanischer Garten",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:40+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:51+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6598,7 +6568,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:40+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:51+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6628,7 +6598,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:40+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:51+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6658,7 +6628,7 @@
       "location": "Heimatfreunde Grötzingen e.V.",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:39+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:51+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6688,7 +6658,7 @@
       "location": "Bürgerzentrum Südwerk Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:40+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:51+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6718,7 +6688,7 @@
       "location": "Café NUN",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:40+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:51+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6748,7 +6718,7 @@
       "location": "Galerie Kunstfachwerk N6",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:40+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:51+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6778,7 +6748,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:39+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:50+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6808,7 +6778,7 @@
       "location": "Kunstmuseum Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:39+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:50+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6838,7 +6808,7 @@
       "location": "Pfinzgaumuseum Karlsburg Durlach",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:39+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:50+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6868,7 +6838,7 @@
       "location": "Kunstmuseum Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:39+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:50+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6898,7 +6868,7 @@
       "location": "Badisches Staatstheater, Großes Haus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:38+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:50+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6928,7 +6898,7 @@
       "location": "TanzAreal Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:39+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:50+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6958,7 +6928,7 @@
       "location": "Ev. Stadtkirche Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:38+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:50+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -6988,7 +6958,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:38+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:50+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7018,7 +6988,7 @@
       "location": "Kinemathek Karlsruhe e.V.",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:38+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:50+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7048,7 +7018,7 @@
       "location": "Christuskirche Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:38+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:50+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7078,7 +7048,7 @@
       "location": "Anne-Frank-Haus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:38+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:49+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7108,7 +7078,7 @@
       "location": "Staatstheater, siehe Beschreibung",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:38+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:49+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7138,7 +7108,7 @@
       "location": "Staatliches Museum für Naturkunde Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:38+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:49+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7168,7 +7138,7 @@
       "location": "Hemingway Lounge in Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:38+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:49+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7198,7 +7168,7 @@
       "location": "Das Sandkorn Theater & Mehr",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:37+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:49+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7228,7 +7198,7 @@
       "location": "Badisches Staatstheater, Kleines Haus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:37+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:49+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7258,7 +7228,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:37+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:49+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7288,7 +7258,7 @@
       "location": "Kulturzentrum Tollhaus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:37+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:49+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7318,7 +7288,7 @@
       "location": "Staatstheater, siehe Beschreibung",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:37+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:48+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7348,7 +7318,7 @@
       "location": "Staatliches Museum für Naturkunde Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:37+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:49+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7378,7 +7348,7 @@
       "location": "Stadtbibliothek Karlsruhe - Stadtteilbibliothek Mühlburg",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:36+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:48+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7408,7 +7378,7 @@
       "location": "Bildungszentrum Roncalli-Forum Karlsruhe, Ignatius-Saal",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:36+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:48+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7438,7 +7408,7 @@
       "location": "dm dialogicum",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:36+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:48+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7468,7 +7438,7 @@
       "location": "Blauer Salon in der HfG Karlsruhe (EG, R012)",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:35+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:48+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7498,7 +7468,7 @@
       "location": "Hochschule für Musik Karlsruhe, CampusOne, Wolfgang-Rihm-Forum",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:35+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:48+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7528,7 +7498,7 @@
       "location": "Hochschule für Musik, Velte-Saal",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:35+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:48+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7558,7 +7528,7 @@
       "location": "Hochschule für Musik, Genuit-Saal",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:35+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:48+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7588,7 +7558,7 @@
       "location": "Kulturzentrum Tollhaus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:35+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:48+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7618,7 +7588,7 @@
       "location": "Walther-Rathenau-Platz",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:35+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:47+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7648,7 +7618,7 @@
       "location": "Badisches Staatstheater, Kleines Haus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:34+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:47+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7678,7 +7648,7 @@
       "location": "Stadtbibliothek Karlsruhe - Zentralbibliothek im Neuen Ständehaus - Sprechstunde",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:35+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:47+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7708,7 +7678,7 @@
       "location": "City Tour durch Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:34+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:47+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -7738,7 +7708,7 @@
       "location": "City Tour durch Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:34+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:47+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -7768,7 +7738,7 @@
       "location": "City Tour durch Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:34+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:47+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -7798,7 +7768,7 @@
       "location": "Staatliches Museum für Naturkunde Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:34+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:47+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7828,7 +7798,7 @@
       "location": "Karlsruher Oststadt",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:34+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:47+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -7858,7 +7828,7 @@
       "location": "Staatliches Museum für Naturkunde Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:33+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:47+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7888,7 +7858,7 @@
       "location": "Stadtbibliothek Karlsruhe - Zentralbibliothek im Neuen Ständehaus - Buchclub",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:33+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:46+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7918,7 +7888,7 @@
       "location": "Staatstheater, siehe Beschreibung",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:33+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:46+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7948,7 +7918,7 @@
       "location": "Badisches Staatstheater, INSEL",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:33+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:46+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -7978,7 +7948,7 @@
       "location": "dm dialogicum",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:33+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:46+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8008,7 +7978,7 @@
       "location": "ZeSIA - Zentrum für sexuelle Gesundheit, Identität und Aufklärung Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:32+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:46+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8038,7 +8008,7 @@
       "location": "Staatliches Museum für Naturkunde Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:33+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:46+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8068,7 +8038,7 @@
       "location": "Badisches Staatstheater, Kleines Haus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:32+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:46+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8098,7 +8068,7 @@
       "location": "Kulturzentrum Tollhaus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:32+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:46+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8128,7 +8098,7 @@
       "location": "Hochschule für Musik, Velte-Saal",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:32+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:45+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8158,7 +8128,7 @@
       "location": "Literarische Gesellschaft Karlsruhe e.V.",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:32+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:45+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8188,7 +8158,7 @@
       "location": "Tanzsportzentrum des TSC Rot-Weiss Karlsruhe e.V.",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:31+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:45+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8218,7 +8188,7 @@
       "location": "Stadtbibliothek Karlsruhe - Stadtteilbibliothek Durlach",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:32+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:45+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8248,7 +8218,7 @@
       "location": "Kleine Kirche beim Marktplatz Karlsruhe, Kaiserstr. 131",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:31+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:45+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8278,7 +8248,7 @@
       "location": "Badnerlandhalle Neureut",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:31+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:45+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8308,7 +8278,7 @@
       "location": "Badisches Staatstheater, INSEL",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:31+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:45+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8338,7 +8308,7 @@
       "location": "Stadtbibliothek Karlsruhe - Zentralbibliothek im Neuen Ständehaus - Sprechstunde",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:31+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:45+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8368,7 +8338,7 @@
       "location": "Gemeindezentrum Durlach",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:30+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:44+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8398,7 +8368,7 @@
       "location": "Kleine Kirche Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:30+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:44+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8428,7 +8398,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:30+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:44+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8458,7 +8428,7 @@
       "location": "Staatliches Museum für Naturkunde Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:30+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:44+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8488,7 +8458,7 @@
       "location": "Stadtbibliothek Karlsruhe - Zentralbibliothek im Neuen Ständehaus - Handmade",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:30+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:44+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8518,7 +8488,7 @@
       "location": "Stadtbibliothek Karlsruhe - Kinder- und Jugendbibliothek Karlsruhe im Prinz-Max-Palais",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:30+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:44+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8548,7 +8518,7 @@
       "location": "Tanzsportzentrum des TSC Rot-Weiss Karlsruhe e.V.",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:29+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:44+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8559,11 +8529,11 @@
       "sourceName": "Stadt Karlsruhe",
       "sourceGuid": "ka 575505",
       "title": "Offene Bibliotheksführung",
-      "url": "https://kalender.karlsruhe.de/db/termine/literatur/offene_bibliotheksfuhrung-27",
-      "icalUrl": "https://kalender.karlsruhe.de/db/termine/literatur/offene_bibliotheksfuhrung-27/ical",
+      "url": "https://kalender.karlsruhe.de/db/termine/literatur/offene_bibliotheksfuhrung",
+      "icalUrl": "https://kalender.karlsruhe.de/db/termine/literatur/offene_bibliotheksfuhrung/ical",
       "categoryKey": "literatur",
       "category": "Literatur & Vorträge",
-      "description": "17 bis 17.30 Uhr - Stadtbibliothek Karlsruhe - Zentralbibliothek im Neuen Ständehaus - ohne Anmeldung, kostenfrei",
+      "description": "17 bis 17.30 Uhr - ohne Anmeldung, kostenfrei",
       "region": "Karlsruhe und Umgebung",
       "city": null,
       "start": "2026-12-02T17:00:00+01:00",
@@ -8575,10 +8545,10 @@
       "allDay": false,
       "timeKnown": true,
       "longRunning": false,
-      "location": "Stadtbibliothek Karlsruhe - Zentralbibliothek im Neuen Ständehaus",
+      "location": "Stadtbibliothek Karlsruhe - Zentralbibliothek im Neuen Ständehaus -  Bibliotheksführung",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:30+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:44+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8608,7 +8578,7 @@
       "location": "online ZEF21",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:30+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:44+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8638,7 +8608,7 @@
       "location": "vhs Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:29+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:43+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8668,7 +8638,7 @@
       "location": "Kulturzentrum Tollhaus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:29+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:43+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8698,7 +8668,7 @@
       "location": "Hochschule für Musik, Velte-Saal",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:29+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:43+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8728,7 +8698,7 @@
       "location": "Badisches Staatstheater, Kleines Haus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:28+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:43+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8758,7 +8728,7 @@
       "location": "Kleine Kirche Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:28+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:43+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8788,7 +8758,7 @@
       "location": "Online | weitere Infos:",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:28+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:43+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8818,7 +8788,7 @@
       "location": "Konzerthaus / Kongresszentrum Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:31+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:45+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8848,7 +8818,7 @@
       "location": "Konzerthaus / Kongresszentrum Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:31+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:45+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8878,7 +8848,7 @@
       "location": "Badisches Staatstheater, Großes Haus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:28+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:43+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8908,7 +8878,7 @@
       "location": "Kunstmuseum Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:28+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:43+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8938,7 +8908,7 @@
       "location": "Gemeindezentrum Durlach",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:28+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:43+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8968,7 +8938,7 @@
       "location": "Badisches Staatstheater, Großes Haus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:27+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:42+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -8998,7 +8968,7 @@
       "location": "Staatliches Museum für Naturkunde Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:27+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:42+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9028,7 +8998,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:27+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:42+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9058,7 +9028,7 @@
       "location": "Hochschule für Musik, Velte-Saal",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:27+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:42+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9088,7 +9058,7 @@
       "location": "Staatliches Museum für Naturkunde Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:27+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:42+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9118,7 +9088,7 @@
       "location": "Stadtbibliothek Karlsruhe - Zentralbibliothek im Neuen Ständehaus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:27+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:42+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9148,7 +9118,7 @@
       "location": "Stadtbibliothek Karlsruhe - Stadtteilbibliothek Grötzingen",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:27+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:42+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null,
@@ -9179,7 +9149,7 @@
       "location": "Stadtbibliothek Karlsruhe - Zentralbibliothek im Neuen Ständehaus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:26+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:41+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9209,7 +9179,7 @@
       "location": "Stadtbibliothek Karlsruhe - Zentralbibliothek im Neuen Ständehaus - Sprechstunde",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:27+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:41+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9239,7 +9209,7 @@
       "location": "Online-Veranstaltung",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:27+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:41+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9269,7 +9239,7 @@
       "location": "Karlsruher Institut für Technologie (Aula FTU)",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:26+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:41+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9299,7 +9269,7 @@
       "location": "Orangerie der Staatlichen Kunsthalle Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:26+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:41+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9329,7 +9299,7 @@
       "location": "Online Veranstaltung",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:26+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:41+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9359,7 +9329,7 @@
       "location": "Staatliches Museum für Naturkunde Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:26+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:41+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9389,7 +9359,7 @@
       "location": "Staatliches Museum für Naturkunde Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:26+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:41+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9419,7 +9389,7 @@
       "location": "Staatstheater, siehe Beschreibung",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:25+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:41+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9449,7 +9419,7 @@
       "location": "Hochschule für Musik Karlsruhe, CampusOne, Wolfgang-Rihm-Forum",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:25+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:40+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9479,7 +9449,7 @@
       "location": "Oxford OST",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:25+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:41+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9509,7 +9479,7 @@
       "location": "Turnhalle der Leopold-Schule",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:25+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:40+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9539,7 +9509,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:25+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:40+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9569,7 +9539,7 @@
       "location": "Hochschule für Musik, Velte-Saal",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:25+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:40+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9599,7 +9569,7 @@
       "location": "Das Sandkorn Theater & Mehr",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:24+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:40+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9629,7 +9599,7 @@
       "location": "Musentempel im Kulturzentrum Tempel",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:24+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:40+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9659,7 +9629,7 @@
       "location": "Badisches Staatstheater, Großes Haus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:24+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:40+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9689,7 +9659,7 @@
       "location": "Jubez - Jugend- und Begegnungszentrum",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:24+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:40+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9719,7 +9689,7 @@
       "location": "Kulturzentrum Tollhaus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:24+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:40+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9749,7 +9719,7 @@
       "location": "Online Veranstaltung",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:24+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:39+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9779,7 +9749,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:23+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:39+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9809,7 +9779,7 @@
       "location": "Badisches Staatstheater, INSEL",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:23+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:39+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9839,7 +9809,7 @@
       "location": "Badisches Staatstheater, INSEL",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:22+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:39+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9869,7 +9839,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:22+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:38+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9899,7 +9869,7 @@
       "location": "Kunstmuseum Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:22+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:38+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9929,7 +9899,7 @@
       "location": "Naturschutzzentrum Karlsruhe-Rappenwört",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:22+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:39+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9959,7 +9929,7 @@
       "location": "Staatliches Museum für Naturkunde Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:22+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:38+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -9989,7 +9959,7 @@
       "location": "Staatliches Museum für Naturkunde Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:22+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:38+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10019,7 +9989,7 @@
       "location": "Kunstmuseum Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:21+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:38+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10049,7 +10019,7 @@
       "location": "Stadtbibliothek Karlsruhe - Stadtteilbibliothek Neureut",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:21+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:38+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10079,7 +10049,7 @@
       "location": "Orgelfabrik Halle",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:21+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:38+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -10109,7 +10079,7 @@
       "location": "Kinemathek Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:21+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:38+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10139,7 +10109,7 @@
       "location": "Badisches Staatstheater, Kleines Haus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:20+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:37+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10169,7 +10139,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:20+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:37+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10199,7 +10169,7 @@
       "location": "vhs Karlsruhe, Kaiserallee 12e, Hofgebäude",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:20+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:37+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10229,7 +10199,7 @@
       "location": "Substage Karlsruhe e.V.",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:21+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:38+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10259,7 +10229,7 @@
       "location": "Kleine Kirche Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:21+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:38+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10289,7 +10259,7 @@
       "location": "Das Sandkorn Theater & Mehr",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:20+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:37+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10319,7 +10289,7 @@
       "location": "vhs Karlsruhe, Kaiserallee 12e, Hofgebäude",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:20+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:37+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10349,7 +10319,7 @@
       "location": "Kulturzentrum Tollhaus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:20+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:37+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10379,7 +10349,7 @@
       "location": "Blauer Salon in der HfG Karlsruhe (EG, R012)",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:19+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:37+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10409,7 +10379,7 @@
       "location": "Hemingway Lounge in Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:19+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:36+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10439,7 +10409,7 @@
       "location": "Hemingway Lounge in Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:20+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:37+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10469,7 +10439,7 @@
       "location": "Kulturhaus MIKADO",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:20+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:36+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10499,7 +10469,7 @@
       "location": "Kulturzentrum Tollhaus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:20+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:37+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10529,7 +10499,7 @@
       "location": "Badisch Bühn Mundarttheater",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:19+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:36+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10559,7 +10529,7 @@
       "location": "Café NUN",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:19+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:36+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10589,7 +10559,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:19+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:36+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10619,7 +10589,7 @@
       "location": "Karlsruhe Messplatz",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:23+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:39+00:00",
       "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
@@ -10649,7 +10619,7 @@
       "location": "Rathaus Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:23+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:39+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10679,7 +10649,7 @@
       "location": "Messe Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:23+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:39+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10709,7 +10679,7 @@
       "location": "Konzerthaus / Kongresszentrum Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:23+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:39+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10739,7 +10709,7 @@
       "location": "Stephanplatz",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:18+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:36+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10769,7 +10739,7 @@
       "location": "Karlsruhe Hauptbahnhof - Halle Treffpunkt",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:18+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:36+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10799,7 +10769,7 @@
       "location": "Badisches KONServatorium, Musikschule der Stadt Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:18+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:35+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10829,7 +10799,7 @@
       "location": "Badisches Staatstheater, Großes Haus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:18+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:35+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10859,7 +10829,7 @@
       "location": "Stadtbibliothek Karlsruhe - Kinder- und Jugendbibliothek Karlsruhe im Prinz-Max-Palais",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:18+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:35+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10889,7 +10859,7 @@
       "location": "HWK Gärtnerei Grötzingen",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:18+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:35+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10919,7 +10889,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:17+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:35+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10949,7 +10919,7 @@
       "location": "Hemingway Lounge in Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:17+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:35+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -10979,7 +10949,7 @@
       "location": "Hemingway Lounge in Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:17+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:35+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11009,7 +10979,7 @@
       "location": "Staatstheater, siehe Beschreibung",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:17+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:35+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11039,7 +11009,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:16+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:35+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11069,7 +11039,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:16+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:34+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11099,7 +11069,7 @@
       "location": "Kulturhaus MIKADO",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:16+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:34+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11129,7 +11099,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:16+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:34+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11159,7 +11129,7 @@
       "location": "Kleine Kirche Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:16+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:34+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11189,7 +11159,7 @@
       "location": "Christuskirche Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:15+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:34+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11219,7 +11189,7 @@
       "location": "Badisches Staatstheater, INSEL",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:15+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:34+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11249,7 +11219,7 @@
       "location": "Kunstmuseum Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:15+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:34+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11279,7 +11249,7 @@
       "location": "Karlsruher Weihnachtscircus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:15+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:34+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11309,7 +11279,7 @@
       "location": "Badisches Staatstheater, Großes Haus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:15+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:34+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11339,7 +11309,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:15+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:33+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11369,7 +11339,7 @@
       "location": "TSC Rot-Weiss Karlsruhe e.V.",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:15+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:33+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11399,7 +11369,7 @@
       "location": "Neureut, Waldenserkirche",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:15+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:33+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11429,7 +11399,7 @@
       "location": "Das Sandkorn Theater & Mehr",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:15+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:33+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11459,7 +11429,7 @@
       "location": "Badisches Staatstheater, Kleines Haus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:14+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:33+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11489,7 +11459,7 @@
       "location": "Minestrone (ex Substage Café)",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:14+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:33+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11519,7 +11489,7 @@
       "location": "Kulturzentrum Tollhaus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:14+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:33+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11549,7 +11519,7 @@
       "location": "Badisch Bühn Mundarttheater",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:14+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:33+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11579,7 +11549,7 @@
       "location": "Kabarett in der Orgelfabrik - die Spiegelfechter",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:14+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:33+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11609,7 +11579,7 @@
       "location": "Jubez - Jugend- und Begegnungszentrum",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:13+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:32+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11639,7 +11609,7 @@
       "location": "Café NUN",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:14+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:33+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11669,7 +11639,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:13+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:32+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11699,7 +11669,7 @@
       "location": "Substage Karlsruhe e.V.",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:13+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:32+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11729,7 +11699,7 @@
       "location": "Kulturzentrum Tollhaus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:12+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:32+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11759,7 +11729,7 @@
       "location": "Kongresszentrum Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:19+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:36+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11789,7 +11759,7 @@
       "location": "Zoologischer Stadtgarten. Treffpunkt Kasse Nord Nancyhalle.",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:12+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:32+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11819,7 +11789,7 @@
       "location": "Staatliches Museum für Naturkunde Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:12+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:32+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11849,7 +11819,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:11+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:31+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11879,7 +11849,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:11+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:31+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11909,7 +11879,7 @@
       "location": "Heimatfreunde Grötzingen e.V.",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:11+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:31+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11939,7 +11909,7 @@
       "location": "Galerie Kunstfachwerk N6",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:11+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:31+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11969,7 +11939,7 @@
       "location": "vor dem Ex-Reisezentrum/Hbf-Halle",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:10+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:31+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -11999,7 +11969,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:10+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:31+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -12029,7 +11999,7 @@
       "location": "Galerie YVONNE HOHNER CONTEMPORARY",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:10+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:31+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -12059,7 +12029,7 @@
       "location": "Kunstmuseum Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:11+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:31+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -12089,7 +12059,7 @@
       "location": "Pfinzgaumuseum Karlsburg Durlach",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:10+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:31+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -12119,7 +12089,7 @@
       "location": "Badisches Staatstheater, INSEL",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:10+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:31+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -12149,7 +12119,7 @@
       "location": "Kunstmuseum Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:10+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:31+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -12179,7 +12149,7 @@
       "location": "Katholische Stadtkirche St. Stephan Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:09+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:30+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -12209,7 +12179,7 @@
       "location": "Filmtheater Schauburg, Marienstraße 16, 76137 Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:09+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:30+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -12239,7 +12209,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:08+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:30+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -12269,7 +12239,7 @@
       "location": "Ev. Stadtkirche Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:09+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:30+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -12299,7 +12269,7 @@
       "location": "Evang. Lutherkirche Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:08+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:30+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -12329,7 +12299,7 @@
       "location": "Hemingway Lounge in Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:08+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:29+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -12359,7 +12329,7 @@
       "location": "Badisches Staatstheater, Großes Haus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:08+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:30+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -12389,7 +12359,7 @@
       "location": "Anne-Frank-Haus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:08+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:30+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -12419,7 +12389,7 @@
       "location": "Badisches Staatstheater, Kleines Haus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:08+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:29+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -12449,7 +12419,7 @@
       "location": "Das Sandkorn Theater & Mehr",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:07+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:29+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -12479,7 +12449,7 @@
       "location": "Kulturzentrum Tempel / Scenario Halle",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:07+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:29+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -12509,7 +12479,7 @@
       "location": "Kulturzentrum Tollhaus",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:07+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:29+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -12539,7 +12509,7 @@
       "location": "PLANET KA Planetarium Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:06+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:29+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -12569,7 +12539,7 @@
       "location": "Filmtheater Schauburg, Marienstraße 16, 76137 Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:06+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:29+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -12599,7 +12569,7 @@
       "location": "Kabarett in der Orgelfabrik - die Spiegelfechter",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:06+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:29+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -12629,7 +12599,7 @@
       "location": "Kongresszentrum Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:12+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:32+00:00",
       "scheduleNote": "",
       "icalEtag": null,
       "icalLastModified": null
@@ -12659,8 +12629,38 @@
       "location": "Konzerthaus / Kongresszentrum Karlsruhe",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T19:45:12+00:00",
+      "detailCheckedAt": "2026-11-23T07:46:32+00:00",
       "scheduleNote": "",
+      "icalEtag": null,
+      "icalLastModified": null
+    },
+    {
+      "id": "karlsruhe-afeac7b127e6483d",
+      "sourceId": "karlsruhe",
+      "sourceName": "Stadt Karlsruhe",
+      "sourceGuid": "ka 587252",
+      "title": "Wie geht es Dir? Zeichner:innen gegen Antisemitismus, Hass und Rassismus",
+      "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/wie_geht_es_dir_zeichnerinnen_gegen",
+      "icalUrl": "https://kalender.karlsruhe.de/db/termine/ausstellungen/wie_geht_es_dir_zeichnerinnen_gegen/ical",
+      "categoryKey": "ausstellungen",
+      "category": "Kunst & Ausstellungen",
+      "description": "Pädagogische Hochschule Karlsruhe (PHKA) - Ausstellung in der Hochschulbibliothek der Pädagogischen Hochschule Karlsruhe",
+      "region": "Karlsruhe und Umgebung",
+      "city": null,
+      "start": "2026-12-07T00:00:00+01:00",
+      "end": "2027-01-19T00:00:00+01:00",
+      "startDate": "2026-12-07",
+      "endDate": "2027-01-19",
+      "startTime": null,
+      "endTime": null,
+      "allDay": false,
+      "timeKnown": false,
+      "longRunning": true,
+      "location": "Pädagogische Hochschule Karlsruhe (PHKA)",
+      "status": "scheduled",
+      "dataQuality": "complete",
+      "detailCheckedAt": "2026-11-23T07:46:29+00:00",
+      "scheduleNote": "Laufzeit laut Quelle. Konkrete Termine und Öffnungszeiten bitte auf der Originalseite prüfen.",
       "icalEtag": null,
       "icalLastModified": null
     },
@@ -12689,7 +12689,7 @@
       "location": "Stadtbibliothek Karlsruhe - Stadtteilbibliothek Grötzingen",
       "status": "scheduled",
       "dataQuality": "complete",
-      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
+      "detailCheckedAt": "2026-11-23T07:47:16+00:00",
       "scheduleNote": "",
       "librarySupplement": "stadtteilbibliothek-groetzingen"
     }

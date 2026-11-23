@@ -20768,6 +20768,166 @@
           "houseNumber": "12"
         }
       ]
+    },
+    "Erbprinzen straße 14, Karlsruhe": {
+      "checkedAt": "2026-11-23T07:49:07+00:00",
+      "places": [
+        {
+          "id": "osm-way-90033144",
+          "name": "Erbprinzenstraße 14",
+          "latitude": 49.0085603,
+          "longitude": 8.4000766,
+          "address": "Erbprinzenstraße 14, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/90033144",
+          "category": "place",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Erbprinzenstraße",
+          "houseNumber": "14"
+        },
+        {
+          "id": "osm-way-288924750",
+          "name": "Karlsruher Straße 14",
+          "latitude": 49.0300709,
+          "longitude": 8.4577531,
+          "address": "Karlsruher Straße 14, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/288924750",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Hagsfeld",
+          "locality": "Alt-Hagsfeld",
+          "street": "Karlsruher Straße",
+          "houseNumber": "14"
+        },
+        {
+          "id": "osm-node-369737094",
+          "name": "Alte Karlsruher Straße 14",
+          "latitude": 49.0035238,
+          "longitude": 8.4607855,
+          "address": "Alte Karlsruher Straße 14, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/369737094",
+          "category": "place",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Untermühlsiedlung",
+          "street": "Alte Karlsruher Straße",
+          "houseNumber": "14"
+        },
+        {
+          "id": "osm-way-288924790",
+          "name": "Karlsruher Straße 14a",
+          "latitude": 49.0300006,
+          "longitude": 8.4576761,
+          "address": "Karlsruher Straße 14a, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/288924790",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Hagsfeld",
+          "locality": "Alt-Hagsfeld",
+          "street": "Karlsruher Straße",
+          "houseNumber": "14a"
+        },
+        {
+          "id": "osm-way-291506777",
+          "name": "Karlsruher Straße 14",
+          "latitude": 48.9722057,
+          "longitude": 8.3099447,
+          "address": "Karlsruher Straße 14, 76287 Rheinstetten",
+          "url": "https://www.openstreetmap.org/way/291506777",
+          "category": "building",
+          "type": "apartments",
+          "city": "Rheinstetten",
+          "district": "Forchheim",
+          "locality": "Dammfeldsiedlung",
+          "street": "Karlsruher Straße",
+          "houseNumber": "14"
+        }
+      ]
+    },
+    "Marien straße 12, Karlsruhe": {
+      "checkedAt": "2026-11-23T07:49:07+00:00",
+      "places": [
+        {
+          "id": "osm-way-430660511",
+          "name": "ViDia Christliche Kliniken Standort Edgar-von-Gierke-Straße",
+          "latitude": 49.0014613,
+          "longitude": 8.378467,
+          "address": "Edgar-von-Gierke-Straße, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/430660511",
+          "category": "amenity",
+          "type": "hospital",
+          "city": "Karlsruhe",
+          "district": "Südweststadt",
+          "locality": "Beiertheimer Feld",
+          "street": "Edgar-von-Gierke-Straße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-369737093",
+          "name": "Alte Karlsruher Straße 12",
+          "latitude": 49.0034417,
+          "longitude": 8.4609294,
+          "address": "Alte Karlsruher Straße 12, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/369737093",
+          "category": "place",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Untermühlsiedlung",
+          "street": "Alte Karlsruher Straße",
+          "houseNumber": "12"
+        },
+        {
+          "id": "osm-way-326157197",
+          "name": "Karlsruher Straße 12",
+          "latitude": 49.0301986,
+          "longitude": 8.4578801,
+          "address": "Karlsruher Straße 12, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/326157197",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Hagsfeld",
+          "locality": "Alt-Hagsfeld",
+          "street": "Karlsruher Straße",
+          "houseNumber": "12"
+        },
+        {
+          "id": "osm-way-288924761",
+          "name": "Karlsruher Straße 12a",
+          "latitude": 49.0301364,
+          "longitude": 8.4578172,
+          "address": "Karlsruher Straße 12a, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/288924761",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Hagsfeld",
+          "locality": "Alt-Hagsfeld",
+          "street": "Karlsruher Straße",
+          "houseNumber": "12a"
+        },
+        {
+          "id": "osm-way-90349110",
+          "name": "Straße 12",
+          "latitude": 49.0582065,
+          "longitude": 8.3335538,
+          "address": "76187 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/90349110",
+          "category": "highway",
+          "type": "service",
+          "city": "Karlsruhe",
+          "district": "Knielingen",
+          "locality": "Neu-Knielingen",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
     }
   },
   "attribution": {

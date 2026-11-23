@@ -4,8 +4,8 @@
     "name": "vhs Karlsruhe Land · Außenstelle Walzbachtal",
     "region": "Walzbachtal",
     "url": "https://www.vhs-karlsruhe-land.de/standorte/walzbachtal/",
-    "status": "ok",
-    "lastAttemptAt": "2026-11-22T06:57:31+00:00",
+    "status": "error",
+    "lastAttemptAt": "2026-11-23T07:47:45+00:00",
     "lastSuccessAt": "2026-11-22T06:57:31+00:00",
     "refreshHours": 24,
     "recordCount": 5,
@@ -18,7 +18,8 @@
     "pagesFetched": 1,
     "landingPage": "https://www.vhs-karlsruhe-land.de/standorte/walzbachtal/",
     "coverageStart": "2026-12-02",
-    "coverageEnd": "2027-01-13"
+    "coverageEnd": "2027-01-13",
+    "lastError": "URLError: <urlopen error timed out>"
   },
   "events": [
     {

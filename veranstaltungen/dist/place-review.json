@@ -1,32 +1,32 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T19:46:42+00:00",
+  "generatedAt": "2026-11-23T07:49:07+00:00",
   "attribution": {
     "text": "© OpenStreetMap contributors · ODbL",
     "url": "https://www.openstreetmap.org/copyright"
   },
   "stats": {
-    "venues": 419,
+    "venues": 415,
     "venueStatuses": {
       "missing": 8,
       "online": 4,
       "excluded": 9,
       "queued": 1,
       "review": 7,
-      "resolved": 390
+      "resolved": 386
     },
-    "upcomingEvents": 1384,
+    "upcomingEvents": 1363,
     "eventStatuses": {
-      "resolved": 1266,
+      "resolved": 1252,
       "online": 7,
-      "missing": 93,
+      "missing": 86,
       "review": 7,
       "queued": 1,
       "excluded": 10
     }
   },
   "lookup": {
-    "requested": 8,
+    "requested": 2,
     "failures": []
   },
   "rows": [
@@ -123,54 +123,6 @@
           "title": "Schnittkurs Obstbäume OGV Jöhlingen",
           "date": "2027-03-13",
           "url": "https://www.walzbachtal.de/veranstaltung/Schnittkurs-Obstbaeume-OGV-Joehlingen-event-appointment5969"
-        }
-      ]
-    },
-    {
-      "key": "venue-e3395d2d5e796edf1c34",
-      "location": "",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "missing",
-      "reason": "Die Quelle nennt keinen Veranstaltungsort. Keine Zuordnung aus dem Herausgeber ableiten.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 8,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "hagsfeld"
-      ],
-      "sources": [
-        "Bürgerkommission Hagsfeld"
-      ],
-      "examples": [
-        {
-          "id": "hagsfeld-altpapiersammlung-asv-hagsfeld-8",
-          "title": "Altpapiersammlung ASV Hagsfeld",
-          "date": "2026-11-26",
-          "url": "https://www.hagsfeld.de/termine/altpapiersammlung-asv-hagsfeld-8"
-        },
-        {
-          "id": "hagsfeld-adventskonzert-gesangverein-liederkranz-2",
-          "title": "Adventskonzert Gesangverein Liederkranz",
-          "date": "2026-12-19",
-          "url": "https://www.hagsfeld.de/termine/adventskonzert-gesangverein-liederkranz-2"
-        },
-        {
-          "id": "hagsfeld-weihnachtsmusical-endlich-mal-was-los-in-bethlehem-cvjm-und-gesangsverein-liederkranz",
-          "title": "Weihnachtsmusical \"Endlich mal was los in Bethlehem\" CVJM und Gesangsverein Liederkranz",
-          "date": "2026-12-23",
-          "url": "https://www.hagsfeld.de/termine/weihnachtsmusical-endlich-mal-was-los-in-bethlehem-cvjm-und-gesangsverein-liederkranz"
-        },
-        {
-          "id": "hagsfeld-weihnachtsmusical-endlich-mal-was-los-in-bethlehem-cvjm-und-gesangsverein-liederkranz-2",
-          "title": "Weihnachtsmusical \"Endlich mal was los in Bethlehem\" CVJM und Gesangsverein Liederkranz",
-          "date": "2026-12-24",
-          "url": "https://www.hagsfeld.de/termine/weihnachtsmusical-endlich-mal-was-los-in-bethlehem-cvjm-und-gesangsverein-liederkranz-2"
         }
       ]
     },
@@ -526,6 +478,36 @@
           "title": "Ü60-Gruppe",
           "date": "2026-11-25",
           "url": "https://www.naturfreunde-groetzingen.de/images/1a_Nov-Dez26.jpg"
+        }
+      ]
+    },
+    {
+      "key": "venue-e3395d2d5e796edf1c34",
+      "location": "",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "missing",
+      "reason": "Die Quelle nennt keinen Veranstaltungsort. Keine Zuordnung aus dem Herausgeber ableiten.",
+      "method": null,
+      "place": null,
+      "candidates": [],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "hagsfeld"
+      ],
+      "sources": [
+        "Bürgerkommission Hagsfeld"
+      ],
+      "examples": [
+        {
+          "id": "hagsfeld-altpapiersammlung-asv-hagsfeld-8",
+          "title": "Altpapiersammlung ASV Hagsfeld",
+          "date": "2026-11-26",
+          "url": "https://www.hagsfeld.de/termine/altpapiersammlung-asv-hagsfeld-8"
         }
       ]
     },
@@ -1601,7 +1583,7 @@
           "outsideContext": false
         }
       ],
-      "eventCount": 45,
+      "eventCount": 44,
       "reviewNote": "",
       "sourceAddresses": [],
       "organizer": "",
@@ -1615,12 +1597,6 @@
         "Kulturhalle Remchingen"
       ],
       "examples": [
-        {
-          "id": "kulturhalle-remchingen-remchinger-adventsmarkt-2026-so-2026-11-22-1100",
-          "title": "Remchinger Adventsmarkt",
-          "date": "2026-11-22",
-          "url": "https://www.kulturhalle-remchingen.de/events/maerkte/remchinger-adventsmarkt-2026-so"
-        },
         {
           "id": "remchingen-3402-2026-11-23-1900",
           "title": "Einwohnerversammlung",
@@ -1638,6 +1614,12 @@
           "title": "Fisch sucht Fahrrad - Komödie von Peter Quilter / Aboveranstaltung AUSVERKAUFT!",
           "date": "2026-11-26",
           "url": "https://www.kulturhalle-remchingen.de/events/theater/spielzeit-26-27/fisch-sucht-fahrrad-2026"
+        },
+        {
+          "id": "remchingen-3411-2026-11-29-1200",
+          "title": "Remchinger Weihnachtsdorf Ein stimmungsvoller Treffpunkt für Familien, Freunde und alle, die Weihnachten lieben.",
+          "date": "2026-11-29",
+          "url": "https://www.kulturhalle-remchingen.de/events/maerkte/remchinger-weihnachtsdorf-2026-3"
         }
       ]
     },
@@ -2075,67 +2057,6 @@
       ]
     },
     {
-      "key": "venue-e4daa9604584095f0306",
-      "location": "Jakobskirche, Wolfartsweier",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-103573224",
-        "name": "Evangelische Jakobskirche",
-        "latitude": 48.9755135,
-        "longitude": 8.4517825,
-        "address": "Wettersteinstraße 17, 76228 Karlsruhe-Wolfartsweier",
-        "url": "https://www.openstreetmap.org/way/103573224",
-        "category": "amenity",
-        "type": "place_of_worship",
-        "street": "Wettersteinstraße",
-        "houseNumber": "17",
-        "city": "Karlsruhe",
-        "district": "Wolfartsweier"
-      },
-      "candidates": [],
-      "eventCount": 20,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "bergdoerfer"
-      ],
-      "sources": [
-        "Evangelische Gemeinde Bergdörfer"
-      ],
-      "examples": [
-        {
-          "id": "bergdoerfer-910655",
-          "title": "Gottesdienst",
-          "date": "2026-11-22",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910655-gottesdienst/?vt=1&cb-id=193413"
-        },
-        {
-          "id": "bergdoerfer-1123737",
-          "title": "Krippenspielprobe",
-          "date": "2026-11-25",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1123737-krippenspielprobe/?vt=1&cb-id=193413"
-        },
-        {
-          "id": "bergdoerfer-988947",
-          "title": "Taizégebet",
-          "date": "2026-11-27",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/988947-taizegebet/?vt=1&cb-id=193413"
-        },
-        {
-          "id": "bergdoerfer-1123738",
-          "title": "Krippenspielprobe",
-          "date": "2026-12-02",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1123738-krippenspielprobe/?vt=1&cb-id=193413"
-        }
-      ]
-    },
-    {
       "key": "venue-810de3561ebd9f12e090",
       "location": "Evang. Gemeindehaus Palmbach, Palmbach",
       "scope": null,
@@ -2193,6 +2114,67 @@
           "title": "Ortsteam Palmbach-Stupferich",
           "date": "2026-11-30",
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1114024-ortsteam-palmbach-stupferich/?vt=1&cb-id=193413"
+        }
+      ]
+    },
+    {
+      "key": "venue-e4daa9604584095f0306",
+      "location": "Jakobskirche, Wolfartsweier",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-103573224",
+        "name": "Evangelische Jakobskirche",
+        "latitude": 48.9755135,
+        "longitude": 8.4517825,
+        "address": "Wettersteinstraße 17, 76228 Karlsruhe-Wolfartsweier",
+        "url": "https://www.openstreetmap.org/way/103573224",
+        "category": "amenity",
+        "type": "place_of_worship",
+        "street": "Wettersteinstraße",
+        "houseNumber": "17",
+        "city": "Karlsruhe",
+        "district": "Wolfartsweier"
+      },
+      "candidates": [],
+      "eventCount": 19,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "bergdoerfer"
+      ],
+      "sources": [
+        "Evangelische Gemeinde Bergdörfer"
+      ],
+      "examples": [
+        {
+          "id": "bergdoerfer-1123737",
+          "title": "Krippenspielprobe",
+          "date": "2026-11-25",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1123737-krippenspielprobe/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-988947",
+          "title": "Taizégebet",
+          "date": "2026-11-27",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/988947-taizegebet/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-1123738",
+          "title": "Krippenspielprobe",
+          "date": "2026-12-02",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1123738-krippenspielprobe/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-1123739",
+          "title": "Chorprobe Krippenspiel",
+          "date": "2026-12-04",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1123739-chorprobe-krippenspiel/?vt=1&cb-id=193413"
         }
       ]
     },
@@ -2460,6 +2442,65 @@
       ]
     },
     {
+      "key": "venue-acaf10b1317313ec992a",
+      "location": "Evang. Gemeindezentrum Wolfartsweier, Wolfartsweier",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-node-739503354",
+        "name": "evangelisches Gemeindezentrum",
+        "latitude": 48.9770795,
+        "longitude": 8.4544716,
+        "address": "Heubergstraße, 76228 Karlsruhe-Wolfartsweier",
+        "url": "https://www.openstreetmap.org/node/739503354",
+        "category": "amenity",
+        "type": "community_centre",
+        "street": "Heubergstraße",
+        "city": "Karlsruhe"
+      },
+      "candidates": [],
+      "eventCount": 14,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "bergdoerfer"
+      ],
+      "sources": [
+        "Evangelische Gemeinde Bergdörfer"
+      ],
+      "examples": [
+        {
+          "id": "bergdoerfer-994133",
+          "title": "GemeindeAbend \"zurück finden\"",
+          "date": "2026-11-24",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/994133-gemeindeabend-zurueck-finden/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-1009043",
+          "title": "Seniorennachmittag Wolfartsweier",
+          "date": "2026-11-26",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1009043-seniorennachmittag-wolfartsweier/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-1108417",
+          "title": "Treffen Team Stiftg. Jakobskirche",
+          "date": "2026-12-01",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1108417-treffen-team-stiftg-jakobskirche/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-923378",
+          "title": "Ortsteam Wolfartsweier",
+          "date": "2026-12-09",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/923378-ortsteam-wolfartsweier/?vt=1&cb-id=193413"
+        }
+      ]
+    },
+    {
       "key": "venue-ac6922d27c0ddaae0fe4",
       "location": "Evangelische Kirche Grötzingen",
       "scope": "groetzingen",
@@ -2526,7 +2567,7 @@
           "outsideContext": true
         }
       ],
-      "eventCount": 15,
+      "eventCount": 14,
       "reviewNote": "",
       "sourceAddresses": [],
       "organizer": "",
@@ -2538,12 +2579,6 @@
         "Evangelische Kirche Grötzingen"
       ],
       "examples": [
-        {
-          "id": "eki-groetzingen-1060984-2026-11-22-1000",
-          "title": "Gottesdienst mit Abendmahl am Ewigkeitssonntag mit Gedenken der im Kirchenjahr Verstorbenen; mit dem Posaunenchor",
-          "date": "2026-11-22",
-          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1060984-gottesdienst-mit-abendmahl-am-ewigkeitssonntag-mit-gedenken-der-im-kirchenjahr-verstorbenen-mit-dem-posaunenchor/?vt=1&cb-id=118282"
-        },
         {
           "id": "eki-groetzingen-1068054-2026-11-29-1000",
           "title": "Gottesdienst am 1. Advent; mit dem Regenbogenchor",
@@ -2561,65 +2596,12 @@
           "title": "Abendgottesdienst im Advent; mit dem Posaunenchor",
           "date": "2026-12-13",
           "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1101395-abendgottesdienst-im-advent-mit-dem-posaunenchor/?vt=1&cb-id=118282"
-        }
-      ]
-    },
-    {
-      "key": "venue-acaf10b1317313ec992a",
-      "location": "Evang. Gemeindezentrum Wolfartsweier, Wolfartsweier",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-node-739503354",
-        "name": "evangelisches Gemeindezentrum",
-        "latitude": 48.9770795,
-        "longitude": 8.4544716,
-        "address": "Heubergstraße, 76228 Karlsruhe-Wolfartsweier",
-        "url": "https://www.openstreetmap.org/node/739503354",
-        "category": "amenity",
-        "type": "community_centre",
-        "street": "Heubergstraße",
-        "city": "Karlsruhe"
-      },
-      "candidates": [],
-      "eventCount": 14,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "bergdoerfer"
-      ],
-      "sources": [
-        "Evangelische Gemeinde Bergdörfer"
-      ],
-      "examples": [
-        {
-          "id": "bergdoerfer-994133",
-          "title": "GemeindeAbend \"zurück finden\"",
-          "date": "2026-11-24",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/994133-gemeindeabend-zurueck-finden/?vt=1&cb-id=193413"
         },
         {
-          "id": "bergdoerfer-1009043",
-          "title": "Seniorennachmittag Wolfartsweier",
-          "date": "2026-11-26",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1009043-seniorennachmittag-wolfartsweier/?vt=1&cb-id=193413"
-        },
-        {
-          "id": "bergdoerfer-1108417",
-          "title": "Treffen Team Stiftg. Jakobskirche",
-          "date": "2026-12-01",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1108417-treffen-team-stiftg-jakobskirche/?vt=1&cb-id=193413"
-        },
-        {
-          "id": "bergdoerfer-923378",
-          "title": "Ortsteam Wolfartsweier",
-          "date": "2026-12-09",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/923378-ortsteam-wolfartsweier/?vt=1&cb-id=193413"
+          "id": "eki-groetzingen-1101396-2026-12-20-1000",
+          "title": "Gottesdienst; mit Verabschiedung von Herrn Winkler",
+          "date": "2026-12-20",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1101396-gottesdienst-mit-verabschiedung-von-herrn-winkler/?vt=1&cb-id=118282"
         }
       ]
     },
@@ -3112,67 +3094,6 @@
       ]
     },
     {
-      "key": "venue-bab6179984b29f16edd2",
-      "location": "Evang. Kirche Hohenwettersbach, Hohenwettersbach",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-98775712",
-        "name": "Evangelische Kirche",
-        "latitude": 48.9651924,
-        "longitude": 8.4771339,
-        "address": "Kirchplatz 2, 76228 Karlsruhe-Hohenwettersbach",
-        "url": "https://www.openstreetmap.org/way/98775712",
-        "category": "amenity",
-        "type": "place_of_worship",
-        "street": "Kirchplatz",
-        "houseNumber": "2",
-        "city": "Karlsruhe",
-        "district": "Hohenwettersbach"
-      },
-      "candidates": [],
-      "eventCount": 12,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "bergdoerfer"
-      ],
-      "sources": [
-        "Evangelische Gemeinde Bergdörfer"
-      ],
-      "examples": [
-        {
-          "id": "bergdoerfer-910634",
-          "title": "Gottesdienst",
-          "date": "2026-11-22",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910634-gottesdienst/?vt=1&cb-id=193413"
-        },
-        {
-          "id": "bergdoerfer-906530",
-          "title": "Seniorennachmittag 65+ Hohenwettersbach-Bergwald",
-          "date": "2026-11-24",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/906530-seniorennachmittag-65-hohenwettersbach-bergwald/?vt=1&cb-id=193413"
-        },
-        {
-          "id": "bergdoerfer-1061396",
-          "title": "Krippenspielprobe",
-          "date": "2026-11-28",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1061396-krippenspielprobe/?vt=1&cb-id=193413"
-        },
-        {
-          "id": "bergdoerfer-1061397",
-          "title": "Krippenspielprobe",
-          "date": "2026-12-12",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1061397-krippenspielprobe/?vt=1&cb-id=193413"
-        }
-      ]
-    },
-    {
       "key": "venue-b8364865d038229704ba",
       "location": "Staatstheater, siehe Beschreibung",
       "scope": "karlsruhe",
@@ -3305,6 +3226,67 @@
           "title": "Karneval der Tiere",
           "date": "2026-11-27",
           "url": "https://kalender.karlsruhe.de/db/termine/theater/karneval_der_tiere-3"
+        }
+      ]
+    },
+    {
+      "key": "venue-bab6179984b29f16edd2",
+      "location": "Evang. Kirche Hohenwettersbach, Hohenwettersbach",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-98775712",
+        "name": "Evangelische Kirche",
+        "latitude": 48.9651924,
+        "longitude": 8.4771339,
+        "address": "Kirchplatz 2, 76228 Karlsruhe-Hohenwettersbach",
+        "url": "https://www.openstreetmap.org/way/98775712",
+        "category": "amenity",
+        "type": "place_of_worship",
+        "street": "Kirchplatz",
+        "houseNumber": "2",
+        "city": "Karlsruhe",
+        "district": "Hohenwettersbach"
+      },
+      "candidates": [],
+      "eventCount": 11,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "bergdoerfer"
+      ],
+      "sources": [
+        "Evangelische Gemeinde Bergdörfer"
+      ],
+      "examples": [
+        {
+          "id": "bergdoerfer-906530",
+          "title": "Seniorennachmittag 65+ Hohenwettersbach-Bergwald",
+          "date": "2026-11-24",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/906530-seniorennachmittag-65-hohenwettersbach-bergwald/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-1061396",
+          "title": "Krippenspielprobe",
+          "date": "2026-11-28",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1061396-krippenspielprobe/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-1061397",
+          "title": "Krippenspielprobe",
+          "date": "2026-12-12",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1061397-krippenspielprobe/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-910774",
+          "title": "Jazzpel",
+          "date": "2026-12-13",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910774-jazzpel/?vt=1&cb-id=193413"
         }
       ]
     },
@@ -3551,128 +3533,6 @@
       ]
     },
     {
-      "key": "venue-c1425733d9e93a55d45a",
-      "location": "Waldenserkirche, Palmbach",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-100292905",
-        "name": "Waldenserkirche",
-        "latitude": 48.9458719,
-        "longitude": 8.4819152,
-        "address": "Talstraße 43a, 76228 Karlsruhe-Palmbach",
-        "url": "https://www.openstreetmap.org/way/100292905",
-        "category": "amenity",
-        "type": "place_of_worship",
-        "street": "Talstraße",
-        "houseNumber": "43a",
-        "city": "Karlsruhe",
-        "district": "Palmbach"
-      },
-      "candidates": [],
-      "eventCount": 11,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "bergdoerfer"
-      ],
-      "sources": [
-        "Evangelische Gemeinde Bergdörfer"
-      ],
-      "examples": [
-        {
-          "id": "bergdoerfer-910653",
-          "title": "Gottesdienst",
-          "date": "2026-11-22",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910653-gottesdienst/?vt=1&cb-id=193413"
-        },
-        {
-          "id": "bergdoerfer-1102555",
-          "title": "MiNi Gottesdienst Palmbach",
-          "date": "2026-11-29",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1102555-mini-gottesdienst-palmbach/?vt=1&cb-id=193413"
-        },
-        {
-          "id": "bergdoerfer-910690",
-          "title": "Abendgottesdienst",
-          "date": "2026-11-29",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910690-abendgottesdienst/?vt=1&cb-id=193413"
-        },
-        {
-          "id": "bergdoerfer-910795",
-          "title": "Gottesdienst mit Abendmahl",
-          "date": "2026-12-13",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910795-gottesdienst-mit-abendmahl/?vt=1&cb-id=193413"
-        }
-      ]
-    },
-    {
-      "key": "venue-a7d21209299b1a797126",
-      "location": "Evang. Kirche Grünwettersbach, Grünwettersbach",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-98319058",
-        "name": "Evangelische Kirche Grünwettersbach",
-        "latitude": 48.9585204,
-        "longitude": 8.4656313,
-        "address": "Am Steinhäusle 10, 76228 Karlsruhe-Grünwettersbach",
-        "url": "https://www.openstreetmap.org/way/98319058",
-        "category": "amenity",
-        "type": "place_of_worship",
-        "street": "Am Steinhäusle",
-        "houseNumber": "10",
-        "city": "Karlsruhe",
-        "district": "Grünwettersbach"
-      },
-      "candidates": [],
-      "eventCount": 10,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "bergdoerfer"
-      ],
-      "sources": [
-        "Evangelische Gemeinde Bergdörfer"
-      ],
-      "examples": [
-        {
-          "id": "bergdoerfer-910651",
-          "title": "Gottesdienst",
-          "date": "2026-11-22",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910651-gottesdienst/?vt=1&cb-id=193413"
-        },
-        {
-          "id": "bergdoerfer-910669",
-          "title": "Gottesdienst mit Taufen",
-          "date": "2026-11-29",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910669-gottesdienst-mit-taufen/?vt=1&cb-id=193413"
-        },
-        {
-          "id": "bergdoerfer-1124115",
-          "title": "Familiengottesdienst",
-          "date": "2026-12-04",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1124115-familiengottesdienst/?vt=1&cb-id=193413"
-        },
-        {
-          "id": "bergdoerfer-910791",
-          "title": "Gottesdienst",
-          "date": "2026-12-13",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910791-gottesdienst/?vt=1&cb-id=193413"
-        }
-      ]
-    },
-    {
       "key": "venue-0729ef1f81f2900db0ad",
       "location": "Stadtbibliothek Karlsruhe - Kinder- und Jugendbibliothek Karlsruhe im Prinz-Max-Palais",
       "scope": "karlsruhe",
@@ -3817,6 +3677,67 @@
       ]
     },
     {
+      "key": "venue-c1425733d9e93a55d45a",
+      "location": "Waldenserkirche, Palmbach",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-100292905",
+        "name": "Waldenserkirche",
+        "latitude": 48.9458719,
+        "longitude": 8.4819152,
+        "address": "Talstraße 43a, 76228 Karlsruhe-Palmbach",
+        "url": "https://www.openstreetmap.org/way/100292905",
+        "category": "amenity",
+        "type": "place_of_worship",
+        "street": "Talstraße",
+        "houseNumber": "43a",
+        "city": "Karlsruhe",
+        "district": "Palmbach"
+      },
+      "candidates": [],
+      "eventCount": 10,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "bergdoerfer"
+      ],
+      "sources": [
+        "Evangelische Gemeinde Bergdörfer"
+      ],
+      "examples": [
+        {
+          "id": "bergdoerfer-1102555",
+          "title": "MiNi Gottesdienst Palmbach",
+          "date": "2026-11-29",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1102555-mini-gottesdienst-palmbach/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-910690",
+          "title": "Abendgottesdienst",
+          "date": "2026-11-29",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910690-abendgottesdienst/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-910795",
+          "title": "Gottesdienst mit Abendmahl",
+          "date": "2026-12-13",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910795-gottesdienst-mit-abendmahl/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-910863",
+          "title": "Krippenspiel",
+          "date": "2026-12-24",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910863-krippenspiel/?vt=1&cb-id=193413"
+        }
+      ]
+    },
+    {
       "key": "venue-ccdff0c1206ea48ea121",
       "location": "Badisches Staatstheater, Großes Haus",
       "scope": "karlsruhe",
@@ -3949,6 +3870,67 @@
           "title": "Der Zauberer von Oz",
           "date": "2026-12-03",
           "url": "https://kalender.karlsruhe.de/db/termine/theater/der_zauberer_von_oz-3"
+        }
+      ]
+    },
+    {
+      "key": "venue-a7d21209299b1a797126",
+      "location": "Evang. Kirche Grünwettersbach, Grünwettersbach",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-98319058",
+        "name": "Evangelische Kirche Grünwettersbach",
+        "latitude": 48.9585204,
+        "longitude": 8.4656313,
+        "address": "Am Steinhäusle 10, 76228 Karlsruhe-Grünwettersbach",
+        "url": "https://www.openstreetmap.org/way/98319058",
+        "category": "amenity",
+        "type": "place_of_worship",
+        "street": "Am Steinhäusle",
+        "houseNumber": "10",
+        "city": "Karlsruhe",
+        "district": "Grünwettersbach"
+      },
+      "candidates": [],
+      "eventCount": 9,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "bergdoerfer"
+      ],
+      "sources": [
+        "Evangelische Gemeinde Bergdörfer"
+      ],
+      "examples": [
+        {
+          "id": "bergdoerfer-910669",
+          "title": "Gottesdienst mit Taufen",
+          "date": "2026-11-29",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910669-gottesdienst-mit-taufen/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-1124115",
+          "title": "Familiengottesdienst",
+          "date": "2026-12-04",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1124115-familiengottesdienst/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-910791",
+          "title": "Gottesdienst",
+          "date": "2026-12-13",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910791-gottesdienst/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-923539",
+          "title": "Krippenspiel",
+          "date": "2026-12-24",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/923539-krippenspiel/?vt=1&cb-id=193413"
         }
       ]
     },
@@ -5818,150 +5800,6 @@
       ]
     },
     {
-      "key": "venue-7a7915ff250cdcc285ae",
-      "location": "Galerie Kunstfachwerk N6",
-      "scope": "groetzingen",
-      "scopeLabel": "Grötzingen",
-      "status": "resolved",
-      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
-      "method": "automatic",
-      "place": {
-        "id": "osm-way-151345444",
-        "name": "Kunstfachwerk N6",
-        "latitude": 49.0073195,
-        "longitude": 8.4956039,
-        "address": "Niddastraße 6, 76229 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/151345444",
-        "category": "amenity",
-        "type": "arts_centre",
-        "city": "Karlsruhe",
-        "district": "Grötzingen",
-        "locality": "Nördlich der Pfinz",
-        "street": "Niddastraße",
-        "houseNumber": "6",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-way-151345444",
-          "name": "Kunstfachwerk N6",
-          "latitude": 49.0073195,
-          "longitude": 8.4956039,
-          "address": "Niddastraße 6, 76229 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/151345444",
-          "category": "amenity",
-          "type": "arts_centre",
-          "city": "Karlsruhe",
-          "district": "Grötzingen",
-          "locality": "Nördlich der Pfinz",
-          "street": "Niddastraße",
-          "houseNumber": "6",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 5,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "groetzingen-jahresprogramm",
-        "groetzingen-kultur-natur"
-      ],
-      "sources": [
-        "Grötzingen · Jahresprogramm",
-        "Grötzingen · Kultur-Natur-Termine"
-      ],
-      "examples": [
-        {
-          "id": "groetzingen-jahresprogramm-annual-2026-122",
-          "title": "Ausstellung · FBM",
-          "date": "2026-11-06",
-          "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/017_Stadtteile_und_Umgebung/Groetzingen/Jahresprogramm_Groetzingen_2026_im_CD_sem.pdf#page=10"
-        },
-        {
-          "id": "groetzingen-kultur-natur-nature-2026-033",
-          "title": "Wolfgang Rempfer",
-          "date": "2026-11-22",
-          "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/017_Stadtteile_und_Umgebung/Groetzingen/Programm_Kulturbroschuere_2_HJ_2026_26-0485_Digitalversion.end.pdf#page=2"
-        },
-        {
-          "id": "groetzingen-kultur-natur-nature-2026-034",
-          "title": "Wolfgang Rempfer",
-          "date": "2026-11-29",
-          "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/017_Stadtteile_und_Umgebung/Groetzingen/Programm_Kulturbroschuere_2_HJ_2026_26-0485_Digitalversion.end.pdf#page=2"
-        },
-        {
-          "id": "groetzingen-kultur-natur-nature-2026-035",
-          "title": "Wolfgang Rempfer",
-          "date": "2026-12-06",
-          "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/017_Stadtteile_und_Umgebung/Groetzingen/Programm_Kulturbroschuere_2_HJ_2026_26-0485_Digitalversion.end.pdf#page=2"
-        }
-      ]
-    },
-    {
-      "key": "venue-d48deb87aeacd522085c",
-      "location": "Ludwigskirche, Langensteinbach",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-110185918",
-        "name": "Ludwigskirche",
-        "latitude": 48.9170986,
-        "longitude": 8.5059461,
-        "address": "Weinbrennerstraße 2, 76307 Karlsbad-Langensteinbach",
-        "url": "https://www.openstreetmap.org/way/110185918",
-        "category": "amenity",
-        "type": "place_of_worship",
-        "street": "Weinbrennerstraße",
-        "houseNumber": "2",
-        "city": "Karlsbad"
-      },
-      "candidates": [],
-      "eventCount": 5,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsbad"
-      ],
-      "sources": [
-        "Gemeinde Karlsbad"
-      ],
-      "examples": [
-        {
-          "id": "karlsbad-5e11aa2b-6bec-307b-b676-57fb99d0d84c",
-          "title": "Ewigkeitssonntag mit Totengedenken",
-          "date": "2026-11-22",
-          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12540"
-        },
-        {
-          "id": "karlsbad-68e305e7-0855-37cb-b739-b68a459ceaff",
-          "title": "Geschichten unter dem Adventsstern",
-          "date": "2026-12-01",
-          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12549"
-        },
-        {
-          "id": "karlsbad-48e494eb-7ed8-3262-9079-d2abcb9eecf9",
-          "title": "Christvesper",
-          "date": "2026-12-24",
-          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12568"
-        },
-        {
-          "id": "karlsbad-0ae3b5a3-e84f-37b9-8bf2-5112bc6bd592",
-          "title": "Krippenspiel",
-          "date": "2026-12-24",
-          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12567"
-        }
-      ]
-    },
-    {
       "key": "venue-f716024ccc669d2d0e34",
       "location": "Rathaus Durlach (Gewölbe) Pfinztalstraße 33 76227 Karlsruhe",
       "scope": "durlach",
@@ -6683,59 +6521,86 @@
       ]
     },
     {
-      "key": "venue-131217b43396021e5a04",
-      "location": "Festhalle Königsbach",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
+      "key": "venue-7a7915ff250cdcc285ae",
+      "location": "Galerie Kunstfachwerk N6",
+      "scope": "groetzingen",
+      "scopeLabel": "Grötzingen",
       "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
+      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
+      "method": "automatic",
       "place": {
-        "id": "osm-way-119305133",
-        "name": "Festhalle",
-        "latitude": 48.9649954,
-        "longitude": 8.6111858,
-        "address": "Königsbach-Stein, Ortsteil Königsbach",
-        "url": "https://www.openstreetmap.org/way/119305133",
+        "id": "osm-way-151345444",
+        "name": "Kunstfachwerk N6",
+        "latitude": 49.0073195,
+        "longitude": 8.4956039,
+        "address": "Niddastraße 6, 76229 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/151345444",
         "category": "amenity",
-        "type": "social_facility"
+        "type": "arts_centre",
+        "city": "Karlsruhe",
+        "district": "Grötzingen",
+        "locality": "Nördlich der Pfinz",
+        "street": "Niddastraße",
+        "houseNumber": "6",
+        "outsideContext": false
       },
-      "candidates": [],
+      "candidates": [
+        {
+          "id": "osm-way-151345444",
+          "name": "Kunstfachwerk N6",
+          "latitude": 49.0073195,
+          "longitude": 8.4956039,
+          "address": "Niddastraße 6, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151345444",
+          "category": "amenity",
+          "type": "arts_centre",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Niddastraße",
+          "houseNumber": "6",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        }
+      ],
       "eventCount": 4,
       "reviewNote": "",
       "sourceAddresses": [],
       "organizer": "",
       "sourceContext": null,
       "sourceIds": [
-        "koenigsbach-stein"
+        "groetzingen-jahresprogramm",
+        "groetzingen-kultur-natur"
       ],
       "sources": [
-        "Gemeinde Königsbach-Stein"
+        "Grötzingen · Jahresprogramm",
+        "Grötzingen · Kultur-Natur-Termine"
       ],
       "examples": [
         {
-          "id": "koenigsbach-stein-listing-0e8830fdc96af3d7cc23",
-          "title": "Fotoausstellung",
-          "date": "2026-11-22",
-          "url": "https://www.koenigsbach-stein.de/veranstaltungen/"
+          "id": "groetzingen-jahresprogramm-annual-2026-122",
+          "title": "Ausstellung · FBM",
+          "date": "2026-11-06",
+          "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/017_Stadtteile_und_Umgebung/Groetzingen/Jahresprogramm_Groetzingen_2026_im_CD_sem.pdf#page=10"
         },
         {
-          "id": "koenigsbach-stein-listing-9ff8ef0c00bd24540f44",
-          "title": "Nikolausfeier",
+          "id": "groetzingen-kultur-natur-nature-2026-034",
+          "title": "Wolfgang Rempfer",
+          "date": "2026-11-29",
+          "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/017_Stadtteile_und_Umgebung/Groetzingen/Programm_Kulturbroschuere_2_HJ_2026_26-0485_Digitalversion.end.pdf#page=2"
+        },
+        {
+          "id": "groetzingen-kultur-natur-nature-2026-035",
+          "title": "Wolfgang Rempfer",
           "date": "2026-12-06",
-          "url": "https://www.koenigsbach-stein.de/veranstaltungen/?seite=2"
+          "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/017_Stadtteile_und_Umgebung/Groetzingen/Programm_Kulturbroschuere_2_HJ_2026_26-0485_Digitalversion.end.pdf#page=2"
         },
         {
-          "id": "koenigsbach-stein-listing-01be78e130f8ee7b93dc",
-          "title": "Weihnachtsfeier",
+          "id": "groetzingen-kultur-natur-nature-2026-036",
+          "title": "Wolfgang Rempfer",
           "date": "2026-12-13",
-          "url": "https://www.koenigsbach-stein.de/veranstaltungen/?seite=2"
-        },
-        {
-          "id": "koenigsbach-stein-listing-bf7c8a3421780ee9124d",
-          "title": "Jahresabschlussfeier",
-          "date": "2026-12-25",
-          "url": "https://www.koenigsbach-stein.de/veranstaltungen/?seite=3"
+          "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/017_Stadtteile_und_Umgebung/Groetzingen/Programm_Kulturbroschuere_2_HJ_2026_26-0485_Digitalversion.end.pdf#page=2"
         }
       ]
     },
@@ -7285,6 +7150,66 @@
           "title": "Wochenmarkt Spielberg",
           "date": "2026-12-16",
           "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12675"
+        }
+      ]
+    },
+    {
+      "key": "venue-d48deb87aeacd522085c",
+      "location": "Ludwigskirche, Langensteinbach",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-110185918",
+        "name": "Ludwigskirche",
+        "latitude": 48.9170986,
+        "longitude": 8.5059461,
+        "address": "Weinbrennerstraße 2, 76307 Karlsbad-Langensteinbach",
+        "url": "https://www.openstreetmap.org/way/110185918",
+        "category": "amenity",
+        "type": "place_of_worship",
+        "street": "Weinbrennerstraße",
+        "houseNumber": "2",
+        "city": "Karlsbad"
+      },
+      "candidates": [],
+      "eventCount": 4,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsbad"
+      ],
+      "sources": [
+        "Gemeinde Karlsbad"
+      ],
+      "examples": [
+        {
+          "id": "karlsbad-68e305e7-0855-37cb-b739-b68a459ceaff",
+          "title": "Geschichten unter dem Adventsstern",
+          "date": "2026-12-01",
+          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12549"
+        },
+        {
+          "id": "karlsbad-48e494eb-7ed8-3262-9079-d2abcb9eecf9",
+          "title": "Christvesper",
+          "date": "2026-12-24",
+          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12568"
+        },
+        {
+          "id": "karlsbad-0ae3b5a3-e84f-37b9-8bf2-5112bc6bd592",
+          "title": "Krippenspiel",
+          "date": "2026-12-24",
+          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12567"
+        },
+        {
+          "id": "karlsbad-1c3a0d10-9a3c-3983-9d67-7136e8f3e689",
+          "title": "Gottesdienst zum Altjahresabend",
+          "date": "2026-12-31",
+          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12573"
         }
       ]
     },
@@ -9002,6 +8927,57 @@
       ]
     },
     {
+      "key": "venue-131217b43396021e5a04",
+      "location": "Festhalle Königsbach",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-119305133",
+        "name": "Festhalle",
+        "latitude": 48.9649954,
+        "longitude": 8.6111858,
+        "address": "Königsbach-Stein, Ortsteil Königsbach",
+        "url": "https://www.openstreetmap.org/way/119305133",
+        "category": "amenity",
+        "type": "social_facility"
+      },
+      "candidates": [],
+      "eventCount": 3,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "koenigsbach-stein"
+      ],
+      "sources": [
+        "Gemeinde Königsbach-Stein"
+      ],
+      "examples": [
+        {
+          "id": "koenigsbach-stein-listing-9ff8ef0c00bd24540f44",
+          "title": "Nikolausfeier",
+          "date": "2026-12-06",
+          "url": "https://www.koenigsbach-stein.de/veranstaltungen/"
+        },
+        {
+          "id": "koenigsbach-stein-listing-01be78e130f8ee7b93dc",
+          "title": "Weihnachtsfeier",
+          "date": "2026-12-13",
+          "url": "https://www.koenigsbach-stein.de/veranstaltungen/?seite=2"
+        },
+        {
+          "id": "koenigsbach-stein-listing-bf7c8a3421780ee9124d",
+          "title": "Jahresabschlussfeier",
+          "date": "2026-12-25",
+          "url": "https://www.koenigsbach-stein.de/veranstaltungen/?seite=3"
+        }
+      ]
+    },
+    {
       "key": "venue-b8462e52df2e3c9f4d25",
       "location": "Festhalle Stutensee",
       "scope": null,
@@ -10061,6 +10037,59 @@
       ]
     },
     {
+      "key": "venue-7150afa2fecdca1a44ed",
+      "location": "Laurentiuskirche Hagsfeld",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-150781226",
+        "name": "Laurentiuskirche",
+        "latitude": 49.0278169,
+        "longitude": 8.4614735,
+        "address": "Schäferstraße 11, 76139 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/150781226",
+        "category": "amenity",
+        "type": "place_of_worship",
+        "street": "Schäferstraße",
+        "houseNumber": "11"
+      },
+      "candidates": [],
+      "eventCount": 3,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "hagsfeld"
+      ],
+      "sources": [
+        "Bürgerkommission Hagsfeld"
+      ],
+      "examples": [
+        {
+          "id": "hagsfeld-adventskonzert-gesangverein-liederkranz-2",
+          "title": "Adventskonzert Gesangverein Liederkranz",
+          "date": "2026-12-19",
+          "url": "https://www.hagsfeld.de/termine/adventskonzert-gesangverein-liederkranz-2"
+        },
+        {
+          "id": "hagsfeld-weihnachtsmusical-endlich-mal-was-los-in-bethlehem-cvjm-und-gesangsverein-liederkranz",
+          "title": "Weihnachtsmusical \"Endlich mal was los in Bethlehem\" CVJM und Gesangsverein Liederkranz",
+          "date": "2026-12-23",
+          "url": "https://www.hagsfeld.de/termine/weihnachtsmusical-endlich-mal-was-los-in-bethlehem-cvjm-und-gesangsverein-liederkranz"
+        },
+        {
+          "id": "hagsfeld-weihnachtsmusical-endlich-mal-was-los-in-bethlehem-cvjm-und-gesangsverein-liederkranz-2",
+          "title": "Weihnachtsmusical \"Endlich mal was los in Bethlehem\" CVJM und Gesangsverein Liederkranz",
+          "date": "2026-12-24",
+          "url": "https://www.hagsfeld.de/termine/weihnachtsmusical-endlich-mal-was-los-in-bethlehem-cvjm-und-gesangsverein-liederkranz-2"
+        }
+      ]
+    },
+    {
       "key": "venue-cd730dea52e1f3aae0eb",
       "location": "Mineralixarena",
       "scope": "weingarten",
@@ -10126,80 +10155,6 @@
           "title": "Pokal Final Four",
           "date": "2027-02-14",
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1051/pokal-final-four"
-        }
-      ]
-    },
-    {
-      "key": "venue-d10fb5e9850e512a175b",
-      "location": "NF-Haus 'Am Hopfenberg'",
-      "scope": "berghausen",
-      "scopeLabel": "Pfinztal-Berghausen",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-node-563834301",
-        "name": "Naturfreundehaus Am Hopfenberg",
-        "latitude": 49.0008503,
-        "longitude": 8.5265647,
-        "address": "Touristenweg 11, 76327 Pfinztal-Berghausen",
-        "url": "https://www.openstreetmap.org/node/563834301",
-        "category": "amenity",
-        "type": "restaurant",
-        "street": "Touristenweg",
-        "houseNumber": "11",
-        "city": "Pfinztal",
-        "district": "Berghausen"
-      },
-      "candidates": [
-        {
-          "id": "osm-node-563834301",
-          "name": "Naturfreundehaus Am Hopfenberg",
-          "latitude": 49.0008503,
-          "longitude": 8.5265647,
-          "address": "Touristenweg 11, 76327 Berghausen",
-          "url": "https://www.openstreetmap.org/node/563834301",
-          "category": "amenity",
-          "type": "restaurant",
-          "city": "Berghausen",
-          "district": "Berghausen",
-          "locality": "",
-          "street": "Touristenweg",
-          "houseNumber": "11",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 3,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "naturfreunde-berghausen"
-      ],
-      "sources": [
-        "NaturFreunde Berghausen"
-      ],
-      "examples": [
-        {
-          "id": "naturfreunde-berghausen-995-2026-11-22-1430",
-          "title": "Fröbelsterne basteln",
-          "date": "2026-11-22",
-          "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/22/995/-/froebelsterne-basteln"
-        },
-        {
-          "id": "naturfreunde-berghausen-996-2026-11-25-1730",
-          "title": "Weihnachtsbasteleien mit Petra",
-          "date": "2026-11-25",
-          "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/25/996/-/weihnachtsbasteleien-mit-petra"
-        },
-        {
-          "id": "naturfreunde-berghausen-997-2026-11-27-1500",
-          "title": "Adventsgestecke anfertigen",
-          "date": "2026-11-27",
-          "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/27/997/-/adventsgestecke-anfertigen"
         }
       ]
     },
@@ -10344,141 +10299,6 @@
           "title": "Dissonant Heritage | Vortrag",
           "date": "2026-12-03",
           "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/dissonant_heritage_vortrag"
-        }
-      ]
-    },
-    {
-      "key": "venue-55a637b860677ead49f3",
-      "location": "Orgelfabrik (OrgelFabrikHalle)",
-      "scope": "durlach",
-      "scopeLabel": "Durlach",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-node-12458900144",
-        "name": "Orgelfabrik",
-        "latitude": 48.9978755,
-        "longitude": 8.4716673,
-        "address": "Am Stadtgraben, 76227 Karlsruhe",
-        "url": "https://www.openstreetmap.org/node/12458900144",
-        "category": "amenity",
-        "type": "community_centre",
-        "street": "Am Stadtgraben",
-        "houseNumber": ""
-      },
-      "candidates": [
-        {
-          "id": "osm-node-12458900135",
-          "name": "Orgelfabrik",
-          "latitude": 48.9978139,
-          "longitude": 8.4718127,
-          "address": "Weiherhof, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/12458900135",
-          "category": "information",
-          "type": "board",
-          "street": "Weiherhof",
-          "houseNumber": "",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-12458900144",
-          "name": "Orgelfabrik",
-          "latitude": 48.9978755,
-          "longitude": 8.4716673,
-          "address": "Am Stadtgraben, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/12458900144",
-          "category": "amenity",
-          "type": "community_centre",
-          "street": "Am Stadtgraben",
-          "houseNumber": "",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-12458903415",
-          "name": "Kulturzentrum Orgelfabrik",
-          "latitude": 48.9979313,
-          "longitude": 8.47122,
-          "address": "Amthausstraße, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/12458903415",
-          "category": "information",
-          "type": "board",
-          "street": "Amthausstraße",
-          "houseNumber": "",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-12458900137",
-          "name": "Orgelfabrik Verein",
-          "latitude": 48.9978389,
-          "longitude": 8.4715895,
-          "address": "Amthausstraße 17-19, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/12458900137",
-          "category": "club",
-          "type": "history",
-          "city": "Karlsruhe",
-          "district": "Durlach",
-          "locality": "Alt-Durlach",
-          "street": "Amthausstraße",
-          "houseNumber": "17-19",
-          "score": 0.652,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-12458900138",
-          "name": "Theater in der Orgelfabrik",
-          "latitude": 48.9978917,
-          "longitude": 8.4717746,
-          "address": "Amthausstraße 19, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/12458900138",
-          "category": "amenity",
-          "type": "theatre",
-          "city": "Karlsruhe",
-          "district": "Durlach",
-          "locality": "Alt-Durlach",
-          "street": "Amthausstraße",
-          "houseNumber": "19",
-          "score": 0.556,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 3,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "durlach"
-      ],
-      "sources": [
-        "Durlacher.de · Durlacher Kalender"
-      ],
-      "examples": [
-        {
-          "id": "durlach-11850-2026-11-22-unknown",
-          "title": "Versteigerung zu Gunsten der Bürgerstiftung",
-          "date": "2026-11-22",
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11850&tx_events2_events%5Btimestamp%5D=1795302000&cHash=19acf0e6def79676295aa7319fe2ed2d"
-        },
-        {
-          "id": "durlach-12027-2026-11-27-1700",
-          "title": "ARTVENT#24: Kunst & Handwerk – Handwerk & Kunst (Eröffnung)",
-          "date": "2026-11-27",
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12027&tx_events2_events%5Btimestamp%5D=1795795200&cHash=64eec14970ce0e2fe0df3ebd85411fc9"
-        },
-        {
-          "id": "durlach-12029-2026-11-28-1100",
-          "title": "ARTVENT#24: Kunst & Handwerk – Handwerk & Kunst",
-          "date": "2026-11-28",
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12029&tx_events2_events%5Btimestamp%5D=1795860000&cHash=b5de43a4da948d3df955edc9d7e94d85"
         }
       ]
     },
@@ -10979,60 +10799,6 @@
           "title": "Winterkonzert",
           "date": "2026-12-13",
           "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12537"
-        }
-      ]
-    },
-    {
-      "key": "venue-4e704122176b9fb0b7da",
-      "location": "Traube, Spielberg",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-265986730",
-        "name": "Bürgertreff Traube",
-        "latitude": 48.8978496,
-        "longitude": 8.470494,
-        "address": "Birkenstraße 1, 76307 Karlsbad-Spielberg",
-        "url": "https://www.openstreetmap.org/way/265986730",
-        "category": "building",
-        "type": "yes",
-        "street": "Birkenstraße",
-        "houseNumber": "1",
-        "city": "Karlsbad"
-      },
-      "candidates": [],
-      "eventCount": 3,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsbad"
-      ],
-      "sources": [
-        "Gemeinde Karlsbad"
-      ],
-      "examples": [
-        {
-          "id": "karlsbad-0252db0e-7a6f-39bf-b38b-e5e7314400b5",
-          "title": "Sonntagscafé Totensonntag",
-          "date": "2026-11-22",
-          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12542"
-        },
-        {
-          "id": "karlsbad-d48b9360-e7e9-358c-8a25-b2e7b8a48fac",
-          "title": "Wirtshaussingen",
-          "date": "2026-11-27",
-          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12544"
-        },
-        {
-          "id": "karlsbad-a765a037-ed96-35d6-b171-f3f73f5319ab",
-          "title": "Bücherlesung",
-          "date": "2026-12-05",
-          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12552"
         }
       ]
     },
@@ -11943,54 +11709,6 @@
       ]
     },
     {
-      "key": "venue-ea92dd1d11057576b1f0",
-      "location": "Evangelische Kirche, Ittersbach",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-212062170",
-        "name": "Dorfkirche Ittersbach",
-        "latitude": 48.8650506,
-        "longitude": 8.5047541,
-        "address": "Friedrich-Dietz-Straße 1, 76307 Karlsbad-Ittersbach",
-        "url": "https://www.openstreetmap.org/way/212062170",
-        "category": "amenity",
-        "type": "place_of_worship",
-        "street": "Friedrich-Dietz-Straße",
-        "houseNumber": "1",
-        "city": "Karlsbad"
-      },
-      "candidates": [],
-      "eventCount": 2,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsbad"
-      ],
-      "sources": [
-        "Gemeinde Karlsbad"
-      ],
-      "examples": [
-        {
-          "id": "karlsbad-d07fc609-df41-3173-802f-a19b9ce6ae5d",
-          "title": "Gottesdienst zum Ewigkeitssonntag",
-          "date": "2026-11-22",
-          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12539"
-        },
-        {
-          "id": "karlsbad-7d2b1db9-2f01-3c5c-96de-700cf0b5f22b",
-          "title": "Christvesper mit Krippenspiel",
-          "date": "2026-12-24",
-          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12565"
-        }
-      ]
-    },
-    {
       "key": "venue-c2a234fcd2f89f7ca4bf",
       "location": "Familienzentrum Friedrichstal - Kult Café im Alten Rathaus",
       "scope": null,
@@ -12340,55 +12058,6 @@
           "title": "Weingartner Musiktage Junger Künstler 2027-Sonderkonzerte",
           "date": "2027-04-25",
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/996/weingartner-musiktage-junger-kuenstler-2027-sonderkonzerte"
-        }
-      ]
-    },
-    {
-      "key": "venue-388e8928129790b8c716",
-      "location": "GrauBau/Jugendzentrum Stutensee",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-397865208",
-        "name": "GrauBau",
-        "latitude": 49.0701091,
-        "longitude": 8.4761202,
-        "address": "Seegrabenweg 7, 76297 Stutensee-Blankenloch",
-        "url": "https://www.openstreetmap.org/way/397865208",
-        "category": "amenity",
-        "type": "community_centre",
-        "street": "Seegrabenweg",
-        "houseNumber": "7",
-        "city": "Stutensee",
-        "district": "Blankenloch"
-      },
-      "candidates": [],
-      "eventCount": 2,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "stutensee"
-      ],
-      "sources": [
-        "Stadt Stutensee · Veranstaltungskalender"
-      ],
-      "examples": [
-        {
-          "id": "stutensee-2894",
-          "title": "Kindertheaterstück „Wieder Ärger in Lazy Town“",
-          "date": "2026-11-22",
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2894"
-        },
-        {
-          "id": "stutensee-2876",
-          "title": "LiteraturKino im GrauBau",
-          "date": "2026-11-27",
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2876"
         }
       ]
     },
@@ -13451,6 +13120,53 @@
       ]
     },
     {
+      "key": "venue-aacf348fde2c7205c8e9",
+      "location": "Kleine Halle VTH Hagsfeld",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-1167377598",
+        "name": "VTH Hagsfeld (Anlage der kleinen Halle)",
+        "latitude": 49.0276469,
+        "longitude": 8.4594003,
+        "address": "Schäferstraße 26, 76139 Karlsruhe-Hagsfeld",
+        "url": "https://www.openstreetmap.org/way/1167377598",
+        "category": "leisure",
+        "type": "sports_centre",
+        "street": "Schäferstraße",
+        "houseNumber": "26"
+      },
+      "candidates": [],
+      "eventCount": 2,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "hagsfeld"
+      ],
+      "sources": [
+        "Bürgerkommission Hagsfeld"
+      ],
+      "examples": [
+        {
+          "id": "hagsfeld-Jahreshauptversammlung_Gesangsverein_Frohsinn",
+          "title": "Jahreshauptversammlung Gesangsverein Frohsinn",
+          "date": "2027-01-14",
+          "url": "https://www.hagsfeld.de/termine/Jahreshauptversammlung_Gesangsverein_Frohsinn"
+        },
+        {
+          "id": "hagsfeld-jahreshauptversammlung-gesangverein-liederkranz",
+          "title": "Jahreshauptversammlung Gesangverein Liederkranz",
+          "date": "2027-01-27",
+          "url": "https://www.hagsfeld.de/termine/jahreshauptversammlung-gesangverein-liederkranz"
+        }
+      ]
+    },
+    {
       "key": "venue-b6631600cb3551b4fa30",
       "location": "Kronenplatz",
       "scope": "karlsruhe",
@@ -14090,7 +13806,7 @@
           "id": "koenigsbach-stein-listing-40ba2c163af0299c87ef",
           "title": "Adventsspielen",
           "date": "2026-12-13",
-          "url": "https://www.koenigsbach-stein.de/veranstaltungen/?seite=3"
+          "url": "https://www.koenigsbach-stein.de/veranstaltungen/?seite=2"
         }
       ]
     },
@@ -14154,6 +13870,74 @@
           "title": "Kazel Expo Karlsruhe 2026",
           "date": "2026-12-04",
           "url": "https://kalender.karlsruhe.de/db/termine/messen_und_kongresse/kazel_expo_karlsruhe2026n"
+        }
+      ]
+    },
+    {
+      "key": "venue-d10fb5e9850e512a175b",
+      "location": "NF-Haus 'Am Hopfenberg'",
+      "scope": "berghausen",
+      "scopeLabel": "Pfinztal-Berghausen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-node-563834301",
+        "name": "Naturfreundehaus Am Hopfenberg",
+        "latitude": 49.0008503,
+        "longitude": 8.5265647,
+        "address": "Touristenweg 11, 76327 Pfinztal-Berghausen",
+        "url": "https://www.openstreetmap.org/node/563834301",
+        "category": "amenity",
+        "type": "restaurant",
+        "street": "Touristenweg",
+        "houseNumber": "11",
+        "city": "Pfinztal",
+        "district": "Berghausen"
+      },
+      "candidates": [
+        {
+          "id": "osm-node-563834301",
+          "name": "Naturfreundehaus Am Hopfenberg",
+          "latitude": 49.0008503,
+          "longitude": 8.5265647,
+          "address": "Touristenweg 11, 76327 Berghausen",
+          "url": "https://www.openstreetmap.org/node/563834301",
+          "category": "amenity",
+          "type": "restaurant",
+          "city": "Berghausen",
+          "district": "Berghausen",
+          "locality": "",
+          "street": "Touristenweg",
+          "houseNumber": "11",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 2,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "naturfreunde-berghausen"
+      ],
+      "sources": [
+        "NaturFreunde Berghausen"
+      ],
+      "examples": [
+        {
+          "id": "naturfreunde-berghausen-996-2026-11-25-1730",
+          "title": "Weihnachtsbasteleien mit Petra",
+          "date": "2026-11-25",
+          "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/25/996/-/weihnachtsbasteleien-mit-petra"
+        },
+        {
+          "id": "naturfreunde-berghausen-997-2026-11-27-1500",
+          "title": "Adventsgestecke anfertigen",
+          "date": "2026-11-27",
+          "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/27/997/-/adventsgestecke-anfertigen"
         }
       ]
     },
@@ -14459,6 +14243,135 @@
       ]
     },
     {
+      "key": "venue-55a637b860677ead49f3",
+      "location": "Orgelfabrik (OrgelFabrikHalle)",
+      "scope": "durlach",
+      "scopeLabel": "Durlach",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-node-12458900144",
+        "name": "Orgelfabrik",
+        "latitude": 48.9978755,
+        "longitude": 8.4716673,
+        "address": "Am Stadtgraben, 76227 Karlsruhe",
+        "url": "https://www.openstreetmap.org/node/12458900144",
+        "category": "amenity",
+        "type": "community_centre",
+        "street": "Am Stadtgraben",
+        "houseNumber": ""
+      },
+      "candidates": [
+        {
+          "id": "osm-node-12458900135",
+          "name": "Orgelfabrik",
+          "latitude": 48.9978139,
+          "longitude": 8.4718127,
+          "address": "Weiherhof, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12458900135",
+          "category": "information",
+          "type": "board",
+          "street": "Weiherhof",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-12458900144",
+          "name": "Orgelfabrik",
+          "latitude": 48.9978755,
+          "longitude": 8.4716673,
+          "address": "Am Stadtgraben, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12458900144",
+          "category": "amenity",
+          "type": "community_centre",
+          "street": "Am Stadtgraben",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-12458903415",
+          "name": "Kulturzentrum Orgelfabrik",
+          "latitude": 48.9979313,
+          "longitude": 8.47122,
+          "address": "Amthausstraße, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12458903415",
+          "category": "information",
+          "type": "board",
+          "street": "Amthausstraße",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-12458900137",
+          "name": "Orgelfabrik Verein",
+          "latitude": 48.9978389,
+          "longitude": 8.4715895,
+          "address": "Amthausstraße 17-19, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12458900137",
+          "category": "club",
+          "type": "history",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Amthausstraße",
+          "houseNumber": "17-19",
+          "score": 0.652,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-12458900138",
+          "name": "Theater in der Orgelfabrik",
+          "latitude": 48.9978917,
+          "longitude": 8.4717746,
+          "address": "Amthausstraße 19, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12458900138",
+          "category": "amenity",
+          "type": "theatre",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Amthausstraße",
+          "houseNumber": "19",
+          "score": 0.556,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 2,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "durlach"
+      ],
+      "sources": [
+        "Durlacher.de · Durlacher Kalender"
+      ],
+      "examples": [
+        {
+          "id": "durlach-12027-2026-11-27-1700",
+          "title": "ARTVENT#24: Kunst & Handwerk – Handwerk & Kunst (Eröffnung)",
+          "date": "2026-11-27",
+          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12027&tx_events2_events%5Btimestamp%5D=1795795200&cHash=64eec14970ce0e2fe0df3ebd85411fc9"
+        },
+        {
+          "id": "durlach-12029-2026-11-28-1100",
+          "title": "ARTVENT#24: Kunst & Handwerk – Handwerk & Kunst",
+          "date": "2026-11-28",
+          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12029&tx_events2_events%5Btimestamp%5D=1795860000&cHash=b5de43a4da948d3df955edc9d7e94d85"
+        }
+      ]
+    },
+    {
       "key": "venue-c65d1627b77d241cc6cd",
       "location": "Orgelfabrik Halle",
       "scope": "karlsruhe",
@@ -14527,6 +14440,135 @@
           "title": "Abfahrten von Durlach",
           "date": "2026-12-04",
           "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/abfahrten_von_durlach"
+        }
+      ]
+    },
+    {
+      "key": "venue-835536d3e7bf808269e5",
+      "location": "Pädagogische Hochschule Karlsruhe (PHKA)",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-159880107",
+        "name": "Pädagogische Hochschule Karlsruhe",
+        "latitude": 49.0137118,
+        "longitude": 8.3927565,
+        "address": "Bismarckstraße 10, 76133 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/159880107",
+        "category": "amenity",
+        "type": "university",
+        "street": "Bismarckstraße",
+        "houseNumber": "10"
+      },
+      "candidates": [
+        {
+          "id": "osm-relation-7011483",
+          "name": "Hochschule Karlsruhe",
+          "latitude": 49.0164075,
+          "longitude": 8.3908688,
+          "address": "Moltkestraße 30, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/7011483",
+          "category": "amenity",
+          "type": "school",
+          "street": "Moltkestraße",
+          "houseNumber": "30",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-159880107",
+          "name": "Pädagogische Hochschule Karlsruhe",
+          "latitude": 49.0137118,
+          "longitude": 8.3927565,
+          "address": "Bismarckstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/159880107",
+          "category": "amenity",
+          "type": "university",
+          "street": "Bismarckstraße",
+          "houseNumber": "10",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-3079160175",
+          "name": "Pädagogische Hochschule Karlsruhe (Gebäude IV)",
+          "latitude": 49.0260095,
+          "longitude": 8.385065,
+          "address": "Erzbergerstraße 119, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3079160175",
+          "category": "amenity",
+          "type": "college",
+          "city": "Karlsruhe",
+          "district": "Nordstadt",
+          "locality": "Amerikanersiedlung",
+          "street": "Erzbergerstraße",
+          "houseNumber": "119",
+          "score": 0.806,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-23855655",
+          "name": "Staatliche Hochschule für Gestaltung",
+          "latitude": 49.0020695,
+          "longitude": 8.3836683,
+          "address": "Lorenzstraße 15, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/23855655",
+          "category": "amenity",
+          "type": "university",
+          "city": "Karlsruhe",
+          "district": "Südweststadt",
+          "locality": "Beiertheimer Feld",
+          "street": "Lorenzstraße",
+          "houseNumber": "15",
+          "score": 0.594,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-1828938324",
+          "name": "Schloss Gottesaue/Hochschule für Musik",
+          "latitude": 49.0036286,
+          "longitude": 8.4278537,
+          "address": "Schlachthausstraße, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1828938324",
+          "category": "railway",
+          "type": "stop",
+          "street": "Schlachthausstraße",
+          "houseNumber": "",
+          "score": 0.515,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 2,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-f05818db650aaa32",
+          "title": "Hilfe! Meine Dystopien werden zu historischen Romanen",
+          "date": "2026-11-25",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/hilfe_meine_dystopien_werden_zu_historischen_romanen"
+        },
+        {
+          "id": "karlsruhe-afeac7b127e6483d",
+          "title": "Wie geht es Dir? Zeichner:innen gegen Antisemitismus, Hass und Rassismus",
+          "date": "2026-12-07",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/wie_geht_es_dir_zeichnerinnen_gegen"
         }
       ]
     },
@@ -15839,6 +15881,54 @@
       ]
     },
     {
+      "key": "venue-4e704122176b9fb0b7da",
+      "location": "Traube, Spielberg",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-265986730",
+        "name": "Bürgertreff Traube",
+        "latitude": 48.8978496,
+        "longitude": 8.470494,
+        "address": "Birkenstraße 1, 76307 Karlsbad-Spielberg",
+        "url": "https://www.openstreetmap.org/way/265986730",
+        "category": "building",
+        "type": "yes",
+        "street": "Birkenstraße",
+        "houseNumber": "1",
+        "city": "Karlsbad"
+      },
+      "candidates": [],
+      "eventCount": 2,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsbad"
+      ],
+      "sources": [
+        "Gemeinde Karlsbad"
+      ],
+      "examples": [
+        {
+          "id": "karlsbad-d48b9360-e7e9-358c-8a25-b2e7b8a48fac",
+          "title": "Wirtshaussingen",
+          "date": "2026-11-27",
+          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12544"
+        },
+        {
+          "id": "karlsbad-a765a037-ed96-35d6-b171-f3f73f5319ab",
+          "title": "Bücherlesung",
+          "date": "2026-12-05",
+          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12552"
+        }
+      ]
+    },
+    {
       "key": "venue-1b2f10d60f1e3f51b204",
       "location": "Turn-und Festhalle Stein",
       "scope": null,
@@ -17127,88 +17217,6 @@
       ]
     },
     {
-      "key": "venue-e392e7fecee3b582b0b4",
-      "location": "Aussegnungshalle Spöck",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-298049845",
-        "name": "Aussegnungshalle Spöck",
-        "latitude": 49.1083907,
-        "longitude": 8.512422,
-        "address": "Friedhofstraße 11, 76297 Stutensee-Spöck",
-        "url": "https://www.openstreetmap.org/way/298049845",
-        "category": "building",
-        "type": "yes",
-        "street": "Friedhofstraße",
-        "houseNumber": "11",
-        "city": "Stutensee",
-        "district": "Spöck"
-      },
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "stutensee"
-      ],
-      "sources": [
-        "Stadt Stutensee · Veranstaltungskalender"
-      ],
-      "examples": [
-        {
-          "id": "stutensee-2826",
-          "title": "Totengedenken verstorbener Mitglieder",
-          "date": "2026-11-22",
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2826"
-        }
-      ]
-    },
-    {
-      "key": "venue-a54f273e0498b60c43f4",
-      "location": "Aussegnungshalle, Spielberg",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-268402324",
-        "name": "Aussegnungshalle am Friedhof Spielberg",
-        "latitude": 48.8967411,
-        "longitude": 8.4730195,
-        "address": "Karlsbad-Spielberg",
-        "url": "https://www.openstreetmap.org/way/268402324",
-        "category": "amenity",
-        "type": "funeral_hall"
-      },
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsbad"
-      ],
-      "sources": [
-        "Gemeinde Karlsbad"
-      ],
-      "examples": [
-        {
-          "id": "karlsbad-f6ce6b63-8881-3332-b064-69839e20ecce",
-          "title": "Gedenkfeier Totensonntag",
-          "date": "2026-11-22",
-          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12543"
-        }
-      ]
-    },
-    {
       "key": "venue-737b1a38c30afb631237",
       "location": "BGV Badische Versicherung",
       "scope": "karlsruhe",
@@ -17685,48 +17693,6 @@
           "title": "Clever Heizen mit Klimaanlagen – Drei auf einen Streich: Kühlen, Heizen, Sparen!",
           "date": "2026-12-03",
           "url": "https://naturtreff-groetzingen.de/veranstaltungen/heizen-kuehlen-mit-splitgeraeten/"
-        }
-      ]
-    },
-    {
-      "key": "venue-06c884f6510091293229",
-      "location": "Bibelkonferenzzentrum Langensteinbacher Höhe, Langensteinbach",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-59991534",
-        "name": "Bibelkonferenzzentrum Langensteinbacher Höhe e.V.",
-        "latitude": 48.9036513,
-        "longitude": 8.5028682,
-        "address": "Titusweg 5, 76307 Karlsbad-Langensteinbach",
-        "url": "https://www.openstreetmap.org/way/59991534",
-        "category": "amenity",
-        "type": "community_centre",
-        "street": "Titusweg",
-        "houseNumber": "5",
-        "city": "Karlsbad"
-      },
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsbad"
-      ],
-      "sources": [
-        "Gemeinde Karlsbad"
-      ],
-      "examples": [
-        {
-          "id": "karlsbad-d74fafcb-0a26-3c85-997a-ecd88530191b",
-          "title": "Adventsmarkt",
-          "date": "2026-11-22",
-          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12541"
         }
       ]
     },
@@ -19101,6 +19067,48 @@
           "title": "Weihnachtskonzert",
           "date": "2026-12-13",
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2840"
+        }
+      ]
+    },
+    {
+      "key": "venue-ea92dd1d11057576b1f0",
+      "location": "Evangelische Kirche, Ittersbach",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-212062170",
+        "name": "Dorfkirche Ittersbach",
+        "latitude": 48.8650506,
+        "longitude": 8.5047541,
+        "address": "Friedrich-Dietz-Straße 1, 76307 Karlsbad-Ittersbach",
+        "url": "https://www.openstreetmap.org/way/212062170",
+        "category": "amenity",
+        "type": "place_of_worship",
+        "street": "Friedrich-Dietz-Straße",
+        "houseNumber": "1",
+        "city": "Karlsbad"
+      },
+      "candidates": [],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsbad"
+      ],
+      "sources": [
+        "Gemeinde Karlsbad"
+      ],
+      "examples": [
+        {
+          "id": "karlsbad-7d2b1db9-2f01-3c5c-96de-700cf0b5f22b",
+          "title": "Christvesper mit Krippenspiel",
+          "date": "2026-12-24",
+          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12565"
         }
       ]
     },
@@ -20651,6 +20659,49 @@
       ]
     },
     {
+      "key": "venue-388e8928129790b8c716",
+      "location": "GrauBau/Jugendzentrum Stutensee",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-397865208",
+        "name": "GrauBau",
+        "latitude": 49.0701091,
+        "longitude": 8.4761202,
+        "address": "Seegrabenweg 7, 76297 Stutensee-Blankenloch",
+        "url": "https://www.openstreetmap.org/way/397865208",
+        "category": "amenity",
+        "type": "community_centre",
+        "street": "Seegrabenweg",
+        "houseNumber": "7",
+        "city": "Stutensee",
+        "district": "Blankenloch"
+      },
+      "candidates": [],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "stutensee"
+      ],
+      "sources": [
+        "Stadt Stutensee · Veranstaltungskalender"
+      ],
+      "examples": [
+        {
+          "id": "stutensee-2876",
+          "title": "LiteraturKino im GrauBau",
+          "date": "2026-11-27",
+          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2876"
+        }
+      ]
+    },
+    {
       "key": "venue-d9c3a8e4001fb5466bb9",
       "location": "Gutenbergplatz, am Krautkopfbrunnen",
       "scope": "karlsruhe",
@@ -20738,6 +20789,47 @@
       ]
     },
     {
+      "key": "venue-c4c7dd27c64c02186253",
+      "location": "Hagsfelder Friedhof",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-23620535",
+        "name": "Friedhof Hagsfeld",
+        "latitude": 49.0275617,
+        "longitude": 8.4615124,
+        "address": "Schäferstraße, Karlsruhe-Hagsfeld",
+        "url": "https://www.openstreetmap.org/way/23620535",
+        "category": "landuse",
+        "type": "cemetery",
+        "street": "",
+        "houseNumber": ""
+      },
+      "candidates": [],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "hagsfeld"
+      ],
+      "sources": [
+        "Bürgerkommission Hagsfeld"
+      ],
+      "examples": [
+        {
+          "id": "hagsfeld-Weihnachtssingen_auf_dem_Hagsfelder_Friedhof",
+          "title": "Weihnachtssingen auf dem Hagsfelder Friedhof",
+          "date": "2026-12-24",
+          "url": "https://www.hagsfeld.de/termine/Weihnachtssingen_auf_dem_Hagsfelder_Friedhof"
+        }
+      ]
+    },
+    {
       "key": "venue-7f21f719d320f4bd1700",
       "location": "Hagwaldhalle",
       "scope": "soellingen",
@@ -20793,64 +20885,6 @@
           "title": "Winterblutspende",
           "date": "2026-12-26",
           "url": "https://pfinztal.de/wp-content/uploads/2026/02/Kopie-von-Finaler-Veranstaltungskalender_2026_Stand_09.12.2025.pdf#page=5"
-        }
-      ]
-    },
-    {
-      "key": "venue-8cd88a47f11564839771",
-      "location": "Hallenbad Grötzingen",
-      "scope": "groetzingen",
-      "scopeLabel": "Grötzingen",
-      "status": "resolved",
-      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
-      "method": "automatic",
-      "place": {
-        "id": "osm-way-150797693",
-        "name": "Hallenbad Grötzingen",
-        "latitude": 49.0039235,
-        "longitude": 8.4991276,
-        "address": "Augustenburgstraße, 76229 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/150797693",
-        "category": "leisure",
-        "type": "swimming_pool",
-        "street": "Augustenburgstraße",
-        "houseNumber": "",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-way-150797693",
-          "name": "Hallenbad Grötzingen",
-          "latitude": 49.0039235,
-          "longitude": 8.4991276,
-          "address": "Augustenburgstraße, 76229 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/150797693",
-          "category": "leisure",
-          "type": "swimming_pool",
-          "street": "Augustenburgstraße",
-          "houseNumber": "",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "groetzingen-jahresprogramm"
-      ],
-      "sources": [
-        "Grötzingen · Jahresprogramm"
-      ],
-      "examples": [
-        {
-          "id": "groetzingen-jahresprogramm-annual-2026-135",
-          "title": "DLRG Badeparty",
-          "date": "2026-11-22",
-          "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/017_Stadtteile_und_Umgebung/Groetzingen/Jahresprogramm_Groetzingen_2026_im_CD_sem.pdf#page=11"
         }
       ]
     },
@@ -22204,132 +22238,6 @@
           "title": "Fachtag zu Schulabsentismus",
           "date": "2026-11-24",
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12141&tx_events2_events%5Btimestamp%5D=1795514400&cHash=8905934c2f8c6c447d13c4772ec3577a"
-        }
-      ]
-    },
-    {
-      "key": "venue-389f07a15fc328c26527",
-      "location": "Karlsburg (Pfinzgaumuseum) Pfinztalstraße 9 76227 Karlsruhe",
-      "scope": "durlach",
-      "scopeLabel": "Durlach",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-node-4799734265",
-        "name": "Pfinzgaumuseum",
-        "latitude": 48.9984162,
-        "longitude": 8.4738459,
-        "address": "Pfinztalstraße 9, 76227 Karlsruhe",
-        "url": "https://www.openstreetmap.org/node/4799734265",
-        "category": "tourism",
-        "type": "museum",
-        "street": "Pfinztalstraße",
-        "houseNumber": "9"
-      },
-      "candidates": [
-        {
-          "id": "osm-node-4799734265",
-          "name": "Pfinzgaumuseum",
-          "latitude": 48.9984162,
-          "longitude": 8.4738459,
-          "address": "Pfinztalstraße 9, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/4799734265",
-          "category": "tourism",
-          "type": "museum",
-          "street": "Pfinztalstraße",
-          "houseNumber": "9",
-          "score": 0.93,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-23229362",
-          "name": "Karlsburg",
-          "latitude": 48.998476,
-          "longitude": 8.4738226,
-          "address": "Pfinztalstraße 9, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/23229362",
-          "category": "building",
-          "type": "public",
-          "city": "Karlsruhe",
-          "district": "Durlach",
-          "locality": "Alt-Durlach",
-          "street": "Pfinztalstraße",
-          "houseNumber": "9",
-          "score": 0.93,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-10294884305",
-          "name": "Trausaal Karlsburg Standesamt Durlach",
-          "latitude": 48.9988361,
-          "longitude": 8.4739368,
-          "address": "Pfinztalstraße 9, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/10294884305",
-          "category": "office",
-          "type": "government",
-          "city": "Karlsruhe",
-          "district": "Durlach",
-          "locality": "Alt-Durlach",
-          "street": "Pfinztalstraße",
-          "houseNumber": "9",
-          "score": 0.39,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-5782635777",
-          "name": "Karlsburg",
-          "latitude": 48.998607,
-          "longitude": 8.4744796,
-          "address": "Karlsburgstraße, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/5782635777",
-          "category": "highway",
-          "type": "bus_stop",
-          "street": "Karlsburgstraße",
-          "houseNumber": "",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-764051158",
-          "name": "Karlsburg",
-          "latitude": 48.9988286,
-          "longitude": 8.4740299,
-          "address": "Pfinztalstraße 9, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/764051158",
-          "category": "amenity",
-          "type": "toilets",
-          "city": "Karlsruhe",
-          "district": "Durlach",
-          "locality": "Alt-Durlach",
-          "street": "Pfinztalstraße",
-          "houseNumber": "9",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "durlach"
-      ],
-      "sources": [
-        "Durlacher.de · Durlacher Kalender"
-      ],
-      "examples": [
-        {
-          "id": "durlach-12098-2026-11-22-1500",
-          "title": "Pfinzgaumuseum: „Durlacher Duos. Kunstwerke im Dialog“ (Führung)",
-          "date": "2026-11-22",
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12098&tx_events2_events%5Btimestamp%5D=1795356000&cHash=c0ce3271b84c74501f3ebc0d38ca5e80"
         }
       ]
     },
@@ -26420,129 +26328,6 @@
       ]
     },
     {
-      "key": "venue-835536d3e7bf808269e5",
-      "location": "Pädagogische Hochschule Karlsruhe (PHKA)",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-159880107",
-        "name": "Pädagogische Hochschule Karlsruhe",
-        "latitude": 49.0137118,
-        "longitude": 8.3927565,
-        "address": "Bismarckstraße 10, 76133 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/159880107",
-        "category": "amenity",
-        "type": "university",
-        "street": "Bismarckstraße",
-        "houseNumber": "10"
-      },
-      "candidates": [
-        {
-          "id": "osm-relation-7011483",
-          "name": "Hochschule Karlsruhe",
-          "latitude": 49.0164075,
-          "longitude": 8.3908688,
-          "address": "Moltkestraße 30, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/relation/7011483",
-          "category": "amenity",
-          "type": "school",
-          "street": "Moltkestraße",
-          "houseNumber": "30",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-159880107",
-          "name": "Pädagogische Hochschule Karlsruhe",
-          "latitude": 49.0137118,
-          "longitude": 8.3927565,
-          "address": "Bismarckstraße 10, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/159880107",
-          "category": "amenity",
-          "type": "university",
-          "street": "Bismarckstraße",
-          "houseNumber": "10",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-3079160175",
-          "name": "Pädagogische Hochschule Karlsruhe (Gebäude IV)",
-          "latitude": 49.0260095,
-          "longitude": 8.385065,
-          "address": "Erzbergerstraße 119, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/3079160175",
-          "category": "amenity",
-          "type": "college",
-          "city": "Karlsruhe",
-          "district": "Nordstadt",
-          "locality": "Amerikanersiedlung",
-          "street": "Erzbergerstraße",
-          "houseNumber": "119",
-          "score": 0.806,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-23855655",
-          "name": "Staatliche Hochschule für Gestaltung",
-          "latitude": 49.0020695,
-          "longitude": 8.3836683,
-          "address": "Lorenzstraße 15, 76135 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/23855655",
-          "category": "amenity",
-          "type": "university",
-          "city": "Karlsruhe",
-          "district": "Südweststadt",
-          "locality": "Beiertheimer Feld",
-          "street": "Lorenzstraße",
-          "houseNumber": "15",
-          "score": 0.594,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-1828938324",
-          "name": "Schloss Gottesaue/Hochschule für Musik",
-          "latitude": 49.0036286,
-          "longitude": 8.4278537,
-          "address": "Schlachthausstraße, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/1828938324",
-          "category": "railway",
-          "type": "stop",
-          "street": "Schlachthausstraße",
-          "houseNumber": "",
-          "score": 0.515,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-f05818db650aaa32",
-          "title": "Hilfe! Meine Dystopien werden zu historischen Romanen",
-          "date": "2026-11-25",
-          "url": "https://kalender.karlsruhe.de/db/termine/literatur/hilfe_meine_dystopien_werden_zu_historischen_romanen"
-        }
-      ]
-    },
-    {
       "key": "venue-7ba81ff62a15c81d1ac5",
       "location": "Rathaus Durlach (Bürgersaal) Pfinztalstraße 33 76227 Karlsruhe",
       "scope": "durlach",
@@ -27547,123 +27332,6 @@
       ]
     },
     {
-      "key": "venue-4f61ccb99c680d19394b",
-      "location": "Schwarzwaldhalle / Kongresszentrum Karlsruhe",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-241087987",
-        "name": "Schwarzwaldhalle",
-        "latitude": 49.001931,
-        "longitude": 8.4010812,
-        "address": "Festplatz 5, 76137 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/241087987",
-        "category": "amenity",
-        "type": "exhibition_hall",
-        "street": "Festplatz",
-        "houseNumber": "5"
-      },
-      "candidates": [
-        {
-          "id": "osm-node-1743183719",
-          "name": "Kongresszentrum",
-          "latitude": 49.0038047,
-          "longitude": 8.4040211,
-          "address": "Baumeisterstraße, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/1743183719",
-          "category": "railway",
-          "type": "stop",
-          "street": "Baumeisterstraße",
-          "houseNumber": "",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-1743183720",
-          "name": "Kongresszentrum",
-          "latitude": 49.0038388,
-          "longitude": 8.4038511,
-          "address": "Baumeisterstraße, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/1743183720",
-          "category": "railway",
-          "type": "stop",
-          "street": "Baumeisterstraße",
-          "houseNumber": "",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-241087987",
-          "name": "Schwarzwaldhalle",
-          "latitude": 49.001931,
-          "longitude": 8.4010812,
-          "address": "Festplatz 5, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/241087987",
-          "category": "amenity",
-          "type": "exhibition_hall",
-          "street": "Festplatz",
-          "houseNumber": "5",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-12529534371",
-          "name": "Kongresszentrum (U)",
-          "latitude": 49.0020956,
-          "longitude": 8.4031036,
-          "address": "Ettlinger Straße, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/12529534371",
-          "category": "railway",
-          "type": "stop",
-          "street": "Ettlinger Straße",
-          "houseNumber": "",
-          "score": 0.612,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-12529534372",
-          "name": "Kongresszentrum (U)",
-          "latitude": 49.0030479,
-          "longitude": 8.4032357,
-          "address": "Ettlinger Straße, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/12529534372",
-          "category": "railway",
-          "type": "stop",
-          "street": "Ettlinger Straße",
-          "houseNumber": "",
-          "score": 0.612,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-64c3970f27487ed0",
-          "title": "Hazel Brugger",
-          "date": "2026-11-22",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/hazel_brugger"
-        }
-      ]
-    },
-    {
       "key": "venue-3ea00d4709a884c1aa50",
       "location": "Schützenhaus",
       "scope": "woeschbach",
@@ -27838,64 +27506,6 @@
       ]
     },
     {
-      "key": "venue-69192942f606f77ef935",
-      "location": "Seniorenzentrum \"Im Kronengarten\", Walzbachtal",
-      "scope": "walzbachtal",
-      "scopeLabel": "Walzbachtal",
-      "status": "resolved",
-      "reason": "Koordinate ausdrücklich auf der Originalseite dieses Spielorts angegeben.",
-      "method": "publisher",
-      "place": {
-        "id": "walzbachtal-address-891",
-        "name": "Seniorenzentrum \"Im Kronengarten\"",
-        "address": "Im Kronengarten 1, 75045 Walzbachtal",
-        "latitude": 49.0121394,
-        "longitude": 8.6078961886197,
-        "url": "https://www.walzbachtal.de/adresse/Seniorenzentrum-Im-Kronengarten-address891",
-        "eventUrl": "https://www.walzbachtal.de/veranstaltung/Cafeteria-im-Kronengarten-event-appointment5417",
-        "category": "publisher",
-        "type": "venue",
-        "provenance": "publisher",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "walzbachtal-address-891",
-          "name": "Seniorenzentrum \"Im Kronengarten\"",
-          "address": "Im Kronengarten 1, 75045 Walzbachtal",
-          "latitude": 49.0121394,
-          "longitude": 8.6078961886197,
-          "url": "https://www.walzbachtal.de/adresse/Seniorenzentrum-Im-Kronengarten-address891",
-          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Cafeteria-im-Kronengarten-event-appointment5417",
-          "category": "publisher",
-          "type": "venue",
-          "provenance": "publisher",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "walzbachtal"
-      ],
-      "sources": [
-        "Walzbachtal · Jöhlingen und Wössingen"
-      ],
-      "examples": [
-        {
-          "id": "walzbachtal-5417-2026-11-22-1430",
-          "title": "Cafeteria im Kronengarten",
-          "date": "2026-11-22",
-          "url": "https://www.walzbachtal.de/veranstaltung/Cafeteria-im-Kronengarten-event-appointment5417"
-        }
-      ]
-    },
-    {
       "key": "venue-5dee77c9ebeb946a0ab0",
       "location": "Sohlsiedlung 7, 76356 Weingarten",
       "scope": "weingarten",
@@ -27993,93 +27603,6 @@
           "title": "Seniorenweihnachtsfeier Spöck",
           "date": "2026-12-05",
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2832"
-        }
-      ]
-    },
-    {
-      "key": "venue-8a96bd537063a418a7ba",
-      "location": "St. Peter und Paul (kath.)",
-      "scope": "durlach",
-      "scopeLabel": "Durlach",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-24883742",
-        "name": "Sankt Peter und Paul",
-        "latitude": 48.998344,
-        "longitude": 8.4680934,
-        "address": "Kanzlerstraße 2, 76227 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/24883742",
-        "category": "amenity",
-        "type": "place_of_worship",
-        "street": "Kanzlerstraße",
-        "houseNumber": "2"
-      },
-      "candidates": [
-        {
-          "id": "osm-node-671466769",
-          "name": "Sankt Peter und Paul",
-          "latitude": 48.9978742,
-          "longitude": 8.4678884,
-          "address": "Kanzlerstraße 5a, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/671466769",
-          "category": "amenity",
-          "type": "kindergarten",
-          "street": "Kanzlerstraße",
-          "houseNumber": "5a",
-          "score": 0.81,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-24883742",
-          "name": "Sankt Peter und Paul",
-          "latitude": 48.998344,
-          "longitude": 8.4680934,
-          "address": "Kanzlerstraße 2, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/24883742",
-          "category": "amenity",
-          "type": "place_of_worship",
-          "street": "Kanzlerstraße",
-          "houseNumber": "2",
-          "score": 0.81,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-261012765",
-          "name": "Christkönighaus - Sankt Peter und Paul",
-          "latitude": 48.9979796,
-          "longitude": 8.4678579,
-          "address": "Kanzlerstraße 5, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/261012765",
-          "category": "amenity",
-          "type": "community_centre",
-          "street": "Kanzlerstraße",
-          "houseNumber": "5",
-          "score": 0.586,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "durlach"
-      ],
-      "sources": [
-        "Durlacher.de · Durlacher Kalender"
-      ],
-      "examples": [
-        {
-          "id": "durlach-11651-2026-11-22-1700",
-          "title": "Musikforum Durlach: Konzert in der Kirche",
-          "date": "2026-11-22",
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11651&tx_events2_events%5Btimestamp%5D=1795363200&cHash=bc48c4941441b14265855e2305e281a2"
         }
       ]
     },
@@ -29564,6 +29087,47 @@
           "title": "Karate-Abend für Neugierige ab 40",
           "date": "2026-12-03",
           "url": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/karate_abend_fur_neugierige_ab40n"
+        }
+      ]
+    },
+    {
+      "key": "venue-b7fd03bb342bd5ce31e2",
+      "location": "VTH Gelände",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-1167377598",
+        "name": "VTH-Gelände Hagsfeld",
+        "latitude": 49.0276469,
+        "longitude": 8.4594003,
+        "address": "Schäferstraße 26, 76139 Karlsruhe-Hagsfeld",
+        "url": "https://www.openstreetmap.org/way/1167377598",
+        "category": "leisure",
+        "type": "sports_centre",
+        "street": "Schäferstraße",
+        "houseNumber": "26"
+      },
+      "candidates": [],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "hagsfeld"
+      ],
+      "sources": [
+        "Bürgerkommission Hagsfeld"
+      ],
+      "examples": [
+        {
+          "id": "hagsfeld-vth-sommerfest",
+          "title": "VTH Sommerfest",
+          "date": "2027-06-18",
+          "url": "https://www.hagsfeld.de/termine/vth-sommerfest"
         }
       ]
     },

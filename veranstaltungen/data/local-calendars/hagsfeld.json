@@ -5,8 +5,8 @@
     "region": "Hagsfeld",
     "url": "https://www.hagsfeld.de/termine",
     "status": "ok",
-    "lastAttemptAt": "2026-11-22T06:57:34+00:00",
-    "lastSuccessAt": "2026-11-22T06:57:34+00:00",
+    "lastAttemptAt": "2026-11-23T07:48:33+00:00",
+    "lastSuccessAt": "2026-11-23T07:48:33+00:00",
     "refreshHours": 24,
     "recordCount": 8,
     "eventCount": 8,
@@ -48,7 +48,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
+      "detailCheckedAt": "2026-11-23T07:48:33+00:00",
       "sources": [
         {
           "url": "https://www.hagsfeld.de/termine/altpapiersammlung-asv-hagsfeld-8",
@@ -65,7 +65,7 @@
           "sourceId": "hagsfeld",
           "sourceName": "Bürgerkommission Hagsfeld",
           "reportedTitle": "Altpapiersammlung ASV Hagsfeld",
-          "checkedAt": "2026-11-22T06:57:34+00:00",
+          "checkedAt": "2026-11-23T07:48:33+00:00",
           "priority": 2
         }
       ],
@@ -84,7 +84,7 @@
       "category": "Stadtleben",
       "description": "",
       "organizer": "",
-      "location": "",
+      "location": "Laurentiuskirche Hagsfeld",
       "start": "2026-12-19T00:00:00+01:00",
       "end": null,
       "startDate": "2026-12-19",
@@ -100,7 +100,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
+      "detailCheckedAt": "2026-11-23T07:48:33+00:00",
       "sources": [
         {
           "url": "https://www.hagsfeld.de/termine/adventskonzert-gesangverein-liederkranz-2",
@@ -112,12 +112,12 @@
           "endTime": null,
           "dateText": "Adventskonzert Gesangverein Liederkranz (Samstag, 19.12.2026)",
           "timeText": null,
-          "location": "",
+          "location": "Laurentiuskirche Hagsfeld",
           "organizer": null,
           "sourceId": "hagsfeld",
           "sourceName": "Bürgerkommission Hagsfeld",
           "reportedTitle": "Adventskonzert Gesangverein Liederkranz",
-          "checkedAt": "2026-11-22T06:57:34+00:00",
+          "checkedAt": "2026-11-23T07:48:33+00:00",
           "priority": 2
         }
       ],
@@ -136,7 +136,7 @@
       "category": "Stadtleben",
       "description": "",
       "organizer": "",
-      "location": "",
+      "location": "Laurentiuskirche Hagsfeld",
       "start": "2026-12-23T17:00:00+01:00",
       "end": null,
       "startDate": "2026-12-23",
@@ -152,7 +152,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
+      "detailCheckedAt": "2026-11-23T07:48:33+00:00",
       "sources": [
         {
           "url": "https://www.hagsfeld.de/termine/weihnachtsmusical-endlich-mal-was-los-in-bethlehem-cvjm-und-gesangsverein-liederkranz",
@@ -164,12 +164,12 @@
           "endTime": null,
           "dateText": "Weihnachtsmusical \"Endlich mal was los in Bethlehem\"  CVJM und Gesangsverein Liederkranz (Mittwoch, 23.12.2026, 17:00)",
           "timeText": null,
-          "location": "",
+          "location": "Laurentiuskirche Hagsfeld",
           "organizer": null,
           "sourceId": "hagsfeld",
           "sourceName": "Bürgerkommission Hagsfeld",
           "reportedTitle": "Weihnachtsmusical \"Endlich mal was los in Bethlehem\" CVJM und Gesangsverein Liederkranz",
-          "checkedAt": "2026-11-22T06:57:34+00:00",
+          "checkedAt": "2026-11-23T07:48:33+00:00",
           "priority": 2
         }
       ],
@@ -188,7 +188,7 @@
       "category": "Stadtleben",
       "description": "",
       "organizer": "",
-      "location": "",
+      "location": "Laurentiuskirche Hagsfeld",
       "start": "2026-12-24T15:30:00+01:00",
       "end": null,
       "startDate": "2026-12-24",
@@ -204,7 +204,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
+      "detailCheckedAt": "2026-11-23T07:48:33+00:00",
       "sources": [
         {
           "url": "https://www.hagsfeld.de/termine/weihnachtsmusical-endlich-mal-was-los-in-bethlehem-cvjm-und-gesangsverein-liederkranz-2",
@@ -216,12 +216,12 @@
           "endTime": null,
           "dateText": "Weihnachtsmusical \"Endlich mal was los in Bethlehem\"  CVJM und Gesangsverein Liederkranz (Donnerstag, 24.12.2026, 15:30)",
           "timeText": null,
-          "location": "",
+          "location": "Laurentiuskirche Hagsfeld",
           "organizer": null,
           "sourceId": "hagsfeld",
           "sourceName": "Bürgerkommission Hagsfeld",
           "reportedTitle": "Weihnachtsmusical \"Endlich mal was los in Bethlehem\" CVJM und Gesangsverein Liederkranz",
-          "checkedAt": "2026-11-22T06:57:34+00:00",
+          "checkedAt": "2026-11-23T07:48:33+00:00",
           "priority": 2
         }
       ],
@@ -240,7 +240,7 @@
       "category": "Stadtleben",
       "description": "",
       "organizer": "",
-      "location": "",
+      "location": "Hagsfelder Friedhof",
       "start": "2026-12-24T17:30:00+01:00",
       "end": null,
       "startDate": "2026-12-24",
@@ -256,7 +256,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
+      "detailCheckedAt": "2026-11-23T07:48:33+00:00",
       "sources": [
         {
           "url": "https://www.hagsfeld.de/termine/Weihnachtssingen_auf_dem_Hagsfelder_Friedhof",
@@ -268,12 +268,12 @@
           "endTime": null,
           "dateText": "Weihnachtssingen auf dem Hagsfelder Friedhof (Donnerstag, 24.12.2026, 17:30)",
           "timeText": null,
-          "location": "",
+          "location": "Hagsfelder Friedhof",
           "organizer": null,
           "sourceId": "hagsfeld",
           "sourceName": "Bürgerkommission Hagsfeld",
           "reportedTitle": "Weihnachtssingen auf dem Hagsfelder Friedhof",
-          "checkedAt": "2026-11-22T06:57:34+00:00",
+          "checkedAt": "2026-11-23T07:48:33+00:00",
           "priority": 2
         }
       ],
@@ -292,7 +292,7 @@
       "category": "Stadtleben",
       "description": "",
       "organizer": "",
-      "location": "",
+      "location": "Kleine Halle VTH Hagsfeld",
       "start": "2027-01-14T19:00:00+01:00",
       "end": null,
       "startDate": "2027-01-14",
@@ -308,7 +308,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
+      "detailCheckedAt": "2026-11-23T07:48:33+00:00",
       "sources": [
         {
           "url": "https://www.hagsfeld.de/termine/Jahreshauptversammlung_Gesangsverein_Frohsinn",
@@ -320,12 +320,12 @@
           "endTime": null,
           "dateText": "Jahreshauptversammlung Gesangsverein Frohsinn (Donnerstag, 14.01.2027, 19:00)",
           "timeText": null,
-          "location": "",
+          "location": "Kleine Halle VTH Hagsfeld",
           "organizer": null,
           "sourceId": "hagsfeld",
           "sourceName": "Bürgerkommission Hagsfeld",
           "reportedTitle": "Jahreshauptversammlung Gesangsverein Frohsinn",
-          "checkedAt": "2026-11-22T06:57:34+00:00",
+          "checkedAt": "2026-11-23T07:48:33+00:00",
           "priority": 2
         }
       ],
@@ -344,7 +344,7 @@
       "category": "Stadtleben",
       "description": "",
       "organizer": "",
-      "location": "",
+      "location": "Kleine Halle VTH Hagsfeld",
       "start": "2027-01-27T00:00:00+01:00",
       "end": null,
       "startDate": "2027-01-27",
@@ -360,7 +360,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
+      "detailCheckedAt": "2026-11-23T07:48:33+00:00",
       "sources": [
         {
           "url": "https://www.hagsfeld.de/termine/jahreshauptversammlung-gesangverein-liederkranz",
@@ -372,12 +372,12 @@
           "endTime": null,
           "dateText": "Jahreshauptversammlung Gesangverein Liederkranz (Mittwoch, 27.01.2027)",
           "timeText": null,
-          "location": "",
+          "location": "Kleine Halle VTH Hagsfeld",
           "organizer": null,
           "sourceId": "hagsfeld",
           "sourceName": "Bürgerkommission Hagsfeld",
           "reportedTitle": "Jahreshauptversammlung Gesangverein Liederkranz",
-          "checkedAt": "2026-11-22T06:57:34+00:00",
+          "checkedAt": "2026-11-23T07:48:33+00:00",
           "priority": 2
         }
       ],
@@ -396,7 +396,7 @@
       "category": "Stadtleben",
       "description": "",
       "organizer": "",
-      "location": "",
+      "location": "VTH Gelände",
       "start": "2027-06-18T00:00:00+02:00",
       "end": "2027-06-20T00:00:00+02:00",
       "startDate": "2027-06-18",
@@ -412,7 +412,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-22T06:57:34+00:00",
+      "detailCheckedAt": "2026-11-23T07:48:33+00:00",
       "sources": [
         {
           "url": "https://www.hagsfeld.de/termine/vth-sommerfest",
@@ -424,17 +424,51 @@
           "endTime": null,
           "dateText": "VTH Sommerfest (18.06.2027–20.06.2027)",
           "timeText": null,
-          "location": "",
+          "location": "VTH Gelände",
           "organizer": null,
           "sourceId": "hagsfeld",
           "sourceName": "Bürgerkommission Hagsfeld",
           "reportedTitle": "VTH Sommerfest",
-          "checkedAt": "2026-11-22T06:57:34+00:00",
+          "checkedAt": "2026-11-23T07:48:33+00:00",
           "priority": 2
         }
       ],
       "conflicts": []
     }
   ],
-  "undatedEvents": []
+  "undatedEvents": [],
+  "detailLocations": {
+    "https://www.hagsfeld.de/termine/altpapiersammlung-asv-hagsfeld-8": {
+      "checkedAt": "2026-11-23T07:48:33+00:00",
+      "location": ""
+    },
+    "https://www.hagsfeld.de/termine/adventskonzert-gesangverein-liederkranz-2": {
+      "checkedAt": "2026-11-23T07:48:33+00:00",
+      "location": "Laurentiuskirche Hagsfeld"
+    },
+    "https://www.hagsfeld.de/termine/weihnachtsmusical-endlich-mal-was-los-in-bethlehem-cvjm-und-gesangsverein-liederkranz": {
+      "checkedAt": "2026-11-23T07:48:33+00:00",
+      "location": "Laurentiuskirche Hagsfeld"
+    },
+    "https://www.hagsfeld.de/termine/weihnachtsmusical-endlich-mal-was-los-in-bethlehem-cvjm-und-gesangsverein-liederkranz-2": {
+      "checkedAt": "2026-11-23T07:48:33+00:00",
+      "location": "Laurentiuskirche Hagsfeld"
+    },
+    "https://www.hagsfeld.de/termine/Weihnachtssingen_auf_dem_Hagsfelder_Friedhof": {
+      "checkedAt": "2026-11-23T07:48:33+00:00",
+      "location": "Hagsfelder Friedhof"
+    },
+    "https://www.hagsfeld.de/termine/Jahreshauptversammlung_Gesangsverein_Frohsinn": {
+      "checkedAt": "2026-11-23T07:48:33+00:00",
+      "location": "Kleine Halle VTH Hagsfeld"
+    },
+    "https://www.hagsfeld.de/termine/jahreshauptversammlung-gesangverein-liederkranz": {
+      "checkedAt": "2026-11-23T07:48:33+00:00",
+      "location": "Kleine Halle VTH Hagsfeld"
+    },
+    "https://www.hagsfeld.de/termine/vth-sommerfest": {
+      "checkedAt": "2026-11-23T07:48:33+00:00",
+      "location": "VTH Gelände"
+    }
+  }
 }
