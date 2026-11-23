@@ -2009,6 +2009,68 @@
           "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/finissage_der_ausstellung_lotus_von_valentina_jaffe"
         }
       ]
+    },
+    "venue-1caf810f2cce2385f270": {
+      "checkedAt": "2026-11-23T23:59:16+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-3f457d8960ae589741ce": {
+      "checkedAt": "2026-11-23T23:59:16+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-61a231266c96c21feca1": {
+      "checkedAt": "2026-11-23T23:59:16+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Daxlander Str. 72",
+          "city": "Karlsruhe",
+          "postalCode": "76185",
+          "address": "Daxlander Str. 72, 76185 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/wirtschaft/resilienz_der_energieversorgung"
+        }
+      ]
+    },
+    "venue-87642047bd08c7f69422": {
+      "checkedAt": "2026-11-23T23:59:16+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Kaiserstraße 89",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Kaiserstraße 89, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/wirtschaft/eucor_science_slam2026n"
+        }
+      ]
+    },
+    "venue-a49a2c313364d4be2ccb": {
+      "checkedAt": "2026-11-23T23:59:16+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Festplatz 7",
+          "city": "Karlsruhe",
+          "postalCode": "76137",
+          "address": "Festplatz 7, 76137 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/karlsruhe_mit_anderen_augen_entdecken-1"
+        }
+      ]
+    },
+    "venue-e616b55a6b9af33c7d8f": {
+      "checkedAt": "2026-11-23T23:59:16+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Baumeisterstraße 18",
+          "city": "Karlsruhe",
+          "postalCode": "76137",
+          "address": "Baumeisterstraße 18, 76137 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/singer_club_feierabendchor-30"
+        }
+      ]
     }
   }
 }

@@ -20928,6 +20928,381 @@
           "houseNumber": ""
         }
       ]
+    },
+    "Auf dem Marktplatz, Karlsruhe": {
+      "checkedAt": "2026-11-23T23:59:16+00:00",
+      "places": [
+        {
+          "id": "osm-way-743665089",
+          "name": "Marktplatz",
+          "latitude": 49.0089484,
+          "longitude": 8.4038789,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/743665089",
+          "category": "place",
+          "type": "square",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-4359043368",
+          "name": "Polizeirevier Karlsruhe-Marktplatz",
+          "latitude": 49.0079582,
+          "longitude": 8.4040508,
+          "address": "Hebelstraße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4359043368",
+          "category": "amenity",
+          "type": "police",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Hebelstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-13139732301",
+          "name": "Sternwarte Karlsruhe auf dem Max-Planck-Gymnasium",
+          "latitude": 48.9763189,
+          "longitude": 8.414519,
+          "address": "Krokusweg 49, 76199 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/13139732301",
+          "category": "tourism",
+          "type": "viewpoint",
+          "city": "Karlsruhe",
+          "district": "Rüppurr",
+          "locality": "Gartenstadt",
+          "street": "Krokusweg",
+          "houseNumber": "49"
+        },
+        {
+          "id": "osm-node-13987976901",
+          "name": "Natur- und Artenschutz auf dem Karlsruher Hauptfriedhof",
+          "latitude": 49.0153351,
+          "longitude": 8.429121,
+          "address": "Hauptweg Links, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/13987976901",
+          "category": "information",
+          "type": "board",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Nördlicher Teil",
+          "street": "Hauptweg Links",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-4369597669",
+          "name": "Herzlich Willkommen auf dem Infoweg rund um die Karlsruher Trinkwasserversorgung",
+          "latitude": 48.9971393,
+          "longitude": 8.3002956,
+          "address": "Hermann-Schneider-Allee, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4369597669",
+          "category": "information",
+          "type": "board",
+          "city": "Karlsruhe",
+          "district": "Daxlanden",
+          "locality": "Alt-Daxlanden",
+          "street": "Hermann-Schneider-Allee",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Südstadt, Karlsruhe": {
+      "checkedAt": "2026-11-23T23:59:16+00:00",
+      "places": [
+        {
+          "id": "osm-relation-63393",
+          "name": "Südstadt",
+          "latitude": 49.0008119,
+          "longitude": 8.4108263,
+          "address": "76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/63393",
+          "category": "place",
+          "type": "suburb",
+          "city": "Karlsruhe",
+          "district": "",
+          "locality": "",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-4068431",
+          "name": "Zoologischer Stadtgarten",
+          "latitude": 48.998351,
+          "longitude": 8.4014271,
+          "address": "Werderstraße, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/4068431",
+          "category": "tourism",
+          "type": "zoo",
+          "city": "Karlsruhe",
+          "district": "Südstadt",
+          "locality": "Südstadt Nördlicher Teil",
+          "street": "Werderstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-relation-8001980",
+          "name": "Südstadt Südlicher Teil",
+          "latitude": 48.9954182,
+          "longitude": 8.412985,
+          "address": "76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/8001980",
+          "category": "boundary",
+          "type": "administrative",
+          "city": "Karlsruhe",
+          "district": "Südstadt",
+          "locality": "",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-relation-8001979",
+          "name": "Südstadt Nördlicher Teil",
+          "latitude": 49.0033717,
+          "longitude": 8.4082116,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/8001979",
+          "category": "boundary",
+          "type": "administrative",
+          "city": "Karlsruhe",
+          "district": "Südstadt",
+          "locality": "",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-relation-8001978",
+          "name": "Südstadt Östlicher Teil",
+          "latitude": 49.0020575,
+          "longitude": 8.41914,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/8001978",
+          "category": "boundary",
+          "type": "administrative",
+          "city": "Karlsruhe",
+          "district": "Südstadt",
+          "locality": "",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Daxlander Straße 72, Karlsruhe": {
+      "checkedAt": "2026-11-23T23:59:16+00:00",
+      "places": [
+        {
+          "id": "osm-relation-1688556",
+          "name": "Stadtwerke Karlsruhe",
+          "latitude": 49.0078526,
+          "longitude": 8.3426416,
+          "address": "Daxlander Straße 72, 76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/1688556",
+          "category": "building",
+          "type": "office",
+          "city": "Karlsruhe",
+          "district": "Mühlburg",
+          "locality": "Rheinhafen",
+          "street": "Daxlander Straße",
+          "houseNumber": "72"
+        }
+      ]
+    },
+    "Kaiserstraße 89, Karlsruhe": {
+      "checkedAt": "2026-11-23T23:59:16+00:00",
+      "places": [
+        {
+          "id": "osm-node-2573487180",
+          "name": "Kaiserstraße 89",
+          "latitude": 49.0092191,
+          "longitude": 8.4097303,
+          "address": "Kaiserstraße 89, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/2573487180",
+          "category": "place",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "89"
+        },
+        {
+          "id": "osm-way-155005175",
+          "name": "Kaiserstraße 89",
+          "latitude": 49.0089892,
+          "longitude": 8.4097598,
+          "address": "Kaiserstraße 89, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/155005175",
+          "category": "place",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "89"
+        },
+        {
+          "id": "osm-node-14093912841",
+          "name": "TRIANGEL – Studio",
+          "latitude": 49.0090217,
+          "longitude": 8.4097681,
+          "address": "Kaiserstraße 89, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/14093912841",
+          "category": "amenity",
+          "type": "events_venue",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "89"
+        },
+        {
+          "id": "osm-way-156619883",
+          "name": "Kollegiengebäude am Kronenplatz",
+          "latitude": 49.0090019,
+          "longitude": 8.4097611,
+          "address": "Kaiserstraße 89-93, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/156619883",
+          "category": "building",
+          "type": "university",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "89-93"
+        }
+      ]
+    },
+    "Festplatz 7, Karlsruhe": {
+      "checkedAt": "2026-11-23T23:59:16+00:00",
+      "places": [
+        {
+          "id": "osm-relation-3253169",
+          "name": "Nancyhalle",
+          "latitude": 49.0017172,
+          "longitude": 8.4000128,
+          "address": "Festplatz 7, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/3253169",
+          "category": "building",
+          "type": "civic",
+          "city": "Karlsruhe",
+          "district": "Südweststadt",
+          "locality": "Südweststadt Östlicher Teil",
+          "street": "Festplatz",
+          "houseNumber": "7"
+        },
+        {
+          "id": "osm-relation-2436133",
+          "name": "Festplatz",
+          "latitude": 49.0027654,
+          "longitude": 8.4011333,
+          "address": "76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/2436133",
+          "category": "place",
+          "type": "square",
+          "city": "Karlsruhe",
+          "district": "Südweststadt",
+          "locality": "Südweststadt Östlicher Teil",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-111452529",
+          "name": "Badenwerkstraße am Festplatz 7",
+          "latitude": 49.0047916,
+          "longitude": 8.3998636,
+          "address": "Badenwerkstraße am Festplatz 7, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/111452529",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Südweststadt",
+          "locality": "Südweststadt Östlicher Teil",
+          "street": "Badenwerkstraße am Festplatz",
+          "houseNumber": "7"
+        },
+        {
+          "id": "osm-way-369401366",
+          "name": "Festplatz",
+          "latitude": 49.0029332,
+          "longitude": 8.4027827,
+          "address": "76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/369401366",
+          "category": "highway",
+          "type": "pedestrian",
+          "city": "Karlsruhe",
+          "district": "Südweststadt",
+          "locality": "Südweststadt Östlicher Teil",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-901996821",
+          "name": "Badenwerkstraße am Festplatz",
+          "latitude": 49.0050186,
+          "longitude": 8.4000732,
+          "address": "76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/901996821",
+          "category": "highway",
+          "type": "residential",
+          "city": "Karlsruhe",
+          "district": "Südweststadt",
+          "locality": "Südweststadt Östlicher Teil",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Baumeisterstraße 18, Karlsruhe": {
+      "checkedAt": "2026-11-23T23:59:16+00:00",
+      "places": [
+        {
+          "id": "osm-way-99161369",
+          "name": "Baumeisterstraße 18",
+          "latitude": 49.0038793,
+          "longitude": 8.4064414,
+          "address": "Baumeisterstraße 18, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/99161369",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Südstadt",
+          "locality": "Südstadt Nördlicher Teil",
+          "street": "Baumeisterstraße",
+          "houseNumber": "18"
+        },
+        {
+          "id": "osm-node-3708646405",
+          "name": "Akropolis",
+          "latitude": 49.0038686,
+          "longitude": 8.4064461,
+          "address": "Baumeisterstraße 18, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3708646405",
+          "category": "amenity",
+          "type": "restaurant",
+          "city": "Karlsruhe",
+          "district": "Südstadt",
+          "locality": "Südstadt Nördlicher Teil",
+          "street": "Baumeisterstraße",
+          "houseNumber": "18"
+        },
+        {
+          "id": "osm-way-591033815",
+          "name": "Baumeisterstraße 18",
+          "latitude": 48.9832519,
+          "longitude": 8.3232781,
+          "address": "Baumeisterstraße 18, 76287 Rheinstetten",
+          "url": "https://www.openstreetmap.org/way/591033815",
+          "category": "building",
+          "type": "yes",
+          "city": "Rheinstetten",
+          "district": "Forchheim",
+          "locality": "",
+          "street": "Baumeisterstraße",
+          "houseNumber": "18"
+        }
+      ]
     }
   },
   "attribution": {
