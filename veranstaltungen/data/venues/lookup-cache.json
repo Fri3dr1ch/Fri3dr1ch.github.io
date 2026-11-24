@@ -21682,6 +21682,86 @@
           "houseNumber": "1"
         }
       ]
+    },
+    "Kanzler straße 13, Karlsruhe-Durlach": {
+      "checkedAt": "2026-11-24T22:31:35+00:00",
+      "places": [
+        {
+          "id": "osm-way-331600045",
+          "name": "Alte Karlsruher Straße 13",
+          "latitude": 49.0032502,
+          "longitude": 8.4606827,
+          "address": "Alte Karlsruher Straße 13, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/331600045",
+          "category": "building",
+          "type": "semidetached_house",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Untermühlsiedlung",
+          "street": "Alte Karlsruher Straße",
+          "houseNumber": "13"
+        },
+        {
+          "id": "osm-way-54828233",
+          "name": "Festhalle",
+          "latitude": 48.998064,
+          "longitude": 8.4667679,
+          "address": "Kanzlerstraße 13, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/54828233",
+          "category": "amenity",
+          "type": "restaurant",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Kanzlerstraße",
+          "houseNumber": "13"
+        },
+        {
+          "id": "osm-way-102549088",
+          "name": "Heinrich-Weitz-Straße 13",
+          "latitude": 48.9733527,
+          "longitude": 8.4665516,
+          "address": "Heinrich-Weitz-Straße 13, 76228 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/102549088",
+          "category": "building",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Bergwald",
+          "street": "Heinrich-Weitz-Straße",
+          "houseNumber": "13"
+        },
+        {
+          "id": "osm-node-369736561",
+          "name": "Wilferdinger Straße 13",
+          "latitude": 48.9936958,
+          "longitude": 8.4508719,
+          "address": "Wilferdinger Straße 13, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/369736561",
+          "category": "place",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Lohn-Lissen",
+          "street": "Wilferdinger Straße",
+          "houseNumber": "13"
+        },
+        {
+          "id": "osm-way-118979130",
+          "name": "Grazer Straße 13",
+          "latitude": 48.9912545,
+          "longitude": 8.455289,
+          "address": "Grazer Straße 13, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/118979130",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Lohn-Lissen",
+          "street": "Grazer Straße",
+          "houseNumber": "13"
+        }
+      ]
     }
   },
   "attribution": {

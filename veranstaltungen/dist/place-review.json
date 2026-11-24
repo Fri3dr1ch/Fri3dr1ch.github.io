@@ -1,32 +1,32 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T18:48:21+00:00",
+  "generatedAt": "2026-11-24T22:31:35+00:00",
   "attribution": {
     "text": "© OpenStreetMap contributors · ODbL",
     "url": "https://www.openstreetmap.org/copyright"
   },
   "stats": {
-    "venues": 424,
+    "venues": 425,
     "venueStatuses": {
-      "missing": 8,
+      "missing": 9,
       "online": 4,
+      "queued": 3,
       "excluded": 9,
       "review": 12,
-      "queued": 3,
       "resolved": 388
     },
-    "upcomingEvents": 1375,
+    "upcomingEvents": 1374,
     "eventStatuses": {
-      "resolved": 1257,
+      "resolved": 1254,
       "online": 7,
-      "missing": 86,
+      "missing": 87,
       "review": 12,
-      "queued": 3,
+      "queued": 4,
       "excluded": 10
     }
   },
   "lookup": {
-    "requested": 4,
+    "requested": 1,
     "failures": []
   },
   "rows": [
@@ -249,6 +249,50 @@
           "title": "Wie kommen wir gut durch die Autonomiephase und bleiben trotzdem entspannt?",
           "date": "2026-12-03",
           "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/wie_kommen_wir_gut_durch_die_autonomiephase-2"
+        }
+      ]
+    },
+    {
+      "key": "venue-053cc52f34eeb83e37ff",
+      "location": "Evang. Lutherkirche Karlsruhe",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "queued",
+      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
+      "method": null,
+      "place": null,
+      "candidates": [],
+      "eventCount": 2,
+      "reviewNote": "",
+      "sourceAddresses": [
+        {
+          "street": "Durlacher Allee 23",
+          "city": "Karlsruhe-Oststadt",
+          "postalCode": "76131",
+          "address": "Durlacher Allee 23, 76131 Karlsruhe-Oststadt",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/winterkonzert_des_collegium_a_rhythmicum"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-eaf2ed2076eb4e4d",
+          "title": "Winterkonzert des Collegium a Rhythmicum",
+          "date": "2026-12-06",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/winterkonzert_des_collegium_a_rhythmicum"
+        },
+        {
+          "id": "karlsruhe-a1c8ae19b4650fc3",
+          "title": "ÁRSTÍÐIR Vetrarsól 2026 – Lutherkirche Karlsruhe",
+          "date": "2026-12-08",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/arstiir_vetrarsol_2026_lutherkirche_karlsruhe"
         }
       ]
     },
@@ -512,6 +556,36 @@
       ]
     },
     {
+      "key": "venue-166836261d631b2d4630",
+      "location": "",
+      "scope": "berghausen",
+      "scopeLabel": "Pfinztal-Berghausen",
+      "status": "missing",
+      "reason": "Die Quelle nennt keinen Veranstaltungsort. Keine Zuordnung aus dem Herausgeber ableiten.",
+      "method": null,
+      "place": null,
+      "candidates": [],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "naturfreunde-berghausen"
+      ],
+      "sources": [
+        "NaturFreunde Berghausen"
+      ],
+      "examples": [
+        {
+          "id": "naturfreunde-berghausen-1001-2026-12-01-0935",
+          "title": "Achtung: Falsche Abfahrtszeit in Berghausen Bahnhof zur Stickelpfadwanderung",
+          "date": "2026-12-01",
+          "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/12/01/1001/-/achtung-falsche-abfahrtszeit-in-berghausen-bahnhof-zur-stickelpfadwanderung"
+        }
+      ]
+    },
+    {
       "key": "venue-1caf810f2cce2385f270",
       "location": "Auf dem Marktplatz",
       "scope": "karlsruhe",
@@ -653,44 +727,6 @@
           "title": "Altpapiersammlung",
           "date": "2026-12-12",
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11689&tx_events2_events%5Btimestamp%5D=1797058800&cHash=3327587c2d98e7aa3210f7a103e0cd4f"
-        }
-      ]
-    },
-    {
-      "key": "venue-053cc52f34eeb83e37ff",
-      "location": "Evang. Lutherkirche Karlsruhe",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "queued",
-      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [
-        {
-          "street": "Durlacher Allee 23",
-          "city": "Karlsruhe-Oststadt",
-          "postalCode": "76131",
-          "address": "Durlacher Allee 23, 76131 Karlsruhe-Oststadt",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/winterkonzert_des_collegium_a_rhythmicum"
-        }
-      ],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-eaf2ed2076eb4e4d",
-          "title": "Winterkonzert des Collegium a Rhythmicum",
-          "date": "2026-12-06",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/winterkonzert_des_collegium_a_rhythmicum"
         }
       ]
     },
@@ -1896,7 +1932,7 @@
           "outsideContext": false
         }
       ],
-      "eventCount": 45,
+      "eventCount": 44,
       "reviewNote": "Nachprüfung: Kein belastbarer Gebäudepunkt im passenden Veranstaltungsort gefunden. Namensähnliche Treffer an anderen Orten oder für andere Einrichtungen wurden nicht übernommen.",
       "sourceAddresses": [],
       "organizer": "",
@@ -1908,12 +1944,6 @@
         "Evangelische Kirche Grötzingen"
       ],
       "examples": [
-        {
-          "id": "eki-groetzingen-1064316-2026-11-24-2000",
-          "title": "Regenbogenchor",
-          "date": "2026-11-24",
-          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1064316-regenbogenchor/?vt=1&cb-id=118282"
-        },
         {
           "id": "eki-groetzingen-974049-2026-11-26-2000",
           "title": "Kirchenchor",
@@ -1931,6 +1961,12 @@
           "title": "Regenbogenchor",
           "date": "2026-12-01",
           "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1064317-regenbogenchor/?vt=1&cb-id=118282"
+        },
+        {
+          "id": "eki-groetzingen-1101421-2026-12-02-1000",
+          "title": "Literaturkreis im Gemeindesaal (Frau Hohkamp) =monatlich=",
+          "date": "2026-12-02",
+          "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1101421-literaturkreis-im-gemeindesaal-frau-hohkamp-monatlich/?vt=1&cb-id=118282"
         }
       ]
     },
@@ -3951,6 +3987,67 @@
       ]
     },
     {
+      "key": "venue-c1425733d9e93a55d45a",
+      "location": "Waldenserkirche, Palmbach",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-100292905",
+        "name": "Waldenserkirche",
+        "latitude": 48.9458719,
+        "longitude": 8.4819152,
+        "address": "Talstraße 43a, 76228 Karlsruhe-Palmbach",
+        "url": "https://www.openstreetmap.org/way/100292905",
+        "category": "amenity",
+        "type": "place_of_worship",
+        "street": "Talstraße",
+        "houseNumber": "43a",
+        "city": "Karlsruhe",
+        "district": "Palmbach"
+      },
+      "candidates": [],
+      "eventCount": 11,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "bergdoerfer"
+      ],
+      "sources": [
+        "Evangelische Gemeinde Bergdörfer"
+      ],
+      "examples": [
+        {
+          "id": "bergdoerfer-1102555",
+          "title": "MiNi Gottesdienst Palmbach",
+          "date": "2026-11-29",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1102555-mini-gottesdienst-palmbach/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-910690",
+          "title": "Abendgottesdienst",
+          "date": "2026-11-29",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910690-abendgottesdienst/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-910795",
+          "title": "Gottesdienst mit Abendmahl",
+          "date": "2026-12-13",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910795-gottesdienst-mit-abendmahl/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-910863",
+          "title": "Krippenspiel",
+          "date": "2026-12-24",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910863-krippenspiel/?vt=1&cb-id=193413"
+        }
+      ]
+    },
+    {
       "key": "venue-b8364865d038229704ba",
       "location": "Staatstheater, siehe Beschreibung",
       "scope": "karlsruhe",
@@ -4048,7 +4145,7 @@
           "outsideContext": false
         }
       ],
-      "eventCount": 11,
+      "eventCount": 10,
       "reviewNote": "",
       "sourceAddresses": [],
       "organizer": "",
@@ -4060,12 +4157,6 @@
         "Stadt Karlsruhe"
       ],
       "examples": [
-        {
-          "id": "karlsruhe-ce9b17d112254163",
-          "title": "Immer noch da (Wiederaufnahme)",
-          "date": "2026-11-24",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/immer_noch_da_wiederaufnahme"
-        },
         {
           "id": "karlsruhe-c62c8990fbabc5aa",
           "title": "Debritz",
@@ -4083,67 +4174,12 @@
           "title": "Karneval der Tiere",
           "date": "2026-11-27",
           "url": "https://kalender.karlsruhe.de/db/termine/theater/karneval_der_tiere-1"
-        }
-      ]
-    },
-    {
-      "key": "venue-c1425733d9e93a55d45a",
-      "location": "Waldenserkirche, Palmbach",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-100292905",
-        "name": "Waldenserkirche",
-        "latitude": 48.9458719,
-        "longitude": 8.4819152,
-        "address": "Talstraße 43a, 76228 Karlsruhe-Palmbach",
-        "url": "https://www.openstreetmap.org/way/100292905",
-        "category": "amenity",
-        "type": "place_of_worship",
-        "street": "Talstraße",
-        "houseNumber": "43a",
-        "city": "Karlsruhe",
-        "district": "Palmbach"
-      },
-      "candidates": [],
-      "eventCount": 11,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "bergdoerfer"
-      ],
-      "sources": [
-        "Evangelische Gemeinde Bergdörfer"
-      ],
-      "examples": [
-        {
-          "id": "bergdoerfer-1102555",
-          "title": "MiNi Gottesdienst Palmbach",
-          "date": "2026-11-29",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1102555-mini-gottesdienst-palmbach/?vt=1&cb-id=193413"
         },
         {
-          "id": "bergdoerfer-910690",
-          "title": "Abendgottesdienst",
-          "date": "2026-11-29",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910690-abendgottesdienst/?vt=1&cb-id=193413"
-        },
-        {
-          "id": "bergdoerfer-910795",
-          "title": "Gottesdienst mit Abendmahl",
-          "date": "2026-12-13",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910795-gottesdienst-mit-abendmahl/?vt=1&cb-id=193413"
-        },
-        {
-          "id": "bergdoerfer-910863",
-          "title": "Krippenspiel",
-          "date": "2026-12-24",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910863-krippenspiel/?vt=1&cb-id=193413"
+          "id": "karlsruhe-fc5b2424cc1da38c",
+          "title": "Das neue Staatstheater – Baustellenführung durch Modul 1",
+          "date": "2026-11-28",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/das_neue_staatstheater_baustellenfuhrung_durch_modul1n-15"
         }
       ]
     },
@@ -9146,150 +9182,6 @@
       ]
     },
     {
-      "key": "venue-545479103540cf38f350",
-      "location": "Ev. Stadtkirche Karlsruhe",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-90180591",
-        "name": "Evangelische Stadtkirche",
-        "latitude": 49.0085051,
-        "longitude": 8.404454,
-        "address": "Karl-Friedrich-Straße 11, 76133 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/90180591",
-        "category": "amenity",
-        "type": "place_of_worship",
-        "street": "Karl-Friedrich-Straße",
-        "houseNumber": "11"
-      },
-      "candidates": [
-        {
-          "id": "osm-way-150797686",
-          "name": "Stadtkirche",
-          "latitude": 49.0032753,
-          "longitude": 8.4983684,
-          "address": "Kirchstraße 17, 76229 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/150797686",
-          "category": "amenity",
-          "type": "place_of_worship",
-          "city": "Karlsruhe",
-          "district": "Grötzingen",
-          "locality": "Südlich der Pfinz",
-          "street": "Kirchstraße",
-          "houseNumber": "17",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-12093647989",
-          "name": "Kinder-Stadtkirche",
-          "latitude": 49.0002689,
-          "longitude": 8.4097269,
-          "address": "Rüppurrer Straße 52, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/12093647989",
-          "category": "amenity",
-          "type": "social_facility",
-          "city": "Karlsruhe",
-          "district": "Südstadt",
-          "locality": "Südstadt Südlicher Teil",
-          "street": "Rüppurrer Straße",
-          "houseNumber": "52",
-          "score": 0.812,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-25000998",
-          "name": "Evangelische Stadtkirche",
-          "latitude": 48.9988594,
-          "longitude": 8.4713534,
-          "address": "Pfinztalstraße 31, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/25000998",
-          "category": "amenity",
-          "type": "place_of_worship",
-          "city": "Karlsruhe",
-          "district": "Durlach",
-          "locality": "Alt-Durlach",
-          "street": "Pfinztalstraße",
-          "houseNumber": "31",
-          "score": 0.737,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-90180591",
-          "name": "Evangelische Stadtkirche",
-          "latitude": 49.0085051,
-          "longitude": 8.404454,
-          "address": "Karl-Friedrich-Straße 11, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/90180591",
-          "category": "amenity",
-          "type": "place_of_worship",
-          "city": "Karlsruhe",
-          "district": "Innenstadt-Ost",
-          "locality": "Innenstadt-Ost Südwestlicher Teil",
-          "street": "Karl-Friedrich-Straße",
-          "houseNumber": "11",
-          "score": 0.737,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-10050527231",
-          "name": "Evangelische Stadtkirche am Marktplatz",
-          "latitude": 49.0085471,
-          "longitude": 8.4040855,
-          "address": "Karl-Friedrich-Straße, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/10050527231",
-          "category": "information",
-          "type": "board",
-          "city": "Karlsruhe",
-          "district": "Innenstadt-Ost",
-          "locality": "Innenstadt-Ost Südwestlicher Teil",
-          "street": "Karl-Friedrich-Straße",
-          "houseNumber": "",
-          "score": 0.538,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 3,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-dbe8bf14f67fbccd",
-          "title": "Magic Gregorian Night",
-          "date": "2026-11-24",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/magic_gregorian_night"
-        },
-        {
-          "id": "karlsruhe-529f03d5af378b4b",
-          "title": "Advents- und Weihnachtslieder-Singen für Jung und Alt",
-          "date": "2026-11-29",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/advents_und_weihnachtslieder_singen_fur_jung_und_alt"
-        },
-        {
-          "id": "karlsruhe-8fa1d45cd7938f86",
-          "title": "Klangräume – mit Schlagzeug zum Advent",
-          "date": "2026-12-06",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/klangraume_mit_schlagzeug_zum_advent"
-        }
-      ]
-    },
-    {
       "key": "venue-dbca6d1a776f464357d4",
       "location": "Evangelische Kirche Weingarten",
       "scope": "weingarten",
@@ -12570,6 +12462,144 @@
       ]
     },
     {
+      "key": "venue-545479103540cf38f350",
+      "location": "Ev. Stadtkirche Karlsruhe",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-90180591",
+        "name": "Evangelische Stadtkirche",
+        "latitude": 49.0085051,
+        "longitude": 8.404454,
+        "address": "Karl-Friedrich-Straße 11, 76133 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/90180591",
+        "category": "amenity",
+        "type": "place_of_worship",
+        "street": "Karl-Friedrich-Straße",
+        "houseNumber": "11"
+      },
+      "candidates": [
+        {
+          "id": "osm-way-150797686",
+          "name": "Stadtkirche",
+          "latitude": 49.0032753,
+          "longitude": 8.4983684,
+          "address": "Kirchstraße 17, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/150797686",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Südlich der Pfinz",
+          "street": "Kirchstraße",
+          "houseNumber": "17",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-12093647989",
+          "name": "Kinder-Stadtkirche",
+          "latitude": 49.0002689,
+          "longitude": 8.4097269,
+          "address": "Rüppurrer Straße 52, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12093647989",
+          "category": "amenity",
+          "type": "social_facility",
+          "city": "Karlsruhe",
+          "district": "Südstadt",
+          "locality": "Südstadt Südlicher Teil",
+          "street": "Rüppurrer Straße",
+          "houseNumber": "52",
+          "score": 0.812,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-25000998",
+          "name": "Evangelische Stadtkirche",
+          "latitude": 48.9988594,
+          "longitude": 8.4713534,
+          "address": "Pfinztalstraße 31, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/25000998",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Pfinztalstraße",
+          "houseNumber": "31",
+          "score": 0.737,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-90180591",
+          "name": "Evangelische Stadtkirche",
+          "latitude": 49.0085051,
+          "longitude": 8.404454,
+          "address": "Karl-Friedrich-Straße 11, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/90180591",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Karl-Friedrich-Straße",
+          "houseNumber": "11",
+          "score": 0.737,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-10050527231",
+          "name": "Evangelische Stadtkirche am Marktplatz",
+          "latitude": 49.0085471,
+          "longitude": 8.4040855,
+          "address": "Karl-Friedrich-Straße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/10050527231",
+          "category": "information",
+          "type": "board",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Karl-Friedrich-Straße",
+          "houseNumber": "",
+          "score": 0.538,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 2,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-529f03d5af378b4b",
+          "title": "Advents- und Weihnachtslieder-Singen für Jung und Alt",
+          "date": "2026-11-29",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/advents_und_weihnachtslieder_singen_fur_jung_und_alt"
+        },
+        {
+          "id": "karlsruhe-8fa1d45cd7938f86",
+          "title": "Klangräume – mit Schlagzeug zum Advent",
+          "date": "2026-12-06",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/klangraume_mit_schlagzeug_zum_advent"
+        }
+      ]
+    },
+    {
       "key": "venue-c2a234fcd2f89f7ca4bf",
       "location": "Familienzentrum Friedrichstal - Kult Café im Alten Rathaus",
       "scope": null,
@@ -12659,6 +12689,42 @@
           "houseNumber": "13",
           "score": 0.93,
           "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-331600045",
+          "name": "Alte Karlsruher Straße 13",
+          "latitude": 49.0032502,
+          "longitude": 8.4606827,
+          "address": "Alte Karlsruher Straße 13, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/331600045",
+          "category": "building",
+          "type": "semidetached_house",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Untermühlsiedlung",
+          "street": "Alte Karlsruher Straße",
+          "houseNumber": "13",
+          "score": 0.644,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-118979130",
+          "name": "Grazer Straße 13",
+          "latitude": 48.9912545,
+          "longitude": 8.455289,
+          "address": "Grazer Straße 13, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/118979130",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Lohn-Lissen",
+          "street": "Grazer Straße",
+          "houseNumber": "13",
+          "score": 0.56,
+          "exact": false,
           "outsideContext": false
         },
         {
