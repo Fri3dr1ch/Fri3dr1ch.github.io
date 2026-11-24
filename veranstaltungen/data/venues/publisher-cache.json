@@ -2071,6 +2071,24 @@
           "url": "https://kalender.karlsruhe.de/db/termine/musik/singer_club_feierabendchor-30"
         }
       ]
+    },
+    "venue-0fe26fdb92f2943580e9": {
+      "checkedAt": "2026-11-24T10:00:40+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-ee15bfca254557b44101": {
+      "checkedAt": "2026-11-24T10:00:40+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Ostendstraße 1",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Ostendstraße 1, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/spieleabend_fur_neulinge_newbie_game_night_deen"
+        }
+      ]
     }
   }
 }

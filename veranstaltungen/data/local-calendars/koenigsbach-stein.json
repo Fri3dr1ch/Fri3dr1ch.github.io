@@ -5,11 +5,11 @@
     "region": "Königsbach-Stein",
     "url": "https://www.koenigsbach-stein.de/veranstaltungen/",
     "status": "ok",
-    "lastAttemptAt": "2026-11-23T07:48:39+00:00",
-    "lastSuccessAt": "2026-11-23T07:48:39+00:00",
+    "lastAttemptAt": "2026-11-24T10:00:08+00:00",
+    "lastSuccessAt": "2026-11-24T10:00:08+00:00",
     "refreshHours": 24,
-    "recordCount": 14,
-    "eventCount": 14,
+    "recordCount": 13,
+    "eventCount": 13,
     "undatedCount": 0,
     "coverageKind": "html-list",
     "license": null,
@@ -48,7 +48,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-23T07:48:39+00:00",
+      "detailCheckedAt": "2026-11-24T10:00:08+00:00",
       "sources": [
         {
           "url": "https://www.koenigsbach-stein.de/veranstaltungen/",
@@ -65,7 +65,7 @@
           "sourceId": "koenigsbach-stein",
           "sourceName": "Gemeinde Königsbach-Stein",
           "reportedTitle": "Weihnachtsmarkt",
-          "checkedAt": "2026-11-23T07:48:39+00:00",
+          "checkedAt": "2026-11-24T10:00:08+00:00",
           "priority": 2
         }
       ],
@@ -100,7 +100,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-23T07:48:39+00:00",
+      "detailCheckedAt": "2026-11-24T10:00:08+00:00",
       "sources": [
         {
           "url": "https://www.koenigsbach-stein.de/veranstaltungen/",
@@ -117,7 +117,7 @@
           "sourceId": "koenigsbach-stein",
           "sourceName": "Gemeinde Königsbach-Stein",
           "reportedTitle": "Weihnachtsfeier",
-          "checkedAt": "2026-11-23T07:48:39+00:00",
+          "checkedAt": "2026-11-24T10:00:08+00:00",
           "priority": 2
         }
       ],
@@ -152,7 +152,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-23T07:48:39+00:00",
+      "detailCheckedAt": "2026-11-24T10:00:08+00:00",
       "sources": [
         {
           "url": "https://www.koenigsbach-stein.de/veranstaltungen/",
@@ -169,7 +169,7 @@
           "sourceId": "koenigsbach-stein",
           "sourceName": "Gemeinde Königsbach-Stein",
           "reportedTitle": "Adventskonzert",
-          "checkedAt": "2026-11-23T07:48:39+00:00",
+          "checkedAt": "2026-11-24T10:00:08+00:00",
           "priority": 2
         }
       ],
@@ -204,7 +204,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-23T07:48:39+00:00",
+      "detailCheckedAt": "2026-11-24T10:00:08+00:00",
       "sources": [
         {
           "url": "https://www.koenigsbach-stein.de/veranstaltungen/",
@@ -221,7 +221,7 @@
           "sourceId": "koenigsbach-stein",
           "sourceName": "Gemeinde Königsbach-Stein",
           "reportedTitle": "Jahresabschlussfeier Turnen",
-          "checkedAt": "2026-11-23T07:48:39+00:00",
+          "checkedAt": "2026-11-24T10:00:08+00:00",
           "priority": 2
         }
       ],
@@ -256,7 +256,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-23T07:48:39+00:00",
+      "detailCheckedAt": "2026-11-24T10:00:08+00:00",
       "sources": [
         {
           "url": "https://www.koenigsbach-stein.de/veranstaltungen/",
@@ -273,59 +273,7 @@
           "sourceId": "koenigsbach-stein",
           "sourceName": "Gemeinde Königsbach-Stein",
           "reportedTitle": "Nikolausfeier",
-          "checkedAt": "2026-11-23T07:48:39+00:00",
-          "priority": 2
-        }
-      ],
-      "conflicts": []
-    },
-    {
-      "id": "koenigsbach-stein-listing-99bfd1fc5740deb483d6",
-      "sourceId": "koenigsbach-stein",
-      "sourceName": "Gemeinde Königsbach-Stein",
-      "title": "Adventskonzert",
-      "url": "https://www.koenigsbach-stein.de/veranstaltungen/?seite=2",
-      "icalUrl": null,
-      "region": "Königsbach-Stein",
-      "city": null,
-      "categoryKey": "stadtleben",
-      "category": "Stadtleben",
-      "description": "Veranstalter: Chorvereinigung Stein",
-      "organizer": "Chorvereinigung Stein",
-      "location": "kath. Kirche in Stein",
-      "start": "2026-12-12T00:00:00+01:00",
-      "end": null,
-      "startDate": "2026-12-12",
-      "endDate": "2026-12-12",
-      "startTime": null,
-      "endTime": null,
-      "timeKnown": false,
-      "allDay": false,
-      "longRunning": false,
-      "scheduleNote": "",
-      "openingSchedule": null,
-      "openingOccurrences": null,
-      "status": "scheduled",
-      "dataQuality": "html-calendar",
-      "availability": null,
-      "detailCheckedAt": "2026-11-23T07:48:39+00:00",
-      "sources": [
-        {
-          "url": "https://www.koenigsbach-stein.de/veranstaltungen/?seite=2",
-          "recordId": "listing-99bfd1fc5740deb483d6",
-          "title": "Adventskonzert",
-          "startDate": "2026-12-12",
-          "endDate": "2026-12-12",
-          "startTime": null,
-          "endTime": null,
-          "dateText": null,
-          "timeText": null,
-          "location": "kath. Kirche in Stein",
-          "organizer": "Chorvereinigung Stein",
-          "sourceId": "koenigsbach-stein",
-          "sourceName": "Gemeinde Königsbach-Stein",
-          "reportedTitle": "Adventskonzert",
-          "checkedAt": "2026-11-23T07:48:39+00:00",
+          "checkedAt": "2026-11-24T10:00:08+00:00",
           "priority": 2
         }
       ],
@@ -360,7 +308,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-23T07:48:39+00:00",
+      "detailCheckedAt": "2026-11-24T10:00:08+00:00",
       "sources": [
         {
           "url": "https://www.koenigsbach-stein.de/veranstaltungen/?seite=2",
@@ -377,14 +325,14 @@
           "sourceId": "koenigsbach-stein",
           "sourceName": "Gemeinde Königsbach-Stein",
           "reportedTitle": "Weihnachstfeier",
-          "checkedAt": "2026-11-23T07:48:39+00:00",
+          "checkedAt": "2026-11-24T10:00:08+00:00",
           "priority": 2
         }
       ],
       "conflicts": []
     },
     {
-      "id": "koenigsbach-stein-listing-8ba5bd64753672e8bd7e",
+      "id": "koenigsbach-stein-listing-8e96fdd5449b8774fca6",
       "sourceId": "koenigsbach-stein",
       "sourceName": "Gemeinde Königsbach-Stein",
       "title": "Adventskonzert",
@@ -394,14 +342,14 @@
       "city": null,
       "categoryKey": "stadtleben",
       "category": "Stadtleben",
-      "description": "",
-      "organizer": "",
-      "location": "kath. Kirche Stein",
-      "start": "2026-12-12T18:00:00+01:00",
+      "description": "Veranstalter: Chorvereinigung Stein",
+      "organizer": "Chorvereinigung Stein",
+      "location": "kath. Kirche in Stein",
+      "start": "2026-12-12T17:30:00+01:00",
       "end": null,
       "startDate": "2026-12-12",
       "endDate": "2026-12-12",
-      "startTime": "18:00",
+      "startTime": "17:30",
       "endTime": null,
       "timeKnown": true,
       "allDay": false,
@@ -412,24 +360,24 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-23T07:48:39+00:00",
+      "detailCheckedAt": "2026-11-24T10:00:08+00:00",
       "sources": [
         {
           "url": "https://www.koenigsbach-stein.de/veranstaltungen/?seite=2",
-          "recordId": "listing-8ba5bd64753672e8bd7e",
+          "recordId": "listing-8e96fdd5449b8774fca6",
           "title": "Adventskonzert",
           "startDate": "2026-12-12",
           "endDate": "2026-12-12",
-          "startTime": "18:00",
+          "startTime": "17:30",
           "endTime": null,
           "dateText": null,
           "timeText": null,
-          "location": "kath. Kirche Stein",
-          "organizer": "",
+          "location": "kath. Kirche in Stein",
+          "organizer": "Chorvereinigung Stein",
           "sourceId": "koenigsbach-stein",
           "sourceName": "Gemeinde Königsbach-Stein",
           "reportedTitle": "Adventskonzert",
-          "checkedAt": "2026-11-23T07:48:39+00:00",
+          "checkedAt": "2026-11-24T10:00:08+00:00",
           "priority": 2
         }
       ],
@@ -464,7 +412,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-23T07:48:39+00:00",
+      "detailCheckedAt": "2026-11-24T10:00:08+00:00",
       "sources": [
         {
           "url": "https://www.koenigsbach-stein.de/veranstaltungen/?seite=2",
@@ -481,7 +429,7 @@
           "sourceId": "koenigsbach-stein",
           "sourceName": "Gemeinde Königsbach-Stein",
           "reportedTitle": "Weihnachtsfeier",
-          "checkedAt": "2026-11-23T07:48:39+00:00",
+          "checkedAt": "2026-11-24T10:00:08+00:00",
           "priority": 2
         }
       ],
@@ -516,7 +464,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-23T07:48:39+00:00",
+      "detailCheckedAt": "2026-11-24T10:00:08+00:00",
       "sources": [
         {
           "url": "https://www.koenigsbach-stein.de/veranstaltungen/?seite=2",
@@ -533,7 +481,7 @@
           "sourceId": "koenigsbach-stein",
           "sourceName": "Gemeinde Königsbach-Stein",
           "reportedTitle": "Adventsspielen",
-          "checkedAt": "2026-11-23T07:48:39+00:00",
+          "checkedAt": "2026-11-24T10:00:08+00:00",
           "priority": 2
         }
       ],
@@ -544,7 +492,7 @@
       "sourceId": "koenigsbach-stein",
       "sourceName": "Gemeinde Königsbach-Stein",
       "title": "Königsbacher Budenzauber",
-      "url": "https://www.koenigsbach-stein.de/veranstaltungen/?seite=3",
+      "url": "https://www.koenigsbach-stein.de/veranstaltungen/?seite=2",
       "icalUrl": null,
       "region": "Königsbach-Stein",
       "city": null,
@@ -568,10 +516,10 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-23T07:48:39+00:00",
+      "detailCheckedAt": "2026-11-24T10:00:08+00:00",
       "sources": [
         {
-          "url": "https://www.koenigsbach-stein.de/veranstaltungen/?seite=3",
+          "url": "https://www.koenigsbach-stein.de/veranstaltungen/?seite=2",
           "recordId": "listing-96e3dc29e440443a000b",
           "title": "Königsbacher Budenzauber",
           "startDate": "2026-12-19",
@@ -585,7 +533,7 @@
           "sourceId": "koenigsbach-stein",
           "sourceName": "Gemeinde Königsbach-Stein",
           "reportedTitle": "Königsbacher Budenzauber",
-          "checkedAt": "2026-11-23T07:48:39+00:00",
+          "checkedAt": "2026-11-24T10:00:08+00:00",
           "priority": 2
         }
       ],
@@ -620,7 +568,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-23T07:48:39+00:00",
+      "detailCheckedAt": "2026-11-24T10:00:08+00:00",
       "sources": [
         {
           "url": "https://www.koenigsbach-stein.de/veranstaltungen/?seite=3",
@@ -637,7 +585,7 @@
           "sourceId": "koenigsbach-stein",
           "sourceName": "Gemeinde Königsbach-Stein",
           "reportedTitle": "Königsbacher Budenzauber",
-          "checkedAt": "2026-11-23T07:48:39+00:00",
+          "checkedAt": "2026-11-24T10:00:08+00:00",
           "priority": 2
         }
       ],
@@ -672,7 +620,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-23T07:48:39+00:00",
+      "detailCheckedAt": "2026-11-24T10:00:08+00:00",
       "sources": [
         {
           "url": "https://www.koenigsbach-stein.de/veranstaltungen/?seite=3",
@@ -689,7 +637,7 @@
           "sourceId": "koenigsbach-stein",
           "sourceName": "Gemeinde Königsbach-Stein",
           "reportedTitle": "Weihnachtsgottesdienst",
-          "checkedAt": "2026-11-23T07:48:39+00:00",
+          "checkedAt": "2026-11-24T10:00:08+00:00",
           "priority": 2
         }
       ],
@@ -724,7 +672,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-23T07:48:39+00:00",
+      "detailCheckedAt": "2026-11-24T10:00:08+00:00",
       "sources": [
         {
           "url": "https://www.koenigsbach-stein.de/veranstaltungen/?seite=3",
@@ -741,7 +689,7 @@
           "sourceId": "koenigsbach-stein",
           "sourceName": "Gemeinde Königsbach-Stein",
           "reportedTitle": "Jahresabschlussfeier",
-          "checkedAt": "2026-11-23T07:48:39+00:00",
+          "checkedAt": "2026-11-24T10:00:08+00:00",
           "priority": 2
         }
       ],

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T23:59:15+00:00",
+  "generatedAt": "2026-11-24T10:00:39+00:00",
   "attribution": {
     "text": "© OpenStreetMap contributors · ODbL",
     "url": "https://www.openstreetmap.org/copyright"
@@ -11,22 +11,22 @@
       "missing": 8,
       "online": 4,
       "excluded": 9,
-      "review": 10,
+      "review": 11,
       "queued": 2,
-      "resolved": 388
+      "resolved": 387
     },
-    "upcomingEvents": 1367,
+    "upcomingEvents": 1369,
     "eventStatuses": {
-      "resolved": 1252,
+      "resolved": 1253,
       "online": 7,
       "missing": 86,
-      "review": 10,
+      "review": 11,
       "queued": 2,
       "excluded": 10
     }
   },
   "lookup": {
-    "requested": 12,
+    "requested": 6,
     "failures": []
   },
   "rows": [
@@ -978,6 +978,82 @@
       ]
     },
     {
+      "key": "venue-0fe26fdb92f2943580e9",
+      "location": "Pflegestützpunkt westlicher Enzkreis, San-Biagio-Platani Platz 6, 75196 Remchingen",
+      "scope": "remchingen",
+      "scopeLabel": "Remchingen",
+      "status": "review",
+      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
+      "method": null,
+      "place": null,
+      "candidates": [
+        {
+          "id": "osm-way-1415872096",
+          "name": "San-Biagio-Platani-Platz",
+          "latitude": 48.9523709,
+          "longitude": 8.5695641,
+          "address": "75196 Wilferdingen",
+          "url": "https://www.openstreetmap.org/way/1415872096",
+          "category": "highway",
+          "type": "footway",
+          "street": "",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-337629301",
+          "name": "San-Biagio-Platani-Platz",
+          "latitude": 48.9523526,
+          "longitude": 8.5695309,
+          "address": "75196 Wilferdingen",
+          "url": "https://www.openstreetmap.org/way/337629301",
+          "category": "highway",
+          "type": "living_street",
+          "street": "",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-771451634",
+          "name": "San-Biagio-Platani-Platz",
+          "latitude": 48.9522384,
+          "longitude": 8.5703586,
+          "address": "75196 Wilferdingen",
+          "url": "https://www.openstreetmap.org/way/771451634",
+          "category": "highway",
+          "type": "pedestrian",
+          "street": "",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "remchingen"
+      ],
+      "sources": [
+        "Gemeinde Remchingen"
+      ],
+      "examples": [
+        {
+          "id": "remchingen-3416-2026-12-01-1500",
+          "title": "Pflegestützpunkt veranstaltet Info - Cafe",
+          "date": "2026-12-01",
+          "url": "https://www.remchingen.de/veranstaltungen/pflegestuetzpunkt-veranstaltet-info-cafe-id_3416/"
+        }
+      ]
+    },
+    {
       "key": "venue-234f2cc5cfd0ac59ec49",
       "location": "Rathausplatz Wössingen",
       "scope": "woessingen",
@@ -1063,7 +1139,15 @@
       "candidates": [],
       "eventCount": 1,
       "reviewNote": "",
-      "sourceAddresses": [],
+      "sourceAddresses": [
+        {
+          "street": "Ostendstraße 1",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Ostendstraße 1, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/spieleabend_fur_neulinge_newbie_game_night_deen"
+        }
+      ],
       "organizer": "",
       "sourceContext": null,
       "sourceIds": [
@@ -2932,7 +3016,7 @@
     },
     {
       "key": "venue-8d82ceee140fb91c2b76",
-      "location": "Stadtbibliothek Karlsruhe - Zentralbibliothek im Neuen Ständehaus - Sprechstunde",
+      "location": "Stadtbibliothek Karlsruhe - Zentralbibliothek im Neuen Ständehaus - Buchclub",
       "scope": "karlsruhe",
       "scopeLabel": "Karlsruhe und Umgebung",
       "status": "resolved",
@@ -2981,12 +3065,6 @@
       ],
       "examples": [
         {
-          "id": "karlsruhe-6e48a7d6236bd704",
-          "title": "Sprechstunde: Einfach digital!",
-          "date": "2026-11-24",
-          "url": "https://kalender.karlsruhe.de/db/termine/literatur/sprechstunde_einfach_digital-57"
-        },
-        {
           "id": "karlsruhe-a9bf4cb348b13751",
           "title": "Krimi-Buchclub -- ENTFÄLLT --",
           "date": "2026-11-24",
@@ -3003,6 +3081,12 @@
           "title": "Brain Energy - Gut vorbereitet fürs nächste Referat",
           "date": "2026-11-25",
           "url": "https://kalender.karlsruhe.de/db/termine/literatur/brain_energy_gut_vorbereitet_furs_nachste_referat-3"
+        },
+        {
+          "id": "karlsruhe-aac3dab81c234a97",
+          "title": "LESUNG: Susanne Siegert \"Gedenken neu denken\"",
+          "date": "2026-11-25",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/lesung_susanne_siegert_gedenken_neu_denken"
         }
       ]
     },
@@ -3356,6 +3440,142 @@
           "title": "Bu sözler bizim – Die Worte gehören uns (Wiederaufnahme)",
           "date": "2026-11-26",
           "url": "https://kalender.karlsruhe.de/db/termine/theater/bu_sozler_bizim_die_worte_gehoren_uns_wiederaufnahme"
+        }
+      ]
+    },
+    {
+      "key": "venue-ccdff0c1206ea48ea121",
+      "location": "Badisches Staatstheater, Großes Haus",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-4058925",
+        "name": "Badisches Staatstheater",
+        "latitude": 49.004712,
+        "longitude": 8.406662,
+        "address": "Hermann-Levi-Platz 1, 76137 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/4058925",
+        "category": "amenity",
+        "type": "theatre",
+        "street": "Hermann-Levi-Platz",
+        "houseNumber": "1",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "osm-way-4058925",
+          "name": "Badisches Staatstheater",
+          "latitude": 49.004712,
+          "longitude": 8.406662,
+          "address": "Hermann-Levi-Platz 1, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/4058925",
+          "category": "amenity",
+          "type": "theatre",
+          "street": "Hermann-Levi-Platz",
+          "houseNumber": "1",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-3761433995",
+          "name": "Badisches Staatstheater - Ergotti",
+          "latitude": 49.0038133,
+          "longitude": 8.4056186,
+          "address": "Wilhelmstraße 1, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3761433995",
+          "category": "amenity",
+          "type": "theatre",
+          "street": "Wilhelmstraße",
+          "houseNumber": "1",
+          "score": 0.852,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-119619142",
+          "name": "Badisches Staatstheater - Magazin",
+          "latitude": 48.9941316,
+          "longitude": 8.4396203,
+          "address": "Wachhausstraße 22, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/119619142",
+          "category": "building",
+          "type": "commercial",
+          "street": "Wachhausstraße",
+          "houseNumber": "22",
+          "score": 0.852,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-7682318266",
+          "name": "Probebühne Badisches Staatstheater",
+          "latitude": 49.0018985,
+          "longitude": 8.400047,
+          "address": "Festplatz, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/7682318266",
+          "category": "amenity",
+          "type": "stage",
+          "street": "Festplatz",
+          "houseNumber": "",
+          "score": 0.807,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-3605775457",
+          "name": "Tages- & Abokasse Badisches Staatstheater",
+          "latitude": 49.0051947,
+          "longitude": 8.4042783,
+          "address": "Ettlinger-Tor-Platz 1a, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3605775457",
+          "category": "shop",
+          "type": "ticket",
+          "street": "Ettlinger-Tor-Platz",
+          "houseNumber": "1a",
+          "score": 0.708,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 11,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-4e97da2d52044e48",
+          "title": "Das Mädchen & Der Nussknacker (Wiederaufnahme)",
+          "date": "2026-11-24",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/das_madchen_amp_der_nussknacker_wiederaufnahme"
+        },
+        {
+          "id": "karlsruhe-f61fa435495e8f92",
+          "title": "Rigoletto (Nur noch wenige Male)",
+          "date": "2026-11-28",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/rigoletto_nur_noch_wenige_male-1"
+        },
+        {
+          "id": "karlsruhe-ed7449deff461692",
+          "title": "Cinderella (Im Rahmen von Tanz Karlsruhe)",
+          "date": "2026-11-29",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/cinderella_im_rahmen_von_tanz_karlsruhe"
+        },
+        {
+          "id": "karlsruhe-bba16bb1700a5ec1",
+          "title": "Der Zauberer von Oz",
+          "date": "2026-12-03",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/der_zauberer_von_oz-3"
         }
       ]
     },
@@ -3795,142 +4015,6 @@
           "title": "Karneval der Tiere",
           "date": "2026-11-27",
           "url": "https://kalender.karlsruhe.de/db/termine/theater/karneval_der_tiere-1"
-        }
-      ]
-    },
-    {
-      "key": "venue-ccdff0c1206ea48ea121",
-      "location": "Badisches Staatstheater, Großes Haus",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-4058925",
-        "name": "Badisches Staatstheater",
-        "latitude": 49.004712,
-        "longitude": 8.406662,
-        "address": "Hermann-Levi-Platz 1, 76137 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/4058925",
-        "category": "amenity",
-        "type": "theatre",
-        "street": "Hermann-Levi-Platz",
-        "houseNumber": "1",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-way-4058925",
-          "name": "Badisches Staatstheater",
-          "latitude": 49.004712,
-          "longitude": 8.406662,
-          "address": "Hermann-Levi-Platz 1, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/4058925",
-          "category": "amenity",
-          "type": "theatre",
-          "street": "Hermann-Levi-Platz",
-          "houseNumber": "1",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-3761433995",
-          "name": "Badisches Staatstheater - Ergotti",
-          "latitude": 49.0038133,
-          "longitude": 8.4056186,
-          "address": "Wilhelmstraße 1, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/3761433995",
-          "category": "amenity",
-          "type": "theatre",
-          "street": "Wilhelmstraße",
-          "houseNumber": "1",
-          "score": 0.852,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-119619142",
-          "name": "Badisches Staatstheater - Magazin",
-          "latitude": 48.9941316,
-          "longitude": 8.4396203,
-          "address": "Wachhausstraße 22, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/119619142",
-          "category": "building",
-          "type": "commercial",
-          "street": "Wachhausstraße",
-          "houseNumber": "22",
-          "score": 0.852,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-7682318266",
-          "name": "Probebühne Badisches Staatstheater",
-          "latitude": 49.0018985,
-          "longitude": 8.400047,
-          "address": "Festplatz, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/7682318266",
-          "category": "amenity",
-          "type": "stage",
-          "street": "Festplatz",
-          "houseNumber": "",
-          "score": 0.807,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-3605775457",
-          "name": "Tages- & Abokasse Badisches Staatstheater",
-          "latitude": 49.0051947,
-          "longitude": 8.4042783,
-          "address": "Ettlinger-Tor-Platz 1a, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/3605775457",
-          "category": "shop",
-          "type": "ticket",
-          "street": "Ettlinger-Tor-Platz",
-          "houseNumber": "1a",
-          "score": 0.708,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 10,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-4e97da2d52044e48",
-          "title": "Das Mädchen & Der Nussknacker (Wiederaufnahme)",
-          "date": "2026-11-24",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/das_madchen_amp_der_nussknacker_wiederaufnahme"
-        },
-        {
-          "id": "karlsruhe-f61fa435495e8f92",
-          "title": "Rigoletto (Nur noch wenige Male)",
-          "date": "2026-11-28",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/rigoletto_nur_noch_wenige_male-1"
-        },
-        {
-          "id": "karlsruhe-ed7449deff461692",
-          "title": "Cinderella (Im Rahmen von Tanz Karlsruhe)",
-          "date": "2026-11-29",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/cinderella_im_rahmen_von_tanz_karlsruhe"
-        },
-        {
-          "id": "karlsruhe-bba16bb1700a5ec1",
-          "title": "Der Zauberer von Oz",
-          "date": "2026-12-03",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/der_zauberer_von_oz-3"
         }
       ]
     },
@@ -7337,16 +7421,16 @@
       ],
       "examples": [
         {
-          "id": "karlsruhe-6490d61b4ca1ab0c",
-          "title": "SchulKinoWoche Baden-Württemberg",
-          "date": "2026-11-19",
-          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/schulkinowoche_baden_wurttemberg-4"
-        },
-        {
           "id": "karlsruhe-f6ab81a10795f9bb",
           "title": "SchulKinoWoche Baden-Württemberg",
           "date": "2026-11-19",
           "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/schulkinowoche_baden_wurttemberg-3"
+        },
+        {
+          "id": "karlsruhe-6490d61b4ca1ab0c",
+          "title": "SchulKinoWoche Baden-Württemberg",
+          "date": "2026-11-19",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/schulkinowoche_baden_wurttemberg-4"
         },
         {
           "id": "karlsruhe-1ecf9f03540e8427",
@@ -11875,6 +11959,72 @@
       ]
     },
     {
+      "key": "venue-ce3e93ce2de30a33f4e3",
+      "location": "Centro = Schul- und Kulturzentrum der Deutsch-Italienischen Gesellschaft e.V. Karlsruhe",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-109265540",
+        "name": "Kaiserstraße 150",
+        "latitude": 49.010194,
+        "longitude": 8.3944313,
+        "address": "Kaiserstraße 150, 76133 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/109265540",
+        "category": "building",
+        "type": "retail",
+        "city": "Karlsruhe",
+        "district": "Innenstadt-West",
+        "locality": "Innenstadt-West Westlicher Teil",
+        "street": "Kaiserstraße",
+        "houseNumber": "150"
+      },
+      "candidates": [
+        {
+          "id": "osm-node-6680389521",
+          "name": "Deutsche Lebens-Rettungs-Gesellschaft Landesverband Baden e. V. Geschäftstelle",
+          "latitude": 49.0171186,
+          "longitude": 8.3427536,
+          "address": "Werftstraße 8a, 76189 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/6680389521",
+          "category": "office",
+          "type": "association",
+          "street": "Werftstraße",
+          "houseNumber": "8a",
+          "score": 0.425,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 2,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-0e20a96ddb3992e7",
+          "title": "Carlo Petrini und die Slow-Food-Bewegung",
+          "date": "2026-11-27",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/carlo_petrini_und_die_slow_food_bewegung"
+        },
+        {
+          "id": "karlsruhe-9d57cd49dd8e556a",
+          "title": "Leggiamo i giornali",
+          "date": "2026-12-08",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/leggiamo_i_giornali"
+        }
+      ]
+    },
+    {
       "key": "venue-89f80200ac37ecbe8420",
       "location": "Christuskirche Karlsruhe",
       "scope": "karlsruhe",
@@ -14574,7 +14724,7 @@
           "id": "koenigsbach-stein-listing-96e3dc29e440443a000b",
           "title": "Königsbacher Budenzauber",
           "date": "2026-12-19",
-          "url": "https://www.koenigsbach-stein.de/veranstaltungen/?seite=3"
+          "url": "https://www.koenigsbach-stein.de/veranstaltungen/?seite=2"
         },
         {
           "id": "koenigsbach-stein-listing-8677e1d404321e08f0aa",
@@ -18566,66 +18716,6 @@
           "title": "Vortrag: Schauplätze des 1870er-Krieges im nördlichen Elsass",
           "date": "2026-11-26",
           "url": "https://kalender.karlsruhe.de/db/termine/literatur/vortrag_schauplatze_des_1870er_krieges"
-        }
-      ]
-    },
-    {
-      "key": "venue-ce3e93ce2de30a33f4e3",
-      "location": "Centro = Schul- und Kulturzentrum der Deutsch-Italienischen Gesellschaft e.V. Karlsruhe",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-109265540",
-        "name": "Kaiserstraße 150",
-        "latitude": 49.010194,
-        "longitude": 8.3944313,
-        "address": "Kaiserstraße 150, 76133 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/109265540",
-        "category": "building",
-        "type": "retail",
-        "city": "Karlsruhe",
-        "district": "Innenstadt-West",
-        "locality": "Innenstadt-West Westlicher Teil",
-        "street": "Kaiserstraße",
-        "houseNumber": "150"
-      },
-      "candidates": [
-        {
-          "id": "osm-node-6680389521",
-          "name": "Deutsche Lebens-Rettungs-Gesellschaft Landesverband Baden e. V. Geschäftstelle",
-          "latitude": 49.0171186,
-          "longitude": 8.3427536,
-          "address": "Werftstraße 8a, 76189 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/6680389521",
-          "category": "office",
-          "type": "association",
-          "street": "Werftstraße",
-          "houseNumber": "8a",
-          "score": 0.425,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-0e20a96ddb3992e7",
-          "title": "Carlo Petrini und die Slow-Food-Bewegung",
-          "date": "2026-11-27",
-          "url": "https://kalender.karlsruhe.de/db/termine/literatur/carlo_petrini_und_die_slow_food_bewegung"
         }
       ]
     },
@@ -31282,45 +31372,6 @@
       ]
     },
     {
-      "key": "venue-29bac86e88cd7cc98286",
-      "location": "kath. Kirche Stein",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-node-242572026",
-        "name": "Katholische Kirche St. Bernhard",
-        "latitude": 48.9573471,
-        "longitude": 8.6405779,
-        "address": "Stein, Königsbach-Stein",
-        "url": "https://www.openstreetmap.org/node/242572026",
-        "category": "amenity",
-        "type": "place_of_worship"
-      },
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "koenigsbach-stein"
-      ],
-      "sources": [
-        "Gemeinde Königsbach-Stein"
-      ],
-      "examples": [
-        {
-          "id": "koenigsbach-stein-listing-8ba5bd64753672e8bd7e",
-          "title": "Adventskonzert",
-          "date": "2026-12-12",
-          "url": "https://www.koenigsbach-stein.de/veranstaltungen/?seite=2"
-        }
-      ]
-    },
-    {
       "key": "venue-09233a7c82872d04d3eb",
       "location": "kath. Kirche in Stein",
       "scope": null,
@@ -31352,7 +31403,7 @@
       ],
       "examples": [
         {
-          "id": "koenigsbach-stein-listing-99bfd1fc5740deb483d6",
+          "id": "koenigsbach-stein-listing-8e96fdd5449b8774fca6",
           "title": "Adventskonzert",
           "date": "2026-12-12",
           "url": "https://www.koenigsbach-stein.de/veranstaltungen/?seite=2"

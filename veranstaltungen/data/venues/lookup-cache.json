@@ -21303,6 +21303,205 @@
           "houseNumber": "18"
         }
       ]
+    },
+    "Pflegestützpunkt westlicher Enzkreis, San-Biagio-Platani Platz 6, 75196 Remchingen, Remchingen": {
+      "checkedAt": "2026-11-24T10:00:40+00:00",
+      "places": []
+    },
+    "Kaiser straße 89, Karlsruhe": {
+      "checkedAt": "2026-11-24T10:00:40+00:00",
+      "places": [
+        {
+          "id": "osm-way-134627683",
+          "name": "Karlsruher Straße 89",
+          "latitude": 49.0256033,
+          "longitude": 8.4523081,
+          "address": "Karlsruher Straße 89, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/134627683",
+          "category": "building",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Hagsfeld",
+          "locality": "Hagsfeld Westlicher Teil",
+          "street": "Karlsruher Straße",
+          "houseNumber": "89"
+        },
+        {
+          "id": "osm-node-60247928",
+          "name": "Deutscher Kaiser",
+          "latitude": 49.0535104,
+          "longitude": 8.383718,
+          "address": "Teutschneureuter Straße 30, 76149 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/60247928",
+          "category": "tourism",
+          "type": "guest_house",
+          "city": "Karlsruhe",
+          "district": "Neureut",
+          "locality": "Neureut Nördlicher Teil",
+          "street": "Teutschneureuter Straße",
+          "houseNumber": "30"
+        },
+        {
+          "id": "osm-way-242223631",
+          "name": "Karlsruher Straße 89",
+          "latitude": 49.0036192,
+          "longitude": 8.5272654,
+          "address": "Karlsruher Straße 89, 76327 Berghausen",
+          "url": "https://www.openstreetmap.org/way/242223631",
+          "category": "building",
+          "type": "yes",
+          "city": "Berghausen",
+          "district": "Berghausen",
+          "locality": "",
+          "street": "Karlsruher Straße",
+          "houseNumber": "89"
+        },
+        {
+          "id": "osm-node-387213724",
+          "name": "Restaurant il gelato",
+          "latitude": 49.0036519,
+          "longitude": 8.5273818,
+          "address": "Karlsruher Straße 89, 76327 Berghausen",
+          "url": "https://www.openstreetmap.org/node/387213724",
+          "category": "amenity",
+          "type": "ice_cream",
+          "city": "Berghausen",
+          "district": "Berghausen",
+          "locality": "",
+          "street": "Karlsruher Straße",
+          "houseNumber": "89"
+        }
+      ]
+    },
+    "Baumeister straße 18, Karlsruhe": {
+      "checkedAt": "2026-11-24T10:00:40+00:00",
+      "places": [
+        {
+          "id": "osm-way-288924777",
+          "name": "Karlsruher Straße 18",
+          "latitude": 49.0298475,
+          "longitude": 8.4575084,
+          "address": "Karlsruher Straße 18, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/288924777",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Hagsfeld",
+          "locality": "Alt-Hagsfeld",
+          "street": "Karlsruher Straße",
+          "houseNumber": "18"
+        },
+        {
+          "id": "osm-node-369737096",
+          "name": "Alte Karlsruher Straße 18",
+          "latitude": 49.0036844,
+          "longitude": 8.4602946,
+          "address": "Alte Karlsruher Straße 18, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/369737096",
+          "category": "place",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Untermühlsiedlung",
+          "street": "Alte Karlsruher Straße",
+          "houseNumber": "18"
+        },
+        {
+          "id": "osm-way-99161369",
+          "name": "Baumeisterstraße 18",
+          "latitude": 49.0038793,
+          "longitude": 8.4064414,
+          "address": "Baumeisterstraße 18, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/99161369",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Südstadt",
+          "locality": "Südstadt Nördlicher Teil",
+          "street": "Baumeisterstraße",
+          "houseNumber": "18"
+        },
+        {
+          "id": "osm-node-3708646405",
+          "name": "Akropolis",
+          "latitude": 49.0038686,
+          "longitude": 8.4064461,
+          "address": "Baumeisterstraße 18, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3708646405",
+          "category": "amenity",
+          "type": "restaurant",
+          "city": "Karlsruhe",
+          "district": "Südstadt",
+          "locality": "Südstadt Nördlicher Teil",
+          "street": "Baumeisterstraße",
+          "houseNumber": "18"
+        },
+        {
+          "id": "osm-way-94073655",
+          "name": "Karlsruher Straße 18",
+          "latitude": 49.0044609,
+          "longitude": 8.5184846,
+          "address": "Karlsruher Straße 18, 76327 Berghausen",
+          "url": "https://www.openstreetmap.org/way/94073655",
+          "category": "building",
+          "type": "commercial",
+          "city": "Berghausen",
+          "district": "Berghausen",
+          "locality": "",
+          "street": "Karlsruher Straße",
+          "houseNumber": "18"
+        }
+      ]
+    },
+    "Ostendstraße 1, Karlsruhe": {
+      "checkedAt": "2026-11-24T10:00:40+00:00",
+      "places": [
+        {
+          "id": "osm-way-108822777",
+          "name": "Ostendstraße 1",
+          "latitude": 49.0082012,
+          "longitude": 8.4192567,
+          "address": "Ostendstraße 1, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/108822777",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Westlicher Teil",
+          "street": "Ostendstraße",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-way-218867815",
+          "name": "Ostendstraße 1",
+          "latitude": 48.9333913,
+          "longitude": 8.4727614,
+          "address": "Ostendstraße 1, 76337 Waldbronn",
+          "url": "https://www.openstreetmap.org/way/218867815",
+          "category": "building",
+          "type": "yes",
+          "city": "Waldbronn",
+          "district": "Busenbach",
+          "locality": "",
+          "street": "Ostendstraße",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-node-11148846944",
+          "name": "Sportarms",
+          "latitude": 48.9333249,
+          "longitude": 8.4727474,
+          "address": "Ostendstraße 1, 76337 Waldbronn",
+          "url": "https://www.openstreetmap.org/node/11148846944",
+          "category": "shop",
+          "type": "weapons",
+          "city": "Waldbronn",
+          "district": "Busenbach",
+          "locality": "",
+          "street": "Ostendstraße",
+          "houseNumber": "1"
+        }
+      ]
     }
   },
   "attribution": {
