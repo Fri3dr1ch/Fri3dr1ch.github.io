@@ -43,9 +43,11 @@ class Response:
 
 
 class HttpClient:
-    def __init__(self, timeout=25, attempts=3, max_bytes=12_000_000, sleep=time.sleep, opener=None):
+    def __init__(self, timeout=25, attempts=3, max_bytes=12_000_000, sleep=time.sleep, opener=None,
+                 service_unavailable_retry_urls=()):
         self.timeout, self.attempts, self.max_bytes = timeout, attempts, max_bytes
         self.sleep, self.opener = sleep, opener
+        self.service_unavailable_retry_urls = frozenset(service_unavailable_retry_urls)
         self._lock = threading.Lock()
         self._hosts = {}
         self._failures = {}
@@ -67,6 +69,8 @@ class HttpClient:
             raise ValueError('Quellenclient darf keine Zugangsdaten übertragen')
         for attempt in range(self.attempts):
             retry_headers = {}
+            delay = min(0.5 * 2 ** attempt, 3)
+            minimum, maximum = 0, 5
             try:
                 with limit:
                     opener = self.opener or build_opener(SourceRedirects())
@@ -84,21 +88,25 @@ class HttpClient:
                     return Response(b'', 304, dict(error.headers.items()))
                 if error.code not in {408, 429, 500, 502, 503, 504}:
                     raise
-                retry_headers = error.headers
+                retry_headers = error.headers or {}
+                if error.code == 503 and url in self.service_unavailable_retry_urls:
+                    # Give a temporarily unavailable feed time to recover.
+                    minimum, maximum = min(15 * 2 ** attempt, 60), 60
+                    delay = minimum
                 failure = error
             except (URLError, TimeoutError, socket.timeout, ConnectionError) as error:
                 failure = error
             if attempt + 1 == self.attempts:
                 with self._lock: self._failures[host] = self._failures.get(host, 0) + 1
                 raise failure
-            delay = min(0.5 * 2 ** attempt, 3)
             hint = retry_headers.get('Retry-After', '')
             if hint:
                 try:
-                    delay = min(max(float(hint), 0), 5)
+                    delay = min(max(minimum, float(hint)), maximum)
                 except ValueError:
                     try:
-                        delay = min(max((parsedate_to_datetime(hint) - datetime.now(timezone.utc)).total_seconds(), 0), 5)
+                        seconds = (parsedate_to_datetime(hint) - datetime.now(timezone.utc)).total_seconds()
+                        delay = min(max(minimum, seconds), maximum)
                     except (TypeError, ValueError):
                         pass
             self.sleep(delay)
