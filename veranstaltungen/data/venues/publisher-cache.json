@@ -2089,6 +2089,19 @@
           "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/spieleabend_fur_neulinge_newbie_game_night_deen"
         }
       ]
+    },
+    "venue-e276d62aee53e24f7100": {
+      "checkedAt": "2026-11-24T18:48:22+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Kanzlerstraße 13",
+          "city": "Karlsruhe-Durlach",
+          "postalCode": "76227",
+          "address": "Kanzlerstraße 13, 76227 Karlsruhe-Durlach",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/seniorenweihnachtsfeier-1"
+        }
+      ]
     }
   }
 }

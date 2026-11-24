@@ -21502,6 +21502,186 @@
           "houseNumber": "1"
         }
       ]
+    },
+    "Wolfahrtsweier, Berghausen Pfinztal": {
+      "checkedAt": "2026-11-24T18:48:22+00:00",
+      "places": [
+        {
+          "id": "osm-way-27090492",
+          "name": "Freiwilligen Feuerwehr Pfinztal / Abt. Berghausen",
+          "latitude": 49.0060944,
+          "longitude": 8.5266973,
+          "address": "Steinwiesenstraße 11, 76327 Berghausen",
+          "url": "https://www.openstreetmap.org/way/27090492",
+          "category": "amenity",
+          "type": "fire_station",
+          "city": "Berghausen",
+          "district": "Berghausen",
+          "locality": "",
+          "street": "Steinwiesenstraße",
+          "houseNumber": "11"
+        },
+        {
+          "id": "osm-way-243775706",
+          "name": "Pfinztalstraße",
+          "latitude": 49.0078457,
+          "longitude": 8.5161008,
+          "address": "76327 Berghausen",
+          "url": "https://www.openstreetmap.org/way/243775706",
+          "category": "highway",
+          "type": "residential",
+          "city": "Berghausen",
+          "district": "",
+          "locality": "",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-152713934",
+          "name": "Pfinztalstraße",
+          "latitude": 49.0078373,
+          "longitude": 8.514209,
+          "address": "76327 Berghausen",
+          "url": "https://www.openstreetmap.org/way/152713934",
+          "category": "highway",
+          "type": "cycleway",
+          "city": "Berghausen",
+          "district": "",
+          "locality": "",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-443674973",
+          "name": "Pflanzschule Pfinztal",
+          "latitude": 49.0231134,
+          "longitude": 8.5255629,
+          "address": "Berghausen",
+          "url": "https://www.openstreetmap.org/way/443674973",
+          "category": "landuse",
+          "type": "plant_nursery",
+          "city": "Berghausen",
+          "district": "",
+          "locality": "",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-25138667",
+          "name": "Gewerbepark T.I.P.P. - Technologie-und Innovationspark Pfinztal",
+          "latitude": 49.0043982,
+          "longitude": 8.5359156,
+          "address": "Berghausen",
+          "url": "https://www.openstreetmap.org/way/25138667",
+          "category": "landuse",
+          "type": "industrial",
+          "city": "Berghausen",
+          "district": "",
+          "locality": "",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Kanzlerstraße 13, Karlsruhe-Durlach": {
+      "checkedAt": "2026-11-24T18:48:22+00:00",
+      "places": [
+        {
+          "id": "osm-way-54828233",
+          "name": "Festhalle",
+          "latitude": 48.998064,
+          "longitude": 8.4667679,
+          "address": "Kanzlerstraße 13, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/54828233",
+          "category": "amenity",
+          "type": "restaurant",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Kanzlerstraße",
+          "houseNumber": "13"
+        }
+      ]
+    },
+    "Ostend straße 1, Karlsruhe": {
+      "checkedAt": "2026-11-24T18:48:22+00:00",
+      "places": [
+        {
+          "id": "osm-node-3171772389",
+          "name": "PSD Bank Karlsruhe-Neustadt",
+          "latitude": 49.0047808,
+          "longitude": 8.4111162,
+          "address": "Philipp-Reis-Straße 1, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3171772389",
+          "category": "amenity",
+          "type": "bank",
+          "city": "Karlsruhe",
+          "district": "Südstadt",
+          "locality": "Südstadt Nördlicher Teil",
+          "street": "Philipp-Reis-Straße",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-node-33312247",
+          "name": "Polizeiposten Karlsruhe-Rüppurr",
+          "latitude": 48.9803923,
+          "longitude": 8.4036207,
+          "address": "Rastatter Straße 1, 76199 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/33312247",
+          "category": "amenity",
+          "type": "police",
+          "city": "Karlsruhe",
+          "district": "Rüppurr",
+          "locality": "Alt-Rüppurr",
+          "street": "Rastatter Straße",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-way-326157192",
+          "name": "Karlsruher Straße 1",
+          "latitude": 49.0304949,
+          "longitude": 8.4584249,
+          "address": "Karlsruher Straße 1, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/326157192",
+          "category": "building",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Hagsfeld",
+          "locality": "Alt-Hagsfeld",
+          "street": "Karlsruher Straße",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-way-188284611",
+          "name": "Alte Karlsruher Straße 1",
+          "latitude": 49.0027369,
+          "longitude": 8.4615523,
+          "address": "Alte Karlsruher Straße 1, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/188284611",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Untermühlsiedlung",
+          "street": "Alte Karlsruher Straße",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-way-151539882",
+          "name": "KFZ-Meisterbetrieb Hoffman",
+          "latitude": 49.030605,
+          "longitude": 8.4585693,
+          "address": "Karlsruher Straße 1, 76139 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151539882",
+          "category": "shop",
+          "type": "car_repair",
+          "city": "Karlsruhe",
+          "district": "Hagsfeld",
+          "locality": "Alt-Hagsfeld",
+          "street": "Karlsruher Straße",
+          "houseNumber": "1"
+        }
+      ]
     }
   },
   "attribution": {
