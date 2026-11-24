@@ -10,7 +10,7 @@ from pathlib import Path
 import sys
 import tempfile
 import unittest
-from unittest.mock import patch
+from unittest.mock import Mock, patch
 from urllib.error import HTTPError, URLError
 from zipfile import ZipFile
 
@@ -158,6 +158,51 @@ class HTTPTests(unittest.TestCase):
         self.assertEqual(client('https://kalender.karlsruhe.de/db/termine/rss'), b'valid')
         self.assertEqual(waits, [5, 5])
         self.assertEqual(opener.calls, 3)
+
+    def test_karlsruhe_feed_recovers_after_two_503s(self):
+        event = karlsruhe.detail(karlsruhe.parse_feed(rss())[0][0], ics(), karlsruhe.stamp())
+        previous = {'sources': [{'id': 'karlsruhe', 'listingStatus': 'ok',
+                                 'listingLastSuccessAt': karlsruhe.stamp()}], 'events': [event]}
+        opener, waits = Mock(), []
+        opener.open.side_effect = [
+            HTTPError(karlsruhe.FEED, 503, 'Service Unavailable', {}, None),
+            HTTPError(karlsruhe.FEED, 503, 'Service Unavailable', {}, None),
+            self.Reply(rss()),
+        ]
+        client = HttpClient(opener=opener, sleep=waits.append, service_unavailable_retry_urls=(karlsruhe.FEED,))
+
+        result = karlsruhe.refresh(previous, client)
+
+        self.assertEqual(result['sources'][0]['status'], 'ok')
+        self.assertEqual(waits, [15, 30])
+        self.assertEqual([call.args[0].full_url for call in opener.open.call_args_list], [karlsruhe.FEED] * 3)
+
+    def test_persistent_503_preserves_snapshot_and_caps_retry_after(self):
+        previous = {'sources': [{'id': 'karlsruhe', 'lastSuccessAt': '2026-11-23T07:47:15+00:00'}],
+                    'events': [{'id': 'cached-event'}]}
+        opener, waits = Mock(), []
+        opener.open.side_effect = HTTPError(karlsruhe.FEED, 503, 'Service Unavailable', {'Retry-After': '90'}, None)
+        client = HttpClient(opener=opener, sleep=waits.append, service_unavailable_retry_urls=(karlsruhe.FEED,))
+
+        result = karlsruhe.refresh(previous, client)
+
+        self.assertEqual(result['sources'][0]['status'], 'error')
+        self.assertEqual(result['sources'][0]['lastSuccessAt'], previous['sources'][0]['lastSuccessAt'])
+        self.assertEqual(result['events'], previous['events'])
+        self.assertEqual(waits, [60, 60])
+        self.assertEqual(opener.open.call_count, 3)
+
+    def test_city_detail_503_keeps_standard_backoff(self):
+        detail_url = karlsruhe.parse_feed(rss())[0][0]['icalUrl']
+        opener, waits = Mock(), []
+        opener.open.side_effect = HTTPError(detail_url, 503, 'Service Unavailable', {}, None)
+        client = HttpClient(opener=opener, sleep=waits.append, service_unavailable_retry_urls=(karlsruhe.FEED,))
+
+        with self.assertRaises(HTTPError):
+            client(detail_url)
+
+        self.assertEqual(waits, [0.5, 1])
+        self.assertEqual(opener.open.call_count, 3)
 
     def test_no_credentials_or_unapproved_redirects_and_size_limit(self):
         for url in ('http://kalender.karlsruhe.de/', 'https://evil.example/', 'https://name@kalender.karlsruhe.de/', 'https://kalender.karlsruhe.de:444/'):

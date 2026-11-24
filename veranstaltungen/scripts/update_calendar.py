@@ -128,7 +128,7 @@ def markdown(report):
 
 def run(root, selected='all', offline=False, jobs=3, client=None, report_dir=None):
     started = now()
-    client = client or HttpClient()
+    client = client or HttpClient(service_unavailable_retry_urls=(karlsruhe.FEED,))
     current = read_json(root / 'dist/events.json')
     if current is None:
         raise ValueError('Startdatenstand fehlt; geprüfte Startdaten mit ausliefern')
