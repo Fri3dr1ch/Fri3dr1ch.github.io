@@ -5,75 +5,23 @@
     "region": "Pfinztal-Berghausen",
     "url": "https://www.naturfreunde-berghausen.de/",
     "status": "ok",
-    "lastAttemptAt": "2026-11-24T22:30:37+00:00",
-    "lastSuccessAt": "2026-11-24T22:30:37+00:00",
+    "lastAttemptAt": "2026-11-25T08:43:22+00:00",
+    "lastSuccessAt": "2026-11-25T08:43:22+00:00",
     "refreshHours": 24,
-    "recordCount": 7,
-    "eventCount": 7,
+    "recordCount": 6,
+    "eventCount": 6,
     "undatedCount": 0,
     "coverageKind": "html-list",
     "license": null,
     "allowEmpty": true,
-    "pagesFetched": 10,
+    "pagesFetched": 9,
     "coverageNote": "Veröffentlichte Programmlisten des laufenden und des nächsten Kalenderjahres einschließlich verschobener Termine. Derzeit kurze Vorschau, kein vollständiger Jahresplan.",
     "extractionMethod": "deterministic-html",
     "llmRequired": false,
-    "coverageStart": "2026-11-24",
+    "coverageStart": "2026-11-25",
     "coverageEnd": "2027-01-03"
   },
   "events": [
-    {
-      "id": "naturfreunde-berghausen-994-2026-11-24-1035",
-      "sourceId": "naturfreunde-berghausen",
-      "sourceName": "NaturFreunde Berghausen",
-      "title": "An der Pfinz entlang von Berghausen nach Durlach",
-      "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/24/994/-/an-der-pfinz-entlang-von-berghausen-nach-durlach",
-      "icalUrl": null,
-      "region": "Pfinztal-Berghausen",
-      "city": null,
-      "categoryKey": "sportveranstaltung",
-      "category": "Sport",
-      "description": "Veranstalter: NaturFreunde Berghausen",
-      "organizer": "NaturFreunde Berghausen",
-      "location": "Berghausen",
-      "start": "2026-11-24T10:35:00+01:00",
-      "end": null,
-      "startDate": "2026-11-24",
-      "endDate": "2026-11-24",
-      "startTime": "10:35",
-      "endTime": null,
-      "timeKnown": true,
-      "allDay": false,
-      "longRunning": false,
-      "scheduleNote": "Anmeldeschluß 22.11.2026wegen Tischreservierung",
-      "openingSchedule": null,
-      "openingOccurrences": null,
-      "status": "scheduled",
-      "dataQuality": "html-calendar",
-      "availability": null,
-      "detailCheckedAt": "2026-11-24T22:30:37+00:00",
-      "sources": [
-        {
-          "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/24/994/-/an-der-pfinz-entlang-von-berghausen-nach-durlach",
-          "recordId": "994",
-          "title": "An der Pfinz entlang von Berghausen nach Durlach",
-          "startDate": "2026-11-24",
-          "endDate": "2026-11-24",
-          "startTime": "10:35",
-          "endTime": null,
-          "dateText": "Dienstag, 24. November 2026, 10:35",
-          "timeText": null,
-          "location": "Berghausen",
-          "organizer": "NaturFreunde Berghausen",
-          "sourceId": "naturfreunde-berghausen",
-          "sourceName": "NaturFreunde Berghausen",
-          "reportedTitle": "An der Pfinz entlang von Berghausen nach Durlach",
-          "checkedAt": "2026-11-24T22:30:37+00:00",
-          "priority": 2
-        }
-      ],
-      "conflicts": []
-    },
     {
       "id": "naturfreunde-berghausen-996-2026-11-25-1730",
       "sourceId": "naturfreunde-berghausen",
@@ -103,7 +51,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-24T22:30:37+00:00",
+      "detailCheckedAt": "2026-11-25T08:43:22+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/25/996/-/weihnachtsbasteleien-mit-petra",
@@ -120,7 +68,7 @@
           "sourceId": "naturfreunde-berghausen",
           "sourceName": "NaturFreunde Berghausen",
           "reportedTitle": "Weihnachtsbasteleien mit Petra",
-          "checkedAt": "2026-11-24T22:30:37+00:00",
+          "checkedAt": "2026-11-25T08:43:22+00:00",
           "priority": 2
         }
       ],
@@ -155,7 +103,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-24T22:30:37+00:00",
+      "detailCheckedAt": "2026-11-25T08:43:22+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/27/997/-/adventsgestecke-anfertigen",
@@ -172,7 +120,7 @@
           "sourceId": "naturfreunde-berghausen",
           "sourceName": "NaturFreunde Berghausen",
           "reportedTitle": "Adventsgestecke anfertigen",
-          "checkedAt": "2026-11-24T22:30:37+00:00",
+          "checkedAt": "2026-11-25T08:43:22+00:00",
           "priority": 2
         }
       ],
@@ -207,7 +155,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-24T22:30:37+00:00",
+      "detailCheckedAt": "2026-11-25T08:43:22+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/28/998/-/pflanzung-des-baum-des-jahres",
@@ -224,7 +172,7 @@
           "sourceId": "naturfreunde-berghausen",
           "sourceName": "NaturFreunde Berghausen",
           "reportedTitle": "Pflanzung des \"Baum des Jahres\"",
-          "checkedAt": "2026-11-24T22:30:37+00:00",
+          "checkedAt": "2026-11-25T08:43:22+00:00",
           "priority": 2
         }
       ],
@@ -253,13 +201,13 @@
       "timeKnown": true,
       "allDay": false,
       "longRunning": false,
-      "scheduleNote": "Fahrkartenwunsch an Harald Gfrörer, T. 0721462052, EMail: Diese E-Mail-Adresse ist vor Spambots geschützt! Zur Anzeige muss JavaScript eingeschaltet sein! document.getElementById('cloak1aeb5922202ec6264eb69f100f18b966').innerHTML = ''; var prefix = '&#109;a' + 'i&#108;' + '&#116;o'; var path = 'hr' + 'ef' + '='; var addy1aeb5922202ec6264eb69f100f18b966 = 'g.gfr&#111;&#101;r&#101;r' + '&#64;'; addy1aeb5922202ec6264eb69f100f18b966 = addy1aeb5922202ec6264eb69f100f18b966 + 'gmx' + '&#46;' + 'd&#101;'; var addy_text1aeb5922202ec6264eb69f100f18b966 = 'g.gfr&#111;&#101;r&#101;r' + '&#64;' + 'gmx' + '&#46;' + 'd&#101;';document.getElementById('cloak1aeb5922202ec6264eb69f100f18b966').innerHTML += '<a ' + path + '\\'' + prefix + ':' + addy1aeb5922202ec6264eb69f100f18b966 + '\\'>'+addy_text1aeb5922202ec6264eb69f100f18b966+'<\\/a>';",
+      "scheduleNote": "Fahrkartenwunsch an Harald Gfrörer, T. 0721462052, EMail: Diese E-Mail-Adresse ist vor Spambots geschützt! Zur Anzeige muss JavaScript eingeschaltet sein! document.getElementById('cloakcf95e419b14f009d183d748b4cffedb3').innerHTML = ''; var prefix = '&#109;a' + 'i&#108;' + '&#116;o'; var path = 'hr' + 'ef' + '='; var addycf95e419b14f009d183d748b4cffedb3 = 'g.gfr&#111;&#101;r&#101;r' + '&#64;'; addycf95e419b14f009d183d748b4cffedb3 = addycf95e419b14f009d183d748b4cffedb3 + 'gmx' + '&#46;' + 'd&#101;'; var addy_textcf95e419b14f009d183d748b4cffedb3 = 'g.gfr&#111;&#101;r&#101;r' + '&#64;' + 'gmx' + '&#46;' + 'd&#101;';document.getElementById('cloakcf95e419b14f009d183d748b4cffedb3').innerHTML += '<a ' + path + '\\'' + prefix + ':' + addycf95e419b14f009d183d748b4cffedb3 + '\\'>'+addy_textcf95e419b14f009d183d748b4cffedb3+'<\\/a>';",
       "openingSchedule": null,
       "openingOccurrences": null,
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-24T22:30:37+00:00",
+      "detailCheckedAt": "2026-11-25T08:43:22+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/12/01/1000/-/stickelpfad-wolfartsweier",
@@ -276,7 +224,7 @@
           "sourceId": "naturfreunde-berghausen",
           "sourceName": "NaturFreunde Berghausen",
           "reportedTitle": "Stickelpfad Wolfartsweier",
-          "checkedAt": "2026-11-24T22:30:37+00:00",
+          "checkedAt": "2026-11-25T08:43:22+00:00",
           "priority": 2
         }
       ],
@@ -311,7 +259,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-24T22:30:37+00:00",
+      "detailCheckedAt": "2026-11-25T08:43:22+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/12/01/1001/-/achtung-falsche-abfahrtszeit-in-berghausen-bahnhof-zur-stickelpfadwanderung",
@@ -328,7 +276,7 @@
           "sourceId": "naturfreunde-berghausen",
           "sourceName": "NaturFreunde Berghausen",
           "reportedTitle": "Achtung: Falsche Abfahrtszeit in Berghausen Bahnhof zur Stickelpfadwanderung",
-          "checkedAt": "2026-11-24T22:30:37+00:00",
+          "checkedAt": "2026-11-25T08:43:22+00:00",
           "priority": 2
         }
       ],
@@ -363,7 +311,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-24T22:30:37+00:00",
+      "detailCheckedAt": "2026-11-25T08:43:22+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2027/01/03/999/-/die-gruene-stunde-in-den-rau-c-h-naechten",
@@ -380,7 +328,7 @@
           "sourceId": "naturfreunde-berghausen",
           "sourceName": "NaturFreunde Berghausen",
           "reportedTitle": "Die Grüne Stunde in den Rau(c)h-Nächten",
-          "checkedAt": "2026-11-24T22:30:37+00:00",
+          "checkedAt": "2026-11-25T08:43:22+00:00",
           "priority": 2
         }
       ],

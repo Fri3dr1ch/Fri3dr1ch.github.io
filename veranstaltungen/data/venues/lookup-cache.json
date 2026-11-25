@@ -21762,6 +21762,206 @@
           "houseNumber": "13"
         }
       ]
+    },
+    "Ludwigsplatz, Karlsruhe": {
+      "checkedAt": "2026-11-25T08:44:25+00:00",
+      "places": [
+        {
+          "id": "osm-relation-17928719",
+          "name": "Ludwigsplatz",
+          "latitude": 49.0088799,
+          "longitude": 8.3958817,
+          "address": "76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/17928719",
+          "category": "place",
+          "type": "square",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-1725394201",
+          "name": "Parkhaus Ludwigsplatz",
+          "latitude": 49.0076187,
+          "longitude": 8.3959119,
+          "address": "Amalienstraße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1725394201",
+          "category": "amenity",
+          "type": "parking",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Amalienstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-4017875991",
+          "name": "Body & Beach am Ludwigsplatz",
+          "latitude": 49.0086291,
+          "longitude": 8.3953889,
+          "address": "Waldstraße 65, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4017875991",
+          "category": "shop",
+          "type": "clothes",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Waldstraße",
+          "houseNumber": "65"
+        },
+        {
+          "id": "osm-node-13253783754",
+          "name": "Orthopädische Gemeinschaftspraxis am Ludwigsplatz",
+          "latitude": 49.0085024,
+          "longitude": 8.3951004,
+          "address": "Waldstraße 67, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/13253783754",
+          "category": "amenity",
+          "type": "doctors",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Waldstraße",
+          "houseNumber": "67"
+        }
+      ]
+    },
+    "Nancystraße 1, Karlsruhe": {
+      "checkedAt": "2026-11-25T08:44:25+00:00",
+      "places": [
+        {
+          "id": "osm-way-724738695",
+          "name": "Reithaus Egon von Neindorff",
+          "latitude": 49.0218535,
+          "longitude": 8.3687136,
+          "address": "Nancystraße 1, 76187 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/724738695",
+          "category": "leisure",
+          "type": "pitch",
+          "city": "Karlsruhe",
+          "district": "Nordweststadt",
+          "locality": "Binsenschlauch",
+          "street": "Nancystraße",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-way-431327178",
+          "name": "Reitinstitut von Neindorff-Stiftung",
+          "latitude": 49.0223516,
+          "longitude": 8.3685392,
+          "address": "Nancystraße 1, 76187 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/431327178",
+          "category": "leisure",
+          "type": "horse_riding",
+          "city": "Karlsruhe",
+          "district": "Nordweststadt",
+          "locality": "Binsenschlauch",
+          "street": "Nancystraße",
+          "houseNumber": "1"
+        }
+      ]
+    },
+    "Belfortstraße 10, Karlsruhe": {
+      "checkedAt": "2026-11-25T08:44:25+00:00",
+      "places": [
+        {
+          "id": "osm-way-109608051",
+          "name": "Belfortstraße 10",
+          "latitude": 49.0088674,
+          "longitude": 8.3884447,
+          "address": "Belfortstraße 10, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/109608051",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Belfortstraße",
+          "houseNumber": "10"
+        }
+      ]
+    },
+    "Ortenbergstraße 8, Beiertheim-Bulach": {
+      "checkedAt": "2026-11-25T08:44:25+00:00",
+      "places": [
+        {
+          "id": "osm-node-4322897902",
+          "name": "Modepark Röther",
+          "latitude": 48.9911926,
+          "longitude": 8.3763969,
+          "address": "Ortenbergstraße 8, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4322897902",
+          "category": "shop",
+          "type": "clothes",
+          "city": "Karlsruhe",
+          "district": "Beiertheim-Bulach",
+          "locality": "Bulach",
+          "street": "Ortenbergstraße",
+          "houseNumber": "8"
+        },
+        {
+          "id": "osm-node-11759233593",
+          "name": "Alltours",
+          "latitude": 48.991197,
+          "longitude": 8.3757564,
+          "address": "Ortenbergstraße 8, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/11759233593",
+          "category": "shop",
+          "type": "travel_agency",
+          "city": "Karlsruhe",
+          "district": "Beiertheim-Bulach",
+          "locality": "Bulach",
+          "street": "Ortenbergstraße",
+          "houseNumber": "8"
+        },
+        {
+          "id": "osm-node-258368237",
+          "name": "Günstig Tanken",
+          "latitude": 48.9911275,
+          "longitude": 8.3769786,
+          "address": "Ortenbergstraße 8, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/258368237",
+          "category": "amenity",
+          "type": "fuel",
+          "city": "Karlsruhe",
+          "district": "Beiertheim-Bulach",
+          "locality": "Bulach",
+          "street": "Ortenbergstraße",
+          "houseNumber": "8"
+        },
+        {
+          "id": "osm-way-23528417",
+          "name": "Ortenbergstraße 8",
+          "latitude": 48.9913364,
+          "longitude": 8.3760172,
+          "address": "Ortenbergstraße 8, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/23528417",
+          "category": "building",
+          "type": "retail",
+          "city": "Karlsruhe",
+          "district": "Beiertheim-Bulach",
+          "locality": "Bulach",
+          "street": "Ortenbergstraße",
+          "houseNumber": "8"
+        },
+        {
+          "id": "osm-node-7379979241",
+          "name": "Kaufland",
+          "latitude": 48.9913766,
+          "longitude": 8.375943,
+          "address": "Ortenbergstraße 8, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/7379979241",
+          "category": "shop",
+          "type": "supermarket",
+          "city": "Karlsruhe",
+          "district": "Beiertheim-Bulach",
+          "locality": "Bulach",
+          "street": "Ortenbergstraße",
+          "houseNumber": "8"
+        }
+      ]
     }
   },
   "attribution": {

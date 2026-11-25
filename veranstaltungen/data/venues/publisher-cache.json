@@ -2102,6 +2102,50 @@
           "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/seniorenweihnachtsfeier-1"
         }
       ]
+    },
+    "venue-0ead8aebd31c0e5f08da": {
+      "checkedAt": "2026-11-25T08:44:25+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-c5a1e8bf0bf51327db3b": {
+      "checkedAt": "2026-11-25T08:44:25+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Nancystraße 1",
+          "city": "Karlsruhe",
+          "postalCode": "76187",
+          "address": "Nancystraße 1, 76187 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/architektur/denkmalstammtisch_karlsruhe-2"
+        }
+      ]
+    },
+    "venue-ccb8a026de9ed4c71997": {
+      "checkedAt": "2026-11-25T08:44:25+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Belfortstr. 10",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Belfortstr. 10, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/second_hand_basar_und_flohmarkt"
+        }
+      ]
+    },
+    "venue-de99d56659d9091d0999": {
+      "checkedAt": "2026-11-25T08:44:25+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Ortenbergstraße 8",
+          "city": "Beiertheim-Bulach",
+          "postalCode": "76135",
+          "address": "Ortenbergstraße 8, 76135 Beiertheim-Bulach",
+          "url": "https://kalender.karlsruhe.de/db/termine/architektur/wohnen_in_karlsruhe_ausstellung_und-2"
+        }
+      ]
     }
   }
 }
