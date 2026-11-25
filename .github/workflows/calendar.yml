@@ -4,6 +4,8 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '17 */6 * * *'
+    # Give a delayed or missed primary trigger another chance.
+    - cron: '47 3,9,15,21 * * *'
   push:
     branches: [main]
 
@@ -15,8 +17,48 @@ permissions:
   contents: read
 
 jobs:
+  freshness:
+    name: Datenstand für Ersatzlauf prüfen
+    if: github.event_name == 'schedule' && github.event.schedule == '47 3,9,15,21 * * *'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    outputs:
+      fresh: ${{ steps.snapshot.outputs.fresh }}
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+          sparse-checkout: /veranstaltungen/dist/events.json
+          sparse-checkout-cone-mode: false
+      - name: Alter des letzten gespeicherten Datenstands prüfen
+        id: snapshot
+        run: |
+          python3 - <<'PY'
+          from datetime import datetime, timedelta, timezone
+          import json
+          import os
+          from pathlib import Path
+
+          fresh = False
+          try:
+              snapshot = json.loads(Path('veranstaltungen/dist/events.json').read_text(encoding='utf-8'))
+              generated_at = datetime.fromisoformat(snapshot['generatedAt'])
+              age = datetime.now(timezone.utc) - generated_at
+              fresh = timedelta(0) <= age < timedelta(hours=6)
+          except (OSError, ValueError, KeyError, TypeError):
+              print('Datenstand fehlt oder hat keinen gültigen Zeitstempel.')
+          print('Datenstand ist jünger als sechs Stunden.' if fresh else 'Ein Kalenderimport ist fällig.')
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write(f'fresh={str(fresh).lower()}\n')
+          PY
+
   update:
-    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    needs: freshness
+    if: >-
+      !cancelled() &&
+      github.ref == format('refs/heads/{0}', github.event.repository.default_branch) &&
+      needs.freshness.outputs.fresh != 'true'
     runs-on: ubuntu-24.04
     timeout-minutes: 35
     permissions:
@@ -32,6 +74,8 @@ jobs:
       pages_ready: ${{ steps.pages-upload.outcome == 'success' }}
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ github.event_name == 'schedule' && github.event.repository.default_branch || '' }}
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: '3.12'
