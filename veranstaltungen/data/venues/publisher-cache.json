@@ -2146,6 +2146,71 @@
           "url": "https://kalender.karlsruhe.de/db/termine/architektur/wohnen_in_karlsruhe_ausstellung_und-2"
         }
       ]
+    },
+    "venue-0aa31d779c73e5e425b2": {
+      "checkedAt": "2026-11-25T19:17:42+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Karlstraße 45 A",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Karlstraße 45 A, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/lets_talk_about_recht-4"
+        }
+      ]
+    },
+    "venue-4703ff92f4382e43b807": {
+      "checkedAt": "2026-11-25T19:17:42+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Klauprechtstraße 13",
+          "city": "Karlsruhe",
+          "postalCode": "76137",
+          "address": "Klauprechtstraße 13, 76137 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/fuhrung_im_sitzen_weihnachten_mit_allen-2"
+        }
+      ]
+    },
+    "venue-647175621f60cb9cff9c": {
+      "checkedAt": "2026-11-25T19:17:42+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Moltkestraße 30",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Moltkestraße 30, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/postwachstum_zukunftsfahig_wohlstand_schaffen"
+        }
+      ]
+    },
+    "venue-c8aea0d3afcad7462ad8": {
+      "checkedAt": "2026-11-25T19:17:42+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Sophienstraße 127",
+          "city": "Karlsruhe",
+          "postalCode": "76135",
+          "address": "Sophienstraße 127, 76135 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/holodomor_gedenken"
+        }
+      ]
+    },
+    "venue-edb8b64f4a8d9f3d476f": {
+      "checkedAt": "2026-11-25T19:17:42+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Liebigstr. 10-12",
+          "city": "Karlsruhe",
+          "postalCode": "76135",
+          "address": "Liebigstr. 10-12, 76135 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/aktionstag_essstorungen"
+        }
+      ]
     }
   }
 }
