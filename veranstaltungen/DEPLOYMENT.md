@@ -70,11 +70,14 @@ Issue wird wieder geöffnet. Nach dokumentierter Prüfung und erfolgreichem
 Abgleich wird es geschlossen. Unveränderte offene Issues lösen keine tägliche
 Erinnerungsmail aus; sie bleiben als offene Aufgabe sichtbar.
 
-Der Zeitplan ist **00:17, 06:17, 12:17 und 18:17 UTC**, also im Winter 01:17,
-07:17, 13:17 und 19:17 Uhr in Deutschland. GitHub kann geplante Läufe verzögern;
-sie sind kein Echtzeitdienst. Zeitpläne laufen auf dem Standardbranch. GitHub
-kann sie in öffentlichen Repositories nach längerer Inaktivität deaktivieren;
-dann unter Actions erneut aktivieren oder manuell starten.
+Die regulären Startzeiten sind **00:17, 06:17, 12:17 und 18:17 UTC**. Zu
+**03:47, 09:47, 15:47 und 21:47 UTC** prüft ein Ersatzlauf den Zeitstempel des
+zuletzt auf dem Standardbranch gespeicherten Kalenderstands. Ist er sechs
+Stunden alt oder älter, fehlt er oder ist der Zeitstempel ungültig, startet der
+Ersatzlauf den Import. GitHub kann geplante Läufe verzögern oder auslassen.
+Zeitpläne laufen auf dem Standardbranch. GitHub kann sie in öffentlichen
+Repositories nach längerer Inaktivität deaktivieren. In diesem Fall lässt sich
+der Zeitplan unter Actions erneut aktivieren.
 
 ## 3. Pages gezielt aktivieren
 
