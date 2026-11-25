@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T19:17:41+00:00",
+  "generatedAt": "2026-11-25T21:46:43+00:00",
   "attribution": {
     "text": "© OpenStreetMap contributors · ODbL",
     "url": "https://www.openstreetmap.org/copyright"
@@ -10,23 +10,23 @@
     "venueStatuses": {
       "missing": 11,
       "online": 4,
-      "queued": 6,
+      "queued": 4,
       "excluded": 9,
-      "review": 16,
-      "resolved": 382
+      "review": 17,
+      "resolved": 383
     },
     "upcomingEvents": 1370,
     "eventStatuses": {
-      "resolved": 1242,
+      "resolved": 1243,
       "missing": 89,
-      "queued": 7,
       "online": 6,
-      "review": 16,
+      "review": 17,
+      "queued": 5,
       "excluded": 10
     }
   },
   "lookup": {
-    "requested": 12,
+    "requested": 7,
     "failures": []
   },
   "rows": [
@@ -759,8 +759,8 @@
       "location": "Ecke Kaiserstraße-Waldstraße",
       "scope": "karlsruhe",
       "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "queued",
-      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
+      "status": "review",
+      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
       "method": null,
       "place": null,
       "candidates": [
@@ -819,6 +819,24 @@
           "outsideContext": false
         },
         {
+          "id": "osm-node-2455428473",
+          "name": "Kamphues Waldstrasse",
+          "latitude": 49.0097044,
+          "longitude": 8.3968267,
+          "address": "Kaiserstraße 201, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/2455428473",
+          "category": "shop",
+          "type": "jewelry",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "201",
+          "score": 0.6,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
           "id": "osm-way-109265540",
           "name": "Kaiserstraße 150",
           "latitude": 49.010194,
@@ -833,24 +851,6 @@
           "street": "Kaiserstraße",
           "houseNumber": "150",
           "score": 0.596,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-5383104969",
-          "name": "Marktplatz (Kaiserstraße)",
-          "latitude": 49.0093046,
-          "longitude": 8.4024805,
-          "address": "Lammstraße, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/5383104969",
-          "category": "railway",
-          "type": "subway_entrance",
-          "city": "Karlsruhe",
-          "district": "Innenstadt-West",
-          "locality": "Innenstadt-West Östlicher Teil",
-          "street": "Lammstraße",
-          "houseNumber": "",
-          "score": 0.556,
           "exact": false,
           "outsideContext": false
         }
@@ -2245,44 +2245,6 @@
       ]
     },
     {
-      "key": "venue-edb8b64f4a8d9f3d476f",
-      "location": "queerKAstle",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "queued",
-      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [
-        {
-          "street": "Liebigstr. 10-12",
-          "city": "Karlsruhe",
-          "postalCode": "76135",
-          "address": "Liebigstr. 10-12, 76135 Karlsruhe",
-          "url": "https://kalender.karlsruhe.de/db/termine/literatur/aktionstag_essstorungen"
-        }
-      ],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-5d837ec49d284c6b",
-          "title": "Aktionstag Essstörungen",
-          "date": "2026-11-26",
-          "url": "https://kalender.karlsruhe.de/db/termine/literatur/aktionstag_essstorungen"
-        }
-      ]
-    },
-    {
       "key": "venue-becf76c2fff6b84b2a41",
       "location": "vor dem Ex-Reisezentrum/Hbf-Halle",
       "scope": "karlsruhe",
@@ -2657,8 +2619,8 @@
       ],
       "examples": [
         {
-          "id": "remchingen-3128-2026-11-25-2000",
-          "title": "Südtirol & Dolomiten - im Zauberreich der leuchtenden Berge - 3D!",
+          "id": "kulturhalle-remchingen-suedtirol-dolomiten-stephan-schulz-2026-2026-11-25-2000",
+          "title": "Südtirol & Dolomiten (3D - Show)",
           "date": "2026-11-25",
           "url": "https://www.kulturhalle-remchingen.de/events/kh-va/suedtirol-dolomiten-stephan-schulz-2026"
         },
@@ -31847,6 +31809,96 @@
           "title": "Adventskonzert",
           "date": "2026-12-12",
           "url": "https://www.koenigsbach-stein.de/veranstaltungen/?seite=2"
+        }
+      ]
+    },
+    {
+      "key": "venue-edb8b64f4a8d9f3d476f",
+      "location": "queerKAstle",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
+      "method": "automatic",
+      "place": {
+        "id": "osm-node-410312751",
+        "name": "queerKAstle",
+        "latitude": 49.0041532,
+        "longitude": 8.37001,
+        "address": "Liebigstraße 10-12, 76135 Karlsruhe",
+        "url": "https://www.openstreetmap.org/node/410312751",
+        "category": "amenity",
+        "type": "community_centre",
+        "city": "Karlsruhe",
+        "district": "Weststadt",
+        "locality": "Weststadt Südlicher Teil",
+        "street": "Liebigstraße",
+        "houseNumber": "10-12",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "osm-node-410312751",
+          "name": "queerKAstle",
+          "latitude": 49.0041532,
+          "longitude": 8.37001,
+          "address": "Liebigstraße 10-12, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/410312751",
+          "category": "amenity",
+          "type": "community_centre",
+          "city": "Karlsruhe",
+          "district": "Weststadt",
+          "locality": "Weststadt Südlicher Teil",
+          "street": "Liebigstraße",
+          "houseNumber": "10-12",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-11953285445",
+          "name": "djive naturals",
+          "latitude": 49.0041886,
+          "longitude": 8.3700916,
+          "address": "Liebigstraße 10-12, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/11953285445",
+          "category": "office",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Weststadt",
+          "locality": "Weststadt Südlicher Teil",
+          "street": "Liebigstraße",
+          "houseNumber": "10-12",
+          "score": 0.32,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [
+        {
+          "street": "Liebigstr. 10-12",
+          "city": "Karlsruhe",
+          "postalCode": "76135",
+          "address": "Liebigstr. 10-12, 76135 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/aktionstag_essstorungen"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-5d837ec49d284c6b",
+          "title": "Aktionstag Essstörungen",
+          "date": "2026-11-26",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/aktionstag_essstorungen"
         }
       ]
     },
