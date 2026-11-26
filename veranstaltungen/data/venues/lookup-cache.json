@@ -22807,6 +22807,121 @@
           "houseNumber": "37-39"
         }
       ]
+    },
+    "Kaiserstraße/Ecke Lammstraße, Karlsruhe": {
+      "checkedAt": "2026-11-26T08:29:08+00:00",
+      "places": [
+        {
+          "id": "osm-node-9458813662",
+          "name": "Marktplatz (Kaiserstraße U)",
+          "latitude": 49.009682,
+          "longitude": 8.4022252,
+          "address": "Kaiserstraße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/9458813662",
+          "category": "railway",
+          "type": "stop",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-3234308913",
+          "name": "Marktplatz (Kaiserstraße U)",
+          "latitude": 49.0096898,
+          "longitude": 8.4020536,
+          "address": "Kaiserstraße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3234308913",
+          "category": "railway",
+          "type": "stop",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-9332104960",
+          "name": "Marktplatz (Kaiserstraße U)",
+          "latitude": 49.0096047,
+          "longitude": 8.4030972,
+          "address": "Kaiserstraße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/9332104960",
+          "category": "railway",
+          "type": "stop",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-3234308884",
+          "name": "Marktplatz (Kaiserstraße U)",
+          "latitude": 49.00966,
+          "longitude": 8.4022596,
+          "address": "Kaiserstraße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3234308884",
+          "category": "railway",
+          "type": "tram_stop",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-9458813716",
+          "name": "Marktplatz (Kaiserstraße U)",
+          "latitude": 49.0096143,
+          "longitude": 8.4028796,
+          "address": "Kaiserstraße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/9458813716",
+          "category": "railway",
+          "type": "stop",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Liebig straße 10-12, Karlsruhe": {
+      "checkedAt": "2026-11-26T08:29:08+00:00",
+      "places": [
+        {
+          "id": "osm-node-410312751",
+          "name": "queerKAstle",
+          "latitude": 49.0041532,
+          "longitude": 8.37001,
+          "address": "Liebigstraße 10-12, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/410312751",
+          "category": "club",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Weststadt",
+          "locality": "Weststadt Südlicher Teil",
+          "street": "Liebigstraße",
+          "houseNumber": "10-12"
+        },
+        {
+          "id": "osm-node-11953285445",
+          "name": "djive naturals",
+          "latitude": 49.0041886,
+          "longitude": 8.3700916,
+          "address": "Liebigstraße 10-12, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/11953285445",
+          "category": "office",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Weststadt",
+          "locality": "Weststadt Südlicher Teil",
+          "street": "Liebigstraße",
+          "houseNumber": "10-12"
+        }
+      ]
     }
   },
   "attribution": {

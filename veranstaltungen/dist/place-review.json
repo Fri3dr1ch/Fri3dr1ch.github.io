@@ -1,32 +1,32 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T21:46:43+00:00",
+  "generatedAt": "2026-11-26T08:29:08+00:00",
   "attribution": {
     "text": "© OpenStreetMap contributors · ODbL",
     "url": "https://www.openstreetmap.org/copyright"
   },
   "stats": {
-    "venues": 428,
+    "venues": 427,
     "venueStatuses": {
-      "missing": 11,
-      "online": 4,
+      "missing": 10,
+      "online": 5,
       "queued": 4,
       "excluded": 9,
-      "review": 17,
-      "resolved": 383
+      "review": 18,
+      "resolved": 381
     },
-    "upcomingEvents": 1370,
+    "upcomingEvents": 1364,
     "eventStatuses": {
-      "resolved": 1243,
-      "missing": 89,
-      "online": 6,
-      "review": 17,
+      "resolved": 1236,
+      "online": 7,
+      "missing": 88,
+      "review": 18,
       "queued": 5,
       "excluded": 10
     }
   },
   "lookup": {
-    "requested": 7,
+    "requested": 3,
     "failures": []
   },
   "rows": [
@@ -456,36 +456,6 @@
           "title": "Weihnachts-Treffpunkt",
           "date": "2026-12-03",
           "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12550"
-        }
-      ]
-    },
-    {
-      "key": "venue-1a26ef246c1de2911202",
-      "location": "",
-      "scope": "groetzingen",
-      "scopeLabel": "Grötzingen",
-      "status": "missing",
-      "reason": "Die Quelle nennt keinen Veranstaltungsort. Keine Zuordnung aus dem Herausgeber ableiten.",
-      "method": null,
-      "place": null,
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "naturfreunde-groetzingen"
-      ],
-      "sources": [
-        "NaturFreunde Grötzingen"
-      ],
-      "examples": [
-        {
-          "id": "naturfreunde-groetzingen-reviewed-2026-11-25-09-2026-11-25-unknown",
-          "title": "Ü60-Gruppe",
-          "date": "2026-11-25",
-          "url": "https://www.naturfreunde-groetzingen.de/images/1a_Nov-Dez26.jpg"
         }
       ]
     },
@@ -1205,6 +1175,127 @@
       ]
     },
     {
+      "key": "venue-912c3a5735a5f8b4a1c8",
+      "location": "Kaiserstraße/Ecke Lammstraße",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "review",
+      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
+      "method": null,
+      "place": null,
+      "candidates": [
+        {
+          "id": "osm-way-105026240",
+          "name": "Kaiserstraße 3",
+          "latitude": 49.0088774,
+          "longitude": 8.4158604,
+          "address": "Kaiserstraße 3, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/105026240",
+          "category": "building",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "3",
+          "score": 0.622,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-105026255",
+          "name": "Kaiserstraße 63",
+          "latitude": 49.0091173,
+          "longitude": 8.4113544,
+          "address": "Kaiserstraße 63, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/105026255",
+          "category": "building",
+          "type": "apartments",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "63",
+          "score": 0.609,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-286408685",
+          "name": "Kaiserstraße 47",
+          "latitude": 49.0089809,
+          "longitude": 8.4124431,
+          "address": "Kaiserstraße 47, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/286408685",
+          "category": "building",
+          "type": "retail",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "47",
+          "score": 0.609,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-109265540",
+          "name": "Kaiserstraße 150",
+          "latitude": 49.010194,
+          "longitude": 8.3944313,
+          "address": "Kaiserstraße 150, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/109265540",
+          "category": "building",
+          "type": "retail",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Westlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "150",
+          "score": 0.596,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-3234308884",
+          "name": "Marktplatz (Kaiserstraße U)",
+          "latitude": 49.00966,
+          "longitude": 8.4022596,
+          "address": "Kaiserstraße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3234308884",
+          "category": "railway",
+          "type": "tram_stop",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "",
+          "score": 0.5,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-c630d81e3c56b5b7",
+          "title": "Wie können Kinder besser schwimmen lernen?",
+          "date": "2026-12-02",
+          "url": "https://kalender.karlsruhe.de/db/termine/wirtschaft/wie_konnen_kinder_besser_schwimmen_lernen"
+        }
+      ]
+    },
+    {
       "key": "venue-5b4a97fdf711b6b3a619",
       "location": "Katholische Stadtkirche St. Stephan Karlsruhe",
       "scope": "karlsruhe",
@@ -1432,6 +1523,55 @@
           "title": "Durchatmen. Loslassen. Ankommen.",
           "date": "2026-12-02",
           "url": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/durchatmen_loslassen_ankommen-1"
+        }
+      ]
+    },
+    {
+      "key": "venue-c41cf35c8695e05890bd",
+      "location": "Online-Veranstaltung von fokus.energie e.V. - JOBvision-AZUWA",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "online",
+      "reason": "Als Online-Ort angegeben; kein physischer Kartenpunkt.",
+      "method": null,
+      "place": null,
+      "candidates": [
+        {
+          "id": "osm-way-430660511",
+          "name": "ViDia Christliche Kliniken Standort Edgar-von-Gierke-Straße",
+          "latitude": 49.0014613,
+          "longitude": 8.378467,
+          "address": "Edgar-von-Gierke-Straße, 76135 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/430660511",
+          "category": "amenity",
+          "type": "hospital",
+          "city": "Karlsruhe",
+          "district": "Südweststadt",
+          "locality": "Beiertheimer Feld",
+          "street": "Edgar-von-Gierke-Straße",
+          "houseNumber": "",
+          "score": 0.368,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-ceacd47ec73bd442",
+          "title": "Infoveranstaltung zu JOBvision-AZUWA",
+          "date": "2026-12-09",
+          "url": "https://kalender.karlsruhe.de/db/termine/wirtschaft/infoveranstaltung_zu_jobvision_azuwa-1"
         }
       ]
     },
@@ -2289,82 +2429,6 @@
       ]
     },
     {
-      "key": "venue-310ab22f33af1f3663a7",
-      "location": "Pfinztalblick",
-      "scope": "soellingen",
-      "scopeLabel": "Pfinztal-Söllingen",
-      "status": "resolved",
-      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
-      "method": "automatic",
-      "place": {
-        "id": "osm-way-306713725",
-        "name": "Naturfreundehaus Pfinztalblick",
-        "latitude": 48.9828764,
-        "longitude": 8.5624499,
-        "address": "Am Neuen Berg 1, 76327 Söllingen",
-        "url": "https://www.openstreetmap.org/way/306713725",
-        "category": "amenity",
-        "type": "restaurant",
-        "street": "Am Neuen Berg",
-        "houseNumber": "1",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-way-306713725",
-          "name": "Naturfreundehaus Pfinztalblick",
-          "latitude": 48.9828764,
-          "longitude": 8.5624499,
-          "address": "Am Neuen Berg 1, 76327 Söllingen",
-          "url": "https://www.openstreetmap.org/way/306713725",
-          "category": "amenity",
-          "type": "restaurant",
-          "street": "Am Neuen Berg",
-          "houseNumber": "1",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 49,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "naturfreunde-soellingen"
-      ],
-      "sources": [
-        "NaturFreunde Söllingen"
-      ],
-      "examples": [
-        {
-          "id": "naturfreunde-soellingen-890ea5405ca27de8cb562412-2026-11-25-1530",
-          "title": "Nordic Walking",
-          "date": "2026-11-25",
-          "url": "https://www.naturfreunde-soellingen.de/kalender/"
-        },
-        {
-          "id": "naturfreunde-soellingen-3142452def60ede3fff61376-2026-12-02-1530",
-          "title": "Nordic Walking",
-          "date": "2026-12-02",
-          "url": "https://www.naturfreunde-soellingen.de/kalender/"
-        },
-        {
-          "id": "naturfreunde-soellingen-4b31a02a7fb25596f912923d-2026-12-09-1530",
-          "title": "Nordic Walking",
-          "date": "2026-12-09",
-          "url": "https://www.naturfreunde-soellingen.de/kalender/"
-        },
-        {
-          "id": "naturfreunde-soellingen-4ce167a4adffb3d1380b603f-2026-12-16-1530",
-          "title": "Nordic Walking",
-          "date": "2026-12-16",
-          "url": "https://www.naturfreunde-soellingen.de/kalender/"
-        }
-      ]
-    },
-    {
       "key": "venue-a320cec499b522deeffe",
       "location": "Bürgertreff Jöhlingen , Walzbachtal",
       "scope": "joehlingen",
@@ -2437,6 +2501,82 @@
           "title": "Mittagstisch im Bürgertreff Jöhlingen",
           "date": "2027-01-21",
           "url": "https://www.walzbachtal.de/veranstaltung/Mittagstisch-im-Buergertreff-Joehlingen-event-appointment5979"
+        }
+      ]
+    },
+    {
+      "key": "venue-310ab22f33af1f3663a7",
+      "location": "Pfinztalblick",
+      "scope": "soellingen",
+      "scopeLabel": "Pfinztal-Söllingen",
+      "status": "resolved",
+      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
+      "method": "automatic",
+      "place": {
+        "id": "osm-way-306713725",
+        "name": "Naturfreundehaus Pfinztalblick",
+        "latitude": 48.9828764,
+        "longitude": 8.5624499,
+        "address": "Am Neuen Berg 1, 76327 Söllingen",
+        "url": "https://www.openstreetmap.org/way/306713725",
+        "category": "amenity",
+        "type": "restaurant",
+        "street": "Am Neuen Berg",
+        "houseNumber": "1",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "osm-way-306713725",
+          "name": "Naturfreundehaus Pfinztalblick",
+          "latitude": 48.9828764,
+          "longitude": 8.5624499,
+          "address": "Am Neuen Berg 1, 76327 Söllingen",
+          "url": "https://www.openstreetmap.org/way/306713725",
+          "category": "amenity",
+          "type": "restaurant",
+          "street": "Am Neuen Berg",
+          "houseNumber": "1",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 48,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "naturfreunde-soellingen"
+      ],
+      "sources": [
+        "NaturFreunde Söllingen"
+      ],
+      "examples": [
+        {
+          "id": "naturfreunde-soellingen-3142452def60ede3fff61376-2026-12-02-1530",
+          "title": "Nordic Walking",
+          "date": "2026-12-02",
+          "url": "https://www.naturfreunde-soellingen.de/kalender/"
+        },
+        {
+          "id": "naturfreunde-soellingen-4b31a02a7fb25596f912923d-2026-12-09-1530",
+          "title": "Nordic Walking",
+          "date": "2026-12-09",
+          "url": "https://www.naturfreunde-soellingen.de/kalender/"
+        },
+        {
+          "id": "naturfreunde-soellingen-4ce167a4adffb3d1380b603f-2026-12-16-1530",
+          "title": "Nordic Walking",
+          "date": "2026-12-16",
+          "url": "https://www.naturfreunde-soellingen.de/kalender/"
+        },
+        {
+          "id": "naturfreunde-soellingen-252f7d7716d7affb2231ff14-2026-12-23-1530",
+          "title": "Nordic Walking",
+          "date": "2026-12-23",
+          "url": "https://www.naturfreunde-soellingen.de/kalender/"
         }
       ]
     },
@@ -2604,7 +2744,7 @@
           "outsideContext": false
         }
       ],
-      "eventCount": 43,
+      "eventCount": 42,
       "reviewNote": "",
       "sourceAddresses": [],
       "organizer": "",
@@ -2618,12 +2758,6 @@
         "Kulturhalle Remchingen"
       ],
       "examples": [
-        {
-          "id": "kulturhalle-remchingen-suedtirol-dolomiten-stephan-schulz-2026-2026-11-25-2000",
-          "title": "Südtirol & Dolomiten (3D - Show)",
-          "date": "2026-11-25",
-          "url": "https://www.kulturhalle-remchingen.de/events/kh-va/suedtirol-dolomiten-stephan-schulz-2026"
-        },
         {
           "id": "remchingen-3294-2026-11-26-2000",
           "title": "Fisch sucht Fahrrad - Komödie von Peter Quilter / Aboveranstaltung AUSVERKAUFT!",
@@ -2641,114 +2775,12 @@
           "title": "Blutspende",
           "date": "2026-11-30",
           "url": "https://www.kulturhalle-remchingen.de/events/vereine/blutspende-2026"
-        }
-      ]
-    },
-    {
-      "key": "venue-2b0c0373c265a66eb63a",
-      "location": "PLANET KA Planetarium Karlsruhe",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
-      "method": "automatic",
-      "place": {
-        "id": "osm-node-12813379988",
-        "name": "PLANET KA",
-        "latitude": 49.0039247,
-        "longitude": 8.4304598,
-        "address": "Alter Schlachthof 4, 76131 Karlsruhe",
-        "url": "https://www.openstreetmap.org/node/12813379988",
-        "category": "amenity",
-        "type": "planetarium",
-        "city": "Karlsruhe",
-        "district": "Oststadt",
-        "locality": "Oststadt Südlicher Teil",
-        "street": "Alter Schlachthof",
-        "houseNumber": "4",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-node-12813379988",
-          "name": "PLANET KA",
-          "latitude": 49.0039247,
-          "longitude": 8.4304598,
-          "address": "Alter Schlachthof 4, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/12813379988",
-          "category": "amenity",
-          "type": "planetarium",
-          "city": "Karlsruhe",
-          "district": "Oststadt",
-          "locality": "Oststadt Südlicher Teil",
-          "street": "Alter Schlachthof",
-          "houseNumber": "4",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
         },
         {
-          "id": "osm-way-119746318",
-          "name": "Alter Schlachthof 4",
-          "latitude": 49.0039151,
-          "longitude": 8.4304661,
-          "address": "Alter Schlachthof 4, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/119746318",
-          "category": "building",
-          "type": "industrial",
-          "city": "Karlsruhe",
-          "district": "Oststadt",
-          "locality": "Oststadt Südlicher Teil",
-          "street": "Alter Schlachthof",
-          "houseNumber": "4",
-          "score": 0.286,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 34,
-      "reviewNote": "",
-      "sourceAddresses": [
-        {
-          "street": "Alter Schlachthof 4",
-          "city": "Karlsruhe",
-          "postalCode": "76131",
-          "address": "Alter Schlachthof 4, 76131 Karlsruhe",
-          "url": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/cosmic_flow_yoga_unter_sternen-5"
-        }
-      ],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-9ed5cf42f7d7d99c",
-          "title": "Von der Erde zum Universum",
-          "date": "2026-11-26",
-          "url": "https://kalender.karlsruhe.de/db/termine/wirtschaft/von_der_erde_zum_universum-46"
-        },
-        {
-          "id": "karlsruhe-5510b00194801f5b",
-          "title": "Der Blaue Planet",
-          "date": "2026-11-26",
-          "url": "https://kalender.karlsruhe.de/db/termine/wirtschaft/der_blaue_planet-13"
-        },
-        {
-          "id": "karlsruhe-fd6981a351cad8f9",
-          "title": "Queen Heaven - das Original!",
-          "date": "2026-11-26",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/queen_heaven_das_original-24"
-        },
-        {
-          "id": "karlsruhe-e0059ac17ddc6d4f",
-          "title": "3-2-1 Liftoff!",
-          "date": "2026-11-27",
-          "url": "https://kalender.karlsruhe.de/db/termine/wirtschaft/3_2_1_liftoff-13"
+          "id": "remchingen-3295-2026-12-16-2000",
+          "title": "Drei Haselnüsse für Aschenbrödel - Familienmusical in drei Akten",
+          "date": "2026-12-16",
+          "url": "https://www.kulturhalle-remchingen.de/events/theater/spielzeit-26-27/drei-haselnuesse-fuer-aschenbroedel-2026"
         }
       ]
     },
@@ -2842,6 +2874,114 @@
           "title": "Posaunenchor",
           "date": "2026-12-11",
           "url": "https://eki-groetzingen.de/terminkalender/detail/termin/id/1035636-posaunenchor/?vt=1&cb-id=118282"
+        }
+      ]
+    },
+    {
+      "key": "venue-2b0c0373c265a66eb63a",
+      "location": "PLANET KA Planetarium Karlsruhe",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
+      "method": "automatic",
+      "place": {
+        "id": "osm-node-12813379988",
+        "name": "PLANET KA",
+        "latitude": 49.0039247,
+        "longitude": 8.4304598,
+        "address": "Alter Schlachthof 4, 76131 Karlsruhe",
+        "url": "https://www.openstreetmap.org/node/12813379988",
+        "category": "amenity",
+        "type": "planetarium",
+        "city": "Karlsruhe",
+        "district": "Oststadt",
+        "locality": "Oststadt Südlicher Teil",
+        "street": "Alter Schlachthof",
+        "houseNumber": "4",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "osm-node-12813379988",
+          "name": "PLANET KA",
+          "latitude": 49.0039247,
+          "longitude": 8.4304598,
+          "address": "Alter Schlachthof 4, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12813379988",
+          "category": "amenity",
+          "type": "planetarium",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "Alter Schlachthof",
+          "houseNumber": "4",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-119746318",
+          "name": "Alter Schlachthof 4",
+          "latitude": 49.0039151,
+          "longitude": 8.4304661,
+          "address": "Alter Schlachthof 4, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/119746318",
+          "category": "building",
+          "type": "industrial",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "Alter Schlachthof",
+          "houseNumber": "4",
+          "score": 0.286,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 33,
+      "reviewNote": "",
+      "sourceAddresses": [
+        {
+          "street": "Alter Schlachthof 4",
+          "city": "Karlsruhe",
+          "postalCode": "76131",
+          "address": "Alter Schlachthof 4, 76131 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/sportveranstaltung/cosmic_flow_yoga_unter_sternen-5"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-9ed5cf42f7d7d99c",
+          "title": "Von der Erde zum Universum",
+          "date": "2026-11-26",
+          "url": "https://kalender.karlsruhe.de/db/termine/wirtschaft/von_der_erde_zum_universum-46"
+        },
+        {
+          "id": "karlsruhe-5510b00194801f5b",
+          "title": "Der Blaue Planet",
+          "date": "2026-11-26",
+          "url": "https://kalender.karlsruhe.de/db/termine/wirtschaft/der_blaue_planet-13"
+        },
+        {
+          "id": "karlsruhe-e0059ac17ddc6d4f",
+          "title": "3-2-1 Liftoff!",
+          "date": "2026-11-27",
+          "url": "https://kalender.karlsruhe.de/db/termine/wirtschaft/3_2_1_liftoff-13"
+        },
+        {
+          "id": "karlsruhe-7e694bffc627ed3f",
+          "title": "Aurora - Wunder des Nordlichts",
+          "date": "2026-11-27",
+          "url": "https://kalender.karlsruhe.de/db/termine/wirtschaft/aurora_wunder_des_nordlichts-130"
         }
       ]
     },
@@ -8475,63 +8615,6 @@
       ]
     },
     {
-      "key": "venue-ebadb41a085e0ae2d623",
-      "location": "Kirchgasse, Spielberg",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-265986914",
-        "name": "Evangelische Kirche an der Kirchgasse",
-        "address": "Kirchgasse, 76307 Karlsbad-Spielberg",
-        "latitude": 48.8974673,
-        "longitude": 8.4718541,
-        "url": "https://www.openstreetmap.org/way/265986914",
-        "category": "amenity",
-        "type": "place_of_worship"
-      },
-      "candidates": [],
-      "eventCount": 4,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsbad"
-      ],
-      "sources": [
-        "Gemeinde Karlsbad"
-      ],
-      "examples": [
-        {
-          "id": "karlsbad-ca2ad713-2f78-3672-adc1-76294e54b96c",
-          "title": "Wochenmarkt Spielberg",
-          "date": "2026-11-25",
-          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12672"
-        },
-        {
-          "id": "karlsbad-60ee5f31-1142-3a1f-a184-24162cc7cba1",
-          "title": "Wochenmarkt Spielberg",
-          "date": "2026-12-02",
-          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12673"
-        },
-        {
-          "id": "karlsbad-1174f88b-ba53-30ec-87e5-0ccee9dea1ec",
-          "title": "Wochenmarkt Spielberg",
-          "date": "2026-12-09",
-          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12674"
-        },
-        {
-          "id": "karlsbad-dff3a33e-3705-3b01-b8a4-17dc85a2551e",
-          "title": "Wochenmarkt Spielberg",
-          "date": "2026-12-16",
-          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12675"
-        }
-      ]
-    },
-    {
       "key": "venue-d48deb87aeacd522085c",
       "location": "Ludwigskirche, Langensteinbach",
       "scope": null,
@@ -9672,61 +9755,6 @@
       ]
     },
     {
-      "key": "venue-6f24757dc655b7239fe5",
-      "location": "Begegnungszentrum Regenbogen",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-182895491",
-        "name": "Begegnungszentrum Regenbogen",
-        "latitude": 49.1101999,
-        "longitude": 8.5147645,
-        "address": "Kirchstraße 22, 76297 Stutensee-Spöck",
-        "url": "https://www.openstreetmap.org/way/182895491",
-        "category": "building",
-        "type": "yes",
-        "street": "Kirchstraße",
-        "houseNumber": "22",
-        "city": "Stutensee",
-        "district": "Spöck"
-      },
-      "candidates": [],
-      "eventCount": 3,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "stutensee"
-      ],
-      "sources": [
-        "Stadt Stutensee · Veranstaltungskalender"
-      ],
-      "examples": [
-        {
-          "id": "stutensee-2867",
-          "title": "Strickeria",
-          "date": "2026-11-25",
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2867"
-        },
-        {
-          "id": "stutensee-2555",
-          "title": "Kaffee Treff",
-          "date": "2026-12-08",
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2555"
-        },
-        {
-          "id": "stutensee-2838",
-          "title": "Nikolausfeier für Kinder",
-          "date": "2026-12-13",
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2838"
-        }
-      ]
-    },
-    {
       "key": "venue-34cae7aa1737d7b99990",
       "location": "Blauer Salon in der HfG Karlsruhe (EG, R012)",
       "scope": "karlsruhe",
@@ -10381,6 +10409,78 @@
       ]
     },
     {
+      "key": "venue-836ded46b82f14a22f45",
+      "location": "Hans-und-Therese-Krille-Saal",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-113495265",
+        "name": "Haizingerstraße 1",
+        "latitude": 49.0076063,
+        "longitude": 8.4299055,
+        "address": "Haizingerstraße 1, 76131 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/113495265",
+        "category": "building",
+        "type": "yes",
+        "city": "Karlsruhe",
+        "district": "Oststadt",
+        "locality": "Oststadt Südlicher Teil",
+        "street": "Haizingerstraße",
+        "houseNumber": "1"
+      },
+      "candidates": [
+        {
+          "id": "osm-node-12530403425",
+          "name": "Hans-Kampffmeyer-Saal",
+          "latitude": 48.9727458,
+          "longitude": 8.4053572,
+          "address": "Hainbuchenweg, 76199 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/12530403425",
+          "category": "amenity",
+          "type": "events_venue",
+          "street": "Hainbuchenweg",
+          "houseNumber": "",
+          "score": 0.49,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 3,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-0032a403bc453d47",
+          "title": "Begegnungscafé für Jung und Alt",
+          "date": "2026-11-27",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/begegnungscafe_fur_jung_und_alt-6"
+        },
+        {
+          "id": "karlsruhe-3589dc0e044d134a",
+          "title": "Begegnungscafé für Jung und Alt",
+          "date": "2026-11-27",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/begegnungscafe_fur_jung_und_alt-4"
+        },
+        {
+          "id": "karlsruhe-af88f973208e3727",
+          "title": "Karlsruher Trialog - Austausch im psychiatrischen Kontext",
+          "date": "2026-12-09",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/karlsruher_trialog_austausch_im_psychiatrischen_kontext-3"
+        }
+      ]
+    },
+    {
       "key": "venue-0ddf4c8cd819f4070bbf",
       "location": "Haus Pamina",
       "scope": "groetzingen",
@@ -10904,6 +11004,57 @@
           "title": "Gottesdienst",
           "date": "2027-02-14",
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1075661-gottesdienst/?vt=1&cb-id=193413"
+        }
+      ]
+    },
+    {
+      "key": "venue-ebadb41a085e0ae2d623",
+      "location": "Kirchgasse, Spielberg",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-265986914",
+        "name": "Evangelische Kirche an der Kirchgasse",
+        "address": "Kirchgasse, 76307 Karlsbad-Spielberg",
+        "latitude": 48.8974673,
+        "longitude": 8.4718541,
+        "url": "https://www.openstreetmap.org/way/265986914",
+        "category": "amenity",
+        "type": "place_of_worship"
+      },
+      "candidates": [],
+      "eventCount": 3,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsbad"
+      ],
+      "sources": [
+        "Gemeinde Karlsbad"
+      ],
+      "examples": [
+        {
+          "id": "karlsbad-60ee5f31-1142-3a1f-a184-24162cc7cba1",
+          "title": "Wochenmarkt Spielberg",
+          "date": "2026-12-02",
+          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12673"
+        },
+        {
+          "id": "karlsbad-1174f88b-ba53-30ec-87e5-0ccee9dea1ec",
+          "title": "Wochenmarkt Spielberg",
+          "date": "2026-12-09",
+          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12674"
+        },
+        {
+          "id": "karlsbad-dff3a33e-3705-3b01-b8a4-17dc85a2551e",
+          "title": "Wochenmarkt Spielberg",
+          "date": "2026-12-16",
+          "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12675"
         }
       ]
     },
@@ -12839,6 +12990,55 @@
       ]
     },
     {
+      "key": "venue-6f24757dc655b7239fe5",
+      "location": "Begegnungszentrum Regenbogen",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-182895491",
+        "name": "Begegnungszentrum Regenbogen",
+        "latitude": 49.1101999,
+        "longitude": 8.5147645,
+        "address": "Kirchstraße 22, 76297 Stutensee-Spöck",
+        "url": "https://www.openstreetmap.org/way/182895491",
+        "category": "building",
+        "type": "yes",
+        "street": "Kirchstraße",
+        "houseNumber": "22",
+        "city": "Stutensee",
+        "district": "Spöck"
+      },
+      "candidates": [],
+      "eventCount": 2,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "stutensee"
+      ],
+      "sources": [
+        "Stadt Stutensee · Veranstaltungskalender"
+      ],
+      "examples": [
+        {
+          "id": "stutensee-2555",
+          "title": "Kaffee Treff",
+          "date": "2026-12-08",
+          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2555"
+        },
+        {
+          "id": "stutensee-2838",
+          "title": "Nikolausfeier für Kinder",
+          "date": "2026-12-13",
+          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2838"
+        }
+      ]
+    },
+    {
       "key": "venue-8b302084bc8e689a1d22",
       "location": "Bürgerzentrum Südwerk Karlsruhe",
       "scope": "karlsruhe",
@@ -13955,72 +14155,6 @@
       ]
     },
     {
-      "key": "venue-836ded46b82f14a22f45",
-      "location": "Hans-und-Therese-Krille-Saal",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-113495265",
-        "name": "Haizingerstraße 1",
-        "latitude": 49.0076063,
-        "longitude": 8.4299055,
-        "address": "Haizingerstraße 1, 76131 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/113495265",
-        "category": "building",
-        "type": "yes",
-        "city": "Karlsruhe",
-        "district": "Oststadt",
-        "locality": "Oststadt Südlicher Teil",
-        "street": "Haizingerstraße",
-        "houseNumber": "1"
-      },
-      "candidates": [
-        {
-          "id": "osm-node-12530403425",
-          "name": "Hans-Kampffmeyer-Saal",
-          "latitude": 48.9727458,
-          "longitude": 8.4053572,
-          "address": "Hainbuchenweg, 76199 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/12530403425",
-          "category": "amenity",
-          "type": "events_venue",
-          "street": "Hainbuchenweg",
-          "houseNumber": "",
-          "score": 0.49,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 2,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-3589dc0e044d134a",
-          "title": "Begegnungscafé für Jung und Alt",
-          "date": "2026-11-27",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/begegnungscafe_fur_jung_und_alt-4"
-        },
-        {
-          "id": "karlsruhe-af88f973208e3727",
-          "title": "Karlsruher Trialog - Austausch im psychiatrischen Kontext",
-          "date": "2026-12-09",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/karlsruher_trialog_austausch_im_psychiatrischen_kontext-3"
-        }
-      ]
-    },
-    {
       "key": "venue-2d8daad3ca143d0110e0",
       "location": "Johannes-Brahms-Saal, Stadthalle Karlsruhe",
       "scope": "karlsruhe",
@@ -14411,145 +14545,6 @@
           "title": "Buchclub Buchtipps",
           "date": "2026-12-08",
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12099&tx_events2_events%5Btimestamp%5D=1796742000&cHash=97a58c31c10e41f37622755c4851dcfb"
-        }
-      ]
-    },
-    {
-      "key": "venue-f7fe1d6134e1b3a004b9",
-      "location": "Karlsburg (Vorplatz)",
-      "scope": "durlach",
-      "scopeLabel": "Durlach",
-      "status": "resolved",
-      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
-      "method": "automatic",
-      "place": {
-        "id": "osm-way-23229362",
-        "name": "Karlsburg",
-        "latitude": 48.998476,
-        "longitude": 8.4738226,
-        "address": "Pfinztalstraße 9, 76227 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/23229362",
-        "category": "building",
-        "type": "public",
-        "city": "Karlsruhe",
-        "district": "Durlach",
-        "locality": "Alt-Durlach",
-        "street": "Pfinztalstraße",
-        "houseNumber": "9",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-way-23229362",
-          "name": "Karlsburg",
-          "latitude": 48.998476,
-          "longitude": 8.4738226,
-          "address": "Pfinztalstraße 9, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/23229362",
-          "category": "building",
-          "type": "public",
-          "city": "Karlsruhe",
-          "district": "Durlach",
-          "locality": "Alt-Durlach",
-          "street": "Pfinztalstraße",
-          "houseNumber": "9",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-5782635777",
-          "name": "Karlsburg",
-          "latitude": 48.998607,
-          "longitude": 8.4744796,
-          "address": "Karlsburgstraße, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/5782635777",
-          "category": "highway",
-          "type": "bus_stop",
-          "street": "Karlsburgstraße",
-          "houseNumber": "",
-          "score": 1.0,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-764051158",
-          "name": "Karlsburg",
-          "latitude": 48.9988286,
-          "longitude": 8.4740299,
-          "address": "Pfinztalstraße 9, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/764051158",
-          "category": "amenity",
-          "type": "toilets",
-          "city": "Karlsruhe",
-          "district": "Durlach",
-          "locality": "Alt-Durlach",
-          "street": "Pfinztalstraße",
-          "houseNumber": "9",
-          "score": 1.0,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-1673731922",
-          "name": "Karlsburg Cafe",
-          "latitude": 48.9992282,
-          "longitude": 8.4739474,
-          "address": "Pfinztalstraße 22, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/1673731922",
-          "category": "amenity",
-          "type": "cafe",
-          "city": "Karlsruhe",
-          "district": "Durlach",
-          "locality": "Alt-Durlach",
-          "street": "Pfinztalstraße",
-          "houseNumber": "22",
-          "score": 0.783,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-10294884305",
-          "name": "Trausaal Karlsburg Standesamt Durlach",
-          "latitude": 48.9988361,
-          "longitude": 8.4739368,
-          "address": "Pfinztalstraße 9, 76227 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/10294884305",
-          "category": "office",
-          "type": "government",
-          "city": "Karlsruhe",
-          "district": "Durlach",
-          "locality": "Alt-Durlach",
-          "street": "Pfinztalstraße",
-          "houseNumber": "9",
-          "score": 0.474,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 2,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "durlach"
-      ],
-      "sources": [
-        "Durlacher.de · Durlacher Kalender"
-      ],
-      "examples": [
-        {
-          "id": "durlach-12026-2026-11-25-1130",
-          "title": "Mittelalterlicher Weihnachtsmarkt",
-          "date": "2026-11-25",
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12026&tx_events2_events%5Btimestamp%5D=1795602600&cHash=a92387877ee2a3a950988de0e2e4ac2d"
-        },
-        {
-          "id": "durlach-12025-2026-11-25-1830",
-          "title": "Mittelalterlicher Weihnachtsmarkt (Eröffnung)",
-          "date": "2026-11-25",
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12025&tx_events2_events%5Btimestamp%5D=1795627800&cHash=77a0733b9e44aac3c7314856e78462e9"
         }
       ]
     },
@@ -15537,74 +15532,6 @@
           "title": "Kazel Expo Karlsruhe 2026",
           "date": "2026-12-04",
           "url": "https://kalender.karlsruhe.de/db/termine/messen_und_kongresse/kazel_expo_karlsruhe2026n"
-        }
-      ]
-    },
-    {
-      "key": "venue-d10fb5e9850e512a175b",
-      "location": "NF-Haus 'Am Hopfenberg'",
-      "scope": "berghausen",
-      "scopeLabel": "Pfinztal-Berghausen",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-node-563834301",
-        "name": "Naturfreundehaus Am Hopfenberg",
-        "latitude": 49.0008503,
-        "longitude": 8.5265647,
-        "address": "Touristenweg 11, 76327 Pfinztal-Berghausen",
-        "url": "https://www.openstreetmap.org/node/563834301",
-        "category": "amenity",
-        "type": "restaurant",
-        "street": "Touristenweg",
-        "houseNumber": "11",
-        "city": "Pfinztal",
-        "district": "Berghausen"
-      },
-      "candidates": [
-        {
-          "id": "osm-node-563834301",
-          "name": "Naturfreundehaus Am Hopfenberg",
-          "latitude": 49.0008503,
-          "longitude": 8.5265647,
-          "address": "Touristenweg 11, 76327 Berghausen",
-          "url": "https://www.openstreetmap.org/node/563834301",
-          "category": "amenity",
-          "type": "restaurant",
-          "city": "Berghausen",
-          "district": "Berghausen",
-          "locality": "",
-          "street": "Touristenweg",
-          "houseNumber": "11",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 2,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "naturfreunde-berghausen"
-      ],
-      "sources": [
-        "NaturFreunde Berghausen"
-      ],
-      "examples": [
-        {
-          "id": "naturfreunde-berghausen-996-2026-11-25-1730",
-          "title": "Weihnachtsbasteleien mit Petra",
-          "date": "2026-11-25",
-          "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/25/996/-/weihnachtsbasteleien-mit-petra"
-        },
-        {
-          "id": "naturfreunde-berghausen-997-2026-11-27-1500",
-          "title": "Adventsgestecke anfertigen",
-          "date": "2026-11-27",
-          "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/27/997/-/adventsgestecke-anfertigen"
         }
       ]
     },
@@ -17452,6 +17379,114 @@
           "title": "Wohnen in Karlsruhe: Ausstellung und Bürgerbeteiligung in der Nordweststadt",
           "date": "2026-12-01",
           "url": "https://kalender.karlsruhe.de/db/termine/architektur/wohnen_in_karlsruhe_ausstellung_und"
+        }
+      ]
+    },
+    {
+      "key": "venue-d0822009ff7924b24be5",
+      "location": "Werderplatz",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-relation-9293549",
+        "name": "Werderplatz",
+        "latitude": 49.0015245,
+        "longitude": 8.4068862,
+        "address": "Karlsruhe",
+        "url": "https://www.openstreetmap.org/relation/9293549",
+        "category": "place",
+        "type": "square",
+        "street": "",
+        "houseNumber": ""
+      },
+      "candidates": [
+        {
+          "id": "osm-relation-9293549",
+          "name": "Werderplatz",
+          "latitude": 49.0015245,
+          "longitude": 8.4068862,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/relation/9293549",
+          "category": "place",
+          "type": "square",
+          "street": "",
+          "houseNumber": "",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-262435736",
+          "name": "Werderplatz",
+          "latitude": 49.0015072,
+          "longitude": 8.4067187,
+          "address": "76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/262435736",
+          "category": "highway",
+          "type": "living_street",
+          "street": "",
+          "houseNumber": "",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-1895908651",
+          "name": "Friseursalon Werderplatz",
+          "latitude": 49.0013823,
+          "longitude": 8.4067739,
+          "address": "Werderplatz, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1895908651",
+          "category": "shop",
+          "type": "hairdresser",
+          "street": "Werderplatz",
+          "houseNumber": "",
+          "score": 0.629,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-5107732033",
+          "name": "Hausarztpraxis Werderplatz",
+          "latitude": 49.0013851,
+          "longitude": 8.4069027,
+          "address": "Werderstraße 40, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/5107732033",
+          "category": "amenity",
+          "type": "doctors",
+          "street": "Werderstraße",
+          "houseNumber": "40",
+          "score": 0.595,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 2,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-47f79b8820ccc29c",
+          "title": "Wochenmarkt Werderplatz",
+          "date": "2025-11-19",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/wochenmarkt_werderplatz"
+        },
+        {
+          "id": "karlsruhe-c85fd5503b3f5f18",
+          "title": "Wohnen in Karlsruhe: Bürgerbeteiligung am Werderplatz",
+          "date": "2026-12-10",
+          "url": "https://kalender.karlsruhe.de/db/termine/architektur/wohnen_in_karlsruhe_burgerbeteiligung_am_werderplatz"
         }
       ]
     },
@@ -20069,49 +20104,6 @@
       ]
     },
     {
-      "key": "venue-8e54940e524d377b5278",
-      "location": "Evangelische öffentliche Bücherei Friedrichstal",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-node-7796835369",
-        "name": "Evangelische öffentliche Bücherei Friedrichstal",
-        "latitude": 49.1062396,
-        "longitude": 8.4819399,
-        "address": "Hirschstraße 22, 76297 Stutensee-Friedrichstal",
-        "url": "https://www.openstreetmap.org/node/7796835369",
-        "category": "amenity",
-        "type": "library",
-        "street": "Hirschstraße",
-        "houseNumber": "22",
-        "city": "Stutensee",
-        "district": "Friedrichstal"
-      },
-      "candidates": [],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "stutensee"
-      ],
-      "sources": [
-        "Stadt Stutensee · Veranstaltungskalender"
-      ],
-      "examples": [
-        {
-          "id": "stutensee-2898",
-          "title": "Erzähltheater \"Der Grolltroll\"",
-          "date": "2026-11-25",
-          "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2898"
-        }
-      ]
-    },
-    {
       "key": "venue-3cff8119e7fbbdb133f8",
       "location": "Evangelisches Gemeindehaus",
       "scope": "weingarten",
@@ -20795,123 +20787,6 @@
           "title": "Finissage der Ausstellung LOTUS von Valentina Jaffé",
           "date": "2026-12-06",
           "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/finissage_der_ausstellung_lotus_von_valentina_jaffe"
-        }
-      ]
-    },
-    {
-      "key": "venue-362ef48ccc4606d40bb9",
-      "location": "Gartenhalle / Kongresszentrum Karlsruhe",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-15526552",
-        "name": "Gartenhalle",
-        "latitude": 49.0013728,
-        "longitude": 8.401967,
-        "address": "Festplatz 3, 76137 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/15526552",
-        "category": "amenity",
-        "type": "exhibition_hall",
-        "street": "Festplatz",
-        "houseNumber": "3"
-      },
-      "candidates": [
-        {
-          "id": "osm-node-1743183719",
-          "name": "Kongresszentrum",
-          "latitude": 49.0038047,
-          "longitude": 8.4040211,
-          "address": "Baumeisterstraße, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/1743183719",
-          "category": "railway",
-          "type": "stop",
-          "street": "Baumeisterstraße",
-          "houseNumber": "",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-1743183720",
-          "name": "Kongresszentrum",
-          "latitude": 49.0038388,
-          "longitude": 8.4038511,
-          "address": "Baumeisterstraße, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/1743183720",
-          "category": "railway",
-          "type": "stop",
-          "street": "Baumeisterstraße",
-          "houseNumber": "",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-15526552",
-          "name": "Gartenhalle",
-          "latitude": 49.0013728,
-          "longitude": 8.401967,
-          "address": "Festplatz 3, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/15526552",
-          "category": "amenity",
-          "type": "exhibition_hall",
-          "street": "Festplatz",
-          "houseNumber": "3",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-12529534371",
-          "name": "Kongresszentrum (U)",
-          "latitude": 49.0020956,
-          "longitude": 8.4031036,
-          "address": "Ettlinger Straße, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/12529534371",
-          "category": "railway",
-          "type": "stop",
-          "street": "Ettlinger Straße",
-          "houseNumber": "",
-          "score": 0.682,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-12529534372",
-          "name": "Kongresszentrum (U)",
-          "latitude": 49.0030479,
-          "longitude": 8.4032357,
-          "address": "Ettlinger Straße, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/12529534372",
-          "category": "railway",
-          "type": "stop",
-          "street": "Ettlinger Straße",
-          "houseNumber": "",
-          "score": 0.682,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-dea48874ce5b6921",
-          "title": "bonding Firmenkontaktmesse Karlsruhe 2026",
-          "date": "2026-11-25",
-          "url": "https://kalender.karlsruhe.de/db/termine/messen_und_kongresse/bonding_firmenkontaktmesse_karlsruhe2026n"
         }
       ]
     },
@@ -22771,6 +22646,139 @@
           "title": "Wochenmarkt Langensteinbach",
           "date": "2026-12-04",
           "url": "https://www.karlsbad.de/eventcalendar?calendar=1&action=view_event&event_id=12623"
+        }
+      ]
+    },
+    {
+      "key": "venue-f7fe1d6134e1b3a004b9",
+      "location": "Karlsburg (Vorplatz)",
+      "scope": "durlach",
+      "scopeLabel": "Durlach",
+      "status": "resolved",
+      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
+      "method": "automatic",
+      "place": {
+        "id": "osm-way-23229362",
+        "name": "Karlsburg",
+        "latitude": 48.998476,
+        "longitude": 8.4738226,
+        "address": "Pfinztalstraße 9, 76227 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/23229362",
+        "category": "building",
+        "type": "public",
+        "city": "Karlsruhe",
+        "district": "Durlach",
+        "locality": "Alt-Durlach",
+        "street": "Pfinztalstraße",
+        "houseNumber": "9",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "osm-way-23229362",
+          "name": "Karlsburg",
+          "latitude": 48.998476,
+          "longitude": 8.4738226,
+          "address": "Pfinztalstraße 9, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/23229362",
+          "category": "building",
+          "type": "public",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Pfinztalstraße",
+          "houseNumber": "9",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-5782635777",
+          "name": "Karlsburg",
+          "latitude": 48.998607,
+          "longitude": 8.4744796,
+          "address": "Karlsburgstraße, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/5782635777",
+          "category": "highway",
+          "type": "bus_stop",
+          "street": "Karlsburgstraße",
+          "houseNumber": "",
+          "score": 1.0,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-764051158",
+          "name": "Karlsburg",
+          "latitude": 48.9988286,
+          "longitude": 8.4740299,
+          "address": "Pfinztalstraße 9, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/764051158",
+          "category": "amenity",
+          "type": "toilets",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Pfinztalstraße",
+          "houseNumber": "9",
+          "score": 1.0,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-1673731922",
+          "name": "Karlsburg Cafe",
+          "latitude": 48.9992282,
+          "longitude": 8.4739474,
+          "address": "Pfinztalstraße 22, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1673731922",
+          "category": "amenity",
+          "type": "cafe",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Pfinztalstraße",
+          "houseNumber": "22",
+          "score": 0.783,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-10294884305",
+          "name": "Trausaal Karlsburg Standesamt Durlach",
+          "latitude": 48.9988361,
+          "longitude": 8.4739368,
+          "address": "Pfinztalstraße 9, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/10294884305",
+          "category": "office",
+          "type": "government",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Pfinztalstraße",
+          "houseNumber": "9",
+          "score": 0.474,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "durlach"
+      ],
+      "sources": [
+        "Durlacher.de · Durlacher Kalender"
+      ],
+      "examples": [
+        {
+          "id": "durlach-12026-2026-11-25-1130",
+          "title": "Mittelalterlicher Weihnachtsmarkt",
+          "date": "2026-11-25",
+          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12026&tx_events2_events%5Btimestamp%5D=1795602600&cHash=a92387877ee2a3a950988de0e2e4ac2d"
         }
       ]
     },
@@ -25379,6 +25387,68 @@
           "title": "Mühlenfest",
           "date": "2027-09-19",
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1044/muehlenfest"
+        }
+      ]
+    },
+    {
+      "key": "venue-d10fb5e9850e512a175b",
+      "location": "NF-Haus 'Am Hopfenberg'",
+      "scope": "berghausen",
+      "scopeLabel": "Pfinztal-Berghausen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-node-563834301",
+        "name": "Naturfreundehaus Am Hopfenberg",
+        "latitude": 49.0008503,
+        "longitude": 8.5265647,
+        "address": "Touristenweg 11, 76327 Pfinztal-Berghausen",
+        "url": "https://www.openstreetmap.org/node/563834301",
+        "category": "amenity",
+        "type": "restaurant",
+        "street": "Touristenweg",
+        "houseNumber": "11",
+        "city": "Pfinztal",
+        "district": "Berghausen"
+      },
+      "candidates": [
+        {
+          "id": "osm-node-563834301",
+          "name": "Naturfreundehaus Am Hopfenberg",
+          "latitude": 49.0008503,
+          "longitude": 8.5265647,
+          "address": "Touristenweg 11, 76327 Berghausen",
+          "url": "https://www.openstreetmap.org/node/563834301",
+          "category": "amenity",
+          "type": "restaurant",
+          "city": "Berghausen",
+          "district": "Berghausen",
+          "locality": "",
+          "street": "Touristenweg",
+          "houseNumber": "11",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "naturfreunde-berghausen"
+      ],
+      "sources": [
+        "NaturFreunde Berghausen"
+      ],
+      "examples": [
+        {
+          "id": "naturfreunde-berghausen-997-2026-11-27-1500",
+          "title": "Adventsgestecke anfertigen",
+          "date": "2026-11-27",
+          "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/27/997/-/adventsgestecke-anfertigen"
         }
       ]
     },
@@ -30899,108 +30969,6 @@
       ]
     },
     {
-      "key": "venue-d0822009ff7924b24be5",
-      "location": "Werderplatz",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-relation-9293549",
-        "name": "Werderplatz",
-        "latitude": 49.0015245,
-        "longitude": 8.4068862,
-        "address": "Karlsruhe",
-        "url": "https://www.openstreetmap.org/relation/9293549",
-        "category": "place",
-        "type": "square",
-        "street": "",
-        "houseNumber": ""
-      },
-      "candidates": [
-        {
-          "id": "osm-relation-9293549",
-          "name": "Werderplatz",
-          "latitude": 49.0015245,
-          "longitude": 8.4068862,
-          "address": "Karlsruhe",
-          "url": "https://www.openstreetmap.org/relation/9293549",
-          "category": "place",
-          "type": "square",
-          "street": "",
-          "houseNumber": "",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-262435736",
-          "name": "Werderplatz",
-          "latitude": 49.0015072,
-          "longitude": 8.4067187,
-          "address": "76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/262435736",
-          "category": "highway",
-          "type": "living_street",
-          "street": "",
-          "houseNumber": "",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-1895908651",
-          "name": "Friseursalon Werderplatz",
-          "latitude": 49.0013823,
-          "longitude": 8.4067739,
-          "address": "Werderplatz, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/1895908651",
-          "category": "shop",
-          "type": "hairdresser",
-          "street": "Werderplatz",
-          "houseNumber": "",
-          "score": 0.629,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-5107732033",
-          "name": "Hausarztpraxis Werderplatz",
-          "latitude": 49.0013851,
-          "longitude": 8.4069027,
-          "address": "Werderstraße 40, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/5107732033",
-          "category": "amenity",
-          "type": "doctors",
-          "street": "Werderstraße",
-          "houseNumber": "40",
-          "score": 0.595,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-47f79b8820ccc29c",
-          "title": "Wochenmarkt Werderplatz",
-          "date": "2025-11-19",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/wochenmarkt_werderplatz"
-        }
-      ]
-    },
-    {
       "key": "venue-7f9f0ed479744ab6ded4",
       "location": "Wochenmarkt Rüppurr",
       "scope": "karlsruhe",
@@ -31827,8 +31795,8 @@
         "longitude": 8.37001,
         "address": "Liebigstraße 10-12, 76135 Karlsruhe",
         "url": "https://www.openstreetmap.org/node/410312751",
-        "category": "amenity",
-        "type": "community_centre",
+        "category": "club",
+        "type": "yes",
         "city": "Karlsruhe",
         "district": "Weststadt",
         "locality": "Weststadt Südlicher Teil",
@@ -31844,8 +31812,8 @@
           "longitude": 8.37001,
           "address": "Liebigstraße 10-12, 76135 Karlsruhe",
           "url": "https://www.openstreetmap.org/node/410312751",
-          "category": "amenity",
-          "type": "community_centre",
+          "category": "club",
+          "type": "yes",
           "city": "Karlsruhe",
           "district": "Weststadt",
           "locality": "Weststadt Südlicher Teil",

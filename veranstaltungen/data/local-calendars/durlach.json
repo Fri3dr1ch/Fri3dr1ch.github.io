@@ -4,8 +4,8 @@
     "name": "Durlacher.de · Durlacher Kalender",
     "region": "Durlach und Umgebung",
     "url": "https://www.durlacher.de/durlacher-kalender",
-    "status": "ok",
-    "lastAttemptAt": "2026-11-25T21:45:27+00:00",
+    "status": "error",
+    "lastAttemptAt": "2026-11-26T08:27:30+00:00",
     "lastSuccessAt": "2026-11-25T21:45:27+00:00",
     "refreshHours": 24,
     "recordCount": 26,
@@ -16,7 +16,8 @@
     "pagesFetched": 1,
     "coverageNote": "Veröffentlichte Vorschau der Durlacher Kalenderübersicht; kein vollständiger Jahreskalender.",
     "coverageStart": "2026-11-25",
-    "coverageEnd": "2027-01-10"
+    "coverageEnd": "2027-01-10",
+    "lastError": "ValueError: Durlacher Übersicht und Detaildatum widersprechen sich"
   },
   "events": [
     {

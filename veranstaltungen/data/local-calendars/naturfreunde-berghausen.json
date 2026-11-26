@@ -5,75 +5,23 @@
     "region": "Pfinztal-Berghausen",
     "url": "https://www.naturfreunde-berghausen.de/",
     "status": "ok",
-    "lastAttemptAt": "2026-11-25T21:45:45+00:00",
-    "lastSuccessAt": "2026-11-25T21:45:45+00:00",
+    "lastAttemptAt": "2026-11-26T08:28:06+00:00",
+    "lastSuccessAt": "2026-11-26T08:28:06+00:00",
     "refreshHours": 24,
-    "recordCount": 6,
-    "eventCount": 6,
+    "recordCount": 5,
+    "eventCount": 5,
     "undatedCount": 0,
     "coverageKind": "html-list",
     "license": null,
     "allowEmpty": true,
-    "pagesFetched": 9,
+    "pagesFetched": 8,
     "coverageNote": "Veröffentlichte Programmlisten des laufenden und des nächsten Kalenderjahres einschließlich verschobener Termine. Derzeit kurze Vorschau, kein vollständiger Jahresplan.",
     "extractionMethod": "deterministic-html",
     "llmRequired": false,
-    "coverageStart": "2026-11-25",
+    "coverageStart": "2026-11-27",
     "coverageEnd": "2027-01-03"
   },
   "events": [
-    {
-      "id": "naturfreunde-berghausen-996-2026-11-25-1730",
-      "sourceId": "naturfreunde-berghausen",
-      "sourceName": "NaturFreunde Berghausen",
-      "title": "Weihnachtsbasteleien mit Petra",
-      "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/25/996/-/weihnachtsbasteleien-mit-petra",
-      "icalUrl": null,
-      "region": "Pfinztal-Berghausen",
-      "city": null,
-      "categoryKey": "stadtleben",
-      "category": "Stadtleben",
-      "description": "Veranstalter: NaturFreunde Berghausen",
-      "organizer": "NaturFreunde Berghausen",
-      "location": "NF-Haus 'Am Hopfenberg'",
-      "start": "2026-11-25T17:30:00+01:00",
-      "end": null,
-      "startDate": "2026-11-25",
-      "endDate": "2026-11-25",
-      "startTime": "17:30",
-      "endTime": null,
-      "timeKnown": true,
-      "allDay": false,
-      "longRunning": false,
-      "scheduleNote": "",
-      "openingSchedule": null,
-      "openingOccurrences": null,
-      "status": "scheduled",
-      "dataQuality": "html-calendar",
-      "availability": null,
-      "detailCheckedAt": "2026-11-25T21:45:45+00:00",
-      "sources": [
-        {
-          "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/25/996/-/weihnachtsbasteleien-mit-petra",
-          "recordId": "996",
-          "title": "Weihnachtsbasteleien mit Petra",
-          "startDate": "2026-11-25",
-          "endDate": "2026-11-25",
-          "startTime": "17:30",
-          "endTime": null,
-          "dateText": "Mittwoch, 25. November 2026, 17:30",
-          "timeText": null,
-          "location": "NF-Haus 'Am Hopfenberg'",
-          "organizer": "NaturFreunde Berghausen",
-          "sourceId": "naturfreunde-berghausen",
-          "sourceName": "NaturFreunde Berghausen",
-          "reportedTitle": "Weihnachtsbasteleien mit Petra",
-          "checkedAt": "2026-11-25T21:45:45+00:00",
-          "priority": 2
-        }
-      ],
-      "conflicts": []
-    },
     {
       "id": "naturfreunde-berghausen-997-2026-11-27-1500",
       "sourceId": "naturfreunde-berghausen",
@@ -103,7 +51,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T21:45:45+00:00",
+      "detailCheckedAt": "2026-11-26T08:28:06+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/27/997/-/adventsgestecke-anfertigen",
@@ -120,7 +68,7 @@
           "sourceId": "naturfreunde-berghausen",
           "sourceName": "NaturFreunde Berghausen",
           "reportedTitle": "Adventsgestecke anfertigen",
-          "checkedAt": "2026-11-25T21:45:45+00:00",
+          "checkedAt": "2026-11-26T08:28:06+00:00",
           "priority": 2
         }
       ],
@@ -155,7 +103,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T21:45:45+00:00",
+      "detailCheckedAt": "2026-11-26T08:28:06+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/11/28/998/-/pflanzung-des-baum-des-jahres",
@@ -172,7 +120,7 @@
           "sourceId": "naturfreunde-berghausen",
           "sourceName": "NaturFreunde Berghausen",
           "reportedTitle": "Pflanzung des \"Baum des Jahres\"",
-          "checkedAt": "2026-11-25T21:45:45+00:00",
+          "checkedAt": "2026-11-26T08:28:06+00:00",
           "priority": 2
         }
       ],
@@ -201,13 +149,13 @@
       "timeKnown": true,
       "allDay": false,
       "longRunning": false,
-      "scheduleNote": "Fahrkartenwunsch an Harald Gfrörer, T. 0721462052, EMail: Diese E-Mail-Adresse ist vor Spambots geschützt! Zur Anzeige muss JavaScript eingeschaltet sein! document.getElementById('cloak062085b560f2c54ed2d23d42fd015b7e').innerHTML = ''; var prefix = '&#109;a' + 'i&#108;' + '&#116;o'; var path = 'hr' + 'ef' + '='; var addy062085b560f2c54ed2d23d42fd015b7e = 'g.gfr&#111;&#101;r&#101;r' + '&#64;'; addy062085b560f2c54ed2d23d42fd015b7e = addy062085b560f2c54ed2d23d42fd015b7e + 'gmx' + '&#46;' + 'd&#101;'; var addy_text062085b560f2c54ed2d23d42fd015b7e = 'g.gfr&#111;&#101;r&#101;r' + '&#64;' + 'gmx' + '&#46;' + 'd&#101;';document.getElementById('cloak062085b560f2c54ed2d23d42fd015b7e').innerHTML += '<a ' + path + '\\'' + prefix + ':' + addy062085b560f2c54ed2d23d42fd015b7e + '\\'>'+addy_text062085b560f2c54ed2d23d42fd015b7e+'<\\/a>';",
+      "scheduleNote": "Fahrkartenwunsch an Harald Gfrörer, T. 0721462052, EMail: Diese E-Mail-Adresse ist vor Spambots geschützt! Zur Anzeige muss JavaScript eingeschaltet sein! document.getElementById('cloakbc1229fdc763e78e0a26933ae66be2b4').innerHTML = ''; var prefix = '&#109;a' + 'i&#108;' + '&#116;o'; var path = 'hr' + 'ef' + '='; var addybc1229fdc763e78e0a26933ae66be2b4 = 'g.gfr&#111;&#101;r&#101;r' + '&#64;'; addybc1229fdc763e78e0a26933ae66be2b4 = addybc1229fdc763e78e0a26933ae66be2b4 + 'gmx' + '&#46;' + 'd&#101;'; var addy_textbc1229fdc763e78e0a26933ae66be2b4 = 'g.gfr&#111;&#101;r&#101;r' + '&#64;' + 'gmx' + '&#46;' + 'd&#101;';document.getElementById('cloakbc1229fdc763e78e0a26933ae66be2b4').innerHTML += '<a ' + path + '\\'' + prefix + ':' + addybc1229fdc763e78e0a26933ae66be2b4 + '\\'>'+addy_textbc1229fdc763e78e0a26933ae66be2b4+'<\\/a>';",
       "openingSchedule": null,
       "openingOccurrences": null,
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T21:45:45+00:00",
+      "detailCheckedAt": "2026-11-26T08:28:06+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/12/01/1000/-/stickelpfad-wolfartsweier",
@@ -224,7 +172,7 @@
           "sourceId": "naturfreunde-berghausen",
           "sourceName": "NaturFreunde Berghausen",
           "reportedTitle": "Stickelpfad Wolfartsweier",
-          "checkedAt": "2026-11-25T21:45:45+00:00",
+          "checkedAt": "2026-11-26T08:28:06+00:00",
           "priority": 2
         }
       ],
@@ -259,7 +207,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T21:45:45+00:00",
+      "detailCheckedAt": "2026-11-26T08:28:06+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2026/12/01/1001/-/achtung-falsche-abfahrtszeit-in-berghausen-bahnhof-zur-stickelpfadwanderung",
@@ -276,7 +224,7 @@
           "sourceId": "naturfreunde-berghausen",
           "sourceName": "NaturFreunde Berghausen",
           "reportedTitle": "Achtung: Falsche Abfahrtszeit in Berghausen Bahnhof zur Stickelpfadwanderung",
-          "checkedAt": "2026-11-25T21:45:45+00:00",
+          "checkedAt": "2026-11-26T08:28:06+00:00",
           "priority": 2
         }
       ],
@@ -311,7 +259,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T21:45:45+00:00",
+      "detailCheckedAt": "2026-11-26T08:28:06+00:00",
       "sources": [
         {
           "url": "https://www.naturfreunde-berghausen.de/programm/icalrepeat.detail/2027/01/03/999/-/die-gruene-stunde-in-den-rau-c-h-naechten",
@@ -328,7 +276,7 @@
           "sourceId": "naturfreunde-berghausen",
           "sourceName": "NaturFreunde Berghausen",
           "reportedTitle": "Die Grüne Stunde in den Rau(c)h-Nächten",
-          "checkedAt": "2026-11-25T21:45:45+00:00",
+          "checkedAt": "2026-11-26T08:28:06+00:00",
           "priority": 2
         }
       ],
