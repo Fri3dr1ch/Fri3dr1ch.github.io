@@ -182,12 +182,20 @@ def durlach_detail(raw,entry):
     title=text(only(box.xpath('./h2[1]'),'Durlacher Titel'))
     fields={text(dt):text(only(dt.xpath('following-sibling::dd[1]'),'Durlacher Datenfeld')) for dt in box.xpath('./dl/dt')}
     when=fields.get('Datum / Uhrzeit','');days=dates(when)
-    if days not in ([entry['startDate']],[entry['startDate'],entry['endDate']]):
-        raise ValueError('Durlacher Übersicht und Detaildatum widersprechen sich')
-    times=clocks(re.sub(r'\b\d{2}\.\d{2}\.\d{4}\b','',when))
+    start_day, end_day = entry['startDate'], entry['endDate']
+    single_day_in_range = len(days) == 1 and start_day <= days[0] <= end_day
+    if days != [start_day, end_day] and not single_day_in_range:
+        raise ValueError(
+            f"Durlacher Übersicht und Detaildatum widersprechen sich (Termin {entry['recordId']}: "
+            f"{start_day} bis {end_day}, Detail: {', '.join(days)})"
+        )
+    # An ongoing event can link to the current day's hours. Keep those in
+    # the source text without treating them as the hours of the full range.
+    covers_start = days[0] == start_day
+    times = clocks(re.sub(r'\b\d{2}\.\d{2}\.\d{4}\b','',when)) if covers_start else []
     return {**entry,'title':title,'location':fields.get('Veranstaltungsort',''),'organizer':fields.get('Veranstalter',''),
             'startTime':times[0] if times else None,'endTime':times[1] if len(times)>1 else None,
-            'timeText':when,'allDay':'ganztägig' in when.lower()}
+            'timeText':when,'allDay':covers_start and 'ganztägig' in when.lower()}
 
 def weingarten_entries(raw):
     tree=document(raw);entries=[]
