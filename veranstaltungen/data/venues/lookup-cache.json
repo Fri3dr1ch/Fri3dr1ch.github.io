@@ -22922,6 +22922,161 @@
           "houseNumber": "10-12"
         }
       ]
+    },
+    "Lammstraße / Ecke Kaiserstraße, Karlsruhe": {
+      "checkedAt": "2026-11-26T21:40:10+00:00",
+      "places": [
+        {
+          "id": "osm-node-9458813662",
+          "name": "Marktplatz (Kaiserstraße U)",
+          "latitude": 49.009682,
+          "longitude": 8.4022252,
+          "address": "Kaiserstraße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/9458813662",
+          "category": "railway",
+          "type": "stop",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-3234308913",
+          "name": "Marktplatz (Kaiserstraße U)",
+          "latitude": 49.0096898,
+          "longitude": 8.4020536,
+          "address": "Kaiserstraße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3234308913",
+          "category": "railway",
+          "type": "stop",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-9332104960",
+          "name": "Marktplatz (Kaiserstraße U)",
+          "latitude": 49.0096047,
+          "longitude": 8.4030972,
+          "address": "Kaiserstraße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/9332104960",
+          "category": "railway",
+          "type": "stop",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-3234308884",
+          "name": "Marktplatz (Kaiserstraße U)",
+          "latitude": 49.00966,
+          "longitude": 8.4022596,
+          "address": "Kaiserstraße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3234308884",
+          "category": "railway",
+          "type": "tram_stop",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-9458813716",
+          "name": "Marktplatz (Kaiserstraße U)",
+          "latitude": 49.0096143,
+          "longitude": 8.4028796,
+          "address": "Kaiserstraße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/9458813716",
+          "category": "railway",
+          "type": "stop",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-West",
+          "locality": "Innenstadt-West Östlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Finanzamt Karlsruhe-Durlach, Durlach": {
+      "checkedAt": "2026-11-26T21:40:10+00:00",
+      "places": [
+        {
+          "id": "osm-way-22927285",
+          "name": "Finanzamt Karlsruhe-Durlach",
+          "latitude": 48.9971973,
+          "longitude": 8.4737883,
+          "address": "Prinzessenstraße 2, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/22927285",
+          "category": "office",
+          "type": "government",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Alt-Durlach",
+          "street": "Prinzessenstraße",
+          "houseNumber": "2"
+        },
+        {
+          "id": "osm-node-9861735333",
+          "name": "Finanzamt Karlsruhe-Durlach Außenstelle Killisfeldstr.",
+          "latitude": 48.9967146,
+          "longitude": 8.4542295,
+          "address": "Killisfeldstraße 40a, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/9861735333",
+          "category": "office",
+          "type": "government",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Lohn-Lissen",
+          "street": "Killisfeldstraße",
+          "houseNumber": "40a"
+        }
+      ]
+    },
+    "InformatiKOM, Adenauerring 12, 76131 Karlsruhe, Karlsruhe": {
+      "checkedAt": "2026-11-26T21:40:10+00:00",
+      "places": [
+        {
+          "id": "osm-way-937998754",
+          "name": "InformatiKOM 1",
+          "latitude": 49.0113163,
+          "longitude": 8.4187652,
+          "address": "Adenauerring 12, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/937998754",
+          "category": "building",
+          "type": "university",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Westlicher Teil",
+          "street": "Adenauerring",
+          "houseNumber": "12"
+        }
+      ]
+    },
+    "SSC Karlsruhe e.V., Karlsruhe": {
+      "checkedAt": "2026-11-26T21:40:10+00:00",
+      "places": [
+        {
+          "id": "osm-node-4261495156",
+          "name": "SSC Karlsruhe e.V.",
+          "latitude": 49.0261983,
+          "longitude": 8.4412133,
+          "address": "Am Sportpark 5, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4261495156",
+          "category": "amenity",
+          "type": "community_centre",
+          "city": "Karlsruhe",
+          "district": "Waldstadt",
+          "locality": "Waldstadt Feldlage",
+          "street": "Am Sportpark",
+          "houseNumber": "5"
+        }
+      ]
     }
   },
   "attribution": {

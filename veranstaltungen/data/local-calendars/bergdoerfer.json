@@ -4,8 +4,8 @@
     "name": "Evangelische Gemeinde Bergdörfer",
     "region": "Karlsruhe-Bergdörfer",
     "url": "https://www.bergdoerfer.info/termine-2/",
-    "status": "ok",
-    "lastAttemptAt": "2026-11-25T19:17:14+00:00",
+    "status": "error",
+    "lastAttemptAt": "2026-11-26T21:39:55+00:00",
     "lastSuccessAt": "2026-11-25T19:17:14+00:00",
     "refreshHours": 24,
     "recordCount": 113,
@@ -16,7 +16,8 @@
     "pagesFetched": 12,
     "coverageNote": "Alle 113 veröffentlichten Termine auf 12 Ergebnisseiten der zentralen Terminübersicht.",
     "coverageStart": "2026-11-26",
-    "coverageEnd": "2027-02-22"
+    "coverageEnd": "2027-02-22",
+    "lastError": "ValueError: Unerwartetes Linkziel in Veranstaltungsquelle"
   },
   "events": [
     {

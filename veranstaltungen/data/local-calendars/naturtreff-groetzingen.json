@@ -5,8 +5,8 @@
     "region": "Grötzingen",
     "url": "https://naturtreff-groetzingen.de/veranstaltungen/",
     "status": "ok",
-    "lastAttemptAt": "2026-11-25T19:16:49+00:00",
-    "lastSuccessAt": "2026-11-25T19:16:49+00:00",
+    "lastAttemptAt": "2026-11-26T21:39:36+00:00",
+    "lastSuccessAt": "2026-11-26T21:39:36+00:00",
     "refreshHours": 24,
     "recordCount": 3,
     "eventCount": 3,
@@ -48,7 +48,7 @@
       "status": "scheduled",
       "dataQuality": "ical-feed",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:16:49+00:00",
+      "detailCheckedAt": "2026-11-26T21:39:36+00:00",
       "sources": [
         {
           "url": "https://naturtreff-groetzingen.de/veranstaltungen/neobiota-in-karlsruhe-asiatische-hornisse-invasive-ameisen-und-co/",
@@ -65,7 +65,7 @@
           "sourceId": "naturtreff-groetzingen",
           "sourceName": "Naturtreff Grötzingen",
           "reportedTitle": "Neobiota in Karlsruhe: Asiatische Hornisse, invasive Ameisen und Co.",
-          "checkedAt": "2026-11-25T19:16:49+00:00",
+          "checkedAt": "2026-11-26T21:39:36+00:00",
           "priority": 2
         }
       ],
@@ -100,7 +100,7 @@
       "status": "scheduled",
       "dataQuality": "ical-feed",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:16:49+00:00",
+      "detailCheckedAt": "2026-11-26T21:39:36+00:00",
       "sources": [
         {
           "url": "https://naturtreff-groetzingen.de/veranstaltungen/naturparadies-rheinauen/",
@@ -117,7 +117,7 @@
           "sourceId": "naturtreff-groetzingen",
           "sourceName": "Naturtreff Grötzingen",
           "reportedTitle": "Naturparadies Rheinauen",
-          "checkedAt": "2026-11-25T19:16:49+00:00",
+          "checkedAt": "2026-11-26T21:39:36+00:00",
           "priority": 2
         }
       ],
@@ -152,7 +152,7 @@
       "status": "scheduled",
       "dataQuality": "ical-feed",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:16:49+00:00",
+      "detailCheckedAt": "2026-11-26T21:39:36+00:00",
       "sources": [
         {
           "url": "https://naturtreff-groetzingen.de/veranstaltungen/heizen-kuehlen-mit-splitgeraeten/",
@@ -169,7 +169,7 @@
           "sourceId": "naturtreff-groetzingen",
           "sourceName": "Naturtreff Grötzingen",
           "reportedTitle": "Clever Heizen mit Klimaanlagen – Drei auf einen Streich: Kühlen, Heizen, Sparen!",
-          "checkedAt": "2026-11-25T19:16:49+00:00",
+          "checkedAt": "2026-11-26T21:39:36+00:00",
           "priority": 2
         }
       ],

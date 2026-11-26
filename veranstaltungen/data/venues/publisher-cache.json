@@ -2221,6 +2221,65 @@
       "checkedAt": "2026-11-26T08:29:08+00:00",
       "places": [],
       "addresses": []
+    },
+    "venue-06937a045eabacdecfae": {
+      "checkedAt": "2026-11-26T21:40:10+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-85eb030812607fa84525": {
+      "checkedAt": "2026-11-26T21:40:10+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-8aeab767ad28eafd0ea4": {
+      "checkedAt": "2026-11-26T21:40:10+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-acd3cb0730a8adb9647e": {
+      "checkedAt": "2026-11-26T21:40:10+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Lorenzstraße 19",
+          "city": "Karlsruhe",
+          "postalCode": "76135",
+          "address": "Lorenzstraße 19, 76135 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/ausstellungen/lets_talk_about_video"
+        }
+      ]
+    },
+    "venue-d3c555f769683da573a3": {
+      "checkedAt": "2026-11-26T21:40:10+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Lorenzstraße 19",
+          "city": "Karlsruhe",
+          "postalCode": "76135",
+          "address": "Lorenzstraße 19, 76135 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/sonic_experiments_resonating_futures"
+        }
+      ]
+    },
+    "venue-d62c478800a91ed9d7b2": {
+      "checkedAt": "2026-11-26T21:40:10+00:00",
+      "places": [
+        {
+          "id": "walzbachtal-address-889",
+          "name": "Freiwillige Feuerwehr Walzbachtal Abt. Wössingen",
+          "address": "Alte Straße 3/2, 75045 Walzbachtal-Wössingen",
+          "latitude": 49.015267322855,
+          "longitude": 8.6033484935433,
+          "url": "https://www.walzbachtal.de/adresse/Freiwillige-Feuerwehr-Walzbachtal-Abt-Woessingen-address889",
+          "eventUrl": "https://www.walzbachtal.de/veranstaltung/Tag-der-offen-Tuer-event-appointment6209",
+          "category": "publisher",
+          "type": "venue",
+          "provenance": "publisher"
+        }
+      ],
+      "addresses": []
     }
   }
 }
