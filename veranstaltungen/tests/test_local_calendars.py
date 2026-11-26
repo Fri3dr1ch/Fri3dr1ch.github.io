@@ -26,6 +26,38 @@ class LocalCalendarTests(unittest.TestCase):
         self.assertEqual((event['startDate'],event['endDate']),('2026-11-25','2026-12-21'))
         self.assertTrue(event['longRunning']);self.assertEqual(event['endTime'],'21:00')
 
+    def test_durlach_refresh_accepts_later_day_details_for_an_ongoing_event(self):
+        listing = b'''<div class="nopaginator"><p>
+        Mi. 25.11.2026 - Mo. 21.12.2026
+        <a href="/durlacher-kalender/ereignis?tx_events2_events%5Bevent%5D=12026">Mittelalterlicher Weihnachtsmarkt</a>
+        </p></div>'''
+        raw = self.fixture('durlach-range.html')
+        source = imp.SOURCES['durlach']
+        for weekday_and_date in (b'Donnerstag, 26.11.2026', b'Montag, 21.12.2026'):
+            with self.subTest(day=weekday_and_date):
+                detail = raw.replace(b'Mittwoch, 25.11.2026', weekday_and_date)
+                snapshot, error = imp.refresh(
+                    'durlach', STAMP, fetch=lambda url: listing if url == source['url'] else detail
+                )
+                self.assertIsNone(error)
+                self.assertEqual(snapshot['source']['status'], 'ok')
+                event, = snapshot['events']
+                self.assertEqual((event['startDate'], event['endDate']), ('2026-11-25', '2026-12-21'))
+                self.assertEqual(event['location'], 'Karlsburg (Vorplatz)')
+                self.assertIsNone(event['startTime'])
+                self.assertIsNone(event['endTime'])
+                self.assertFalse(event['timeKnown'])
+                self.assertIn(weekday_and_date.decode(), event['sources'][0]['timeText'])
+
+    def test_durlach_rejects_dates_outside_the_listing_and_conflicting_ranges(self):
+        entries = imp.durlach_entries(self.fixture('durlach-list.html'))
+        market = next(entry for entry in entries if entry['recordId'] == '12026')
+        detail = self.fixture('durlach-range.html')
+        for wrong_date in (b'24.11.2026', b'22.12.2026', b'25.11.2026 - 20.12.2026'):
+            with self.subTest(day=wrong_date):
+                with self.assertRaisesRegex(ValueError, 'widersprechen sich.*12026'):
+                    imp.durlach_detail(detail.replace(b'25.11.2026', wrong_date), market)
+
     def test_durlach_details_use_event_heading_and_skip_other_headings(self):
         entry=next(e for e in imp.durlach_entries(self.fixture('durlach-list.html')) if e['recordId']=='12041')
         record=imp.durlach_detail(self.fixture('durlach-detail.html'),entry)
