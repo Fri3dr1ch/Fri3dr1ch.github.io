@@ -23316,6 +23316,221 @@
           "houseNumber": "1"
         }
       ]
+    },
+    "Zähringer straße 65a, Karlsruhe": {
+      "checkedAt": "2026-11-27T21:24:08+00:00",
+      "places": [
+        {
+          "id": "osm-node-534796410",
+          "name": "Zähringerstraße 65a",
+          "latitude": 49.0088365,
+          "longitude": 8.4044532,
+          "address": "Zähringerstraße 65a, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/534796410",
+          "category": "place",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Zähringerstraße",
+          "houseNumber": "65a"
+        }
+      ]
+    },
+    "Niddaplatz, Grötzingen": {
+      "checkedAt": "2026-11-27T21:24:08+00:00",
+      "places": [
+        {
+          "id": "osm-way-1510799136",
+          "name": "Niddaplatz",
+          "latitude": 49.0066094,
+          "longitude": 8.4962557,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1510799136",
+          "category": "place",
+          "type": "square",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-24383757",
+          "name": "Niddaplatz",
+          "latitude": 49.0063494,
+          "longitude": 8.4962881,
+          "address": "76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/24383757",
+          "category": "highway",
+          "type": "service",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-10138714294",
+          "name": "Spiel- und Sportanlage Niddaplatz",
+          "latitude": 49.0067596,
+          "longitude": 8.4960721,
+          "address": "Büchelbergstraße, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/10138714294",
+          "category": "highway",
+          "type": "emergency_access_point",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Büchelbergstraße",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Kronenstraße 15, Karlsruhe": {
+      "checkedAt": "2026-11-27T21:24:08+00:00",
+      "places": [
+        {
+          "id": "osm-way-108754055",
+          "name": "Kronenstraße 15",
+          "latitude": 49.0098296,
+          "longitude": 8.4083125,
+          "address": "Kronenstraße 15, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/108754055",
+          "category": "building",
+          "type": "office",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Nordöstlicher Teil",
+          "street": "Kronenstraße",
+          "houseNumber": "15"
+        },
+        {
+          "id": "osm-node-4004213514",
+          "name": "Haus der Familie",
+          "latitude": 49.0098526,
+          "longitude": 8.4083719,
+          "address": "Kronenstraße 15, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/4004213514",
+          "category": "amenity",
+          "type": "community_centre",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Nordöstlicher Teil",
+          "street": "Kronenstraße",
+          "houseNumber": "15"
+        },
+        {
+          "id": "osm-node-11766207091",
+          "name": "AWO Kita Krone",
+          "latitude": 49.0098188,
+          "longitude": 8.4083387,
+          "address": "Kronenstraße 15, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/11766207091",
+          "category": "amenity",
+          "type": "kindergarten",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Nordöstlicher Teil",
+          "street": "Kronenstraße",
+          "houseNumber": "15"
+        },
+        {
+          "id": "osm-way-64007638",
+          "name": "Kronenstraße 15",
+          "latitude": 48.942736,
+          "longitude": 8.4089727,
+          "address": "Kronenstraße 15, 76275 Ettlingen",
+          "url": "https://www.openstreetmap.org/way/64007638",
+          "category": "building",
+          "type": "yes",
+          "city": "Ettlingen",
+          "district": "Ettlingen",
+          "locality": "",
+          "street": "Kronenstraße",
+          "houseNumber": "15"
+        },
+        {
+          "id": "osm-way-298583690",
+          "name": "Kronenstraße 15",
+          "latitude": 49.1104263,
+          "longitude": 8.5121372,
+          "address": "Kronenstraße 15, 76297 Spöck",
+          "url": "https://www.openstreetmap.org/way/298583690",
+          "category": "building",
+          "type": "house",
+          "city": "Spöck",
+          "district": "Spöck",
+          "locality": "",
+          "street": "Kronenstraße",
+          "houseNumber": "15"
+        }
+      ]
+    },
+    "Bürgersaal, Rathaus Grötzingen, Grötzingen": {
+      "checkedAt": "2026-11-27T21:24:08+00:00",
+      "places": [
+        {
+          "id": "osm-way-151355166",
+          "name": "Rathaus Grötzingen (Bürgerbüro)",
+          "latitude": 49.0075499,
+          "longitude": 8.4959545,
+          "address": "Rathausplatz 1, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151355166",
+          "category": "amenity",
+          "type": "townhall",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Rathausplatz",
+          "houseNumber": "1"
+        },
+        {
+          "id": "osm-node-1870249017",
+          "name": "Grötzingen Rathaus",
+          "latitude": 49.0075156,
+          "longitude": 8.4949328,
+          "address": "Grezzostraße, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1870249017",
+          "category": "highway",
+          "type": "bus_stop",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Grezzostraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-418586694",
+          "name": "Grötzingen Rathaus",
+          "latitude": 49.0069269,
+          "longitude": 8.4965245,
+          "address": "An der Pfinz, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/418586694",
+          "category": "information",
+          "type": "guidepost",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "An der Pfinz",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-221068024",
+          "name": "Rathausplatz",
+          "latitude": 49.0073431,
+          "longitude": 8.4958747,
+          "address": "Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/221068024",
+          "category": "place",
+          "type": "square",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
     }
   },
   "attribution": {

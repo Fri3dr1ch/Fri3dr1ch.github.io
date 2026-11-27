@@ -2329,6 +2329,19 @@
           "url": "https://kalender.karlsruhe.de/db/termine/musik/vorweihnachtliches_chorkonzert"
         }
       ]
+    },
+    "venue-90a59be2892c46336f96": {
+      "checkedAt": "2026-11-27T21:24:08+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Kronenstraße 15",
+          "city": "Karlsruhe",
+          "postalCode": "75131",
+          "address": "Kronenstraße 15, 75131 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/umsonstflohmarkt-2"
+        }
+      ]
     }
   }
 }
