@@ -4,126 +4,21 @@
     "name": "Evangelische Gemeinde Bergdörfer",
     "region": "Karlsruhe-Bergdörfer",
     "url": "https://www.bergdoerfer.info/termine-2/",
-    "status": "error",
-    "lastAttemptAt": "2026-11-27T08:42:25+00:00",
-    "lastSuccessAt": "2026-11-25T19:17:14+00:00",
+    "status": "ok",
+    "lastAttemptAt": "2026-11-27T11:59:24+00:00",
+    "lastSuccessAt": "2026-11-27T11:59:24+00:00",
     "refreshHours": 24,
-    "recordCount": 113,
-    "eventCount": 113,
+    "recordCount": 119,
+    "eventCount": 119,
     "undatedCount": 0,
     "coverageKind": "html-list",
     "license": null,
     "pagesFetched": 12,
-    "coverageNote": "Alle 113 veröffentlichten Termine auf 12 Ergebnisseiten der zentralen Terminübersicht.",
-    "coverageStart": "2026-11-26",
-    "coverageEnd": "2027-02-22",
-    "lastError": "ValueError: Unerwartetes Linkziel in Veranstaltungsquelle"
+    "coverageNote": "Alle 119 veröffentlichten Termine auf 12 Ergebnisseiten der zentralen Terminübersicht.",
+    "coverageStart": "2026-11-27",
+    "coverageEnd": "2027-02-24"
   },
   "events": [
-    {
-      "id": "bergdoerfer-1009043",
-      "sourceId": "bergdoerfer",
-      "sourceName": "Evangelische Gemeinde Bergdörfer",
-      "title": "Seniorennachmittag Wolfartsweier",
-      "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1009043-seniorennachmittag-wolfartsweier/?vt=1&cb-id=193413",
-      "icalUrl": null,
-      "region": "Karlsruhe-Bergdörfer",
-      "city": null,
-      "categoryKey": "stadtleben",
-      "category": "Stadtleben",
-      "description": "",
-      "organizer": "",
-      "location": "Evang. Gemeindezentrum Wolfartsweier, Wolfartsweier",
-      "start": "2026-11-26T15:00:00+01:00",
-      "end": "2026-11-26T17:00:00+01:00",
-      "startDate": "2026-11-26",
-      "endDate": "2026-11-26",
-      "startTime": "15:00",
-      "endTime": "17:00",
-      "timeKnown": true,
-      "allDay": false,
-      "longRunning": false,
-      "scheduleNote": "",
-      "openingSchedule": null,
-      "openingOccurrences": null,
-      "status": "scheduled",
-      "dataQuality": "html-calendar",
-      "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
-      "sources": [
-        {
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1009043-seniorennachmittag-wolfartsweier/?vt=1&cb-id=193413",
-          "recordId": "1009043",
-          "title": "Seniorennachmittag Wolfartsweier",
-          "startDate": "2026-11-26",
-          "endDate": "2026-11-26",
-          "startTime": "15:00",
-          "endTime": "17:00",
-          "dateText": null,
-          "timeText": null,
-          "location": "Evang. Gemeindezentrum Wolfartsweier, Wolfartsweier",
-          "organizer": null,
-          "sourceId": "bergdoerfer",
-          "sourceName": "Evangelische Gemeinde Bergdörfer",
-          "reportedTitle": "Seniorennachmittag Wolfartsweier",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
-          "priority": 2
-        }
-      ],
-      "conflicts": []
-    },
-    {
-      "id": "bergdoerfer-1070129",
-      "sourceId": "bergdoerfer",
-      "sourceName": "Evangelische Gemeinde Bergdörfer",
-      "title": "Startpunkt Eltern-Café und Sprachtreff",
-      "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1070129-startpunkt-eltern-cafe-und-sprachtreff/?vt=1&cb-id=193413",
-      "icalUrl": null,
-      "region": "Karlsruhe-Bergdörfer",
-      "city": null,
-      "categoryKey": "stadtleben",
-      "category": "Stadtleben",
-      "description": "",
-      "organizer": "",
-      "location": "Ökumenisches Gemeindezentrum Bergwald, Bergwald",
-      "start": "2026-11-27T09:30:00+01:00",
-      "end": "2026-11-27T11:30:00+01:00",
-      "startDate": "2026-11-27",
-      "endDate": "2026-11-27",
-      "startTime": "09:30",
-      "endTime": "11:30",
-      "timeKnown": true,
-      "allDay": false,
-      "longRunning": false,
-      "scheduleNote": "",
-      "openingSchedule": null,
-      "openingOccurrences": null,
-      "status": "scheduled",
-      "dataQuality": "html-calendar",
-      "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
-      "sources": [
-        {
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1070129-startpunkt-eltern-cafe-und-sprachtreff/?vt=1&cb-id=193413",
-          "recordId": "1070129",
-          "title": "Startpunkt Eltern-Café und Sprachtreff",
-          "startDate": "2026-11-27",
-          "endDate": "2026-11-27",
-          "startTime": "09:30",
-          "endTime": "11:30",
-          "dateText": null,
-          "timeText": null,
-          "location": "Ökumenisches Gemeindezentrum Bergwald, Bergwald",
-          "organizer": null,
-          "sourceId": "bergdoerfer",
-          "sourceName": "Evangelische Gemeinde Bergdörfer",
-          "reportedTitle": "Startpunkt Eltern-Café und Sprachtreff",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
-          "priority": 2
-        }
-      ],
-      "conflicts": []
-    },
     {
       "id": "bergdoerfer-988947",
       "sourceId": "bergdoerfer",
@@ -153,7 +48,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/988947-taizegebet/?vt=1&cb-id=193413",
@@ -170,7 +65,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Taizégebet",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -205,7 +100,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1061396-krippenspielprobe/?vt=1&cb-id=193413",
@@ -222,7 +117,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Krippenspielprobe",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -257,7 +152,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1098448-krippenspielprobe-palmbach/?vt=1&cb-id=193413",
@@ -274,7 +169,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Krippenspielprobe Palmbach",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -309,7 +204,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1094905-mama-auszeit-kifaz/?vt=1&cb-id=193413",
@@ -326,7 +221,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "\"Mama-Auszeit\" KiFaZ",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -361,7 +256,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1096036-mama-auszeit-kifaz/?vt=1&cb-id=193413",
@@ -378,7 +273,59 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "\"Mama-Auszeit\" KiFaZ",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
+          "priority": 2
+        }
+      ],
+      "conflicts": []
+    },
+    {
+      "id": "bergdoerfer-1134364",
+      "sourceId": "bergdoerfer",
+      "sourceName": "Evangelische Gemeinde Bergdörfer",
+      "title": "Weihnachtskrippe Oberwald",
+      "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1134364-weihnachtskrippe-oberwald/?vt=1&cb-id=193413",
+      "icalUrl": null,
+      "region": "Karlsruhe-Bergdörfer",
+      "city": null,
+      "categoryKey": "stadtleben",
+      "category": "Stadtleben",
+      "description": "",
+      "organizer": "",
+      "location": "Weihnachtskrippe Oberwald, Karlsruhe",
+      "start": "2026-11-28T15:30:00+01:00",
+      "end": "2026-11-28T16:15:00+01:00",
+      "startDate": "2026-11-28",
+      "endDate": "2026-11-28",
+      "startTime": "15:30",
+      "endTime": "16:15",
+      "timeKnown": true,
+      "allDay": false,
+      "longRunning": false,
+      "scheduleNote": "",
+      "openingSchedule": null,
+      "openingOccurrences": null,
+      "status": "scheduled",
+      "dataQuality": "html-calendar",
+      "availability": null,
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
+      "sources": [
+        {
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1134364-weihnachtskrippe-oberwald/?vt=1&cb-id=193413",
+          "recordId": "1134364",
+          "title": "Weihnachtskrippe Oberwald",
+          "startDate": "2026-11-28",
+          "endDate": "2026-11-28",
+          "startTime": "15:30",
+          "endTime": "16:15",
+          "dateText": null,
+          "timeText": null,
+          "location": "Weihnachtskrippe Oberwald, Karlsruhe",
+          "organizer": null,
+          "sourceId": "bergdoerfer",
+          "sourceName": "Evangelische Gemeinde Bergdörfer",
+          "reportedTitle": "Weihnachtskrippe Oberwald",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -413,7 +360,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910669-gottesdienst-mit-taufen/?vt=1&cb-id=193413",
@@ -430,7 +377,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Gottesdienst mit Taufen",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -465,7 +412,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910688-gottesdienst/?vt=1&cb-id=193413",
@@ -482,7 +429,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Gottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -517,7 +464,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1098429-stifterversammlung-jkb/?vt=1&cb-id=193413",
@@ -534,7 +481,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Stifterversammlung JKB",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -569,7 +516,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1102555-mini-gottesdienst-palmbach/?vt=1&cb-id=193413",
@@ -586,7 +533,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "MiNi Gottesdienst Palmbach",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -621,7 +568,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910690-abendgottesdienst/?vt=1&cb-id=193413",
@@ -638,7 +585,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Abendgottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -673,7 +620,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1114024-ortsteam-palmbach-stupferich/?vt=1&cb-id=193413",
@@ -690,7 +637,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Ortsteam Palmbach-Stupferich",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -725,7 +672,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1108417-treffen-team-stiftg-jakobskirche/?vt=1&cb-id=193413",
@@ -742,7 +689,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Treffen Team Stiftg. Jakobskirche",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -777,7 +724,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1123738-krippenspielprobe/?vt=1&cb-id=193413",
@@ -794,7 +741,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Krippenspielprobe",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -829,7 +776,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1047989-konfi-nachmittag-bfw-fest-gottesdienst/?vt=1&cb-id=193413",
@@ -846,7 +793,59 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Konfi Nachmittag BfW Fest Gottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
+          "priority": 2
+        }
+      ],
+      "conflicts": []
+    },
+    {
+      "id": "bergdoerfer-1114268",
+      "sourceId": "bergdoerfer",
+      "sourceName": "Evangelische Gemeinde Bergdörfer",
+      "title": "Advent im Turm: Annette zu Dohna",
+      "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1114268-advent-im-turm-annette-zu-dohna/?vt=1&cb-id=193413",
+      "icalUrl": null,
+      "region": "Karlsruhe-Bergdörfer",
+      "city": null,
+      "categoryKey": "stadtleben",
+      "category": "Stadtleben",
+      "description": "",
+      "organizer": "",
+      "location": "Jakobskirche, Wolfartsweier",
+      "start": "2026-12-02T19:00:00+01:00",
+      "end": "2026-12-02T20:00:00+01:00",
+      "startDate": "2026-12-02",
+      "endDate": "2026-12-02",
+      "startTime": "19:00",
+      "endTime": "20:00",
+      "timeKnown": true,
+      "allDay": false,
+      "longRunning": false,
+      "scheduleNote": "",
+      "openingSchedule": null,
+      "openingOccurrences": null,
+      "status": "scheduled",
+      "dataQuality": "html-calendar",
+      "availability": null,
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
+      "sources": [
+        {
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1114268-advent-im-turm-annette-zu-dohna/?vt=1&cb-id=193413",
+          "recordId": "1114268",
+          "title": "Advent im Turm: Annette zu Dohna",
+          "startDate": "2026-12-02",
+          "endDate": "2026-12-02",
+          "startTime": "19:00",
+          "endTime": "20:00",
+          "dateText": null,
+          "timeText": null,
+          "location": "Jakobskirche, Wolfartsweier",
+          "organizer": null,
+          "sourceId": "bergdoerfer",
+          "sourceName": "Evangelische Gemeinde Bergdörfer",
+          "reportedTitle": "Advent im Turm: Annette zu Dohna",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -881,7 +880,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1101000-oekumenischer-bibelgespraechskreis/?vt=1&cb-id=193413",
@@ -898,7 +897,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Ökumenischer Bibelgesprächskreis",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -933,7 +932,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1070130-startpunkt-eltern-cafe-und-sprachtreff/?vt=1&cb-id=193413",
@@ -950,7 +949,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Startpunkt Eltern-Café und Sprachtreff",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -985,7 +984,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1124115-familiengottesdienst/?vt=1&cb-id=193413",
@@ -1002,7 +1001,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Familiengottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -1037,7 +1036,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1123739-chorprobe-krippenspiel/?vt=1&cb-id=193413",
@@ -1054,7 +1053,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Chorprobe Krippenspiel",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -1089,7 +1088,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1124113-oek-friedensgebet/?vt=1&cb-id=193413",
@@ -1106,7 +1105,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Ök. Friedensgebet",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -1141,7 +1140,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1098449-krippenspielprobe-palmbach/?vt=1&cb-id=193413",
@@ -1158,7 +1157,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Krippenspielprobe Palmbach",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -1193,7 +1192,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910758-regio-gottesdienst/?vt=1&cb-id=193413",
@@ -1210,7 +1209,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Regio-Gottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -1245,7 +1244,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1032857-gottesdienst/?vt=1&cb-id=193413",
@@ -1262,7 +1261,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Gottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -1297,7 +1296,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1008622-seniorenadventsfeier-mit-pfrin-goetz-in-palmbach/?vt=1&cb-id=193413",
@@ -1314,7 +1313,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Seniorenadventsfeier mit Pfrin. Götz in Palmbach",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -1349,7 +1348,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1123740-krippenspielprobe/?vt=1&cb-id=193413",
@@ -1366,7 +1365,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Krippenspielprobe",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -1401,7 +1400,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1047974-konfi-a-nachmittag/?vt=1&cb-id=193413",
@@ -1418,18 +1417,18 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Konfi A Nachmittag",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
       "conflicts": []
     },
     {
-      "id": "bergdoerfer-923378",
+      "id": "bergdoerfer-1114269",
       "sourceId": "bergdoerfer",
       "sourceName": "Evangelische Gemeinde Bergdörfer",
-      "title": "Ortsteam Wolfartsweier",
-      "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/923378-ortsteam-wolfartsweier/?vt=1&cb-id=193413",
+      "title": "Advent im Turm: Stiftung Jakobskirche",
+      "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1114269-advent-im-turm-stiftung-jakobskirche/?vt=1&cb-id=193413",
       "icalUrl": null,
       "region": "Karlsruhe-Bergdörfer",
       "city": null,
@@ -1437,13 +1436,13 @@
       "category": "Stadtleben",
       "description": "",
       "organizer": "",
-      "location": "Evang. Gemeindezentrum Wolfartsweier, Wolfartsweier",
-      "start": "2026-12-09T19:30:00+01:00",
-      "end": null,
+      "location": "Jakobskirche, Wolfartsweier",
+      "start": "2026-12-09T19:00:00+01:00",
+      "end": "2026-12-09T20:00:00+01:00",
       "startDate": "2026-12-09",
       "endDate": "2026-12-09",
-      "startTime": "19:30",
-      "endTime": null,
+      "startTime": "19:00",
+      "endTime": "20:00",
       "timeKnown": true,
       "allDay": false,
       "longRunning": false,
@@ -1453,24 +1452,24 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/923378-ortsteam-wolfartsweier/?vt=1&cb-id=193413",
-          "recordId": "923378",
-          "title": "Ortsteam Wolfartsweier",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1114269-advent-im-turm-stiftung-jakobskirche/?vt=1&cb-id=193413",
+          "recordId": "1114269",
+          "title": "Advent im Turm: Stiftung Jakobskirche",
           "startDate": "2026-12-09",
           "endDate": "2026-12-09",
-          "startTime": "19:30",
-          "endTime": null,
+          "startTime": "19:00",
+          "endTime": "20:00",
           "dateText": null,
           "timeText": null,
-          "location": "Evang. Gemeindezentrum Wolfartsweier, Wolfartsweier",
+          "location": "Jakobskirche, Wolfartsweier",
           "organizer": null,
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
-          "reportedTitle": "Ortsteam Wolfartsweier",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "reportedTitle": "Advent im Turm: Stiftung Jakobskirche",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -1505,7 +1504,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1074554-donnerstags-um-zehn/?vt=1&cb-id=193413",
@@ -1522,7 +1521,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Donnerstags um zehn",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -1557,7 +1556,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1070131-startpunkt-eltern-cafe-und-sprachtreff/?vt=1&cb-id=193413",
@@ -1574,7 +1573,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Startpunkt Eltern-Café und Sprachtreff",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -1609,7 +1608,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1094904-kifaz-kreativ-workshop/?vt=1&cb-id=193413",
@@ -1626,7 +1625,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "KiFaZ-Kreativ-Workshop",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -1661,7 +1660,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/988949-taizegebet/?vt=1&cb-id=193413",
@@ -1678,7 +1677,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Taizégebet",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -1713,7 +1712,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1061397-krippenspielprobe/?vt=1&cb-id=193413",
@@ -1730,7 +1729,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Krippenspielprobe",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -1765,7 +1764,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1098452-krippenspielprobe-palmbach/?vt=1&cb-id=193413",
@@ -1782,7 +1781,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Krippenspielprobe Palmbach",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -1817,7 +1816,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910791-gottesdienst/?vt=1&cb-id=193413",
@@ -1834,7 +1833,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Gottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -1869,7 +1868,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910795-gottesdienst-mit-abendmahl/?vt=1&cb-id=193413",
@@ -1886,7 +1885,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Gottesdienst mit Abendmahl",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -1921,7 +1920,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910774-jazzpel/?vt=1&cb-id=193413",
@@ -1938,7 +1937,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Jazzpel",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -1973,7 +1972,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1112513-treffen-besuchsdienst-gw/?vt=1&cb-id=193413",
@@ -1990,7 +1989,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Treffen Besuchsdienst GW",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -2025,7 +2024,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1123741-krippenspielprobe/?vt=1&cb-id=193413",
@@ -2042,7 +2041,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Krippenspielprobe",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -2077,7 +2076,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1047990-konfi-b-nachmittag/?vt=1&cb-id=193413",
@@ -2094,7 +2093,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Konfi B Nachmittag",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -2129,7 +2128,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1047999-konfi-a-nachmittag/?vt=1&cb-id=193413",
@@ -2146,7 +2145,59 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Konfi A Nachmittag",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
+          "priority": 2
+        }
+      ],
+      "conflicts": []
+    },
+    {
+      "id": "bergdoerfer-1114270",
+      "sourceId": "bergdoerfer",
+      "sourceName": "Evangelische Gemeinde Bergdörfer",
+      "title": "Advent im Turm: Pfadfinder und Friedenslicht",
+      "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1114270-advent-im-turm-pfadfinder-und-friedenslicht/?vt=1&cb-id=193413",
+      "icalUrl": null,
+      "region": "Karlsruhe-Bergdörfer",
+      "city": null,
+      "categoryKey": "stadtleben",
+      "category": "Stadtleben",
+      "description": "",
+      "organizer": "",
+      "location": "Jakobskirche, Wolfartsweier",
+      "start": "2026-12-16T19:00:00+01:00",
+      "end": "2026-12-16T20:00:00+01:00",
+      "startDate": "2026-12-16",
+      "endDate": "2026-12-16",
+      "startTime": "19:00",
+      "endTime": "20:00",
+      "timeKnown": true,
+      "allDay": false,
+      "longRunning": false,
+      "scheduleNote": "",
+      "openingSchedule": null,
+      "openingOccurrences": null,
+      "status": "scheduled",
+      "dataQuality": "html-calendar",
+      "availability": null,
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
+      "sources": [
+        {
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1114270-advent-im-turm-pfadfinder-und-friedenslicht/?vt=1&cb-id=193413",
+          "recordId": "1114270",
+          "title": "Advent im Turm: Pfadfinder und Friedenslicht",
+          "startDate": "2026-12-16",
+          "endDate": "2026-12-16",
+          "startTime": "19:00",
+          "endTime": "20:00",
+          "dateText": null,
+          "timeText": null,
+          "location": "Jakobskirche, Wolfartsweier",
+          "organizer": null,
+          "sourceId": "bergdoerfer",
+          "sourceName": "Evangelische Gemeinde Bergdörfer",
+          "reportedTitle": "Advent im Turm: Pfadfinder und Friedenslicht",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -2181,7 +2232,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1009044-senioren-weihnachtsfeier-wolfartsweier/?vt=1&cb-id=193413",
@@ -2198,7 +2249,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Senioren-Weihnachtsfeier Wolfartsweier",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -2233,7 +2284,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/962243-trauercafe/?vt=1&cb-id=193413",
@@ -2250,7 +2301,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Trauercafé",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -2285,7 +2336,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1101001-oekumenischer-bibelgespraechskreis/?vt=1&cb-id=193413",
@@ -2302,7 +2353,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Ökumenischer Bibelgesprächskreis",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -2337,7 +2388,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1070132-startpunkt-eltern-cafe-und-sprachtreff/?vt=1&cb-id=193413",
@@ -2354,7 +2405,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Startpunkt Eltern-Café und Sprachtreff",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -2389,7 +2440,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1123742-krippenspielprobe/?vt=1&cb-id=193413",
@@ -2406,7 +2457,59 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Krippenspielprobe",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
+          "priority": 2
+        }
+      ],
+      "conflicts": []
+    },
+    {
+      "id": "bergdoerfer-1134038",
+      "sourceId": "bergdoerfer",
+      "sourceName": "Evangelische Gemeinde Bergdörfer",
+      "title": "Ök. Friedensgebet",
+      "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1134038-oek-friedensgebet/?vt=1&cb-id=193413",
+      "icalUrl": null,
+      "region": "Karlsruhe-Bergdörfer",
+      "city": null,
+      "categoryKey": "stadtleben",
+      "category": "Stadtleben",
+      "description": "",
+      "organizer": "",
+      "location": "Gottesdienst an einem anderen Ort - siehe Ankündigung",
+      "start": "2026-12-18T18:00:00+01:00",
+      "end": null,
+      "startDate": "2026-12-18",
+      "endDate": "2026-12-18",
+      "startTime": "18:00",
+      "endTime": null,
+      "timeKnown": true,
+      "allDay": false,
+      "longRunning": false,
+      "scheduleNote": "",
+      "openingSchedule": null,
+      "openingOccurrences": null,
+      "status": "scheduled",
+      "dataQuality": "html-calendar",
+      "availability": null,
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
+      "sources": [
+        {
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1134038-oek-friedensgebet/?vt=1&cb-id=193413",
+          "recordId": "1134038",
+          "title": "Ök. Friedensgebet",
+          "startDate": "2026-12-18",
+          "endDate": "2026-12-18",
+          "startTime": "18:00",
+          "endTime": null,
+          "dateText": null,
+          "timeText": null,
+          "location": "Gottesdienst an einem anderen Ort - siehe Ankündigung",
+          "organizer": null,
+          "sourceId": "bergdoerfer",
+          "sourceName": "Evangelische Gemeinde Bergdörfer",
+          "reportedTitle": "Ök. Friedensgebet",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -2441,7 +2544,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1061398-krippenspielprobe/?vt=1&cb-id=193413",
@@ -2458,7 +2561,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Krippenspielprobe",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -2493,7 +2596,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910809-gesamtgottesdienst/?vt=1&cb-id=193413",
@@ -2510,7 +2613,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Gesamtgottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -2545,7 +2648,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1114258-weihnachtsgottesdienst-grundschule-wolfartsweier/?vt=1&cb-id=193413",
@@ -2562,7 +2665,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Weihnachtsgottesdienst Grundschule Wolfartsweier",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -2597,7 +2700,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1123743-krippenspielprobe/?vt=1&cb-id=193413",
@@ -2614,7 +2717,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Krippenspielprobe",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -2649,7 +2752,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910863-krippenspiel/?vt=1&cb-id=193413",
@@ -2666,7 +2769,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Krippenspiel",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -2701,7 +2804,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910865-krippenspiel/?vt=1&cb-id=193413",
@@ -2718,7 +2821,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Krippenspiel",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -2753,7 +2856,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/923535-krippenspiel/?vt=1&cb-id=193413",
@@ -2770,7 +2873,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Krippenspiel",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -2805,7 +2908,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/923537-krippenspiel/?vt=1&cb-id=193413",
@@ -2822,7 +2925,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Krippenspiel",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -2857,7 +2960,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/923539-krippenspiel/?vt=1&cb-id=193413",
@@ -2874,7 +2977,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Krippenspiel",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -2909,7 +3012,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910861-christvesper/?vt=1&cb-id=193413",
@@ -2926,7 +3029,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Christvesper",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -2961,7 +3064,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910844-christvesper/?vt=1&cb-id=193413",
@@ -2978,7 +3081,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Christvesper",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -3013,7 +3116,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/923543-christmette/?vt=1&cb-id=193413",
@@ -3030,7 +3133,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Christmette",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -3065,7 +3168,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1106257-christmette/?vt=1&cb-id=193413",
@@ -3082,7 +3185,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Christmette",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -3117,7 +3220,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910896-gesamtgottesdienst/?vt=1&cb-id=193413",
@@ -3134,7 +3237,59 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Gesamtgottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
+          "priority": 2
+        }
+      ],
+      "conflicts": []
+    },
+    {
+      "id": "bergdoerfer-1134365",
+      "sourceId": "bergdoerfer",
+      "sourceName": "Evangelische Gemeinde Bergdörfer",
+      "title": "Weihnachtskrippe Oberwald",
+      "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1134365-weihnachtskrippe-oberwald/?vt=1&cb-id=193413",
+      "icalUrl": null,
+      "region": "Karlsruhe-Bergdörfer",
+      "city": null,
+      "categoryKey": "stadtleben",
+      "category": "Stadtleben",
+      "description": "",
+      "organizer": "",
+      "location": "Weihnachtskrippe Oberwald, Karlsruhe",
+      "start": "2026-12-25T16:00:00+01:00",
+      "end": "2026-12-25T17:00:00+01:00",
+      "startDate": "2026-12-25",
+      "endDate": "2026-12-25",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "timeKnown": true,
+      "allDay": false,
+      "longRunning": false,
+      "scheduleNote": "",
+      "openingSchedule": null,
+      "openingOccurrences": null,
+      "status": "scheduled",
+      "dataQuality": "html-calendar",
+      "availability": null,
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
+      "sources": [
+        {
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1134365-weihnachtskrippe-oberwald/?vt=1&cb-id=193413",
+          "recordId": "1134365",
+          "title": "Weihnachtskrippe Oberwald",
+          "startDate": "2026-12-25",
+          "endDate": "2026-12-25",
+          "startTime": "16:00",
+          "endTime": "17:00",
+          "dateText": null,
+          "timeText": null,
+          "location": "Weihnachtskrippe Oberwald, Karlsruhe",
+          "organizer": null,
+          "sourceId": "bergdoerfer",
+          "sourceName": "Evangelische Gemeinde Bergdörfer",
+          "reportedTitle": "Weihnachtskrippe Oberwald",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -3169,7 +3324,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/923547-gesamtgottesdienst/?vt=1&cb-id=193413",
@@ -3186,7 +3341,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Gesamtgottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -3221,7 +3376,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1081063-abendgottesdienst/?vt=1&cb-id=193413",
@@ -3238,7 +3393,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Abendgottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -3273,7 +3428,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910932-gottesdienst-mit-abendmahl/?vt=1&cb-id=193413",
@@ -3290,7 +3445,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Gottesdienst mit Abendmahl",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -3325,7 +3480,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1097607-regio-gottesdienst/?vt=1&cb-id=193413",
@@ -3342,7 +3497,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Regio-Gottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -3377,7 +3532,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1075407-gottesdienst-mit-abendmahl/?vt=1&cb-id=193413",
@@ -3394,7 +3549,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Gottesdienst mit Abendmahl",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -3429,7 +3584,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1113120-gottesdienst-werkstatt/?vt=1&cb-id=193413",
@@ -3446,7 +3601,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Gottesdienst-Werkstatt",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -3481,7 +3636,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1078142-oekumenischer-gottesdienst/?vt=1&cb-id=193413",
@@ -3498,7 +3653,59 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Ökumenischer Gottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
+          "priority": 2
+        }
+      ],
+      "conflicts": []
+    },
+    {
+      "id": "bergdoerfer-923378",
+      "sourceId": "bergdoerfer",
+      "sourceName": "Evangelische Gemeinde Bergdörfer",
+      "title": "Neujahrsempfang des Ortsteam Wolfartsweier",
+      "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/923378-neujahrsempfang-des-ortsteam-wolfartsweier/?vt=1&cb-id=193413",
+      "icalUrl": null,
+      "region": "Karlsruhe-Bergdörfer",
+      "city": null,
+      "categoryKey": "stadtleben",
+      "category": "Stadtleben",
+      "description": "",
+      "organizer": "",
+      "location": "Evang. Gemeindezentrum Wolfartsweier, Wolfartsweier",
+      "start": "2027-01-08T19:00:00+01:00",
+      "end": null,
+      "startDate": "2027-01-08",
+      "endDate": "2027-01-08",
+      "startTime": "19:00",
+      "endTime": null,
+      "timeKnown": true,
+      "allDay": false,
+      "longRunning": false,
+      "scheduleNote": "",
+      "openingSchedule": null,
+      "openingOccurrences": null,
+      "status": "scheduled",
+      "dataQuality": "html-calendar",
+      "availability": null,
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
+      "sources": [
+        {
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/923378-neujahrsempfang-des-ortsteam-wolfartsweier/?vt=1&cb-id=193413",
+          "recordId": "923378",
+          "title": "Neujahrsempfang des Ortsteam Wolfartsweier",
+          "startDate": "2027-01-08",
+          "endDate": "2027-01-08",
+          "startTime": "19:00",
+          "endTime": null,
+          "dateText": null,
+          "timeText": null,
+          "location": "Evang. Gemeindezentrum Wolfartsweier, Wolfartsweier",
+          "organizer": null,
+          "sourceId": "bergdoerfer",
+          "sourceName": "Evangelische Gemeinde Bergdörfer",
+          "reportedTitle": "Neujahrsempfang des Ortsteam Wolfartsweier",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -3533,7 +3740,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1075451-gottesdienst/?vt=1&cb-id=193413",
@@ -3550,7 +3757,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Gottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -3585,7 +3792,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1075427-gottesdienst/?vt=1&cb-id=193413",
@@ -3602,7 +3809,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Gottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -3637,7 +3844,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1108419-genussvoll-glauben-biblisches-whiskytasting-mit-jonas-lauter/?vt=1&cb-id=193413",
@@ -3654,7 +3861,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Genussvoll Glauben - Biblisches Whiskytasting mit Jonas Lauter",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -3689,7 +3896,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1047992-konfi-b-nachmittag/?vt=1&cb-id=193413",
@@ -3706,7 +3913,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Konfi B Nachmittag",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -3741,7 +3948,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1074555-donnerstags-um-zehn/?vt=1&cb-id=193413",
@@ -3758,7 +3965,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Donnerstags um zehn",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -3793,7 +4000,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1101038-oekumenischer-bibelgespraechskreis/?vt=1&cb-id=193413",
@@ -3810,7 +4017,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Ökumenischer Bibelgesprächskreis",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -3845,7 +4052,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/988951-taizegebet/?vt=1&cb-id=193413",
@@ -3862,7 +4069,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Taizégebet",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -3897,7 +4104,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1098433-infoabend-zur-kirchentagsfahrt/?vt=1&cb-id=193413",
@@ -3914,7 +4121,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Infoabend zur Kirchentagsfahrt",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -3949,7 +4156,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1075485-gottesdienst-mit-abendmahl/?vt=1&cb-id=193413",
@@ -3966,7 +4173,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Gottesdienst mit Abendmahl",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -4001,7 +4208,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1075495-gottesdienst/?vt=1&cb-id=193413",
@@ -4018,7 +4225,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Gottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -4053,7 +4260,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1075498-abendgottesdienst/?vt=1&cb-id=193413",
@@ -4070,7 +4277,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Abendgottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -4105,7 +4312,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1047977-konfi-a-nachmittag/?vt=1&cb-id=193413",
@@ -4122,7 +4329,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Konfi A Nachmittag",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -4157,7 +4364,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1103301-kifaz-kreativ-workshop/?vt=1&cb-id=193413",
@@ -4174,7 +4381,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "KiFaZ-Kreativ-Workshop",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -4209,7 +4416,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1120725-oek-friedensgebet/?vt=1&cb-id=193413",
@@ -4226,7 +4433,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Ök. Friedensgebet",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -4261,7 +4468,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1075542-gottesdienst/?vt=1&cb-id=193413",
@@ -4278,7 +4485,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Gottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -4313,7 +4520,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1075529-gottesdienst/?vt=1&cb-id=193413",
@@ -4330,7 +4537,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Gottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -4365,7 +4572,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1075515-gottesdienst/?vt=1&cb-id=193413",
@@ -4382,7 +4589,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Gottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -4417,7 +4624,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1101850-seniorentreff-palmbach/?vt=1&cb-id=193413",
@@ -4434,7 +4641,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Seniorentreff Palmbach",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -4469,7 +4676,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1090232-oekumenische-bibelwoche/?vt=1&cb-id=193413",
@@ -4486,7 +4693,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Ökumenische Bibelwoche",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -4521,7 +4728,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1047993-konfi-b-nachmittag/?vt=1&cb-id=193413",
@@ -4538,7 +4745,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Konfi B Nachmittag",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -4573,7 +4780,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1101818-seniorennachmittag-wolfartsweier/?vt=1&cb-id=193413",
@@ -4590,7 +4797,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Seniorennachmittag Wolfartsweier",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -4625,7 +4832,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1090233-oekumenische-bibelwoche/?vt=1&cb-id=193413",
@@ -4642,7 +4849,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Ökumenische Bibelwoche",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -4677,7 +4884,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/988953-taizegebet/?vt=1&cb-id=193413",
@@ -4694,7 +4901,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Taizégebet",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -4729,7 +4936,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1113474-fruehstueck-kinder-und-jugendarbeit/?vt=1&cb-id=193413",
@@ -4746,7 +4953,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Frühstück Kinder- und Jugendarbeit",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -4781,7 +4988,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1075559-gottesdienst-mit-abendmahl/?vt=1&cb-id=193413",
@@ -4798,7 +5005,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Gottesdienst mit Abendmahl",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -4833,7 +5040,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1075583-gottesdienst/?vt=1&cb-id=193413",
@@ -4850,7 +5057,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Gottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -4885,7 +5092,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1075573-abendgottesdienst/?vt=1&cb-id=193413",
@@ -4902,7 +5109,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Abendgottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -4937,7 +5144,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1093908-seniorennachmittag-65-hohenwettersbach-bergwald/?vt=1&cb-id=193413",
@@ -4954,7 +5161,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Seniorennachmittag 65+ Hohenwettersbach-Bergwald",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -4989,7 +5196,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1047978-konfi-a-nachmittag/?vt=1&cb-id=193413",
@@ -5006,7 +5213,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Konfi A Nachmittag",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -5041,7 +5248,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1115056-regio-rat/?vt=1&cb-id=193413",
@@ -5058,7 +5265,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Regio-Rat",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -5093,7 +5300,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1090234-oekumenische-bibelwoche/?vt=1&cb-id=193413",
@@ -5110,7 +5317,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Ökumenische Bibelwoche",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -5145,7 +5352,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1120727-oek-friedensgebet/?vt=1&cb-id=193413",
@@ -5162,7 +5369,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Ök. Friedensgebet",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -5197,7 +5404,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1075627-gottesdienst/?vt=1&cb-id=193413",
@@ -5214,7 +5421,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Gottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -5249,7 +5456,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1075603-abendgottesdienst/?vt=1&cb-id=193413",
@@ -5266,7 +5473,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Abendgottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -5301,7 +5508,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/988955-taizegebet/?vt=1&cb-id=193413",
@@ -5318,7 +5525,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Taizégebet",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -5353,7 +5560,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1075674-gottesdienst/?vt=1&cb-id=193413",
@@ -5370,7 +5577,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Gottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -5405,7 +5612,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1075661-gottesdienst/?vt=1&cb-id=193413",
@@ -5422,7 +5629,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Gottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -5457,7 +5664,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1048002-konfi-a-b-nachmittag/?vt=1&cb-id=193413",
@@ -5474,7 +5681,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Konfi A+B Nachmittag",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -5509,7 +5716,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1074556-donnerstags-um-zehn/?vt=1&cb-id=193413",
@@ -5526,7 +5733,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Donnerstags um zehn",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -5561,7 +5768,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1101069-oekumenischer-bibelgespraechskreis/?vt=1&cb-id=193413",
@@ -5578,7 +5785,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Ökumenischer Bibelgesprächskreis",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -5613,7 +5820,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1099813-vortrag-waldenserverein/?vt=1&cb-id=193413",
@@ -5630,7 +5837,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Vortrag Waldenserverein",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -5665,7 +5872,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1120729-oek-friedensgebet/?vt=1&cb-id=193413",
@@ -5682,7 +5889,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Ök. Friedensgebet",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -5717,7 +5924,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1075705-gottesdienst/?vt=1&cb-id=193413",
@@ -5734,7 +5941,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Gottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -5769,7 +5976,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1075718-gottesdienst/?vt=1&cb-id=193413",
@@ -5786,7 +5993,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Gottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -5821,7 +6028,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1097610-abendgottesdienst/?vt=1&cb-id=193413",
@@ -5838,7 +6045,7 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Abendgottesdienst",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],
@@ -5873,7 +6080,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-25T19:17:14+00:00",
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
       "sources": [
         {
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1114026-ortsteam-palmbach-stupferich/?vt=1&cb-id=193413",
@@ -5890,7 +6097,111 @@
           "sourceId": "bergdoerfer",
           "sourceName": "Evangelische Gemeinde Bergdörfer",
           "reportedTitle": "Ortsteam Palmbach-Stupferich",
-          "checkedAt": "2026-11-25T19:17:14+00:00",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
+          "priority": 2
+        }
+      ],
+      "conflicts": []
+    },
+    {
+      "id": "bergdoerfer-1101851",
+      "sourceId": "bergdoerfer",
+      "sourceName": "Evangelische Gemeinde Bergdörfer",
+      "title": "Seniorentreff Palmbach",
+      "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1101851-seniorentreff-palmbach/?vt=1&cb-id=193413",
+      "icalUrl": null,
+      "region": "Karlsruhe-Bergdörfer",
+      "city": null,
+      "categoryKey": "stadtleben",
+      "category": "Stadtleben",
+      "description": "",
+      "organizer": "",
+      "location": "Evang. Gemeindehaus Palmbach, Palmbach",
+      "start": "2027-02-23T14:30:00+01:00",
+      "end": "2027-02-23T16:30:00+01:00",
+      "startDate": "2027-02-23",
+      "endDate": "2027-02-23",
+      "startTime": "14:30",
+      "endTime": "16:30",
+      "timeKnown": true,
+      "allDay": false,
+      "longRunning": false,
+      "scheduleNote": "",
+      "openingSchedule": null,
+      "openingOccurrences": null,
+      "status": "scheduled",
+      "dataQuality": "html-calendar",
+      "availability": null,
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
+      "sources": [
+        {
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1101851-seniorentreff-palmbach/?vt=1&cb-id=193413",
+          "recordId": "1101851",
+          "title": "Seniorentreff Palmbach",
+          "startDate": "2027-02-23",
+          "endDate": "2027-02-23",
+          "startTime": "14:30",
+          "endTime": "16:30",
+          "dateText": null,
+          "timeText": null,
+          "location": "Evang. Gemeindehaus Palmbach, Palmbach",
+          "organizer": null,
+          "sourceId": "bergdoerfer",
+          "sourceName": "Evangelische Gemeinde Bergdörfer",
+          "reportedTitle": "Seniorentreff Palmbach",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
+          "priority": 2
+        }
+      ],
+      "conflicts": []
+    },
+    {
+      "id": "bergdoerfer-1047995",
+      "sourceId": "bergdoerfer",
+      "sourceName": "Evangelische Gemeinde Bergdörfer",
+      "title": "Konfi B Nachmittag",
+      "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1047995-konfi-b-nachmittag/?vt=1&cb-id=193413",
+      "icalUrl": null,
+      "region": "Karlsruhe-Bergdörfer",
+      "city": null,
+      "categoryKey": "stadtleben",
+      "category": "Stadtleben",
+      "description": "",
+      "organizer": "",
+      "location": "Evang. Gemeindehaus Palmbach, Palmbach",
+      "start": "2027-02-24T16:00:00+01:00",
+      "end": "2027-02-24T18:00:00+01:00",
+      "startDate": "2027-02-24",
+      "endDate": "2027-02-24",
+      "startTime": "16:00",
+      "endTime": "18:00",
+      "timeKnown": true,
+      "allDay": false,
+      "longRunning": false,
+      "scheduleNote": "",
+      "openingSchedule": null,
+      "openingOccurrences": null,
+      "status": "scheduled",
+      "dataQuality": "html-calendar",
+      "availability": null,
+      "detailCheckedAt": "2026-11-27T11:59:24+00:00",
+      "sources": [
+        {
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1047995-konfi-b-nachmittag/?vt=1&cb-id=193413",
+          "recordId": "1047995",
+          "title": "Konfi B Nachmittag",
+          "startDate": "2027-02-24",
+          "endDate": "2027-02-24",
+          "startTime": "16:00",
+          "endTime": "18:00",
+          "dateText": null,
+          "timeText": null,
+          "location": "Evang. Gemeindehaus Palmbach, Palmbach",
+          "organizer": null,
+          "sourceId": "bergdoerfer",
+          "sourceName": "Evangelische Gemeinde Bergdörfer",
+          "reportedTitle": "Konfi B Nachmittag",
+          "checkedAt": "2026-11-27T11:59:24+00:00",
           "priority": 2
         }
       ],

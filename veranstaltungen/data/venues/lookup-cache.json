@@ -23157,6 +23157,165 @@
           "houseNumber": ""
         }
       ]
+    },
+    "Waldwiese hinter dem Waldklassenzimmer, Karlsruhe": {
+      "checkedAt": "2026-11-27T12:00:16+00:00",
+      "places": []
+    },
+    "Gottesauer Straße 35, Karlsruhe": {
+      "checkedAt": "2026-11-27T12:00:16+00:00",
+      "places": [
+        {
+          "id": "osm-way-108832351",
+          "name": "Gottesauer Straße 35",
+          "latitude": 49.0068154,
+          "longitude": 8.4208005,
+          "address": "Gottesauer Straße 35, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/108832351",
+          "category": "building",
+          "type": "residential",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Westlicher Teil",
+          "street": "Gottesauer Straße",
+          "houseNumber": "35"
+        },
+        {
+          "id": "osm-node-1669073010",
+          "name": "nun Kaffeehaus",
+          "latitude": 49.0068065,
+          "longitude": 8.4207765,
+          "address": "Gottesauer Straße 35, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1669073010",
+          "category": "amenity",
+          "type": "bar",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Westlicher Teil",
+          "street": "Gottesauer Straße",
+          "houseNumber": "35"
+        }
+      ]
+    },
+    "Zähringerstraße 65a, Karlsruhe": {
+      "checkedAt": "2026-11-27T12:00:16+00:00",
+      "places": [
+        {
+          "id": "osm-node-534796410",
+          "name": "Zähringerstraße 65a",
+          "latitude": 49.0088365,
+          "longitude": 8.4044532,
+          "address": "Zähringerstraße 65a, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/534796410",
+          "category": "place",
+          "type": "house",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Zähringerstraße",
+          "houseNumber": "65a"
+        }
+      ]
+    },
+    "Käthe-Kollwitz-Saal, Karlsruhe": {
+      "checkedAt": "2026-11-27T12:00:16+00:00",
+      "places": [
+        {
+          "id": "osm-way-4410732",
+          "name": "Käthe-Kollwitz-Straße",
+          "latitude": 48.9911805,
+          "longitude": 8.481765,
+          "address": "76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/4410732",
+          "category": "highway",
+          "type": "residential",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Geigersberg",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-4410736",
+          "name": "Käthe-Kollwitz-Straße",
+          "latitude": 48.989632,
+          "longitude": 8.4801044,
+          "address": "76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/4410736",
+          "category": "highway",
+          "type": "service",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Geigersberg",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-765977823",
+          "name": "Käthe-Kollwitz-Straße",
+          "latitude": 48.9931393,
+          "longitude": 8.4787257,
+          "address": "Bergwaldstraße, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/765977823",
+          "category": "highway",
+          "type": "bus_stop",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Geigersberg",
+          "street": "Bergwaldstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-7853519",
+          "name": "Käthe-Kollwitz-Weg",
+          "latitude": 48.9686921,
+          "longitude": 8.3031517,
+          "address": "76287 Rheinstetten",
+          "url": "https://www.openstreetmap.org/way/7853519",
+          "category": "highway",
+          "type": "living_street",
+          "city": "Rheinstetten",
+          "district": "Mörsch",
+          "locality": "Neue Stadtmitte",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-4627467",
+          "name": "Käthe-Kollwitz-Straße",
+          "latitude": 49.0485573,
+          "longitude": 8.5274743,
+          "address": "76356 Weingarten",
+          "url": "https://www.openstreetmap.org/way/4627467",
+          "category": "highway",
+          "type": "living_street",
+          "city": "Weingarten",
+          "district": "Waldbrücke",
+          "locality": "",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
+    },
+    "Peter-und-Paul-Platz 1, Karlsruhe": {
+      "checkedAt": "2026-11-27T12:00:16+00:00",
+      "places": [
+        {
+          "id": "osm-way-52276454",
+          "name": "St. Peter und Paul",
+          "latitude": 49.0109203,
+          "longitude": 8.3648868,
+          "address": "Peter-und-Paul-Platz 1, 76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/52276454",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "city": "Karlsruhe",
+          "district": "Mühlburg",
+          "locality": "Alt-Mühlburg",
+          "street": "Peter-und-Paul-Platz",
+          "houseNumber": "1"
+        }
+      ]
     }
   },
   "attribution": {

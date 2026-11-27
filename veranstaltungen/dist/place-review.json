@@ -1,32 +1,32 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T08:43:00+00:00",
+  "generatedAt": "2026-11-27T12:00:15+00:00",
   "attribution": {
     "text": "© OpenStreetMap contributors · ODbL",
     "url": "https://www.openstreetmap.org/copyright"
   },
   "stats": {
-    "venues": 424,
+    "venues": 431,
     "venueStatuses": {
       "missing": 9,
       "online": 4,
-      "queued": 4,
-      "excluded": 9,
-      "review": 21,
-      "resolved": 377
-    },
-    "upcomingEvents": 1373,
-    "eventStatuses": {
-      "resolved": 1244,
-      "review": 21,
-      "missing": 87,
       "queued": 5,
+      "review": 26,
+      "excluded": 9,
+      "resolved": 378
+    },
+    "upcomingEvents": 1391,
+    "eventStatuses": {
+      "resolved": 1255,
+      "review": 27,
+      "queued": 6,
+      "missing": 87,
       "online": 6,
       "excluded": 10
     }
   },
   "lookup": {
-    "requested": 1,
+    "requested": 10,
     "failures": []
   },
   "rows": [
@@ -293,6 +293,42 @@
           "title": "ÁRSTÍÐIR Vetrarsól 2026 – Lutherkirche Karlsruhe",
           "date": "2026-12-08",
           "url": "https://kalender.karlsruhe.de/db/termine/musik/arstiir_vetrarsol_2026_lutherkirche_karlsruhe"
+        }
+      ]
+    },
+    {
+      "key": "venue-50fe76a08ca3e4840c30",
+      "location": "Weihnachtskrippe Oberwald, Karlsruhe",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "review",
+      "reason": "Kein ausreichend bestimmter Ortskontext.",
+      "method": null,
+      "place": null,
+      "candidates": [],
+      "eventCount": 2,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "bergdoerfer"
+      ],
+      "sources": [
+        "Evangelische Gemeinde Bergdörfer"
+      ],
+      "examples": [
+        {
+          "id": "bergdoerfer-1134364",
+          "title": "Weihnachtskrippe Oberwald",
+          "date": "2026-11-28",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1134364-weihnachtskrippe-oberwald/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-1134365",
+          "title": "Weihnachtskrippe Oberwald",
+          "date": "2026-12-25",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1134365-weihnachtskrippe-oberwald/?vt=1&cb-id=193413"
         }
       ]
     },
@@ -959,6 +995,36 @@
       ]
     },
     {
+      "key": "venue-ef2dad7582f27b43ee5f",
+      "location": "Gottesdienst an einem anderen Ort - siehe Ankündigung",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "review",
+      "reason": "Kein ausreichend bestimmter Ortskontext.",
+      "method": null,
+      "place": null,
+      "candidates": [],
+      "eventCount": 1,
+      "reviewNote": "Diese Angabe steht für wechselnde Orte. Das Friedensgebet am 19. Februar 2027 findet laut eigener Terminbeschreibung in St. Margaretha Wolfartsweier statt.",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "bergdoerfer"
+      ],
+      "sources": [
+        "Evangelische Gemeinde Bergdörfer"
+      ],
+      "examples": [
+        {
+          "id": "bergdoerfer-1134038",
+          "title": "Ök. Friedensgebet",
+          "date": "2026-12-18",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1134038-oek-friedensgebet/?vt=1&cb-id=193413"
+        }
+      ]
+    },
+    {
       "key": "venue-647175621f60cb9cff9c",
       "location": "Hochschule Karlsruhe Geb. LI, Hörsaal",
       "scope": "karlsruhe",
@@ -1467,6 +1533,91 @@
       ]
     },
     {
+      "key": "venue-583a964d4379350b8f9e",
+      "location": "Käthe-Kollwitz-Saal",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "review",
+      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
+      "method": null,
+      "place": null,
+      "candidates": [
+        {
+          "id": "osm-node-765977823",
+          "name": "Käthe-Kollwitz-Straße",
+          "latitude": 48.9931393,
+          "longitude": 8.4787257,
+          "address": "Bergwaldstraße, 76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/765977823",
+          "category": "highway",
+          "type": "bus_stop",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Geigersberg",
+          "street": "Bergwaldstraße",
+          "houseNumber": "",
+          "score": 0.829,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-4410732",
+          "name": "Käthe-Kollwitz-Straße",
+          "latitude": 48.9911805,
+          "longitude": 8.481765,
+          "address": "76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/4410732",
+          "category": "highway",
+          "type": "residential",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Geigersberg",
+          "street": "",
+          "houseNumber": "",
+          "score": 0.829,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-4410736",
+          "name": "Käthe-Kollwitz-Straße",
+          "latitude": 48.989632,
+          "longitude": 8.4801044,
+          "address": "76227 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/4410736",
+          "category": "highway",
+          "type": "service",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Geigersberg",
+          "street": "",
+          "houseNumber": "",
+          "score": 0.829,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-cc8ea4f350b461b9",
+          "title": "Lyrik im Ausnahmezustand?",
+          "date": "2026-12-04",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/lyrik_im_ausnahmezustand"
+        }
+      ]
+    },
+    {
       "key": "venue-06937a045eabacdecfae",
       "location": "Lammstraße / Ecke Kaiserstraße",
       "scope": "karlsruhe",
@@ -1584,6 +1735,81 @@
           "title": "Science in the Box",
           "date": "2026-12-02",
           "url": "https://kalender.karlsruhe.de/db/termine/literatur/science_in_the_box"
+        }
+      ]
+    },
+    {
+      "key": "venue-3c1b8bb1e43674114230",
+      "location": "NUN Kulturraum e.V.",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "review",
+      "reason": "Mehrere gleich gut passende Kartenobjekte; Auswahl erforderlich.",
+      "method": null,
+      "place": null,
+      "candidates": [
+        {
+          "id": "osm-node-1669073010",
+          "name": "nun Kaffeehaus",
+          "latitude": 49.0068065,
+          "longitude": 8.4207765,
+          "address": "Gottesauer Straße 35, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1669073010",
+          "category": "amenity",
+          "type": "bar",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Westlicher Teil",
+          "street": "Gottesauer Straße",
+          "houseNumber": "35",
+          "score": 0.5,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-108832351",
+          "name": "Gottesauer Straße 35",
+          "latitude": 49.0068154,
+          "longitude": 8.4208005,
+          "address": "Gottesauer Straße 35, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/108832351",
+          "category": "building",
+          "type": "residential",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Westlicher Teil",
+          "street": "Gottesauer Straße",
+          "houseNumber": "35",
+          "score": 0.286,
+          "exact": true,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [
+        {
+          "street": "Gottesauer Straße 35",
+          "city": "Karlsruhe",
+          "postalCode": "76131",
+          "address": "Gottesauer Straße 35, 76131 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/nun_marchenzeit_tischlein_deck_dich"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-3a449f5601bed5ab",
+          "title": "NUN-Märchenzeit: Tischlein deck dich",
+          "date": "2026-11-29",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/nun_marchenzeit_tischlein_deck_dich"
         }
       ]
     },
@@ -2054,6 +2280,44 @@
       ]
     },
     {
+      "key": "venue-53708cf585af4442be63",
+      "location": "Tabou-Lounge – Weinbrenner-Caveau",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "queued",
+      "reason": "Automatischer Abruf vorgemerkt; zuerst einen der nächsten Aktualisierungsläufe abwarten.",
+      "method": null,
+      "place": null,
+      "candidates": [],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [
+        {
+          "street": "Zähringerstraße 65a",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Zähringerstraße 65a, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/safranskis_nietzsche"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-46f1152f96919f2f",
+          "title": "Safranskis Nietzsche",
+          "date": "2026-11-29",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/safranskis_nietzsche"
+        }
+      ]
+    },
+    {
       "key": "venue-88fe188bf98d3a9c7d46",
       "location": "Teffpunkt Toreinfahrt Alte Schule Jöhlingen",
       "scope": "joehlingen",
@@ -2141,6 +2405,113 @@
           "title": "Lichterfahrt der Landwirte und Winzer",
           "date": "2027-12-05",
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/1043/lichterfahrt-der-landwirte-und-winzer"
+        }
+      ]
+    },
+    {
+      "key": "venue-3bc6e7b8592c415a462c",
+      "location": "Waldwiese hinter dem Waldklassenzimmer",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "review",
+      "reason": "Nur ähnliche Namen gefunden; Vorschlag bitte prüfen.",
+      "method": null,
+      "place": null,
+      "candidates": [
+        {
+          "id": "osm-node-6396660259",
+          "name": "Waldklassenzimmer",
+          "latitude": 49.0282823,
+          "longitude": 8.4086356,
+          "address": "Kanalweg, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/6396660259",
+          "category": "information",
+          "type": "map",
+          "street": "Kanalweg",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-135510435",
+          "name": "Waldklassenzimmer",
+          "latitude": 49.0286172,
+          "longitude": 8.4088693,
+          "address": "Kanalweg, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/135510435",
+          "category": "building",
+          "type": "yes",
+          "street": "Kanalweg",
+          "houseNumber": "",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-2624764127",
+          "name": "Marktfrau hinter der kleinen Kirche",
+          "latitude": 49.0089461,
+          "longitude": 8.4053875,
+          "address": "Kreuzstraße, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/2624764127",
+          "category": "historic",
+          "type": "memorial",
+          "street": "Kreuzstraße",
+          "houseNumber": "",
+          "score": 0.493,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-1447812835",
+          "name": "Liebesbrunnen vor dem Durlacher Rathaus",
+          "latitude": 48.9990799,
+          "longitude": 8.4715291,
+          "address": "Karlsruhe-Durlach",
+          "url": "https://www.openstreetmap.org/node/1447812835",
+          "category": "amenity",
+          "type": "fountain",
+          "score": 0.442,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-13139732301",
+          "name": "Sternwarte Karlsruhe auf dem Max-Planck-Gymnasium",
+          "latitude": 48.9763189,
+          "longitude": 8.414519,
+          "address": "Krokusweg 49, 76199 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/13139732301",
+          "category": "tourism",
+          "type": "viewpoint",
+          "city": "Karlsruhe",
+          "district": "Rüppurr",
+          "locality": "Gartenstadt",
+          "street": "Krokusweg",
+          "houseNumber": "49",
+          "score": 0.39,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-53aca5b448ee47f3",
+          "title": "Waldweihnacht im Karlsruher Hardtwald",
+          "date": "2026-12-06",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/waldweihnacht_im_karlsruher_hardtwald-1"
         }
       ]
     },
@@ -3290,6 +3661,67 @@
       ]
     },
     {
+      "key": "venue-e4daa9604584095f0306",
+      "location": "Jakobskirche, Wolfartsweier",
+      "scope": null,
+      "scopeLabel": "Ortskontext offen",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-103573224",
+        "name": "Evangelische Jakobskirche",
+        "latitude": 48.9755135,
+        "longitude": 8.4517825,
+        "address": "Wettersteinstraße 17, 76228 Karlsruhe-Wolfartsweier",
+        "url": "https://www.openstreetmap.org/way/103573224",
+        "category": "amenity",
+        "type": "place_of_worship",
+        "street": "Wettersteinstraße",
+        "houseNumber": "17",
+        "city": "Karlsruhe",
+        "district": "Wolfartsweier"
+      },
+      "candidates": [],
+      "eventCount": 21,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "bergdoerfer"
+      ],
+      "sources": [
+        "Evangelische Gemeinde Bergdörfer"
+      ],
+      "examples": [
+        {
+          "id": "bergdoerfer-988947",
+          "title": "Taizégebet",
+          "date": "2026-11-27",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/988947-taizegebet/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-1123738",
+          "title": "Krippenspielprobe",
+          "date": "2026-12-02",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1123738-krippenspielprobe/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-1114268",
+          "title": "Advent im Turm: Annette zu Dohna",
+          "date": "2026-12-02",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1114268-advent-im-turm-annette-zu-dohna/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-1123739",
+          "title": "Chorprobe Krippenspiel",
+          "date": "2026-12-04",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1123739-chorprobe-krippenspiel/?vt=1&cb-id=193413"
+        }
+      ]
+    },
+    {
       "key": "venue-700e8ee348117c01cff9",
       "location": "Trauzimmer im Rathaus oder Wartturm auf dem Turmberg",
       "scope": "weingarten",
@@ -3396,67 +3828,6 @@
       ]
     },
     {
-      "key": "venue-a11102c52347b1f3cedb",
-      "location": "Ökumenisches Gemeindezentrum Bergwald, Bergwald",
-      "scope": null,
-      "scopeLabel": "Ortskontext offen",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-288808336",
-        "name": "Ökumenisches Gemeindezentrum",
-        "latitude": 48.9719649,
-        "longitude": 8.4668017,
-        "address": "Elsa-Brändström-Straße 18, 76228 Karlsruhe-Bergwald",
-        "url": "https://www.openstreetmap.org/way/288808336",
-        "category": "amenity",
-        "type": "community_centre",
-        "street": "Elsa-Brändström-Straße",
-        "houseNumber": "18",
-        "city": "Karlsruhe",
-        "district": "Bergwald"
-      },
-      "candidates": [],
-      "eventCount": 19,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "bergdoerfer"
-      ],
-      "sources": [
-        "Evangelische Gemeinde Bergdörfer"
-      ],
-      "examples": [
-        {
-          "id": "bergdoerfer-1070129",
-          "title": "Startpunkt Eltern-Café und Sprachtreff",
-          "date": "2026-11-27",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1070129-startpunkt-eltern-cafe-und-sprachtreff/?vt=1&cb-id=193413"
-        },
-        {
-          "id": "bergdoerfer-1094905",
-          "title": "\"Mama-Auszeit\" KiFaZ",
-          "date": "2026-11-28",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1094905-mama-auszeit-kifaz/?vt=1&cb-id=193413"
-        },
-        {
-          "id": "bergdoerfer-1096036",
-          "title": "\"Mama-Auszeit\" KiFaZ",
-          "date": "2026-11-28",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1096036-mama-auszeit-kifaz/?vt=1&cb-id=193413"
-        },
-        {
-          "id": "bergdoerfer-910688",
-          "title": "Gottesdienst",
-          "date": "2026-11-29",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910688-gottesdienst/?vt=1&cb-id=193413"
-        }
-      ]
-    },
-    {
       "key": "venue-810de3561ebd9f12e090",
       "location": "Evang. Gemeindehaus Palmbach, Palmbach",
       "scope": null,
@@ -3479,7 +3850,7 @@
         "district": "Palmbach"
       },
       "candidates": [],
-      "eventCount": 18,
+      "eventCount": 20,
       "reviewNote": "",
       "sourceAddresses": [],
       "organizer": "",
@@ -3518,26 +3889,26 @@
       ]
     },
     {
-      "key": "venue-e4daa9604584095f0306",
-      "location": "Jakobskirche, Wolfartsweier",
+      "key": "venue-a11102c52347b1f3cedb",
+      "location": "Ökumenisches Gemeindezentrum Bergwald, Bergwald",
       "scope": null,
       "scopeLabel": "Ortskontext offen",
       "status": "resolved",
       "reason": "Einmalig bestätigte Zuordnung.",
       "method": "reviewed",
       "place": {
-        "id": "osm-way-103573224",
-        "name": "Evangelische Jakobskirche",
-        "latitude": 48.9755135,
-        "longitude": 8.4517825,
-        "address": "Wettersteinstraße 17, 76228 Karlsruhe-Wolfartsweier",
-        "url": "https://www.openstreetmap.org/way/103573224",
+        "id": "osm-way-288808336",
+        "name": "Ökumenisches Gemeindezentrum",
+        "latitude": 48.9719649,
+        "longitude": 8.4668017,
+        "address": "Elsa-Brändström-Straße 18, 76228 Karlsruhe-Bergwald",
+        "url": "https://www.openstreetmap.org/way/288808336",
         "category": "amenity",
-        "type": "place_of_worship",
-        "street": "Wettersteinstraße",
-        "houseNumber": "17",
+        "type": "community_centre",
+        "street": "Elsa-Brändström-Straße",
+        "houseNumber": "18",
         "city": "Karlsruhe",
-        "district": "Wolfartsweier"
+        "district": "Bergwald"
       },
       "candidates": [],
       "eventCount": 18,
@@ -3553,28 +3924,28 @@
       ],
       "examples": [
         {
-          "id": "bergdoerfer-988947",
-          "title": "Taizégebet",
-          "date": "2026-11-27",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/988947-taizegebet/?vt=1&cb-id=193413"
+          "id": "bergdoerfer-1094905",
+          "title": "\"Mama-Auszeit\" KiFaZ",
+          "date": "2026-11-28",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1094905-mama-auszeit-kifaz/?vt=1&cb-id=193413"
         },
         {
-          "id": "bergdoerfer-1123738",
-          "title": "Krippenspielprobe",
-          "date": "2026-12-02",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1123738-krippenspielprobe/?vt=1&cb-id=193413"
+          "id": "bergdoerfer-1096036",
+          "title": "\"Mama-Auszeit\" KiFaZ",
+          "date": "2026-11-28",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1096036-mama-auszeit-kifaz/?vt=1&cb-id=193413"
         },
         {
-          "id": "bergdoerfer-1123739",
-          "title": "Chorprobe Krippenspiel",
-          "date": "2026-12-04",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1123739-chorprobe-krippenspiel/?vt=1&cb-id=193413"
-        },
-        {
-          "id": "bergdoerfer-1032857",
+          "id": "bergdoerfer-910688",
           "title": "Gottesdienst",
-          "date": "2026-12-06",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1032857-gottesdienst/?vt=1&cb-id=193413"
+          "date": "2026-11-29",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/910688-gottesdienst/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-1098429",
+          "title": "Stifterversammlung JKB",
+          "date": "2026-11-29",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1098429-stifterversammlung-jkb/?vt=1&cb-id=193413"
         }
       ]
     },
@@ -3791,6 +4162,132 @@
       ]
     },
     {
+      "key": "venue-9e0eb9a3ce8fa80d91ef",
+      "location": "Kulturzentrum Tollhaus",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
+      "method": "automatic",
+      "place": {
+        "id": "osm-way-549437544",
+        "name": "Kulturzentrum Tollhaus",
+        "latitude": 49.0044252,
+        "longitude": 8.4317094,
+        "address": "Alter Schlachthof 35, 76131 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/549437544",
+        "category": "amenity",
+        "type": "arts_centre",
+        "city": "Karlsruhe",
+        "district": "Oststadt",
+        "locality": "Kreativpark Alter Schlachthof",
+        "street": "Alter Schlachthof",
+        "houseNumber": "35",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "osm-way-549437544",
+          "name": "Kulturzentrum Tollhaus",
+          "latitude": 49.0044252,
+          "longitude": 8.4317094,
+          "address": "Alter Schlachthof 35, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/549437544",
+          "category": "amenity",
+          "type": "arts_centre",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Kreativpark Alter Schlachthof",
+          "street": "Alter Schlachthof",
+          "houseNumber": "35",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-13163864381",
+          "name": "Bauernmarkt Karlsruhe",
+          "latitude": 49.0047014,
+          "longitude": 8.4317806,
+          "address": "Alter Schlachthof 35, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/13163864381",
+          "category": "amenity",
+          "type": "marketplace",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "Alter Schlachthof",
+          "houseNumber": "35",
+          "score": 0.211,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-484396384",
+          "name": "Alter Schlachthof 35",
+          "latitude": 49.0045449,
+          "longitude": 8.4314329,
+          "address": "Alter Schlachthof 35, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/484396384",
+          "category": "building",
+          "type": "civic",
+          "city": "Karlsruhe",
+          "district": "Oststadt",
+          "locality": "Oststadt Südlicher Teil",
+          "street": "Alter Schlachthof",
+          "houseNumber": "35",
+          "score": 0.143,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 16,
+      "reviewNote": "",
+      "sourceAddresses": [
+        {
+          "street": "Alter Schlachthof 35",
+          "city": "Karlsruhe",
+          "postalCode": "76131",
+          "address": "Alter Schlachthof 35, 76131 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/wohnzimmerkonzert08n"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-23305e21889ad139",
+          "title": "30 JAHRE SEÁN TREACY BAND - DIE JUBILÄUMSFETE",
+          "date": "2026-11-27",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/30_jahre_sean_treacy_band_die_jubilaumsfete"
+        },
+        {
+          "id": "karlsruhe-5b9c67db8ca0f780",
+          "title": "JOSEF HADER",
+          "date": "2026-11-27",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/josef_hader"
+        },
+        {
+          "id": "karlsruhe-9a6943679af2df66",
+          "title": "CAVEWOMAN",
+          "date": "2026-11-28",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/cavewoman"
+        },
+        {
+          "id": "karlsruhe-6380777fd57ca5d7",
+          "title": "GREGOR MEYLE & BAND",
+          "date": "2026-11-28",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/gregor_meyle_band"
+        }
+      ]
+    },
+    {
       "key": "venue-ac6922d27c0ddaae0fe4",
       "location": "Evangelische Kirche Grötzingen",
       "scope": "groetzingen",
@@ -3896,132 +4393,6 @@
       ]
     },
     {
-      "key": "venue-9e0eb9a3ce8fa80d91ef",
-      "location": "Kulturzentrum Tollhaus",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
-      "method": "automatic",
-      "place": {
-        "id": "osm-way-549437544",
-        "name": "Kulturzentrum Tollhaus",
-        "latitude": 49.0044252,
-        "longitude": 8.4317094,
-        "address": "Alter Schlachthof 35, 76131 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/549437544",
-        "category": "amenity",
-        "type": "arts_centre",
-        "city": "Karlsruhe",
-        "district": "Oststadt",
-        "locality": "Kreativpark Alter Schlachthof",
-        "street": "Alter Schlachthof",
-        "houseNumber": "35",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-way-549437544",
-          "name": "Kulturzentrum Tollhaus",
-          "latitude": 49.0044252,
-          "longitude": 8.4317094,
-          "address": "Alter Schlachthof 35, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/549437544",
-          "category": "amenity",
-          "type": "arts_centre",
-          "city": "Karlsruhe",
-          "district": "Oststadt",
-          "locality": "Kreativpark Alter Schlachthof",
-          "street": "Alter Schlachthof",
-          "houseNumber": "35",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-13163864381",
-          "name": "Bauernmarkt Karlsruhe",
-          "latitude": 49.0047014,
-          "longitude": 8.4317806,
-          "address": "Alter Schlachthof 35, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/13163864381",
-          "category": "amenity",
-          "type": "marketplace",
-          "city": "Karlsruhe",
-          "district": "Oststadt",
-          "locality": "Oststadt Südlicher Teil",
-          "street": "Alter Schlachthof",
-          "houseNumber": "35",
-          "score": 0.211,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-484396384",
-          "name": "Alter Schlachthof 35",
-          "latitude": 49.0045449,
-          "longitude": 8.4314329,
-          "address": "Alter Schlachthof 35, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/484396384",
-          "category": "building",
-          "type": "civic",
-          "city": "Karlsruhe",
-          "district": "Oststadt",
-          "locality": "Oststadt Südlicher Teil",
-          "street": "Alter Schlachthof",
-          "houseNumber": "35",
-          "score": 0.143,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 14,
-      "reviewNote": "",
-      "sourceAddresses": [
-        {
-          "street": "Alter Schlachthof 35",
-          "city": "Karlsruhe",
-          "postalCode": "76131",
-          "address": "Alter Schlachthof 35, 76131 Karlsruhe",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/wohnzimmerkonzert08n"
-        }
-      ],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-23305e21889ad139",
-          "title": "30 JAHRE SEÁN TREACY BAND - DIE JUBILÄUMSFETE",
-          "date": "2026-11-27",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/30_jahre_sean_treacy_band_die_jubilaumsfete"
-        },
-        {
-          "id": "karlsruhe-5b9c67db8ca0f780",
-          "title": "JOSEF HADER",
-          "date": "2026-11-27",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/josef_hader"
-        },
-        {
-          "id": "karlsruhe-9a6943679af2df66",
-          "title": "CAVEWOMAN",
-          "date": "2026-11-28",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/cavewoman"
-        },
-        {
-          "id": "karlsruhe-6380777fd57ca5d7",
-          "title": "GREGOR MEYLE & BAND",
-          "date": "2026-11-28",
-          "url": "https://kalender.karlsruhe.de/db/termine/musik/gregor_meyle_band"
-        }
-      ]
-    },
-    {
       "key": "venue-3fae26f22e49b283790b",
       "location": "Ratssaal",
       "scope": "remchingen",
@@ -4120,12 +4491,6 @@
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1108417-treffen-team-stiftg-jakobskirche/?vt=1&cb-id=193413"
         },
         {
-          "id": "bergdoerfer-923378",
-          "title": "Ortsteam Wolfartsweier",
-          "date": "2026-12-09",
-          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/923378-ortsteam-wolfartsweier/?vt=1&cb-id=193413"
-        },
-        {
           "id": "bergdoerfer-1047990",
           "title": "Konfi B Nachmittag",
           "date": "2026-12-16",
@@ -4136,6 +4501,12 @@
           "title": "Senioren-Weihnachtsfeier Wolfartsweier",
           "date": "2026-12-17",
           "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/1009044-senioren-weihnachtsfeier-wolfartsweier/?vt=1&cb-id=193413"
+        },
+        {
+          "id": "bergdoerfer-923378",
+          "title": "Neujahrsempfang des Ortsteam Wolfartsweier",
+          "date": "2027-01-08",
+          "url": "https://www.bergdoerfer.info/termine-2/detail/termin/id/923378-neujahrsempfang-des-ortsteam-wolfartsweier/?vt=1&cb-id=193413"
         }
       ]
     },
@@ -4525,7 +4896,7 @@
           "outsideContext": false
         }
       ],
-      "eventCount": 11,
+      "eventCount": 12,
       "reviewNote": "",
       "sourceAddresses": [],
       "organizer": "",
@@ -5043,12 +5414,6 @@
       ],
       "examples": [
         {
-          "id": "karlsruhe-3cec77ba51c12b2e",
-          "title": "familienalbum.karlsruhe",
-          "date": "2026-11-27",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/familienalbumkarlsruhe"
-        },
-        {
           "id": "karlsruhe-f082b93832faaf06",
           "title": "Ey, Alter! (Wiederaufnahme)",
           "date": "2026-11-28",
@@ -5065,6 +5430,12 @@
           "title": "Ey, Alter!",
           "date": "2026-12-02",
           "url": "https://kalender.karlsruhe.de/db/termine/theater/ey_alter-2"
+        },
+        {
+          "id": "karlsruhe-45400169a18e4342",
+          "title": "Der satanarchäolügenialkohöllische Wunschpunsch",
+          "date": "2026-12-04",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/der_satanarchaolugenialkohollische_wunschpunsch-10"
         }
       ]
     },
@@ -5878,6 +6249,118 @@
       ]
     },
     {
+      "key": "venue-b74313ce24bc73733284",
+      "location": "Begegnungsstätte Grötzingen",
+      "scope": "groetzingen",
+      "scopeLabel": "Grötzingen",
+      "status": "resolved",
+      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
+      "method": "automatic",
+      "place": {
+        "id": "osm-way-151345436",
+        "name": "Begegnungsstätte Grötzingen",
+        "latitude": 49.0070922,
+        "longitude": 8.4951326,
+        "address": "Niddastraße 9, 76229 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/151345436",
+        "category": "amenity",
+        "type": "community_centre",
+        "city": "Karlsruhe",
+        "district": "Grötzingen",
+        "locality": "Nördlich der Pfinz",
+        "street": "Niddastraße",
+        "houseNumber": "9",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "osm-way-151345436",
+          "name": "Begegnungsstätte Grötzingen",
+          "latitude": 49.0070922,
+          "longitude": 8.4951326,
+          "address": "Niddastraße 9, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/151345436",
+          "category": "amenity",
+          "type": "community_centre",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Niddastraße",
+          "houseNumber": "9",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-10300133100",
+          "name": "Holzhackers Ratsstuben",
+          "latitude": 49.0069969,
+          "longitude": 8.4953746,
+          "address": "Niddastraße 9, 76229 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/10300133100",
+          "category": "amenity",
+          "type": "restaurant",
+          "city": "Karlsruhe",
+          "district": "Grötzingen",
+          "locality": "Nördlich der Pfinz",
+          "street": "Niddastraße",
+          "houseNumber": "9",
+          "score": 0.263,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 7,
+      "reviewNote": "",
+      "sourceAddresses": [
+        {
+          "street": "Niddastraße 9",
+          "city": "Karlsruhe",
+          "postalCode": "76229",
+          "address": "Niddastraße 9, 76229 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/internetcafe_55_grotzingen-6"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "groetzingen-jahresprogramm",
+        "groetzingen-kultur-natur",
+        "karlsruhe"
+      ],
+      "sources": [
+        "Grötzingen · Jahresprogramm",
+        "Grötzingen · Kultur-Natur-Termine",
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-c85a0df0b60f4457",
+          "title": "Internetcafe 55+ Grötzingen",
+          "date": "2026-11-05",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/internetcafe_55_grotzingen-6"
+        },
+        {
+          "id": "karlsruhe-b8148904bd705535",
+          "title": "Clever Heizen mit Klimaanlagen – Drei auf einen Streich: Kühlen, Heizen, Sparen!",
+          "date": "2026-12-03",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/clever_heizen_mit_klimaanlagen_drei"
+        },
+        {
+          "id": "groetzingen-jahresprogramm-annual-2026-140",
+          "title": "Ortschaftsratssitzung",
+          "date": "2026-12-16",
+          "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/017_Stadtteile_und_Umgebung/Groetzingen/Jahresprogramm_Groetzingen_2026_im_CD_sem.pdf#page=11"
+        },
+        {
+          "id": "groetzingen-jahresprogramm-annual-2026-142",
+          "title": "23. Grötz. Fotoausst. Vernissage",
+          "date": "2026-12-28",
+          "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/017_Stadtteile_und_Umgebung/Groetzingen/Jahresprogramm_Groetzingen_2026_im_CD_sem.pdf#page=11"
+        }
+      ]
+    },
+    {
       "key": "venue-e24148c99af068357cdb",
       "location": "Hagwaldhalle",
       "scope": "kleinsteinbach",
@@ -6376,118 +6859,6 @@
           "title": "Glühweinfest OGV Wössingen in Kooperation mit der Gemeinde",
           "date": "2027-01-24",
           "url": "https://www.walzbachtal.de/veranstaltung/Gluehweinfest-OGV-Woessingen-in-Kooperation-mit-der-Gemeinde-event-appointment3487"
-        }
-      ]
-    },
-    {
-      "key": "venue-b74313ce24bc73733284",
-      "location": "Begegnungsstätte Grötzingen",
-      "scope": "groetzingen",
-      "scopeLabel": "Grötzingen",
-      "status": "resolved",
-      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
-      "method": "automatic",
-      "place": {
-        "id": "osm-way-151345436",
-        "name": "Begegnungsstätte Grötzingen",
-        "latitude": 49.0070922,
-        "longitude": 8.4951326,
-        "address": "Niddastraße 9, 76229 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/151345436",
-        "category": "amenity",
-        "type": "community_centre",
-        "city": "Karlsruhe",
-        "district": "Grötzingen",
-        "locality": "Nördlich der Pfinz",
-        "street": "Niddastraße",
-        "houseNumber": "9",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-way-151345436",
-          "name": "Begegnungsstätte Grötzingen",
-          "latitude": 49.0070922,
-          "longitude": 8.4951326,
-          "address": "Niddastraße 9, 76229 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/151345436",
-          "category": "amenity",
-          "type": "community_centre",
-          "city": "Karlsruhe",
-          "district": "Grötzingen",
-          "locality": "Nördlich der Pfinz",
-          "street": "Niddastraße",
-          "houseNumber": "9",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-10300133100",
-          "name": "Holzhackers Ratsstuben",
-          "latitude": 49.0069969,
-          "longitude": 8.4953746,
-          "address": "Niddastraße 9, 76229 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/10300133100",
-          "category": "amenity",
-          "type": "restaurant",
-          "city": "Karlsruhe",
-          "district": "Grötzingen",
-          "locality": "Nördlich der Pfinz",
-          "street": "Niddastraße",
-          "houseNumber": "9",
-          "score": 0.263,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 6,
-      "reviewNote": "",
-      "sourceAddresses": [
-        {
-          "street": "Niddastraße 9",
-          "city": "Karlsruhe",
-          "postalCode": "76229",
-          "address": "Niddastraße 9, 76229 Karlsruhe",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/internetcafe_55_grotzingen-6"
-        }
-      ],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "groetzingen-jahresprogramm",
-        "groetzingen-kultur-natur",
-        "karlsruhe"
-      ],
-      "sources": [
-        "Grötzingen · Jahresprogramm",
-        "Grötzingen · Kultur-Natur-Termine",
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-c85a0df0b60f4457",
-          "title": "Internetcafe 55+ Grötzingen",
-          "date": "2026-11-05",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/internetcafe_55_grotzingen-6"
-        },
-        {
-          "id": "groetzingen-jahresprogramm-annual-2026-140",
-          "title": "Ortschaftsratssitzung",
-          "date": "2026-12-16",
-          "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/017_Stadtteile_und_Umgebung/Groetzingen/Jahresprogramm_Groetzingen_2026_im_CD_sem.pdf#page=11"
-        },
-        {
-          "id": "groetzingen-jahresprogramm-annual-2026-142",
-          "title": "23. Grötz. Fotoausst. Vernissage",
-          "date": "2026-12-28",
-          "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/017_Stadtteile_und_Umgebung/Groetzingen/Jahresprogramm_Groetzingen_2026_im_CD_sem.pdf#page=11"
-        },
-        {
-          "id": "groetzingen-kultur-natur-nature-2026-007",
-          "title": "23. Grötzinger Fotoausstellung",
-          "date": "2026-12-29",
-          "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/017_Stadtteile_und_Umgebung/Groetzingen/Programm_Kulturbroschuere_2_HJ_2026_26-0485_Digitalversion.end.pdf#page=1"
         }
       ]
     },
@@ -8630,6 +9001,132 @@
           "title": "Glühwein zum Frühstück - In 24 Schlückchen zur Besinnlichkeit",
           "date": "2026-12-10",
           "url": "https://kalender.karlsruhe.de/db/termine/theater/gluhwein_zum_fruhstuck_in_24_schluckchen-3"
+        }
+      ]
+    },
+    {
+      "key": "venue-e7b233fed91e6d980181",
+      "location": "Kaiserstraße 47, Kulturküche",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
+      "method": "automatic",
+      "place": {
+        "id": "osm-node-674759821",
+        "name": "Kulturküche",
+        "latitude": 49.009085,
+        "longitude": 8.4124929,
+        "address": "Kaiserstraße 47, 76131 Karlsruhe",
+        "url": "https://www.openstreetmap.org/node/674759821",
+        "category": "amenity",
+        "type": "restaurant",
+        "city": "Karlsruhe",
+        "district": "Innenstadt-Ost",
+        "locality": "Innenstadt-Ost Südwestlicher Teil",
+        "street": "Kaiserstraße",
+        "houseNumber": "47",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "osm-node-674759821",
+          "name": "Kulturküche",
+          "latitude": 49.009085,
+          "longitude": 8.4124929,
+          "address": "Kaiserstraße 47, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/674759821",
+          "category": "amenity",
+          "type": "restaurant",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "47",
+          "score": 0.93,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-286408685",
+          "name": "Kaiserstraße 47",
+          "latitude": 49.0089809,
+          "longitude": 8.4124431,
+          "address": "Kaiserstraße 47, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/286408685",
+          "category": "building",
+          "type": "retail",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "47",
+          "score": 0.93,
+          "exact": false,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-way-105026253",
+          "name": "Seilerhäuschen",
+          "latitude": 49.0090696,
+          "longitude": 8.412492,
+          "address": "Kaiserstraße 47, 76131 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/105026253",
+          "category": "building",
+          "type": "yes",
+          "city": "Karlsruhe",
+          "district": "Innenstadt-Ost",
+          "locality": "Innenstadt-Ost Südwestlicher Teil",
+          "street": "Kaiserstraße",
+          "houseNumber": "47",
+          "score": 0.333,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 4,
+      "reviewNote": "",
+      "sourceAddresses": [
+        {
+          "street": "Kaiserstraße 47",
+          "city": "Karlsruhe",
+          "postalCode": "76131",
+          "address": "Kaiserstraße 47, 76131 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/wolkenwandern_inklusives_thaeter"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-85f78e27e3f4f60f",
+          "title": "Wolkenwandern: Inklusives Theater",
+          "date": "2026-12-03",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/wolkenwandern_inklusives_theater-4"
+        },
+        {
+          "id": "karlsruhe-124836f27d01ad54",
+          "title": "Spiele-Nachmittag in der Kulturküche",
+          "date": "2026-12-05",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/spiele_nachmittag_in_der_kulturkuche"
+        },
+        {
+          "id": "karlsruhe-638077750e70c4ff",
+          "title": "Stimmen verbinden: Stimm-Werkstatt für Frauen",
+          "date": "2026-12-08",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/stimmen_verbinden_stimm_werkstatt_fur_frauen-1"
+        },
+        {
+          "id": "karlsruhe-fa39c97cecf20e08",
+          "title": "Wolkenwandern: Inklusives Theater",
+          "date": "2026-12-10",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/wolkenwandern_inklusives_theater-5"
         }
       ]
     },
@@ -12923,93 +13420,6 @@
           "title": "Irish-Folk Abend",
           "date": "2027-03-13",
           "url": "https://www.weingarten-baden.de/freizeit-tourismus/veranstaltungen/991/irish-folk-abend"
-        }
-      ]
-    },
-    {
-      "key": "venue-ef648d3036de557dc5c7",
-      "location": "vhs Karlsruhe",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Einmalig bestätigte Zuordnung.",
-      "method": "reviewed",
-      "place": {
-        "id": "osm-way-89564038",
-        "name": "Volkshochschule Karlsruhe",
-        "latitude": 49.0112872,
-        "longitude": 8.3759401,
-        "address": "Kaiserallee 12e, 76133 Karlsruhe",
-        "url": "https://www.openstreetmap.org/way/89564038",
-        "category": "office",
-        "type": "educational_institution",
-        "street": "Kaiserallee",
-        "houseNumber": "12e"
-      },
-      "candidates": [
-        {
-          "id": "osm-way-89564038",
-          "name": "Volkshochschule Karlsruhe",
-          "latitude": 49.0112872,
-          "longitude": 8.3759401,
-          "address": "Kaiserallee 12e, 76133 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/89564038",
-          "category": "office",
-          "type": "educational_institution",
-          "city": "Karlsruhe",
-          "district": "Weststadt",
-          "locality": "Weststadt Mittlerer Teil",
-          "street": "Kaiserallee",
-          "houseNumber": "12e",
-          "score": 1.0,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-node-10900306485",
-          "name": "Volkshochschule im Landkreis Karlsruhe",
-          "latitude": 48.9988405,
-          "longitude": 8.4039772,
-          "address": "Ettlinger Straße 27, 76137 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/10900306485",
-          "category": "office",
-          "type": "educational_institution",
-          "street": "Ettlinger Straße",
-          "houseNumber": "27",
-          "score": 0.698,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 3,
-      "reviewNote": "",
-      "sourceAddresses": [],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-378e6d92f3445c46",
-          "title": "Die Persönlichkeitspsychologie",
-          "date": "2026-12-02",
-          "url": "https://kalender.karlsruhe.de/db/termine/literatur/die_personlichkeitspsychologie"
-        },
-        {
-          "id": "karlsruhe-bfb0f43456941a82",
-          "title": "Die Seidenstraße",
-          "date": "2026-12-08",
-          "url": "https://kalender.karlsruhe.de/db/termine/literatur/die_seidenstrae"
-        },
-        {
-          "id": "karlsruhe-c8499f300ad9c934",
-          "title": "Karlsruhe mit anderen Augen entdecken: Unterwegs in Karlsruhe mit Patricia Illanes aus Bolivien",
-          "date": "2026-12-09",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/karlsruhe_mit_anderen_augen_entdecken"
         }
       ]
     },
@@ -17936,6 +18346,87 @@
       ]
     },
     {
+      "key": "venue-ef648d3036de557dc5c7",
+      "location": "vhs Karlsruhe",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Einmalig bestätigte Zuordnung.",
+      "method": "reviewed",
+      "place": {
+        "id": "osm-way-89564038",
+        "name": "Volkshochschule Karlsruhe",
+        "latitude": 49.0112872,
+        "longitude": 8.3759401,
+        "address": "Kaiserallee 12e, 76133 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/89564038",
+        "category": "office",
+        "type": "educational_institution",
+        "street": "Kaiserallee",
+        "houseNumber": "12e"
+      },
+      "candidates": [
+        {
+          "id": "osm-way-89564038",
+          "name": "Volkshochschule Karlsruhe",
+          "latitude": 49.0112872,
+          "longitude": 8.3759401,
+          "address": "Kaiserallee 12e, 76133 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/89564038",
+          "category": "office",
+          "type": "educational_institution",
+          "city": "Karlsruhe",
+          "district": "Weststadt",
+          "locality": "Weststadt Mittlerer Teil",
+          "street": "Kaiserallee",
+          "houseNumber": "12e",
+          "score": 1.0,
+          "exact": true,
+          "outsideContext": false
+        },
+        {
+          "id": "osm-node-10900306485",
+          "name": "Volkshochschule im Landkreis Karlsruhe",
+          "latitude": 48.9988405,
+          "longitude": 8.4039772,
+          "address": "Ettlinger Straße 27, 76137 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/10900306485",
+          "category": "office",
+          "type": "educational_institution",
+          "street": "Ettlinger Straße",
+          "houseNumber": "27",
+          "score": 0.698,
+          "exact": false,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 2,
+      "reviewNote": "",
+      "sourceAddresses": [],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-bfb0f43456941a82",
+          "title": "Die Seidenstraße",
+          "date": "2026-12-08",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/die_seidenstrae"
+        },
+        {
+          "id": "karlsruhe-c8499f300ad9c934",
+          "title": "Karlsruhe mit anderen Augen entdecken: Unterwegs in Karlsruhe mit Patricia Illanes aus Bolivien",
+          "date": "2026-12-09",
+          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/karlsruhe_mit_anderen_augen_entdecken"
+        }
+      ]
+    },
+    {
       "key": "venue-103fd685fd6cc7ca5465",
       "location": "Ölfunzelbrunnen",
       "scope": "woeschbach",
@@ -22440,114 +22931,6 @@
       ]
     },
     {
-      "key": "venue-e7b233fed91e6d980181",
-      "location": "Kaiserstraße 47, Kulturküche",
-      "scope": "karlsruhe",
-      "scopeLabel": "Karlsruhe und Umgebung",
-      "status": "resolved",
-      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
-      "method": "automatic",
-      "place": {
-        "id": "osm-node-674759821",
-        "name": "Kulturküche",
-        "latitude": 49.009085,
-        "longitude": 8.4124929,
-        "address": "Kaiserstraße 47, 76131 Karlsruhe",
-        "url": "https://www.openstreetmap.org/node/674759821",
-        "category": "amenity",
-        "type": "restaurant",
-        "city": "Karlsruhe",
-        "district": "Innenstadt-Ost",
-        "locality": "Innenstadt-Ost Südwestlicher Teil",
-        "street": "Kaiserstraße",
-        "houseNumber": "47",
-        "outsideContext": false
-      },
-      "candidates": [
-        {
-          "id": "osm-node-674759821",
-          "name": "Kulturküche",
-          "latitude": 49.009085,
-          "longitude": 8.4124929,
-          "address": "Kaiserstraße 47, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/node/674759821",
-          "category": "amenity",
-          "type": "restaurant",
-          "city": "Karlsruhe",
-          "district": "Innenstadt-Ost",
-          "locality": "Innenstadt-Ost Südwestlicher Teil",
-          "street": "Kaiserstraße",
-          "houseNumber": "47",
-          "score": 0.93,
-          "exact": true,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-286408685",
-          "name": "Kaiserstraße 47",
-          "latitude": 49.0089809,
-          "longitude": 8.4124431,
-          "address": "Kaiserstraße 47, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/286408685",
-          "category": "building",
-          "type": "retail",
-          "city": "Karlsruhe",
-          "district": "Innenstadt-Ost",
-          "locality": "Innenstadt-Ost Südwestlicher Teil",
-          "street": "Kaiserstraße",
-          "houseNumber": "47",
-          "score": 0.93,
-          "exact": false,
-          "outsideContext": false
-        },
-        {
-          "id": "osm-way-105026253",
-          "name": "Seilerhäuschen",
-          "latitude": 49.0090696,
-          "longitude": 8.412492,
-          "address": "Kaiserstraße 47, 76131 Karlsruhe",
-          "url": "https://www.openstreetmap.org/way/105026253",
-          "category": "building",
-          "type": "yes",
-          "city": "Karlsruhe",
-          "district": "Innenstadt-Ost",
-          "locality": "Innenstadt-Ost Südwestlicher Teil",
-          "street": "Kaiserstraße",
-          "houseNumber": "47",
-          "score": 0.333,
-          "exact": false,
-          "outsideContext": false
-        }
-      ],
-      "eventCount": 1,
-      "reviewNote": "",
-      "sourceAddresses": [
-        {
-          "street": "Kaiserstraße 47",
-          "city": "Karlsruhe",
-          "postalCode": "76131",
-          "address": "Kaiserstraße 47, 76131 Karlsruhe",
-          "url": "https://kalender.karlsruhe.de/db/termine/theater/wolkenwandern_inklusives_thaeter"
-        }
-      ],
-      "organizer": "",
-      "sourceContext": null,
-      "sourceIds": [
-        "karlsruhe"
-      ],
-      "sources": [
-        "Stadt Karlsruhe"
-      ],
-      "examples": [
-        {
-          "id": "karlsruhe-124836f27d01ad54",
-          "title": "Spiele-Nachmittag in der Kulturküche",
-          "date": "2026-12-05",
-          "url": "https://kalender.karlsruhe.de/db/termine/stadtleben/spiele_nachmittag_in_der_kulturkuche"
-        }
-      ]
-    },
-    {
       "key": "venue-095989e7fd519abec6f0",
       "location": "Karl-Schöpfle-Platz, Langensteinbach",
       "scope": null,
@@ -26455,6 +26838,9 @@
           "url": "https://www.openstreetmap.org/way/52276454",
           "category": "amenity",
           "type": "place_of_worship",
+          "city": "Karlsruhe",
+          "district": "Mühlburg",
+          "locality": "Alt-Mühlburg",
           "street": "Peter-und-Paul-Platz",
           "houseNumber": "1",
           "score": 0.609,
@@ -28351,6 +28737,78 @@
           "title": "Seniorenweihnachtsfeier Spöck",
           "date": "2026-12-05",
           "url": "https://www.stutensee.de/de/Aktuelles/Veranstaltungskalender/Veranstaltung?view=publish&item=eventDate&id=2832"
+        }
+      ]
+    },
+    {
+      "key": "venue-e543c1a7366dd36bc0f7",
+      "location": "St. Peter und Paul Mühlburg",
+      "scope": "karlsruhe",
+      "scopeLabel": "Karlsruhe und Umgebung",
+      "status": "resolved",
+      "reason": "Eindeutiger Name bzw. vollständige Adresse im passenden Ortskontext.",
+      "method": "automatic",
+      "place": {
+        "id": "osm-way-52276454",
+        "name": "St. Peter und Paul",
+        "latitude": 49.0109203,
+        "longitude": 8.3648868,
+        "address": "Peter-und-Paul-Platz 1, 76185 Karlsruhe",
+        "url": "https://www.openstreetmap.org/way/52276454",
+        "category": "amenity",
+        "type": "place_of_worship",
+        "city": "Karlsruhe",
+        "district": "Mühlburg",
+        "locality": "Alt-Mühlburg",
+        "street": "Peter-und-Paul-Platz",
+        "houseNumber": "1",
+        "outsideContext": false
+      },
+      "candidates": [
+        {
+          "id": "osm-way-52276454",
+          "name": "St. Peter und Paul",
+          "latitude": 49.0109203,
+          "longitude": 8.3648868,
+          "address": "Peter-und-Paul-Platz 1, 76185 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/52276454",
+          "category": "amenity",
+          "type": "place_of_worship",
+          "city": "Karlsruhe",
+          "district": "Mühlburg",
+          "locality": "Alt-Mühlburg",
+          "street": "Peter-und-Paul-Platz",
+          "houseNumber": "1",
+          "score": 0.93,
+          "exact": true,
+          "outsideContext": false
+        }
+      ],
+      "eventCount": 1,
+      "reviewNote": "",
+      "sourceAddresses": [
+        {
+          "street": "Peter-und-Paul-Platz 1",
+          "city": "Karlsruhe",
+          "postalCode": "76185",
+          "address": "Peter-und-Paul-Platz 1, 76185 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/vorweihnachtliches_chorkonzert"
+        }
+      ],
+      "organizer": "",
+      "sourceContext": null,
+      "sourceIds": [
+        "karlsruhe"
+      ],
+      "sources": [
+        "Stadt Karlsruhe"
+      ],
+      "examples": [
+        {
+          "id": "karlsruhe-efbe12afe89e51cb",
+          "title": "Vorweihnachtliches Chorkonzert",
+          "date": "2026-12-09",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/vorweihnachtliches_chorkonzert"
         }
       ]
     },

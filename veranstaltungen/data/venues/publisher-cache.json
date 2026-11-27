@@ -2280,6 +2280,55 @@
         }
       ],
       "addresses": []
+    },
+    "venue-3bc6e7b8592c415a462c": {
+      "checkedAt": "2026-11-27T12:00:16+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-3c1b8bb1e43674114230": {
+      "checkedAt": "2026-11-27T12:00:16+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Gottesauer Straße 35",
+          "city": "Karlsruhe",
+          "postalCode": "76131",
+          "address": "Gottesauer Straße 35, 76131 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/theater/nun_marchenzeit_tischlein_deck_dich"
+        }
+      ]
+    },
+    "venue-53708cf585af4442be63": {
+      "checkedAt": "2026-11-27T12:00:16+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Zähringerstraße 65a",
+          "city": "Karlsruhe",
+          "postalCode": "76133",
+          "address": "Zähringerstraße 65a, 76133 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/literatur/safranskis_nietzsche"
+        }
+      ]
+    },
+    "venue-583a964d4379350b8f9e": {
+      "checkedAt": "2026-11-27T12:00:16+00:00",
+      "places": [],
+      "addresses": []
+    },
+    "venue-e543c1a7366dd36bc0f7": {
+      "checkedAt": "2026-11-27T12:00:16+00:00",
+      "places": [],
+      "addresses": [
+        {
+          "street": "Peter-und-Paul-Platz 1",
+          "city": "Karlsruhe",
+          "postalCode": "76185",
+          "address": "Peter-und-Paul-Platz 1, 76185 Karlsruhe",
+          "url": "https://kalender.karlsruhe.de/db/termine/musik/vorweihnachtliches_chorkonzert"
+        }
+      ]
     }
   }
 }
