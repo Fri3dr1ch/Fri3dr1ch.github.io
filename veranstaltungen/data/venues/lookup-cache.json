@@ -23077,6 +23077,86 @@
           "houseNumber": "5"
         }
       ]
+    },
+    "Zündhütle (Spielplatz) Am Zündhütle 76228 Karlsruhe, Durlach": {
+      "checkedAt": "2026-11-27T08:43:01+00:00",
+      "places": [
+        {
+          "id": "osm-way-100323876",
+          "name": "Zündhütle",
+          "latitude": 48.9815949,
+          "longitude": 8.4621728,
+          "address": "Tiefentalstraße, 76228 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/100323876",
+          "category": "man_made",
+          "type": "tower",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Hanggebiet",
+          "street": "Tiefentalstraße",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-5082470",
+          "name": "Zündhütle Weg",
+          "latitude": 48.9817422,
+          "longitude": 8.4635527,
+          "address": "76228 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/5082470",
+          "category": "highway",
+          "type": "track",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Bergwald",
+          "street": "",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-3110844119",
+          "name": "Zündhütle",
+          "latitude": 48.9826007,
+          "longitude": 8.4605385,
+          "address": "Im Emsbühl, 76228 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/3110844119",
+          "category": "railway",
+          "type": "tram_stop",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Aue",
+          "street": "Im Emsbühl",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-node-1658897459",
+          "name": "Zündhütle",
+          "latitude": 48.9824086,
+          "longitude": 8.4609598,
+          "address": "Im Emsbühl, 76228 Karlsruhe",
+          "url": "https://www.openstreetmap.org/node/1658897459",
+          "category": "railway",
+          "type": "stop",
+          "city": "Karlsruhe",
+          "district": "Durlach",
+          "locality": "Aue",
+          "street": "Im Emsbühl",
+          "houseNumber": ""
+        },
+        {
+          "id": "osm-way-1453060476",
+          "name": "Am Zündhütle",
+          "latitude": 48.9804986,
+          "longitude": 8.4618068,
+          "address": "76228 Karlsruhe",
+          "url": "https://www.openstreetmap.org/way/1453060476",
+          "category": "highway",
+          "type": "living_street",
+          "city": "Karlsruhe",
+          "district": "Wolfartsweier",
+          "locality": "",
+          "street": "",
+          "houseNumber": ""
+        }
+      ]
     }
   },
   "attribution": {

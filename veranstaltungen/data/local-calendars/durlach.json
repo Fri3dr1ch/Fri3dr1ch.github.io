@@ -5,8 +5,8 @@
     "region": "Durlach und Umgebung",
     "url": "https://www.durlacher.de/durlacher-kalender",
     "status": "ok",
-    "lastAttemptAt": "2026-11-26T21:38:31+00:00",
-    "lastSuccessAt": "2026-11-26T21:38:31+00:00",
+    "lastAttemptAt": "2026-11-27T08:41:30+00:00",
+    "lastSuccessAt": "2026-11-27T08:41:30+00:00",
     "refreshHours": 24,
     "recordCount": 41,
     "eventCount": 41,
@@ -24,7 +24,7 @@
       "sourceId": "durlach",
       "sourceName": "Durlacher.de · Durlacher Kalender",
       "title": "Mittelalterlicher Weihnachtsmarkt",
-      "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12026&tx_events2_events%5Btimestamp%5D=1795689000&cHash=224ebd58c8c455092b6e936cdd5958d9",
+      "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12026&tx_events2_events%5Btimestamp%5D=1795775400&cHash=6b37006753d46833cd1f2388529d026d",
       "icalUrl": null,
       "region": "Durlach und Umgebung",
       "city": null,
@@ -48,10 +48,10 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12026&tx_events2_events%5Btimestamp%5D=1795689000&cHash=224ebd58c8c455092b6e936cdd5958d9",
+          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12026&tx_events2_events%5Btimestamp%5D=1795775400&cHash=6b37006753d46833cd1f2388529d026d",
           "recordId": "12026",
           "title": "Mittelalterlicher Weihnachtsmarkt",
           "startDate": "2026-11-25",
@@ -59,117 +59,13 @@
           "startTime": null,
           "endTime": null,
           "dateText": "Mi. 25.11.2026\n\n\t\t-\n\t\t\n\t  Mo. 21.12.2026",
-          "timeText": "Donnerstag, 26.11.2026 - 11:30 Uhr Ende : 21:00",
+          "timeText": "Freitag, 27.11.2026 - 11:30 Uhr Ende : 21:00",
           "location": "Karlsburg (Vorplatz)",
           "organizer": "Arbeitsgemeinschaft Durlacher und Auer Vereine e.V.",
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Mittelalterlicher Weihnachtsmarkt",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
-          "priority": 2
-        }
-      ],
-      "conflicts": []
-    },
-    {
-      "id": "durlach-12040-2026-11-26-1600",
-      "sourceId": "durlach",
-      "sourceName": "Durlacher.de · Durlacher Kalender",
-      "title": "Vorlesezeit mit Basteln",
-      "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12040&tx_events2_events%5Btimestamp%5D=1795705200&cHash=a2bdb491427a8f8d3cc02d1c5135261c",
-      "icalUrl": null,
-      "region": "Durlach und Umgebung",
-      "city": null,
-      "categoryKey": "stadtleben",
-      "category": "Stadtleben",
-      "description": "Veranstalter: Stadtbibliothek Durlach",
-      "organizer": "Stadtbibliothek Durlach",
-      "location": "Karlsburg (Stadtbibliothek) Pfinztalstraße 9 76227 Karlsruhe",
-      "start": "2026-11-26T16:00:00+01:00",
-      "end": "2026-11-26T17:00:00+01:00",
-      "startDate": "2026-11-26",
-      "endDate": "2026-11-26",
-      "startTime": "16:00",
-      "endTime": "17:00",
-      "timeKnown": true,
-      "allDay": false,
-      "longRunning": false,
-      "scheduleNote": "",
-      "openingSchedule": null,
-      "openingOccurrences": null,
-      "status": "scheduled",
-      "dataQuality": "html-calendar",
-      "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
-      "sources": [
-        {
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12040&tx_events2_events%5Btimestamp%5D=1795705200&cHash=a2bdb491427a8f8d3cc02d1c5135261c",
-          "recordId": "12040",
-          "title": "Vorlesezeit mit Basteln",
-          "startDate": "2026-11-26",
-          "endDate": "2026-11-26",
-          "startTime": "16:00",
-          "endTime": "17:00",
-          "dateText": "Do. 26.11.2026\n\n\t\n\n\n\t\t\n\t\t\n\t\t\t- 16:00 Uhr",
-          "timeText": "Donnerstag, 26.11.2026 - 16:00 Uhr Ende : 17:00",
-          "location": "Karlsburg (Stadtbibliothek) Pfinztalstraße 9 76227 Karlsruhe",
-          "organizer": "Stadtbibliothek Durlach",
-          "sourceId": "durlach",
-          "sourceName": "Durlacher.de · Durlacher Kalender",
-          "reportedTitle": "Vorlesezeit mit Basteln",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
-          "priority": 2
-        }
-      ],
-      "conflicts": []
-    },
-    {
-      "id": "durlach-11763-2026-11-26-1900",
-      "sourceId": "durlach",
-      "sourceName": "Durlacher.de · Durlacher Kalender",
-      "title": "Fällt aus: Historischer Stammtisch",
-      "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11763&tx_events2_events%5Btimestamp%5D=1795716000&cHash=3cdb770735e566166fc4804d9efcf2e6",
-      "icalUrl": null,
-      "region": "Durlach und Umgebung",
-      "city": null,
-      "categoryKey": "stadtleben",
-      "category": "Stadtleben",
-      "description": "Veranstalter: Freundeskreis Pfinzgaumuseum - Historischer Verein Durlach e.V.",
-      "organizer": "Freundeskreis Pfinzgaumuseum - Historischer Verein Durlach e.V.",
-      "location": "Alte Durlacher Brauerei",
-      "start": "2026-11-26T19:00:00+01:00",
-      "end": "2026-11-26T21:00:00+01:00",
-      "startDate": "2026-11-26",
-      "endDate": "2026-11-26",
-      "startTime": "19:00",
-      "endTime": "21:00",
-      "timeKnown": true,
-      "allDay": false,
-      "longRunning": false,
-      "scheduleNote": "",
-      "openingSchedule": null,
-      "openingOccurrences": null,
-      "status": "cancelled",
-      "dataQuality": "html-calendar",
-      "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
-      "sources": [
-        {
-          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11763&tx_events2_events%5Btimestamp%5D=1795716000&cHash=3cdb770735e566166fc4804d9efcf2e6",
-          "recordId": "11763",
-          "title": "Fällt aus: Historischer Stammtisch",
-          "startDate": "2026-11-26",
-          "endDate": "2026-11-26",
-          "startTime": "19:00",
-          "endTime": "21:00",
-          "dateText": "Do. 26.11.2026\n\n\t\n\n\n\t\t\n\t\t\n\t\t\t- 19:00 Uhr",
-          "timeText": "Donnerstag, 26.11.2026 - 19:00 Uhr Ende : 21:00",
-          "location": "Alte Durlacher Brauerei",
-          "organizer": "Freundeskreis Pfinzgaumuseum - Historischer Verein Durlach e.V.",
-          "sourceId": "durlach",
-          "sourceName": "Durlacher.de · Durlacher Kalender",
-          "reportedTitle": "Fällt aus: Historischer Stammtisch",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -204,7 +100,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12030&tx_events2_events%5Btimestamp%5D=1795734000&cHash=935dda94e25d63bfd299120d921cdde9",
@@ -221,7 +117,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Weihnachtsmarkt im Rathaus (1. Adventswochenende)",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -256,7 +152,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11721&tx_events2_events%5Btimestamp%5D=1795786200&cHash=add67d660edc101d606c3e16f696a67f",
@@ -273,7 +169,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Kaffeenachmittag „Gemeinsam statt einsam“",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -308,7 +204,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12027&tx_events2_events%5Btimestamp%5D=1795795200&cHash=64eec14970ce0e2fe0df3ebd85411fc9",
@@ -325,7 +221,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "ARTVENT#24: Kunst & Handwerk – Handwerk & Kunst (Eröffnung)",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -360,7 +256,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12028&tx_events2_events%5Btimestamp%5D=1795797900&cHash=afc9d3aa232397f624855720451f6711",
@@ -377,7 +273,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Weihnachtsmarkt im Rathaus (Eröffnung)",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -412,7 +308,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12029&tx_events2_events%5Btimestamp%5D=1795860000&cHash=b5de43a4da948d3df955edc9d7e94d85",
@@ -429,7 +325,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "ARTVENT#24: Kunst & Handwerk – Handwerk & Kunst",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -464,7 +360,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12146&tx_events2_events%5Btimestamp%5D=1795870800&cHash=f5ef516ca42d88b395147615131c82c8",
@@ -481,7 +377,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Achtung Zugdurchfahrt! Spielzeugeisenbahnen in Betrieb",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -516,7 +412,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12147&tx_events2_events%5Btimestamp%5D=1795946400&cHash=ade567831ce79174d7c8badd5bca01e3",
@@ -533,7 +429,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Achtung Zugdurchfahrt! Spielzeugeisenbahnen in Betrieb",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -568,7 +464,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12155&tx_events2_events%5Btimestamp%5D=1795960800&cHash=76328fe738da6019c682eca76b65a679",
@@ -585,7 +481,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Pfinzgaumuseum: „Lichterglanz und Liedersingen: Badische Weihnachtsbräuche vor rund 100 Jahren“ (Führung)",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -620,7 +516,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11638&tx_events2_events%5Btimestamp%5D=1795968000&cHash=71845c93ab436f50689c9c07df49977e",
@@ -637,7 +533,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Konzert der Durlacher Kantorei",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -672,7 +568,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12100&tx_events2_events%5Btimestamp%5D=1796148000&cHash=4380d2c0deac1883d2eafcbe2fe29502",
@@ -689,7 +585,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Weihnachtlich kriminell",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -724,7 +620,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12031&tx_events2_events%5Btimestamp%5D=1796338800&cHash=c59fafcd20958841c265d1cd3b158bbc",
@@ -741,7 +637,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Weihnachtsmarkt im Rathaus (2. Adventswochenende)",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -776,7 +672,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11987&tx_events2_events%5Btimestamp%5D=1796464800&cHash=4e1d13b8139146776c31f889a6b0c27b",
@@ -793,7 +689,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Minigottesdienst der Stadtkirche Durlach",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -828,7 +724,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12148&tx_events2_events%5Btimestamp%5D=1796475600&cHash=79f200d72994d5a870312d1d3b6db44f",
@@ -845,7 +741,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Achtung Zugdurchfahrt! Spielzeugeisenbahnen in Betrieb",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -880,7 +776,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11561&tx_events2_events%5Btimestamp%5D=1796493600&cHash=29ee6cf0564911f6a8f111f01b0e2a61",
@@ -897,7 +793,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Weihnachtsfeier des GV Aue",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -932,7 +828,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11639&tx_events2_events%5Btimestamp%5D=1796493600&cHash=45741e256a55e9ab2b3052b9965c6f08",
@@ -949,7 +845,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Weihnachtsoratorium-Singalong",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -984,7 +880,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12149&tx_events2_events%5Btimestamp%5D=1796551200&cHash=78b45c2ae22c0a999b6b292536a617cf",
@@ -1001,7 +897,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Achtung Zugdurchfahrt! Spielzeugeisenbahnen in Betrieb",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -1036,7 +932,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12157&tx_events2_events%5Btimestamp%5D=1796558400&cHash=2d768fb0b39e4006ef747e59c20b28d5",
@@ -1053,7 +949,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Weihnachtsmarkt im Rathaus: Der Nikolaus kommt!",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -1088,7 +984,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12156&tx_events2_events%5Btimestamp%5D=1796565600&cHash=00a6a9be24a9ffd28115b74f9e53c503",
@@ -1105,7 +1001,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Nikolaus-Special im Pfinzgaumuseum",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -1140,7 +1036,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12090&tx_events2_events%5Btimestamp%5D=1796734800&cHash=f3983891d295a43684afe322e3759119",
@@ -1157,7 +1053,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Seniorenweihnachtsfeier in der Festhalle",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -1192,7 +1088,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12099&tx_events2_events%5Btimestamp%5D=1796742000&cHash=97a58c31c10e41f37622755c4851dcfb",
@@ -1209,7 +1105,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Buchclub Buchtipps",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -1244,7 +1140,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11511&tx_events2_events%5Btimestamp%5D=1796832000&cHash=d11f47ce91d4d2d2a55357d333883bfa",
@@ -1261,7 +1157,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Ortschaftsratssitzung",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -1296,7 +1192,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12152&tx_events2_events%5Btimestamp%5D=1796837400&cHash=72ae5c05cad3a93dde37698d77414f8e",
@@ -1313,7 +1209,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "KA-PF Kompetenz-Netzwerk: Geschwindigkeit schlägt Perfektion",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -1348,7 +1244,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12153&tx_events2_events%5Btimestamp%5D=1796857200&cHash=708e427dda0c240a9ff344067fb90def",
@@ -1365,7 +1261,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Finanzamt geschlossen",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -1400,7 +1296,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12032&tx_events2_events%5Btimestamp%5D=1796943600&cHash=23910b8cecd459c8c96718768d1bab46",
@@ -1417,7 +1313,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Weihnachtsmarkt im Rathaus (3. Adventswochenende)",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -1452,7 +1348,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11689&tx_events2_events%5Btimestamp%5D=1797058800&cHash=3327587c2d98e7aa3210f7a103e0cd4f",
@@ -1469,7 +1365,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Altpapiersammlung",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -1504,7 +1400,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12096&tx_events2_events%5Btimestamp%5D=1797076800&cHash=530e73ea5dde612c82de77768513d1eb",
@@ -1521,7 +1417,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Mädchen Flohmarkt - Beauty Jungle Xmas Edition",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -1556,7 +1452,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12150&tx_events2_events%5Btimestamp%5D=1797080400&cHash=0d3834a9de63c09e974ca27592c07d64",
@@ -1573,7 +1469,59 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Achtung Zugdurchfahrt! Spielzeugeisenbahnen in Betrieb",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
+          "priority": 2
+        }
+      ],
+      "conflicts": []
+    },
+    {
+      "id": "durlach-12158-2026-12-12-1400",
+      "sourceId": "durlach",
+      "sourceName": "Durlacher.de · Durlacher Kalender",
+      "title": "Offene Pfadfinder-Gruppenstunde",
+      "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12158&tx_events2_events%5Btimestamp%5D=1797080400&cHash=7c965bdd41a082f48b1ba454f0601931",
+      "icalUrl": null,
+      "region": "Durlach und Umgebung",
+      "city": null,
+      "categoryKey": "stadtleben",
+      "category": "Stadtleben",
+      "description": "Veranstalter: VCP Stamm Kleiner PRinz",
+      "organizer": "VCP Stamm Kleiner PRinz",
+      "location": "Zündhütle (Spielplatz) Am Zündhütle 76228 Karlsruhe",
+      "start": "2026-12-12T14:00:00+01:00",
+      "end": "2026-12-12T18:00:00+01:00",
+      "startDate": "2026-12-12",
+      "endDate": "2026-12-12",
+      "startTime": "14:00",
+      "endTime": "18:00",
+      "timeKnown": true,
+      "allDay": false,
+      "longRunning": false,
+      "scheduleNote": "",
+      "openingSchedule": null,
+      "openingOccurrences": null,
+      "status": "scheduled",
+      "dataQuality": "html-calendar",
+      "availability": null,
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
+      "sources": [
+        {
+          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12158&tx_events2_events%5Btimestamp%5D=1797080400&cHash=7c965bdd41a082f48b1ba454f0601931",
+          "recordId": "12158",
+          "title": "Offene Pfadfinder-Gruppenstunde",
+          "startDate": "2026-12-12",
+          "endDate": "2026-12-12",
+          "startTime": "14:00",
+          "endTime": "18:00",
+          "dateText": "Sa. 12.12.2026\n\n\t\n\n\n\t\t\n\t\t\n\t\t\t- 14:00 Uhr",
+          "timeText": "Samstag, 12.12.2026 - 14:00 Uhr Ende : 18:00",
+          "location": "Zündhütle (Spielplatz) Am Zündhütle 76228 Karlsruhe",
+          "organizer": "VCP Stamm Kleiner PRinz",
+          "sourceId": "durlach",
+          "sourceName": "Durlacher.de · Durlacher Kalender",
+          "reportedTitle": "Offene Pfadfinder-Gruppenstunde",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -1608,7 +1556,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11559&tx_events2_events%5Btimestamp%5D=1797098400&cHash=fce6723535c8e21832d35020cdf98825",
@@ -1625,7 +1573,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Weihnachtsfeier der TG Aue",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -1660,7 +1608,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12151&tx_events2_events%5Btimestamp%5D=1797156000&cHash=f9fbd1ec607c1dac93e0ea744de0927c",
@@ -1677,7 +1625,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Achtung Zugdurchfahrt! Spielzeugeisenbahnen in Betrieb",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -1712,7 +1660,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11560&tx_events2_events%5Btimestamp%5D=1797174000&cHash=8c20876bc6043d739e5e57e161cbda66",
@@ -1729,7 +1677,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Kinderweihnachtsfeier der TG Aue",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -1764,7 +1712,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11640&tx_events2_events%5Btimestamp%5D=1797177600&cHash=59d34833e26240c5ff3b7230b6eca9c8",
@@ -1781,7 +1729,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Weihnachtssingen bei Kerzenschein",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -1816,7 +1764,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12154&tx_events2_events%5Btimestamp%5D=1797445800&cHash=7b5ebcfbd08c0e1b261656fd962b062a",
@@ -1833,7 +1781,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Spirituelle Weisheit kann dir helfen, deine Angst zu überwinden",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -1868,7 +1816,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=12033&tx_events2_events%5Btimestamp%5D=1797548400&cHash=e8d73813f2eb45264d1e460a1cc60609",
@@ -1885,7 +1833,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Weihnachtsmarkt im Rathaus (4. Adventswochenende)",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -1920,7 +1868,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=10424&tx_events2_events%5Btimestamp%5D=1797980400&cHash=ab296ef7da4f243fc9db15f0ea395df8",
@@ -1937,7 +1885,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Weihnachtsferien",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -1972,7 +1920,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11641&tx_events2_events%5Btimestamp%5D=1798120800&cHash=f94ffe9d8976bda7143df70e23b080f4",
@@ -1989,7 +1937,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Familiengottesdienst mit Krippenspiel",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -2024,7 +1972,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11562&tx_events2_events%5Btimestamp%5D=1798124400&cHash=b00a80aca5ef09208aa4643b50775e89",
@@ -2041,7 +1989,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Weihnachtliche Feierstunde (Aue)",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -2076,7 +2024,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11642&tx_events2_events%5Btimestamp%5D=1798128000&cHash=6ef7ef85b912bc9e675469d2c7b3869e",
@@ -2093,7 +2041,7 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Christvesper mit Kantorei und Bläserensemble",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
@@ -2128,7 +2076,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:38:31+00:00",
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
       "sources": [
         {
           "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11643&tx_events2_events%5Btimestamp%5D=1798149600&cHash=19dae06eb5f6d7d297998d989a181a3c",
@@ -2145,7 +2093,59 @@
           "sourceId": "durlach",
           "sourceName": "Durlacher.de · Durlacher Kalender",
           "reportedTitle": "Christmette mit Kantorei",
-          "checkedAt": "2026-11-26T21:38:31+00:00",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
+          "priority": 2
+        }
+      ],
+      "conflicts": []
+    },
+    {
+      "id": "durlach-11722-2026-12-25-1430",
+      "sourceId": "durlach",
+      "sourceName": "Durlacher.de · Durlacher Kalender",
+      "title": "Kaffeenachmittag „Gemeinsam statt einsam“",
+      "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11722&tx_events2_events%5Btimestamp%5D=1798205400&cHash=6e3c4bfec8d0b2340b7ba2ab11eb9568",
+      "icalUrl": null,
+      "region": "Durlach und Umgebung",
+      "city": null,
+      "categoryKey": "stadtleben",
+      "category": "Stadtleben",
+      "description": "Veranstalter: Sozialverband VdK - Ortsverband Durlach und Aue",
+      "organizer": "Sozialverband VdK - Ortsverband Durlach und Aue",
+      "location": "Anna-Leimbach-Haus",
+      "start": "2026-12-25T14:30:00+01:00",
+      "end": null,
+      "startDate": "2026-12-25",
+      "endDate": "2026-12-25",
+      "startTime": "14:30",
+      "endTime": null,
+      "timeKnown": true,
+      "allDay": false,
+      "longRunning": false,
+      "scheduleNote": "",
+      "openingSchedule": null,
+      "openingOccurrences": null,
+      "status": "scheduled",
+      "dataQuality": "html-calendar",
+      "availability": null,
+      "detailCheckedAt": "2026-11-27T08:41:30+00:00",
+      "sources": [
+        {
+          "url": "https://www.durlacher.de/durlacher-kalender/ereignis?tx_events2_events%5Baction%5D=show&tx_events2_events%5Bcontroller%5D=Day&tx_events2_events%5Bevent%5D=11722&tx_events2_events%5Btimestamp%5D=1798205400&cHash=6e3c4bfec8d0b2340b7ba2ab11eb9568",
+          "recordId": "11722",
+          "title": "Kaffeenachmittag „Gemeinsam statt einsam“",
+          "startDate": "2026-12-25",
+          "endDate": "2026-12-25",
+          "startTime": "14:30",
+          "endTime": null,
+          "dateText": "Fr. 25.12.2026\n\n\t\n\n\n\t\t\n\t\t\n\t\t\t- 14:30 Uhr",
+          "timeText": "Freitag, 25.12.2026 - 14:30 Uhr",
+          "location": "Anna-Leimbach-Haus",
+          "organizer": "Sozialverband VdK - Ortsverband Durlach und Aue",
+          "sourceId": "durlach",
+          "sourceName": "Durlacher.de · Durlacher Kalender",
+          "reportedTitle": "Kaffeenachmittag „Gemeinsam statt einsam“",
+          "checkedAt": "2026-11-27T08:41:30+00:00",
           "priority": 2
         }
       ],
