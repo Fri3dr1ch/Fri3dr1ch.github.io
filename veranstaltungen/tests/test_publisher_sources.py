@@ -134,6 +134,17 @@ class PublisherSourceTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'Ergebnisumfang'):
             ps.bergdoerfer_records(page(1, 101), url, lambda _:page(2, 102, total=3))
 
+        def with_external_link(raw):
+            return raw.replace(b'href="/termine-2/detail/', b'href="https://example.org/termine-2/detail/')
+        first_with_bad_link = with_external_link(page(1, 101))
+        rows, meta = ps.bergdoerfer_records(first_with_bad_link, url, lambda _: page(2, 102))
+        self.assertEqual([row['recordId'] for row in rows], ['102'])
+        self.assertEqual(meta['pagesFetched'], 2)
+        self.assertEqual(meta['status'], 'partial')
+        self.assertIn('1 von 2', meta['lastError'])
+        with self.assertRaisesRegex(ValueError, '2 von 2'):
+            ps.bergdoerfer_records(first_with_bad_link, url, lambda _: with_external_link(page(2, 102)))
+
     def test_karlsbad_date_only_feed_does_not_fabricate_midnight(self):
         cal = Calendar(); cal.add('prodid', '-//test//EN'); cal.add('version', '2.0')
         for uid, summary, day in [('a', 'Familienforscher-Stammtisch ab 19:30 Uhr', '20261118'), ('b', 'Wochenmarkt Spielberg', '20261119')]:
