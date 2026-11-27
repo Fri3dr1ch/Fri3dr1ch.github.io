@@ -38,8 +38,11 @@ async function test(name,run){await run();checks++;console.log('OK',name);}
  });
  await test('a failed JSON request keeps the embedded data and names its real age',async()=>{
   const r=await load(old,async()=>{throw Error('offline');});try{
-   assert.match(r.d.getElementById('notice').textContent,/gespeicherte Datenstand/);
-   assert.match(r.d.getElementById('notice').textContent,/Letzter erfolgreicher Abruf am 12.11./);
+   const notice=r.d.getElementById('notice');
+   assert.equal(notice.hidden,false);
+   assert.ok(r.d.getElementById('ongoing-grid').compareDocumentPosition(notice) & r.dom.window.Node.DOCUMENT_POSITION_FOLLOWING);
+   assert.match(notice.textContent,/gespeicherte Datenstand/);
+   assert.match(notice.textContent,/Letzter erfolgreicher Abruf am 12.11./);
    assert.equal(r.d.getElementById('source-count').textContent,`${old.events.length} Termine · ${old.sources.length} Quellen`);
   }finally{r.dom.window.close();}
  });

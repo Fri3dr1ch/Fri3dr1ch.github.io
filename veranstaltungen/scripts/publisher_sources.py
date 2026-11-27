@@ -301,7 +301,12 @@ def bergdoerfer_page(raw, base_url):
     for card in cards:
         links = card.xpath('.//div[contains(concat(" ",normalize-space(@class)," ")," v-kachel-titel ")]//a[@href]')
         link = _one(links, 'Bergdörfer Detail-Link')
-        url = _same_host_url(base_url, link.get('href'))
+        try:
+            url = _same_host_url(base_url, link.get('href'))
+        except ValueError:
+            # Count the card during pagination without publishing its link.
+            records.append(None)
+            continue
         match = re.search(r'/id/(\d+)-', urlsplit(url).path)
         if not match:
             raise ValueError('Bergdörfer: stabile Termin-ID fehlt')
@@ -331,11 +336,20 @@ def bergdoerfer_page(raw, base_url):
 def bergdoerfer_records(raw, base_url, fetch):
     from eki_calendar import fetch_listing_pages
 
-    records, pages = fetch_listing_pages(raw, fetch, base_url, lambda page: bergdoerfer_page(page, base_url))
+    cards, pages = fetch_listing_pages(raw, fetch, base_url, lambda page: bergdoerfer_page(page, base_url))
+    records = [record for record in cards if record is not None]
     if len({r['recordId'] for r in records}) != len(records):
         raise ValueError('Bergdörfer: doppelte Termin-ID über mehrere Ergebnisseiten')
-    return records, {'coverageKind': 'html-list', 'pagesFetched': pages,
-                     'coverageNote': f'Alle {len(records)} veröffentlichten Termine auf {pages} Ergebnisseiten der zentralen Terminübersicht.'}
+    metadata = {'coverageKind': 'html-list', 'pagesFetched': pages,
+                'coverageNote': f'Alle {len(records)} veröffentlichten Termine auf {pages} Ergebnisseiten der zentralen Terminübersicht.'}
+    skipped = len(cards) - len(records)
+    if skipped:
+        reason = f'Bergdörfer: {skipped} von {len(cards)} Terminen mit nicht zugelassenem Detail-Link.'
+        if not records:
+            raise ValueError(reason)
+        metadata.update(status='partial', lastError=reason,
+                        coverageNote=f'{len(records)} Termine aus {pages} Ergebnisseiten. {reason}')
+    return records, metadata
 
 
 def karlsbad_records(raw):
