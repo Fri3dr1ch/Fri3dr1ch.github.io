@@ -4,8 +4,8 @@
     "name": "Stadt Stutensee · Veranstaltungskalender",
     "region": "Stutensee und Umgebung",
     "url": "https://www.stutensee.de/veranstaltungen",
-    "status": "ok",
-    "lastAttemptAt": "2026-11-26T21:39:52+00:00",
+    "status": "error",
+    "lastAttemptAt": "2026-11-28T07:56:42+00:00",
     "lastSuccessAt": "2026-11-26T21:39:52+00:00",
     "refreshHours": 24,
     "recordCount": 31,
@@ -16,7 +16,8 @@
     "coverageNote": "Alle veröffentlichten Webtermine; der separate Jahres-PDF-Kalender wird nicht eingelesen.",
     "pagesFetched": 3,
     "coverageStart": "2026-11-26",
-    "coverageEnd": "2027-02-23"
+    "coverageEnd": "2027-02-23",
+    "lastError": "URLError: <urlopen error [Errno 101] Network is unreachable>"
   },
   "events": [
     {

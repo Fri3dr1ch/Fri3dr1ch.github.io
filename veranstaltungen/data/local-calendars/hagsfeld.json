@@ -5,72 +5,20 @@
     "region": "Hagsfeld",
     "url": "https://www.hagsfeld.de/termine",
     "status": "ok",
-    "lastAttemptAt": "2026-11-26T21:39:50+00:00",
-    "lastSuccessAt": "2026-11-26T21:39:50+00:00",
+    "lastAttemptAt": "2026-11-28T07:56:41+00:00",
+    "lastSuccessAt": "2026-11-28T07:56:41+00:00",
     "refreshHours": 24,
-    "recordCount": 8,
-    "eventCount": 8,
+    "recordCount": 7,
+    "eventCount": 7,
     "undatedCount": 0,
     "coverageKind": "html-list",
     "license": null,
-    "coverageNote": "Alle 8 Einträge der offiziellen Vorschau „Nächste Termine“; die veröffentlichte Liste ist auf acht Einträge begrenzt.",
+    "coverageNote": "Alle 7 Einträge der offiziellen Vorschau „Nächste Termine“; die veröffentlichte Liste ist auf acht Einträge begrenzt.",
     "pagesFetched": 1,
-    "coverageStart": "2026-11-26",
+    "coverageStart": "2026-12-19",
     "coverageEnd": "2027-06-20"
   },
   "events": [
-    {
-      "id": "hagsfeld-altpapiersammlung-asv-hagsfeld-8",
-      "sourceId": "hagsfeld",
-      "sourceName": "Bürgerkommission Hagsfeld",
-      "title": "Altpapiersammlung ASV Hagsfeld",
-      "url": "https://www.hagsfeld.de/termine/altpapiersammlung-asv-hagsfeld-8",
-      "icalUrl": null,
-      "region": "Hagsfeld",
-      "city": null,
-      "categoryKey": "stadtleben",
-      "category": "Stadtleben",
-      "description": "",
-      "organizer": "",
-      "location": "",
-      "start": "2026-11-26T00:00:00+01:00",
-      "end": null,
-      "startDate": "2026-11-26",
-      "endDate": "2026-11-26",
-      "startTime": null,
-      "endTime": null,
-      "timeKnown": false,
-      "allDay": false,
-      "longRunning": false,
-      "scheduleNote": "",
-      "openingSchedule": null,
-      "openingOccurrences": null,
-      "status": "scheduled",
-      "dataQuality": "html-calendar",
-      "availability": null,
-      "detailCheckedAt": "2026-11-26T21:39:50+00:00",
-      "sources": [
-        {
-          "url": "https://www.hagsfeld.de/termine/altpapiersammlung-asv-hagsfeld-8",
-          "recordId": "altpapiersammlung-asv-hagsfeld-8",
-          "title": "Altpapiersammlung ASV Hagsfeld",
-          "startDate": "2026-11-26",
-          "endDate": "2026-11-26",
-          "startTime": null,
-          "endTime": null,
-          "dateText": "Altpapiersammlung ASV Hagsfeld (Donnerstag, 26.11.2026)",
-          "timeText": null,
-          "location": "",
-          "organizer": null,
-          "sourceId": "hagsfeld",
-          "sourceName": "Bürgerkommission Hagsfeld",
-          "reportedTitle": "Altpapiersammlung ASV Hagsfeld",
-          "checkedAt": "2026-11-26T21:39:50+00:00",
-          "priority": 2
-        }
-      ],
-      "conflicts": []
-    },
     {
       "id": "hagsfeld-adventskonzert-gesangverein-liederkranz-2",
       "sourceId": "hagsfeld",
@@ -100,7 +48,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:39:50+00:00",
+      "detailCheckedAt": "2026-11-28T07:56:41+00:00",
       "sources": [
         {
           "url": "https://www.hagsfeld.de/termine/adventskonzert-gesangverein-liederkranz-2",
@@ -117,7 +65,7 @@
           "sourceId": "hagsfeld",
           "sourceName": "Bürgerkommission Hagsfeld",
           "reportedTitle": "Adventskonzert Gesangverein Liederkranz",
-          "checkedAt": "2026-11-26T21:39:50+00:00",
+          "checkedAt": "2026-11-28T07:56:41+00:00",
           "priority": 2
         }
       ],
@@ -152,7 +100,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:39:50+00:00",
+      "detailCheckedAt": "2026-11-28T07:56:41+00:00",
       "sources": [
         {
           "url": "https://www.hagsfeld.de/termine/weihnachtsmusical-endlich-mal-was-los-in-bethlehem-cvjm-und-gesangsverein-liederkranz",
@@ -169,7 +117,7 @@
           "sourceId": "hagsfeld",
           "sourceName": "Bürgerkommission Hagsfeld",
           "reportedTitle": "Weihnachtsmusical \"Endlich mal was los in Bethlehem\" CVJM und Gesangsverein Liederkranz",
-          "checkedAt": "2026-11-26T21:39:50+00:00",
+          "checkedAt": "2026-11-28T07:56:41+00:00",
           "priority": 2
         }
       ],
@@ -204,7 +152,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:39:50+00:00",
+      "detailCheckedAt": "2026-11-28T07:56:41+00:00",
       "sources": [
         {
           "url": "https://www.hagsfeld.de/termine/weihnachtsmusical-endlich-mal-was-los-in-bethlehem-cvjm-und-gesangsverein-liederkranz-2",
@@ -221,7 +169,7 @@
           "sourceId": "hagsfeld",
           "sourceName": "Bürgerkommission Hagsfeld",
           "reportedTitle": "Weihnachtsmusical \"Endlich mal was los in Bethlehem\" CVJM und Gesangsverein Liederkranz",
-          "checkedAt": "2026-11-26T21:39:50+00:00",
+          "checkedAt": "2026-11-28T07:56:41+00:00",
           "priority": 2
         }
       ],
@@ -256,7 +204,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:39:50+00:00",
+      "detailCheckedAt": "2026-11-28T07:56:41+00:00",
       "sources": [
         {
           "url": "https://www.hagsfeld.de/termine/Weihnachtssingen_auf_dem_Hagsfelder_Friedhof",
@@ -273,7 +221,7 @@
           "sourceId": "hagsfeld",
           "sourceName": "Bürgerkommission Hagsfeld",
           "reportedTitle": "Weihnachtssingen auf dem Hagsfelder Friedhof",
-          "checkedAt": "2026-11-26T21:39:50+00:00",
+          "checkedAt": "2026-11-28T07:56:41+00:00",
           "priority": 2
         }
       ],
@@ -308,7 +256,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:39:50+00:00",
+      "detailCheckedAt": "2026-11-28T07:56:41+00:00",
       "sources": [
         {
           "url": "https://www.hagsfeld.de/termine/Jahreshauptversammlung_Gesangsverein_Frohsinn",
@@ -325,7 +273,7 @@
           "sourceId": "hagsfeld",
           "sourceName": "Bürgerkommission Hagsfeld",
           "reportedTitle": "Jahreshauptversammlung Gesangsverein Frohsinn",
-          "checkedAt": "2026-11-26T21:39:50+00:00",
+          "checkedAt": "2026-11-28T07:56:41+00:00",
           "priority": 2
         }
       ],
@@ -360,7 +308,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:39:50+00:00",
+      "detailCheckedAt": "2026-11-28T07:56:41+00:00",
       "sources": [
         {
           "url": "https://www.hagsfeld.de/termine/jahreshauptversammlung-gesangverein-liederkranz",
@@ -377,7 +325,7 @@
           "sourceId": "hagsfeld",
           "sourceName": "Bürgerkommission Hagsfeld",
           "reportedTitle": "Jahreshauptversammlung Gesangverein Liederkranz",
-          "checkedAt": "2026-11-26T21:39:50+00:00",
+          "checkedAt": "2026-11-28T07:56:41+00:00",
           "priority": 2
         }
       ],
@@ -412,7 +360,7 @@
       "status": "scheduled",
       "dataQuality": "html-calendar",
       "availability": null,
-      "detailCheckedAt": "2026-11-26T21:39:50+00:00",
+      "detailCheckedAt": "2026-11-28T07:56:41+00:00",
       "sources": [
         {
           "url": "https://www.hagsfeld.de/termine/vth-sommerfest",
@@ -429,7 +377,7 @@
           "sourceId": "hagsfeld",
           "sourceName": "Bürgerkommission Hagsfeld",
           "reportedTitle": "VTH Sommerfest",
-          "checkedAt": "2026-11-26T21:39:50+00:00",
+          "checkedAt": "2026-11-28T07:56:41+00:00",
           "priority": 2
         }
       ],
@@ -438,10 +386,6 @@
   ],
   "undatedEvents": [],
   "detailLocations": {
-    "https://www.hagsfeld.de/termine/altpapiersammlung-asv-hagsfeld-8": {
-      "checkedAt": "2026-11-23T07:48:33+00:00",
-      "location": ""
-    },
     "https://www.hagsfeld.de/termine/adventskonzert-gesangverein-liederkranz-2": {
       "checkedAt": "2026-11-23T07:48:33+00:00",
       "location": "Laurentiuskirche Hagsfeld"
